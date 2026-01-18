@@ -232,27 +232,37 @@
 
             status.onComplite = function () {
                 var fulldata = [];
-                Object.keys(status.data).sort(function (a, b) { return a - b; }).forEach(function (key) {
+                var sortedKeys = Object.keys(status.data).sort(function (a, b) { return a - b; });
+
+                sortedKeys.forEach(function (key, index) {
                     var data = status.data[key];
                     if (data && data.results && data.results.length) {
                         var cat = categories[parseInt(key)];
-                        if (cat.is_hero) {
-                            Lampa.Utils.extendItemsParams(data.results, { style: { name: 'hero' } });
+
+                        // Якщо це перша категорія, ми робимо її "Hero"
+                        if (index === 0) {
+                            // Першому елементу даємо стиль 'hero', іншим 'wide'
+                            data.results.forEach(function (item, i) {
+                                item.style = i === 0 ? { name: 'hero' } : { name: 'wide' };
+                            });
                         } else {
                             Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
                         }
+
                         fulldata.push({
                             title: cat.title,
                             results: data.results,
                             url: cat.url,
                             params: cat.params,
-                            service_id: object.service_id // pass for 'View All' context
+                            service_id: object.service_id
                         });
                     }
                 });
 
                 if (fulldata.length) {
                     _this.build(fulldata);
+                    // Додаємо клас сервісу для стилізації
+                    _this.activity.render().addClass('lampa--' + object.service_id);
                     _this.activity.loader(false);
                 } else {
                     _this.empty();
@@ -360,34 +370,54 @@
                     .studios_view .card--wide { width: 18.3em !important; }
                     .studios_view .category-full { padding-top: 1em; }
 
-                    /* Hero Interface */
-                    .studios_main .card--hero { width: 50vw !important; }
-                    .studios_view .card--hero { width: 50vw !important; }
-                    .studios_main .card--hero .card__img { height: 28vw !important; }
-                    .studios_view .card--hero .card__img { height: 28vw !important; }
+                    /* Базовий фон для розділу Netflix */
+                    .lampa--netflix { background-color: #141414 !important; }
 
-                    /* Netflix Branding */
-                    .lampa--netflix {
-                        background-color: #141414 !important;
-                        background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 10%, #141414 30%) !important;
+                    /* --- HERO BANNER --- */
+                    /* Робимо першу картку в першому ряду величезною */
+                    .lampa--netflix .interaction-main__row:first-child .card--hero {
+                        width: 100% !important;
+                        height: 35em !important;
+                        margin-bottom: 2em;
                     }
-                    .lampa--netflix .category__title {
-                        color: #E50914 !important;
-                        font-weight: bold !important;
-                        text-transform: uppercase;
-                        letter-spacing: 1px;
-                        font-size: 1.4em !important;
-                        margin-bottom: 0.5em !important;
+                    
+                    /* Зображення в банері (background-size: cover для ефекту кіно) */
+                    .lampa--netflix .card--hero .card__img {
+                        object-fit: cover !important;
+                        border-radius: 8px;
                     }
-                    .lampa--netflix .card {
-                        transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+
+                    /* --- ГОРИЗОНТАЛЬНІ КАРТКИ --- */
+                    /* Вже використовуються через 'wide', тут ми лише шліфуємо вигляд */
+                    .lampa--netflix .card--wide {
+                        width: 20em !important; /* Трохи ширше для вигляду Netflix */
+                        border-radius: 4px;
+                        transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
                     }
-                    .lampa--netflix .card:hover {
-                        transform: scale(1.05) !important;
-                        box-shadow: 0 0 20px rgba(229, 9, 20, 0.4) !important;
+
+                    /* --- СТИЛЬ ФОКУСУ (NETFLIX LOOK) --- */
+                    /* Тонка біла рамка та легке червоне підсвічування */
+                    .lampa--netflix .card.focus {
+                        transform: scale(1.05);
+                        border: 2px solid #fff !important;
+                        box-shadow: 0px 0px 15px 3px rgba(229, 9, 20, 0.6) !important;
                         z-index: 10;
                     }
-                    /* Border removed as requested */
+
+                    /* Ховаємо заголовок всередині банера, якщо хочете залишити тільки картинку */
+                    .lampa--netflix .card--hero .card__title {
+                        font-size: 2em;
+                        text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+                    }
+
+                    /* Назви категорій під Netflix */
+                    .lampa--netflix .category__title {
+                        color: #e5e5e5;
+                        font-weight: 700;
+                        font-size: 1.4em;
+                        margin-left: 1.5%;
+                        text-transform: none;
+                    }
                 </style>
             `);
         }
