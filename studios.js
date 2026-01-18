@@ -237,7 +237,7 @@
                     if (data && data.results && data.results.length) {
                         var cat = categories[parseInt(key)];
                         if (cat.is_hero) {
-                            Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
+                            Lampa.Utils.extendItemsParams(data.results, { style: { name: 'hero' } });
                         } else {
                             Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
                         }
@@ -360,6 +360,12 @@
                     .studios_view .card--wide { width: 18.3em !important; }
                     .studios_view .category-full { padding-top: 1em; }
 
+                    /* Hero Interface */
+                    .studios_main .card--hero { width: 50vw !important; }
+                    .studios_view .card--hero { width: 50vw !important; }
+                    .studios_main .card--hero .card__img { height: 28vw !important; }
+                    .studios_view .card--hero .card__img { height: 28vw !important; }
+
                     /* Netflix Branding */
                     .lampa--netflix {
                         background-color: #141414 !important;
@@ -381,9 +387,7 @@
                         box-shadow: 0 0 20px rgba(229, 9, 20, 0.4) !important;
                         z-index: 10;
                     }
-                    .lampa--netflix .selector.focus {
-                        border: 3px solid #E50914 !important;
-                    }
+                    /* Border removed as requested */
                 </style>
             `);
         }
