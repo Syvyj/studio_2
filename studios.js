@@ -14,9 +14,11 @@
     var SERVICE_CONFIGS = {
         'netflix': {
             title: 'Netflix',
+            style_class: 'lampa--netflix',
+            brand_color: '#E50914',
             icon: '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.5 2L16.5 22" stroke="#E50914" stroke-width="4"/><path d="M7.5 2L7.5 22" stroke="#E50914" stroke-width="4"/><path d="M7.5 2L16.5 22" stroke="#E50914" stroke-width="4"/></svg>',
             categories: [
-                { "title": "Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "8", "watch_region": "UA", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
+                { "title": "Нові фільми", "url": "discover/movie", "is_hero": true, "params": { "with_watch_providers": "8", "watch_region": "UA", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
                 { "title": "Нові серіали", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
                 { "title": "В тренді на Netflix", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "popularity.desc" } },
                 { "title": "Екшн та Блокбастери", "url": "discover/movie", "params": { "with_companies": "213", "with_genres": "28,12", "sort_by": "popularity.desc" } },
@@ -222,6 +224,7 @@
 
         comp.create = function () {
             var _this = this;
+            if (config.style_class) this.activity.render().addClass(config.style_class);
             this.activity.loader(true);
             var categories = config.categories;
             var network = new Lampa.Reguest();
@@ -233,7 +236,11 @@
                     var data = status.data[key];
                     if (data && data.results && data.results.length) {
                         var cat = categories[parseInt(key)];
-                        Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
+                        if (cat.is_hero) {
+                            Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
+                        } else {
+                            Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
+                        }
                         fulldata.push({
                             title: cat.title,
                             results: data.results,
@@ -352,6 +359,31 @@
                     .studios_main .card--wide { width: 18.3em !important; }
                     .studios_view .card--wide { width: 18.3em !important; }
                     .studios_view .category-full { padding-top: 1em; }
+
+                    /* Netflix Branding */
+                    .lampa--netflix {
+                        background-color: #141414 !important;
+                        background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 10%, #141414 30%) !important;
+                    }
+                    .lampa--netflix .category__title {
+                        color: #E50914 !important;
+                        font-weight: bold !important;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        font-size: 1.4em !important;
+                        margin-bottom: 0.5em !important;
+                    }
+                    .lampa--netflix .card {
+                        transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+                    }
+                    .lampa--netflix .card:hover {
+                        transform: scale(1.05) !important;
+                        box-shadow: 0 0 20px rgba(229, 9, 20, 0.4) !important;
+                        z-index: 10;
+                    }
+                    .lampa--netflix .selector.focus {
+                        border: 3px solid #E50914 !important;
+                    }
                 </style>
             `);
         }
