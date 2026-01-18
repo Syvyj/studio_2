@@ -229,13 +229,12 @@
                 _this.activity.loader(false);
             };
 
-            // FIX: Глобальний слухач фокусу для динамічного оновлення
-            _this.focus_listener = function (e) {
-                if (state && e.data && (e.data.title || e.data.name)) {
-                    state.update(e.data);
+            // ДИНАМІЧНИЙ ФОКУС: Обробка зміни картки
+            this.onFocus = function (item) {
+                if (state && item.data) {
+                    state.update(item.data);
                 }
             };
-            Lampa.Listener.follow('focus', _this.focus_listener);
 
             config.categories.forEach((cat, index) => {
                 let params = ['api_key=' + Lampa.TMDB.key(), 'language=uk'];
@@ -255,7 +254,6 @@
         // Очистка при закритті
         const baseDestroy = comp.destroy;
         comp.destroy = function () {
-            if (_this.focus_listener) Lampa.Listener.remove('focus', _this.focus_listener);
             if (state) state.destroy();
             if (baseDestroy) baseDestroy.call(this);
         };
