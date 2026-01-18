@@ -215,6 +215,231 @@
     };
 
     // -----------------------------------------------------------------
+    // NEW INTERFACE LOGIC (Spotlight/Background)
+    // -----------------------------------------------------------------
+
+    function shouldUseNewInterface(object) {
+        return object.service_id === 'netflix';
+    }
+
+    function ensureState(main) {
+        if (main.__newInterfaceState) return main.__newInterfaceState;
+        const state = createInterfaceState(main);
+        main.__newInterfaceState = state;
+        return state;
+    }
+
+    function createInterfaceState(main) {
+        const info = new InterfaceInfo();
+        info.create();
+
+        const background = document.createElement('img');
+        background.className = 'full-start__background';
+
+        const state = {
+            main,
+            info,
+            background,
+            infoElement: null,
+            backgroundTimer: null,
+            backgroundLast: '',
+            attached: false,
+            attach() {
+                if (this.attached) return;
+
+                const container = main.activity.render()[0]; // Lampa jQuery object -> DOM
+                if (!container) return;
+
+                container.classList.add('new-interface'); // Uncommented for CSS scoping
+
+                if (!background.parentElement) {
+                    container.insertBefore(background, container.firstChild || null);
+                }
+
+                const infoNode = info.render(true);
+                this.infoElement = infoNode;
+
+                if (infoNode && infoNode.parentNode !== container) {
+                    if (background.parentElement === container) {
+                        container.insertBefore(infoNode, background.nextSibling);
+                    } else {
+                        container.insertBefore(infoNode, container.firstChild || null);
+                    }
+                }
+
+                // Adjust scroll if needed, though Studios might handle it differently
+                // main.scroll.minus(infoNode); 
+
+                this.attached = true;
+            },
+            update(data) {
+                if (!data) return;
+                info.update(data);
+                this.updateBackground(data);
+            },
+            updateBackground(data) {
+                const path = data && data.backdrop_path ? Lampa.Api.img(data.backdrop_path, 'w1280') : '';
+
+                if (!path || path === this.backgroundLast) return;
+
+                clearTimeout(this.backgroundTimer);
+
+                this.backgroundTimer = setTimeout(() => {
+                    background.classList.remove('loaded');
+
+                    background.onload = () => background.classList.add('loaded');
+                    background.onerror = () => background.classList.remove('loaded');
+
+                    this.backgroundLast = path;
+
+                    setTimeout(() => {
+                        background.src = this.backgroundLast;
+                    }, 300);
+                }, 1000);
+            },
+            reset() {
+                info.empty();
+            },
+            destroy() {
+                clearTimeout(this.backgroundTimer);
+                info.destroy();
+
+                const container = main.activity.render()[0];
+                // if (container) container.classList.remove('new-interface');
+
+                if (this.infoElement && this.infoElement.parentNode) {
+                    this.infoElement.parentNode.removeChild(this.infoElement);
+                }
+
+                if (background && background.parentNode) {
+                    background.parentNode.removeChild(background);
+                }
+
+                this.attached = false;
+            }
+        };
+
+        return state;
+    }
+
+    class InterfaceInfo {
+        constructor() {
+            this.html = null;
+            this.timer = null;
+            this.network = new Lampa.Reguest();
+            this.loadedLogos = {};
+            this.currentLogoUrl = null;
+        }
+
+        create() {
+            if (this.html) return;
+
+            this.html = $(`<div class="new-interface-info">
+                <div class="new-interface-info__body">
+                    <div class="new-interface-info__head"></div>
+                    <div class="new-interface-info__title"></div>
+                    <div class="new-interface-info__details"></div>
+                    <div class="new-interface-info__description"></div>
+                </div>
+            </div>`);
+        }
+
+        render(js) {
+            if (!this.html) this.create();
+            return js ? this.html[0] : this.html;
+        }
+
+        update(data) {
+            if (!data) return;
+            if (!this.html) this.create();
+
+            this.html.find('.new-interface-info__head,.new-interface-info__details').text('');
+
+            // Оновлюємо заголовок (текст або логотип)
+            this.updateTitle(data);
+
+            this.html.find('.new-interface-info__description').text(data.overview || '');
+            // Lampa.Background.change(Lampa.Utils.cardImgBackground(data)); // We handle background manually
+
+            // this.loadDetails(data); // Can add this later if needed
+        }
+
+        updateTitle(data) {
+            const titleElement = this.html.find('.new-interface-info__title');
+
+            // Завжди пробуємо логотип для Netflix
+            titleElement.text(data.title || data.name || '');
+            this.loadLogo(data);
+        }
+
+        loadLogo(data) {
+            if (!data || !data.id) return;
+
+            // Check TMDB availability (Lampa v3+ usually)
+            if (!Lampa.TMDB || typeof Lampa.TMDB.api !== 'function' || typeof Lampa.TMDB.key !== 'function') return;
+
+            const source = data.source || 'tmdb';
+            if (source !== 'tmdb' && source !== 'cub') return;
+
+            const type = data.media_type === 'tv' || data.name ? 'tv' : 'movie';
+            const userLanguage = Lampa.Storage.get('language') || 'en';
+            const cacheKey = `${type}_${data.id}_${userLanguage}`;
+
+            if (this.loadedLogos[cacheKey]) {
+                this.displayLogo(data, this.loadedLogos[cacheKey]);
+                return;
+            }
+
+            const currentLangUrl = Lampa.TMDB.api(`${type}/${data.id}/images?api_key=${Lampa.TMDB.key()}&language=${userLanguage}`);
+            this.currentLogoUrl = currentLangUrl;
+
+            // Simple GET request wrapper
+            $.get(currentLangUrl, (currentLangData) => {
+                if (this.currentLogoUrl !== currentLangUrl) return;
+
+                let logoPath = null;
+                if (currentLangData.logos && currentLangData.logos.length > 0) logoPath = currentLangData.logos[0].file_path;
+
+                if (!logoPath) {
+                    // Try English
+                    const englishUrl = Lampa.TMDB.api(`${type}/${data.id}/images?api_key=${Lampa.TMDB.key()}&language=en`);
+                    $.get(englishUrl, (englishData) => {
+                        if (this.currentLogoUrl !== currentLangUrl) return;
+                        if (englishData.logos && englishData.logos.length > 0) logoPath = englishData.logos[0].file_path;
+
+                        if (logoPath) {
+                            this.loadedLogos[cacheKey] = logoPath;
+                            this.displayLogo(data, logoPath);
+                        }
+                    });
+                } else {
+                    this.loadedLogos[cacheKey] = logoPath;
+                    this.displayLogo(data, logoPath);
+                }
+            });
+        }
+
+        displayLogo(data, logoPath) {
+            if (!logoPath || !this.html) return;
+            const titleElement = this.html.find('.new-interface-info__title');
+            const logoUrl = Lampa.TMDB.image('/t/p/w500' + logoPath.replace('.svg', '.png')); // w500 for better quality
+
+            const logoImg = $('<img>').attr('src', logoUrl).attr('alt', data.title || data.name);
+            titleElement.empty().append(logoImg);
+        }
+
+        empty() {
+            if (this.html) this.html.find('.new-interface-info__title, .new-interface-info__description').empty();
+        }
+
+        destroy() {
+            if (this.html) this.html.remove();
+            this.html = null;
+            this.loadedLogos = {};
+        }
+    }
+
+    // -----------------------------------------------------------------
     // COMPONENTS
     // -----------------------------------------------------------------
 
@@ -239,16 +464,9 @@
                     if (data && data.results && data.results.length) {
                         var cat = categories[parseInt(key)];
 
-                        // Спеціальна обробка для Netflix
+                        // Force 'wide' style for Netflix (New Interface handles the look)
                         if (object.service_id === 'netflix') {
-                            if (index === 0) {
-                                // Перший фільм у першому ряду стає Hero-банером
-                                data.results.forEach(function (item, i) {
-                                    item.style = i === 0 ? { name: 'hero' } : { name: 'wide' };
-                                });
-                            } else {
-                                Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
-                            }
+                            Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
                         } else {
                             Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
                         }
@@ -265,12 +483,48 @@
 
                 if (fulldata.length) {
                     _this.build(fulldata);
-                    // Додаємо клас для CSS-магії
                     _this.activity.render().addClass('lampa--' + object.service_id);
+
+                    // Initialize New Interface if applicable
+                    if (shouldUseNewInterface(object)) {
+                        var state = ensureState(_this);
+                        state.attach();
+
+                        // Initial update with first item if available
+                        if (fulldata[0] && fulldata[0].results && fulldata[0].results.length) {
+                            state.update(fulldata[0].results[0]);
+                        }
+                    }
+
                     _this.activity.loader(false);
                 } else {
                     _this.empty();
                 }
+            };
+
+            // Handle specific focus events for New Interface
+            if (shouldUseNewInterface(object)) {
+                _this.listener = function (e) {
+                    // Check if focus is inside this component
+                    if (e.target && $(e.target).closest('.lampa--netflix').length) {
+                        // Try to get data from card
+                        var card = $(e.target).closest('.card').data('data'); // Assuming Lampa attaches data 'data' to card element
+                        // If not found via jquery data, try DOM property
+                        if (!card) card = e.target.card_data;
+
+                        if (card) {
+                            var state = ensureState(_this);
+                            state.update(card);
+                        }
+                    }
+                };
+                Lampa.Listener.follow('focus', _this.listener);
+            }
+
+            // Override destroy to clean up
+            _this.onDestroy = function () {
+                if (_this.listener) Lampa.Listener.remove('focus', _this.listener);
+                if (_this.__newInterfaceState) _this.__newInterfaceState.destroy();
             };
 
             categories.forEach(function (cat, index) {
@@ -373,60 +627,133 @@
                     /* Глибокий чорний фон як у Netflix */
                     .lampa--netflix { 
                         background-color: #141414 !important; 
+                        position: relative; /* Context for absolute positioning */
+                        overflow: hidden;
                     }
 
-                    /* --- HERO BANNER --- */
-                    /* Збільшуємо першу картку першого ряду */
-                    .lampa--netflix .interaction-main__row:first-child .card--hero {
-                        width: 100% !important;
-                        height: 38em !important;
-                        margin-bottom: 2em;
+                    /* --- NEW INTERFACE (Spotlight) Styles --- */
+                    .new-interface .card.card--wide {
+                        width: 18.3em !important;
+                    }
+            
+                    .new-interface-info {
                         position: relative;
+                        padding: 1.5em;
+                        height: 24em;
+                        z-index: 5; /* Above background */
+                    }
+            
+                    .new-interface-info__body {
+                        width: 80%;
+                        padding-top: 1.1em;
+                    }
+            
+                    .new-interface-info__head {
+                        color: rgba(255, 255, 255, 0.6);
+                        margin-bottom: 1em;
+                        font-size: 1.3em;
+                        min-height: 1em;
+                    }
+            
+                    .new-interface-info__head span {
+                        color: #fff;
+                    }
+            
+                    .new-interface-info__title {
+                        font-size: 4em;
+                        font-weight: 600;
+                        margin-bottom: 0.3em;
+                        overflow: hidden;
+                        -o-text-overflow: '.';
+                        text-overflow: '.';
+                        display: -webkit-box;
+                        -webkit-line-clamp: 1;
+                        line-clamp: 1;
+                        -webkit-box-orient: vertical;
+                        margin-left: -0.03em;
+                        line-height: 1.3;
+                    }
+            
+                    .new-interface-info__title img {
+                        max-height: 125px;
+                        margin-top: 5px;
+                    }
+            
+                    .new-interface-info__details {
+                        margin-bottom: 1.6em;
+                        display: flex;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        min-height: 1.9em;
+                        font-size: 1.1em;
+                    }
+            
+                    .new-interface-info__description {
+                        font-size: 1.2em;
+                        font-weight: 300;
+                        line-height: 1.5;
+                        overflow: hidden;
+                        -o-text-overflow: '.';
+                        text-overflow: '.';
+                        display: -webkit-box;
+                        -webkit-line-clamp: 4;
+                        line-clamp: 4;
+                        -webkit-box-orient: vertical;
+                        width: 50%; /* Restricted width for readability */
+                    }
+            
+                    .new-interface .full-start__background {
+                        height: 108%;
+                        top: -6em;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        z-index: 1;
+                        opacity: 0;
+                        transition: opacity 0.5s ease-in-out;
+                        width: 100%;
+                        object-fit: cover;
+                        mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 100%);
+                        -webkit-mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 100%);
+                    }
+                    
+                    .new-interface .full-start__background.loaded {
+                        opacity: 0.5; /* Dim it a bit */
                     }
 
-                    /* Налаштування зображення в банері */
-                    .lampa--netflix .card--hero .card__img {
-                        object-fit: cover !important;
-                        border-radius: 8px;
-                        /* Ефект затемнення знизу для читабельності тексту */
-                        mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-                        -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-                    }
-
-                    /* --- ГОРІЗОНТАЛЬНІ КАРТКИ (WIDE) --- */
+                    /* --- CARD FOCUS & STYLE --- */
                     .lampa--netflix .card--wide {
-                        width: 22em !important;
+                        width: 20em !important; /* Slightly larger than 18.3em if needed */
                         border-radius: 4px;
-                        transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1) !important;
+                        transition: transform 0.3s !important;
                     }
 
-                    /* --- ЕФЕКТ ФОКУСУ (КЛЮЧОВИЙ МОМЕНТ) --- */
-                    /* Тонка біла рамка та червоне сяйво */
                     .lampa--netflix .card.focus {
-                        transform: scale(1.08) !important;
+                        transform: scale(1.1) !important;
                         border: 3px solid #fff !important;
-                        box-shadow: 0px 10px 25px rgba(229, 9, 20, 0.6) !important;
+                        box-shadow: 0 0 20px rgba(0,0,0,0.8);
                         z-index: 100;
-                        outline: none !important;
                     }
-
-                    /* Стиль заголовків категорій */
+                    
+                    /* Hide titles on cards in New Interface if preferred, 
+                       since we have the big title on top. 
+                       But user might want them. Let's keep them small. */
+                    .lampa--netflix .card--wide .card__title {
+                        display: none; /* Hide card titles to mimic Netflix pure image look in rows */
+                    }
+                    
                     .lampa--netflix .category__title {
                         color: #e5e5e5;
-                        font-weight: 800;
-                        font-size: 1.5em;
-                        margin-left: 2%;
-                        text-transform: none;
-                        letter-spacing: -0.5px;
+                        font-size: 1.4em;
+                        font-weight: bold;
+                        margin-bottom: 0.5em;
+                        padding-left: 0.5em;
                     }
 
-                    /* Ховаємо заголовок всередині банера (використовуємо лише картинку для чистоти) */
-                    .lampa--netflix .card--hero .card__title {
-                        font-size: 2.2em;
-                        position: absolute;
-                        bottom: 1.5em;
-                        left: 1.5em;
-                        text-shadow: 2px 2px 8px rgba(0,0,0,1);
+                    /* Ensure rows overlap the bottom of the background/info */
+                    .lampa--netflix .interaction-main__row {
+                        position: relative;
+                        z-index: 10;
                     }
                 </style>
             `);
