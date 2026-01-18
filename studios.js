@@ -239,12 +239,16 @@
                     if (data && data.results && data.results.length) {
                         var cat = categories[parseInt(key)];
 
-                        // Якщо це перша категорія, ми робимо її "Hero"
-                        if (index === 0) {
-                            // Першому елементу даємо стиль 'hero', іншим 'wide'
-                            data.results.forEach(function (item, i) {
-                                item.style = i === 0 ? { name: 'hero' } : { name: 'wide' };
-                            });
+                        // Спеціальна обробка для Netflix
+                        if (object.service_id === 'netflix') {
+                            if (index === 0) {
+                                // Перший фільм у першому ряду стає Hero-банером
+                                data.results.forEach(function (item, i) {
+                                    item.style = i === 0 ? { name: 'hero' } : { name: 'wide' };
+                                });
+                            } else {
+                                Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
+                            }
                         } else {
                             Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
                         }
@@ -261,7 +265,7 @@
 
                 if (fulldata.length) {
                     _this.build(fulldata);
-                    // Додаємо клас сервісу для стилізації
+                    // Додаємо клас для CSS-магії
                     _this.activity.render().addClass('lampa--' + object.service_id);
                     _this.activity.loader(false);
                 } else {
@@ -366,57 +370,63 @@
         if (!$('#studios-unified-css').length) {
             $('body').append(`
                 <style id="studios-unified-css">
-                    .studios_main .card--wide { width: 18.3em !important; }
-                    .studios_view .card--wide { width: 18.3em !important; }
-                    .studios_view .category-full { padding-top: 1em; }
-
-                    /* Базовий фон для розділу Netflix */
-                    .lampa--netflix { background-color: #141414 !important; }
+                    /* Глибокий чорний фон як у Netflix */
+                    .lampa--netflix { 
+                        background-color: #141414 !important; 
+                    }
 
                     /* --- HERO BANNER --- */
-                    /* Робимо першу картку в першому ряду величезною */
+                    /* Збільшуємо першу картку першого ряду */
                     .lampa--netflix .interaction-main__row:first-child .card--hero {
                         width: 100% !important;
-                        height: 35em !important;
+                        height: 38em !important;
                         margin-bottom: 2em;
+                        position: relative;
                     }
-                    
-                    /* Зображення в банері (background-size: cover для ефекту кіно) */
+
+                    /* Налаштування зображення в банері */
                     .lampa--netflix .card--hero .card__img {
                         object-fit: cover !important;
                         border-radius: 8px;
+                        /* Ефект затемнення знизу для читабельності тексту */
+                        mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+                        -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
                     }
 
-                    /* --- ГОРИЗОНТАЛЬНІ КАРТКИ --- */
-                    /* Вже використовуються через 'wide', тут ми лише шліфуємо вигляд */
+                    /* --- ГОРІЗОНТАЛЬНІ КАРТКИ (WIDE) --- */
                     .lampa--netflix .card--wide {
-                        width: 20em !important; /* Трохи ширше для вигляду Netflix */
+                        width: 22em !important;
                         border-radius: 4px;
-                        transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                        transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1) !important;
                     }
 
-                    /* --- СТИЛЬ ФОКУСУ (NETFLIX LOOK) --- */
-                    /* Тонка біла рамка та легке червоне підсвічування */
+                    /* --- ЕФЕКТ ФОКУСУ (КЛЮЧОВИЙ МОМЕНТ) --- */
+                    /* Тонка біла рамка та червоне сяйво */
                     .lampa--netflix .card.focus {
-                        transform: scale(1.05);
-                        border: 2px solid #fff !important;
-                        box-shadow: 0px 0px 15px 3px rgba(229, 9, 20, 0.6) !important;
-                        z-index: 10;
+                        transform: scale(1.08) !important;
+                        border: 3px solid #fff !important;
+                        box-shadow: 0px 10px 25px rgba(229, 9, 20, 0.6) !important;
+                        z-index: 100;
+                        outline: none !important;
                     }
 
-                    /* Ховаємо заголовок всередині банера, якщо хочете залишити тільки картинку */
-                    .lampa--netflix .card--hero .card__title {
-                        font-size: 2em;
-                        text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-                    }
-
-                    /* Назви категорій під Netflix */
+                    /* Стиль заголовків категорій */
                     .lampa--netflix .category__title {
                         color: #e5e5e5;
-                        font-weight: 700;
-                        font-size: 1.4em;
-                        margin-left: 1.5%;
+                        font-weight: 800;
+                        font-size: 1.5em;
+                        margin-left: 2%;
                         text-transform: none;
+                        letter-spacing: -0.5px;
+                    }
+
+                    /* Ховаємо заголовок всередині банера (використовуємо лише картинку для чистоти) */
+                    .lampa--netflix .card--hero .card__title {
+                        font-size: 2.2em;
+                        position: absolute;
+                        bottom: 1.5em;
+                        left: 1.5em;
+                        text-shadow: 2px 2px 8px rgba(0,0,0,1);
                     }
                 </style>
             `);
