@@ -152,12 +152,29 @@
                 _this.activity.loader(false);
             };
 
+            // Функція для витягування card_data з DOM
+            function getDomCardData(node) {
+                if (!node) return null;
+                var current = node.jquery ? node[0] : node;
+                while (current && !current.card_data) {
+                    current = current.parentNode;
+                }
+                return current && current.card_data ? current.card_data : null;
+            }
+
             // Надійний обробник фокусу
             _this.focus_listener = function (e) {
-                if (state && e.target) {
-                    var $t = $(e.target);
-                    var card = $t.data('data') || e.target.card_data || $t.closest('.card').data('data');
-                    if (card && (card.title || card.name)) state.update(card);
+                if (!state || !e.target) return;
+
+                var $t = $(e.target);
+                // пробуємо всі варіанти
+                var card = $t.data('data')
+                    || e.target.card_data
+                    || $t.closest('.card').data('data')
+                    || getDomCardData(e.target);
+
+                if (card && (card.title || card.name)) {
+                    state.update(card);
                 }
             };
             Lampa.Listener.follow('focus', _this.focus_listener);
@@ -166,17 +183,18 @@
             config.categories.forEach(function (cat, i) {
                 var index = i;
                 var url = Lampa.TMDB.api(cat.url + '?api_key=' + Lampa.TMDB.key() + '&language=uk');
+
                 if (cat.params) {
                     for (var k in cat.params) {
                         url += '&' + k + '=' + cat.params[k].replace('{current_date}', new Date().toISOString().split('T')[0]);
                     }
                 }
+
                 network.silent(
                     url,
                     function (json) {
                         status.append(index.toString(), json);
-                    },
-                    status.error.bind(status)
+                    }
                 );
             });
 
