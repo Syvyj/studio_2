@@ -2,20 +2,20 @@
     'use strict';
 
     const CONFIG = {
-        server: '192.168.1.31:12320',  // CHANGE TO YOUR SERVER
+        server: '192.168.1.100:12320',
         sources: [
-            'AnimeON',
-            'BambooUA', 
-            'CikavaIdeya',
-            'StarLight',
-            'UAKino',
-            'UAFlix',
-            'UATuTFun',
-            'Unimay',
-            'AshdiBase'
+            'uakino',
+            'bamboo',
+            'cikavaideya',
+            'starlight',
+            'uaflix',
+            'uatut',
+            'unimay',
+            'ashdi',
+            'animeon',
+            'mikai'
         ],
         minQuality: 1080,
-        ukKeywords: ['ukr', 'uk', 'ua', 'ukrainian', 'ÑƒÐºÑ€Ð°Ñ—Ð½'],
         timeout: 15000
     };
 
@@ -24,14 +24,8 @@
         return url + separator + params;
     }
 
-    function isUkrainianVoice(text) {
-        if (!text) return true;
-        const lower = text.toLowerCase();
-        return CONFIG.ukKeywords.some(keyword => lower.includes(keyword));
-    }
-
     function getVoiceName(item) {
-        return item.translate || item.name || item.details || item.title || 'Ukrainian';
+        return item.translate || item.name || item.details || item.title || 'ÐžÐ·Ð²ÑƒÑ‡ÐºÐ°';
     }
 
     class VoiceStorage {
@@ -70,7 +64,7 @@
 
             const url = addUrlParams(`http://${CONFIG.server}/externalids`, params);
 
-            return new Promise((resolve, reject) => {
+            return new Promise((resolve) => {
                 this.network.timeout(CONFIG.timeout);
                 this.network.silent(url, 
                     data => {
@@ -89,7 +83,8 @@
                 `original_title=${encodeURIComponent(this.movie.original_title || this.movie.original_name)}`,
                 `serial=${this.movie.name ? 1 : 0}`,
                 `year=${(this.movie.release_date || this.movie.first_air_date || '0000').slice(0, 4)}`,
-                `source=tmdb`
+                `source=tmdb`,
+                `original_language=${this.movie.original_language || 'en'}`
             ];
 
             if (this.movie.imdb_id) {
@@ -108,28 +103,24 @@
         }
 
         async querySource(source, season = null) {
-            const url = `http://${CONFIG.server}/lite/${source}`;
+            const url = `http://${CONFIG.server}/${source}`;
             const params = this.getRequestParams(season);
 
-            console.log('[UA Online] Querying:', source, url + '?' + params);
+            console.log('[UA Online]', source, ':', url + '?' + params);
 
             return new Promise((resolve, reject) => {
                 this.network.timeout(CONFIG.timeout);
                 this.network.silent(addUrlParams(url, params),
                     data => {
-                        console.log('[UA Online] Response from', source, ':', data);
                         if (data && !data.error && !data.disable) {
                             data._source = source;
+                            console.log('[UA Online] âœ“', source);
                             resolve(data);
                         } else {
-                            console.log('[UA Online] No data from', source);
                             reject('No data');
                         }
                     },
-                    err => {
-                        console.log('[UA Online] Error from', source, ':', err);
-                        reject(err);
-                    }
+                    err => reject(err)
                 );
             });
         }
@@ -137,48 +128,17 @@
         async queryAll(season = null) {
             await this.getExternalIds();
 
-            console.log('[UA Online] Querying all sources for:', this.movie.title);
-
             const promises = CONFIG.sources.map(source => 
-                this.querySource(source, season)
-                    .catch(err => {
-                        console.log('[UA Online] Source failed:', source, err);
-                        return null;
-                    })
+                this.querySource(source, season).catch(() => null)
             );
 
             const results = await Promise.all(promises);
-            const filtered = results.filter(r => r !== null);
-
-            console.log('[UA Online] Got results from', filtered.length, 'sources');
-
-            return filtered;
+            return results.filter(r => r !== null);
         }
     }
 
     class ContentProcessor {
         constructor() {}
-
-        filterUkrainian(translates) {
-            console.log('[UA Online] All translates (UA balancers):', translates.length);
-            return translates;
-        }
-
-        filterQuality(qualityObj) {
-            if (!qualityObj || typeof qualityObj !== 'object') {
-                return null;
-            }
-
-            const filtered = {};
-            for (let res in qualityObj) {
-                const resolution = parseInt(res);
-                if (resolution >= CONFIG.minQuality) {
-                    filtered[res] = qualityObj[res];
-                }
-            }
-
-            return Object.keys(filtered).length > 0 ? filtered : null;
-        }
 
         extractTranslates(results) {
             let translates = [];
@@ -197,9 +157,23 @@
                 }
             });
 
-            console.log('[UA Online] Extracted translates:', translates.length);
-
             return translates;
+        }
+
+        filterQuality(qualityObj) {
+            if (!qualityObj || typeof qualityObj !== 'object') {
+                return null;
+            }
+
+            const filtered = {};
+            for (let res in qualityObj) {
+                const resolution = parseInt(res);
+                if (resolution >= CONFIG.minQuality) {
+                    filtered[res] = qualityObj[res];
+                }
+            }
+
+            return Object.keys(filtered).length > 0 ? filtered : null;
         }
 
         async getStreams(voiceItem) {
@@ -273,17 +247,14 @@
                 const results = await this.api.queryAll();
 
                 if (results.length === 0) {
-                    Lampa.Noty.show('Content not found on UA sources');
-                    console.log('[UA Online] No results from any source');
+                    Lampa.Noty.show('ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾ Ð½Ð° ÑƒÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ¸Ñ… Ð´Ð¶ÐµÑ€ÐµÐ»Ð°Ñ…');
                     return;
                 }
 
                 let translates = this.processor.extractTranslates(results);
-                translates = this.processor.filterUkrainian(translates);
 
                 if (translates.length === 0) {
-                    Lampa.Noty.show('No voices found');
-                    console.log('[UA Online] No translates extracted');
+                    Lampa.Noty.show('ÐžÐ·Ð²ÑƒÑ‡ÐºÐ¸ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾');
                     return;
                 }
 
@@ -300,7 +271,7 @@
 
             } catch(e) {
                 console.error('[UA Online] Error:', e);
-                Lampa.Noty.show('Error: ' + (e.message || 'Unknown error'));
+                Lampa.Noty.show('ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ°: ' + (e.message || 'ÐÐµÐ²Ñ–Ð´Ð¾Ð¼Ð°'));
             } finally {
                 Lampa.Loading.stop();
             }
@@ -315,7 +286,7 @@
             }));
 
             Lampa.Select.show({
-                title: 'Select voice',
+                title: 'ÐžÐ±ÐµÑ€Ñ–Ñ‚ÑŒ Ð¾Ð·Ð²ÑƒÑ‡ÐºÑƒ',
                 items: items,
                 onSelect: async (item) => {
                     Lampa.Select.close();
@@ -336,13 +307,13 @@
                 const streams = await this.processor.getStreams(voice);
 
                 if (!streams || !streams.quality) {
-                    throw new Error('Streams not found');
+                    throw new Error('ÐŸÐ¾Ñ‚Ð¾ÐºÐ¸ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾');
                 }
 
                 const filteredQuality = this.processor.filterQuality(streams.quality);
 
                 if (!filteredQuality) {
-                    Lampa.Noty.show('No quality 1080p or higher');
+                    Lampa.Noty.show('ÐÐµÐ¼Ð°Ñ” ÑÐºÐ¾ÑÑ‚Ñ– 1080p Ð°Ð±Ð¾ Ð²Ð¸Ñ‰Ðµ');
                     return;
                 }
 
@@ -367,7 +338,7 @@
 
             } catch(e) {
                 console.error('[UA Online] Play error:', e);
-                Lampa.Noty.show('Playback error: ' + (e.message || ''));
+                Lampa.Noty.show('ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð²Ñ–Ð´Ñ‚Ð²Ð¾Ñ€ÐµÐ½Ð½Ñ: ' + (e.message || ''));
             }
         }
     }
@@ -387,11 +358,10 @@
                 const results = await this.api.queryAll(season);
 
                 if (results.length === 0) {
-                    throw new Error('Content not found');
+                    throw new Error('ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾');
                 }
 
                 let translates = this.processor.extractTranslates(results);
-                translates = this.processor.filterUkrainian(translates);
 
                 if (translates.length === 0) {
                     return { translates: [], episodes: [] };
@@ -462,14 +432,14 @@
 
             for (let i = 1; i <= totalSeasons; i++) {
                 seasons.push({
-                    title: `Season ${i}`,
+                    title: `Ð¡ÐµÐ·Ð¾Ð½ ${i}`,
                     season: i,
                     selected: i === this.currentSeason
                 });
             }
 
             this.filter.set('season', seasons);
-            this.filter.chosen('season', [`Season ${this.currentSeason}`]);
+            this.filter.chosen('season', [`Ð¡ÐµÐ·Ð¾Ð½ ${this.currentSeason}`]);
         }
 
         async load() {
@@ -567,7 +537,7 @@
 
             const voicesMap = {};
             onlineEpisodes.forEach(ep => {
-                const voice = ep.translate || 'Ukrainian';
+                const voice = ep.translate || 'ÐžÐ·Ð²ÑƒÑ‡ÐºÐ°';
                 if (!voicesMap[voice]) {
                     voicesMap[voice] = [];
                 }
@@ -587,7 +557,7 @@
                 }));
 
                 Lampa.Select.show({
-                    title: 'Select voice',
+                    title: 'ÐžÐ±ÐµÑ€Ñ–Ñ‚ÑŒ Ð¾Ð·Ð²ÑƒÑ‡ÐºÑƒ',
                     items: items,
                     onSelect: (item) => {
                         Lampa.Select.close();
@@ -610,7 +580,7 @@
                 const filteredQuality = this.processor.filterQuality(onlineData.quality);
 
                 if (!filteredQuality) {
-                    Lampa.Noty.show('No quality 1080p or higher');
+                    Lampa.Noty.show('ÐÐµÐ¼Ð°Ñ” ÑÐºÐ¾ÑÑ‚Ñ– 1080p Ð°Ð±Ð¾ Ð²Ð¸Ñ‰Ðµ');
                     return;
                 }
 
@@ -641,7 +611,7 @@
 
             } catch(e) {
                 console.error('[UA Online] Playback error:', e);
-                Lampa.Noty.show('Playback error');
+                Lampa.Noty.show('ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð²Ñ–Ð´Ñ‚Ð²Ð¾Ñ€ÐµÐ½Ð½Ñ');
             } finally {
                 Lampa.Loading.stop();
             }
@@ -649,7 +619,7 @@
 
         empty() {
             const empty = Lampa.Template.get('online_folder', {
-                title: 'No content found on UA sources',
+                title: 'ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾ Ð½Ð° ÑƒÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ¸Ñ… Ð´Ð¶ÐµÑ€ÐµÐ»Ð°Ñ…',
                 quality: '',
                 info: ''
             });
@@ -705,7 +675,7 @@
                 }
             },
             field: {
-                name: 'Min Quality'
+                name: 'ÐœÑ–Ð½Ñ–Ð¼Ð°Ð»ÑŒÐ½Ð° ÑÐºÑ–ÑÑ‚ÑŒ'
             },
             onChange: (value) => {
                 CONFIG.minQuality = parseInt(value);
@@ -747,7 +717,7 @@
                     if (e.data.movie.name) {
                         Lampa.Activity.push({
                             url: '',
-                            title: 'Episodes',
+                            title: 'Ð•Ð¿Ñ–Ð·Ð¾Ð´Ð¸',
                             component: 'ukr_episodes',
                             movie: e.data.movie,
                             page: 1
@@ -760,7 +730,9 @@
             }
         });
 
-        console.log('[UA Online] Plugin loaded with sources:', CONFIG.sources);
+        console.log('[UA Online] âœ… ÐŸÐ»Ð°Ð³Ñ–Ð½ Ð·Ð°Ð²Ð°Ð½Ñ‚Ð°Ð¶ÐµÐ½Ð¾');
+        console.log('[UA Online] ðŸ“¡ Ð”Ð¶ÐµÑ€ÐµÐ»Ð°:', CONFIG.sources);
+        console.log('[UA Online] ðŸ–¥ï¸  Ð¡ÐµÑ€Ð²ÐµÑ€:', CONFIG.server);
     }
 
     if (window.Lampa) {
