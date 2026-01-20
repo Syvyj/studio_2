@@ -2,11 +2,22 @@
     'use strict';
 
     const CONFIG = {
-        server: '192.168.1.31:12320',
-        sources: ['pidtor', 'ashdi', 'eneyida', 'alloha', 'lumex', 'hdvb'],
+        server: '192.168.1.31:12320',  // CHANGE TO YOUR SERVER
+        sources: [
+            'animeon',
+            'bambooua',
+            'cikavaideya',
+            'starlight',
+            'uakino',
+            'uaflix',
+            'uatutfun',
+            'unimay',
+            'ashdibase',
+            'pidtor'
+        ],
         minQuality: 1080,
-        ukKeywords: ['ukr', 'uk', 'ua', 'ukrainian'],
-        timeout: 10000
+        ukKeywords: ['ukr', 'uk', 'ua', 'ukrainian', 'україн'],
+        timeout: 15000
     };
 
     function addUrlParams(url, params) {
@@ -15,13 +26,13 @@
     }
 
     function isUkrainianVoice(text) {
-        if (!text) return false;
+        if (!text) return true;  // If no voice info, assume Ukrainian
         const lower = text.toLowerCase();
         return CONFIG.ukKeywords.some(keyword => lower.includes(keyword));
     }
 
     function getVoiceName(item) {
-        return item.translate || item.name || item.details || item.title || 'Unknown';
+        return item.translate || item.name || item.details || item.title || 'Ukrainian';
     }
 
     class VoiceStorage {
@@ -101,18 +112,25 @@
             const url = `http://${CONFIG.server}/lite/${source}`;
             const params = this.getRequestParams(season);
 
+            console.log('[UA Online] Querying:', source, url + '?' + params);
+
             return new Promise((resolve, reject) => {
                 this.network.timeout(CONFIG.timeout);
                 this.network.silent(addUrlParams(url, params),
                     data => {
+                        console.log('[UA Online] Response from', source, ':', data);
                         if (data && !data.error && !data.disable) {
                             data._source = source;
                             resolve(data);
                         } else {
+                            console.log('[UA Online] No data from', source);
                             reject('No data');
                         }
                     },
-                    err => reject(err)
+                    err => {
+                        console.log('[UA Online] Error from', source, ':', err);
+                        reject(err);
+                    }
                 );
             });
         }
@@ -120,13 +138,22 @@
         async queryAll(season = null) {
             await this.getExternalIds();
 
+            console.log('[UA Online] Querying all sources for:', this.movie.title);
+
             const promises = CONFIG.sources.map(source =>
                 this.querySource(source, season)
-                    .catch(() => null)
+                    .catch(err => {
+                        console.log('[UA Online] Source failed:', source, err);
+                        return null;
+                    })
             );
 
             const results = await Promise.all(promises);
-            return results.filter(r => r !== null);
+            const filtered = results.filter(r => r !== null);
+
+            console.log('[UA Online] Got results from', filtered.length, 'sources');
+
+            return filtered;
         }
     }
 
@@ -134,10 +161,9 @@
         constructor() { }
 
         filterUkrainian(translates) {
-            return translates.filter(item => {
-                const voice = getVoiceName(item);
-                return isUkrainianVoice(voice);
-            });
+            // For UA balancers, don't filter - all should be Ukrainian
+            console.log('[UA Online] All translates (UA balancers):', translates.length);
+            return translates;
         }
 
         filterQuality(qualityObj) {
@@ -172,6 +198,8 @@
                     });
                 }
             });
+
+            console.log('[UA Online] Extracted translates:', translates.length);
 
             return translates;
         }
@@ -247,14 +275,17 @@
                 const results = await this.api.queryAll();
 
                 if (results.length === 0) {
-                    throw new Error('Content not found');
+                    Lampa.Noty.show('Content not found on UA sources');
+                    console.log('[UA Online] No results from any source');
+                    return;
                 }
 
                 let translates = this.processor.extractTranslates(results);
                 translates = this.processor.filterUkrainian(translates);
 
                 if (translates.length === 0) {
-                    Lampa.Noty.show('Ukrainian voices not found');
+                    Lampa.Noty.show('No voices found');
+                    console.log('[UA Online] No translates extracted');
                     return;
                 }
 
@@ -270,7 +301,7 @@
                 }
 
             } catch (e) {
-                console.error('UkrOnline error:', e);
+                console.error('[UA Online] Error:', e);
                 Lampa.Noty.show('Error: ' + (e.message || 'Unknown error'));
             } finally {
                 Lampa.Loading.stop();
@@ -337,7 +368,7 @@
                 Lampa.Player.playlist([]);
 
             } catch (e) {
-                console.error('Play error:', e);
+                console.error('[UA Online] Play error:', e);
                 Lampa.Noty.show('Playback error: ' + (e.message || ''));
             }
         }
@@ -459,7 +490,7 @@
                 }
 
             } catch (e) {
-                console.error('Load error:', e);
+                console.error('[UA Online] Load error:', e);
                 this.empty();
             } finally {
                 this.activity.loader(false);
@@ -538,7 +569,7 @@
 
             const voicesMap = {};
             onlineEpisodes.forEach(ep => {
-                const voice = ep.translate || 'Unknown';
+                const voice = ep.translate || 'Ukrainian';
                 if (!voicesMap[voice]) {
                     voicesMap[voice] = [];
                 }
@@ -611,7 +642,7 @@
                 episode.mark();
 
             } catch (e) {
-                console.error('Playback error:', e);
+                console.error('[UA Online] Playback error:', e);
                 Lampa.Noty.show('Playback error');
             } finally {
                 Lampa.Loading.stop();
@@ -620,7 +651,7 @@
 
         empty() {
             const empty = Lampa.Template.get('online_folder', {
-                title: 'Ukrainian voices not found',
+                title: 'No content found on UA sources',
                 quality: '',
                 info: ''
             });
@@ -641,7 +672,7 @@
     function setupSettings() {
         Lampa.SettingsApi.addComponent({
             component: 'ukr_online',
-            name: 'Ukrainian Online',
+            name: 'UA Online',
             icon: '<svg viewBox="0 0 48 48"><rect fill="#005BBB" width="48" height="24"/><rect fill="#FFD500" y="24" width="48" height="24"/></svg>'
         });
 
@@ -653,7 +684,7 @@
                 default: CONFIG.server
             },
             field: {
-                name: 'Lampac Server Address',
+                name: 'Lampac Server',
                 placeholder: '192.168.1.100:9118'
             },
             onChange: (value) => {
@@ -676,7 +707,7 @@
                 }
             },
             field: {
-                name: 'Minimum Quality'
+                name: 'Min Quality'
             },
             onChange: (value) => {
                 CONFIG.minQuality = parseInt(value);
@@ -731,7 +762,7 @@
             }
         });
 
-        console.log('Ukrainian Online plugin loaded');
+        console.log('[UA Online] Plugin loaded with sources:', CONFIG.sources);
     }
 
     if (window.Lampa) {
