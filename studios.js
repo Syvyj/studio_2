@@ -1,22 +1,21 @@
-(function () {
+(function() {
     'use strict';
 
     const CONFIG = {
         server: '192.168.1.31:12320',  // CHANGE TO YOUR SERVER
         sources: [
-            'animeon',
-            'bambooua',
-            'cikavaideya',
-            'starlight',
-            'uakino',
-            'uaflix',
-            'uatutfun',
-            'unimay',
-            'ashdibase',
-            'pidtor'
+            'AnimeON',
+            'BambooUA', 
+            'CikavaIdeya',
+            'StarLight',
+            'UAKino',
+            'UAFlix',
+            'UATuTFun',
+            'Unimay',
+            'AshdiBase'
         ],
         minQuality: 1080,
-        ukKeywords: ['ukr', 'uk', 'ua', 'ukrainian', 'україн'],
+        ukKeywords: ['ukr', 'uk', 'ua', 'ukrainian', 'ÑƒÐºÑ€Ð°Ñ—Ð½'],
         timeout: 15000
     };
 
@@ -26,7 +25,7 @@
     }
 
     function isUkrainianVoice(text) {
-        if (!text) return true;  // If no voice info, assume Ukrainian
+        if (!text) return true;
         const lower = text.toLowerCase();
         return CONFIG.ukKeywords.some(keyword => lower.includes(keyword));
     }
@@ -73,7 +72,7 @@
 
             return new Promise((resolve, reject) => {
                 this.network.timeout(CONFIG.timeout);
-                this.network.silent(url,
+                this.network.silent(url, 
                     data => {
                         Object.assign(this.movie, data);
                         resolve();
@@ -140,7 +139,7 @@
 
             console.log('[UA Online] Querying all sources for:', this.movie.title);
 
-            const promises = CONFIG.sources.map(source =>
+            const promises = CONFIG.sources.map(source => 
                 this.querySource(source, season)
                     .catch(err => {
                         console.log('[UA Online] Source failed:', source, err);
@@ -158,10 +157,9 @@
     }
 
     class ContentProcessor {
-        constructor() { }
+        constructor() {}
 
         filterUkrainian(translates) {
-            // For UA balancers, don't filter - all should be Ukrainian
             console.log('[UA Online] All translates (UA balancers):', translates.length);
             return translates;
         }
@@ -248,9 +246,9 @@
                 }
 
                 prepared[res] = {
-                    label: resolution >= 2160 ? '4K' :
-                        resolution >= 1440 ? '2K' :
-                            resolution >= 1080 ? 'FHD' : 'HD',
+                    label: resolution >= 2160 ? '4K' : 
+                           resolution >= 1440 ? '2K' :
+                           resolution >= 1080 ? 'FHD' : 'HD',
                     url: urls[0],
                     reserve: urls.slice(1)
                 };
@@ -290,7 +288,7 @@
                 }
 
                 const savedVoice = this.voiceStorage.get();
-                let selectedVoice = translates.find(t =>
+                let selectedVoice = translates.find(t => 
                     getVoiceName(t) === savedVoice
                 ) || translates[0];
 
@@ -300,7 +298,7 @@
                     await this.playVoice(selectedVoice);
                 }
 
-            } catch (e) {
+            } catch(e) {
                 console.error('[UA Online] Error:', e);
                 Lampa.Noty.show('Error: ' + (e.message || 'Unknown error'));
             } finally {
@@ -367,7 +365,7 @@
                 Lampa.Player.play(playData);
                 Lampa.Player.playlist([]);
 
-            } catch (e) {
+            } catch(e) {
                 console.error('[UA Online] Play error:', e);
                 Lampa.Noty.show('Playback error: ' + (e.message || ''));
             }
@@ -489,7 +487,7 @@
                     this.build();
                 }
 
-            } catch (e) {
+            } catch(e) {
                 console.error('[UA Online] Load error:', e);
                 this.empty();
             } finally {
@@ -545,8 +543,8 @@
                 title: tmdbEpisode.name,
                 season: this.currentSeason,
                 timeline: view,
-                img: tmdbEpisode.still_path ?
-                    Lampa.TMDB.image('t/p/w300' + tmdbEpisode.still_path) : ''
+                img: tmdbEpisode.still_path ? 
+                     Lampa.TMDB.image('t/p/w300' + tmdbEpisode.still_path) : ''
             };
 
             if (view.percent) {
@@ -577,8 +575,8 @@
             });
 
             const voices = Object.keys(voicesMap);
-            let selectedVoice = savedVoice && voicesMap[savedVoice] ?
-                savedVoice : voices[0];
+            let selectedVoice = savedVoice && voicesMap[savedVoice] ? 
+                               savedVoice : voices[0];
 
             if (voices.length > 1) {
                 const items = voices.map(v => ({
@@ -641,7 +639,7 @@
 
                 episode.mark();
 
-            } catch (e) {
+            } catch(e) {
                 console.error('[UA Online] Playback error:', e);
                 Lampa.Noty.show('Playback error');
             } finally {
