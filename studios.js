@@ -2,8 +2,8 @@
     'use strict';
 
     const CONFIG = {
-        server: '192.168.1.100:9118',
-        sources: ['rezka', 'kinopub', 'kodik', 'alloha', 'lumex', 'hdvb'],
+        server: '192.168.1.31:12320',
+        sources: ['pidtor', 'ashdi', 'eneyida', 'alloha', 'lumex', 'hdvb'],
         minQuality: 1080,
         ukKeywords: ['ukr', 'uk', 'ua', 'ukrainian'],
         timeout: 10000
