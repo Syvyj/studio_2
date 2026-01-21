@@ -2,7 +2,7 @@
     'use strict';
 
     const CONFIG = {
-        server: '192.168.1.100:12320',
+        server: '192.168.1.31:12320',  // ÐŸÑ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð° Ð°Ð´Ñ€ÐµÑÐ°
         sources: [
             'uakino',
             'bamboo',
@@ -64,14 +64,20 @@
 
             const url = addUrlParams(`http://${CONFIG.server}/externalids`, params);
 
+            console.log('[UA Online] Getting external IDs:', url);
+
             return new Promise((resolve) => {
                 this.network.timeout(CONFIG.timeout);
                 this.network.silent(url, 
                     data => {
+                        console.log('[UA Online] External IDs:', data);
                         Object.assign(this.movie, data);
                         resolve();
                     },
-                    () => resolve()
+                    (err) => {
+                        console.log('[UA Online] External IDs error:', err);
+                        resolve();
+                    }
                 );
             });
         }
@@ -105,22 +111,27 @@
         async querySource(source, season = null) {
             const url = `http://${CONFIG.server}/${source}`;
             const params = this.getRequestParams(season);
+            const fullUrl = addUrlParams(url, params);
 
-            console.log('[UA Online]', source, ':', url + '?' + params);
+            console.log(`[UA Online] Requesting ${source}:`, fullUrl);
 
             return new Promise((resolve, reject) => {
                 this.network.timeout(CONFIG.timeout);
-                this.network.silent(addUrlParams(url, params),
+                this.network.silent(fullUrl,
                     data => {
+                        console.log(`[UA Online] Response from ${source}:`, data);
                         if (data && !data.error && !data.disable) {
                             data._source = source;
-                            console.log('[UA Online] âœ“', source);
                             resolve(data);
                         } else {
+                            console.log(`[UA Online] ${source} returned no data or error`);
                             reject('No data');
                         }
                     },
-                    err => reject(err)
+                    err => {
+                        console.log(`[UA Online] ${source} network error:`, err);
+                        reject(err);
+                    }
                 );
             });
         }
@@ -128,12 +139,25 @@
         async queryAll(season = null) {
             await this.getExternalIds();
 
+            console.log('[UA Online] Movie data:', {
+                id: this.movie.id,
+                title: this.movie.title || this.movie.name,
+                original_title: this.movie.original_title || this.movie.original_name,
+                year: (this.movie.release_date || this.movie.first_air_date || '').slice(0, 4),
+                imdb_id: this.movie.imdb_id,
+                kinopoisk_id: this.movie.kinopoisk_id
+            });
+
             const promises = CONFIG.sources.map(source => 
                 this.querySource(source, season).catch(() => null)
             );
 
             const results = await Promise.all(promises);
-            return results.filter(r => r !== null);
+            const filtered = results.filter(r => r !== null);
+
+            console.log(`[UA Online] Got results from ${filtered.length} sources:`, filtered);
+
+            return filtered;
         }
     }
 
@@ -156,6 +180,8 @@
                     });
                 }
             });
+
+            console.log(`[UA Online] Extracted ${translates.length} translates`);
 
             return translates;
         }
@@ -183,6 +209,7 @@
 
             if (voiceItem.method === 'call' && voiceItem.url) {
                 const network = new Lampa.Reguest();
+                console.log('[UA Online] Calling voice URL:', voiceItem.url);
                 return new Promise((resolve, reject) => {
                     network.timeout(CONFIG.timeout);
                     network.silent(voiceItem.url,
@@ -244,16 +271,20 @@
             try {
                 Lampa.Loading.start();
 
+                console.log('[UA Online] Starting playback for:', this.object.movie.title || this.object.movie.name);
+
                 const results = await this.api.queryAll();
 
                 if (results.length === 0) {
-                    Lampa.Noty.show('ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾ Ð½Ð° ÑƒÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ¸Ñ… Ð´Ð¶ÐµÑ€ÐµÐ»Ð°Ñ…');
+                    console.log('[UA Online] No sources returned data');
+                    Lampa.Noty.show('ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾');
                     return;
                 }
 
                 let translates = this.processor.extractTranslates(results);
 
                 if (translates.length === 0) {
+                    console.log('[UA Online] No translates found');
                     Lampa.Noty.show('ÐžÐ·Ð²ÑƒÑ‡ÐºÐ¸ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾');
                     return;
                 }
@@ -271,7 +302,7 @@
 
             } catch(e) {
                 console.error('[UA Online] Error:', e);
-                Lampa.Noty.show('ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ°: ' + (e.message || 'ÐÐµÐ²Ñ–Ð´Ð¾Ð¼Ð°'));
+                Lampa.Noty.show('ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ°: ' + e.message);
             } finally {
                 Lampa.Loading.stop();
             }
@@ -338,7 +369,7 @@
 
             } catch(e) {
                 console.error('[UA Online] Play error:', e);
-                Lampa.Noty.show('ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð²Ñ–Ð´Ñ‚Ð²Ð¾Ñ€ÐµÐ½Ð½Ñ: ' + (e.message || ''));
+                Lampa.Noty.show('ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð²Ñ–Ð´Ñ‚Ð²Ð¾Ñ€ÐµÐ½Ð½Ñ');
             }
         }
     }
@@ -619,7 +650,7 @@
 
         empty() {
             const empty = Lampa.Template.get('online_folder', {
-                title: 'ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾ Ð½Ð° ÑƒÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ¸Ñ… Ð´Ð¶ÐµÑ€ÐµÐ»Ð°Ñ…',
+                title: 'ÐšÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾',
                 quality: '',
                 info: ''
             });
@@ -653,7 +684,7 @@
             },
             field: {
                 name: 'Lampac Server',
-                placeholder: '192.168.1.100:9118'
+                placeholder: '192.168.1.31:12320'
             },
             onChange: (value) => {
                 CONFIG.server = value;
@@ -706,7 +737,7 @@
                     </div>
                 `);
 
-                const subtitle = `Server: ${CONFIG.server.split(':')[0]} | Min: ${CONFIG.minQuality}p`;
+                const subtitle = `${CONFIG.server.split(':')[0]} | ${CONFIG.minQuality}p+`;
                 button.attr('data-subtitle', subtitle);
 
                 e.object.activity.render()
@@ -730,9 +761,10 @@
             }
         });
 
-        console.log('[UA Online] âœ… ÐŸÐ»Ð°Ð³Ñ–Ð½ Ð·Ð°Ð²Ð°Ð½Ñ‚Ð°Ð¶ÐµÐ½Ð¾');
-        console.log('[UA Online] ðŸ“¡ Ð”Ð¶ÐµÑ€ÐµÐ»Ð°:', CONFIG.sources);
-        console.log('[UA Online] ðŸ–¥ï¸  Ð¡ÐµÑ€Ð²ÐµÑ€:', CONFIG.server);
+        console.log('[UA Online] âœ… Plugin loaded v1.2');
+        console.log('[UA Online] ðŸ–¥ï¸  Server:', CONFIG.server);
+        console.log('[UA Online] ðŸ“¡ Sources:', CONFIG.sources.join(', '));
+        console.log('[UA Online] ðŸŽ¬ Min quality:', CONFIG.minQuality + 'p');
     }
 
     if (window.Lampa) {
