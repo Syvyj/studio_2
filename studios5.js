@@ -1082,47 +1082,36 @@
     // ========== ROW: НОВИНКИ УКРАЇНСЬКОЇ СТРІЧКИ ==========
     function addUkrainianContentRow() {
         Lampa.ContentRows.add({
-            index: 3, // Hero(0), Studios(1), Mood(2), then Ukrainian(3)
+            index: 3,
             name: 'ukrainian_content_row',
             title: 'Новинки української стрічки',
             screen: ['main'],
             call: function (params) {
                 return function (callback) {
                     var network = new Lampa.Reguest();
-                    var results = [];
-                    var apiKey = 'api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk');
-                    var d = new Date();
-                    var currentDate = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
-                    var urlMovie = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=primary_release_date.desc&primary_release_date.lte=' + currentDate + '&with_origin_country=UA&vote_count.gte=1');
-                    var urlTV = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=first_air_date.desc&first_air_date.lte=' + currentDate + '&with_origin_country=UA&vote_count.gte=1');
+                    // Використовуємо наш статичний файл з бекенду + Date.now() щоб скидати кеш
+                    var url = 'https://cdn.jsdelivr.net/gh/Syvyj/studio_2@main/ua_feed.json?t=' + Date.now();
 
-                    network.silent(urlMovie, function (json1) {
-                        if (json1.results) results = results.concat(json1.results);
-                        network.silent(urlTV, function (json2) {
-                            if (json2.results) results = results.concat(json2.results);
-                            results.sort(function (a, b) {
-                                var dateA = new Date(a.release_date || a.first_air_date || '2000-01-01');
-                                var dateB = new Date(b.release_date || b.first_air_date || '2000-01-01');
-                                return dateB - dateA;
-                            });
-                            var unique = [];
-                            var seen = {};
-                            results.forEach(function (item) {
-                                if (!seen[item.id]) { seen[item.id] = true; unique.push(item); }
-                            });
+                    network.silent(url, function (json) {
+                        if (json && json.results) {
                             callback({
-                                results: unique.slice(0, 20),
+                                results: json.results.slice(0, 20),
                                 title: '🇺🇦 Новинки української стрічки',
                                 params: {
                                     items: { mapping: 'line', view: 15 }
                                 }
                             });
-                        });
+                        } else {
+                            callback({ results: [] });
+                        }
+                    }, function () {
+                        callback({ results: [] });
                     });
                 };
             }
         });
     }
+
 
     // ========== ROW 3: MOOD BUTTONS (Кіно під настрій) ==========
     // Жанри TMDB: Драма 18, Комедія 35, Мультфільм 16, Сімейний 10751, Документальний 99, Бойовик 28, Мелодрама 10749, Трилер 53, Кримінал 80, Пригоди 12, Жахи 27, Фентезі 14
@@ -1733,24 +1722,32 @@
         function addMarksToContainer(element, movie, viewSelector) {
             var containerParent = viewSelector ? element.find(viewSelector) : element;
             var marksContainer = containerParent.find('.card-marks');
-
             if (!marksContainer.length) {
                 marksContainer = $('<div class="card-marks"></div>');
                 containerParent.append(marksContainer);
             }
 
+            // ШВИДКІСТЬ x100: Якщо бот уже проставив мітки, малюємо їх МИТТЄВО!
+            if (movie.has_ua !== undefined || movie.quality !== undefined) {
+                var staticData = {
+                    ukr: movie.has_ua === true,
+                    resolution: movie.quality || 'SD',
+                    hdr: movie.is_hdr === true,
+                    eng: false
+                };
+                renderBadges(marksContainer, staticData, movie);
+                return; // Виходимо, не навантажуючи телевізор зайвими запитами!
+            }
+
+            // Якщо це старий фільм або з іншої стрічки (без міток бота) — робимо запит по-старому
             getBestJacred(movie, function (data) {
                 if (!data) data = { empty: true };
-
-                // Паралельно перевіряємо uafix
                 checkUafix(movie, function (hasUafix) {
                     if (hasUafix && data) {
                         data.ukr = true;
                         data.empty = false;
                     }
-                    if (data && !data.empty) {
-                        renderBadges(marksContainer, data, movie);
-                    }
+                    if (data && !data.empty) renderBadges(marksContainer, data, movie);
                 });
             });
         }
@@ -1918,6 +1915,19 @@
                         };
 
                         var filterParams = ROW_FILTER[id] || {};
+
+                        // МАГІЯ БЕКЕНДУ: Якщо це Netflix, тягнемо готовий файл від бота
+                        if (id === 'netflix') {
+                            var staticUrl = 'https://cdn.jsdelivr.net/gh/Syvyj/studio_2@main/netflix_new.json?t=' + Date.now();
+                            network.silent(staticUrl, function (json) {
+                                callback({
+                                    results: (json.results || []).slice(0, 20),
+                                    title: 'Сьогодні на ' + config.title
+                                });
+                            }, function () { callback({ results: [] }); });
+                            return; // Зупиняємо подальше виконання старого коду для Netflix
+                        }
+
                         if (Object.keys(filterParams).length === 0) return callback({ results: [] });
 
                         var minVotes = (id === 'syfy' || id === 'educational_and_reality') ? 1 : 3;
