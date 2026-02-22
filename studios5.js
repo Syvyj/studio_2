@@ -2388,7 +2388,6 @@
         });
 
         // === Кіноогляд — налаштування каналів (розділів) та YouTube ===
-        setupKinoogladSettings();
 
         // === Секція: Мітки ===
         Lampa.SettingsApi.addParam({
