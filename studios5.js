@@ -22,6 +22,7 @@
     var currentScript = document.currentScript || [].slice.call(document.getElementsByTagName('script')).filter(function (s) {
         return (s.src || '').indexOf('studios') !== -1 || (s.src || '').indexOf('fix.js') !== -1 || (s.src || '').indexOf('likhtar') !== -1;
     })[0];
+
     var LIKHTAR_BASE_URL = (currentScript && currentScript.src) ? currentScript.src.replace(/[#?].*$/, '').replace(/[^/]+$/, '') : 'http://127.0.0.1:3000/';
 
     if (LIKHTAR_BASE_URL.indexOf('raw.githubusercontent.com') !== -1) {
@@ -1097,7 +1098,7 @@
                         title: '📺 Стрімінги',
                         params: {
                             items: {
-                                view: 10,
+                                view: 15,
                                 mapping: 'line'
                             }
                         }
@@ -1974,7 +1975,7 @@
 
 
     function addServiceRows() {
-        var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality'];
+        var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality', 'discovery'];
 
         services.forEach(function (id, index) {
             var config = SERVICE_CONFIGS[id];
@@ -2152,7 +2153,7 @@
 
     function modifyServiceTitles() {
         setInterval(function () {
-            var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality'];
+            var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality', 'discovery'];
             services.forEach(function (id) {
                 var config = SERVICE_CONFIGS[id];
                 if (!config) return;
@@ -2289,19 +2290,7 @@
         };
     }
 
-    function setupKinoogladSettings() {
-        if (!Lampa.SettingsApi || !Lampa.SettingsApi.addComponent) return;
-        Lampa.SettingsApi.addComponent({
-            component: 'kinooglad',
-            name: 'Кіноогляд',
-            icon: '<svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z" fill="currentColor"/></svg>'
-        });
-        Lampa.SettingsApi.addParam({
-            component: 'kinooglad',
-            param: { type: 'title' },
-            field: { name: 'Налаштування каналів' }
-        });
-    }
+
     function setupSettings() {
         Lampa.SettingsApi.addComponent({
             component: 'likhtar_plugin',
@@ -3330,7 +3319,6 @@
     // =================================================================
     function init() {
         // Settings panel
-        setupKinoogladSettings();
         setupSettings();
 
         // Register Components
