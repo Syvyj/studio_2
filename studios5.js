@@ -1120,7 +1120,7 @@
     // ========== ROW: НОВИНКИ УКРАЇНСЬКОЇ СТРІЧКИ ==========
     function addUkrainianContentRow() {
         Lampa.ContentRows.add({
-            index: 3, // After Hero(0), Studio(1), Mood(2)
+            index: 3, // Hero(0), Studios(1), Mood(2), then Ukrainian(3)
             name: 'ukrainian_content_row',
             title: 'Новинки української стрічки',
             screen: ['main'],
@@ -1991,7 +1991,7 @@
             if (!config) return;
 
             Lampa.ContentRows.add({
-                index: 4 + index, // After Hero(0), Studio(1), Mood(2), Ukrainian content(3)
+                index: 4 + index, // After Hero(0), Studios(1), Mood(2), Ukrainian content(3). 11 services = index 4..14
                 name: 'service_row_' + id,
                 title: 'Сьогодні на ' + config.title,
                 screen: ['main'],
@@ -2118,7 +2118,7 @@
     // ========== ROW: НОВИНКИ ПОЛЬСЬКОЇ СТРІЧКИ (в кінці головної) ==========
     function addPolishContentRow() {
         Lampa.ContentRows.add({
-            index: 10, // After Hero(0), Studio(1), Mood(2), Ukrainian(3), Service rows(4..9)
+            index: 15, // After Hero(0), Studios(1), Mood(2), Ukrainian(3), Services(4-14)
             name: 'polish_content_row',
             title: 'Новинки польської стрічки',
             screen: ['main'],
