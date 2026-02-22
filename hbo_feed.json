@@ -1,5 +1,5 @@
 {
-  "title": "HBO / Max",
+  "title": "Сьогодні на HBO / Max",
   "results": [
     {
       "adult": false,
@@ -21,10 +21,11 @@
       "first_air_date": "2026-01-18",
       "name": "Лицар Сімох Королівств",
       "vote_average": 8.5,
-      "vote_count": 369,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 370,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -42,9 +43,10 @@
       "release_date": "2026-02-11",
       "title": "«Буремний перевал»",
       "video": false,
-      "vote_average": 6.541,
-      "vote_count": 319,
+      "vote_average": 6.587,
+      "vote_count": 311,
       "has_ua": true,
+      "has_pl": false,
       "quality": "FHD",
       "is_hdr": true
     },
@@ -65,9 +67,10 @@
       "release_date": "2025-09-23",
       "title": "Одна битва за іншою",
       "video": false,
-      "vote_average": 7.413,
-      "vote_count": 2869,
+      "vote_average": 7.4,
+      "vote_count": 2866,
       "has_ua": true,
+      "has_pl": true,
       "quality": "4K",
       "is_hdr": true
     },
@@ -89,10 +92,11 @@
       "poster_path": "/lcoX5sWwMSm6vwqqokW5ND6VgvR.jpg",
       "first_air_date": "2025-10-26",
       "name": "Воно: Ласкаво просимо в Деррі",
-      "vote_average": 8.227,
-      "vote_count": 1295,
-      "has_ua": false,
-      "quality": "SD",
+      "vote_average": 8.229,
+      "vote_count": 1296,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -115,9 +119,10 @@
       "name": "Місія",
       "vote_average": 6.803,
       "vote_count": 277,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": true,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -140,8 +145,9 @@
       "name": "Між крісел",
       "vote_average": 7.079,
       "vote_count": 76,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -163,32 +169,10 @@
       "name": "Я люблю Лос-Анджелес",
       "vote_average": 6.781,
       "vote_count": 32,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/2Y1sfUem465aPHCnbq5w0wfd1qE.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 312530,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Murder in Glitterball City",
-      "overview": "",
-      "popularity": 3.5551,
-      "poster_path": "/i3Dl4avc7qFIpxY2zEBIFEVbERS.jpg",
-      "first_air_date": "2026-02-19",
-      "name": "Murder in Glitterball City",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -209,8 +193,9 @@
       "name": "Billy Joel: And So It Goes",
       "vote_average": 8.4,
       "vote_count": 10,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -232,7 +217,8 @@
       "name": "Seen & Heard: The History of Black Television",
       "vote_average": 2.286,
       "vote_count": 7,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -256,7 +242,8 @@
       "name": "Розсліжування вбивства в йогуртній крамниці",
       "vote_average": 7,
       "vote_count": 20,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -279,7 +266,8 @@
       "name": "Alex vs ARod",
       "vote_average": 5.333,
       "vote_count": 3,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -303,8 +291,9 @@
       "name": "Mel Brooks: The 99 Year Old Man!",
       "vote_average": 6.5,
       "vote_count": 4,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -326,6 +315,7 @@
       "vote_average": 5.357,
       "vote_count": 14,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": false
     },
@@ -347,6 +337,7 @@
       "vote_average": 7.286,
       "vote_count": 7,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -370,6 +361,7 @@
       "vote_average": 6.3,
       "vote_count": 3,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -394,27 +386,7 @@
       "vote_average": 6.7,
       "vote_count": 9,
       "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/czJyil5XbEq81K6Gw2arzUUcMUo.jpg",
-      "genre_ids": [
-        16
-      ],
-      "id": 1529650,
-      "original_language": "en",
-      "original_title": "Krypto Saves the Day!: Package Pandemonium",
-      "overview": "",
-      "popularity": 0.127,
-      "poster_path": "/rmk3dVvXlIuZLkh776PIHOrqtJW.jpg",
-      "release_date": "2025-11-28",
-      "title": "Krypto Saves the Day!: Package Pandemonium",
-      "video": false,
-      "vote_average": 5.5,
-      "vote_count": 2,
-      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     }

@@ -1,5 +1,5 @@
 {
-  "title": "Пізнавальне",
+  "title": "Сьогодні на Пізнавальне",
   "results": [
     {
       "adult": false,
@@ -20,9 +20,10 @@
       "name": "Pole to Pole with Will Smith",
       "vote_average": 6.143,
       "vote_count": 21,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -43,8 +44,9 @@
       "name": "Parenthood",
       "vote_average": 8.1,
       "vote_count": 20,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
       "is_hdr": false
     },
     {
@@ -67,7 +69,8 @@
       "name": "How Are You? It's Alan (Partridge)",
       "vote_average": 6.9,
       "vote_count": 6,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -90,9 +93,10 @@
       "name": "Kingdom",
       "vote_average": 7.1,
       "vote_count": 8,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -114,7 +118,8 @@
       "name": "Naming the Dead",
       "vote_average": 9,
       "vote_count": 2,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -137,7 +142,8 @@
       "name": "Toronto Airport Uncovered",
       "vote_average": 1,
       "vote_count": 1,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -160,8 +166,9 @@
       "name": "Incas: The Rise and Fall",
       "vote_average": 7,
       "vote_count": 1,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -183,8 +190,9 @@
       "name": "Hurricane Katrina: Race Against Time",
       "vote_average": 5.25,
       "vote_count": 14,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -206,7 +214,8 @@
       "name": "Hamza's Hidden Wild Isles",
       "vote_average": 5.5,
       "vote_count": 2,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -229,7 +238,8 @@
       "name": "What's the Monarchy For?",
       "vote_average": 0,
       "vote_count": 1,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -253,7 +263,8 @@
       "name": "The Marvellous Miniature Workshop",
       "vote_average": 5,
       "vote_count": 1,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -276,7 +287,8 @@
       "name": "Investigation Shark Attack",
       "vote_average": 9.3,
       "vote_count": 3,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -299,7 +311,8 @@
       "name": "Shark Quest: Hunt For The Apex Predator",
       "vote_average": 9.5,
       "vote_count": 4,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     }

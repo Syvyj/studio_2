@@ -1,5 +1,5 @@
 {
-  "title": "Prime Video",
+  "title": "Сьогодні на Prime Video",
   "results": [
     {
       "adult": false,
@@ -22,7 +22,8 @@
       "name": "56 днів",
       "vote_average": 5,
       "vote_count": 29,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -47,8 +48,9 @@
       "name": "Крадіжка",
       "vote_average": 7.395,
       "vote_count": 95,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -71,8 +73,9 @@
       "name": "Список смертників: Темний вовк",
       "vote_average": 7.47,
       "vote_count": 203,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -95,7 +98,8 @@
       "name": "Зворотний відлік",
       "vote_average": 7.3,
       "vote_count": 125,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -119,9 +123,10 @@
       "name": "Баллард",
       "vote_average": 7.052,
       "vote_count": 144,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -142,10 +147,11 @@
       "poster_path": "/nHlvaNhb6DxCJBeidacEtiNWZmr.jpg",
       "first_air_date": "2025-11-19",
       "name": "Могутня дев'ятка",
-      "vote_average": 7.973,
-      "vote_count": 73,
-      "has_ua": false,
-      "quality": "SD",
+      "vote_average": 7.959,
+      "vote_count": 74,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -169,7 +175,8 @@
       "name": "Дівчина мого сина",
       "vote_average": 7.139,
       "vote_count": 104,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -193,8 +200,9 @@
       "name": "Метелик",
       "vote_average": 7.065,
       "vote_count": 115,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -216,9 +224,10 @@
       "name": "Лазар",
       "vote_average": 6.336,
       "vote_count": 55,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -240,8 +249,9 @@
       "name": "BAT-FAM",
       "vote_average": 4.393,
       "vote_count": 14,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "HD",
       "is_hdr": false
     },
     {
@@ -265,9 +275,10 @@
       "name": "Вбивця",
       "vote_average": 6.737,
       "vote_count": 57,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -289,8 +300,9 @@
       "name": "Злочинний намір",
       "vote_average": 6.824,
       "vote_count": 34,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -313,7 +325,8 @@
       "name": "Pelayo: Más allá del límite",
       "vote_average": 6.1,
       "vote_count": 9,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -337,7 +350,8 @@
       "name": "Cometierra",
       "vote_average": 6.467,
       "vote_count": 15,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -362,9 +376,10 @@
       "name": "The Alibi",
       "vote_average": 8.3,
       "vote_count": 7,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -387,9 +402,10 @@
       "name": "Hotel Costiera",
       "vote_average": 6.922,
       "vote_count": 32,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -411,8 +427,9 @@
       "name": "Tremembé",
       "vote_average": 7.696,
       "vote_count": 23,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -434,7 +451,8 @@
       "name": "The Nowhere Man",
       "vote_average": 9,
       "vote_count": 3,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -457,9 +475,10 @@
       "name": "Vaka",
       "vote_average": 5.1,
       "vote_count": 15,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -482,7 +501,8 @@
       "name": "Dime tu nombre",
       "vote_average": 5,
       "vote_count": 9,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     }

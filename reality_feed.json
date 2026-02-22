@@ -1,5 +1,5 @@
 {
-  "title": "Реаліті-шоу",
+  "title": "Сьогодні на Реаліті-шоу",
   "results": [
     {
       "adult": false,
@@ -20,7 +20,8 @@
       "name": "Baddies USA",
       "vote_average": 9.5,
       "vote_count": 10,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -43,7 +44,8 @@
       "name": "Canada Shore",
       "vote_average": 8,
       "vote_count": 2,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -67,7 +69,8 @@
       "name": "LOL buscando talento",
       "vote_average": 6,
       "vote_count": 2,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -91,9 +94,10 @@
       "name": "Neighbors",
       "vote_average": 7.7,
       "vote_count": 3,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -114,7 +118,8 @@
       "name": "Celebrity Weakest Link",
       "vote_average": 4,
       "vote_count": 2,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -137,7 +142,8 @@
       "name": "Meu Namorado Coreano",
       "vote_average": 6.4,
       "vote_count": 5,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -160,7 +166,8 @@
       "name": "Largados e Pelados Brasil: A Tribo",
       "vote_average": 0,
       "vote_count": 1,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -183,7 +190,8 @@
       "name": "Kom Je Bij Me Eten? VIPS",
       "vote_average": 7,
       "vote_count": 1,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -206,7 +214,8 @@
       "name": "Обережно, гаряче! Італія",
       "vote_average": 7.227,
       "vote_count": 11,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -229,7 +238,8 @@
       "name": "KPOPPED: Музика без кордонів",
       "vote_average": 3.4,
       "vote_count": 7,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -253,7 +263,8 @@
       "name": "Dish It Out",
       "vote_average": 10,
       "vote_count": 1,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -276,7 +287,8 @@
       "name": "The Celebrity Traitors",
       "vote_average": 8.1,
       "vote_count": 16,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -302,7 +314,8 @@
       "name": "HairCog TV Series",
       "vote_average": 9.1,
       "vote_count": 8,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -325,7 +338,8 @@
       "name": "The Valley: Persian Style",
       "vote_average": 10,
       "vote_count": 1,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -348,7 +362,8 @@
       "name": "Botched Presents: Plastic Surgery Rewind",
       "vote_average": 7.3,
       "vote_count": 3,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -371,9 +386,10 @@
       "name": "The Power",
       "vote_average": 6,
       "vote_count": 1,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -394,7 +410,8 @@
       "name": "L'amore è cieco: Italia",
       "vote_average": 7.5,
       "vote_count": 6,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -417,7 +434,8 @@
       "name": "Pour le meilleur et à l'aveugle",
       "vote_average": 6.8,
       "vote_count": 4,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -441,7 +459,8 @@
       "name": "Are You My First?",
       "vote_average": 2,
       "vote_count": 2,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -464,7 +483,8 @@
       "name": "Drag Race Philippines: Slaysian Royale",
       "vote_average": 8.7,
       "vote_count": 3,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     }

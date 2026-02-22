@@ -1,5 +1,5 @@
 {
-  "title": "Disney+",
+  "title": "Сьогодні на Disney+",
   "results": [
     {
       "adult": false,
@@ -21,7 +21,8 @@
       "name": "Пам'ять убивці",
       "vote_average": 7.6,
       "vote_count": 19,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -44,8 +45,9 @@
       "name": "Історія кохання",
       "vote_average": 8.9,
       "vote_count": 16,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
       "is_hdr": false
     },
     {
@@ -66,11 +68,12 @@
       "poster_path": "/vCbWCw7fUdjYxLuNka5EOeLcQJE.jpg",
       "first_air_date": "2026-01-21",
       "name": "Краса",
-      "vote_average": 6.1,
+      "vote_average": 6.097,
       "vote_count": 62,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -89,9 +92,10 @@
       "release_date": "2025-10-08",
       "title": "Трон: Арес",
       "video": false,
-      "vote_average": 6.48,
-      "vote_count": 1204,
+      "vote_average": 6.477,
+      "vote_count": 1201,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -113,9 +117,10 @@
       "poster_path": "/9a5jFPjnBHn0SL7YYd9HFMiM8oW.jpg",
       "first_air_date": "2026-01-27",
       "name": "Диво-чоловік",
-      "vote_average": 7.139,
+      "vote_average": 7.1,
       "vote_count": 208,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -139,9 +144,10 @@
       "name": "Чужий: Земля",
       "vote_average": 7.35,
       "vote_count": 931,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -164,9 +170,10 @@
       "name": "Залізне серце",
       "vote_average": 5.363,
       "vote_count": 413,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -189,9 +196,10 @@
       "name": "Marvel Zombies",
       "vote_average": 7.233,
       "vote_count": 302,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -214,8 +222,9 @@
       "name": "Очі Ваканди",
       "vote_average": 6.114,
       "vote_count": 149,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -238,8 +247,9 @@
       "name": "Підспідок",
       "vote_average": 6.677,
       "vote_count": 47,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -262,6 +272,7 @@
       "vote_average": 6.9,
       "vote_count": 617,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -284,7 +295,8 @@
       "name": "Hija del fuego: La venganza de la bastarda",
       "vote_average": 7.667,
       "vote_count": 9,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -308,8 +320,9 @@
       "name": "Best Medicine",
       "vote_average": 7.692,
       "vote_count": 13,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -331,7 +344,8 @@
       "name": "Sneaker Wars: Adidas V. Puma",
       "vote_average": 7.667,
       "vote_count": 6,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -357,7 +371,8 @@
       "name": "Fortnite x The Simpsons",
       "vote_average": 6.611,
       "vote_count": 27,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -381,6 +396,7 @@
       "vote_average": 6.769,
       "vote_count": 26,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -403,7 +419,8 @@
       "name": "Mar afuera",
       "vote_average": 7.188,
       "vote_count": 16,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -427,8 +444,9 @@
       "name": "Les Disparues de la gare",
       "vote_average": 7.593,
       "vote_count": 27,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -450,8 +468,9 @@
       "name": "Fire and Water: Making the Avatar Films",
       "vote_average": 6.7,
       "vote_count": 7,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -478,9 +497,10 @@
       "name": "LEGO Marvel Avengers: Strange Tails",
       "vote_average": 5.6,
       "vote_count": 8,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
+      "is_hdr": true
     }
   ]
 }

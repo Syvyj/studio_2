@@ -1,30 +1,6 @@
 {
-  "title": "Польська стрічка",
+  "title": "Сьогодні на Польська стрічка",
   "results": [
-    {
-      "adult": false,
-      "backdrop_path": "/ra12F3J3uVe112FEqBGmQapW2Bu.jpg",
-      "genre_ids": [
-        18,
-        10768
-      ],
-      "id": 270444,
-      "origin_country": [
-        "PL"
-      ],
-      "original_language": "pl",
-      "original_name": "Ołowiane dzieci",
-      "overview": "Молода педіатриня виявляє, що діти, які живуть поблизу металургійного заводу, страждають на отруєння свинцем, і ризикує всім заради їхнього порятунку.",
-      "popularity": 32.8529,
-      "poster_path": "/hceafL0x6jfA7E7a1Yysoj4vdPE.jpg",
-      "first_air_date": "2026-02-11",
-      "name": "Свинцеві діти",
-      "vote_average": 8.469,
-      "vote_count": 16,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
     {
       "adult": false,
       "backdrop_path": "/2yo2k8CmgZxfBQYAZ8TnHIYzEme.jpg",
@@ -45,81 +21,9 @@
       "vote_average": 6.517,
       "vote_count": 89,
       "has_ua": true,
+      "has_pl": true,
       "quality": "4K",
       "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/r1cbjlVcADjxkgSxSFEPlBXLytn.jpg",
-      "genre_ids": [
-        9648,
-        18,
-        80
-      ],
-      "id": 276254,
-      "origin_country": [
-        "PL"
-      ],
-      "original_language": "pl",
-      "original_name": "Scheda",
-      "overview": "одії розгортаються в невеликому приморському місті Гель у Польщі. Там помирає відставний капітан ВМС Ян \"Джонні\" Мроз. Перед смертю він змінює заповіт, що впливає на життя його трьох дітей: бізнесмена Ганки, яка переживає не найкращі часи, амбітного політика Павела й одинака та білої ворони Мацея.",
-      "popularity": 4.5997,
-      "poster_path": "/zym2yWB5rKSosFkMa1wnt9Au1vQ.jpg",
-      "first_air_date": "2025-08-22",
-      "name": "Спадок",
-      "vote_average": 8.1,
-      "vote_count": 8,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/uanBIz4myibV0ytiPgzCVDz1kNg.jpg",
-      "genre_ids": [
-        18,
-        9648
-      ],
-      "id": 217528,
-      "origin_country": [
-        "PL"
-      ],
-      "original_language": "pl",
-      "original_name": "Heweliusz",
-      "overview": "Після катастрофи на поромі капітан, якого не було на службі, вирушає на пошуки відповідей і справедливості для загиблих і тих, кого вони залишили.",
-      "popularity": 4.5806,
-      "poster_path": "/4EDuO3mValK40IPVYLwPQR1NcW6.jpg",
-      "first_air_date": "2025-11-05",
-      "name": "Гевелій",
-      "vote_average": 7.383,
-      "vote_count": 47,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/5D8xbKFrh9pqVUhjXVGZMpfqjwv.jpg",
-      "genre_ids": [
-        18,
-        9648
-      ],
-      "id": 304199,
-      "origin_country": [
-        "PL"
-      ],
-      "original_language": "pl",
-      "original_name": "Niebo",
-      "overview": "",
-      "popularity": 3.7005,
-      "poster_path": "/nEPHznUswIcS7f5nVxIv6GogFtb.jpg",
-      "first_air_date": "2025-12-26",
-      "name": "Niebo",
-      "vote_average": 4.2,
-      "vote_count": 5,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
     },
     {
       "adult": false,
@@ -139,30 +43,7 @@
       "vote_average": 6.25,
       "vote_count": 12,
       "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/qLaT21ydPfLaogaOMOF7Y1P9zhY.jpg",
-      "genre_ids": [
-        18,
-        80
-      ],
-      "id": 254356,
-      "origin_country": [
-        "PL"
-      ],
-      "original_language": "pl",
-      "original_name": "Breslau",
-      "overview": "",
-      "popularity": 2.5325,
-      "poster_path": "/jgxHq6RnjxQzaOc2ChdCTVEtgCt.jpg",
-      "first_air_date": "2025-09-12",
-      "name": "Breslau",
-      "vote_average": 6.425,
-      "vote_count": 20,
-      "has_ua": false,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -185,6 +66,7 @@
       "vote_average": 7.9,
       "vote_count": 4,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -210,30 +92,7 @@
       "vote_average": 10,
       "vote_count": 1,
       "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/smbYqVcXjEJ22csrA7GVga4bMQ9.jpg",
-      "genre_ids": [
-        99,
-        80
-      ],
-      "id": 313228,
-      "origin_country": [
-        "PL"
-      ],
-      "original_language": "pl",
-      "original_name": "Morderca szyty na miarę",
-      "overview": "",
-      "popularity": 1.84,
-      "poster_path": "/3pcmkcUSVbpgKvKLvM7kpDJivUU.jpg",
-      "first_air_date": "2026-02-20",
-      "name": "Morderca szyty na miarę",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -257,6 +116,7 @@
       "vote_average": 8,
       "vote_count": 1,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -278,6 +138,7 @@
       "vote_average": 6.8,
       "vote_count": 3,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -300,6 +161,7 @@
       "vote_average": 6,
       "vote_count": 4,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -321,6 +183,7 @@
       "vote_average": 7,
       "vote_count": 1,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -343,31 +206,7 @@
       "vote_average": 5,
       "vote_count": 2,
       "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/9Akk6liYQqZEqD4vm0hT2dPQLhf.jpg",
-      "genre_ids": [
-        80,
-        10759,
-        18
-      ],
-      "id": 294406,
-      "origin_country": [
-        "PL"
-      ],
-      "original_language": "pl",
-      "original_name": "Glina. Nowy rozdział",
-      "overview": "",
-      "popularity": 1.1709,
-      "poster_path": "/bRojnurH5NfaOiXAZGGbQ8RTbv9.jpg",
-      "first_air_date": "2025-10-16",
-      "name": "Glina. Nowy rozdział",
-      "vote_average": 6.75,
-      "vote_count": 4,
-      "has_ua": false,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -391,6 +230,7 @@
       "vote_average": 7.1,
       "vote_count": 8,
       "has_ua": true,
+      "has_pl": false,
       "quality": "FHD",
       "is_hdr": false
     },
@@ -413,6 +253,7 @@
       "vote_average": 7.05,
       "vote_count": 20,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -435,30 +276,192 @@
       "vote_average": 4.75,
       "vote_count": 4,
       "has_ua": true,
+      "has_pl": false,
       "quality": "FHD",
       "is_hdr": true
     },
     {
       "adult": false,
-      "backdrop_path": "/kZITwYgsJXRa9lXXe2TnT0EEPxn.jpg",
+      "backdrop_path": "/5JOHHE5jJiNrwLpQpfrbvRTA0nZ.jpg",
       "genre_ids": [
-        99
+        10751,
+        12
       ],
-      "id": 304276,
-      "origin_country": [
-        "PL"
-      ],
+      "id": 1361623,
       "original_language": "pl",
-      "original_name": "Krychowiak: krok od szczytu",
+      "original_title": "O psie, który jeździł koleją 2",
       "overview": "",
-      "popularity": 0.8474,
-      "poster_path": "/dfJadPKSP1NpfeTJbPLpCMgahja.jpg",
-      "first_air_date": "2025-11-27",
-      "name": "Krychowiak: krok od szczytu",
-      "vote_average": 8,
-      "vote_count": 1,
-      "has_ua": false,
+      "popularity": 0.8111,
+      "poster_path": "/u6wf4AQkBE5peN6ze1EDnlmyvqx.jpg",
+      "release_date": "2025-08-08",
+      "title": "O psie, który jeździł koleją 2",
+      "video": false,
+      "vote_average": 6.063,
+      "vote_count": 8,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8v02Znw96srXAjvj0mhwL5BYKUU.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 1637218,
+      "original_language": "pl",
+      "original_title": "Ned",
+      "overview": "",
+      "popularity": 0.78,
+      "poster_path": "/r52h9MW4Tct6dy2u3TeOZlDgTOf.jpg",
+      "release_date": "2025-10-03",
+      "title": "Ned",
+      "video": false,
+      "vote_average": 8.5,
+      "vote_count": 4,
+      "has_ua": true,
+      "has_pl": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bXVuPPT7fvIPdMu7UYgVHyLIdI0.jpg",
+      "genre_ids": [
+        80,
+        35,
+        28
+      ],
+      "id": 1339552,
+      "original_language": "pl",
+      "original_title": "Vinci 2",
+      "overview": "",
+      "popularity": 0.675,
+      "poster_path": "/w1g09C1ftgtqJRnMENgNftPtZ0Q.jpg",
+      "release_date": "2025-07-25",
+      "title": "Vinci 2",
+      "video": false,
+      "vote_average": 6.13,
+      "vote_count": 23,
+      "has_ua": true,
+      "has_pl": true,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ld3PIgbveWOPF2B8s5iwENDk7YM.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1516518,
+      "original_language": "sk",
+      "original_title": "Otec",
+      "overview": "",
+      "popularity": 0.5968,
+      "poster_path": "/qz4e1LLeRKk74a0Pyfqvb8zQlJe.jpg",
+      "release_date": "2025-09-11",
+      "title": "Otec",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 11,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xlDLKxpVBja48g4jRuMkzKkF4Jn.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1416589,
+      "original_language": "pl",
+      "original_title": "Brat",
+      "overview": "",
+      "popularity": 0.5361,
+      "poster_path": "/fhrJYQ1EuPGXqG4B4lqnUYP0TFZ.jpg",
+      "release_date": "2025-12-05",
+      "title": "Brat",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 4,
+      "has_ua": true,
+      "has_pl": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zhpHhQF9IVKUwpB28rydxNEF6q0.jpg",
+      "genre_ids": [
+        27,
+        9648,
+        53,
+        35
+      ],
+      "id": 1637450,
+      "original_language": "en",
+      "original_title": "The Buckethead",
+      "overview": "",
+      "popularity": 0.5034,
+      "poster_path": "/lWkKBoeeySiUDQY6C2A8fMrPWJk.jpg",
+      "release_date": "2025-12-20",
+      "title": "The Buckethead",
+      "video": false,
+      "vote_average": 9,
+      "vote_count": 3,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uWx7AScgVcG8fdEju6oKgzAxXIl.jpg",
+      "genre_ids": [
+        35,
+        10749
+      ],
+      "id": 1468789,
+      "original_language": "pl",
+      "original_title": "Planeta Singli 4: Wyspa",
+      "overview": "Відпочинок п’ятьох друзів у Греції перетворюється на кумедну детективну історію, коли партнера одного з них починають підозрювати в шахрайстві.",
+      "popularity": 0.4945,
+      "poster_path": "/l7V0EI8Pq3izRCoFmMlbg2YxHM0.jpg",
+      "release_date": "2025-08-26",
+      "title": "Планета самотніх: Грецька пригода",
+      "video": false,
+      "vote_average": 5.167,
+      "vote_count": 27,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8eE1EBfxu7yXFO2gRsWunrSRMCx.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1192319,
+      "original_language": "en",
+      "original_title": "Camper",
+      "overview": "",
+      "popularity": 0.4581,
+      "poster_path": "/its1aqxjI1WK6vN6A2ECpENxfTz.jpg",
+      "release_date": "2025-12-12",
+      "title": "Camper",
+      "video": false,
+      "vote_average": 3,
+      "vote_count": 1,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     }
   ]

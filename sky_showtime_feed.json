@@ -1,5 +1,5 @@
 {
-  "title": "Sky Showtime",
+  "title": "Сьогодні на Sky Showtime",
   "results": [
     {
       "adult": false,
@@ -17,9 +17,10 @@
       "release_date": "2025-07-29",
       "title": "Війна світів",
       "video": false,
-      "vote_average": 4.205,
-      "vote_count": 897,
+      "vote_average": 4.21,
+      "vote_count": 895,
       "has_ua": true,
+      "has_pl": true,
       "quality": "4K",
       "is_hdr": true
     },
@@ -39,11 +40,35 @@
       "release_date": "2026-01-01",
       "title": "Примат",
       "video": false,
-      "vote_average": 6.639,
-      "vote_count": 373,
+      "vote_average": 6.646,
+      "vote_count": 369,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xBORKTaQJTq3l7EdnTTnrZnYzYa.jpg",
+      "genre_ids": [
+        28,
+        80
+      ],
+      "id": 1327688,
+      "original_language": "en",
+      "original_title": "One Mile: Chapter One",
+      "overview": "",
+      "popularity": 53.5832,
+      "poster_path": "/1GZaoYe0mQy211DgDSAxAXr30ul.jpg",
+      "release_date": "2026-02-20",
+      "title": "One Mile: Chapter One",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 14,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "SD",
+      "is_hdr": false
     },
     {
       "adult": false,
@@ -62,9 +87,10 @@
       "release_date": "2025-07-01",
       "title": "Світ Юрського періоду: Відродження",
       "video": false,
-      "vote_average": 6.306,
-      "vote_count": 3008,
+      "vote_average": 6.304,
+      "vote_count": 3006,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -85,9 +111,10 @@
       "release_date": "2025-11-11",
       "title": "Людина, що біжить",
       "video": false,
-      "vote_average": 6.797,
-      "vote_count": 1172,
+      "vote_average": 6.798,
+      "vote_count": 1170,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -109,8 +136,9 @@
       "title": "Голий пістолет",
       "video": false,
       "vote_average": 6.41,
-      "vote_count": 1457,
+      "vote_count": 1456,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -133,6 +161,7 @@
       "vote_average": 6.986,
       "vote_count": 1275,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -155,6 +184,7 @@
       "vote_average": 6.755,
       "vote_count": 922,
       "has_ua": true,
+      "has_pl": true,
       "quality": "4K",
       "is_hdr": true
     },
@@ -175,9 +205,10 @@
       "release_date": "2025-11-19",
       "title": "Wicked: Чародійка. Частина 2",
       "video": false,
-      "vote_average": 6.689,
-      "vote_count": 824,
+      "vote_average": 6.7,
+      "vote_count": 823,
       "has_ua": true,
+      "has_pl": true,
       "quality": "4K",
       "is_hdr": true
     },
@@ -200,9 +231,10 @@
       "release_date": "2025-07-24",
       "title": "Поганці 2",
       "video": false,
-      "vote_average": 7.694,
-      "vote_count": 669,
+      "vote_average": 7.69,
+      "vote_count": 668,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -226,6 +258,7 @@
       "vote_average": 5.882,
       "vote_count": 241,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -248,6 +281,7 @@
       "vote_average": 5.8,
       "vote_count": 318,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -272,6 +306,7 @@
       "vote_average": 6.6,
       "vote_count": 58,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -292,8 +327,9 @@
       "title": "Порочний",
       "video": false,
       "vote_average": 5.984,
-      "vote_count": 224,
+      "vote_count": 223,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -317,6 +353,7 @@
       "vote_average": 5.229,
       "vote_count": 48,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -338,6 +375,7 @@
       "vote_average": 8.8,
       "vote_count": 22,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -363,6 +401,7 @@
       "vote_average": 6.833,
       "vote_count": 12,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -386,48 +425,7 @@
       "vote_average": 7.2,
       "vote_count": 6,
       "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/pFFLGNUz6sld3KqgwAIj2jVFhQe.jpg",
-      "genre_ids": [
-        16
-      ],
-      "id": 1485539,
-      "original_language": "en",
-      "original_title": "Dora the Explorer: Mermaid Adventures",
-      "overview": "",
-      "popularity": 0.2294,
-      "poster_path": "/kHtgX0FEeRvxFWdV8iWXZuEYTJ5.jpg",
-      "release_date": "2025-09-18",
-      "title": "Dora the Explorer: Mermaid Adventures",
-      "video": false,
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/2UZW9QGaBjq2JS9boDcfRDEyOtB.jpg",
-      "genre_ids": [
-        53
-      ],
-      "id": 1540605,
-      "original_language": "pt",
-      "original_title": "Quase Deserto",
-      "overview": "",
-      "popularity": 0.1813,
-      "poster_path": "/gaKum6suOw0JG4n3lt65V5XKtWA.jpg",
-      "release_date": "2025-11-27",
-      "title": "Quase Deserto",
-      "video": false,
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     }

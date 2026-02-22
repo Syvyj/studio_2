@@ -1,5 +1,5 @@
 {
-  "title": "Українська стрічка",
+  "title": "Сьогодні на Українська стрічка",
   "results": [
     {
       "adult": false,
@@ -21,31 +21,8 @@
       "vote_average": 5.455,
       "vote_count": 11,
       "has_ua": true,
+      "has_pl": false,
       "quality": "FHD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/qttKpM9ucFH7Mbo7inGilOZT0s4.jpg",
-      "genre_ids": [
-        18,
-        80
-      ],
-      "id": 310537,
-      "origin_country": [
-        "UA"
-      ],
-      "original_language": "uk",
-      "original_name": "Тиха Нава",
-      "overview": "Події серіалу розгортаються у невеликому містечку Тиха Нава. Молодий юрист Адам Юшкевич випадково потравляє у центр розслідування серії жорстоких злочинів. Літо 2018 року. Адам та його наречена Інна приїжджають на відпочинок. Після конфлікту Інна вирушає на пошуки Адама і стає жертвою зґвалтування. Поліція відмовляється належно розслідувати злочин, а дівчина починає підозрювати самого Адама. Їхні стосунки руйнуються, але чоловік не може змиритися із замовчуванням і повертається, аби самостійно провести розслідування. Невдовзі у містечку стається новий злочин — зґвалтування і вбивство. Адам опиняється у протистоянні з системою, де правоохоронці фальсифікують докази, свідки мовчать, а жертви намагаються забути травму замість того, щоб боротися за справедливість.",
-      "popularity": 1.7672,
-      "poster_path": "/3mnX6J8axXhx8MAhaLZdi7LNCPg.jpg",
-      "first_air_date": "2026-01-15",
-      "name": "Тиха Нава",
-      "vote_average": 7.2,
-      "vote_count": 8,
-      "has_ua": false,
-      "quality": "SD",
       "is_hdr": false
     },
     {
@@ -66,6 +43,7 @@
       "vote_average": 7,
       "vote_count": 2,
       "has_ua": true,
+      "has_pl": false,
       "quality": "FHD",
       "is_hdr": false
     },
@@ -87,53 +65,7 @@
       "vote_average": 6.333,
       "vote_count": 3,
       "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/2OBOJwNIQXxshOzlZG5g8XX7DkI.jpg",
-      "genre_ids": [
-        35,
-        18
-      ],
-      "id": 304775,
-      "origin_country": [
-        "UA"
-      ],
-      "original_language": "uk",
-      "original_name": "Вітя",
-      "overview": "Автослюсар з маленького містечка стає відомим завдяки своїм мудрим порадам. Тепер йому доведеться обирати між мрією стати психологом у Києві й допомогою своїй громаді.",
-      "popularity": 0.9433,
-      "poster_path": "/8LMvtU710yu5zKMCgTKdE9g7TYo.jpg",
-      "first_air_date": "2025-09-01",
-      "name": "Вітя",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/jfum19UtlA0MFSNHvsnlKSYtlVM.jpg",
-      "genre_ids": [
-        9648
-      ],
-      "id": 304566,
-      "origin_country": [
-        "UA"
-      ],
-      "original_language": "uk",
-      "original_name": "Зрадники",
-      "overview": "Шоу «Зрадники» — адаптація світового хіта The Traitors. В українському реаліті-шоу 22 учасники, які змагаються за пів мільйона гривень. Серед них є “вірні” та “зрадники”. Завдання “вірних” — викрити зрадників, а зрадників — дійти до фіналу. Дії відбуваються у замку Шенборнів.",
-      "popularity": 0.9195,
-      "poster_path": "/mo4pvmctnfF7nAYuq9xwTDdYCLG.jpg",
-      "first_air_date": "2025-10-31",
-      "name": "Зрадники",
-      "vote_average": 7,
-      "vote_count": 1,
-      "has_ua": false,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -156,54 +88,7 @@
       "vote_average": 3,
       "vote_count": 1,
       "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/WdSJ3pThUAOklNDsF0acfUFFyB.jpg",
-      "genre_ids": [
-        18,
-        10751
-      ],
-      "id": 301860,
-      "origin_country": [
-        "UA"
-      ],
-      "original_language": "uk",
-      "original_name": "Зворотний напрямок",
-      "overview": "«Зворотний напрямок» — український драматичний серіал, що розповідає історію Дарини, яка після трагічної втрати батьків змушена боротися за своє місце в житті. Замість підтримки вона стикається з приниженням від тітки Катерини, котра мала б стати для неї опорою.",
-      "popularity": 0.8022,
-      "poster_path": "/8MHZvdmdYOJin8s63IjW2a2Acdc.jpg",
-      "first_air_date": "2025-09-29",
-      "name": "Зворотний напрямок",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/laMdl34fgXMzdYwxUL0OOyWgQlV.jpg",
-      "genre_ids": [
-        35,
-        18
-      ],
-      "id": 306813,
-      "origin_country": [
-        "UA"
-      ],
-      "original_language": "uk",
-      "original_name": "Ховаючи колишню",
-      "overview": "Це історія про стосунки, секс, дружбу та місце чоловіків і жінок у сучасному світі, який стрімко змінюється через війну. Сюжет побудований навколо знайомства чотирьох чоловіків під час церемонії прощання з їхньою спільною колишньою, яка загинула на фронті.",
-      "popularity": 0.704,
-      "poster_path": "/7eBV1hYL0B5Lw9VW4SioTgGIdc9.jpg",
-      "first_air_date": "2025-11-26",
-      "name": "Ховаючи колишню",
-      "vote_average": 7.667,
-      "vote_count": 3,
-      "has_ua": false,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -225,6 +110,7 @@
       "vote_average": 7,
       "vote_count": 1,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -246,6 +132,7 @@
       "vote_average": 7.5,
       "vote_count": 2,
       "has_ua": true,
+      "has_pl": true,
       "quality": "FHD",
       "is_hdr": true
     },
@@ -268,6 +155,7 @@
       "vote_average": 7.167,
       "vote_count": 6,
       "has_ua": true,
+      "has_pl": false,
       "quality": "FHD",
       "is_hdr": false
     },
@@ -289,30 +177,8 @@
       "vote_average": 4,
       "vote_count": 3,
       "has_ua": true,
+      "has_pl": false,
       "quality": "FHD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/oaX1rbWQpNTn8oHR8iGFoPmWCBV.jpg",
-      "genre_ids": [
-        18
-      ],
-      "id": 307451,
-      "origin_country": [
-        "UA"
-      ],
-      "original_language": "uk",
-      "original_name": "Бийся, серце, бийся",
-      "overview": "23 лютого 2022 року хлопчик помирає від крововиливу в мозок, і Віра вирішує віддати його серце шестирічній Богданці, яка потребує термінової трансплантації. Після цього жінка планує покінчити власне життя, переконавшись, що серце її дитини продовжує битися в грудях іншої дівчинки.",
-      "popularity": 0.4217,
-      "poster_path": "/SlPSnWIUWjlTDShtMbUYOX7K7B.jpg",
-      "first_air_date": "2025-10-20",
-      "name": "Бийся, серце, бийся",
-      "vote_average": 7,
-      "vote_count": 1,
-      "has_ua": false,
-      "quality": "SD",
       "is_hdr": false
     },
     {
@@ -333,6 +199,7 @@
       "vote_average": 5.5,
       "vote_count": 2,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -355,55 +222,8 @@
       "vote_average": 7,
       "vote_count": 2,
       "has_ua": false,
+      "has_pl": false,
       "quality": "4K",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/ayLHeYk2NJ0hw9lwcYjHiQ9UYqA.jpg",
-      "genre_ids": [
-        18,
-        10768
-      ],
-      "id": 309453,
-      "origin_country": [
-        "UA"
-      ],
-      "original_language": "uk",
-      "original_name": "Фортеця",
-      "overview": "Історія українського опору і військової оборони міста Харкова та області в перші дні російського вторгнення 2022 року, заснована на реальних подіях.",
-      "popularity": 0.2967,
-      "poster_path": "/mjf50e4e2wMHIOFZgOWqK33M7xI.jpg",
-      "first_air_date": "2025-12-04",
-      "name": "Фортеця",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/mHlruDyiPOZHqW4RLRHVjHsvXgo.jpg",
-      "genre_ids": [
-        18,
-        10768
-      ],
-      "id": 307476,
-      "origin_country": [
-        "UA"
-      ],
-      "original_language": "uk",
-      "original_name": "Команда",
-      "overview": "Історія розповідає про тренера футбольної команди Віталія та його молодих спортсменів, які у надзвичайно складних умовах обʼєднуються, щоб підтримати одне одного та наблизити майбутні перемоги. Події розгортаються у Херсоні, де герої знаходять сили протистояти викликам та продовжувати боротьбу.",
-      "popularity": 0.2877,
-      "poster_path": "/gRMtGXojkAAqghyl1eIEHLTngHv.jpg",
-      "first_air_date": "2025-11-11",
-      "name": "Команда",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
-      "quality": "SD",
       "is_hdr": false
     },
     {
@@ -425,31 +245,210 @@
       "vote_average": 8,
       "vote_count": 2,
       "has_ua": true,
+      "has_pl": false,
       "quality": "FHD",
       "is_hdr": false
     },
     {
       "adult": false,
-      "backdrop_path": "/djxYNKSzkI6AXG49cnkVH7hxn5M.jpg",
+      "backdrop_path": "/zZRJD5mVrpEFGbPcgLMWtqscbS5.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1421157,
+      "original_language": "uk",
+      "original_title": "Стрічка часу",
+      "overview": "Фільм про вчителів та учнів, які під час військових дій продовжують навчати та навчатися, зокрема на деокупованих і прифронтових територіях. Він показує, як війна в Україні впливає на повсякденне життя учнів і вчителів, та виклики, пов’язані з намаганням зберегти освіту і відчуття нормального життя в умовах постійної небезпеки.\r Унікальна хроніка показує шкільне життя в різних регіонах країни: від Харкова та Запоріжжя до Києва, Чернігова, Черкас, Одеси, Миколаєва, Очакова, Кам’янського, а також містечок і селищ, таких як Буча, Бородянка, Зарічне.",
+      "popularity": 0.2055,
+      "poster_path": "/b49YNh0qTTBbxS7IP4sWdypTKoP.jpg",
+      "release_date": "2025-09-10",
+      "title": "Стрічка часу",
+      "video": false,
+      "vote_average": 5.3,
+      "vote_count": 3,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qkSRkM2cCfb4wYnzCymx8s8HoZY.jpg",
+      "genre_ids": [
+        18,
+        10752,
+        9648,
+        10749
+      ],
+      "id": 1506768,
+      "original_language": "en",
+      "original_title": "Just Drifting",
+      "overview": "",
+      "popularity": 0.1975,
+      "poster_path": "/6CCZ8XQCtSf6JLXpDWmIwbrQ8Ha.jpg",
+      "release_date": "2025-06-25",
+      "title": "Just Drifting",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 1,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3iZwXeZmitP4fvwn3qXmb5ofjbl.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1165298,
+      "original_language": "uk",
+      "original_title": "Куба і Аляска",
+      "overview": "Фільм розповідає історію двох українських військовослужбовиць, найкращих подруг і дотепних парамедикинь під позивними «Куба» та «Аляска» на передовій російсько-української війни, які переживають спільну для всіх солдатів історію: чим довше вони захищають Україну, тим більше втрачають зв’язок із друзями, родиною та колишнім життям.",
+      "popularity": 0.1651,
+      "poster_path": "/7ODABHYCAsGM9bNf1BPinOi26K0.jpg",
+      "release_date": "2025-08-14",
+      "title": "Куба і Аляска",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 3,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        9648,
+        35,
+        80
+      ],
+      "id": 1485681,
+      "original_language": "uk",
+      "original_title": "10 блогерят",
+      "overview": "Герої опиняються замкненими у знімальному павільйоні, де невідомий запускає смертельну гру. Кожні 10 хвилин аудиторія онлайн голосуванням вирішує, хто стане наступною жертвою. Іронічно, жорстко та актуально – фільм зачіпає проблему хейту та його реальних наслідків.",
+      "popularity": 0.1604,
+      "poster_path": "/nV7mLCYUGaeoEZPrlRC2N6CgX60.jpg",
+      "release_date": "2025-10-16",
+      "title": "10 блогерят",
+      "video": false,
+      "vote_average": 4.5,
+      "vote_count": 2,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/l19zBSsU4cOVv3kvPcF7wz9WXpb.jpg",
       "genre_ids": [
         35
       ],
-      "id": 304662,
-      "origin_country": [
-        "UA"
-      ],
+      "id": 1580198,
       "original_language": "uk",
-      "original_name": "Життя на трьох",
-      "overview": "Історія про трьох абсолютно різних чоловіків, які вимушені жити під одним дахом у зйомній квартирі. Їхні секрети, мрії та щоденні негаразди стають джерелом безлічі комічних ситуацій, розкриваючи контрастні стилі життя та їхню взаємодію зі світом. Попри всі побутові та особисті проблеми, герої вчаться цінувати дружбу, долати стрес і завжди знаходять привід для сміху.",
-      "popularity": 0.2386,
-      "poster_path": "/3kfIwOQJPdlaKSzs4LcqSNSHJ0O.jpg",
-      "first_air_date": "2025-10-17",
-      "name": "Життя на трьох",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
+      "original_title": "Жив пес Сірко",
+      "overview": "Сучасне прочитання відомої української народної казки, що розгортається напередодні різдвяних свят.  У центрі сюжету – пес Сірко, який постає розумним і кмітливим помічником. Разом із вовчою компанією він допомагає родині впоратися з труднощами, що виникають одна за одною. Хитрі задуми, неочікувані союзи та комедійні ситуації постійно змінюють хід подій. Кожен новий епізод перевіряє героїв на здатність домовлятися, довіряти та підтримувати близьких у складний момент.",
+      "popularity": 0.1093,
+      "poster_path": "/lnfPWVBOrrWvtZ5BFd1Bt8KTuex.jpg",
+      "release_date": "2025-12-24",
+      "title": "Жив пес Сірко",
+      "video": false,
+      "vote_average": 5.25,
+      "vote_count": 4,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18
+      ],
+      "id": 1587277,
+      "original_language": "en",
+      "original_title": "Being Different Is My Superpower",
+      "overview": "",
+      "popularity": 0.1078,
+      "poster_path": "/fGasfz7x8JvRDUY62ea6qNNK7SP.jpg",
+      "release_date": "2025-11-30",
+      "title": "Being Different Is My Superpower",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nqwQmuINGUj72OadSnNN2JN6gNt.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1518749,
+      "original_language": "uk",
+      "original_title": "Антарктида",
+      "overview": "“Антарктида” — це фільм-подорож  Антона Птушкіна на українську антарктичну станцію «Академік Вернадський». Це історія про людей, які досліджують майбутнє планети, живучи в умовах, де немає магазинів, дерев та особистого простору.  Фільм розповідає про виклики крижаного континенту  і побутове життя на станції, про важливість кліматичних спостережень і про те, чому Україна — серед небагатьох країн, що мають повноцінну присутність в Антарктиді. Це історія про науку, танення льодовиків, і, звісно, про пінгвінів.",
+      "popularity": 0.0999,
+      "poster_path": "/1YQC0GFgxA8YgK7fn4TB3nYI62Q.jpg",
+      "release_date": "2025-09-04",
+      "title": "Антарктида",
+      "video": false,
+      "vote_average": 7.861,
+      "vote_count": 18,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nS8opGhnxDvn49vSr9LQ4bQ3dly.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 951038,
+      "original_language": "uk",
+      "original_title": "Тиха повінь",
+      "overview": "Розташована біля мальовничого річкового каньйону на заході України, пацифістська громада з унікальними релігійними віруваннями бачить, як її мирний спосіб життя поступово руйнується через регулярні повені і, зрештою, несподівану війну.",
+      "popularity": 0.0978,
+      "poster_path": "/nfteOfsZxJG3txi9qtCqERrYMlM.jpg",
+      "release_date": "2025-11-16",
+      "title": "Тиха повінь",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/b1oC21H2wYZD56SWBLZabqtcD9F.jpg",
+      "genre_ids": [],
+      "id": 1521882,
+      "original_language": "xx",
+      "original_title": "Fractured",
+      "overview": "",
+      "popularity": 0.0852,
+      "poster_path": "/obArrQSHJ1DcCxlOx1FjdgJNqDb.jpg",
+      "release_date": "2025-07-26",
+      "title": "Fractured",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 1,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     }
   ]
 }

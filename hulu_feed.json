@@ -1,5 +1,5 @@
 {
-  "title": "Hulu",
+  "title": "Сьогодні на Hulu",
   "results": [
     {
       "adult": false,
@@ -18,9 +18,10 @@
       "release_date": "2025-11-05",
       "title": "Хижак: Дикі землі",
       "video": false,
-      "vote_average": 7.718,
-      "vote_count": 2106,
+      "vote_average": 7.72,
+      "vote_count": 2114,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -43,8 +44,9 @@
       "name": "Історія кохання",
       "vote_average": 8.9,
       "vote_count": 16,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
       "is_hdr": false
     },
     {
@@ -67,9 +69,10 @@
       "name": "Краса",
       "vote_average": 6.1,
       "vote_count": 62,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -87,9 +90,10 @@
       "release_date": "2025-11-20",
       "title": "Сім'я напрокат",
       "video": false,
-      "vote_average": 7.828,
-      "vote_count": 431,
+      "vote_average": 7.82,
+      "vote_count": 434,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -113,6 +117,7 @@
       "vote_average": 6.013,
       "vote_count": 186,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -134,11 +139,12 @@
       "poster_path": "/8e8IKfP0tiR62cNsh4ZpSIWwUVJ.jpg",
       "first_air_date": "2025-08-12",
       "name": "Чужий: Земля",
-      "vote_average": 7.35,
-      "vote_count": 931,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 7.348,
+      "vote_count": 929,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -159,6 +165,7 @@
       "vote_average": 5.651,
       "vote_count": 76,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -182,6 +189,7 @@
       "vote_average": 5.821,
       "vote_count": 204,
       "has_ua": true,
+      "has_pl": true,
       "quality": "4K",
       "is_hdr": true
     },
@@ -206,6 +214,7 @@
       "vote_average": 6.736,
       "vote_count": 89,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": false
     },
@@ -226,9 +235,10 @@
       "release_date": "2025-08-28",
       "title": "Токсичний месник",
       "video": false,
-      "vote_average": 6.037,
-      "vote_count": 303,
+      "vote_average": 6.036,
+      "vote_count": 304,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -251,6 +261,7 @@
       "vote_average": 6.997,
       "vote_count": 941,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -273,6 +284,7 @@
       "vote_average": 7.043,
       "vote_count": 221,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -295,6 +307,7 @@
       "vote_average": 6.4,
       "vote_count": 39,
       "has_ua": true,
+      "has_pl": false,
       "quality": "FHD",
       "is_hdr": false
     },
@@ -318,7 +331,8 @@
       "name": "Все чесно",
       "vote_average": 5.042,
       "vote_count": 59,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -341,6 +355,7 @@
       "vote_average": 6.8,
       "vote_count": 50,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -363,7 +378,8 @@
       "name": "Заплутана історія Аманди Нокс",
       "vote_average": 7.056,
       "vote_count": 36,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -387,6 +403,7 @@
       "vote_average": 6.296,
       "vote_count": 285,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -409,6 +426,7 @@
       "vote_average": 6.716,
       "vote_count": 583,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -431,9 +449,10 @@
       "name": "Чед Паверс",
       "vote_average": 8.208,
       "vote_count": 65,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -454,6 +473,7 @@
       "vote_average": 6.765,
       "vote_count": 236,
       "has_ua": true,
+      "has_pl": false,
       "quality": "FHD",
       "is_hdr": true
     }

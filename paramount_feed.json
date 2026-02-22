@@ -1,5 +1,5 @@
 {
-  "title": "Paramount+",
+  "title": "Сьогодні на Paramount+",
   "results": [
     {
       "adult": false,
@@ -17,9 +17,10 @@
       "release_date": "2026-01-01",
       "title": "Примат",
       "video": false,
-      "vote_average": 6.639,
-      "vote_count": 373,
+      "vote_average": 6.646,
+      "vote_count": 369,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -41,9 +42,33 @@
       "poster_path": "/3IyuVc7rsw5l1I2chBG2zkWpzLA.jpg",
       "first_air_date": "2025-12-05",
       "name": "Спартак: Дім Ашура",
-      "vote_average": 6.759,
+      "vote_average": 6.775,
       "vote_count": 198,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xBORKTaQJTq3l7EdnTTnrZnYzYa.jpg",
+      "genre_ids": [
+        28,
+        80
+      ],
+      "id": 1327688,
+      "original_language": "en",
+      "original_title": "One Mile: Chapter One",
+      "overview": "",
+      "popularity": 53.5832,
+      "poster_path": "/1GZaoYe0mQy211DgDSAxAXr30ul.jpg",
+      "release_date": "2026-02-20",
+      "title": "One Mile: Chapter One",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 14,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -67,7 +92,8 @@
       "name": "Зоряний шлях: Академія Зоряного флоту",
       "vote_average": 4.786,
       "vote_count": 124,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -88,9 +114,10 @@
       "release_date": "2025-11-11",
       "title": "Людина, що біжить",
       "video": false,
-      "vote_average": 6.797,
-      "vote_count": 1172,
+      "vote_average": 6.798,
+      "vote_count": 1170,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -112,8 +139,9 @@
       "title": "Голий пістолет",
       "video": false,
       "vote_average": 6.41,
-      "vote_count": 1457,
+      "vote_count": 1456,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -137,6 +165,7 @@
       "vote_average": 5.882,
       "vote_count": 241,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -159,7 +188,8 @@
       "name": "Чужоземка: Кров моєї крові",
       "vote_average": 8.479,
       "vote_count": 73,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -184,8 +214,9 @@
       "name": "NCIS: Tony & Ziva",
       "vote_average": 7.455,
       "vote_count": 67,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -205,8 +236,9 @@
       "title": "Порочний",
       "video": false,
       "vote_average": 5.984,
-      "vote_count": 224,
+      "vote_count": 223,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -230,6 +262,7 @@
       "vote_average": 5.229,
       "vote_count": 48,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -252,7 +285,8 @@
       "name": "Crutch",
       "vote_average": 4.5,
       "vote_count": 10,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -275,76 +309,8 @@
       "name": "Handsome Devil: Charming Killer",
       "vote_average": 9.25,
       "vote_count": 4,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/dxyxhuMZKH8uLsaneceVdTLB04q.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 312722,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Wild Boys: Strangers in Town",
-      "overview": "",
-      "popularity": 1.5346,
-      "poster_path": "/37EbB6Ip8C1UkQd1grArnr4Xhzw.jpg",
-      "first_air_date": "2026-02-18",
-      "name": "Wild Boys: Strangers in Town",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": null,
-      "genre_ids": [
-        99
-      ],
-      "id": 245937,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Magic City: An American Fantasy",
-      "overview": "",
-      "popularity": 1.0487,
-      "poster_path": "/qd0War8Gq6xfvm4jiMPjEThquyk.jpg",
-      "first_air_date": "2025-08-15",
-      "name": "Magic City: An American Fantasy",
-      "vote_average": 10,
-      "vote_count": 2,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/bjC1NG70WfRnLMZOopBmIj2fToI.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 303740,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "My Nightmare Stalker: The Eva LaRue Story",
-      "overview": "",
-      "popularity": 0.8063,
-      "poster_path": "/pQDG3WglIyO7sYpgZuMwbhjzkAW.jpg",
-      "first_air_date": "2025-11-13",
-      "name": "My Nightmare Stalker: The Eva LaRue Story",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -367,7 +333,8 @@
       "name": "Hip Hop Was Born Here",
       "vote_average": 3.6,
       "vote_count": 5,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -393,75 +360,56 @@
       "vote_average": 6.833,
       "vote_count": 12,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
     {
       "adult": false,
-      "backdrop_path": "/3k5QdiQmlT5SqxypIS9gVoP7sQQ.jpg",
+      "backdrop_path": "/3652bKfqSzSIMNVPpQv2FgE3gPT.jpg",
       "genre_ids": [
-        99
+        10751,
+        35,
+        16
       ],
-      "id": 298844,
-      "origin_country": [
-        "US"
-      ],
+      "id": 1495506,
       "original_language": "en",
-      "original_name": "Thirst Trap: The Fame. The Fantasy. The Fallout.",
+      "original_title": "SpongeBob SquarePants: Order Up",
       "overview": "",
-      "popularity": 0.7218,
-      "poster_path": "/leehthcMfN6SrMb6kRMHcTZTvPp.jpg",
-      "first_air_date": "2025-09-09",
-      "name": "Thirst Trap: The Fame. The Fantasy. The Fallout.",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
+      "popularity": 0.3096,
+      "poster_path": "/wR5tkXHpcJLGQA9HKDZcUMpxU50.jpg",
+      "release_date": "2025-07-18",
+      "title": "SpongeBob SquarePants: Order Up",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 6,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
     {
       "adult": false,
-      "backdrop_path": null,
+      "backdrop_path": "/oO8cJEjmsDQ4RpljV5TNH3Jxuko.jpg",
       "genre_ids": [
+        80,
         99
       ],
-      "id": 306153,
+      "id": 296198,
       "origin_country": [
         "US"
       ],
       "original_language": "en",
-      "original_name": "5-Star",
+      "original_name": "Murder 360",
       "overview": "",
-      "popularity": 0.6853,
-      "poster_path": "/98gZRQ65T7xGEJte7dOyMn0kiEp.jpg",
-      "first_air_date": "2025-12-02",
-      "name": "5-Star",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/vkMVbZPitH9RtCYliRXEi68ru7S.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 307353,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Saving Yellowstone",
-      "overview": "",
-      "popularity": 0.3926,
-      "poster_path": "/cymDH2EZdHQR3g5Y7fhx4JarK5H.jpg",
-      "first_air_date": "2025-11-26",
-      "name": "Saving Yellowstone",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
+      "popularity": 0.1711,
+      "poster_path": "/fn04IxBlpR8r8SzR6NowBTGg3LG.jpg",
+      "first_air_date": "2025-08-05",
+      "name": "Murder 360",
+      "vote_average": 5.3,
+      "vote_count": 3,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     }

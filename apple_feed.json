@@ -1,5 +1,5 @@
 {
-  "title": "Apple TV+",
+  "title": "Сьогодні на Apple TV+",
   "results": [
     {
       "adult": false,
@@ -17,9 +17,10 @@
       "release_date": "2025-06-25",
       "title": "F1: Фільм",
       "video": false,
-      "vote_average": 7.767,
-      "vote_count": 3387,
+      "vote_average": 7.765,
+      "vote_count": 3388,
       "has_ua": true,
+      "has_pl": true,
       "quality": "4K",
       "is_hdr": true
     },
@@ -42,10 +43,11 @@
       "first_air_date": "2025-11-06",
       "name": "Єдина",
       "vote_average": 7.917,
-      "vote_count": 711,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 709,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "4K",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -65,10 +67,11 @@
       "poster_path": "/gPpaE4yYRspfmrznEYMbnkY1gdA.jpg",
       "first_air_date": "2025-10-09",
       "name": "Останній рубіж",
-      "vote_average": 7.154,
-      "vote_count": 166,
-      "has_ua": false,
-      "quality": "SD",
+      "vote_average": 7.161,
+      "vote_count": 165,
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -87,9 +90,10 @@
       "release_date": "2025-11-11",
       "title": "Сімейний план 2",
       "video": false,
-      "vote_average": 6.5,
-      "vote_count": 500,
+      "vote_average": 6.526,
+      "vote_count": 501,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -112,8 +116,9 @@
       "name": "Вождь війни",
       "vote_average": 7.328,
       "vote_count": 212,
-      "has_ua": false,
-      "quality": "SD",
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
       "is_hdr": false
     },
     {
@@ -137,7 +142,8 @@
       "name": "Дорога на кладовище",
       "vote_average": 6.8,
       "vote_count": 70,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -161,9 +167,10 @@
       "name": "Дим",
       "vote_average": 6.01,
       "vote_count": 96,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
+      "has_ua": true,
+      "has_pl": false,
+      "quality": "FHD",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -184,6 +191,7 @@
       "vote_average": 7.088,
       "vote_count": 620,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -204,9 +212,10 @@
       "release_date": "2025-08-14",
       "title": "З раю в пекло",
       "video": false,
-      "vote_average": 5.497,
-      "vote_count": 432,
+      "vote_average": 5.498,
+      "vote_count": 433,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -229,7 +238,8 @@
       "name": "Пан Скорсезе",
       "vote_average": 8.114,
       "vote_count": 22,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -254,7 +264,8 @@
       "name": "Сестри Ґрімм",
       "vote_average": 8.143,
       "vote_count": 7,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -275,9 +286,10 @@
       "poster_path": "/bwuuQUCgsaGiZzRFaa7IAzZ1NfQ.jpg",
       "first_air_date": "2025-10-10",
       "name": "На вістрі ножа: боротьба за Зірки Мішлен",
-      "vote_average": 6.5,
-      "vote_count": 4,
-      "has_ua": false,
+      "vote_average": 6,
+      "vote_count": 3,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -301,6 +313,7 @@
       "vote_average": 6.9,
       "vote_count": 11,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -323,6 +336,7 @@
       "vote_average": 6.19,
       "vote_count": 129,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -346,7 +360,8 @@
       "name": "Світ дикої природи",
       "vote_average": 7.222,
       "vote_count": 9,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -371,6 +386,7 @@
       "vote_average": 7.2,
       "vote_count": 21,
       "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -393,7 +409,8 @@
       "name": "Народжені бути дикими",
       "vote_average": 8.286,
       "vote_count": 7,
-      "has_ua": false,
+      "has_ua": true,
+      "has_pl": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -415,6 +432,7 @@
       "vote_average": 7.208,
       "vote_count": 24,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     },
@@ -436,6 +454,7 @@
       "vote_average": 6.475,
       "vote_count": 20,
       "has_ua": true,
+      "has_pl": false,
       "quality": "4K",
       "is_hdr": true
     }
