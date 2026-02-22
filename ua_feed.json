@@ -3,6 +3,74 @@
   "results": [
     {
       "adult": false,
+      "backdrop_path": "/cmQNqcCIcL3w6OdBY3g6NSiQzix.jpg",
+      "genre_ids": [
+        28,
+        27,
+        53
+      ],
+      "id": 1446765,
+      "original_language": "uk",
+      "original_title": "Каховський обʼєкт",
+      "overview": "Події фільму відбуваються під час повномасштабного російського вторгнення в Україну. Після підриву Каховської дамби загін українських військових на чолі з бійчинею з позивним Мара потрапляє до таємного радянського бункера на дні водосховища, в якому під час холодної війни СРСР проводило досліди на людях. Наслідки цих дослідів все ще знаходяться у цьому бункері у вигляді напівживих трупів солдатів радянської армії. Тепер, щоб вижити, українцям треба перемогти радянських зомбі, власний страх, а також подолати внутрішні суперечки та довіритися один одному.",
+      "popularity": 2.3122,
+      "poster_path": "/lRRSf1wlvwIcCWYIvcjJGHxDMaD.jpg",
+      "release_date": "2025-10-01",
+      "title": "Каховський обʼєкт",
+      "video": false,
+      "vote_average": 5.455,
+      "vote_count": 11,
+      "has_ua": true,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qttKpM9ucFH7Mbo7inGilOZT0s4.jpg",
+      "genre_ids": [
+        18,
+        80
+      ],
+      "id": 310537,
+      "origin_country": [
+        "UA"
+      ],
+      "original_language": "uk",
+      "original_name": "Тиха Нава",
+      "overview": "Події серіалу розгортаються у невеликому містечку Тиха Нава. Молодий юрист Адам Юшкевич випадково потравляє у центр розслідування серії жорстоких злочинів. Літо 2018 року. Адам та його наречена Інна приїжджають на відпочинок. Після конфлікту Інна вирушає на пошуки Адама і стає жертвою зґвалтування. Поліція відмовляється належно розслідувати злочин, а дівчина починає підозрювати самого Адама. Їхні стосунки руйнуються, але чоловік не може змиритися із замовчуванням і повертається, аби самостійно провести розслідування. Невдовзі у містечку стається новий злочин — зґвалтування і вбивство. Адам опиняється у протистоянні з системою, де правоохоронці фальсифікують докази, свідки мовчать, а жертви намагаються забути травму замість того, щоб боротися за справедливість.",
+      "popularity": 1.7672,
+      "poster_path": "/3mnX6J8axXhx8MAhaLZdi7LNCPg.jpg",
+      "first_air_date": "2026-01-15",
+      "name": "Тиха Нава",
+      "vote_average": 7.2,
+      "vote_count": 8,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qtPEf2vzYCRdcGCvVkzyISPlIkk.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 1491911,
+      "original_language": "uk",
+      "original_title": "Батьківські збори",
+      "overview": "Коли на виборах президента школи перемагає син вчительки, обурені батьки впевнені у фальсифікації, і скликають батьківські збори, які переростають у запеклі дебати, оголюють прогалини у вихованні і відкривають таємниці, які ніхто навіть уявити не міг.",
+      "popularity": 1.0921,
+      "poster_path": "/w6avHL4kwdlkTpUlZSkL0VAdzFw.jpg",
+      "release_date": "2025-10-20",
+      "title": "Батьківські збори",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 2,
+      "has_ua": true,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
       "backdrop_path": "/iyo90OITRpv825E8U0uhSVawrMQ.jpg",
       "genre_ids": [
         53
@@ -24,86 +92,24 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/cDJtcPEo1hnbYZDDSppDigHz9Hj.jpg",
+      "backdrop_path": "/jfum19UtlA0MFSNHvsnlKSYtlVM.jpg",
       "genre_ids": [
-        99
+        9648
       ],
-      "id": 1446171,
+      "id": 304566,
+      "origin_country": [
+        "UA"
+      ],
       "original_language": "uk",
-      "original_title": "Королеви радості",
-      "overview": "У вирі війни в Україні троє драг-квін – Діва Монро, Марлен і Аура – відмовляються покидати свою батьківщину. Замість втечі вони вирішують боротися: за свободу, ЛГБТК+ спільноту і саме своє існування. Від гламуру шоу до жорстокості війни, фільм стежить за їхнім життям – сповненим втрат, страху, а також незламної мужності. Марлен бореться зі старими ранами, Діва Монро знову знаходить себе, а Аура бореться за місце як в армії, так і на сцені. Благодійне драг-шоу, яке вони організовують на підтримку України, перетворюється на символ єдності та стійкості.  Фільм – це історія самопізнання, любові, надії та сили знаходити радість навіть у найтемніші часи.",
-      "popularity": 0.0512,
-      "poster_path": "/rtD7ETSElfdXSw4KOl5pGtewXgO.jpg",
-      "release_date": "2026-01-29",
-      "title": "Королеви радості",
-      "video": false,
+      "original_name": "Зрадники",
+      "overview": "Шоу «Зрадники» — адаптація світового хіта The Traitors. В українському реаліті-шоу 22 учасники, які змагаються за пів мільйона гривень. Серед них є “вірні” та “зрадники”. Завдання “вірних” — викрити зрадників, а зрадників — дійти до фіналу. Дії відбуваються у замку Шенборнів.",
+      "popularity": 0.9195,
+      "poster_path": "/mo4pvmctnfF7nAYuq9xwTDdYCLG.jpg",
+      "first_air_date": "2025-10-31",
+      "name": "Зрадники",
       "vote_average": 7,
-      "vote_count": 2,
-      "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/3oXI59KLLQYbrIMvoM4g3tCNCOE.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 1609305,
-      "original_language": "en",
-      "original_title": "Rage en Ukraine : des vétériaires en première ligne",
-      "overview": "",
-      "popularity": 0.0357,
-      "poster_path": "/hmUmH0P4Owr2jMNyOfr1jYs8VTW.jpg",
-      "release_date": "2026-01-07",
-      "title": "Rage en Ukraine : des vétériaires en première ligne",
-      "video": false,
-      "vote_average": 10,
       "vote_count": 1,
-      "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/l19zBSsU4cOVv3kvPcF7wz9WXpb.jpg",
-      "genre_ids": [
-        35
-      ],
-      "id": 1580198,
-      "original_language": "uk",
-      "original_title": "Жив пес Сірко",
-      "overview": "Сучасне прочитання відомої української народної казки, що розгортається напередодні різдвяних свят.  У центрі сюжету – пес Сірко, який постає розумним і кмітливим помічником. Разом із вовчою компанією він допомагає родині впоратися з труднощами, що виникають одна за одною. Хитрі задуми, неочікувані союзи та комедійні ситуації постійно змінюють хід подій. Кожен новий епізод перевіряє героїв на здатність домовлятися, довіряти та підтримувати близьких у складний момент.",
-      "popularity": 0.1093,
-      "poster_path": "/lnfPWVBOrrWvtZ5BFd1Bt8KTuex.jpg",
-      "release_date": "2025-12-24",
-      "title": "Жив пес Сірко",
-      "video": false,
-      "vote_average": 5.25,
-      "vote_count": 4,
-      "has_ua": true,
-      "quality": "FHD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/uiE7r4T7baevmuwhqsv4uXIOO4F.jpg",
-      "genre_ids": [
-        53,
-        18
-      ],
-      "id": 1604489,
-      "original_language": "uk",
-      "original_title": "Під шкіркою помаранчу",
-      "overview": "",
-      "popularity": 0.0754,
-      "poster_path": "/6ACXsOlcImcxYr9OmCNLjaF1kzP.jpg",
-      "release_date": "2025-12-21",
-      "title": "Під шкіркою помаранчу",
-      "video": false,
-      "vote_average": 10,
-      "vote_count": 1,
-      "has_ua": true,
+      "has_ua": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -131,24 +137,69 @@
     },
     {
       "adult": false,
-      "backdrop_path": null,
+      "backdrop_path": "/laMdl34fgXMzdYwxUL0OOyWgQlV.jpg",
       "genre_ids": [
-        35
+        35,
+        18
       ],
-      "id": 1600024,
+      "id": 306813,
+      "origin_country": [
+        "UA"
+      ],
       "original_language": "uk",
-      "original_title": "МІФИ ДРЕВНЬОЇ ІНДУСТРІЇ",
-      "overview": "Короткометражна картина розповідає про продюсерку, яка вкотре відмовляє сценаристу у реалізації ЙОГО сценарію. Але цього разу сценарій виявляється непростим. Усі імена вигадані, будь-які співпадіння випадкові.",
-      "popularity": 0.0414,
-      "poster_path": "/ohCZzThTf4OL7Sccn1DK01x94r1.jpg",
-      "release_date": "2025-12-15",
-      "title": "МІФИ ДРЕВНЬОЇ ІНДУСТРІЇ",
+      "original_name": "Ховаючи колишню",
+      "overview": "Це історія про стосунки, секс, дружбу та місце чоловіків і жінок у сучасному світі, який стрімко змінюється через війну. Сюжет побудований навколо знайомства чотирьох чоловіків під час церемонії прощання з їхньою спільною колишньою, яка загинула на фронті.",
+      "popularity": 0.704,
+      "poster_path": "/7eBV1hYL0B5Lw9VW4SioTgGIdc9.jpg",
+      "first_air_date": "2025-11-26",
+      "name": "Ховаючи колишню",
+      "vote_average": 7.667,
+      "vote_count": 3,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/A0rOZIPXf1zyR6XNUMwjvtQpv7C.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1306944,
+      "original_language": "ru",
+      "original_title": "Sex in the Soviet Union",
+      "overview": "",
+      "popularity": 0.5245,
+      "poster_path": "/6NUmr9YP5xnBZepNNJp941SW43.jpg",
+      "release_date": "2025-09-11",
+      "title": "Sex in the Soviet Union",
       "video": false,
-      "vote_average": 8,
+      "vote_average": 7,
       "vote_count": 1,
       "has_ua": true,
       "quality": "SD",
       "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/23dSPWUTawpYmOytw7diq0aPHRG.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1415669,
+      "original_language": "uk",
+      "original_title": "Sanatorium",
+      "overview": "",
+      "popularity": 0.5225,
+      "poster_path": "/A2w2GISwCdDzFVpR2XaUHRkUxxS.jpg",
+      "release_date": "2025-09-05",
+      "title": "Sanatorium",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 2,
+      "has_ua": true,
+      "quality": "FHD",
+      "is_hdr": true
     },
     {
       "adult": false,
@@ -174,86 +225,88 @@
     },
     {
       "adult": false,
-      "backdrop_path": null,
+      "backdrop_path": "/mOIgTycHu7tLfL8qzgOX7l8pb6Z.jpg",
       "genre_ids": [
         18
       ],
-      "id": 1587277,
-      "original_language": "en",
-      "original_title": "Being Different Is My Superpower",
-      "overview": "",
-      "popularity": 0.1078,
-      "poster_path": "/fGasfz7x8JvRDUY62ea6qNNK7SP.jpg",
-      "release_date": "2025-11-30",
-      "title": "Being Different Is My Superpower",
+      "id": 1165013,
+      "original_language": "uk",
+      "original_title": "Малевич",
+      "overview": "Що криється за відомою картиною «Чорний квадрат», намальованою у 1915 році екстравагантним художником Казимиром Малевичем? Для його суперників – це виклик, для радянської влади – секретний код, для жінок – лист кохання, а для українського народу трагічне передбачення майбутнього…",
+      "popularity": 0.4677,
+      "poster_path": "/ih4OYuEEez8jMIAb7UGkq9NkUYA.jpg",
+      "release_date": "2025-09-11",
+      "title": "Малевич",
       "video": false,
-      "vote_average": 10,
-      "vote_count": 1,
+      "vote_average": 4,
+      "vote_count": 3,
       "has_ua": true,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oaX1rbWQpNTn8oHR8iGFoPmWCBV.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 307451,
+      "origin_country": [
+        "UA"
+      ],
+      "original_language": "uk",
+      "original_name": "Бийся, серце, бийся",
+      "overview": "23 лютого 2022 року хлопчик помирає від крововиливу в мозок, і Віра вирішує віддати його серце шестирічній Богданці, яка потребує термінової трансплантації. Після цього жінка планує покінчити власне життя, переконавшись, що серце її дитини продовжує битися в грудях іншої дівчинки.",
+      "popularity": 0.4217,
+      "poster_path": "/SlPSnWIUWjlTDShtMbUYOX7K7B.jpg",
+      "first_air_date": "2025-10-20",
+      "name": "Бийся, серце, бийся",
+      "vote_average": 7,
+      "vote_count": 1,
+      "has_ua": false,
       "quality": "SD",
       "is_hdr": false
     },
     {
       "adult": false,
-      "backdrop_path": "/x1sIZ6E1cZTXQpy8TUIKN2G0vjl.jpg",
+      "backdrop_path": null,
       "genre_ids": [
-        99
+        27
       ],
-      "id": 1637815,
+      "id": 1608817,
       "original_language": "uk",
-      "original_title": "Session",
-      "overview": "Заснувавши танцювальний колектив зі своїм чоловіком, молода хореографиня опиняється в пастці аб’юзивних стосунків. Тепер вона має відшукати місце у світі, де її зрадили всі, кого вона знає.",
-      "popularity": 0.0818,
-      "poster_path": "/yZILfO63jvLx4yyrGUVoNCaRcsr.jpg",
-      "release_date": "2025-11-18",
-      "title": "Сейшн",
+      "original_title": "The Dam",
+      "overview": "",
+      "popularity": 0.3402,
+      "poster_path": "/7AR6LaQFz0ddMIZ0nGZHk5AWOhR.jpg",
+      "release_date": "2025-10-01",
+      "title": "The Dam",
       "video": false,
-      "vote_average": 10,
-      "vote_count": 1,
+      "vote_average": 5.5,
+      "vote_count": 2,
       "has_ua": true,
       "quality": "4K",
       "is_hdr": true
     },
     {
       "adult": false,
-      "backdrop_path": "/nS8opGhnxDvn49vSr9LQ4bQ3dly.jpg",
+      "backdrop_path": "/yLVwx2WpYitxL37xRbY4mpWNMzk.jpg",
       "genre_ids": [
-        99
+        18,
+        53
       ],
-      "id": 951038,
+      "id": 1320420,
       "original_language": "uk",
-      "original_title": "Тиха повінь",
-      "overview": "Розташована біля мальовничого річкового каньйону на заході України, пацифістська громада з унікальними релігійними віруваннями бачить, як її мирний спосіб життя поступово руйнується через регулярні повені і, зрештою, несподівану війну.",
-      "popularity": 0.0978,
-      "poster_path": "/nfteOfsZxJG3txi9qtCqERrYMlM.jpg",
-      "release_date": "2025-11-16",
-      "title": "Тиха повінь",
+      "original_title": "Медовий місяць",
+      "overview": "Дія фільму відбувається у маленькому містечку поблизу Києва. Головні герої Тарас і Оля, після вечірки з друзями, проводять першу ніч у своїй новій квартирі. На світанку їхнє життя незворотньо змінюється. Вони не встигають виїхати вчасно, а під будинком вже з’являються окупанти. Пара опиняється у пастці власної квартирі  — без електрики, води та зв’язку. Протягом п’яти днів між ними зникає усе зайве — лишається тільки правда про них самих та безодня справжньої близькості між двома людьми.",
+      "popularity": 0.3105,
+      "poster_path": "/1wkVjyfj423wufIdFVaY0pAsJro.jpg",
+      "release_date": "2025-09-11",
+      "title": "Медовий місяць",
       "video": false,
-      "vote_average": 10,
-      "vote_count": 1,
-      "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/1zAQalu4cRpIm7Dyybs1VRJ0W3w.jpg",
-      "genre_ids": [
-        99,
-        10402
-      ],
-      "id": 1516614,
-      "original_language": "uk",
-      "original_title": "Океан Ельзи: Спостереження Шторму",
-      "overview": "Історія головного гурту незалежної України, пісні якого об’єднують мільйони людей і стали символом свободи, любові і боротьби.",
-      "popularity": 0.0538,
-      "poster_path": "/iKSLMU3rtOCNpu9fuhUr6segHFr.jpg",
-      "release_date": "2025-11-06",
-      "title": "Океан Ельзи: Спостереження Шторму",
-      "video": false,
-      "vote_average": 8.5,
-      "vote_count": 4,
-      "has_ua": true,
+      "vote_average": 7,
+      "vote_count": 2,
+      "has_ua": false,
       "quality": "4K",
       "is_hdr": false
     },
@@ -281,23 +334,68 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/qtPEf2vzYCRdcGCvVkzyISPlIkk.jpg",
+      "backdrop_path": "/zZRJD5mVrpEFGbPcgLMWtqscbS5.jpg",
       "genre_ids": [
-        35
+        99
       ],
-      "id": 1491911,
+      "id": 1421157,
       "original_language": "uk",
-      "original_title": "Батьківські збори",
-      "overview": "Коли на виборах президента школи перемагає син вчительки, обурені батьки впевнені у фальсифікації, і скликають батьківські збори, які переростають у запеклі дебати, оголюють прогалини у вихованні і відкривають таємниці, які ніхто навіть уявити не міг.",
-      "popularity": 1.0921,
-      "poster_path": "/w6avHL4kwdlkTpUlZSkL0VAdzFw.jpg",
-      "release_date": "2025-10-20",
-      "title": "Батьківські збори",
+      "original_title": "Стрічка часу",
+      "overview": "Фільм про вчителів та учнів, які під час військових дій продовжують навчати та навчатися, зокрема на деокупованих і прифронтових територіях. Він показує, як війна в Україні впливає на повсякденне життя учнів і вчителів, та виклики, пов’язані з намаганням зберегти освіту і відчуття нормального життя в умовах постійної небезпеки.\r Унікальна хроніка показує шкільне життя в різних регіонах країни: від Харкова та Запоріжжя до Києва, Чернігова, Черкас, Одеси, Миколаєва, Очакова, Кам’янського, а також містечок і селищ, таких як Буча, Бородянка, Зарічне.",
+      "popularity": 0.2055,
+      "poster_path": "/b49YNh0qTTBbxS7IP4sWdypTKoP.jpg",
+      "release_date": "2025-09-10",
+      "title": "Стрічка часу",
       "video": false,
-      "vote_average": 7,
-      "vote_count": 2,
+      "vote_average": 5.3,
+      "vote_count": 3,
       "has_ua": true,
-      "quality": "FHD",
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qkSRkM2cCfb4wYnzCymx8s8HoZY.jpg",
+      "genre_ids": [
+        18,
+        10752,
+        9648,
+        10749
+      ],
+      "id": 1506768,
+      "original_language": "en",
+      "original_title": "Just Drifting",
+      "overview": "",
+      "popularity": 0.1975,
+      "poster_path": "/6CCZ8XQCtSf6JLXpDWmIwbrQ8Ha.jpg",
+      "release_date": "2025-06-25",
+      "title": "Just Drifting",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 1,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3iZwXeZmitP4fvwn3qXmb5ofjbl.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1165298,
+      "original_language": "uk",
+      "original_title": "Куба і Аляска",
+      "overview": "Фільм розповідає історію двох українських військовослужбовиць, найкращих подруг і дотепних парамедикинь під позивними «Куба» та «Аляска» на передовій російсько-української війни, які переживають спільну для всіх солдатів історію: чим довше вони захищають Україну, тим більше втрачають зв’язок із друзями, родиною та колишнім життям.",
+      "popularity": 0.1651,
+      "poster_path": "/7ODABHYCAsGM9bNf1BPinOi26K0.jpg",
+      "release_date": "2025-08-14",
+      "title": "Куба і Аляска",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 3,
+      "has_ua": true,
+      "quality": "SD",
       "is_hdr": false
     },
     {
@@ -319,6 +417,27 @@
       "video": false,
       "vote_average": 4.5,
       "vote_count": 2,
+      "has_ua": true,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/l19zBSsU4cOVv3kvPcF7wz9WXpb.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 1580198,
+      "original_language": "uk",
+      "original_title": "Жив пес Сірко",
+      "overview": "Сучасне прочитання відомої української народної казки, що розгортається напередодні різдвяних свят.  У центрі сюжету – пес Сірко, який постає розумним і кмітливим помічником. Разом із вовчою компанією він допомагає родині впоратися з труднощами, що виникають одна за одною. Хитрі задуми, неочікувані союзи та комедійні ситуації постійно змінюють хід подій. Кожен новий епізод перевіряє героїв на здатність домовлятися, довіряти та підтримувати близьких у складний момент.",
+      "popularity": 0.1093,
+      "poster_path": "/lnfPWVBOrrWvtZ5BFd1Bt8KTuex.jpg",
+      "release_date": "2025-12-24",
+      "title": "Жив пес Сірко",
+      "video": false,
+      "vote_average": 5.25,
+      "vote_count": 4,
       "has_ua": true,
       "quality": "FHD",
       "is_hdr": false

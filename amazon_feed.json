@@ -1,0 +1,493 @@
+{
+  "title": "Prime Video",
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/77TCOiGEmHYLndIw4jsf6uUra4X.jpg",
+      "genre_ids": [
+        80,
+        18,
+        9648
+      ],
+      "id": 241372,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "56 Days",
+      "overview": "Після випадкової зустрічі в супермаркеті між Олівером і Кіарою спалахує пристрасний роман. Та коли через 56 днів знаходять тіло жорстоко вбитої людини, розслідування занурюється в їхню бурхливу історію кохання й поступово розкриває похмурі таємниці.",
+      "popularity": 146.2642,
+      "poster_path": "/zR6P6lwrqmjsl8HjjI1eViUONSO.jpg",
+      "first_air_date": "2026-02-18",
+      "name": "56 днів",
+      "vote_average": 5,
+      "vote_count": 29,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tSFndbpoEctuYviiSRJHjyC31V9.jpg",
+      "genre_ids": [
+        18,
+        80,
+        9648
+      ],
+      "id": 254071,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Steal",
+      "overview": "Динамічний трилер про пограбування століття та звичайну офісну працівницю, яка несподівано опиняється в самому центрі подій.",
+      "popularity": 29.4212,
+      "poster_path": "/rqw9LbnXqjtHuXlHUvlisPTeo0L.jpg",
+      "first_air_date": "2026-01-21",
+      "name": "Крадіжка",
+      "vote_average": 7.395,
+      "vote_count": 95,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nRxbtO6OchyepUL2Zr4dpMZsdsX.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 280948,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "스프링 피버",
+      "overview": "Шкільну вчительку Юн Бом переводять із Сеула до маленького містечка, де вона знайомиться з дядьком одного зі своїх учнів — прямолінійним бандитом Сон Дже-ґю.",
+      "popularity": 23.3164,
+      "poster_path": "/jTJgfbSQ4UczxMOgscHPsoVuL5X.jpg",
+      "first_air_date": "2026-01-05",
+      "name": "Весняна лихоманка",
+      "vote_average": 7.8,
+      "vote_count": 32,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yQw23xxmVBFVHPCF6V68TAIIfno.jpg",
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "id": 219760,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Terminal List: Dark Wolf",
+      "overview": "Бен Едвардс, елітний «морський котик», стикається з переломним моментом у своїй кар’єрі. Після фатальної операції він втрачає статус у SEAL і змушений стати оперативником тіньового підрозділу ЦРУ.",
+      "popularity": 15.7773,
+      "poster_path": "/fpiLywwnX4eQTAFBJJdYV0osJrI.jpg",
+      "first_air_date": "2025-08-27",
+      "name": "Список смертників: Темний вовк",
+      "vote_average": 7.47,
+      "vote_count": 203,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4pxGvtwxDlATy9nvJMvYL8u25LZ.jpg",
+      "genre_ids": [
+        80,
+        9648
+      ],
+      "id": 256317,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Countdown",
+      "overview": "Детектив з Лос-Анджелеса Марк Мітчем приєднується до таємної оперативної групи, учасники якої працюють під прикриттям у різних правоохоронних структурах. Його мета — знайти вбивцю офіцера з Міністерства внутрішньої безпеки. Під час розслідування він розкриває масштабну змову, яка загрожує життю мільйонів мешканців міста.",
+      "popularity": 11.0305,
+      "poster_path": "/alxnHVi1ublXWojLnYWkr0KU0tk.jpg",
+      "first_air_date": "2025-06-25",
+      "name": "Зворотний відлік",
+      "vote_average": 7.3,
+      "vote_count": 125,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gavFqSLcxcGgqciAhFdnJDdnpLj.jpg",
+      "genre_ids": [
+        18,
+        80
+      ],
+      "id": 239826,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Ballard",
+      "overview": "Детективка Рене Баллард очолює новий відділ нерозкритих справ у Лос-Анджелеській поліції. Вона відома своєю рішучістю, емпатією та здатністю викривати змови.",
+      "popularity": 8.0188,
+      "poster_path": "/isK5S11dNEADuEpOwskVqQjtvy3.jpg",
+      "first_air_date": "2025-07-09",
+      "name": "Баллард",
+      "vote_average": 7.052,
+      "vote_count": 144,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7K7wbQIpkzif4fMhDHsCweXFS42.jpg",
+      "genre_ids": [
+        16,
+        10765,
+        10759
+      ],
+      "id": 219080,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Mighty Nein",
+      "overview": "Історія про групу злочинців і вигнанців, які виявляються єдиними, хто може запобігти зануренню королівства в хаос, коли таємничий артефакт, що може змінювати реальність, потрапляє не до тих рук.",
+      "popularity": 7.5532,
+      "poster_path": "/nHlvaNhb6DxCJBeidacEtiNWZmr.jpg",
+      "first_air_date": "2025-11-19",
+      "name": "Могутня дев'ятка",
+      "vote_average": 7.973,
+      "vote_count": 73,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lnVWmFvLv2pTZGsuAJytiqKu541.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "id": 253376,
+      "origin_country": [
+        "US",
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "The Girlfriend",
+      "overview": "Ідилічне життя Лори руйнується, коли нова дівчина її сина викликає підозри. Вирішивши захистити його, Лора заходить надто далеко, і постає питання: вона діє обережно та виправдано чи вже повністю охоплена параноєю?",
+      "popularity": 7.3772,
+      "poster_path": "/uqREi9r2JlbxQIBT82qzSaZ9FU3.jpg",
+      "first_air_date": "2025-09-10",
+      "name": "Дівчина мого сина",
+      "vote_average": 7.139,
+      "vote_count": 104,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kPOm8uBC7ajkjCWC0NM2lRbhRLs.jpg",
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "id": 227114,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Butterfly",
+      "overview": "Девід Чан, колишній співробітник розвідки США, живе в Південній Кореї. Таємна розвідувальна організація надсилає для його ліквідації агента. Цим агентом виявляється Ребекка — донька Девіда, яка вважала його загиблим уже багато років.",
+      "popularity": 7.1173,
+      "poster_path": "/ynQMN7zvGxAztnWaqb0r94VobOu.jpg",
+      "first_air_date": "2025-08-13",
+      "name": "Метелик",
+      "vote_average": 7.065,
+      "vote_count": 115,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6omimfVty4JD3LXzI5LHEGhXjwn.jpg",
+      "genre_ids": [
+        16,
+        18,
+        10765
+      ],
+      "id": 284445,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "タコピーの原罪",
+      "overview": "Щасливий інопланетянин Такопі прилітає на Землю з однією місією: поширювати щастя! Коли він зустрічає Шізуку, самотню ученицю четвертого класу, він присягається повернути їй усмішку за допомогою своїх чарівних Щасливих Ґаджетів. Але коли він виявляє біль у її житті, Такопі дізнається, що для справжнього щастя може знадобитися щось більше, ніж гаджети.",
+      "popularity": 6.6574,
+      "poster_path": "/9rLqz1GhlqZksYgxtuq4w8GeU56.jpg",
+      "first_air_date": "2025-06-28",
+      "name": "Первородний гріх Такопі",
+      "vote_average": 8.843,
+      "vote_count": 140,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/z0Ic9Thd5tBfXb1rZyhMyVZV4Cw.jpg",
+      "genre_ids": [
+        18,
+        35,
+        10765
+      ],
+      "id": 290160,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "私の夫と結婚して",
+      "overview": "Міса все своє життя була другорядною героїнею, сліпо довіряючи своїй найкращій подрузі та чоловіку. Однак, коли вона дізнається про їхній роман, зрада призводить до її смерті. Прокинувшись через десять років у минулому, Міса дає собі обітницю стати головною героїнею власної історії. Вона планує знищити своїх зрадників, змусивши їх одружитися один з одним. Але після зустрічі з директором на роботі, вона починає сумніватися в своїх цілях і розмірковувати над тим, хто ж вона насправді.",
+      "popularity": 6.6171,
+      "poster_path": "/5spG8iVnqIG7GBhFlr4YPsPhjnY.jpg",
+      "first_air_date": "2025-06-27",
+      "name": "Виходь заміж за мого чоловіка",
+      "vote_average": 8.1,
+      "vote_count": 25,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uj4wyiZPmZNRJBjThtqNrZvHN9w.jpg",
+      "genre_ids": [
+        9648
+      ],
+      "id": 245827,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Harlan Coben's Lazarus",
+      "overview": "Судовий психіатр доктор Джоел «Лаз» Лазарус змушений зіткнутися з давно похованими демонами після того, як його батько, доктор Л., помирає за підозрілих обставин. Спочатку переконаний, що смерть батька є самогубством, Лаз незабаром опиняється втягнутим у світ вбивчих змов і гонитви за вбивцею, сповнений дивними баченнями людей, яких він знає мертвими.",
+      "popularity": 6.4676,
+      "poster_path": "/bfULTZ6vjj950eszb0k2vh7PP3s.jpg",
+      "first_air_date": "2025-10-22",
+      "name": "Лазар",
+      "vote_average": 6.336,
+      "vote_count": 55,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4YrYmBx26WZgITKlcceaIz74vj3.jpg",
+      "genre_ids": [
+        16,
+        18,
+        35,
+        10765
+      ],
+      "id": 299778,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "藤本タツキ 17-26",
+      "overview": "Шість студій та сім режисерів екранізували ранні роботи Тацукі Фудзімото — автора «Людини-бензопили» — у вигляді аніме-антології. Кожна серія — це окрема адаптація короткої історії, створеної ним у віці від сімнадцяти до двадцяти шести років, включно з першою мангою, поданою на конкурс. У цих епізодах розкриваються яскраві оповіді про юнацьке кохання, безумство, хаос і зв’язки між людьми.",
+      "popularity": 6.0405,
+      "poster_path": "/zZW4CJQE7nfu8btJLoWIcOaa7fe.jpg",
+      "first_air_date": "2025-11-08",
+      "name": "Тацукі Фуджімото 17-26",
+      "vote_average": 7.979,
+      "vote_count": 48,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yZJ6ecQCRsXg3rx7hJbwYPHuzD3.jpg",
+      "genre_ids": [
+        16,
+        10751
+      ],
+      "id": 225361,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "BAT-FAM",
+      "overview": "«BAT-FAM» розповідає про Бетмена, Альфреда та молодого Деміана Вейна, які живуть разом із незвичайною групою нових сусідів, захищаючи Готем-Сіті.",
+      "popularity": 5.824,
+      "poster_path": "/8C34YTylNBt4DWM1a9oAAXqmTSr.jpg",
+      "first_air_date": "2025-11-10",
+      "name": "BAT-FAM",
+      "vote_average": 4.393,
+      "vote_count": 14,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7EB84rTBUmjY2tPhNpGjxnKJVeo.jpg",
+      "genre_ids": [
+        18,
+        80,
+        9648
+      ],
+      "id": 262352,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "The Assassin",
+      "overview": "Джулі — колишня вбивця, яка відійшла від справ і поселилася в Греції. Її навідує син Едвард, щоб дізнатися правду про батька. Однак небезпечне минуле Джулі наздоганяє її, і вони з сином змушені рятуватися втечею.",
+      "popularity": 5.3824,
+      "poster_path": "/3O2UgEszp1CVbL8p9XnKkFDkbk3.jpg",
+      "first_air_date": "2025-07-25",
+      "name": "Вбивця",
+      "vote_average": 6.737,
+      "vote_count": 57,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/AsWevUaVrwK1kiJFAoo9YKMgYty.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "id": 244416,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Malice",
+      "overview": "Харизматичний репетитор проникає в життя заможної родини, приховуючи зловісний задум. Коли його план помсти починає розкриватися, сім’я змушена протистояти ворогу, який живе з ними під одним дахом.",
+      "popularity": 4.6666,
+      "poster_path": "/cl3lRnJ3CtsVtplpVSA1u2Vtjey.jpg",
+      "first_air_date": "2025-11-14",
+      "name": "Злочинний намір",
+      "vote_average": 6.824,
+      "vote_count": 34,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dzcGdFuvkietovVYLuPxdRat2h0.jpg",
+      "genre_ids": [
+        35,
+        10764
+      ],
+      "id": 309714,
+      "origin_country": [
+        "MX"
+      ],
+      "original_language": "es",
+      "original_name": "LOL buscando talento",
+      "overview": "",
+      "popularity": 4.4349,
+      "poster_path": "/70l4rLm9JHMoVncvfizfL8OT5CS.jpg",
+      "first_air_date": "2026-01-16",
+      "name": "LOL buscando talento",
+      "vote_average": 6,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uz0OhuErhylmCBszXwYAxOU3oVo.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 249760,
+      "origin_country": [
+        "IN"
+      ],
+      "original_language": "hi",
+      "original_name": "बैंडवाले",
+      "overview": "",
+      "popularity": 4.0317,
+      "poster_path": "/h1heLNN77Jmjin06ihQdMKTGGIt.jpg",
+      "first_air_date": "2026-02-13",
+      "name": "बैंडवाले",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2VCSUWfJSE5nrMpSBquiZtpHUUP.jpg",
+      "genre_ids": [
+        99,
+        80
+      ],
+      "id": 308606,
+      "origin_country": [
+        "ES"
+      ],
+      "original_language": "es",
+      "original_name": "Pelayo: Más allá del límite",
+      "overview": "",
+      "popularity": 3.8786,
+      "poster_path": "/fNxvkDtJKUXIPZaVHVSNacktBRV.jpg",
+      "first_air_date": "2026-01-09",
+      "name": "Pelayo: Más allá del límite",
+      "vote_average": 6.1,
+      "vote_count": 9,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dnB98op1crXpolR1PXg61jW4ej3.jpg",
+      "genre_ids": [
+        9648,
+        18
+      ],
+      "id": 296243,
+      "origin_country": [
+        "MX"
+      ],
+      "original_language": "es",
+      "original_name": "Cometierra",
+      "overview": "",
+      "popularity": 3.8354,
+      "poster_path": "/d8LYs7rSj5kmHDKBMgiqE1ACCoq.jpg",
+      "first_air_date": "2025-10-31",
+      "name": "Cometierra",
+      "vote_average": 6.467,
+      "vote_count": 15,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    }
+  ]
+}

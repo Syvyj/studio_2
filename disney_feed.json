@@ -1,0 +1,485 @@
+{
+  "title": "Disney+",
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/llrSuUkFiR6EjDnh79dq8HEeziF.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 291339,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Memory of a Killer",
+      "overview": "Коли у кілера Анджело діагностують ранню форму хвороби Альцгеймера, його світи зіштовхуються, наражаючи на небезпеку його родину.",
+      "popularity": 50.6855,
+      "poster_path": "/kNMua9szfqSkuRYEy43ToIthsaM.jpg",
+      "first_air_date": "2026-01-25",
+      "name": "Пам'ять убивці",
+      "vote_average": 7.6,
+      "vote_count": 19,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 131142,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Love Story",
+      "overview": "Серіал досліджує стрімкий роман і гучний шлюб однієї з найзнаковіших пар ХХ століття — Джона Ф. Кеннеді-молодшого та Керолін Бессетт.",
+      "popularity": 44.006,
+      "poster_path": "/3HJjTbMrKaiMXxJHltUFat1r1P2.jpg",
+      "first_air_date": "2026-02-12",
+      "name": "Історія кохання",
+      "vote_average": 8.9,
+      "vote_count": 16,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
+      "genre_ids": [
+        18,
+        10765
+      ],
+      "id": 273160,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Beauty",
+      "overview": "Світ високої моди поринає в темряву, коли міжнародні супермоделі починають гинути жахливими й загадковими способами. Агентів ФБР Купера Медсена та Джордан Беннетт відправляють до Парижа, щоб розкрити правду. Заглиблюючись у розслідування, вони виявляють вірус, що передається статевим шляхом і перетворює звичайних людей на втілення фізичної досконалості — але з жахливими наслідками.",
+      "popularity": 42.8413,
+      "poster_path": "/vCbWCw7fUdjYxLuNka5EOeLcQJE.jpg",
+      "first_air_date": "2026-01-21",
+      "name": "Краса",
+      "vote_average": 6.1,
+      "vote_count": 62,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hiuzn8JQ4Q0VjA8AaU1qhL5Rjx8.jpg",
+      "genre_ids": [
+        9648,
+        10764
+      ],
+      "id": 313289,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "운명전쟁49",
+      "overview": "",
+      "popularity": 37.079,
+      "poster_path": "/5V2n2JTYCTPD4fpikmPxldpuzos.jpg",
+      "first_air_date": "2026-02-11",
+      "name": "운명전쟁49",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pUNfHmVqfwRdILhCkU8TdysVOXo.jpg",
+      "genre_ids": [
+        878,
+        12,
+        28
+      ],
+      "id": 533533,
+      "original_language": "en",
+      "original_title": "TRON: Ares",
+      "overview": "«Трон: Арес» розповідає про надзвичайно розвинену програму Арес. ЇЇ відправляють із цифрового світу у реальний для виконання небезпечної місії, що стає першим контактом людства з істотами штучного інтелекту.",
+      "popularity": 30.2426,
+      "poster_path": "/lEIK6aErE1Ff2tuq4zk2swULnhk.jpg",
+      "release_date": "2025-10-08",
+      "title": "Трон: Арес",
+      "video": false,
+      "vote_average": 6.48,
+      "vote_count": 1204,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ldz9THIHaV4orMsUrPT1nlQF51T.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 198178,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Wonder Man",
+      "overview": "Голлівудський актор Саймон Вільямс поринає у світ супергероїв, знаходячи власні сили та стаючи новим супергероєм Диво-чоловіком.",
+      "popularity": 27.9388,
+      "poster_path": "/9a5jFPjnBHn0SL7YYd9HFMiM8oW.jpg",
+      "first_air_date": "2026-01-27",
+      "name": "Диво-чоловік",
+      "vote_average": 7.139,
+      "vote_count": 208,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/biIBy2LPOOtGCgUYOls3dUEWU3v.jpg",
+      "genre_ids": [
+        10765,
+        18
+      ],
+      "id": 157239,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Alien: Earth",
+      "overview": "Коли таємничий космічний корабель зазнає аварії на Землі, молода жінка та різношерста група солдатів-тактиків роблять доленосне відкриття, яке ставить їх віч-на-віч з найбільшою загрозою планети.",
+      "popularity": 21.0035,
+      "poster_path": "/8e8IKfP0tiR62cNsh4ZpSIWwUVJ.jpg",
+      "first_air_date": "2025-08-12",
+      "name": "Чужий: Земля",
+      "vote_average": 7.35,
+      "vote_count": 931,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pXAxNwnKjLfu1g8mqMy8hS7e5IC.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 304774,
+      "origin_country": [
+        "TR"
+      ],
+      "original_language": "tr",
+      "original_name": "Sekizinci Aile",
+      "overview": "",
+      "popularity": 19.7174,
+      "poster_path": "/y8NmGRfD3GuhhR8bTj7rXWkOMqk.jpg",
+      "first_air_date": "2025-11-19",
+      "name": "Sekizinci Aile",
+      "vote_average": 8,
+      "vote_count": 5,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5T4ij5RgI7y5UHNgI2scH8BU5J9.jpg",
+      "genre_ids": [
+        80
+      ],
+      "id": 310024,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "블러디 플라워",
+      "overview": "",
+      "popularity": 16.2845,
+      "poster_path": "/kvt266zMIzyz0YAKMHWd7Mke5CD.jpg",
+      "first_air_date": "2026-02-04",
+      "name": "블러디 플라워",
+      "vote_average": 8,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cqkmEHLE4LjPHSqKdLt4pJFJv0f.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 239385,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "조각도시",
+      "overview": "Спокійного й доброзичливого Те Чжона несправедливо кидають за ґрати за жорстокий злочин. У в’язниці він дізнається, що за всім стоїть загадковий чоловік на ім’я Йо Хан, який підставив його. Охоплений жагою помсти, Те Чжон тікає, аби змусити Йо Хана заплатити за все.",
+      "popularity": 14.3587,
+      "poster_path": "/pwin3qnVXs9tD3nU5hkl70wO1dx.jpg",
+      "first_air_date": "2025-11-05",
+      "name": "Зліплене місто",
+      "vote_average": 8.329,
+      "vote_count": 85,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kiOEVg5BkzLE0pWoPKecXd7wZ2Q.jpg",
+      "genre_ids": [
+        10765,
+        80,
+        10759
+      ],
+      "id": 114471,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Ironheart",
+      "overview": "Після подій «Чорної Пантери: Ваканда назавжди» технології протистоять магії, коли юна геніальна винахідниця Рірі Вільямс повертається до рідного Чикаго, прагнучи заявити про себе у світі. Її унікальний підхід до створення залізних костюмів вражає геніальністю, але в гонитві за амбіціями вона опиняється у зв’язках із таємничим, проте чарівним Паркером Роббінсом, відомим як «Капюшон».",
+      "popularity": 11.9603,
+      "poster_path": "/mWAbDJE5Z7CdoPAa2kNBKeBfW2J.jpg",
+      "first_air_date": "2025-06-24",
+      "name": "Залізне серце",
+      "vote_average": 5.363,
+      "vote_count": 413,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pHhGVPOi9qI6CVYIrgZ2VWflg0u.jpg",
+      "genre_ids": [
+        9648,
+        18,
+        10751
+      ],
+      "id": 233833,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "찬란한 너의 계절에",
+      "overview": "",
+      "popularity": 11.76,
+      "poster_path": "/eUkIxWK9KhLQLPQct9G8HeY61Rj.jpg",
+      "first_air_date": "2026-02-20",
+      "name": "찬란한 너의 계절에",
+      "vote_average": 8,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lxQMxqao3vs2ehxESrkQU6acU86.jpg",
+      "genre_ids": [
+        10765,
+        16,
+        10759
+      ],
+      "id": 138505,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Marvel Zombies",
+      "overview": "Після того, як «Месники» були охоплені зомбі-чумою, група вцілілих відкриває ключ до зупинки надпотужних мерців. Вони мчать крізь дистопійні краєвиди та ризикують життям, аби врятувати свій світ.",
+      "popularity": 9.354,
+      "poster_path": "/bOsPcaqY4PseEd88oT6vNepEj5S.jpg",
+      "first_air_date": "2025-09-24",
+      "name": "Marvel Zombies",
+      "vote_average": 7.233,
+      "vote_count": 302,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
+      "genre_ids": [
+        16,
+        10759,
+        10765
+      ],
+      "id": 241388,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Eyes of Wakanda",
+      "overview": "Слідуйте за пригодами відважних воїнів Ваканди крізь історію у цій подорожі світом, де вони виконують небезпечні місії, щоб повернути артефакти з вібраніуму, викрадені ворогами Ваканди. Вони — Хатут Заразе, і це їхня історія.",
+      "popularity": 8.5073,
+      "poster_path": "/binvhtqsyfCVwS0GEFka5ruKxPJ.jpg",
+      "first_air_date": "2025-08-01",
+      "name": "Очі Ваканди",
+      "vote_average": 6.114,
+      "vote_count": 149,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/TMfV5xdAEZhzGN9MYXYomuhePz.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 273247,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Lowdown",
+      "overview": "Власник книгарні у Талсі Лі Рейбон підробляє журналістом та розслідує місцеву корупцію. Коли член впливової сім'ї вмирає, Лі підозрює, що смерть була насильницькою і починає власне розслідування.",
+      "popularity": 8.0003,
+      "poster_path": "/l6ehYzF2Pp9nPTsJkSYJPrEctoB.jpg",
+      "first_air_date": "2025-09-23",
+      "name": "Підспідок",
+      "vote_average": 6.677,
+      "vote_count": 47,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yQy9Y3p5INwkfTuHSnzYnz4MCV3.jpg",
+      "genre_ids": [
+        35,
+        14,
+        10751
+      ],
+      "id": 1125257,
+      "original_language": "en",
+      "original_title": "Freakier Friday",
+      "overview": "Події розгортаються через роки після того, як Тесс і Анна пережили кризу ідентичності. Тепер у Анни є власна донька, а незабаром з’явиться й падчерка. Долаючи численні випробування, пов’язані з об’єднанням двох сімей, Тесс і Анна знову переконуються, що блискавка може вдарити двічі.",
+      "popularity": 7.3269,
+      "poster_path": "/rrGuqlTWcvs4mjbgJ8zNujDLgCU.jpg",
+      "release_date": "2025-08-06",
+      "title": "Ще одна шалена п'ятниця",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 617,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/42RCEkRkfvafglUsXD6kN1S9nwP.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 246473,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "메이드 인 코리아",
+      "overview": "Чоловік, одержимий жагою багатства й влади, та прокурор, який жертвує всім, аби його зупинити, — історія, що розгортається у вирі бурхливої епохи.",
+      "popularity": 7.2504,
+      "poster_path": "/w0phy4NdYpwAVIP3zsY0u4t66Pw.jpg",
+      "first_air_date": "2025-12-24",
+      "name": "Зроблено в Кореї",
+      "vote_average": 8,
+      "vote_count": 18,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ch25hghTZkXFfcx7v2r7cGKKizl.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 304790,
+      "origin_country": [
+        "AR"
+      ],
+      "original_language": "es",
+      "original_name": "Hija del fuego: La venganza de la bastarda",
+      "overview": "",
+      "popularity": 7.1136,
+      "poster_path": "/4WRrWmk5BJhlBOFEK0VWWFxamqU.jpg",
+      "first_air_date": "2025-11-19",
+      "name": "Hija del fuego: La venganza de la bastarda",
+      "vote_average": 7.667,
+      "vote_count": 9,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fRi1Qf51rtFzrYM3gvl9ihGjT5Q.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 291084,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Best Medicine",
+      "overview": "",
+      "popularity": 7.046,
+      "poster_path": "/AsnoR1hjEtN2IAJ1CVlssNxFpSO.jpg",
+      "first_air_date": "2026-01-04",
+      "name": "Best Medicine",
+      "vote_average": 7.692,
+      "vote_count": 13,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6omimfVty4JD3LXzI5LHEGhXjwn.jpg",
+      "genre_ids": [
+        16,
+        18,
+        10765
+      ],
+      "id": 284445,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "タコピーの原罪",
+      "overview": "Щасливий інопланетянин Такопі прилітає на Землю з однією місією: поширювати щастя! Коли він зустрічає Шізуку, самотню ученицю четвертого класу, він присягається повернути їй усмішку за допомогою своїх чарівних Щасливих Ґаджетів. Але коли він виявляє біль у її житті, Такопі дізнається, що для справжнього щастя може знадобитися щось більше, ніж гаджети.",
+      "popularity": 6.6574,
+      "poster_path": "/9rLqz1GhlqZksYgxtuq4w8GeU56.jpg",
+      "first_air_date": "2025-06-28",
+      "name": "Первородний гріх Такопі",
+      "vote_average": 8.843,
+      "vote_count": 140,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    }
+  ]
+}

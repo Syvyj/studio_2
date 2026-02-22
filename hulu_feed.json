@@ -1,0 +1,462 @@
+{
+  "title": "Hulu",
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/82lM4GJ9uuNvNDOEpxFy77uv4Ak.jpg",
+      "genre_ids": [
+        28,
+        878,
+        12
+      ],
+      "id": 1242898,
+      "original_language": "en",
+      "original_title": "Predator: Badlands",
+      "overview": "Дія розгортається в майбутньому на віддаленій планеті, де молодий Хижак, вигнаний зі свого клану, знаходить малоймовірного союзника в особі Тії та вирушає в підступну подорож на пошуки свого остаточного супротивника.",
+      "popularity": 147.7011,
+      "poster_path": "/qRA3DbdUfQDJPgKkC7QnuCCU717.jpg",
+      "release_date": "2025-11-05",
+      "title": "Хижак: Дикі землі",
+      "video": false,
+      "vote_average": 7.718,
+      "vote_count": 2106,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 131142,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Love Story",
+      "overview": "Серіал досліджує стрімкий роман і гучний шлюб однієї з найзнаковіших пар ХХ століття — Джона Ф. Кеннеді-молодшого та Керолін Бессетт.",
+      "popularity": 44.006,
+      "poster_path": "/3HJjTbMrKaiMXxJHltUFat1r1P2.jpg",
+      "first_air_date": "2026-02-12",
+      "name": "Історія кохання",
+      "vote_average": 8.9,
+      "vote_count": 16,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
+      "genre_ids": [
+        18,
+        10765
+      ],
+      "id": 273160,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Beauty",
+      "overview": "Світ високої моди поринає в темряву, коли міжнародні супермоделі починають гинути жахливими й загадковими способами. Агентів ФБР Купера Медсена та Джордан Беннетт відправляють до Парижа, щоб розкрити правду. Заглиблюючись у розслідування, вони виявляють вірус, що передається статевим шляхом і перетворює звичайних людей на втілення фізичної досконалості — але з жахливими наслідками.",
+      "popularity": 42.8413,
+      "poster_path": "/vCbWCw7fUdjYxLuNka5EOeLcQJE.jpg",
+      "first_air_date": "2026-01-21",
+      "name": "Краса",
+      "vote_average": 6.1,
+      "vote_count": 62,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/euoXeFAOt9o7yAWA9zGZk7DdZWZ.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 1208348,
+      "original_language": "en",
+      "original_title": "Rental Family",
+      "overview": "Самотній американський актор, що мешкає в Токіо, починає працювати в японській компанії, яка надає «орендовані родини», — він грає підставні ролі в житті інших людей. Згодом він знаходить неочікувані зв’язки та несподівану радість у цій штучній родині.",
+      "popularity": 29.751,
+      "poster_path": "/rEutyvM2e0hu6Hn51aF495J1F9L.jpg",
+      "release_date": "2025-11-20",
+      "title": "Сім'я напрокат",
+      "video": false,
+      "vote_average": 7.828,
+      "vote_count": 431,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ySHUoK4utUOiSfCinw81H1TsV0E.jpg",
+      "genre_ids": [
+        878,
+        28,
+        27
+      ],
+      "id": 1241470,
+      "original_language": "en",
+      "original_title": "Osiris",
+      "overview": "Команду спецпризначенців викрадає під час операції загадковий космічний корабель. Прокинувшись, вони виявляють, що стали здобиччю безжальної інопланетної раси — і тепер мають боротися за виживання.",
+      "popularity": 23.1295,
+      "poster_path": "/3YtZHtXPNG5AleisgEatEfZOT2w.jpg",
+      "release_date": "2025-07-25",
+      "title": "Осіріс",
+      "video": false,
+      "vote_average": 6.013,
+      "vote_count": 186,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/biIBy2LPOOtGCgUYOls3dUEWU3v.jpg",
+      "genre_ids": [
+        10765,
+        18
+      ],
+      "id": 157239,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Alien: Earth",
+      "overview": "Коли таємничий космічний корабель зазнає аварії на Землі, молода жінка та різношерста група солдатів-тактиків роблять доленосне відкриття, яке ставить їх віч-на-віч з найбільшою загрозою планети.",
+      "popularity": 21.0035,
+      "poster_path": "/8e8IKfP0tiR62cNsh4ZpSIWwUVJ.jpg",
+      "first_air_date": "2025-08-12",
+      "name": "Чужий: Земля",
+      "vote_average": 7.35,
+      "vote_count": 931,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9cd1zsxcOAcBW01WDOWz8EODTS0.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 1206008,
+      "original_language": "en",
+      "original_title": "Ella McCay",
+      "overview": "Ідеалістична молода політикиня балансує між сімейними проблемами та складною роботою, готуючись зайняти посаду свого наставника — чинного губернатора штату з багаторічним досвідом.",
+      "popularity": 16.3113,
+      "poster_path": "/ifIKMTQmMpYRp0UxgjG3fK5SmIO.jpg",
+      "release_date": "2025-12-11",
+      "title": "Елла МакКей",
+      "video": false,
+      "vote_average": 5.651,
+      "vote_count": 76,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3C01kAcKGR6FwsUUSOvJ8N82pqr.jpg",
+      "genre_ids": [
+        878,
+        27,
+        53
+      ],
+      "id": 1086260,
+      "original_language": "en",
+      "original_title": "The Astronaut",
+      "overview": "Астронавтка підозрює, що щось позаземне повернулося разом із нею на Землю.",
+      "popularity": 13.9093,
+      "poster_path": "/souvvkJHYhztC1UqZ8lEVUiJa3J.jpg",
+      "release_date": "2025-09-26",
+      "title": "Астронавтка",
+      "video": false,
+      "vote_average": 5.821,
+      "vote_count": 204,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1dqFuNiutgBdNF9d5QOQBWHHvft.jpg",
+      "genre_ids": [
+        28,
+        80,
+        35,
+        53
+      ],
+      "id": 1217602,
+      "original_language": "en",
+      "original_title": "London Calling",
+      "overview": "Після невдалої справи найманий убивця втікає з Великої Британії, але в новому місті отримує ще дивніше завдання: няньчити сина кримінального боса й навчити його бути справжнім чоловіком.",
+      "popularity": 13.4102,
+      "poster_path": "/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg",
+      "release_date": "2025-09-18",
+      "title": "Лондон кличе",
+      "video": false,
+      "vote_average": 6.736,
+      "vote_count": 89,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ewxiPfbKklk9FJZ2ECsDyJDQjvX.jpg",
+      "genre_ids": [
+        28,
+        35,
+        878
+      ],
+      "id": 338969,
+      "original_language": "en",
+      "original_title": "The Toxic Avenger Unrated",
+      "overview": "Дія фільму розгортається у фантастичному світі навколо Вінстона, стереотипного слабака, який працює прибиральником у фітнес-клубі. У нього діагностували невиліковну хворобу, яку можна вилікувати лише за допомогою дорогого лікування, яке його жадібний роботодавець відмовляється оплачувати. Вирішивши взяти справу в свої руки і пограбувати свою компанію, Вінстон падає в яму з токсичними відходами та перетворюється на деформованого монстра, який прагне творити добро і помститися всім людям, які його скривдили.",
+      "popularity": 12.8841,
+      "poster_path": "/7DQcz7m18lZMY5kba0zWq2utuAf.jpg",
+      "release_date": "2025-08-28",
+      "title": "Токсичний месник",
+      "video": false,
+      "vote_average": 6.037,
+      "vote_count": 303,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/39Niij05MXfibXBsHiUU0Ml0POX.jpg",
+      "genre_ids": [
+        27,
+        10749
+      ],
+      "id": 1242011,
+      "original_language": "en",
+      "original_title": "Together",
+      "overview": "Міллі та Тім - пара вже понад десятиріччя, й незважаючи на проблеми в стосунках, вони вирішують переїхати разом заради нової роботи Міллі. У новому місці вони стикаються не тільки з чудовою природою навкруги та привітним сусідом, а й з надприродною подією, яка кардинально змінює їхні стосунки, існування та фізичну форму.",
+      "popularity": 11.2998,
+      "poster_path": "/4XqFVznk7vV2xAr0q5kLaGDemDs.jpg",
+      "release_date": "2025-07-28",
+      "title": "Одне ціле",
+      "video": false,
+      "vote_average": 6.997,
+      "vote_count": 941,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kCwmLYy9ZMto1eMH8BI9KcVVIH2.jpg",
+      "genre_ids": [
+        35,
+        27,
+        14
+      ],
+      "id": 1022453,
+      "original_language": "te",
+      "original_title": "ది రాజాసాబ్",
+      "overview": "",
+      "popularity": 10.3042,
+      "poster_path": "/nvK6gYa4diCnQkDVN42uoYXPrdT.jpg",
+      "release_date": "2026-01-08",
+      "title": "ది రాజాసాబ్",
+      "video": false,
+      "vote_average": 5.435,
+      "vote_count": 23,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vZK3f5N8Fv2LcyFYLwt6dz0HE1H.jpg",
+      "genre_ids": [
+        35,
+        28
+      ],
+      "id": 1161617,
+      "original_language": "en",
+      "original_title": "Code 3",
+      "overview": "Розповідь про парамедика, який настільки виснажений роботою, що змушує себе звільнитися. Проте перед цим він має відпрацювати останню 24-годинну зміну, щоб навчити свого наступника.",
+      "popularity": 9.7405,
+      "poster_path": "/A8nzyrMXKUFVbZwmG5vptY4avDf.jpg",
+      "release_date": "2025-09-12",
+      "title": "Код 3",
+      "video": false,
+      "vote_average": 7.043,
+      "vote_count": 221,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/b9iQP6brbuGs8mhRPRV0ThiwD5I.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 772462,
+      "original_language": "es",
+      "original_title": "No Me Sigas",
+      "overview": "",
+      "popularity": 9.1603,
+      "poster_path": "/gop4DwcBeb9T3JTaxwDEHdJNqSq.jpg",
+      "release_date": "2025-10-30",
+      "title": "No Me Sigas",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 39,
+      "has_ua": true,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xhqklQEaJ7xqsqnwCJZu7hTmTIK.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 258742,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "All's Fair",
+      "overview": "Розповідає про успішну адвокатку з розлучень та власницю юридичної фірми в Лос-Анджелесі, в якій працюють виключно жінки.",
+      "popularity": 7.9845,
+      "poster_path": "/d6BQqbd6Mp7VbT4RcbNRcmbd8EK.jpg",
+      "first_air_date": "2025-11-04",
+      "name": "Все чесно",
+      "vote_average": 5.042,
+      "vote_count": 59,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ptHXfOc0gEIG8CrieQ3t8MUBuiP.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 1522923,
+      "original_language": "en",
+      "original_title": "Safe House",
+      "overview": "",
+      "popularity": 7.3143,
+      "poster_path": "/jlQW7qPp9j6yGqiIEcB3uNYbjys.jpg",
+      "release_date": "2025-10-30",
+      "title": "Safe House",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 50,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iLzaLdkva7wUV9HMyykaHFUFHKA.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 248416,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Twisted Tale of Amanda Knox",
+      "overview": "Історія зосереджена на важкій подорожі Аманди Нокс після того, як її помилково ув’язнили за вбивство сусідки по кімнаті, її боротьбі довести невинуватість і повернути свободу.",
+      "popularity": 6.9865,
+      "poster_path": "/aLnOXgq0mOMxjIzUQUQirLmuoxt.jpg",
+      "first_air_date": "2025-08-20",
+      "name": "Заплутана історія Аманди Нокс",
+      "vote_average": 7.056,
+      "vote_count": 36,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8jeDyvFQKgss36FbGAmGQVzPXlH.jpg",
+      "genre_ids": [
+        53,
+        28,
+        35
+      ],
+      "id": 1151334,
+      "original_language": "en",
+      "original_title": "Eenie Meanie",
+      "overview": "Водійка-втікачка, яка в підлітковому віці працювала на злочинців, намагається залишити минуле позаду. Та коли її колишній роботодавець пропонує їй угоду, що може врятувати життя її ненадійного колишнього хлопця, вона змушена знову повернутися до небезпечного світу, який давно намагалася забути.",
+      "popularity": 6.474,
+      "poster_path": "/m57J15DtYzPvAd1aARMUgk0OKSN.jpg",
+      "release_date": "2025-08-21",
+      "title": "Іні Міні",
+      "video": false,
+      "vote_average": 6.296,
+      "vote_count": 285,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tK3zER0850mxditEoepTOmIeYKq.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 1267905,
+      "original_language": "en",
+      "original_title": "The Roses",
+      "overview": "На перший погляд, життя Айві та Тео — ідеальна картинка: успішна кар’єра, щасливий шлюб, чудові діти. Та за фасадом цієї бездоганної родинної ідилії зріє буря. У той час як професійне життя Тео стрімко йде на спад, амбіції Айві лише набирають обертів. Те, що здавалося партнерством, поступово перетворюється на арену мовчазного протистояння, де накопичені образи, ревнощі та суперництво стають вибухонебезпечною сумішшю.",
+      "popularity": 6.4345,
+      "poster_path": "/gr4PQFRegu5VdfaGIZ6Uyxwi6RS.jpg",
+      "release_date": "2025-08-27",
+      "title": "Роузи",
+      "video": false,
+      "vote_average": 6.716,
+      "vote_count": 583,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lu4HO4kJx2aZzVgjoRcF9vYPaFI.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 247168,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Chad Powers",
+      "overview": "Минуло вісім років з моменту, як єдина помилка зруйнувала багатообіцяючу кар'єру квотербека Расса Голлідея в коледжному футболі. Тепер він намагається воскресити свої мрії, видаючи себе за Чеда Паверса — талановитого дивака, який приєднується до слабкої південної футбольної команди.",
+      "popularity": 6.413,
+      "poster_path": "/7gyRwbJG10Zxp3TUdqvqfP8HCEx.jpg",
+      "first_air_date": "2025-09-30",
+      "name": "Чед Паверс",
+      "vote_average": 8.208,
+      "vote_count": 65,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    }
+  ]
+}

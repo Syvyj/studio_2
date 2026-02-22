@@ -1,0 +1,470 @@
+{
+  "title": "Paramount+",
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/9uakM2woks0JV8HKIc4oatIVS88.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 1315303,
+      "original_language": "en",
+      "original_title": "Primate",
+      "overview": "Приїхавши додому з коледжу, Люсі дізнається, що їхній домашній шимпанзе вже не такий, яким був раніше . Заражена сказом тварина повертається до своєї дикої суті, перетворюючи відпустку друзів на моторошну, первісну історію жаху та виживання.",
+      "popularity": 98.2568,
+      "poster_path": "/gIlkYsoI4QREI2iWPIZoxiQqeh7.jpg",
+      "release_date": "2026-01-01",
+      "title": "Примат",
+      "video": false,
+      "vote_average": 6.639,
+      "vote_count": 373,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/c78kbj781ddvmSn5mgLWFQbC7di.jpg",
+      "genre_ids": [
+        18,
+        10759
+      ],
+      "id": 240459,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Spartacus: House of Ashur",
+      "overview": "Дія серіалу відбувається в античній Італії у I столітті до н. е. За допомогу у придушенні повстання Ашур отримує гладіаторську школу, яка колись належала Лентулу Батіату.",
+      "popularity": 89.1028,
+      "poster_path": "/3IyuVc7rsw5l1I2chBG2zkWpzLA.jpg",
+      "first_air_date": "2025-12-05",
+      "name": "Спартак: Дім Ашура",
+      "vote_average": 6.759,
+      "vote_count": 198,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rXtSdCGmG07zjAg5h7GR1v52ogX.jpg",
+      "genre_ids": [
+        10765,
+        10759
+      ],
+      "id": 223530,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Star Trek: Starfleet Academy",
+      "overview": "Кадети Зоряного флоту проходять через дружбу, суперництво та перше кохання, готуючись стати офіцерами. Вони стикаються з новою загрозою, яка загрожує Академії та Федерації.",
+      "popularity": 30.2923,
+      "poster_path": "/2ef0s8SyPXog7OQn8XaW78uw2E.jpg",
+      "first_air_date": "2026-01-15",
+      "name": "Зоряний шлях: Академія Зоряного флоту",
+      "vote_average": 4.786,
+      "vote_count": 124,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aHj7d7wSLqrg5cjAcgHhiGr97Ih.jpg",
+      "genre_ids": [
+        28,
+        53,
+        878
+      ],
+      "id": 798645,
+      "original_language": "en",
+      "original_title": "The Running Man",
+      "overview": "У недалекому майбутньому світ розділився на еліту та пролетаріат. Для одних життя — це низка привілеї, для інших — боротьба за виживання. Єдиний шанс вибратися з бідності — взяти участь у смертельному реаліті-шоу «Людина, що біжить», де мисливці полюють на учасників, а глядачі жадають видовища. Бен Річардс, зневірений робітник, стає учасником гри, щоб урятувати сім’ю. Але він не просто втікач — він виклик системі. Тепер його переслідують не лише безжальні мисливці, а й сам творець шоу. Щоб вижити, він має змінити правила гри.",
+      "popularity": 28.1915,
+      "poster_path": "/q6Hm6sQVhJqOD38OGfDvvjOSwva.jpg",
+      "release_date": "2025-11-11",
+      "title": "Людина, що біжить",
+      "video": false,
+      "vote_average": 6.797,
+      "vote_count": 1172,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kzeBfhXMRWiykBsqoL3UbfaM0S.jpg",
+      "genre_ids": [
+        28,
+        35,
+        80
+      ],
+      "id": 1035259,
+      "original_language": "en",
+      "original_title": "The Naked Gun",
+      "overview": "Лише одна людина має унікальний набір навичок… щоб очолити Поліцейський загін і врятувати світ: лейтенант Френк Дребін-молодший.",
+      "popularity": 21.3803,
+      "poster_path": "/shpxKMg35lrq5gJTZ4lpsIa8PrC.jpg",
+      "release_date": "2025-07-30",
+      "title": "Голий пістолет",
+      "video": false,
+      "vote_average": 6.41,
+      "vote_count": 1457,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9whEVuKte4Qi0LI4TzPf7glinJW.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        14
+      ],
+      "id": 936108,
+      "original_language": "en",
+      "original_title": "Smurfs",
+      "overview": "Коли Тата Смурфа таємниче викрадають підступні чаклуни Разамель і Ґарґамель, Смурфетка бере на себе відповідальність та очолює Смурфиків у новій захопливій пригоді, щоб визволити його. Разом із новими друзями Смурфики мають з'ясувати, що саме визначає їхню долю, аби врятувати Всесвіт.",
+      "popularity": 9.3695,
+      "poster_path": "/hwqdWPc6uex3hJF2eCqjbK4uxxk.jpg",
+      "release_date": "2025-07-05",
+      "title": "Смурфи",
+      "video": false,
+      "vote_average": 5.882,
+      "vote_count": 241,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eIzZbii038RzFgKMHIJZEekONfa.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 207484,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Outlander: Blood of My Blood",
+      "overview": "Приквел фантастично-історичної мелодрами «Чужоземка» розповідає про батьків Джеймі — Браяна й Еллен, а також про батьків Клер — Генрі та Джулію. Обидві пари кидають виклик долі, щоб бути разом, і їхні історії кохання простягаються крізь час і простір — від полів битв Другої світової війни до шотландських Гайлендів XVIII століття — несподівано переплітаючись.",
+      "popularity": 6.9479,
+      "poster_path": "/wqrmVRTgSwhex7dPgss1HLBRCWK.jpg",
+      "first_air_date": "2025-08-08",
+      "name": "Чужоземка: Кров моєї крові",
+      "vote_average": 8.479,
+      "vote_count": 73,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ub0xUWZUBoAwy1eBG1uwi9ikaVg.jpg",
+      "genre_ids": [
+        10759,
+        18,
+        80
+      ],
+      "id": 247732,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "NCIS: Tony & Ziva",
+      "overview": "",
+      "popularity": 5.7705,
+      "poster_path": "/awmOKWSeIaqSRgBasDCIZjUCiaw.jpg",
+      "first_air_date": "2025-09-04",
+      "name": "NCIS: Tony & Ziva",
+      "vote_average": 7.455,
+      "vote_count": 67,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/da1mXvCrQrFcw6BxovCavBFbIvz.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 1251717,
+      "original_language": "en",
+      "original_title": "Vicious",
+      "overview": "Жінка проводить ніч у боротьбі за власне існування, занурюючись у кролячу нору, заховану всередині подарунка від нічного гостя.",
+      "popularity": 3.7132,
+      "poster_path": "/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "release_date": "2025-09-19",
+      "title": "Порочний",
+      "video": false,
+      "vote_average": 5.984,
+      "vote_count": 224,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yGH7ke2rbeSI4IZx90UzIrMlWLq.jpg",
+      "genre_ids": [
+        27,
+        18,
+        53
+      ],
+      "id": 787747,
+      "original_language": "en",
+      "original_title": "Shell",
+      "overview": "Відчайдушно прагнучи повернути собі кар’єру, колись улюблена публікою акторка Саманта Лейк потрапляє у гламурний світ магнатки індустрії велнесу Зої Шеннон — лише щоб відкрити жахливу правду під його бездоганною поверхнею.",
+      "popularity": 2.3595,
+      "poster_path": "/9CV0Pf6RoFCbTzwoeH6ypCRNyMK.jpg",
+      "release_date": "2025-10-01",
+      "title": "Маска",
+      "video": false,
+      "vote_average": 5.229,
+      "vote_count": 48,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5lFJVwFA2jtO1ygLoDLGPiT7UhI.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 253750,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Crutch",
+      "overview": "",
+      "popularity": 2.1897,
+      "poster_path": "/9tDDG9mLfhJmqOyvolWneeF6Y1g.jpg",
+      "first_air_date": "2025-11-03",
+      "name": "Crutch",
+      "vote_average": 4.5,
+      "vote_count": 10,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wmeeAR8MvvTEMX7jyOHCU7lwKTN.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 308767,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Handsome Devil: Charming Killer",
+      "overview": "",
+      "popularity": 1.5672,
+      "poster_path": "/eMYeeDy7xj22JnatwxVT8wHTujI.jpg",
+      "first_air_date": "2026-01-20",
+      "name": "Handsome Devil: Charming Killer",
+      "vote_average": 9.25,
+      "vote_count": 4,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dxyxhuMZKH8uLsaneceVdTLB04q.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 312722,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Wild Boys: Strangers in Town",
+      "overview": "",
+      "popularity": 1.5346,
+      "poster_path": "/37EbB6Ip8C1UkQd1grArnr4Xhzw.jpg",
+      "first_air_date": "2026-02-18",
+      "name": "Wild Boys: Strangers in Town",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        99
+      ],
+      "id": 245937,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Magic City: An American Fantasy",
+      "overview": "",
+      "popularity": 1.0487,
+      "poster_path": "/qd0War8Gq6xfvm4jiMPjEThquyk.jpg",
+      "first_air_date": "2025-08-15",
+      "name": "Magic City: An American Fantasy",
+      "vote_average": 10,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bjC1NG70WfRnLMZOopBmIj2fToI.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 303740,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "My Nightmare Stalker: The Eva LaRue Story",
+      "overview": "",
+      "popularity": 0.8063,
+      "poster_path": "/pQDG3WglIyO7sYpgZuMwbhjzkAW.jpg",
+      "first_air_date": "2025-11-13",
+      "name": "My Nightmare Stalker: The Eva LaRue Story",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qx3Sr8j1rFsedhCbsnxDahUf75F.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 294876,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Hip Hop Was Born Here",
+      "overview": "",
+      "popularity": 0.8005,
+      "poster_path": "/aStCmjI0JEflLbPgVTcrelGOltx.jpg",
+      "first_air_date": "2025-07-22",
+      "name": "Hip Hop Was Born Here",
+      "vote_average": 3.6,
+      "vote_count": 5,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cGVgsM30hIvArB7UUAS1KlTedNL.jpg",
+      "genre_ids": [
+        28,
+        12,
+        16,
+        35,
+        10751
+      ],
+      "id": 1488195,
+      "original_language": "en",
+      "original_title": "Teenage Mutant Ninja Turtles: Chrome Alone 2 - Lost in New Jersey",
+      "overview": "",
+      "popularity": 0.7837,
+      "poster_path": "/nfn3KUIXqX2iW2eKnB8THzu8VEp.jpg",
+      "release_date": "2025-12-19",
+      "title": "Teenage Mutant Ninja Turtles: Chrome Alone 2 - Lost in New Jersey",
+      "video": false,
+      "vote_average": 6.833,
+      "vote_count": 12,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3k5QdiQmlT5SqxypIS9gVoP7sQQ.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 298844,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Thirst Trap: The Fame. The Fantasy. The Fallout.",
+      "overview": "",
+      "popularity": 0.7218,
+      "poster_path": "/leehthcMfN6SrMb6kRMHcTZTvPp.jpg",
+      "first_air_date": "2025-09-09",
+      "name": "Thirst Trap: The Fame. The Fantasy. The Fallout.",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        99
+      ],
+      "id": 306153,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5-Star",
+      "overview": "",
+      "popularity": 0.6853,
+      "poster_path": "/98gZRQ65T7xGEJte7dOyMn0kiEp.jpg",
+      "first_air_date": "2025-12-02",
+      "name": "5-Star",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/goqzioeAOJIpa09DhesJkgHcjid.jpg",
+      "genre_ids": [
+        10764,
+        99
+      ],
+      "id": 298846,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Don't Date Brandon",
+      "overview": "",
+      "popularity": 0.6591,
+      "poster_path": "/sIipFBqZSX0zWIgHi4On3uYuGoW.jpg",
+      "first_air_date": "2025-10-28",
+      "name": "Don't Date Brandon",
+      "vote_average": 5,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    }
+  ]
+}

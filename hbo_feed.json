@@ -1,0 +1,446 @@
+{
+  "title": "HBO / Max",
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+      "genre_ids": [
+        18,
+        10765,
+        10759
+      ],
+      "id": 224372,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "A Knight of the Seven Kingdoms",
+      "overview": "За століття до подій «Гри престолів» Вестеросом блукали два несподівані герої... молодий, наївний, але сміливий лицар, сер Дункан Високий, та його мініатюрний зброєновець, Егг. Події відбуваються в епоху, коли рід Таргарієнів все ще володів Залізним Троном, а пам'ять про останнього дракона ще не зникла з пам'яті живих, великі долі, могутні вороги та небезпечні подвиги чекають на цих неймовірних та незрівнянних друзів.",
+      "popularity": 300.1181,
+      "poster_path": "/bDYAjBVXblqeqjQR1M7KmW8xxKP.jpg",
+      "first_air_date": "2026-01-18",
+      "name": "Лицар Сімох Королівств",
+      "vote_average": 8.5,
+      "vote_count": 369,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 1316092,
+      "original_language": "en",
+      "original_title": "“Wuthering Heights”",
+      "overview": "Пристрасна й бурхлива історія кохання на тлі йоркширських пустищ, що досліджує напружені та руйнівні стосунки між Гіткліфом і Кетрін Ерншо.",
+      "popularity": 149.9314,
+      "poster_path": "/2AKDJSZGXEoG8EWROZV2urEddFJ.jpg",
+      "release_date": "2026-02-11",
+      "title": "«Буремний перевал»",
+      "video": false,
+      "vote_average": 6.541,
+      "vote_count": 319,
+      "has_ua": true,
+      "quality": "FHD",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gre7gyocZSuwd7M51CGlqsJqBmB.jpg",
+      "genre_ids": [
+        53,
+        80,
+        28
+      ],
+      "id": 1054867,
+      "original_language": "en",
+      "original_title": "One Battle After Another",
+      "overview": "Коли їхній зловісний ворог знову з’являється після 16 років, група колишніх революціонерів об'єднується, щоб урятувати доньку одного з них.",
+      "popularity": 40.9315,
+      "poster_path": "/ojzqCrYrMoNt1rZWmt8i5MrIXio.jpg",
+      "release_date": "2025-09-23",
+      "title": "Одна битва за іншою",
+      "video": false,
+      "vote_average": 7.413,
+      "vote_count": 2869,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2746UvsbkZINd873Yd3o3TxOwCP.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "id": 200875,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "IT: Welcome to Derry",
+      "overview": "Приквел культового фільму Воно переносить глядачів у 1962 рік, коли в невеликому містечку Деррі починає прокидатися стародавнє зло, здатне харчуватися страхом та підкоряти собі людей. У центрі сюжету — група підлітків, які стикаються з моторошними подіями та намагаються зрозуміти, що ховається під спокійною поверхнею їхнього рідного міста. Чим глибше вони занурюються в розслідування, тим більше помічають дивацтва, пов'язані зі зникненнями жителів і міфічними істотами, що ховаються в глибинах Деррі. Незважаючи на мовчання дорослих, хлопці вирішують докопатися до істини, не здогадуючись, до яких наслідків це призведе.",
+      "popularity": 39.7904,
+      "poster_path": "/lcoX5sWwMSm6vwqqokW5ND6VgvR.jpg",
+      "first_air_date": "2025-10-26",
+      "name": "Воно: Ласкаво просимо в Деррі",
+      "vote_average": 8.227,
+      "vote_count": 1295,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aMvrl6xEkyISLQgn9WmiC2nJtAW.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 228305,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Task",
+      "overview": "Агент ФБР очолює оперативну групу, яка має покласти край серії пограбувань наркомагазинів, очолюваних нічого не підозрюючим сімейним чоловіком у робітничому передмісті за межами Філадельфії.",
+      "popularity": 11.0942,
+      "poster_path": "/gcg5jx7lyWKV5K6evtwjIb2iu2Q.jpg",
+      "first_air_date": "2025-09-07",
+      "name": "Місія",
+      "vote_average": 6.803,
+      "vote_count": 277,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jq9biQdGSL0GIUyDaLLl7x8rgzm.jpg",
+      "genre_ids": [
+        35,
+        18,
+        9648
+      ],
+      "id": 271267,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Chair Company",
+      "overview": "Після інциденту на роботі головний герой опиняється в ситуації, коли йому доводиться розслідувати далекосяжну змову.",
+      "popularity": 8.7269,
+      "poster_path": "/puD6gJvCK3myZ1QrVzwuEQmHtzI.jpg",
+      "first_air_date": "2025-10-12",
+      "name": "Між крісел",
+      "vote_average": 7.079,
+      "vote_count": 76,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/52h1FHwHLVG7oafzHTAJkmUKNMu.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 271053,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "I Love LA",
+      "overview": "Друзі, які давно не бачилися, знову збираються разом і намагаються розібратися у складнощах амбіцій, стосунків і того, як час змінив кожного з них.",
+      "popularity": 6.4975,
+      "poster_path": "/naf96FbSZQbiITbTmyEKkDdROOe.jpg",
+      "first_air_date": "2025-11-02",
+      "name": "Я люблю Лос-Анджелес",
+      "vote_average": 6.781,
+      "vote_count": 32,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/s2pIMVLujBjLBnNlofmr9kwUXNa.jpg",
+      "genre_ids": [
+        99,
+        10764
+      ],
+      "id": 312428,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Neighbors",
+      "overview": "",
+      "popularity": 3.851,
+      "poster_path": "/u0z7DrdvnxgrgWHCiSJ83OlDtHt.jpg",
+      "first_air_date": "2026-02-13",
+      "name": "Neighbors",
+      "vote_average": 7.7,
+      "vote_count": 3,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2Y1sfUem465aPHCnbq5w0wfd1qE.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 312530,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Murder in Glitterball City",
+      "overview": "",
+      "popularity": 3.5551,
+      "poster_path": "/i3Dl4avc7qFIpxY2zEBIFEVbERS.jpg",
+      "first_air_date": "2026-02-19",
+      "name": "Murder in Glitterball City",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iFAZ89ziLF6oLChvGid1I9pZo7E.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 287967,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Billy Joel: And So It Goes",
+      "overview": "",
+      "popularity": 1.4253,
+      "poster_path": "/jpekB5xqW7abzanLEyt69i6Jtpg.jpg",
+      "first_air_date": "2025-07-18",
+      "name": "Billy Joel: And So It Goes",
+      "vote_average": 8.4,
+      "vote_count": 10,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bxhW3nOBkVGEclPG29g8v5ricth.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 299126,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Seen & Heard: The History of Black Television",
+      "overview": "",
+      "popularity": 1.3324,
+      "poster_path": "/ier0S5KokLWZkS4ynqxKK0IaeTZ.jpg",
+      "first_air_date": "2025-09-09",
+      "name": "Seen & Heard: The History of Black Television",
+      "vote_average": 2.286,
+      "vote_count": 7,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uNGYFLFn4WQeXfJ6sXg2rcMceH6.jpg",
+      "genre_ids": [
+        99,
+        80
+      ],
+      "id": 277831,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Yogurt Shop Murders",
+      "overview": "Розслідує трагічне вбивство чотирьох дівчат-підлітків у магазині \"Не можу повірити, що це йогурт\" 6 грудня 1991 року в Остіні, штат Техас. Хронічно описує величезну травму, залишену злочином, і детально описує лабіринт розслідування.",
+      "popularity": 1.2028,
+      "poster_path": "/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
+      "first_air_date": "2025-08-03",
+      "name": "Розсліжування вбивства в йогуртній крамниці",
+      "vote_average": 7,
+      "vote_count": 20,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pMwpgzXcS6WYmazRGChUNjt2zyn.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 303175,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Alex vs ARod",
+      "overview": "",
+      "popularity": 1.1793,
+      "poster_path": "/qZyWiRLcD2uuiyVKE2TukxLVMY.jpg",
+      "first_air_date": "2025-11-06",
+      "name": "Alex vs ARod",
+      "vote_average": 5.333,
+      "vote_count": 3,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5ECEMrt5DbTcXQqGfVwhtOtdcJl.jpg",
+      "genre_ids": [
+        99,
+        35
+      ],
+      "id": 308112,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Mel Brooks: The 99 Year Old Man!",
+      "overview": "",
+      "popularity": 1.1419,
+      "poster_path": "/htSwFYOyepCbLUUuyCtvC0uCQ3b.jpg",
+      "first_air_date": "2026-01-22",
+      "name": "Mel Brooks: The 99 Year Old Man!",
+      "vote_average": 6.5,
+      "vote_count": 4,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ydizf7MP7vOYK7bnDcqAvhFVYxr.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 1548017,
+      "original_language": "en",
+      "original_title": "The Family McMullen",
+      "overview": "Згуртована родина долає життєві злети й падіння, стикаючись із особистими випробуваннями та змінними стосунками. Зустрічаючи несподівані перешкоди, вони випробовують міцність своїх зв’язків, відкриваючи складність любові, вірності та зростання всередині сім’ї.",
+      "popularity": 1.088,
+      "poster_path": "/yIng9VmkPqwN1QHeKtZCKwvSTb3.jpg",
+      "release_date": "2025-10-15",
+      "title": "Родина МакМаллен",
+      "video": false,
+      "vote_average": 5.357,
+      "vote_count": 14,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/79sgiO0GWhd6ArGOfLMT3R0F0Br.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1270082,
+      "original_language": "es",
+      "original_title": "Ramón y Ramón",
+      "overview": "",
+      "popularity": 0.5127,
+      "poster_path": "/k6dP7oDg2oJ4RmzmUhAHrUH6IWD.jpg",
+      "release_date": "2025-06-27",
+      "title": "Ramón y Ramón",
+      "video": false,
+      "vote_average": 7.286,
+      "vote_count": 7,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tof8ovnN0CIwi2I6qIa5zE0LHfm.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751
+      ],
+      "id": 1529648,
+      "original_language": "en",
+      "original_title": "Krypto Saves the Day!: Halloween Havoc",
+      "overview": "",
+      "popularity": 0.2838,
+      "poster_path": "/xVQgm5rZxmvRW8ttngCsnqmmitY.jpg",
+      "release_date": "2025-09-30",
+      "title": "Krypto Saves the Day!: Halloween Havoc",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 3,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pYMXfAEcJriegcAZjNl4GYGsL5g.jpg",
+      "genre_ids": [
+        16,
+        12,
+        35,
+        10751
+      ],
+      "id": 1529346,
+      "original_language": "en",
+      "original_title": "Krypto Saves the Day!: School Bus Scuffle",
+      "overview": "",
+      "popularity": 0.2715,
+      "poster_path": "/giRBhQ8WSDdXR3WdcwzjAq6VYGJ.jpg",
+      "release_date": "2025-08-13",
+      "title": "Krypto Saves the Day!: School Bus Scuffle",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 9,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/czJyil5XbEq81K6Gw2arzUUcMUo.jpg",
+      "genre_ids": [
+        16
+      ],
+      "id": 1529650,
+      "original_language": "en",
+      "original_title": "Krypto Saves the Day!: Package Pandemonium",
+      "overview": "",
+      "popularity": 0.127,
+      "poster_path": "/rmk3dVvXlIuZLkh776PIHOrqtJW.jpg",
+      "release_date": "2025-11-28",
+      "title": "Krypto Saves the Day!: Package Pandemonium",
+      "video": false,
+      "vote_average": 5.5,
+      "vote_count": 2,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    }
+  ]
+}

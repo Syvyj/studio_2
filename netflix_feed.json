@@ -1,0 +1,475 @@
+{
+  "title": "Netflix",
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/thgemkoLauZxcqe6KX8wxqEc70z.jpg",
+      "genre_ids": [
+        53,
+        18
+      ],
+      "id": 1428862,
+      "original_language": "es",
+      "original_title": "Cortafuego",
+      "overview": "Доки сім’я пакує речі перед переїздом, маленька Ліде йде до лісу й губиться. Починається страшна пожежа й матір намагається дістатися до малечі раніше за полум’я.",
+      "popularity": 124.2511,
+      "poster_path": "/lV0MGWaMf6xMejCZlJq4Fzqg3Aw.jpg",
+      "release_date": "2026-02-19",
+      "title": "Проти полумʼя",
+      "video": false,
+      "vote_average": 6.143,
+      "vote_count": 21,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bxPELhUZNgbFUN31EZTBC99wOHD.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 258462,
+      "origin_country": [
+        "AR"
+      ],
+      "original_language": "es",
+      "original_name": "En el barro",
+      "overview": "Корупція та війна між бандами в безжальній в’язниці загрожують знищити п’ять ув’язнених жінок, яких об’єднує незвичайний зв’язок після фатального нещасного випадку.",
+      "popularity": 122.7244,
+      "poster_path": "/1YKdOS4Wx2OO5rTMN0R6czKjb8d.jpg",
+      "first_air_date": "2025-08-14",
+      "name": "У багні",
+      "vote_average": 7.4,
+      "vote_count": 110,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qy8gJEwspR7L5WZn4e8ItwK8m23.jpg",
+      "genre_ids": [
+        80,
+        9648,
+        18
+      ],
+      "id": 273977,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "레이디 두아",
+      "overview": "Тіло, знайдене посеред міста. Розкішний бренд, що набирає популярності. Детектив перевіряє кожну деталь мінливої історії жінки. Що ж сталося насправді?",
+      "popularity": 99.5199,
+      "poster_path": "/8HJeOIP66E3uasIEwqxKLvf5HqM.jpg",
+      "first_air_date": "2026-02-13",
+      "name": "Мистецтво Сари",
+      "vote_average": 8.1,
+      "vote_count": 20,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1Xdsq7U7bvJJd2X7Jg4qNaKVkYO.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80,
+        18
+      ],
+      "id": 1426964,
+      "original_language": "pt",
+      "original_title": "Salve Geral: Irmandade",
+      "overview": "Сан-Паулу охоплює безпрецедентна хвиля насильства. Пов’язана з кримінальним світом адвокатка укладає угоду з поліцією, щоб урятувати викрадену племінницю.",
+      "popularity": 94.9007,
+      "poster_path": "/dX1vizppLbd42L5UcfFjW1QCLVb.jpg",
+      "release_date": "2026-02-10",
+      "title": "Місто страху",
+      "video": false,
+      "vote_average": 4.974,
+      "vote_count": 38,
+      "has_ua": true,
+      "quality": "FHD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wCwZ4ljSsWyZyTiyk1tGQtBHTDx.jpg",
+      "genre_ids": [
+        28,
+        18
+      ],
+      "id": 1511417,
+      "original_language": "te",
+      "original_title": "Bāhubali: The Epic",
+      "overview": "",
+      "popularity": 79.401,
+      "poster_path": "/4sLSorDKKDN944kWngxgQlpdDeg.jpg",
+      "release_date": "2025-10-29",
+      "title": "Bāhubali: The Epic",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 31,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3F2EXWF1thX0BdrVaKvnm6mAhqh.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
+      "id": 1306368,
+      "original_language": "en",
+      "original_title": "The Rip",
+      "overview": "Коли поліцейські з Маямі знаходять у покинутому притулку мільйон доларів готівкою, їхня взаємна довіра починає розсипатися, а сумніви й підозри зачіпають усіх.",
+      "popularity": 74.0246,
+      "poster_path": "/ykV6PJiY0Mx4dryR7fUPSCDMcfr.jpg",
+      "release_date": "2026-01-13",
+      "title": "Зрив",
+      "video": false,
+      "vote_average": 7.057,
+      "vote_count": 1223,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
+      "genre_ids": [
+        28,
+        80,
+        10749
+      ],
+      "id": 1271895,
+      "original_language": "zh",
+      "original_title": "96分鐘",
+      "overview": "",
+      "popularity": 71.0635,
+      "poster_path": "/5HefFZDvzHAR4qWEMExLfyM0qLs.jpg",
+      "release_date": "2025-09-05",
+      "title": "96分鐘",
+      "video": false,
+      "vote_average": 5.911,
+      "vote_count": 56,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kpEjZVusnBo9JcSTnfZtQlgbxu3.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 310239,
+      "origin_country": [
+        "TR"
+      ],
+      "original_language": "tr",
+      "original_name": "Masumiyet Müzesi",
+      "overview": "Стамбул, 1970-ті роки. Чоловік закохується в продавчиню й розпочинає довічну подорож, сповнену одержимості й туги. На основі культового роману Орхана Памука.",
+      "popularity": 53.6805,
+      "poster_path": "/7p081gpYZLuEOh0ExCZTajjv7c8.jpg",
+      "first_air_date": "2026-02-13",
+      "name": "Музей невинності",
+      "vote_average": 7.955,
+      "vote_count": 11,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jH1vBLHxp7E2AZGdhvjnxA96mJh.jpg",
+      "genre_ids": [
+        16,
+        35,
+        18
+      ],
+      "id": 298343,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Strip Law",
+      "overview": "У цій анімаційній комедії для дорослих стриманий адвокат об’єднується з яскравою фокусницею з Лас-Вегаса, щоб ефектно розв’язувати найбезглуздіші справи.",
+      "popularity": 48.7044,
+      "poster_path": "/b9vgEJB9pHpILr5mUYcAxuTavCh.jpg",
+      "first_air_date": "2026-02-20",
+      "name": "Закон Вегаса",
+      "vote_average": 6.4,
+      "vote_count": 5,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dbr3eceKuGnKc9v5GaVTVtegZNK.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 1243460,
+      "original_language": "en",
+      "original_title": "Joe's College Road Trip",
+      "overview": "Щоб познайомити недосвідченого онука з реальним світом, нестриманий брат Медеї Джо везе майбутнього студента в шалену подорож країною.",
+      "popularity": 42.3817,
+      "poster_path": "/xqPoGBli1F85RgCyJRfLbKH5V26.jpg",
+      "release_date": "2026-02-12",
+      "title": "Джо відвідує універи",
+      "video": false,
+      "vote_average": 5.6,
+      "vote_count": 44,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qDq3dG4ElRohih5fUGNQRLHuBaC.jpg",
+      "genre_ids": [
+        10759,
+        18,
+        80
+      ],
+      "id": 274776,
+      "origin_country": [
+        "DE"
+      ],
+      "original_language": "de",
+      "original_name": "Unfamiliar",
+      "overview": "Коли минуле наздоганяє двох колишніх шпигунів, найбільшою проблемою стають не переслідування, стрілянини або бійки, а відверта розмова.",
+      "popularity": 39.7282,
+      "poster_path": "/dYLSVhMBlOgn0WItVvtJGeRVcB4.jpg",
+      "first_air_date": "2026-02-05",
+      "name": "Демасковані",
+      "vote_average": 7.5,
+      "vote_count": 49,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sMMEQPPe2xwwnF1JgUVNJ1jCV1V.jpg",
+      "genre_ids": [
+        9648,
+        80
+      ],
+      "id": 206494,
+      "origin_country": [
+        "TW"
+      ],
+      "original_language": "zh",
+      "original_name": "百萬人推理",
+      "overview": "",
+      "popularity": 35.3297,
+      "poster_path": "/bEUIoWHzkcxkrIEAqDZtVSKCuyS.jpg",
+      "first_air_date": "2026-02-12",
+      "name": "百萬人推理",
+      "vote_average": 7.6,
+      "vote_count": 10,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ceyakefyCRAgyeFhefa2bz6d9QO.jpg",
+      "genre_ids": [
+        18,
+        14,
+        27
+      ],
+      "id": 1062722,
+      "original_language": "en",
+      "original_title": "Frankenstein",
+      "overview": "Віктор Франкенштайн — геніальний егоїстичний вчений, який оживлює істоту під час монструозного експерименту, що призводить до гибелі творця та його трагічного творіння.",
+      "popularity": 33.9711,
+      "poster_path": "/pib13Xk57eHv80INEvVuYR0ZvEJ.jpg",
+      "release_date": "2025-10-17",
+      "title": "Франкенштайн",
+      "video": false,
+      "vote_average": 7.668,
+      "vote_count": 2964,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/atWzbjlDkfbkh4mdY3uuiF9vr3r.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 1268609,
+      "original_language": "ko",
+      "original_title": "파반느",
+      "overview": "Три самотні незнайомці зустрічаються на роботі в магазині й знаходять одне в одному розраду, досліджуючи стосунки й природу кохання.",
+      "popularity": 32.9136,
+      "poster_path": "/22RlxpIT4u4psfIx9tmtbPvgAbm.jpg",
+      "release_date": "2026-02-19",
+      "title": "Павана",
+      "video": false,
+      "vote_average": 7.458,
+      "vote_count": 12,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ra12F3J3uVe112FEqBGmQapW2Bu.jpg",
+      "genre_ids": [
+        18,
+        10768
+      ],
+      "id": 270444,
+      "origin_country": [
+        "PL"
+      ],
+      "original_language": "pl",
+      "original_name": "Ołowiane dzieci",
+      "overview": "Молода педіатриня виявляє, що діти, які живуть поблизу металургійного заводу, страждають на отруєння свинцем, і ризикує всім заради їхнього порятунку.",
+      "popularity": 32.8529,
+      "poster_path": "/hceafL0x6jfA7E7a1Yysoj4vdPE.jpg",
+      "first_air_date": "2026-02-11",
+      "name": "Свинцеві діти",
+      "vote_average": 8.469,
+      "vote_count": 16,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8vLt9TYFZdAwYtqImvggTM5yFnF.jpg",
+      "genre_ids": [
+        878,
+        12,
+        18
+      ],
+      "id": 982843,
+      "original_language": "ko",
+      "original_title": "대홍수",
+      "overview": "У день, який може стати останнім на Землі, боротьба за життя в затопленій квартирі стає єдиною надією людства на виживання.",
+      "popularity": 32.7165,
+      "poster_path": "/o2SprD1H6oCEjrnDsNdtSpQoYms.jpg",
+      "release_date": "2025-09-18",
+      "title": "Всесвітній потоп",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 597,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lkmGrZXASDPwXyWf4p8GG83dw5N.jpg",
+      "genre_ids": [
+        9648,
+        35,
+        18
+      ],
+      "id": 233079,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "How to Get to Heaven from Belfast",
+      "overview": "Три давні подруги вирушають у шалену подорож, щоб розкрити таємницю підозрілої смерті приятельки й зберегти власні секрети.",
+      "popularity": 30.2976,
+      "poster_path": "/tTY3jbMMakwN4ZSbh8mNY7ZoHOj.jpg",
+      "first_air_date": "2026-02-12",
+      "name": "Як дістатися до раю з Белфасту",
+      "vote_average": 7.052,
+      "vote_count": 29,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cVqQdzqo0ymSFJqU87bIiHV8bA7.jpg",
+      "genre_ids": [
+        53,
+        18,
+        80
+      ],
+      "id": 1254624,
+      "original_language": "en",
+      "original_title": "Night Always Comes",
+      "overview": "Жінка з родиною більше не може дозволити собі жити в рідному місті. За одну ніч вона відчайдушно намагається зібрати 25 000 доларів на перший внесок за будинок.",
+      "popularity": 24.8585,
+      "poster_path": "/svyAedbawobQD44G2yBoi6BEI1t.jpg",
+      "release_date": "2025-08-15",
+      "title": "Ніч завжди настає",
+      "video": false,
+      "vote_average": 6.061,
+      "vote_count": 246,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/n4hJLZmBG8kZccNn7bNgBDsVQ6a.jpg",
+      "genre_ids": [
+        18,
+        80,
+        9648
+      ],
+      "id": 259731,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "HIS & HERS",
+      "overview": "Досі одружені детектив і журналістка, які давно не спілкувалися, прагнуть розкрити вбивство, у скоєнні якого підозрюють одне одного.",
+      "popularity": 24.2066,
+      "poster_path": "/6CnW9sGDLqFKxkA0ygt4tc3QWr8.jpg",
+      "first_air_date": "2026-01-08",
+      "name": "Його і її",
+      "vote_average": 7.209,
+      "vote_count": 301,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iREgT7QU8Dfrjh0nzZpN8IspMTQ.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "id": 259856,
+      "origin_country": [
+        "ES"
+      ],
+      "original_language": "es",
+      "original_name": "Salvador",
+      "overview": "У ніч жорстоких сутичок водій швидкої дізнається, що його донька пов’язана з хуліганами. Події виходять з-під контролю, і тепер він готовий на все, щоб дізнатися правду.",
+      "popularity": 24.1451,
+      "poster_path": "/ivQ3gcJORkquxXEzaHhKa81QuOb.jpg",
+      "first_air_date": "2026-02-06",
+      "name": "Сальвадор",
+      "vote_average": 6.645,
+      "vote_count": 31,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    }
+  ]
+}

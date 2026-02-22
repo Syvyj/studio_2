@@ -1,0 +1,466 @@
+{
+  "title": "Apple TV+",
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/1KFv63mmcBGVbFl3jxxozoSFlhA.jpg",
+      "genre_ids": [
+        28,
+        18
+      ],
+      "id": 911430,
+      "original_language": "en",
+      "original_title": "F1",
+      "overview": "Жахлива аварія на трасі змусила Сонні Гейза припинити кар’єру гонщика. Це сталося ще у 1990-х і тоді він вважався найперспективнішим пілотом свого покоління. Колишній напарник Рубен Сервантес нині очолює одну з команд Формули-1, яка переживає не найкращі часи. Рубен запрошує Сонні повернутися до перегонів. Його напарником стає Джошуа Пірс, яскравий та амбітний новачок. Та з ревінням моторів минуле Сонні невпинно наближається, і він розуміє, що у Формулі-1 твій напарник – це і є твій найзапекліший суперник.",
+      "popularity": 32.5656,
+      "poster_path": "/j9as1uSCddjVlUghzGb10Gvq6tP.jpg",
+      "release_date": "2025-06-25",
+      "title": "F1: Фільм",
+      "video": false,
+      "vote_average": 7.767,
+      "vote_count": 3387,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/m96iaX6b4bKaD9xME9JOQghBrqC.jpg",
+      "genre_ids": [
+        18,
+        10765
+      ],
+      "id": 225171,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Pluribus",
+      "overview": "Найнещасніша людина на Землі мусить уберегти світ від щастя.",
+      "popularity": 27.0012,
+      "poster_path": "/xN4kWZJfrpRRJUe7wYRZZYFotC1.jpg",
+      "first_air_date": "2025-11-06",
+      "name": "Єдина",
+      "vote_average": 7.917,
+      "vote_count": 711,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pzxIAuKHqQqCFOxh2ALmHUgXkOD.jpg",
+      "genre_ids": [
+        18,
+        80
+      ],
+      "id": 221079,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Last Frontier",
+      "overview": "Коли літак, що перевозить арештантів, розбивається у глушині на Алясці, на волі опиняються десятки жорстоких в'язнів, а єдиний місцевий маршал повинен захистити місто, яке він поклявся оберігати.",
+      "popularity": 19.1373,
+      "poster_path": "/gPpaE4yYRspfmrznEYMbnkY1gdA.jpg",
+      "first_air_date": "2025-10-09",
+      "name": "Останній рубіж",
+      "vote_average": 7.154,
+      "vote_count": 166,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
+      "genre_ids": [
+        28,
+        35
+      ],
+      "id": 1363123,
+      "original_language": "en",
+      "original_title": "The Family Plan 2",
+      "overview": "Колишній кілер Ден на Різдво хоче тільки одного — відпочити з дітьми. Та коли дочка повідомляє про власні плани, він бронює сімейну подорож у Лондон, і всі вони опиняються в прицілі несподіваного ворога.",
+      "popularity": 18.9536,
+      "poster_path": "/xXPXJhrWLrSOBazPRftBkvgSCau.jpg",
+      "release_date": "2025-11-11",
+      "title": "Сімейний план 2",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 500,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2c3PCbxVgWen5HrYsaukUmfu4J9.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 196890,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Chief of War",
+      "overview": "Чотири гавайські королівства розділені війною. Лютий воїн Каяна бере на себе історичну місію — обʼєднати свій народ перед лицем екзистенційної загрози, що насувається на острови.",
+      "popularity": 12.2816,
+      "poster_path": "/uA6DAUAzsc0ibaCqaHcIhwpId5u.jpg",
+      "first_air_date": "2025-07-31",
+      "name": "Вождь війни",
+      "vote_average": 7.328,
+      "vote_count": 212,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tyg0VQBKUT1DAWydrhk9Rtyvzs3.jpg",
+      "genre_ids": [
+        18,
+        9648,
+        80
+      ],
+      "id": 252000,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Down Cemetery Road",
+      "overview": "Коли після вибуху в будинку зникає дитина, стурбована сусідка об’єднується з приватним детективом для її пошуків. Коли починають розкриватися таємниці, й на поверхню спливає військова змова, спокійні передмістя Південного Оксфорда охоплює справжній хаос.",
+      "popularity": 7.1747,
+      "poster_path": "/3k0chgewfb7EnA1twaNIoICBdLa.jpg",
+      "first_air_date": "2025-10-29",
+      "name": "Дорога на кладовище",
+      "vote_average": 6.8,
+      "vote_count": 70,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4F7IE2OEcHsWZwIu1OvXDyiRD84.jpg",
+      "genre_ids": [
+        18,
+        80
+      ],
+      "id": 215995,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Smoke",
+      "overview": "Коли слідчий, який розслідує підпали, неохоче починає співпрацю з детективкою поліції, гонитва за двома паліями вибухає заплутаною грою таємниць та підозр.",
+      "popularity": 6.5606,
+      "poster_path": "/aoFpypQOgOtBYCoBe8itFG5bzpI.jpg",
+      "first_air_date": "2025-06-26",
+      "name": "Дим",
+      "vote_average": 6.01,
+      "vote_count": 96,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1xkyq5SIemtAtzl30BEGsAvDsMp.jpg",
+      "genre_ids": [
+        18,
+        53
+      ],
+      "id": 1236470,
+      "original_language": "en",
+      "original_title": "The Lost Bus",
+      "overview": "Рішучий батько ризикує всім, аби врятувати самовіддану вчительку та її учнів з пекла лісової пожежі.",
+      "popularity": 5.2158,
+      "poster_path": "/3MSW9fzV5xaLkNtrbacyJJILXqq.jpg",
+      "release_date": "2025-09-19",
+      "title": "Автобус у вогні",
+      "video": false,
+      "vote_average": 7.088,
+      "vote_count": 620,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/94KROr9xO9u5Tq5gTdCJlVRRfhm.jpg",
+      "genre_ids": [
+        53,
+        80,
+        18
+      ],
+      "id": 1242434,
+      "original_language": "en",
+      "original_title": "Highest 2 Lowest",
+      "overview": "Коли впливовий музичний магнат стає мішенню змови з метою викупу, він змушений боротися за свою сім'ю та спадщину, поставши перед моральною дилемою: життя або смерть.",
+      "popularity": 4.5022,
+      "poster_path": "/pLZXSSGAIzilkgApPs1NpTI956n.jpg",
+      "release_date": "2025-08-14",
+      "title": "З раю в пекло",
+      "video": false,
+      "vote_average": 5.497,
+      "vote_count": 432,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yvToMgv3CHs7T4yQe9EPsMgEXG3.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 292130,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Mr. Scorsese",
+      "overview": "Пізнайте всі сторони життя Скорсезе завдяки необмеженому доступу до приватних архівів та інтерв'ю з друзями, рідними, колегами й самим режисером.",
+      "popularity": 3.8539,
+      "poster_path": "/apaeKFoGUQLMXfRjCtrZw389nDY.jpg",
+      "first_air_date": "2025-10-16",
+      "name": "Пан Скорсезе",
+      "vote_average": 8.114,
+      "vote_count": 22,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mTb7picysLAZ15uv9H5iRD5llCg.jpg",
+      "genre_ids": [
+        10759,
+        10765,
+        16
+      ],
+      "id": 299236,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Sisters Grimm",
+      "overview": "Через рік після загадкового зникнення батьків, сестри Сабріна та Дафна переїжджають у чарівне містечко, де казки стають реальністю, а таємниці ховаються на кожному кроці.",
+      "popularity": 2.7225,
+      "poster_path": "/pwOvT862PGjm2vLfOpBEKO2U93H.jpg",
+      "first_air_date": "2025-10-02",
+      "name": "Сестри Ґрімм",
+      "vote_average": 8.143,
+      "vote_count": 7,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pY5HhYqt71HCpEkuP7ucgvPjJNQ.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 291361,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Knife Edge: Chasing Michelin Stars",
+      "overview": "Стежте за захопливими злетами і спустошливими падіннями найкращих шеф-кухарів світу, які прагнуть здобути найвищу винагороду — зірку Мішлен. Анонімні інспектори ніколи не розкривали своїх таємничих методів, дотепер.",
+      "popularity": 2.2128,
+      "poster_path": "/bwuuQUCgsaGiZzRFaa7IAzZ1NfQ.jpg",
+      "first_air_date": "2025-10-10",
+      "name": "На вістрі ножа: боротьба за Зірки Мішлен",
+      "vote_average": 6.5,
+      "vote_count": 4,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/h2sZ6klVi4wj695IPhvJyo4Rhhv.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 296976,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "KPOPPED",
+      "overview": "Світові легенди музики та кей-поп-айдоли зійдуться на одній сцені в яскравому шоу пісенних поєдинків. Вони виконають свої найвідоміші хіти в стилі кей-поп, запалюючи сцену, та змагатимуться за можливість продемонструвати свої унікальні таланти.",
+      "popularity": 2.1805,
+      "poster_path": "/akONEneueZVyAnQUgCzBqwJr69x.jpg",
+      "first_air_date": "2025-08-28",
+      "name": "KPOPPED: Музика без кордонів",
+      "vote_average": 3.4,
+      "vote_count": 7,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/h5hCdU9KvcCbBihSNfn3vtML7tV.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        10402
+      ],
+      "id": 1566269,
+      "original_language": "en",
+      "original_title": "The First Snow of Fraggle Rock",
+      "overview": "Коли свята сповнені несподіваних пригод і випробувань, Фреґґли усвідомлюють, що кожен день — унікальний і неповторний, як сніжинка.",
+      "popularity": 2.1544,
+      "poster_path": "/9gIsPE2FnzbljwiboxvFuJRIeIy.jpg",
+      "release_date": "2025-12-04",
+      "title": "Скеля Фреґлів: перший сніг",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 11,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yGsEsHlc81Q1i9Z3yoVv394PrlG.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 1319965,
+      "original_language": "en",
+      "original_title": "All of You",
+      "overview": "Лора й Саймон дружать з часів коледжу. За довгі роки дружби вони усвідомили, що їхній звʼязок не суто платонічний. Чи ризикнуть вони дати волю коханню, яке існувало завжди, — і чи варто їм так ризикувати?",
+      "popularity": 2.0725,
+      "poster_path": "/2Vf0oILIU4n6S0j7CZ85D0Up8Q1.jpg",
+      "release_date": "2025-09-26",
+      "title": "Лише ти",
+      "video": false,
+      "vote_average": 6.19,
+      "vote_count": 129,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/glvt1nsJey4UKg76vRWshdNAMtw.jpg",
+      "genre_ids": [
+        99,
+        10759
+      ],
+      "id": 230935,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "The Wild Ones",
+      "overview": "Як допомогти тваринам, що перебувають під загрозою вимирання? Команда творців природознавчого кіно вирушає у найвіддаленіші куточки світу, щоб за допомогою передової апаратури відзняти революційні кадри про найрідкісніших істот планети.",
+      "popularity": 2.0237,
+      "poster_path": "/gYaFxjGIviP6ZKC2F13xNOAmKHT.jpg",
+      "first_air_date": "2025-07-11",
+      "name": "Світ дикої природи",
+      "vote_average": 7.222,
+      "vote_count": 9,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1Bavnm3tr5zJMAhBKKmGHVjbPZN.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        10402,
+        35
+      ],
+      "id": 1484453,
+      "original_language": "en",
+      "original_title": "Snoopy Presents: A Summer Musical",
+      "overview": "Музика й радість наповнюють повітря, коли Чарлі Браун та його друзі вирушають у літній табір. Саллі, яка тут уперше, не поділяє загального ентузіазму. Коли ж табору грозить закриття, усі об'єднуються, щоб його врятувати, а діти могли й далі створювати особливі спогади.",
+      "popularity": 1.8974,
+      "poster_path": "/jgFP9RANOuKdGetvDHLzNQXZkOP.jpg",
+      "release_date": "2025-08-14",
+      "title": "Снупі представляє: літній мюзикл",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 21,
+      "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/89WJ9Nih8F3cuS9gY7TtPns9AUG.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 230936,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Born to Be Wild",
+      "overview": "Від перших кроків до перших полювань — стежте за шістьма рідкісними дитинчатами тварин, які здобувають навички виживання та дають надію на майбутнє свого виду в дикій природі.",
+      "popularity": 1.758,
+      "poster_path": "/wAzPTIHuEB9JQzHRXSDkYkmbcNB.jpg",
+      "first_air_date": "2025-12-19",
+      "name": "Народжені бути дикими",
+      "vote_average": 8.286,
+      "vote_count": 7,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1400780,
+      "original_language": "en",
+      "original_title": "Come See Me in the Good Light",
+      "overview": "У зворушливій і радісній історії кохання, перед обличчям втрати, відомі поети Андреа Ґібсон і Меґан Фоллі знаходять силу — і неочікувану втіху — провести, можливо, останній рік разом.",
+      "popularity": 1.6855,
+      "poster_path": "/dncKbJaT27CyUMsIDf7vm6XxFLr.jpg",
+      "release_date": "2025-11-14",
+      "title": "Зустрінь мене у світлі надії",
+      "video": false,
+      "vote_average": 7.208,
+      "vote_count": 24,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dvdZItPwnRukloJYOK9HQBPNYq9.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1517758,
+      "original_language": "en",
+      "original_title": "Stiller & Meara: Nothing Is Lost",
+      "overview": "Бен Стіллер розповідає про своїх батьків — видатних коміків Джеррі Стіллера та Енн Міру — досліджуючи їхній вплив на попкультуру та дім, де межі між творчістю, сім'єю, життям і мистецтвом часто розмиті.",
+      "popularity": 0.8157,
+      "poster_path": "/esp8GvkcQXF8OR33NfP1qc4cnF2.jpg",
+      "release_date": "2025-10-17",
+      "title": "Стіллер та Міра: ніщо не втрачено",
+      "video": false,
+      "vote_average": 6.475,
+      "vote_count": 20,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    }
+  ]
+}
