@@ -1984,7 +1984,7 @@
 
 
     function addServiceRows() {
-        var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality', 'discovery'];
+        var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality'];
 
         services.forEach(function (id, index) {
             var config = SERVICE_CONFIGS[id];
@@ -2118,7 +2118,7 @@
     // ========== ROW: НОВИНКИ ПОЛЬСЬКОЇ СТРІЧКИ (в кінці головної) ==========
     function addPolishContentRow() {
         Lampa.ContentRows.add({
-            index: 15, // After Hero(0), Studios(1), Mood(2), Ukrainian(3), Services(4-14)
+            index: 14, // After Hero(0), Studios(1), Mood(2), Ukrainian(3), Services(4-13)
             name: 'polish_content_row',
             title: 'Новинки польської стрічки',
             screen: ['main'],
@@ -2162,7 +2162,7 @@
 
     function modifyServiceTitles() {
         setInterval(function () {
-            var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality', 'discovery'];
+            var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality'];
             services.forEach(function (id) {
                 var config = SERVICE_CONFIGS[id];
                 if (!config) return;
