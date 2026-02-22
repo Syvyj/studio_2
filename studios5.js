@@ -1089,24 +1089,15 @@
             call: function (params) {
                 return function (callback) {
                     var network = new Lampa.Reguest();
-                    // Використовуємо наш статичний файл з бекенду + Date.now() щоб скидати кеш
                     var url = 'https://cdn.jsdelivr.net/gh/Syvyj/studio_2@main/ua_feed.json?t=' + Date.now();
 
                     network.silent(url, function (json) {
-                        if (json && json.results) {
-                            callback({
-                                results: json.results.slice(0, 20),
-                                title: '🇺🇦 Новинки української стрічки',
-                                params: {
-                                    items: { mapping: 'line', view: 15 }
-                                }
-                            });
-                        } else {
-                            callback({ results: [] });
-                        }
-                    }, function () {
-                        callback({ results: [] });
-                    });
+                        callback({
+                            results: (json.results || []).slice(0, 20),
+                            title: '🇺🇦 Новинки української стрічки',
+                            params: { items: { mapping: 'line', view: 15 } }
+                        });
+                    }, function () { callback({ results: [] }); });
                 };
             }
         });
@@ -1899,97 +1890,15 @@
                 call: function (params) {
                     return function (callback) {
                         var network = new Lampa.Reguest();
-                        var results = [];
+                        // Беремо готовий файл з бекенду по його ID (netflix_feed.json, hbo_feed.json тощо)
+                        var url = 'https://cdn.jsdelivr.net/gh/Syvyj/studio_2@main/' + id + '_feed.json?t=' + Date.now();
 
-                        var ROW_FILTER = {
-                            'netflix': { with_networks: '213' },
-                            'apple': { with_networks: '2552|3235' },
-                            'hbo': { with_networks: '49|3186', with_companies: '174|49' },
-                            'amazon': { with_networks: '1024', with_companies: '1785|21' },
-                            'disney': { with_networks: '2739|19|88', with_companies: '2' },
-                            'hulu': { with_networks: '453' },
-                            'paramount': { with_networks: '4330|318', with_companies: '4' },
-                            'sky_showtime': { with_companies: '4|33|67|521' },
-                            'syfy': { with_networks: '77' },
-                            'educational_and_reality': { with_networks: '64|43|91|4', with_genres: '99,10764' }
-                        };
-
-                        var filterParams = ROW_FILTER[id] || {};
-
-                        // МАГІЯ БЕКЕНДУ: Якщо це Netflix, тягнемо готовий файл від бота
-                        if (id === 'netflix') {
-                            var staticUrl = 'https://cdn.jsdelivr.net/gh/Syvyj/studio_2@main/netflix_new.json?t=' + Date.now();
-                            network.silent(staticUrl, function (json) {
-                                callback({
-                                    results: (json.results || []).slice(0, 20),
-                                    title: 'Сьогодні на ' + config.title
-                                });
-                            }, function () { callback({ results: [] }); });
-                            return; // Зупиняємо подальше виконання старого коду для Netflix
-                        }
-
-                        if (Object.keys(filterParams).length === 0) return callback({ results: [] });
-
-                        var minVotes = (id === 'syfy' || id === 'educational_and_reality') ? 1 : 3;
-                        var apiKey = 'api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk');
-                        var voteQ = '&vote_count.gte=' + minVotes;
-
-                        // Вікно свіжості: від сьогодні і на 8 місяців назад
-                        var d = new Date();
-                        var currentDate = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
-                        var past = new Date();
-                        past.setMonth(past.getMonth() - 8);
-                        var pastDate = [past.getFullYear(), ('0' + (past.getMonth() + 1)).slice(-2), ('0' + past.getDate()).slice(-2)].join('-');
-
-                        var dateQMovie = '&primary_release_date.gte=' + pastDate + '&primary_release_date.lte=' + currentDate;
-                        var dateQTV = '&first_air_date.gte=' + pastDate + '&first_air_date.lte=' + currentDate;
-
-                        var networkQ = filterParams.with_networks ? '&with_networks=' + encodeURIComponent(filterParams.with_networks) : '';
-                        var companyQ = filterParams.with_companies ? '&with_companies=' + encodeURIComponent(filterParams.with_companies) : '';
-                        var genreQ = filterParams.with_genres ? '&with_genres=' + encodeURIComponent(filterParams.with_genres) : '';
-
-                        var requests = [];
-
-                        // Фільми: шукаємо свіжі, але сортуємо ЗА ПОПУЛЯРНІСТЮ!
-                        if (companyQ || genreQ) {
-                            var urlM = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=popularity.desc' + dateQMovie + voteQ + companyQ + genreQ);
-                            requests.push(function (cb) {
-                                network.silent(urlM, function (j) { cb(j.results || []); }, function () { cb([]); });
+                        network.silent(url, function (json) {
+                            callback({
+                                results: (json.results || []).slice(0, 20),
+                                title: 'Сьогодні на ' + config.title
                             });
-                        }
-
-                        // Серіали: шукаємо свіжі, але сортуємо ЗА ПОПУЛЯРНІСТЮ!
-                        if (networkQ || companyQ || genreQ) {
-                            var urlT = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=popularity.desc' + dateQTV + voteQ + networkQ + companyQ + genreQ);
-                            requests.push(function (cb) {
-                                network.silent(urlT, function (j) { cb(j.results || []); }, function () { cb([]); });
-                            });
-                        }
-
-                        if (requests.length === 0) return callback({ results: [] });
-
-                        var pending = requests.length;
-                        requests.forEach(function (req) {
-                            req(function (items) {
-                                results = results.concat(items);
-                                pending--;
-                                if (pending === 0) {
-                                    var unique = [];
-                                    var seen = {};
-                                    results.forEach(function (item) {
-                                        if (!seen[item.id]) { seen[item.id] = true; unique.push(item); }
-                                    });
-
-                                    // Фінальне сортування: залишаємо їх по популярності
-                                    unique.sort(function (a, b) { return (b.popularity || 0) - (a.popularity || 0); });
-
-                                    callback({
-                                        results: unique.slice(0, 20),
-                                        title: 'Сьогодні на ' + config.title
-                                    });
-                                }
-                            });
-                        });
+                        }, function () { callback({ results: [] }); });
                     }
                 }
             });
@@ -1999,43 +1908,22 @@
     // ========== ROW: НОВИНКИ ПОЛЬСЬКОЇ СТРІЧКИ (в кінці головної) ==========
     function addPolishContentRow() {
         Lampa.ContentRows.add({
-            index: 14, // After Hero(0), Studios(1), Mood(2), Ukrainian(3), Services(4-13)
+            index: 14,
             name: 'polish_content_row',
             title: 'Новинки польської стрічки',
             screen: ['main'],
             call: function (params) {
                 return function (callback) {
                     var network = new Lampa.Reguest();
-                    var results = [];
-                    var apiKey = 'api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk');
-                    var d = new Date();
-                    var currentDate = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
-                    var urlMovie = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=primary_release_date.desc&primary_release_date.lte=' + currentDate + '&with_origin_country=PL&vote_count.gte=1');
-                    var urlTV = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=first_air_date.desc&first_air_date.lte=' + currentDate + '&with_origin_country=PL&vote_count.gte=1');
+                    var url = 'https://cdn.jsdelivr.net/gh/Syvyj/studio_2@main/pl_feed.json?t=' + Date.now();
 
-                    network.silent(urlMovie, function (json1) {
-                        if (json1.results) results = results.concat(json1.results);
-                        network.silent(urlTV, function (json2) {
-                            if (json2.results) results = results.concat(json2.results);
-                            results.sort(function (a, b) {
-                                var dateA = new Date(a.release_date || a.first_air_date || '2000-01-01');
-                                var dateB = new Date(b.release_date || b.first_air_date || '2000-01-01');
-                                return dateB - dateA;
-                            });
-                            var unique = [];
-                            var seen = {};
-                            results.forEach(function (item) {
-                                if (!seen[item.id]) { seen[item.id] = true; unique.push(item); }
-                            });
-                            callback({
-                                results: unique.slice(0, 20),
-                                title: '🇵🇱 Новинки польської стрічки',
-                                params: {
-                                    items: { mapping: 'line', view: 15 }
-                                }
-                            });
+                    network.silent(url, function (json) {
+                        callback({
+                            results: (json.results || []).slice(0, 20),
+                            title: '🇵🇱 Новинки польської стрічки',
+                            params: { items: { mapping: 'line', view: 15 } }
                         });
-                    });
+                    }, function () { callback({ results: [] }); });
                 };
             }
         });
