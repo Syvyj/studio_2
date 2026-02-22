@@ -1991,7 +1991,7 @@
             if (!config) return;
 
             Lampa.ContentRows.add({
-                index: 4 + index, // After Hero(0), Studios(1), Mood(2), Ukrainian content(3). 11 services = index 4..14
+                index: 4 + index,
                 name: 'service_row_' + id,
                 title: 'Сьогодні на ' + config.title,
                 screen: ['main'],
@@ -2000,8 +2000,6 @@
                         var network = new Lampa.Reguest();
                         var results = [];
 
-                        // Пряме відображення service ID → параметри для рядка на головній (TMDB network/company IDs)
-                        // Не використовуємо watch_providers — він дає порожні результати поза US API-ключами
                         var ROW_FILTER = {
                             'netflix': { with_networks: '213' },
                             'apple': { with_networks: '2552|3235' },
@@ -2018,11 +2016,15 @@
                         var filterParams = ROW_FILTER[id] || {};
                         if (Object.keys(filterParams).length === 0) return callback({ results: [] });
 
-                        // Немає обмеження дати — сортуємо від найнових до старих
                         var minVotes = (id === 'syfy' || id === 'educational_and_reality') ? 1 : 3;
-
                         var apiKey = 'api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk');
                         var voteQ = '&vote_count.gte=' + minVotes;
+
+                        // Отримуємо поточну дату, щоб відсікти "майбутні" релізи
+                        var d = new Date();
+                        var currentDate = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
+                        var dateQMovie = '&primary_release_date.lte=' + currentDate;
+                        var dateQTV = '&first_air_date.lte=' + currentDate;
 
                         var networkQ = filterParams.with_networks ? '&with_networks=' + encodeURIComponent(filterParams.with_networks) : '';
                         var companyQ = filterParams.with_companies ? '&with_companies=' + encodeURIComponent(filterParams.with_companies) : '';
@@ -2030,9 +2032,9 @@
 
                         var requests = [];
 
-                        // Фільми (якщо є компанія або жанр)
+                        // Фільми
                         if (companyQ || genreQ) {
-                            var urlM = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=primary_release_date.desc' + voteQ + companyQ + genreQ);
+                            var urlM = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=primary_release_date.desc' + dateQMovie + voteQ + companyQ + genreQ);
                             requests.push(function (cb) {
                                 network.silent(urlM, function (j) { cb(j.results || []); }, function () { cb([]); });
                             });
@@ -2040,7 +2042,7 @@
 
                         // Серіали
                         if (networkQ || companyQ || genreQ) {
-                            var urlT = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=first_air_date.desc' + voteQ + networkQ + companyQ + genreQ);
+                            var urlT = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=first_air_date.desc' + dateQTV + voteQ + networkQ + companyQ + genreQ);
                             requests.push(function (cb) {
                                 network.silent(urlT, function (j) { cb(j.results || []); }, function () { cb([]); });
                             });
@@ -2054,9 +2056,8 @@
                                 results = results.concat(items);
                                 pending--;
                                 if (pending === 0) {
-                                    // Якщо результатів нема — fallback: топ за популярністю без дати
                                     if (results.length === 0 && networkQ) {
-                                        var urlFallback = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=popularity.desc' + networkQ);
+                                        var urlFallback = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=popularity.desc' + dateQTV + networkQ);
                                         network.silent(urlFallback, function (j) {
                                             var fallbackItems = (j.results || []).slice(0, 20);
                                             callback({ results: fallbackItems, title: 'Сьогодні на ' + config.title });
@@ -2071,7 +2072,13 @@
                                     results.forEach(function (item) {
                                         if (!seen[item.id]) { seen[item.id] = true; unique.push(item); }
                                     });
-                                    unique.sort(function (a, b) { return (b.popularity || 0) - (a.popularity || 0); });
+
+                                    // Сортуємо мікс серіалів та фільмів суворо за датою виходу
+                                    unique.sort(function (a, b) {
+                                        var dateA = new Date(a.release_date || a.first_air_date || '2000-01-01');
+                                        var dateB = new Date(b.release_date || b.first_air_date || '2000-01-01');
+                                        return dateB - dateA;
+                                    });
 
                                     callback({
                                         results: unique.slice(0, 20),
