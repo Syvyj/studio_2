@@ -1,6 +1,6 @@
 {
   "title": "Сьогодні на Disney+",
-  "last_updated": "2026-02-22T21:10:50.047Z",
+  "last_updated": "2026-02-22T21:48:31.200Z",
   "results": [
     {
       "adult": false,
@@ -93,8 +93,8 @@
       "release_date": "2025-10-08",
       "title": "Трон: Арес",
       "video": false,
-      "vote_average": 6.477,
-      "vote_count": 1201,
+      "vote_average": 6.5,
+      "vote_count": 1205,
       "has_ua": true,
       "has_pl": false,
       "quality": "4K",
@@ -270,8 +270,8 @@
       "release_date": "2025-08-06",
       "title": "Ще одна шалена п'ятниця",
       "video": false,
-      "vote_average": 6.9,
-      "vote_count": 617,
+      "vote_average": 6.86,
+      "vote_count": 618,
       "has_ua": true,
       "has_pl": false,
       "quality": "4K",
