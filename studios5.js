@@ -24,6 +24,10 @@
     })[0];
     var LIKHTAR_BASE_URL = (currentScript && currentScript.src) ? currentScript.src.replace(/[#?].*$/, '').replace(/[^/]+$/, '') : 'http://127.0.0.1:3000/';
 
+    if (LIKHTAR_BASE_URL.indexOf('raw.githubusercontent.com') !== -1) {
+        LIKHTAR_BASE_URL = LIKHTAR_BASE_URL.replace('raw.githubusercontent.com', 'cdn.jsdelivr.net/gh').replace('/main/', '@main/').replace('/master/', '@master/');
+    }
+
 
 
     var SERVICE_CONFIGS = {
@@ -1979,7 +1983,7 @@
             Lampa.ContentRows.add({
                 index: 4 + index, // After Hero(0), Studio(1), Mood(2), Ukrainian content(3)
                 name: 'service_row_' + id,
-                title: '<span style="display:inline-flex; align-items:center; gap: 0.5em;">Сьогодні на ' + config.icon + '</span>',
+                title: 'Сьогодні на ' + config.title,
                 screen: ['main'],
                 call: function (params) {
                     return function (callback) {
@@ -2007,6 +2011,10 @@
                         // HBO, Prime Video, Paramount+: для рядка на головній примусово використовуємо watch_providers, щоб отримувати і фільми, і серіали з актуальним контентом (не лише TV по networks/companies)
                         if (SERVICE_WATCH_PROVIDERS_FOR_ROW[id]) {
                             filterParams = { with_watch_providers: SERVICE_WATCH_PROVIDERS_FOR_ROW[id], watch_region: 'US' };
+                            if (id === 'hbo') {
+                                filterParams.with_networks = '49|3186'; // Include exact networks as fallback
+                                filterParams.with_companies = '174|49';
+                            }
                         }
 
                         if (Object.keys(filterParams).length === 0) return callback({ results: [] });
@@ -2375,25 +2383,7 @@
             }
         });
 
-        Lampa.SettingsApi.addParam({
-            component: 'likhtar_plugin',
-            param: {
-                name: 'likhtar_btn_editor_enabled',
-                type: 'trigger',
-                default: true
-            },
-            field: {
-                name: 'Редактор кнопок',
-                description: 'Кнопка редагування порядку, видимості, папок та перейменування на сторінці фільму/серіалу'
-            },
-            onChange: function () {
-                setTimeout(function () {
-                    var on = Lampa.Storage.get('likhtar_btn_editor_enabled', true);
-                    if (on) $('.button--edit-order').show();
-                    else $('.button--edit-order').hide();
-                }, 100);
-            }
-        });
+
 
         Lampa.SettingsApi.addParam({
             component: 'likhtar_plugin',
@@ -3340,8 +3330,8 @@
     // =================================================================
     function init() {
         // Settings panel
-        setupSettings();
         setupKinoogladSettings();
+        setupSettings();
 
         // Register Components
         Lampa.Component.add('studios_main', StudiosMain);
