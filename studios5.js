@@ -184,6 +184,19 @@
                 { "title": "🔪 Кулінарні битви", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "222083", "sort_by": "popularity.desc" } },
                 { "title": "🪓 Виживання", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "5481|10348", "sort_by": "popularity.desc" } }
             ]
+        },
+        'reality': {
+            title: 'Реаліті-шоу',
+            icon: '<svg viewBox="0 0 24 24" fill="#E91E63"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/><path d="M9.5 16.5l6-4.5-6-4.5v9z" fill="#fff"/></svg>',
+            categories: [
+                { "title": "🔥 Свіжі випуски", "url": "discover/tv", "params": { "with_genres": "10764", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "1" } },
+                { "title": "🏆 Топ реаліті", "url": "discover/tv", "params": { "with_genres": "10764", "sort_by": "popularity.desc" } },
+                { "title": "🍳 Кулінарні шоу (МайстерШеф тощо)", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "222083|271221", "sort_by": "popularity.desc" } },
+                { "title": "🎤 Таланти та Музика (Голос, Х-Фактор)", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "6041|173252", "sort_by": "popularity.desc" } },
+                { "title": "💔 Побачення та Романтика (Холостяк)", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "173264|187900", "sort_by": "popularity.desc" } },
+                { "title": "🧠 Інтелектуальні та Вікторини", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "173248|264210", "sort_by": "popularity.desc" } },
+                { "title": "🪓 Виживання та Екстрим (Останній герой)", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "5481|10348", "sort_by": "popularity.desc" } }
+            ]
         }
     };
 
@@ -954,6 +967,7 @@
             { id: 'sky_showtime', name: 'Sky Showtime', img: LIKHTAR_BASE_URL + 'logos/SkyShowtime.svg' },
             { id: 'syfy', name: 'Syfy', img: LIKHTAR_BASE_URL + 'logos/Syfy.svg', networkId: '77' },
             { id: 'educational_and_reality', name: 'Пізнавальне', img: LIKHTAR_BASE_URL + 'logos/Discovery.svg' },
+            { id: 'reality', name: 'Реаліті-шоу', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TLC_logo.svg/512px-TLC_logo.svg.png' },
             { id: 'ukrainian_feed', name: 'Українська стрічка', isUkrainianFeed: true },
             { id: 'polish_feed', name: 'Польська стрічка', isPolishFeed: true }
         ];
@@ -1886,7 +1900,7 @@
 
 
     function addServiceRows() {
-        var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality'];
+        var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality', 'reality'];
 
         services.forEach(function (id, index) {
             var config = SERVICE_CONFIGS[id];
@@ -1941,7 +1955,7 @@
 
     function modifyServiceTitles() {
         setInterval(function () {
-            var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality'];
+            var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality', 'reality'];
             services.forEach(function (id) {
                 var config = SERVICE_CONFIGS[id];
                 if (!config) return;
