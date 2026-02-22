@@ -2000,107 +2000,87 @@
                         var network = new Lampa.Reguest();
                         var results = [];
 
-                        // Extract provider/network params from the first category that has them
-                        var filterParams = {};
-                        // Prioritize watch_providers (works for both), then companies, then networks
-                        var refCat = config.categories.find(function (c) { return c.params.with_watch_providers; }) ||
-                            config.categories.find(function (c) { return c.params.with_companies; }) ||
-                            config.categories.find(function (c) { return c.params.with_networks; });
+                        // Пряме відображення service ID → параметри для рядка на головній (TMDB network/company IDs)
+                        // Не використовуємо watch_providers — він дає порожні результати поза US API-ключами
+                        var ROW_FILTER = {
+                            'netflix': { with_networks: '213' },
+                            'apple': { with_networks: '2552|3235' },
+                            'hbo': { with_networks: '49|3186', with_companies: '174|49' },
+                            'amazon': { with_networks: '1024', with_companies: '1785|21' },
+                            'disney': { with_networks: '2739|19|88', with_companies: '2' },
+                            'hulu': { with_networks: '453' },
+                            'paramount': { with_networks: '4330|318', with_companies: '4' },
+                            'sky_showtime': { with_companies: '4|33|67|521' },
+                            'syfy': { with_networks: '77' },
+                            'educational_and_reality': { with_networks: '64|43|91|4', with_genres: '99,10764' }
+                        };
 
-                        if (refCat) {
-                            if (refCat.params.with_watch_providers) {
-                                filterParams.with_watch_providers = refCat.params.with_watch_providers;
-                                filterParams.watch_region = 'US'; // Switch to US to ensure content availability
-                            }
-                            // Only copy companies/networks if we don't have providers (or merge? keeping simple for now)
-                            if (!filterParams.with_watch_providers) {
-                                if (refCat.params.with_companies) filterParams.with_companies = refCat.params.with_companies;
-                                if (refCat.params.with_networks) filterParams.with_networks = refCat.params.with_networks;
-                            }
-                        }
-                        // HBO, Prime Video, Paramount+: для рядка на головній примусово використовуємо watch_providers, щоб отримувати і фільми, і серіали з актуальним контентом (не лише TV по networks/companies)
-                        if (SERVICE_WATCH_PROVIDERS_FOR_ROW[id]) {
-                            filterParams = { with_watch_providers: SERVICE_WATCH_PROVIDERS_FOR_ROW[id], watch_region: 'US' };
-                            if (id === 'hbo') {
-                                filterParams.with_networks = '49|3186'; // Include exact networks as fallback
-                                filterParams.with_companies = '174|49';
-                            }
-                        }
-
+                        var filterParams = ROW_FILTER[id] || {};
                         if (Object.keys(filterParams).length === 0) return callback({ results: [] });
 
-                        // Обчислюємо дати: сьогодні і 5 місяців тому (для вікна новинок)
+                        // Syfy — малий канал, беремо ширше вікно (12 міс) і нижчий поріг
+                        var monthsBack = (id === 'syfy') ? 24 : 6;
+                        var minVotes = (id === 'syfy' || id === 'educational_and_reality') ? 1 : 3;
+
                         var d = new Date();
                         var currentDate = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
-
                         var past = new Date();
-                        past.setMonth(past.getMonth() - 5);
+                        past.setMonth(past.getMonth() - monthsBack);
                         var pastDate = [past.getFullYear(), ('0' + (past.getMonth() + 1)).slice(-2), ('0' + past.getDate()).slice(-2)].join('-');
 
                         var apiKey = 'api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk');
+                        var baseSort = '&sort_by=popularity.desc&vote_count.gte=' + minVotes;
 
-                        var queryMovie = '';
-                        var queryTV = '';
-                        var hasMovieParams = false;
-                        var hasTVParams = false;
+                        var networkQ = filterParams.with_networks ? '&with_networks=' + encodeURIComponent(filterParams.with_networks) : '';
+                        var companyQ = filterParams.with_companies ? '&with_companies=' + encodeURIComponent(filterParams.with_companies) : '';
+                        var genreQ = filterParams.with_genres ? '&with_genres=' + encodeURIComponent(filterParams.with_genres) : '';
+                        var dateMovieQ = '&primary_release_date.gte=' + pastDate + '&primary_release_date.lte=' + currentDate;
+                        var dateTVQ = '&first_air_date.gte=' + pastDate + '&first_air_date.lte=' + currentDate;
 
-                        // Build specific queries
-                        if (filterParams.with_watch_providers) {
-                            var q = '&with_watch_providers=' + filterParams.with_watch_providers + '&watch_region=US';
-                            queryMovie += q;
-                            queryTV += q;
-                            hasMovieParams = true;
-                            hasTVParams = true;
-                        }
-                        if (filterParams.with_companies) {
-                            var q = '&with_companies=' + encodeURIComponent(filterParams.with_companies);
-                            queryMovie += q;
-                            queryTV += q;
-                            hasMovieParams = true;
-                            hasTVParams = true;
-                        }
-                        if (filterParams.with_networks) {
-                            queryTV += '&with_networks=' + encodeURIComponent(filterParams.with_networks);
-                            hasTVParams = true;
-                        }
-
-                        // Execute requests based on valid params
                         var requests = [];
 
-                        if (hasMovieParams) {
-                            // Секрет новинок: сортуємо за популярністю, але обмежуємо датою виходу (останні 5 місяців) + мінімум 3 голоси
-                            var url = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=popularity.desc&primary_release_date.gte=' + pastDate + '&primary_release_date.lte=' + currentDate + '&vote_count.gte=3' + queryMovie);
+                        // Фільми (якщо є компанія або жанр, бо у company є і фільми)
+                        if (companyQ || genreQ) {
+                            var urlM = Lampa.TMDB.api('discover/movie?' + apiKey + baseSort + dateMovieQ + companyQ + genreQ);
                             requests.push(function (cb) {
-                                network.silent(url, function (json) { cb(json.results || []); }, function () { cb([]); });
+                                network.silent(urlM, function (j) { cb(j.results || []); }, function () { cb([]); });
                             });
                         }
 
-                        if (hasTVParams) {
-                            // Аналогічно для серіалів
-                            var urlTV = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=popularity.desc&first_air_date.gte=' + pastDate + '&first_air_date.lte=' + currentDate + '&vote_count.gte=3' + queryTV);
+                        // Серіали (якщо є network)
+                        if (networkQ || companyQ || genreQ) {
+                            var urlT = Lampa.TMDB.api('discover/tv?' + apiKey + baseSort + dateTVQ + networkQ + companyQ + genreQ);
                             requests.push(function (cb) {
-                                network.silent(urlTV, function (json) { cb(json.results || []); }, function () { cb([]); });
+                                network.silent(urlT, function (j) { cb(j.results || []); }, function () { cb([]); });
                             });
                         }
 
                         if (requests.length === 0) return callback({ results: [] });
 
-                        // Parallel execution helper
                         var pending = requests.length;
                         requests.forEach(function (req) {
                             req(function (items) {
                                 results = results.concat(items);
                                 pending--;
                                 if (pending === 0) {
-                                    // Deduplicate by ID
+                                    // Якщо результатів нема — fallback: топ за популярністю без дати
+                                    if (results.length === 0 && networkQ) {
+                                        var urlFallback = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=popularity.desc' + networkQ);
+                                        network.silent(urlFallback, function (j) {
+                                            var fallbackItems = (j.results || []).slice(0, 20);
+                                            callback({ results: fallbackItems, title: 'Сьогодні на ' + config.title });
+                                        }, function () {
+                                            callback({ results: [], title: 'Сьогодні на ' + config.title });
+                                        });
+                                        return;
+                                    }
+
                                     var unique = [];
                                     var seen = {};
                                     results.forEach(function (item) {
-                                        if (!seen[item.id]) {
-                                            seen[item.id] = true;
-                                            unique.push(item);
-                                        }
+                                        if (!seen[item.id]) { seen[item.id] = true; unique.push(item); }
                                     });
+                                    unique.sort(function (a, b) { return (b.popularity || 0) - (a.popularity || 0); });
 
                                     callback({
                                         results: unique.slice(0, 20),
