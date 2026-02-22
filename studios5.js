@@ -45,6 +45,7 @@
             title: 'Netflix',
             icon: '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.5 2L16.5 22" stroke="#E50914" stroke-width="4"/><path d="M7.5 2L7.5 22" stroke="#E50914" stroke-width="4"/><path d="M7.5 2L16.5 22" stroke="#E50914" stroke-width="4"/></svg>',
             categories: [
+                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "213", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
                 { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "8", "watch_region": "UA", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
                 { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "popularity.desc" } },
@@ -61,6 +62,7 @@
             title: 'Apple TV+',
             icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>',
             categories: [
+                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "2552|3235", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "2552|3235", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
                 { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "350", "watch_region": "UA", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "2" } },
                 { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "2552|3235", "sort_by": "popularity.desc" } },
@@ -75,6 +77,7 @@
             title: 'HBO / Max',
             icon: '<svg width="24px" height="24px" viewBox="0 0 24 24" fill="currentColor"><path d="M7.042 16.896H4.414v-3.754H2.708v3.754H.01L0 7.22h2.708v3.6h1.706v-3.6h2.628zm12.043.046C21.795 16.94 24 14.689 24 11.978a4.89 4.89 0 0 0-4.915-4.92c-2.707-.002-4.09 1.991-4.432 2.795.003-1.207-1.187-2.632-2.58-2.634H7.59v9.674l4.181.001c1.686 0 2.886-1.46 2.888-2.713.385.788 1.72 2.762 4.427 2.76zm-7.665-3.936c.387 0 .692.382.692.817 0 .435-.305.817-.692.817h-1.33v-1.634zm.005-3.633c.387 0 .692.382.692.817 0 .436-.305.818-.692.818h-1.33V9.373zm1.77 2.607c.305-.039.813-.387.992-.61-.063.276-.068 1.074.006 1.35-.204-.314-.688-.701-.998-.74zm3.43 0a2.462 2.462 0 1 1 4.924 0 2.462 2.462 0 0 1-4.925 0zm2.462 1.936a1.936 1.936 0 1 0 0-3.872 1.936 1.936 0 0 0 0 3.872z"/></svg>',
             categories: [
+                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "49", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "49|3186", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
                 { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_companies": "174|49", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "10" } },
                 { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "49|3186", "sort_by": "popularity.desc" } },
@@ -90,6 +93,7 @@
             title: 'Prime Video',
             icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.787 15.292c-.336-.43-2.222-.204-3.069-.103-.257.031-.296-.193-.065-.356 1.504-1.056 3.968-.75 4.255-.397.288.357-.076 2.827-1.485 4.007-.217.18-.423.084-.327-.155.317-.792 1.027-2.566.69-2.996"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>',
             categories: [
+                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "1024", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "1024", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
                 { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "119", "watch_region": "US", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
                 { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "1024", "sort_by": "popularity.desc" } },
@@ -118,6 +122,7 @@
             title: 'Paramount+',
             icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 22H22L12 2ZM12 6.5L18.5 19.5H5.5L12 6.5Z"/></svg>',
             categories: [
+                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "4330|318", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "4330", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
                 { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_companies": "4", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "10" } },
                 { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "4330", "sort_by": "popularity.desc" } },
@@ -132,6 +137,7 @@
             title: 'Sky Showtime',
             icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 22h20L12 2zm0 3.5l6.5 13H5.5L12 5.5z"/></svg>',
             categories: [
+                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_companies": "67|115331", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_companies": "67|115331", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
                 { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_companies": "4|33|521", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
                 { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_companies": "67|115331", "sort_by": "popularity.desc" } },
@@ -146,6 +152,7 @@
             title: 'Hulu',
             icon: '<svg viewBox="0 0 24 24" fill="#3DBB3D"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/></svg>',
             categories: [
+                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "453", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "453", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
                 { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "15", "watch_region": "US", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "2" } },
                 { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "453", "sort_by": "popularity.desc" } },
@@ -1722,6 +1729,7 @@
             if (movie.has_ua !== undefined || movie.quality !== undefined) {
                 var staticData = {
                     ukr: movie.has_ua === true,
+                    pol: movie.has_pl === true,
                     resolution: movie.quality || 'SD',
                     hdr: movie.is_hdr === true,
                     eng: false
@@ -1746,6 +1754,7 @@
         function renderBadges(container, data, movie) {
             container.empty();
             if (data.ukr && Lampa.Storage.get('likhtar_badge_ua', true)) container.append(createBadge('ua', 'UA'));
+            if (data.pol && Lampa.Storage.get('likhtar_badge_pl', true)) container.append(createBadge('pl', 'PL'));
             if (data.eng && Lampa.Storage.get('likhtar_badge_en', true)) container.append(createBadge('en', 'EN'));
             if (data.resolution && data.resolution !== 'SD') {
                 if (data.resolution === '4K' && Lampa.Storage.get('likhtar_badge_4k', true)) container.append(createBadge('4k', '4K'));
@@ -1842,6 +1851,7 @@
                 animation: mark-fade-in 0.35s ease-out forwards;
                 box-shadow: 0 2px 6px rgba(229,57,53,0.4);
             }
+            .card__mark--pl  { background: linear-gradient(135deg, #c41e3a, #ff4d4d); color: #fff; border-color: rgba(255,77,77,0.4); }
 
             /* Ховаємо нативну оцінку, коли є наші мітки */
             .card.jacred-mark-processed-v2 .card__vote { display: none !important; }
@@ -2093,6 +2103,12 @@
             component: 'likhtar_plugin',
             param: { name: 'likhtar_badge_en', type: 'trigger', default: true },
             field: { name: 'Англійська озвучка (EN)', description: 'Показувати мітку наявності англійської доріжки' }
+        });
+
+        Lampa.SettingsApi.addParam({
+            component: 'likhtar_plugin',
+            param: { name: 'likhtar_badge_pl', type: 'trigger', default: true },
+            field: { name: 'Польська озвучка (PL)', description: 'Показувати мітку наявності польської доріжки' }
         });
 
         Lampa.SettingsApi.addParam({
