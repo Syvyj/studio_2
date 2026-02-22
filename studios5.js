@@ -1110,7 +1110,7 @@
             call: function (params) {
                 return function (callback) {
                     var network = new Lampa.Reguest();
-                    var url = 'https://cdn.jsdelivr.net/gh/Syvyj/studio_2@main/ua_feed.json?t=' + Date.now();
+                    var url = 'https://raw.githubusercontent.com/Syvyj/studio_2/main/ua_feed.json?t=' + Date.now();
 
                     network.silent(url, function (json) {
                         callback({
@@ -1915,7 +1915,7 @@
                     return function (callback) {
                         var network = new Lampa.Reguest();
                         // Беремо готовий файл з бекенду по його ID (netflix_feed.json, hbo_feed.json тощо)
-                        var url = 'https://cdn.jsdelivr.net/gh/Syvyj/studio_2@main/' + id + '_feed.json?t=' + Date.now();
+                        var url = 'https://raw.githubusercontent.com/Syvyj/studio_2/main/' + id + '_feed.json?t=' + Date.now();
 
                         network.silent(url, function (json) {
                             callback({
@@ -1939,7 +1939,7 @@
             call: function (params) {
                 return function (callback) {
                     var network = new Lampa.Reguest();
-                    var url = 'https://cdn.jsdelivr.net/gh/Syvyj/studio_2@main/pl_feed.json?t=' + Date.now();
+                    var url = 'https://raw.githubusercontent.com/Syvyj/studio_2/main/pl_feed.json?t=' + Date.now();
 
                     network.silent(url, function (json) {
                         callback({
