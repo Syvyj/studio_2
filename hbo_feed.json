@@ -169,30 +169,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/s2pIMVLujBjLBnNlofmr9kwUXNa.jpg",
-      "genre_ids": [
-        99,
-        10764
-      ],
-      "id": 312428,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Neighbors",
-      "overview": "",
-      "popularity": 3.851,
-      "poster_path": "/u0z7DrdvnxgrgWHCiSJ83OlDtHt.jpg",
-      "first_air_date": "2026-02-13",
-      "name": "Neighbors",
-      "vote_average": 7.7,
-      "vote_count": 3,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/2Y1sfUem465aPHCnbq5w0wfd1qE.jpg",
       "genre_ids": [
         99

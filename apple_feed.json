@@ -283,29 +283,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/h2sZ6klVi4wj695IPhvJyo4Rhhv.jpg",
-      "genre_ids": [
-        10764
-      ],
-      "id": 296976,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "KPOPPED",
-      "overview": "Світові легенди музики та кей-поп-айдоли зійдуться на одній сцені в яскравому шоу пісенних поєдинків. Вони виконають свої найвідоміші хіти в стилі кей-поп, запалюючи сцену, та змагатимуться за можливість продемонструвати свої унікальні таланти.",
-      "popularity": 2.1805,
-      "poster_path": "/akONEneueZVyAnQUgCzBqwJr69x.jpg",
-      "first_air_date": "2025-08-28",
-      "name": "KPOPPED: Музика без кордонів",
-      "vote_average": 3.4,
-      "vote_count": 7,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/h5hCdU9KvcCbBihSNfn3vtML7tV.jpg",
       "genre_ids": [
         10751,

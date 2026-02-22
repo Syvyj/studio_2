@@ -53,30 +53,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/nRxbtO6OchyepUL2Zr4dpMZsdsX.jpg",
-      "genre_ids": [
-        35,
-        18
-      ],
-      "id": 280948,
-      "origin_country": [
-        "KR"
-      ],
-      "original_language": "ko",
-      "original_name": "스프링 피버",
-      "overview": "Шкільну вчительку Юн Бом переводять із Сеула до маленького містечка, де вона знайомиться з дядьком одного зі своїх учнів — прямолінійним бандитом Сон Дже-ґю.",
-      "popularity": 23.3164,
-      "poster_path": "/jTJgfbSQ4UczxMOgscHPsoVuL5X.jpg",
-      "first_air_date": "2026-01-05",
-      "name": "Весняна лихоманка",
-      "vote_average": 7.8,
-      "vote_count": 32,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/yQw23xxmVBFVHPCF6V68TAIIfno.jpg",
       "genre_ids": [
         10759,
@@ -223,56 +199,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/6omimfVty4JD3LXzI5LHEGhXjwn.jpg",
-      "genre_ids": [
-        16,
-        18,
-        10765
-      ],
-      "id": 284445,
-      "origin_country": [
-        "JP"
-      ],
-      "original_language": "ja",
-      "original_name": "タコピーの原罪",
-      "overview": "Щасливий інопланетянин Такопі прилітає на Землю з однією місією: поширювати щастя! Коли він зустрічає Шізуку, самотню ученицю четвертого класу, він присягається повернути їй усмішку за допомогою своїх чарівних Щасливих Ґаджетів. Але коли він виявляє біль у її житті, Такопі дізнається, що для справжнього щастя може знадобитися щось більше, ніж гаджети.",
-      "popularity": 6.6574,
-      "poster_path": "/9rLqz1GhlqZksYgxtuq4w8GeU56.jpg",
-      "first_air_date": "2025-06-28",
-      "name": "Первородний гріх Такопі",
-      "vote_average": 8.843,
-      "vote_count": 140,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/z0Ic9Thd5tBfXb1rZyhMyVZV4Cw.jpg",
-      "genre_ids": [
-        18,
-        35,
-        10765
-      ],
-      "id": 290160,
-      "origin_country": [
-        "JP"
-      ],
-      "original_language": "ja",
-      "original_name": "私の夫と結婚して",
-      "overview": "Міса все своє життя була другорядною героїнею, сліпо довіряючи своїй найкращій подрузі та чоловіку. Однак, коли вона дізнається про їхній роман, зрада призводить до її смерті. Прокинувшись через десять років у минулому, Міса дає собі обітницю стати головною героїнею власної історії. Вона планує знищити своїх зрадників, змусивши їх одружитися один з одним. Але після зустрічі з директором на роботі, вона починає сумніватися в своїх цілях і розмірковувати над тим, хто ж вона насправді.",
-      "popularity": 6.6171,
-      "poster_path": "/5spG8iVnqIG7GBhFlr4YPsPhjnY.jpg",
-      "first_air_date": "2025-06-27",
-      "name": "Виходь заміж за мого чоловіка",
-      "vote_average": 8.1,
-      "vote_count": 25,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/uj4wyiZPmZNRJBjThtqNrZvHN9w.jpg",
       "genre_ids": [
         9648
@@ -290,32 +216,6 @@
       "name": "Лазар",
       "vote_average": 6.336,
       "vote_count": 55,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/4YrYmBx26WZgITKlcceaIz74vj3.jpg",
-      "genre_ids": [
-        16,
-        18,
-        35,
-        10765
-      ],
-      "id": 299778,
-      "origin_country": [
-        "JP"
-      ],
-      "original_language": "ja",
-      "original_name": "藤本タツキ 17-26",
-      "overview": "Шість студій та сім режисерів екранізували ранні роботи Тацукі Фудзімото — автора «Людини-бензопили» — у вигляді аніме-антології. Кожна серія — це окрема адаптація короткої історії, створеної ним у віці від сімнадцяти до двадцяти шести років, включно з першою мангою, поданою на конкурс. У цих епізодах розкриваються яскраві оповіді про юнацьке кохання, безумство, хаос і зв’язки між людьми.",
-      "popularity": 6.0405,
-      "poster_path": "/zZW4CJQE7nfu8btJLoWIcOaa7fe.jpg",
-      "first_air_date": "2025-11-08",
-      "name": "Тацукі Фуджімото 17-26",
-      "vote_average": 7.979,
-      "vote_count": 48,
       "has_ua": false,
       "quality": "SD",
       "is_hdr": false
@@ -389,54 +289,6 @@
       "name": "Злочинний намір",
       "vote_average": 6.824,
       "vote_count": 34,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/dzcGdFuvkietovVYLuPxdRat2h0.jpg",
-      "genre_ids": [
-        35,
-        10764
-      ],
-      "id": 309714,
-      "origin_country": [
-        "MX"
-      ],
-      "original_language": "es",
-      "original_name": "LOL buscando talento",
-      "overview": "",
-      "popularity": 4.4349,
-      "poster_path": "/70l4rLm9JHMoVncvfizfL8OT5CS.jpg",
-      "first_air_date": "2026-01-16",
-      "name": "LOL buscando talento",
-      "vote_average": 6,
-      "vote_count": 2,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/uz0OhuErhylmCBszXwYAxOU3oVo.jpg",
-      "genre_ids": [
-        18,
-        35
-      ],
-      "id": 249760,
-      "origin_country": [
-        "IN"
-      ],
-      "original_language": "hi",
-      "original_name": "बैंडवाले",
-      "overview": "",
-      "popularity": 4.0317,
-      "poster_path": "/h1heLNN77Jmjin06ihQdMKTGGIt.jpg",
-      "first_air_date": "2026-02-13",
-      "name": "बैंडवाले",
-      "vote_average": 0,
-      "vote_count": 0,
       "has_ua": false,
       "quality": "SD",
       "is_hdr": false

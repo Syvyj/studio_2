@@ -256,29 +256,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/kCwmLYy9ZMto1eMH8BI9KcVVIH2.jpg",
-      "genre_ids": [
-        35,
-        27,
-        14
-      ],
-      "id": 1022453,
-      "original_language": "te",
-      "original_title": "ది రాజాసాబ్",
-      "overview": "",
-      "popularity": 10.3042,
-      "poster_path": "/nvK6gYa4diCnQkDVN42uoYXPrdT.jpg",
-      "release_date": "2026-01-08",
-      "title": "ది రాజాసాబ్",
-      "video": false,
-      "vote_average": 5.435,
-      "vote_count": 23,
-      "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/vZK3f5N8Fv2LcyFYLwt6dz0HE1H.jpg",
       "genre_ids": [
         35,
@@ -457,6 +434,28 @@
       "has_ua": false,
       "quality": "SD",
       "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oOczvrnhpXUmqCbyKYFj4FQExAo.jpg",
+      "genre_ids": [
+        18,
+        10402
+      ],
+      "id": 1230368,
+      "original_language": "en",
+      "original_title": "Springsteen: Deliver Me from Nowhere",
+      "overview": "Емоційна історія про те, як молодий Брюс Спрінґстін створював альбом Nebraska, який назавжди змінив його життя і світ музики. Фільм занурює у вирішальний момент кар’єри артиста: внутрішня боротьба, складні стосунки з родиною та тягар успіху стають справжнім випробуванням. Це розповідь про людину, яку знає весь світ. Але ця історія довго залишалася невідомою. Вона — про примар минулого, прагнення до самопізнання та силу музики, здатної зцілювати й дарувати надію цілим поколінням.",
+      "popularity": 5.5549,
+      "poster_path": "/quvWqTHk1MrarR8jrBKnpEF1V0I.jpg",
+      "release_date": "2025-10-22",
+      "title": "Спрінґстін: Врятуй мене від невідомого",
+      "video": false,
+      "vote_average": 6.765,
+      "vote_count": 236,
+      "has_ua": true,
+      "quality": "FHD",
+      "is_hdr": true
     }
   ]
 }

@@ -49,31 +49,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/qy8gJEwspR7L5WZn4e8ItwK8m23.jpg",
-      "genre_ids": [
-        80,
-        9648,
-        18
-      ],
-      "id": 273977,
-      "origin_country": [
-        "KR"
-      ],
-      "original_language": "ko",
-      "original_name": "레이디 두아",
-      "overview": "Тіло, знайдене посеред міста. Розкішний бренд, що набирає популярності. Детектив перевіряє кожну деталь мінливої історії жінки. Що ж сталося насправді?",
-      "popularity": 99.5199,
-      "poster_path": "/8HJeOIP66E3uasIEwqxKLvf5HqM.jpg",
-      "first_air_date": "2026-02-13",
-      "name": "Мистецтво Сари",
-      "vote_average": 8.1,
-      "vote_count": 20,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/1Xdsq7U7bvJJd2X7Jg4qNaKVkYO.jpg",
       "genre_ids": [
         28,
@@ -98,28 +73,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/wCwZ4ljSsWyZyTiyk1tGQtBHTDx.jpg",
-      "genre_ids": [
-        28,
-        18
-      ],
-      "id": 1511417,
-      "original_language": "te",
-      "original_title": "Bāhubali: The Epic",
-      "overview": "",
-      "popularity": 79.401,
-      "poster_path": "/4sLSorDKKDN944kWngxgQlpdDeg.jpg",
-      "release_date": "2025-10-29",
-      "title": "Bāhubali: The Epic",
-      "video": false,
-      "vote_average": 6,
-      "vote_count": 31,
-      "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/3F2EXWF1thX0BdrVaKvnm6mAhqh.jpg",
       "genre_ids": [
         28,
@@ -140,52 +93,6 @@
       "has_ua": true,
       "quality": "4K",
       "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
-      "genre_ids": [
-        28,
-        80,
-        10749
-      ],
-      "id": 1271895,
-      "original_language": "zh",
-      "original_title": "96分鐘",
-      "overview": "",
-      "popularity": 71.0635,
-      "poster_path": "/5HefFZDvzHAR4qWEMExLfyM0qLs.jpg",
-      "release_date": "2025-09-05",
-      "title": "96分鐘",
-      "video": false,
-      "vote_average": 5.911,
-      "vote_count": 56,
-      "has_ua": true,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/kpEjZVusnBo9JcSTnfZtQlgbxu3.jpg",
-      "genre_ids": [
-        18
-      ],
-      "id": 310239,
-      "origin_country": [
-        "TR"
-      ],
-      "original_language": "tr",
-      "original_name": "Masumiyet Müzesi",
-      "overview": "Стамбул, 1970-ті роки. Чоловік закохується в продавчиню й розпочинає довічну подорож, сповнену одержимості й туги. На основі культового роману Орхана Памука.",
-      "popularity": 53.6805,
-      "poster_path": "/7p081gpYZLuEOh0ExCZTajjv7c8.jpg",
-      "first_air_date": "2026-02-13",
-      "name": "Музей невинності",
-      "vote_average": 7.955,
-      "vote_count": 11,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
     },
     {
       "adult": false,
@@ -260,30 +167,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/sMMEQPPe2xwwnF1JgUVNJ1jCV1V.jpg",
-      "genre_ids": [
-        9648,
-        80
-      ],
-      "id": 206494,
-      "origin_country": [
-        "TW"
-      ],
-      "original_language": "zh",
-      "original_name": "百萬人推理",
-      "overview": "",
-      "popularity": 35.3297,
-      "poster_path": "/bEUIoWHzkcxkrIEAqDZtVSKCuyS.jpg",
-      "first_air_date": "2026-02-12",
-      "name": "百萬人推理",
-      "vote_average": 7.6,
-      "vote_count": 10,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/ceyakefyCRAgyeFhefa2bz6d9QO.jpg",
       "genre_ids": [
         18,
@@ -304,28 +187,6 @@
       "has_ua": true,
       "quality": "4K",
       "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/atWzbjlDkfbkh4mdY3uuiF9vr3r.jpg",
-      "genre_ids": [
-        10749,
-        18
-      ],
-      "id": 1268609,
-      "original_language": "ko",
-      "original_title": "파반느",
-      "overview": "Три самотні незнайомці зустрічаються на роботі в магазині й знаходять одне в одному розраду, досліджуючи стосунки й природу кохання.",
-      "popularity": 32.9136,
-      "poster_path": "/22RlxpIT4u4psfIx9tmtbPvgAbm.jpg",
-      "release_date": "2026-02-19",
-      "title": "Павана",
-      "video": false,
-      "vote_average": 7.458,
-      "vote_count": 12,
-      "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
     },
     {
       "adult": false,
@@ -467,6 +328,146 @@
       "name": "Сальвадор",
       "vote_average": 6.645,
       "vote_count": 31,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zyMMXRpCZoMLYIret8seCZyIlr6.jpg",
+      "genre_ids": [
+        18,
+        10759
+      ],
+      "id": 283370,
+      "origin_country": [
+        "IT"
+      ],
+      "original_language": "it",
+      "original_name": "Motorvalley",
+      "overview": "Прагнучи здобути контроль над перегоновою імперією своєї сім’ї, молода спадкоємиця наймає нерозсудливу водійку й проблемного тренера для участі в італійському чемпіонаті.",
+      "popularity": 24.109,
+      "poster_path": "/vQgl2jok7iYSqNXRkmpVeQ9kvzD.jpg",
+      "first_air_date": "2026-02-10",
+      "name": "Долина моторів",
+      "vote_average": 7.042,
+      "vote_count": 12,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg",
+      "genre_ids": [
+        53,
+        9648,
+        35
+      ],
+      "id": 812583,
+      "original_language": "en",
+      "original_title": "Wake Up Dead Man: A Knives Out Mystery",
+      "overview": "Детектив Бенуа Бланк об’єднує зусилля зі старанним молодим священником, щоб розслідувати неймовірний злочин у церкві маленького містечка з темною історією.",
+      "popularity": 18.6786,
+      "poster_path": "/SGF052h6wEZq29ifyjoFlmHo8A.jpg",
+      "release_date": "2025-11-26",
+      "title": "Ножі наголо: Прокинься, покійнику",
+      "video": false,
+      "vote_average": 7.21,
+      "vote_count": 2094,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lZYMXx74pWmbj5Q5jp1QaMvmuuR.jpg",
+      "genre_ids": [
+        28,
+        14,
+        53
+      ],
+      "id": 1180831,
+      "original_language": "no",
+      "original_title": "Troll 2",
+      "overview": "Коли новий небезпечний троль загрожує зруйнувати рідну країну, Нора, Андреас і майор Кріс вирушають на нечувано ризиковане завдання.",
+      "popularity": 18.4112,
+      "poster_path": "/fiNlegkiPA204AgcWjXdMsHzIqg.jpg",
+      "release_date": "2025-11-30",
+      "title": "Троль 2",
+      "video": false,
+      "vote_average": 6.528,
+      "vote_count": 409,
+      "has_ua": true,
+      "quality": "4K",
+      "is_hdr": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3aeYYriPQN7886in9bIGKnbC5eQ.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 281401,
+      "origin_country": [
+        "CA"
+      ],
+      "original_language": "en",
+      "original_name": "Finding Her Edge",
+      "overview": "Колишня танцівниця повертається на лід із захопливим новим партнером, але досі згадує минулого з теплими почуттями, адже він був її першим коханням.",
+      "popularity": 15.2834,
+      "poster_path": "/fJE5YtoznejcWfMriNBQsuBupt3.jpg",
+      "first_air_date": "2026-01-22",
+      "name": "Як на льоду",
+      "vote_average": 7.641,
+      "vote_count": 46,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fRiAJB6VxyG0QcjSXW4BoHIGsnu.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 312423,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Reality Check: Inside America's Next Top Model",
+      "overview": "",
+      "popularity": 15.1184,
+      "poster_path": "/lxlsvsgvEYlf2wrSV9qUipHRAuk.jpg",
+      "first_air_date": "2026-02-16",
+      "name": "Reality Check: Inside America's Next Top Model",
+      "vote_average": 7.188,
+      "vote_count": 8,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cm2oUAPiTE1ERoYYOzzgloQw4YZ.jpg",
+      "genre_ids": [
+        18,
+        80
+      ],
+      "id": 286801,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Monster: The Ed Gein Story",
+      "overview": "Жахлива історія життя Еда Ґіна — сумнозвісного вбивці й грабіжника могил, на основі якого створили багатьох відомих убивць у кіно. За мотивами реальних подій.",
+      "popularity": 15.1162,
+      "poster_path": "/zc0SUBEvHO7bVQRaHcuHnbx8BAm.jpg",
+      "first_air_date": "2025-10-03",
+      "name": "Чудовисько: Історія Еда Ґіна",
+      "vote_average": 7.228,
+      "vote_count": 462,
       "has_ua": false,
       "quality": "SD",
       "is_hdr": false

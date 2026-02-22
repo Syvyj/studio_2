@@ -74,30 +74,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/hiuzn8JQ4Q0VjA8AaU1qhL5Rjx8.jpg",
-      "genre_ids": [
-        9648,
-        10764
-      ],
-      "id": 313289,
-      "origin_country": [
-        "KR"
-      ],
-      "original_language": "ko",
-      "original_name": "운명전쟁49",
-      "overview": "",
-      "popularity": 37.079,
-      "poster_path": "/5V2n2JTYCTPD4fpikmPxldpuzos.jpg",
-      "first_air_date": "2026-02-11",
-      "name": "운명전쟁49",
-      "vote_average": 0,
-      "vote_count": 0,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/pUNfHmVqfwRdILhCkU8TdysVOXo.jpg",
       "genre_ids": [
         878,
@@ -169,77 +145,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/pXAxNwnKjLfu1g8mqMy8hS7e5IC.jpg",
-      "genre_ids": [
-        35,
-        18
-      ],
-      "id": 304774,
-      "origin_country": [
-        "TR"
-      ],
-      "original_language": "tr",
-      "original_name": "Sekizinci Aile",
-      "overview": "",
-      "popularity": 19.7174,
-      "poster_path": "/y8NmGRfD3GuhhR8bTj7rXWkOMqk.jpg",
-      "first_air_date": "2025-11-19",
-      "name": "Sekizinci Aile",
-      "vote_average": 8,
-      "vote_count": 5,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/5T4ij5RgI7y5UHNgI2scH8BU5J9.jpg",
-      "genre_ids": [
-        80
-      ],
-      "id": 310024,
-      "origin_country": [
-        "KR"
-      ],
-      "original_language": "ko",
-      "original_name": "블러디 플라워",
-      "overview": "",
-      "popularity": 16.2845,
-      "poster_path": "/kvt266zMIzyz0YAKMHWd7Mke5CD.jpg",
-      "first_air_date": "2026-02-04",
-      "name": "블러디 플라워",
-      "vote_average": 8,
-      "vote_count": 2,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/cqkmEHLE4LjPHSqKdLt4pJFJv0f.jpg",
-      "genre_ids": [
-        80,
-        18
-      ],
-      "id": 239385,
-      "origin_country": [
-        "KR"
-      ],
-      "original_language": "ko",
-      "original_name": "조각도시",
-      "overview": "Спокійного й доброзичливого Те Чжона несправедливо кидають за ґрати за жорстокий злочин. У в’язниці він дізнається, що за всім стоїть загадковий чоловік на ім’я Йо Хан, який підставив його. Охоплений жагою помсти, Те Чжон тікає, аби змусити Йо Хана заплатити за все.",
-      "popularity": 14.3587,
-      "poster_path": "/pwin3qnVXs9tD3nU5hkl70wO1dx.jpg",
-      "first_air_date": "2025-11-05",
-      "name": "Зліплене місто",
-      "vote_average": 8.329,
-      "vote_count": 85,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/kiOEVg5BkzLE0pWoPKecXd7wZ2Q.jpg",
       "genre_ids": [
         10765,
@@ -259,31 +164,6 @@
       "name": "Залізне серце",
       "vote_average": 5.363,
       "vote_count": 413,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/pHhGVPOi9qI6CVYIrgZ2VWflg0u.jpg",
-      "genre_ids": [
-        9648,
-        18,
-        10751
-      ],
-      "id": 233833,
-      "origin_country": [
-        "KR"
-      ],
-      "original_language": "ko",
-      "original_name": "찬란한 너의 계절에",
-      "overview": "",
-      "popularity": 11.76,
-      "poster_path": "/eUkIxWK9KhLQLPQct9G8HeY61Rj.jpg",
-      "first_air_date": "2026-02-20",
-      "name": "찬란한 너의 계절에",
-      "vote_average": 8,
-      "vote_count": 2,
       "has_ua": false,
       "quality": "SD",
       "is_hdr": false
@@ -387,30 +267,6 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/42RCEkRkfvafglUsXD6kN1S9nwP.jpg",
-      "genre_ids": [
-        80,
-        18
-      ],
-      "id": 246473,
-      "origin_country": [
-        "KR"
-      ],
-      "original_language": "ko",
-      "original_name": "메이드 인 코리아",
-      "overview": "Чоловік, одержимий жагою багатства й влади, та прокурор, який жертвує всім, аби його зупинити, — історія, що розгортається у вирі бурхливої епохи.",
-      "popularity": 7.2504,
-      "poster_path": "/w0phy4NdYpwAVIP3zsY0u4t66Pw.jpg",
-      "first_air_date": "2025-12-24",
-      "name": "Зроблено в Кореї",
-      "vote_average": 8,
-      "vote_count": 18,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
       "backdrop_path": "/ch25hghTZkXFfcx7v2r7cGKKizl.jpg",
       "genre_ids": [
         18
@@ -458,26 +314,24 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/6omimfVty4JD3LXzI5LHEGhXjwn.jpg",
+      "backdrop_path": "/v8tpkxm7AhLu69eaZKJLsNaSL5.jpg",
       "genre_ids": [
         16,
-        18,
-        10765
+        10751,
+        35
       ],
-      "id": 284445,
-      "origin_country": [
-        "JP"
-      ],
-      "original_language": "ja",
-      "original_name": "タコピーの原罪",
-      "overview": "Щасливий інопланетянин Такопі прилітає на Землю з однією місією: поширювати щастя! Коли він зустрічає Шізуку, самотню ученицю четвертого класу, він присягається повернути їй усмішку за допомогою своїх чарівних Щасливих Ґаджетів. Але коли він виявляє біль у її житті, Такопі дізнається, що для справжнього щастя може знадобитися щось більше, ніж гаджети.",
-      "popularity": 6.6574,
-      "poster_path": "/9rLqz1GhlqZksYgxtuq4w8GeU56.jpg",
-      "first_air_date": "2025-06-28",
-      "name": "Первородний гріх Такопі",
-      "vote_average": 8.843,
-      "vote_count": 140,
-      "has_ua": false,
+      "id": 1392796,
+      "original_language": "en",
+      "original_title": "Diary of a Wimpy Kid: The Last Straw",
+      "overview": "",
+      "popularity": 3.9547,
+      "poster_path": "/emcCjpC289NxAGuVwlItHCTrgT7.jpg",
+      "release_date": "2025-12-04",
+      "title": "Diary of a Wimpy Kid: The Last Straw",
+      "video": false,
+      "vote_average": 6.769,
+      "vote_count": 26,
+      "has_ua": true,
       "quality": "SD",
       "is_hdr": false
     }
