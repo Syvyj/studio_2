@@ -47,11 +47,11 @@
             categories: [
                 { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "8", "watch_region": "UA", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🏆 Топ на Netflix", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_watch_providers": "8", "watch_region": "UA", "sort_by": "popularity.desc" } },
                 { "title": "🅰️ Тільки на Netflix (Originals)", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "vote_average.desc", "vote_count.gte": "500", "vote_average.gte": "7.5" } },
                 { "title": "🤯 Заплутані трилери", "url": "discover/movie", "params": { "with_watch_providers": "8", "watch_region": "UA", "with_genres": "53,9648", "sort_by": "popularity.desc" } },
                 { "title": "🐉 Фантастика та Фентезі", "url": "discover/tv", "params": { "with_networks": "213", "with_genres": "10765", "sort_by": "popularity.desc" } },
-                { "title": "💔 Мелодрами та Драми", "url": "discover/tv", "params": { "with_networks": "213", "with_genres": "18,10749", "sort_by": "popularity.desc" } },
                 { "title": "🇰🇷 K-Dramas (Корея)", "url": "discover/tv", "params": { "with_networks": "213", "with_original_language": "ko", "sort_by": "popularity.desc" } },
                 { "title": "🔪 Документальний True Crime", "url": "discover/tv", "params": { "with_networks": "213", "with_genres": "99", "with_keywords": "9840|10714", "sort_by": "popularity.desc" } },
                 { "title": "🍿 Аніме", "url": "discover/tv", "params": { "with_networks": "213", "with_genres": "16", "with_keywords": "210024", "sort_by": "popularity.desc" } }
@@ -63,12 +63,12 @@
             categories: [
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "2552|3235", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
                 { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "350", "watch_region": "UA", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🏆 Топ Apple TV+", "url": "discover/tv", "params": { "with_networks": "2552|3235", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "2552|3235", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_watch_providers": "350", "watch_region": "UA", "sort_by": "popularity.desc" } },
                 { "title": "🛸 Епічний Sci-Fi (Фішка Apple)", "url": "discover/tv", "params": { "with_networks": "2552|3235", "with_genres": "10765", "sort_by": "popularity.desc" } },
                 { "title": "😂 Комедії та Feel-Good", "url": "discover/tv", "params": { "with_networks": "2552|3235", "with_genres": "35", "sort_by": "popularity.desc" } },
                 { "title": "🕵️ Якісні детективи", "url": "discover/tv", "params": { "with_networks": "2552|3235", "with_genres": "9648,80", "sort_by": "popularity.desc" } },
-                { "title": "🎬 Apple Original Films", "url": "discover/movie", "params": { "with_watch_providers": "350", "watch_region": "UA", "sort_by": "vote_average.desc", "vote_count.gte": "100" } },
-                { "title": "🌍 Неймовірна природа", "url": "discover/tv", "params": { "with_networks": "2552|3235", "with_genres": "99", "sort_by": "vote_average.desc", "vote_count.gte": "10" } }
+                { "title": "🎬 Apple Original Films", "url": "discover/movie", "params": { "with_watch_providers": "350", "watch_region": "UA", "sort_by": "vote_average.desc", "vote_count.gte": "100" } }
             ]
         },
         'hbo': {
@@ -76,13 +76,13 @@
             icon: '<svg width="24px" height="24px" viewBox="0 0 24 24" fill="currentColor"><path d="M7.042 16.896H4.414v-3.754H2.708v3.754H.01L0 7.22h2.708v3.6h1.706v-3.6h2.628zm12.043.046C21.795 16.94 24 14.689 24 11.978a4.89 4.89 0 0 0-4.915-4.92c-2.707-.002-4.09 1.991-4.432 2.795.003-1.207-1.187-2.632-2.58-2.634H7.59v9.674l4.181.001c1.686 0 2.886-1.46 2.888-2.713.385.788 1.72 2.762 4.427 2.76zm-7.665-3.936c.387 0 .692.382.692.817 0 .435-.305.817-.692.817h-1.33v-1.634zm.005-3.633c.387 0 .692.382.692.817 0 .436-.305.818-.692.818h-1.33V9.373zm1.77 2.607c.305-.039.813-.387.992-.61-.063.276-.068 1.074.006 1.35-.204-.314-.688-.701-.998-.74zm3.43 0a2.462 2.462 0 1 1 4.924 0 2.462 2.462 0 0 1-4.925 0zm2.462 1.936a1.936 1.936 0 1 0 0-3.872 1.936 1.936 0 0 0 0 3.872z"/></svg>',
             categories: [
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "49|3186", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🔥 Нові фільми WB", "url": "discover/movie", "params": { "with_companies": "174", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "10" } },
-                { "title": "🏆 Топ HBO", "url": "discover/tv", "params": { "with_networks": "49", "sort_by": "popularity.desc" } },
+                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_companies": "174|49", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "10" } },
+                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "49|3186", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Фільми (WB)", "url": "discover/movie", "params": { "with_companies": "174", "sort_by": "popularity.desc", "vote_count.gte": "50" } },
                 { "title": "🐉 Епічні саги (Фентезі)", "url": "discover/tv", "params": { "with_networks": "49|3186", "with_genres": "10765", "sort_by": "popularity.desc" } },
                 { "title": "🎭 Преміальні драми", "url": "discover/tv", "params": { "with_networks": "49", "with_genres": "18", "without_genres": "10765", "sort_by": "popularity.desc" } },
                 { "title": "🦇 Блокбастери DC", "url": "discover/movie", "params": { "with_companies": "174", "with_keywords": "9715", "sort_by": "revenue.desc" } },
                 { "title": "🧠 Похмурі детективи", "url": "discover/tv", "params": { "with_networks": "49", "with_genres": "80,9648", "sort_by": "vote_average.desc", "vote_count.gte": "300" } },
-                { "title": "🤬 Доросла анімація", "url": "discover/tv", "params": { "with_networks": "3186|80", "with_genres": "16", "sort_by": "popularity.desc" } },
                 { "title": "👑 Золота класика HBO", "url": "discover/tv", "params": { "with_networks": "49", "sort_by": "vote_average.desc", "vote_count.gte": "1000" } }
             ]
         },
@@ -92,7 +92,8 @@
             categories: [
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "1024", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
                 { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "119", "watch_region": "US", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🏆 Топ Prime Video", "url": "discover/tv", "params": { "with_networks": "1024", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "1024", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_watch_providers": "119", "watch_region": "US", "sort_by": "popularity.desc" } },
                 { "title": "🩸 Жорсткий екшн та Антигерої", "url": "discover/tv", "params": { "with_networks": "1024", "with_genres": "10759,10765", "sort_by": "popularity.desc" } },
                 { "title": "🎬 Фільми від Amazon MGM", "url": "discover/movie", "params": { "with_companies": "1024|21", "sort_by": "popularity.desc" } },
                 { "title": "😂 Комедії", "url": "discover/tv", "params": { "with_networks": "1024", "with_genres": "35", "sort_by": "popularity.desc" } },
@@ -103,14 +104,14 @@
             title: 'Disney+',
             icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19,3V7m2-2H17m-10.31,4L8.69,21m-5.69-7c0-3,5.54-4.55,9-2m-9,2s12.29-2,13.91,6.77c1.09,5.93-6.58,6.7-9.48,5.89S3,16.06,3,14.06"/></svg>',
             categories: [
-                { "title": "🔥 Новинки Disney+", "url": "discover/tv", "params": { "with_networks": "2739", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🏆 Популярне зараз", "url": "discover/movie", "params": { "with_companies": "2", "sort_by": "popularity.desc" } },
+                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "2739", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
+                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "337", "watch_region": "US", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
+                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "2739", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_companies": "2", "sort_by": "popularity.desc" } },
                 { "title": "🦸\u200d♂️ Кіновсесвіт Marvel", "url": "discover/movie", "params": { "with_companies": "420", "sort_by": "release_date.desc", "vote_count.gte": "100" } },
                 { "title": "⚔️ Далека галактика (Star Wars)", "url": "discover/tv", "params": { "with_companies": "1", "with_keywords": "1930", "sort_by": "popularity.desc" } },
                 { "title": "🧸 Шедеври Pixar", "url": "discover/movie", "params": { "with_companies": "3", "sort_by": "popularity.desc" } },
-                { "title": "🍷 Дорослий контент (FX / Star)", "url": "discover/tv", "params": { "with_networks": "88|453", "sort_by": "popularity.desc" } },
-                { "title": "🌍 Дика природа (NatGeo)", "url": "discover/tv", "params": { "with_networks": "43", "sort_by": "popularity.desc" } },
-                { "title": "🏰 Золота класика Disney", "url": "discover/movie", "params": { "with_companies": "2", "sort_by": "vote_average.desc", "vote_count.gte": "2000" } }
+                { "title": "🍷 Дорослий контент (FX / Star)", "url": "discover/tv", "params": { "with_networks": "88|453", "sort_by": "popularity.desc" } }
             ]
         },
         'paramount': {
@@ -118,11 +119,12 @@
             icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 22H22L12 2ZM12 6.5L18.5 19.5H5.5L12 6.5Z"/></svg>',
             categories: [
                 { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "4330", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🏆 Топ Paramount+", "url": "discover/tv", "params": { "with_networks": "4330", "sort_by": "popularity.desc" } },
+                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_companies": "4", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "10" } },
+                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "4330", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_companies": "4", "sort_by": "popularity.desc" } },
                 { "title": "🤠 Всесвіт Шеридана (Yellowstone)", "url": "discover/tv", "params": { "with_networks": "318|4330", "with_keywords": "256112", "sort_by": "popularity.desc" } },
                 { "title": "🖖 Колекція Star Trek", "url": "discover/tv", "params": { "with_networks": "4330", "with_keywords": "159223", "sort_by": "first_air_date.desc" } },
                 { "title": "🚓 Кримінал та Розслідування", "url": "discover/tv", "params": { "with_networks": "16", "with_genres": "80,18", "sort_by": "popularity.desc" } },
-                { "title": "🎬 Гора Блокбастерів", "url": "discover/movie", "params": { "with_companies": "4", "sort_by": "revenue.desc" } },
                 { "title": "🧽 Дитячий світ (Nickelodeon)", "url": "discover/tv", "params": { "with_networks": "13", "sort_by": "popularity.desc" } }
             ]
         },
@@ -130,26 +132,27 @@
             title: 'Sky Showtime',
             icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 22h20L12 2zm0 3.5l6.5 13H5.5L12 5.5z"/></svg>',
             categories: [
-                { "title": "🔥 Щойно зі стрімінгу", "url": "discover/movie", "params": { "with_companies": "4|33|67|521", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🔥 Щойно зі стрімінгу (серіали)", "url": "discover/tv", "params": { "with_companies": "4|33|67|521", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🎬 Блокбастери (Paramount)", "url": "discover/movie", "params": { "with_companies": "4", "sort_by": "popularity.desc" } },
+                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_companies": "67|115331", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
+                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_companies": "4|33|521", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
+                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_companies": "67|115331", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_companies": "4|33", "sort_by": "popularity.desc" } },
+                { "title": "🎬 Блокбастери (Paramount)", "url": "discover/movie", "params": { "with_companies": "4", "sort_by": "revenue.desc" } },
                 { "title": "🌍 Світ Universal", "url": "discover/movie", "params": { "with_companies": "33", "sort_by": "popularity.desc" } },
                 { "title": "🕵️ Дорослий розбір (Showtime)", "url": "discover/tv", "params": { "with_companies": "67", "sort_by": "popularity.desc" } },
-                { "title": "🦄 Казкові світи (DreamWorks)", "url": "discover/movie", "params": { "with_companies": "521", "sort_by": "popularity.desc" } },
-                { "title": "🇬🇧 Британський стиль (Sky)", "url": "discover/tv", "params": { "with_companies": "115331", "sort_by": "popularity.desc" } },
-                { "title": "🎞️ Золота колекція", "url": "discover/movie", "params": { "with_companies": "4|33", "primary_release_date.lte": "2010-01-01", "sort_by": "vote_average.desc", "vote_count.gte": "500" } }
+                { "title": "🦄 Казкові світи (DreamWorks)", "url": "discover/movie", "params": { "with_companies": "521", "sort_by": "popularity.desc" } }
             ]
         },
         'hulu': {
             title: 'Hulu',
             icon: '<svg viewBox="0 0 24 24" fill="#3DBB3D"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/></svg>',
             categories: [
-                { "title": "🔥 Нові серіали Hulu", "url": "discover/tv", "params": { "with_networks": "453", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🏆 Топ на Hulu", "url": "discover/tv", "params": { "with_networks": "453", "sort_by": "popularity.desc" } },
+                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "453", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
+                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "15", "watch_region": "US", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "2" } },
+                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "453", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_watch_providers": "15", "watch_region": "US", "sort_by": "popularity.desc" } },
                 { "title": "🔪 True Crime та Детективи", "url": "discover/tv", "params": { "with_networks": "453", "with_genres": "18,9648", "sort_by": "popularity.desc" } },
                 { "title": "😂 Хітові комедії", "url": "discover/tv", "params": { "with_networks": "453", "with_genres": "35", "sort_by": "popularity.desc" } },
-                { "title": "🤬 Анімація для дорослих", "url": "discover/tv", "params": { "with_networks": "453", "with_genres": "16", "sort_by": "popularity.desc" } },
-                { "title": "📖 Міні-серіали", "url": "discover/tv", "params": { "with_networks": "453", "with_keywords": "158718", "sort_by": "vote_average.desc", "vote_count.gte": "100" } }
+                { "title": "🤬 Анімація для дорослих", "url": "discover/tv", "params": { "with_networks": "453", "with_genres": "16", "sort_by": "popularity.desc" } }
             ]
         },
         'syfy': {
@@ -157,10 +160,9 @@
             icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L4.5 20.29L5.21 21L12 18L18.79 21L19.5 20.29L12 2Z"/></svg>',
             categories: [
                 { "title": "🔥 Новинки", "url": "discover/tv", "params": { "with_networks": "77", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "1" } },
-                { "title": "🏆 Популярне на Syfy", "url": "discover/tv", "params": { "with_networks": "77", "sort_by": "popularity.desc" } },
+                { "title": "🏆 Топ на Syfy", "url": "discover/tv", "params": { "with_networks": "77", "sort_by": "popularity.desc" } },
                 { "title": "🚀 Космічні подорожі", "url": "discover/tv", "params": { "with_networks": "77", "with_genres": "10765", "with_keywords": "3801", "sort_by": "vote_average.desc", "vote_count.gte": "50" } },
-                { "title": "🧟 Монстри та паранормальне", "url": "discover/tv", "params": { "with_networks": "77", "with_genres": "9648,10765", "without_keywords": "3801", "sort_by": "popularity.desc" } },
-                { "title": "☢️ Постапокаліпсис", "url": "discover/tv", "params": { "with_networks": "77", "with_keywords": "285366|186644", "sort_by": "popularity.desc" } }
+                { "title": "🧟 Монстри та паранормальне", "url": "discover/tv", "params": { "with_networks": "77", "with_genres": "9648,10765", "without_keywords": "3801", "sort_by": "popularity.desc" } }
             ]
         },
         'educational_and_reality': {
@@ -173,8 +175,7 @@
                 { "title": "🐾 Animal Planet", "url": "discover/tv", "params": { "with_networks": "91", "sort_by": "popularity.desc" } },
                 { "title": "🌿 BBC Earth", "url": "discover/tv", "params": { "with_networks": "4", "with_genres": "99", "sort_by": "vote_average.desc", "vote_count.gte": "20" } },
                 { "title": "🔪 Кулінарні битви", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "222083", "sort_by": "popularity.desc" } },
-                { "title": "🪓 Виживання", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "5481|10348", "sort_by": "popularity.desc" } },
-                { "title": "🔬 Техніка та Експерименти", "url": "discover/tv", "params": { "with_genres": "99", "with_keywords": "12554|4924", "sort_by": "popularity.desc" } }
+                { "title": "🪓 Виживання", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "5481|10348", "sort_by": "popularity.desc" } }
             ]
         }
     };
@@ -1913,11 +1914,15 @@
                         var apiKey = 'api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk');
                         var voteQ = '&vote_count.gte=' + minVotes;
 
-                        // Отримуємо поточну дату, щоб відсікти "майбутні" релізи
+                        // Вікно свіжості: від сьогодні і на 8 місяців назад
                         var d = new Date();
                         var currentDate = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
-                        var dateQMovie = '&primary_release_date.lte=' + currentDate;
-                        var dateQTV = '&first_air_date.lte=' + currentDate;
+                        var past = new Date();
+                        past.setMonth(past.getMonth() - 8);
+                        var pastDate = [past.getFullYear(), ('0' + (past.getMonth() + 1)).slice(-2), ('0' + past.getDate()).slice(-2)].join('-');
+
+                        var dateQMovie = '&primary_release_date.gte=' + pastDate + '&primary_release_date.lte=' + currentDate;
+                        var dateQTV = '&first_air_date.gte=' + pastDate + '&first_air_date.lte=' + currentDate;
 
                         var networkQ = filterParams.with_networks ? '&with_networks=' + encodeURIComponent(filterParams.with_networks) : '';
                         var companyQ = filterParams.with_companies ? '&with_companies=' + encodeURIComponent(filterParams.with_companies) : '';
@@ -1925,17 +1930,17 @@
 
                         var requests = [];
 
-                        // Фільми
+                        // Фільми: шукаємо свіжі, але сортуємо ЗА ПОПУЛЯРНІСТЮ!
                         if (companyQ || genreQ) {
-                            var urlM = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=primary_release_date.desc' + dateQMovie + voteQ + companyQ + genreQ);
+                            var urlM = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=popularity.desc' + dateQMovie + voteQ + companyQ + genreQ);
                             requests.push(function (cb) {
                                 network.silent(urlM, function (j) { cb(j.results || []); }, function () { cb([]); });
                             });
                         }
 
-                        // Серіали
+                        // Серіали: шукаємо свіжі, але сортуємо ЗА ПОПУЛЯРНІСТЮ!
                         if (networkQ || companyQ || genreQ) {
-                            var urlT = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=first_air_date.desc' + dateQTV + voteQ + networkQ + companyQ + genreQ);
+                            var urlT = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=popularity.desc' + dateQTV + voteQ + networkQ + companyQ + genreQ);
                             requests.push(function (cb) {
                                 network.silent(urlT, function (j) { cb(j.results || []); }, function () { cb([]); });
                             });
@@ -1949,29 +1954,14 @@
                                 results = results.concat(items);
                                 pending--;
                                 if (pending === 0) {
-                                    if (results.length === 0 && networkQ) {
-                                        var urlFallback = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=popularity.desc' + dateQTV + networkQ);
-                                        network.silent(urlFallback, function (j) {
-                                            var fallbackItems = (j.results || []).slice(0, 20);
-                                            callback({ results: fallbackItems, title: 'Сьогодні на ' + config.title });
-                                        }, function () {
-                                            callback({ results: [], title: 'Сьогодні на ' + config.title });
-                                        });
-                                        return;
-                                    }
-
                                     var unique = [];
                                     var seen = {};
                                     results.forEach(function (item) {
                                         if (!seen[item.id]) { seen[item.id] = true; unique.push(item); }
                                     });
 
-                                    // Сортуємо мікс серіалів та фільмів суворо за датою виходу
-                                    unique.sort(function (a, b) {
-                                        var dateA = new Date(a.release_date || a.first_air_date || '2000-01-01');
-                                        var dateB = new Date(b.release_date || b.first_air_date || '2000-01-01');
-                                        return dateB - dateA;
-                                    });
+                                    // Фінальне сортування: залишаємо їх по популярності
+                                    unique.sort(function (a, b) { return (b.popularity || 0) - (a.popularity || 0); });
 
                                     callback({
                                         results: unique.slice(0, 20),
@@ -2048,101 +2038,53 @@
                     var iconHtml = '<div style="width: 1.2em; height: 1.2em; display: inline-block; vertical-align: middle; margin-right: 0.4em; margin-bottom: 0.1em; color: inherit;">' + config.icon + '</div>';
                     el.html(iconHtml + '<span style="vertical-align: middle;">Сьогодні на ' + config.title + '</span>');
 
-                    // Додаємо/переміщуємо картку "На сторінку стрімінгу" ЗАВЖДИ в самий кінець scroll__body
                     var line = el.closest('.items-line');
                     if (line.length) {
                         var scrollBody = line.find('.scroll__body');
                         if (scrollBody.length && !scrollBody.data('likhtar-more-observed')) {
                             scrollBody.data('likhtar-more-observed', true);
 
-                            function moveMoreToEnd() {
-                                var more = line.find('.service-more-card');
-                                if (more.length && scrollBody[0] && more[0] !== scrollBody[0].lastElementChild) {
-                                    scrollBody[0].appendChild(more[0]);
-                                }
-                            }
+                            // Додаємо order: 9999; щоб кнопка завжди була в самому кінці
+                            var moreCard = $('<div class="card selector" style="order: 9999;"><div class="card__view" style="background: rgba(30,30,30,0.8); border: 1px solid rgba(255,255,255,0.1); border-radius: 0.6em; display: block; position: relative;"><div style="text-align: center; font-size: 1.1em; font-weight: 700; color: #fff; padding: 1em; line-height: 1.4; position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%); margin: 0;">На сторінку<br><span style="color: #90caf9; font-size: 0.85em; display: block; margin-top: 0.4em;">' + config.title + '</span></div></div></div>');
 
-                            var observer = new MutationObserver(function () {
-                                moveMoreToEnd();
-                            });
-                            observer.observe(scrollBody[0], { childList: true, subtree: false });
-
-                            var existing = line.find('.service-more-card');
-                            if (existing.length) {
-                                moveMoreToEnd();
-                            } else if (scrollBody.find('.card').length) {
-                                var moreCard = $('<div class="card selector"><div class="card__view" style="background: rgba(30,30,30,0.8); border: 1px solid rgba(255,255,255,0.1); border-radius: 0.6em; display: block; position: relative;"><div style="text-align: center; font-size: 1.1em; font-weight: 700; color: #fff; padding: 1em; line-height: 1.4; position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%); margin: 0;">На сторінку<br><span style="color: #90caf9; font-size: 0.85em; display: block; margin-top: 0.4em;">' + config.title + '</span></div></div></div>');
-                                moreCard.on('hover:enter', (function (serviceId) {
-                                    return function () {
-                                        Lampa.Activity.push({
-                                            url: '',
-                                            title: SERVICE_CONFIGS[serviceId].title,
-                                            component: 'studios_main',
-                                            service_id: serviceId,
-                                            page: 1
-                                        });
-                                    };
-                                })(id));
-                                scrollBody.append(moreCard);
-                            }
-                        } else if (scrollBody.length) {
-                            var existing = line.find('.service-more-card');
-                            if (existing.length) {
-                                if (existing[0] !== scrollBody[0].lastElementChild) {
-                                    scrollBody[0].appendChild(existing[0]);
-                                }
-                            } else if (scrollBody.find('.card').length) {
-                                var moreCard = $('<div class="card selector"><div class="card__view" style="background: rgba(30,30,30,0.8); border: 1px solid rgba(255,255,255,0.1); border-radius: 0.6em; display: block; position: relative;"><div style="text-align: center; font-size: 1.1em; font-weight: 700; color: #fff; padding: 1em; line-height: 1.4; position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%); margin: 0;">На сторінку<br><span style="color: #90caf9; font-size: 0.85em; display: block; margin-top: 0.4em;">' + config.title + '</span></div></div></div>');
-                                moreCard.on('hover:enter', (function (serviceId) {
-                                    return function () {
-                                        Lampa.Activity.push({
-                                            url: '',
-                                            title: SERVICE_CONFIGS[serviceId].title,
-                                            component: 'studios_main',
-                                            service_id: serviceId,
-                                            page: 1
-                                        });
-                                    };
-                                })(id));
-                                scrollBody.append(moreCard);
-                            }
+                            moreCard.on('hover:enter', (function (serviceId) {
+                                return function () {
+                                    Lampa.Activity.push({
+                                        url: '', title: SERVICE_CONFIGS[serviceId].title, component: 'studios_main', service_id: serviceId, page: 1
+                                    });
+                                };
+                            })(id));
+                            scrollBody.append(moreCard);
                         }
                     }
                 }
             });
 
-            // Кнопки "На сторінку" для української та польської стрічки (з переміщенням в кінець, як у стрімінгах)
+            // Те саме для Української та Польської стрічок
             $('.items-line').each(function () {
                 var line = $(this);
-                var titleEl = line.find('.items-line__title');
-                var titleText = titleEl.text().trim();
+                var titleText = line.find('.items-line__title').text().trim();
                 var scrollBody = line.find('.scroll__body');
                 if (!scrollBody.length) return;
+
                 var isUA = titleText.indexOf('української стрічки') !== -1;
                 var isPL = titleText.indexOf('польської стрічки') !== -1;
                 if (!isUA && !isPL) return;
+
                 var dataKey = isUA ? 'likhtar-more-ua' : 'likhtar-more-pl';
                 if (scrollBody.data(dataKey)) return;
                 scrollBody.data(dataKey, true);
-                if (!scrollBody.find('.card').length) return;
-
-                function moveMoreToEnd() {
-                    var more = line.find('.service-more-card');
-                    if (more.length && scrollBody[0] && more[0] !== scrollBody[0].lastElementChild) {
-                        scrollBody[0].appendChild(more[0]);
-                    }
-                }
-                var observer = new MutationObserver(moveMoreToEnd);
-                observer.observe(scrollBody[0], { childList: true, subtree: false });
 
                 var label = isUA ? 'Українська стрічка' : 'Польська стрічка';
                 var comp = isUA ? 'ukrainian_feed' : 'polish_feed';
-                var moreCard = $('<div class="card selector"><div class="card__view" style="background: rgba(30,30,30,0.8); border: 1px solid rgba(255,255,255,0.1); border-radius: 0.6em; display: block; position: relative;"><div style="text-align: center; font-size: 1.1em; font-weight: 700; color: #fff; padding: 1em; line-height: 1.4; position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%); margin: 0;">На сторінку<br><span style="color: #ffd700; font-size: 0.85em; display: block; margin-top: 0.4em;">' + label + '</span></div></div></div>');
+
+                // Додаємо order: 9999;
+                var moreCard = $('<div class="card selector" style="order: 9999;"><div class="card__view" style="background: rgba(30,30,30,0.8); border: 1px solid rgba(255,255,255,0.1); border-radius: 0.6em; display: block; position: relative;"><div style="text-align: center; font-size: 1.1em; font-weight: 700; color: #fff; padding: 1em; line-height: 1.4; position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%); margin: 0;">На сторінку<br><span style="color: #ffd700; font-size: 0.85em; display: block; margin-top: 0.4em;">' + label + '</span></div></div></div>');
+
                 moreCard.on('hover:enter', function () {
                     Lampa.Activity.push({ url: '', title: label, component: comp, page: 1 });
                 });
                 scrollBody.append(moreCard);
-                moveMoreToEnd();
             });
         }, 1000);
     }
@@ -2264,629 +2206,373 @@
         });
     }
 
-function initKinoogladModule() {
-    if (window.plugin_kinoohlyad_ready) return;
-    window.plugin_kinoohlyad_ready = true;
-    var KinoApi = {
-        proxies: [
-            'https://api.allorigins.win/raw?url=',
-            'https://api.allorigins.win/get?url=',
-            'https://corsproxy.io/?url=',
-            'https://api.codetabs.com/v1/proxy?quest=',
-            'https://thingproxy.freeboard.io/fetch/'
-        ],
-        // Порядок: за наявністю нового відео (сортування в main()). ID відповідають @нікам.
-        defaultChannels: [
-            { name: 'Навколо Кіно', id: 'UCHCpzrgaW9vFS4dGrmPmZNw' },           // @NavkoloKino
-            { name: 'СЕРІАЛИ та КІНО', id: 'UCXUMAOsX27mm8M_f18RpzIQ' },        // @SERIALYtaKINO
-            { name: 'eKinoUA', id: 'UCvY63ZphoNcDKpt5WK5Nbhg' },                // @eKinoUA
-            { name: 'Загін Кіноманів', id: 'UCig7t6LFOjS2fKkhjbVLpjw' },        // @zagin_kinomaniv
-            { name: 'Мої думки про кіно', id: 'UCIwXIJlsAcEQJ2lNVva7W0A' },     // @moiidumkyprokino
-            { name: 'КІНО НАВИВОРІТ', id: 'UC3_JBeV9tvTb1nSRDh7ANXw' }          // @kino_navuvorit
-        ],
-        getChannels: function () {
-            var stored = Lampa.Storage.get('kino_channels', '[]');
-            var channels;
-            if (typeof stored === 'string') {
-                try {
-                    channels = JSON.parse(stored);
-                } catch (e) {
+    function initKinoogladModule() {
+        if (window.plugin_kinoohlyad_ready) return;
+        window.plugin_kinoohlyad_ready = true;
+        var KinoApi = {
+            proxies: [
+                'https://api.allorigins.win/raw?url=',
+                'https://api.allorigins.win/get?url=',
+                'https://corsproxy.io/?url=',
+                'https://api.codetabs.com/v1/proxy?quest=',
+                'https://thingproxy.freeboard.io/fetch/'
+            ],
+            // Порядок: за наявністю нового відео (сортування в main()). ID відповідають @нікам.
+            defaultChannels: [
+                { name: 'Навколо Кіно', id: 'UCHCpzrgaW9vFS4dGrmPmZNw' },           // @NavkoloKino
+                { name: 'СЕРІАЛИ та КІНО', id: 'UCXUMAOsX27mm8M_f18RpzIQ' },        // @SERIALYtaKINO
+                { name: 'eKinoUA', id: 'UCvY63ZphoNcDKpt5WK5Nbhg' },                // @eKinoUA
+                { name: 'Загін Кіноманів', id: 'UCig7t6LFOjS2fKkhjbVLpjw' },        // @zagin_kinomaniv
+                { name: 'Мої думки про кіно', id: 'UCIwXIJlsAcEQJ2lNVva7W0A' },     // @moiidumkyprokino
+                { name: 'КІНО НАВИВОРІТ', id: 'UC3_JBeV9tvTb1nSRDh7ANXw' }          // @kino_navuvorit
+            ],
+            getChannels: function () {
+                var stored = Lampa.Storage.get('kino_channels', '[]');
+                var channels;
+                if (typeof stored === 'string') {
+                    try {
+                        channels = JSON.parse(stored);
+                    } catch (e) {
+                        return this.defaultChannels.slice();
+                    }
+                } else if (Array.isArray(stored)) {
+                    channels = stored;
+                } else {
                     return this.defaultChannels.slice();
                 }
-            } else if (Array.isArray(stored)) {
-                channels = stored;
-            } else {
-                return this.defaultChannels.slice();
-            }
-            if (!channels || !channels.length) return this.defaultChannels.slice();
-            var seen = {};
-            channels = channels.filter(function (c) {
-                var id = String(c.id).trim().toLowerCase();
-                if (seen[id]) return false;
-                seen[id] = true;
-                return true;
-            });
-            return channels;
-        },
-        saveChannels: function (channels) {
-            Lampa.Storage.set('kino_channels', channels);
-        },
-        resolveHandleToChannelId: function (handle, callback) {
-            var _this = this;
-            var cleanHandle = String(handle).trim().replace(/^@/, '');
-            var pageUrl = 'https://www.youtube.com/@' + encodeURIComponent(cleanHandle);
-            var encodedPage = encodeURIComponent(pageUrl);
-            var tried = 0;
+                if (!channels || !channels.length) return this.defaultChannels.slice();
+                var seen = {};
+                channels = channels.filter(function (c) {
+                    var id = String(c.id).trim().toLowerCase();
+                    if (seen[id]) return false;
+                    seen[id] = true;
+                    return true;
+                });
+                return channels;
+            },
+            saveChannels: function (channels) {
+                Lampa.Storage.set('kino_channels', channels);
+            },
+            resolveHandleToChannelId: function (handle, callback) {
+                var _this = this;
+                var cleanHandle = String(handle).trim().replace(/^@/, '');
+                var pageUrl = 'https://www.youtube.com/@' + encodeURIComponent(cleanHandle);
+                var encodedPage = encodeURIComponent(pageUrl);
+                var tried = 0;
 
-            function tryProxy(idx) {
-                if (idx >= _this.proxies.length) {
-                    callback(new Error('resolve_failed'));
-                    return;
-                }
-                var proxy = _this.proxies[idx];
-                var url = proxy + (proxy.indexOf('corsproxy') > -1 ? pageUrl : encodedPage);
-                $.get(url).done(function (html) {
-                    var str = typeof html === 'string' ? html : (html && html.contents) ? html.contents : '';
-                    var m = str.match(/"externalId"\s*:\s*"(UC[\w-]{22})"/) ||
-                        str.match(/"channelId"\s*:\s*"(UC[\w-]{22})"/) ||
-                        str.match(/youtube\.com\/channel\/(UC[\w-]{22})/);
-                    if (m && m[1]) {
-                        callback(null, { id: m[1], name: cleanHandle });
-                    } else {
-                        tryProxy(idx + 1);
-                    }
-                }).fail(function () { tryProxy(idx + 1); });
-            }
-            tryProxy(0);
-        },
-        fetch: function (channel, oncomplite, onerror) {
-            var _this = this;
-            var id = String(channel.id).trim();
-            var isChannelId = /^UC[\w-]{22}$/.test(id);
-
-            function doFetch(feedUrl) {
-                var url = feedUrl;
-                var encodedUrl = encodeURIComponent(url);
-
-                function tryFetch(index) {
-                    if (index >= _this.proxies.length) {
-                        console.log('Kinoohlyad: All proxies failed for ' + channel.name);
-                        onerror();
+                function tryProxy(idx) {
+                    if (idx >= _this.proxies.length) {
+                        callback(new Error('resolve_failed'));
                         return;
                     }
+                    var proxy = _this.proxies[idx];
+                    var url = proxy + (proxy.indexOf('corsproxy') > -1 ? pageUrl : encodedPage);
+                    $.get(url).done(function (html) {
+                        var str = typeof html === 'string' ? html : (html && html.contents) ? html.contents : '';
+                        var m = str.match(/"externalId"\s*:\s*"(UC[\w-]{22})"/) ||
+                            str.match(/"channelId"\s*:\s*"(UC[\w-]{22})"/) ||
+                            str.match(/youtube\.com\/channel\/(UC[\w-]{22})/);
+                        if (m && m[1]) {
+                            callback(null, { id: m[1], name: cleanHandle });
+                        } else {
+                            tryProxy(idx + 1);
+                        }
+                    }).fail(function () { tryProxy(idx + 1); });
+                }
+                tryProxy(0);
+            },
+            fetch: function (channel, oncomplite, onerror) {
+                var _this = this;
+                var id = String(channel.id).trim();
+                var isChannelId = /^UC[\w-]{22}$/.test(id);
 
-                    var currentProxy = _this.proxies[index];
-                    var fetchUrl = currentProxy + encodedUrl;
+                function doFetch(feedUrl) {
+                    var url = feedUrl;
+                    var encodedUrl = encodeURIComponent(url);
 
-                    $.get(fetchUrl, function (data) {
-                        var raw = typeof data === 'string' ? data : (data && typeof data.contents === 'string') ? data.contents : '';
-                        var str = (raw || (typeof data === 'string' ? data : '')).trim();
-                        if (str && str.indexOf('<?xml') !== 0 && str.indexOf('<feed') !== 0) {
-                            if (str.indexOf('<!DOCTYPE') !== -1 || str.indexOf('<html') !== -1) {
+                    function tryFetch(index) {
+                        if (index >= _this.proxies.length) {
+                            console.log('Kinoohlyad: All proxies failed for ' + channel.name);
+                            onerror();
+                            return;
+                        }
+
+                        var currentProxy = _this.proxies[index];
+                        var fetchUrl = currentProxy + encodedUrl;
+
+                        $.get(fetchUrl, function (data) {
+                            var raw = typeof data === 'string' ? data : (data && typeof data.contents === 'string') ? data.contents : '';
+                            var str = (raw || (typeof data === 'string' ? data : '')).trim();
+                            if (str && str.indexOf('<?xml') !== 0 && str.indexOf('<feed') !== 0) {
+                                if (str.indexOf('<!DOCTYPE') !== -1 || str.indexOf('<html') !== -1) {
+                                    return tryFetch(index + 1);
+                                }
+                            }
+                            var items = [];
+                            var xml;
+                            try {
+                                xml = typeof data === 'string' ? $.parseXML(data) : (data && data.documentElement) ? data : $.parseXML(raw || String(data || ''));
+                            } catch (e) {
                                 return tryFetch(index + 1);
                             }
-                        }
-                        var items = [];
-                        var xml;
-                        try {
-                            xml = typeof data === 'string' ? $.parseXML(data) : (data && data.documentElement) ? data : $.parseXML(raw || String(data || ''));
-                        } catch (e) {
-                            return tryFetch(index + 1);
-                        }
 
-                        if (!xml || !$(xml).find('entry').length) {
-                            return tryFetch(index + 1);
-                        }
+                            if (!xml || !$(xml).find('entry').length) {
+                                return tryFetch(index + 1);
+                            }
 
-                        $(xml).find('entry').each(function () {
-                            var $el = $(this);
-                            var mediaGroup = $el.find('media\\:group, group');
-                            var thumb = mediaGroup.find('media\\:thumbnail, thumbnail').attr('url');
-                            var videoId = $el.find('yt\\:videoId, videoId').text();
-                            var link = $el.find('link').attr('href');
-                            var title = $el.find('title').text();
+                            $(xml).find('entry').each(function () {
+                                var $el = $(this);
+                                var mediaGroup = $el.find('media\\:group, group');
+                                var thumb = mediaGroup.find('media\\:thumbnail, thumbnail').attr('url');
+                                var videoId = $el.find('yt\\:videoId, videoId').text();
+                                var link = $el.find('link').attr('href');
+                                var title = $el.find('title').text();
 
-                            // Filter out Shorts
-                            if (link && link.indexOf('/shorts/') > -1) return;
-                            if (title && title.toLowerCase().indexOf('#shorts') > -1) return;
+                                // Filter out Shorts
+                                if (link && link.indexOf('/shorts/') > -1) return;
+                                if (title && title.toLowerCase().indexOf('#shorts') > -1) return;
 
-                            items.push({
-                                title: title,
-                                img: thumb,
-                                video_id: videoId,
-                                release_date: ($el.find('published').text() || '').split('T')[0],
-                                vote_average: 0
+                                items.push({
+                                    title: title,
+                                    img: thumb,
+                                    video_id: videoId,
+                                    release_date: ($el.find('published').text() || '').split('T')[0],
+                                    vote_average: 0
+                                });
                             });
-                        });
 
-                        if (items.length) {
-                            // console.log('Kinoohlyad: Success via ' + currentProxy);
-                            oncomplite(items);
-                        } else {
+                            if (items.length) {
+                                // console.log('Kinoohlyad: Success via ' + currentProxy);
+                                oncomplite(items);
+                            } else {
+                                tryFetch(index + 1);
+                            }
+                        }).fail(function () {
                             tryFetch(index + 1);
-                        }
-                    }).fail(function () {
-                        tryFetch(index + 1);
-                    });
+                        });
+                    }
+
+                    tryFetch(0);
                 }
 
-                tryFetch(0);
-            }
-
-            if (isChannelId) {
-                doFetch('https://www.youtube.com/feeds/videos.xml?channel_id=' + id);
-            } else {
-                _this.resolveHandleToChannelId(id, function (err, resolved) {
-                    if (!err && resolved && resolved.id) {
-                        var ch = _this.getChannels();
-                        for (var i = 0; i < ch.length; i++) {
-                            if (String(ch[i].id).trim().toLowerCase() === id.toLowerCase()) {
-                                ch[i].id = resolved.id;
-                                _this.saveChannels(ch);
-                                break;
+                if (isChannelId) {
+                    doFetch('https://www.youtube.com/feeds/videos.xml?channel_id=' + id);
+                } else {
+                    _this.resolveHandleToChannelId(id, function (err, resolved) {
+                        if (!err && resolved && resolved.id) {
+                            var ch = _this.getChannels();
+                            for (var i = 0; i < ch.length; i++) {
+                                if (String(ch[i].id).trim().toLowerCase() === id.toLowerCase()) {
+                                    ch[i].id = resolved.id;
+                                    _this.saveChannels(ch);
+                                    break;
+                                }
                             }
+                            doFetch('https://www.youtube.com/feeds/videos.xml?channel_id=' + resolved.id);
+                        } else {
+                            doFetch('https://www.youtube.com/feeds/videos.xml?user=' + id.replace(/^@/, ''));
                         }
-                        doFetch('https://www.youtube.com/feeds/videos.xml?channel_id=' + resolved.id);
-                    } else {
-                        doFetch('https://www.youtube.com/feeds/videos.xml?user=' + id.replace(/^@/, ''));
-                    }
-                });
-            }
-        },
-        main: function (oncomplite, onerror) {
-            var _this = this;
-            var channels = this.getChannels().filter(function (c) { return c.active !== false; });
+                    });
+                }
+            },
+            main: function (oncomplite, onerror) {
+                var _this = this;
+                var channels = this.getChannels().filter(function (c) { return c.active !== false; });
 
-            if (!channels.length) {
-                onerror();
-                return;
-            }
+                if (!channels.length) {
+                    onerror();
+                    return;
+                }
 
-            var maxVideosPerChannel = 7;
-            var promises = channels.map(function (channel) {
-                return new Promise(function (resolve) {
-                    _this.fetch(channel, function (items) {
-                        resolve({ title: channel.name, channelId: channel.id, results: items.slice(0, maxVideosPerChannel) });
-                    }, function () {
-                        resolve({ title: channel.name, channelId: channel.id, results: [] });
+                var maxVideosPerChannel = 7;
+                var promises = channels.map(function (channel) {
+                    return new Promise(function (resolve) {
+                        _this.fetch(channel, function (items) {
+                            resolve({ title: channel.name, channelId: channel.id, results: items.slice(0, maxVideosPerChannel) });
+                        }, function () {
+                            resolve({ title: channel.name, channelId: channel.id, results: [] });
+                        });
                     });
                 });
-            });
 
-            Promise.all(promises).then(function (results) {
-                var withVideos = results.filter(function (res) { return res.results.length > 0; });
-                var withoutVideos = results.filter(function (res) { return res.results.length === 0; });
+                Promise.all(promises).then(function (results) {
+                    var withVideos = results.filter(function (res) { return res.results.length > 0; });
+                    var withoutVideos = results.filter(function (res) { return res.results.length === 0; });
 
-                withVideos.sort(function (a, b) {
-                    var dateA = a.results[0] ? new Date(a.results[0].release_date) : 0;
-                    var dateB = b.results[0] ? new Date(b.results[0].release_date) : 0;
-                    return dateB - dateA;
+                    withVideos.sort(function (a, b) {
+                        var dateA = a.results[0] ? new Date(a.results[0].release_date) : 0;
+                        var dateB = b.results[0] ? new Date(b.results[0].release_date) : 0;
+                        return dateB - dateA;
+                    });
+
+                    var sorted = withVideos.concat(withoutVideos);
+                    if (sorted.length) oncomplite(sorted);
+                    else onerror();
                 });
-
-                var sorted = withVideos.concat(withoutVideos);
-                if (sorted.length) oncomplite(sorted);
-                else onerror();
-            });
-        },
-        clear: function () { }
-    };
-
-    function KinoCard(data) {
-        this.build = function () {
-            this.card = Lampa.Template.get('kino_card', {});
-            this.img = this.card.find('img')[0];
-
-            this.card.find('.card__title').text(data.title);
-            var date = data.release_date ? data.release_date.split('-').reverse().join('.') : '';
-            this.card.find('.card__date').text(date);
+            },
+            clear: function () { }
         };
 
-        this.image = function () {
-            var _this = this;
-            this.img.onload = function () {
-                _this.card.addClass('card--loaded');
-            };
-            this.img.onerror = function () {
-                _this.img.src = './img/img_broken.svg';
-            };
-            if (data.img) this.img.src = data.img;
-        };
+        function KinoCard(data) {
+            this.build = function () {
+                this.card = Lampa.Template.get('kino_card', {});
+                this.img = this.card.find('img')[0];
 
-        this.play = function (id) {
-            if (Lampa.Manifest.app_digital >= 183) {
-                var item = {
-                    title: Lampa.Utils.shortText(data.title, 50),
-                    id: id,
-                    youtube: true,
-                    url: 'https://www.youtube.com/watch?v=' + id,
-                    icon: '<img class="size-youtube" src="https://img.youtube.com/vi/' + id + '/default.jpg" />',
-                    template: 'selectbox_icon'
+                this.card.find('.card__title').text(data.title);
+                var date = data.release_date ? data.release_date.split('-').reverse().join('.') : '';
+                this.card.find('.card__date').text(date);
+            };
+
+            this.image = function () {
+                var _this = this;
+                this.img.onload = function () {
+                    _this.card.addClass('card--loaded');
                 };
-                Lampa.Player.play(item);
-                Lampa.Player.playlist([item]);
-            } else {
-                Lampa.YouTube.play(id);
-            }
-        };
-
-        this.create = function () {
-            var _this = this;
-            this.build();
-            if (!this.card) return;
-
-            this.card.on('hover:focus', function (e) {
-                if (_this.onFocus) _this.onFocus(e.target, data);
-            }).on('hover:enter', function () {
-                _this.play(data.video_id);
-            });
-
-            this.image();
-        };
-
-        this.render = function () {
-            return this.card;
-        };
-
-        this.destroy = function () {
-            this.img.onerror = null;
-            this.img.onload = null;
-            this.img.src = '';
-            this.card.remove();
-            this.card = this.img = null;
-        }
-    }
-
-    function KinoLine(data) {
-        var content = Lampa.Template.get('items_line', { title: data.title });
-        var body = content.find('.items-line__body');
-        var scroll = new Lampa.Scroll({ horizontal: true, step: 600 });
-        var items = [];
-        var active = 0;
-        var last;
-
-        this.create = function () {
-            scroll.render().find('.scroll__body').addClass('items-cards');
-            content.find('.items-line__title').text(data.title);
-            body.append(scroll.render());
-            this.bind();
-        };
-
-        this.bind = function () {
-            data.results.forEach(this.append.bind(this));
-            if (data.channelId) this.appendChannelLink(data.channelId);
-            Lampa.Layer.update();
-        };
-
-        this.append = function (element) {
-            var _this = this;
-            var card = new KinoCard(element);
-            card.create();
-
-            card.onFocus = function (target, card_data) {
-                last = target;
-                active = items.indexOf(card);
-                scroll.update(items[active].render(), true);
-                if (_this.onFocus) _this.onFocus(card_data);
+                this.img.onerror = function () {
+                    _this.img.src = './img/img_broken.svg';
+                };
+                if (data.img) this.img.src = data.img;
             };
 
-            scroll.append(card.render());
-            items.push(card);
-        };
+            this.play = function (id) {
+                if (Lampa.Manifest.app_digital >= 183) {
+                    var item = {
+                        title: Lampa.Utils.shortText(data.title, 50),
+                        id: id,
+                        youtube: true,
+                        url: 'https://www.youtube.com/watch?v=' + id,
+                        icon: '<img class="size-youtube" src="https://img.youtube.com/vi/' + id + '/default.jpg" />',
+                        template: 'selectbox_icon'
+                    };
+                    Lampa.Player.play(item);
+                    Lampa.Player.playlist([item]);
+                } else {
+                    Lampa.YouTube.play(id);
+                }
+            };
 
-        this.appendChannelLink = function (channelId) {
-            var _this = this;
-            var url = /^UC[\w-]{22}$/.test(channelId)
-                ? 'https://www.youtube.com/channel/' + channelId
-                : 'https://www.youtube.com/@' + channelId;
-            var cardEl = $('<div class="card selector card--wide layer--render layer--visible kino-card kino-card--channel">' +
-                '<div class="card__view"><img src="./img/img_load.svg" class="card__img" alt=""></div>' +
-                '<div class="card__title">На канал автора</div>' +
-                '<div class="card__date" style="font-size: 0.8em; opacity: 0.7; margin-top: 0.3em;">YouTube</div></div>');
-            cardEl.addClass('card--loaded');
-            cardEl.on('hover:enter click', function () {
-                if (Lampa.Platform.openWindow) Lampa.Platform.openWindow(url);
-                else window.open(url, '_blank');
-            });
-            var channelCard = { render: function () { return cardEl; }, destroy: function () { cardEl.remove(); } };
-            scroll.append(cardEl);
-            items.push(channelCard);
-        };
+            this.create = function () {
+                var _this = this;
+                this.build();
+                if (!this.card) return;
 
-        this.toggle = function () {
-            Lampa.Controller.add('items_line', {
-                toggle: function () {
-                    Lampa.Controller.collectionSet(scroll.render());
-                    Lampa.Controller.collectionFocus(items.length ? last : false, scroll.render());
-                },
-                right: function () {
-                    Navigator.move('right');
-                },
-                left: function () {
-                    Navigator.move('left');
-                },
-                down: this.onDown,
-                up: this.onUp,
-                gone: function () { },
-                back: this.onBack
-            });
-            Lampa.Controller.toggle('items_line');
-        };
+                this.card.on('hover:focus', function (e) {
+                    if (_this.onFocus) _this.onFocus(e.target, data);
+                }).on('hover:enter', function () {
+                    _this.play(data.video_id);
+                });
 
-        this.render = function () {
-            return content;
-        };
+                this.image();
+            };
 
-        this.destroy = function () {
-            Lampa.Arrays.destroy(items);
-            scroll.destroy();
-            content.remove();
-            items = [];
-        };
-    }
+            this.render = function () {
+                return this.card;
+            };
 
-    function KinoSettings() {
-        var html = $('<div class="kino-settings-screen"></div>');
-        var scroll = new Lampa.Scroll({ mask: true, over: true });
-        var channels = KinoApi.getChannels();
-        var items = [];
-        var active = 0;
-
-        function parseChannelInput(input) {
-            var s = (input || '').trim();
-            if (!s) return null;
-            var m = s.match(/youtube\.com\/channel\/(UC[\w-]{22})/i) || s.match(/(?:^|\s)(UC[\w-]{22})(?:\s|$)/);
-            if (m) return { id: m[1], name: 'Канал' };
-            m = s.match(/(?:youtube\.com\/)?@([\w.-]+)/i) || s.match(/^@?([\w.-]+)$/);
-            if (m) return { id: m[1], name: m[1] };
-            if (/^UC[\w-]{22}$/.test(s)) return { id: s, name: 'Канал' };
-            return null;
+            this.destroy = function () {
+                this.img.onerror = null;
+                this.img.onload = null;
+                this.img.src = '';
+                this.card.remove();
+                this.card = this.img = null;
+            }
         }
 
-        this.create = function () {
-            this.activity.loader(false);
-            html.empty();
-            items = [];
-            channels = KinoApi.getChannels();
+        function KinoLine(data) {
+            var content = Lampa.Template.get('items_line', { title: data.title });
+            var body = content.find('.items-line__body');
+            var scroll = new Lampa.Scroll({ horizontal: true, step: 600 });
+            var items = [];
+            var active = 0;
+            var last;
 
-            var wrap = $('<div class="kino-settings__wrap"></div>');
-            html.append(scroll.render());
-            scroll.append(wrap);
+            this.create = function () {
+                scroll.render().find('.scroll__body').addClass('items-cards');
+                content.find('.items-line__title').text(data.title);
+                body.append(scroll.render());
+                this.bind();
+            };
 
-            wrap.append('<div class="kino-settings__title">Налаштування каналів</div>');
+            this.bind = function () {
+                data.results.forEach(this.append.bind(this));
+                if (data.channelId) this.appendChannelLink(data.channelId);
+                Lampa.Layer.update();
+            };
 
-            var addRow = $('<div class="kino-settings__row selector" data-action="add">' +
-                '<span class="kino-settings__label">Додати канал</span>' +
-                '<span class="kino-settings__hint">Посилання YouTube або @нік</span></div>');
-            addRow.on('hover:enter click', function () {
-                Lampa.Input.edit({
-                    title: 'Посилання на канал або @нік',
-                    value: '',
-                    free: true,
-                    nosave: true
-                }, function (value) {
-                    var parsed = parseChannelInput(value);
-                    if (parsed) {
-                        channels.push({ name: parsed.name, id: parsed.id, active: true });
-                        KinoApi.saveChannels(channels);
-                        Lampa.Activity.replace({ component: 'kino_settings' });
-                    }
+            this.append = function (element) {
+                var _this = this;
+                var card = new KinoCard(element);
+                card.create();
+
+                card.onFocus = function (target, card_data) {
+                    last = target;
+                    active = items.indexOf(card);
+                    scroll.update(items[active].render(), true);
+                    if (_this.onFocus) _this.onFocus(card_data);
+                };
+
+                scroll.append(card.render());
+                items.push(card);
+            };
+
+            this.appendChannelLink = function (channelId) {
+                var _this = this;
+                var url = /^UC[\w-]{22}$/.test(channelId)
+                    ? 'https://www.youtube.com/channel/' + channelId
+                    : 'https://www.youtube.com/@' + channelId;
+                var cardEl = $('<div class="card selector card--wide layer--render layer--visible kino-card kino-card--channel">' +
+                    '<div class="card__view"><img src="./img/img_load.svg" class="card__img" alt=""></div>' +
+                    '<div class="card__title">На канал автора</div>' +
+                    '<div class="card__date" style="font-size: 0.8em; opacity: 0.7; margin-top: 0.3em;">YouTube</div></div>');
+                cardEl.addClass('card--loaded');
+                cardEl.on('hover:enter click', function () {
+                    if (Lampa.Platform.openWindow) Lampa.Platform.openWindow(url);
+                    else window.open(url, '_blank');
                 });
-            });
-            wrap.append(addRow);
-            items.push(addRow);
+                var channelCard = { render: function () { return cardEl; }, destroy: function () { cardEl.remove(); } };
+                scroll.append(cardEl);
+                items.push(channelCard);
+            };
 
-            var resetRow = $('<div class="kino-settings__row selector" data-action="reset">' +
-                '<span class="kino-settings__label">Скинути налаштування</span>' +
-                '<span class="kino-settings__hint">Повернути стандартний список каналів</span></div>');
-            resetRow.on('hover:enter click', function () {
-                KinoApi.saveChannels(KinoApi.defaultChannels);
-                Lampa.Activity.replace({ component: 'kino_settings' });
-            });
-            wrap.append(resetRow);
-            items.push(resetRow);
-
-            wrap.append('<div class="kino-settings__subtitle">Канали (клік — вкл/викл, довгий — видалити)</div>');
-
-            channels.forEach(function (channel, index) {
-                var isOn = channel.active !== false;
-                var row = $('<div class="kino-settings__row kino-settings__row--channel selector" data-index="' + index + '">' +
-                    '<span class="kino-settings__channel-name"></span>' +
-                    '<span class="kino-settings__channel-status"></span></div>');
-                row.find('.kino-settings__channel-name').text(channel.name);
-                row.find('.kino-settings__channel-status').text(isOn ? 'Увімкнено' : 'Вимкнено');
-                if (!isOn) row.addClass('kino-settings__row--off');
-
-                row.on('hover:enter click', function () {
-                    channel.active = !channel.active;
-                    if (channel.active === undefined) channel.active = false;
-                    row.find('.kino-settings__channel-status').text(channel.active !== false ? 'Увімкнено' : 'Вимкнено');
-                    row.toggleClass('kino-settings__row--off', channel.active === false);
-                    KinoApi.saveChannels(channels);
+            this.toggle = function () {
+                Lampa.Controller.add('items_line', {
+                    toggle: function () {
+                        Lampa.Controller.collectionSet(scroll.render());
+                        Lampa.Controller.collectionFocus(items.length ? last : false, scroll.render());
+                    },
+                    right: function () {
+                        Navigator.move('right');
+                    },
+                    left: function () {
+                        Navigator.move('left');
+                    },
+                    down: this.onDown,
+                    up: this.onUp,
+                    gone: function () { },
+                    back: this.onBack
                 });
+                Lampa.Controller.toggle('items_line');
+            };
 
-                row.on('hover:long', function () {
-                    var idx = index;
-                    Lampa.Select.show({
-                        title: 'Дії з каналом',
-                        items: [{ title: 'Видалити', id: 'delete' }],
-                        onSelect: function (a) {
-                            if (a.id == 'delete') {
-                                channels.splice(idx, 1);
-                                KinoApi.saveChannels(channels);
-                                Lampa.Activity.replace({ component: 'kino_settings' });
-                            }
-                            Lampa.Controller.toggle('content');
-                        },
-                        onBack: function () { Lampa.Controller.toggle('content'); }
-                    });
-                });
+            this.render = function () {
+                return content;
+            };
 
-                wrap.append(row);
-                items.push(row);
-            });
+            this.destroy = function () {
+                Lampa.Arrays.destroy(items);
+                scroll.destroy();
+                content.remove();
+                items = [];
+            };
+        }
 
-            return this.render();
-        };
+        function KinoSettings() {
+            var html = $('<div class="kino-settings-screen"></div>');
+            var scroll = new Lampa.Scroll({ mask: true, over: true });
+            var channels = KinoApi.getChannels();
+            var items = [];
+            var active = 0;
 
-        this.start = function () {
-            active = Math.min(active, items.length - 1);
-            if (active < 0) active = 0;
-            Lampa.Controller.add('content', {
-                toggle: function () {
-                    Lampa.Controller.collectionSet(html);
-                    if (items.length) Lampa.Controller.collectionFocus(items[active], html);
-                    scroll.update(items[active] || html);
-                },
-                up: function () {
-                    if (active > 0) active--;
-                    else active = items.length - 1;
-                    Lampa.Controller.collectionFocus(items[active], html);
-                    scroll.update(items[active]);
-                },
-                down: function () {
-                    if (active < items.length - 1) active++;
-                    else active = 0;
-                    Lampa.Controller.collectionFocus(items[active], html);
-                    scroll.update(items[active]);
-                },
-                back: function () { Lampa.Activity.backward(); }
-            });
-            Lampa.Controller.toggle('content');
-        };
-
-        this.render = function () { return html; };
-        this.destroy = function () {
-            scroll.destroy();
-            html.remove();
-            items = null;
-        };
-    }
-
-    function KinoComponent(object) {
-        var scroll = new Lampa.Scroll({ mask: true, over: true, scroll_by_item: true });
-        var items = [];
-        var html = $('<div></div>');
-        var active = 0;
-        var info;
-
-        this.create = function () {
-            var _this = this;
-            this.activity.loader(true);
-
-            var head = $('<div class="kino-head" style="/* padding: 1.5em 2em; */ display: flex; justify-content: space-between; align-items: center;"></div>');
-            // head.append('<div class="kino-title" style="font-size: 2em;">Кіноогляд</div>');
-
-            html.append(head);
-
-            KinoApi.main(function (data) {
-                _this.build(data);
-                _this.activity.loader(false);
-            }, function () {
-                _this.empty();
-                _this.activity.loader(false);
-            });
-            return this.render();
-        };
-
-        this.empty = function () {
-            var empty = new Lampa.Empty();
-            html.append(empty.render());
-            this.start = empty.start.bind(empty);
-            this.activity.toggle();
-        };
-
-        this.build = function (data) {
-            var _this = this;
-            scroll.minus();
-            html.append(scroll.render());
-            data.forEach(function (element) {
-                _this.append(element);
-            });
-            this.activity.toggle();
-        };
-
-        this.append = function (element) {
-            var item = new KinoLine(element);
-            item.create();
-            item.onDown = this.down.bind(this);
-            item.onUp = this.up.bind(this);
-            item.onBack = this.back.bind(this);
-            item.onFocus = function (data) { };
-            scroll.append(item.render());
-            items.push(item);
-        };
-
-        this.back = function () {
-            Lampa.Activity.backward();
-        };
-
-        this.down = function () {
-            active++;
-            active = Math.min(active, items.length - 1);
-            items[active].toggle();
-            scroll.update(items[active].render());
-        };
-
-        this.up = function () {
-            active--;
-            if (active < 0) {
-                active = 0;
-                Lampa.Controller.toggle('head');
-            } else {
-                items[active].toggle();
-            }
-            scroll.update(items[active].render());
-        };
-
-        this.start = function () {
-            var _this = this;
-            if (Lampa.Activity.active().activity !== this.activity) return;
-            Lampa.Controller.add('content', {
-                toggle: function () {
-                    if (items.length) {
-                        items[active].toggle();
-                    }
-                },
-                left: function () {
-                    if (Navigator.canmove('left')) Navigator.move('left');
-                    else Lampa.Controller.toggle('menu');
-                },
-                right: function () {
-                    Navigator.move('right');
-                },
-                up: function () {
-                    if (Navigator.canmove('up')) Navigator.move('up');
-                    else Lampa.Controller.toggle('head');
-                },
-                down: function () {
-                    if (items.length) {
-                        items[active].toggle();
-                    }
-                },
-                back: this.back
-            });
-            Lampa.Controller.toggle('content');
-        };
-
-        this.pause = function () { };
-        this.stop = function () { };
-        this.render = function () {
-            return html;
-        };
-        this.destroy = function () {
-            Lampa.Arrays.destroy(items);
-            scroll.destroy();
-            html.remove();
-            items = [];
-        };
-    }
-
-    function startPlugin() {
-        window.plugin_kinoohlyad_ready = true;
-        Lampa.Component.add('kinoohlyad_view', KinoComponent);
-        Lampa.Component.add('kino_settings', KinoSettings);
-
-        if (Lampa.SettingsApi && Lampa.SettingsApi.addParam) {
             function parseChannelInput(input) {
                 var s = (input || '').trim();
                 if (!s) return null;
@@ -2898,90 +2584,346 @@ function initKinoogladModule() {
                 return null;
             }
 
-            // Додаємо візуальний розділювач у налаштуваннях Ліхтаря
-            Lampa.SettingsApi.addParam({
-                component: 'likhtar_plugin',
-                param: { type: 'title' },
-                field: { name: 'Кіноогляд: Налаштування каналів YouTube' }
-            });
+            this.create = function () {
+                this.activity.loader(false);
+                html.empty();
+                items = [];
+                channels = KinoApi.getChannels();
 
-            Lampa.SettingsApi.addParam({
-                component: 'likhtar_plugin',
-                param: { name: 'kinooglad_add_channel', type: 'button' },
-                field: { name: 'Додати канал', description: 'Посилання YouTube або @нік' },
-                onChange: function () {
-                    Lampa.Input.edit({ title: 'Посилання на канал або @нік', value: '', free: true, nosave: true }, function (value) {
+                var wrap = $('<div class="kino-settings__wrap"></div>');
+                html.append(scroll.render());
+                scroll.append(wrap);
+
+                wrap.append('<div class="kino-settings__title">Налаштування каналів</div>');
+
+                var addRow = $('<div class="kino-settings__row selector" data-action="add">' +
+                    '<span class="kino-settings__label">Додати канал</span>' +
+                    '<span class="kino-settings__hint">Посилання YouTube або @нік</span></div>');
+                addRow.on('hover:enter click', function () {
+                    Lampa.Input.edit({
+                        title: 'Посилання на канал або @нік',
+                        value: '',
+                        free: true,
+                        nosave: true
+                    }, function (value) {
                         var parsed = parseChannelInput(value);
-                        if (!parsed) return;
-                        var ch = KinoApi.getChannels();
-                        var idNorm = String(parsed.id).trim().toLowerCase();
-                        if (ch.some(function (c) { return String(c.id).trim().toLowerCase() === idNorm; })) return;
-                        var isUc = /^UC[\w-]{22}$/.test(String(parsed.id).trim());
-                        if (isUc) {
-                            ch.push({ name: parsed.name, id: parsed.id, active: true });
-                            KinoApi.saveChannels(ch);
-                            if (Lampa.Settings && Lampa.Settings.update) Lampa.Settings.update();
-                            return;
+                        if (parsed) {
+                            channels.push({ name: parsed.name, id: parsed.id, active: true });
+                            KinoApi.saveChannels(channels);
+                            Lampa.Activity.replace({ component: 'kino_settings' });
                         }
-                        KinoApi.resolveHandleToChannelId(parsed.id, function (err, resolved) {
-                            if (!err && resolved && resolved.id) {
-                                var exists = ch.some(function (c) { return String(c.id).trim() === resolved.id; });
-                                if (!exists) {
-                                    ch.push({ name: resolved.name || parsed.name, id: resolved.id, active: true });
+                    });
+                });
+                wrap.append(addRow);
+                items.push(addRow);
+
+                var resetRow = $('<div class="kino-settings__row selector" data-action="reset">' +
+                    '<span class="kino-settings__label">Скинути налаштування</span>' +
+                    '<span class="kino-settings__hint">Повернути стандартний список каналів</span></div>');
+                resetRow.on('hover:enter click', function () {
+                    KinoApi.saveChannels(KinoApi.defaultChannels);
+                    Lampa.Activity.replace({ component: 'kino_settings' });
+                });
+                wrap.append(resetRow);
+                items.push(resetRow);
+
+                wrap.append('<div class="kino-settings__subtitle">Канали (клік — вкл/викл, довгий — видалити)</div>');
+
+                channels.forEach(function (channel, index) {
+                    var isOn = channel.active !== false;
+                    var row = $('<div class="kino-settings__row kino-settings__row--channel selector" data-index="' + index + '">' +
+                        '<span class="kino-settings__channel-name"></span>' +
+                        '<span class="kino-settings__channel-status"></span></div>');
+                    row.find('.kino-settings__channel-name').text(channel.name);
+                    row.find('.kino-settings__channel-status').text(isOn ? 'Увімкнено' : 'Вимкнено');
+                    if (!isOn) row.addClass('kino-settings__row--off');
+
+                    row.on('hover:enter click', function () {
+                        channel.active = !channel.active;
+                        if (channel.active === undefined) channel.active = false;
+                        row.find('.kino-settings__channel-status').text(channel.active !== false ? 'Увімкнено' : 'Вимкнено');
+                        row.toggleClass('kino-settings__row--off', channel.active === false);
+                        KinoApi.saveChannels(channels);
+                    });
+
+                    row.on('hover:long', function () {
+                        var idx = index;
+                        Lampa.Select.show({
+                            title: 'Дії з каналом',
+                            items: [{ title: 'Видалити', id: 'delete' }],
+                            onSelect: function (a) {
+                                if (a.id == 'delete') {
+                                    channels.splice(idx, 1);
+                                    KinoApi.saveChannels(channels);
+                                    Lampa.Activity.replace({ component: 'kino_settings' });
                                 }
-                            } else {
-                                ch.push({ name: parsed.name, id: parsed.id, active: true });
-                            }
-                            KinoApi.saveChannels(ch);
-                            if (Lampa.Settings && Lampa.Settings.update) Lampa.Settings.update();
+                                Lampa.Controller.toggle('content');
+                            },
+                            onBack: function () { Lampa.Controller.toggle('content'); }
                         });
                     });
-                }
-            });
 
-            Lampa.SettingsApi.addParam({
-                component: 'likhtar_plugin',
-                param: { name: 'kinooglad_reset', type: 'button' },
-                field: { name: 'Скинути налаштування каналів', description: 'Повернути стандартний список' },
-                onChange: function () {
-                    KinoApi.saveChannels(KinoApi.defaultChannels);
-                    if (Lampa.Settings && Lampa.Settings.update) Lampa.Settings.update();
-                }
-            });
+                    wrap.append(row);
+                    items.push(row);
+                });
 
-            for (var ci = 0; ci < 15; ci++) {
-                (function (idx) {
-                    Lampa.SettingsApi.addParam({
-                        component: 'likhtar_plugin',
-                        param: { name: 'kinooglad_ch_' + idx, type: 'button' },
-                        field: { name: '—' },
-                        onRender: function (item) {
-                            var ch = KinoApi.getChannels()[idx];
-                            if (!ch) { item.hide(); return; }
-                            item.show();
-                            item.find('.settings-param__name').text(ch.name);
-                            if (!item.find('.settings-param__value').length) item.append('<div class="settings-param__value"></div>');
-                            item.find('.settings-param__value').text(ch.active !== false ? 'Увімкнено' : 'Вимкнено');
-                        },
-                        onChange: function () {
-                            var ch = KinoApi.getChannels();
-                            if (ch[idx]) {
-                                ch[idx].active = (ch[idx].active === false);
-                                KinoApi.saveChannels(ch);
-                                var scrollWrap = document.querySelector('.activity .scroll') || document.querySelector('.scroll');
-                                var scrollTop = scrollWrap ? scrollWrap.scrollTop : 0;
-                                if (Lampa.Settings && Lampa.Settings.update) Lampa.Settings.update();
-                                setTimeout(function () {
-                                    if (scrollWrap) scrollWrap.scrollTop = scrollTop;
-                                }, 80);
-                            }
-                        }
-                    });
-                })(ci);
-            }
+                return this.render();
+            };
+
+            this.start = function () {
+                active = Math.min(active, items.length - 1);
+                if (active < 0) active = 0;
+                Lampa.Controller.add('content', {
+                    toggle: function () {
+                        Lampa.Controller.collectionSet(html);
+                        if (items.length) Lampa.Controller.collectionFocus(items[active], html);
+                        scroll.update(items[active] || html);
+                    },
+                    up: function () {
+                        if (active > 0) active--;
+                        else active = items.length - 1;
+                        Lampa.Controller.collectionFocus(items[active], html);
+                        scroll.update(items[active]);
+                    },
+                    down: function () {
+                        if (active < items.length - 1) active++;
+                        else active = 0;
+                        Lampa.Controller.collectionFocus(items[active], html);
+                        scroll.update(items[active]);
+                    },
+                    back: function () { Lampa.Activity.backward(); }
+                });
+                Lampa.Controller.toggle('content');
+            };
+
+            this.render = function () { return html; };
+            this.destroy = function () {
+                scroll.destroy();
+                html.remove();
+                items = null;
+            };
         }
 
-Lampa.Template.add('kino_card', `
+        function KinoComponent(object) {
+            var scroll = new Lampa.Scroll({ mask: true, over: true, scroll_by_item: true });
+            var items = [];
+            var html = $('<div></div>');
+            var active = 0;
+            var info;
+
+            this.create = function () {
+                var _this = this;
+                this.activity.loader(true);
+
+                var head = $('<div class="kino-head" style="/* padding: 1.5em 2em; */ display: flex; justify-content: space-between; align-items: center;"></div>');
+                // head.append('<div class="kino-title" style="font-size: 2em;">Кіноогляд</div>');
+
+                html.append(head);
+
+                KinoApi.main(function (data) {
+                    _this.build(data);
+                    _this.activity.loader(false);
+                }, function () {
+                    _this.empty();
+                    _this.activity.loader(false);
+                });
+                return this.render();
+            };
+
+            this.empty = function () {
+                var empty = new Lampa.Empty();
+                html.append(empty.render());
+                this.start = empty.start.bind(empty);
+                this.activity.toggle();
+            };
+
+            this.build = function (data) {
+                var _this = this;
+                scroll.minus();
+                html.append(scroll.render());
+                data.forEach(function (element) {
+                    _this.append(element);
+                });
+                this.activity.toggle();
+            };
+
+            this.append = function (element) {
+                var item = new KinoLine(element);
+                item.create();
+                item.onDown = this.down.bind(this);
+                item.onUp = this.up.bind(this);
+                item.onBack = this.back.bind(this);
+                item.onFocus = function (data) { };
+                scroll.append(item.render());
+                items.push(item);
+            };
+
+            this.back = function () {
+                Lampa.Activity.backward();
+            };
+
+            this.down = function () {
+                active++;
+                active = Math.min(active, items.length - 1);
+                items[active].toggle();
+                scroll.update(items[active].render());
+            };
+
+            this.up = function () {
+                active--;
+                if (active < 0) {
+                    active = 0;
+                    Lampa.Controller.toggle('head');
+                } else {
+                    items[active].toggle();
+                }
+                scroll.update(items[active].render());
+            };
+
+            this.start = function () {
+                var _this = this;
+                if (Lampa.Activity.active().activity !== this.activity) return;
+                Lampa.Controller.add('content', {
+                    toggle: function () {
+                        if (items.length) {
+                            items[active].toggle();
+                        }
+                    },
+                    left: function () {
+                        if (Navigator.canmove('left')) Navigator.move('left');
+                        else Lampa.Controller.toggle('menu');
+                    },
+                    right: function () {
+                        Navigator.move('right');
+                    },
+                    up: function () {
+                        if (Navigator.canmove('up')) Navigator.move('up');
+                        else Lampa.Controller.toggle('head');
+                    },
+                    down: function () {
+                        if (items.length) {
+                            items[active].toggle();
+                        }
+                    },
+                    back: this.back
+                });
+                Lampa.Controller.toggle('content');
+            };
+
+            this.pause = function () { };
+            this.stop = function () { };
+            this.render = function () {
+                return html;
+            };
+            this.destroy = function () {
+                Lampa.Arrays.destroy(items);
+                scroll.destroy();
+                html.remove();
+                items = [];
+            };
+        }
+
+        function startPlugin() {
+            window.plugin_kinoohlyad_ready = true;
+            Lampa.Component.add('kinoohlyad_view', KinoComponent);
+            Lampa.Component.add('kino_settings', KinoSettings);
+
+            if (Lampa.SettingsApi && Lampa.SettingsApi.addParam) {
+                function parseChannelInput(input) {
+                    var s = (input || '').trim();
+                    if (!s) return null;
+                    var m = s.match(/youtube\.com\/channel\/(UC[\w-]{22})/i) || s.match(/(?:^|\s)(UC[\w-]{22})(?:\s|$)/);
+                    if (m) return { id: m[1], name: 'Канал' };
+                    m = s.match(/(?:youtube\.com\/)?@([\w.-]+)/i) || s.match(/^@?([\w.-]+)$/);
+                    if (m) return { id: m[1], name: m[1] };
+                    if (/^UC[\w-]{22}$/.test(s)) return { id: s, name: 'Канал' };
+                    return null;
+                }
+
+                // Додаємо візуальний розділювач у налаштуваннях Ліхтаря
+                Lampa.SettingsApi.addParam({
+                    component: 'likhtar_plugin',
+                    param: { type: 'title' },
+                    field: { name: 'Кіноогляд: Налаштування каналів YouTube' }
+                });
+
+                Lampa.SettingsApi.addParam({
+                    component: 'likhtar_plugin',
+                    param: { name: 'kinooglad_add_channel', type: 'button' },
+                    field: { name: 'Додати канал', description: 'Посилання YouTube або @нік' },
+                    onChange: function () {
+                        Lampa.Input.edit({ title: 'Посилання на канал або @нік', value: '', free: true, nosave: true }, function (value) {
+                            var parsed = parseChannelInput(value);
+                            if (!parsed) return;
+                            var ch = KinoApi.getChannels();
+                            var idNorm = String(parsed.id).trim().toLowerCase();
+                            if (ch.some(function (c) { return String(c.id).trim().toLowerCase() === idNorm; })) return;
+                            var isUc = /^UC[\w-]{22}$/.test(String(parsed.id).trim());
+                            if (isUc) {
+                                ch.push({ name: parsed.name, id: parsed.id, active: true });
+                                KinoApi.saveChannels(ch);
+                                if (Lampa.Settings && Lampa.Settings.update) Lampa.Settings.update();
+                                return;
+                            }
+                            KinoApi.resolveHandleToChannelId(parsed.id, function (err, resolved) {
+                                if (!err && resolved && resolved.id) {
+                                    var exists = ch.some(function (c) { return String(c.id).trim() === resolved.id; });
+                                    if (!exists) {
+                                        ch.push({ name: resolved.name || parsed.name, id: resolved.id, active: true });
+                                    }
+                                } else {
+                                    ch.push({ name: parsed.name, id: parsed.id, active: true });
+                                }
+                                KinoApi.saveChannels(ch);
+                                if (Lampa.Settings && Lampa.Settings.update) Lampa.Settings.update();
+                            });
+                        });
+                    }
+                });
+
+                Lampa.SettingsApi.addParam({
+                    component: 'likhtar_plugin',
+                    param: { name: 'kinooglad_reset', type: 'button' },
+                    field: { name: 'Скинути налаштування каналів', description: 'Повернути стандартний список' },
+                    onChange: function () {
+                        KinoApi.saveChannels(KinoApi.defaultChannels);
+                        if (Lampa.Settings && Lampa.Settings.update) Lampa.Settings.update();
+                    }
+                });
+
+                for (var ci = 0; ci < 15; ci++) {
+                    (function (idx) {
+                        Lampa.SettingsApi.addParam({
+                            component: 'likhtar_plugin',
+                            param: { name: 'kinooglad_ch_' + idx, type: 'button' },
+                            field: { name: '—' },
+                            onRender: function (item) {
+                                var ch = KinoApi.getChannels()[idx];
+                                if (!ch) { item.hide(); return; }
+                                item.show();
+                                item.find('.settings-param__name').text(ch.name);
+                                if (!item.find('.settings-param__value').length) item.append('<div class="settings-param__value"></div>');
+                                item.find('.settings-param__value').text(ch.active !== false ? 'Увімкнено' : 'Вимкнено');
+                            },
+                            onChange: function () {
+                                var ch = KinoApi.getChannels();
+                                if (ch[idx]) {
+                                    ch[idx].active = (ch[idx].active === false);
+                                    KinoApi.saveChannels(ch);
+                                    var scrollWrap = document.querySelector('.activity .scroll') || document.querySelector('.scroll');
+                                    var scrollTop = scrollWrap ? scrollWrap.scrollTop : 0;
+                                    if (Lampa.Settings && Lampa.Settings.update) Lampa.Settings.update();
+                                    setTimeout(function () {
+                                        if (scrollWrap) scrollWrap.scrollTop = scrollTop;
+                                    }, 80);
+                                }
+                            }
+                        });
+                    })(ci);
+                }
+            }
+
+            Lampa.Template.add('kino_card', `
             <div class="card selector card--wide layer--render layer--visible kino-card">
                 <div class="card__view">
                     <img src="./img/img_load.svg" class="card__img">
@@ -2992,7 +2934,7 @@ Lampa.Template.add('kino_card', `
             </div>
         `);
 
-$('body').append(`
+            $('body').append(`
             <style>
             .kino-card {
                 width: 20em !important;
@@ -3083,122 +3025,122 @@ $('body').append(`
             </style>
         `);
 
-function addMenu() {
-    var action = function () {
-        Lampa.Activity.push({
-            url: '',
-            title: 'Кіноогляд',
-            component: 'kinoohlyad_view',
-            page: 1
-        });
-    };
+            function addMenu() {
+                var action = function () {
+                    Lampa.Activity.push({
+                        url: '',
+                        title: 'Кіноогляд',
+                        component: 'kinoohlyad_view',
+                        page: 1
+                    });
+                };
 
-    var btn = $('<li class="menu__item selector" data-action="kinoohlyad"><div class="menu__ico"><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/></svg></div><div class="menu__text">Кіноогляд</div></li>');
+                var btn = $('<li class="menu__item selector" data-action="kinoohlyad"><div class="menu__ico"><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/></svg></div><div class="menu__text">Кіноогляд</div></li>');
 
-    btn.on('hover:enter click', action);
+                btn.on('hover:enter click', action);
 
-    $('.menu .menu__list').eq(0).append(btn);
-}
+                $('.menu .menu__list').eq(0).append(btn);
+            }
 
-function addSettings() {
-    // Пункт «Кіноогляд» і панель з кнопкою реєструються в setupKinoogladSettings() через SettingsApi (як Ліхтар).
-    // Тут лише перевірка увімкнення плагіна для меню та панелі.
-}
+            function addSettings() {
+                // Пункт «Кіноогляд» і панель з кнопкою реєструються в setupKinoogladSettings() через SettingsApi (як Ліхтар).
+                // Тут лише перевірка увімкнення плагіна для меню та панелі.
+            }
 
-if (Lampa.Storage.get('likhtar_kinooglad_enabled', true)) {
-    if (window.appready) {
-        addMenu();
-        addSettings();
-    } else {
+            if (Lampa.Storage.get('likhtar_kinooglad_enabled', true)) {
+                if (window.appready) {
+                    addMenu();
+                    addSettings();
+                } else {
+                    Lampa.Listener.follow('app', function (e) {
+                        if (e.type == 'ready') {
+                            addMenu();
+                            addSettings();
+                        }
+                    });
+                }
+            }
+        }
+
+        startPlugin();
+    }
+    // =================================================================
+    // INIT FUNCTION
+    // =================================================================
+    function init() {
+        // Settings panel
+        setupSettings();
+
+        // Register Components
+        Lampa.Component.add('studios_main', StudiosMain);
+        Lampa.Component.add('studios_view', StudiosView);
+        Lampa.Component.add('ukrainian_feed', UkrainianFeedMain);
+        Lampa.Component.add('polish_feed', PolishFeedMain);
+        LikhtarStudioSubscription.init();
+
+        addStyles();
+
+        // Override API BEFORE adding rows
+        overrideApi();
+
+        addHeroRow();
+        removeShotsSection();
+
+        if (Lampa.Storage.get('likhtar_section_streamings', true)) {
+            addStudioRow();
+        }
+
+        addUkrainianContentRow();
+
+        if (Lampa.Storage.get('likhtar_section_mood', true)) {
+            addMoodRow();
+        }
+
+        addServiceRows();
+        addPolishContentRow();
+
+        // Start dynamic title modifier for icons
+        modifyServiceTitles();
+
+        initKinoogladModule();
+
+        // Initial Focus and Styling
+        setTimeout(function () {
+            var heroCard = document.querySelector('.hero-banner');
+            if (heroCard) {
+                heroCard.style.width = '85vw';
+                heroCard.style.marginRight = '1.5em';
+            }
+
+            var studioCard = $('.card--studio');
+            if (studioCard.length) {
+                if (Lampa.Controller.enabled().name === 'main') {
+                    Lampa.Controller.collectionFocus(studioCard[0], $('.scroll__content').eq(1)[0]);
+                }
+            }
+        }, 1000);
+    }
+
+    function runInit() {
+        try {
+            initMarksJacRed();
+            init();
+            window.LIKHTAR_STUDIOS_LOADED = true;
+        } catch (err) {
+            window.LIKHTAR_STUDIOS_ERROR = (err && err.message) ? err.message : String(err);
+            if (typeof console !== 'undefined' && console.error) {
+                console.error('[Likhtar Studios]', err);
+            }
+        }
+    }
+
+    if (window.appready) runInit();
+    else if (typeof Lampa !== 'undefined' && Lampa.Listener && Lampa.Listener.follow) {
         Lampa.Listener.follow('app', function (e) {
-            if (e.type == 'ready') {
-                addMenu();
-                addSettings();
-            }
+            if (e.type === 'ready') runInit();
         });
-    }
-}
-    }
-
-startPlugin();
-}
-// =================================================================
-// INIT FUNCTION
-// =================================================================
-function init() {
-    // Settings panel
-    setupSettings();
-
-    // Register Components
-    Lampa.Component.add('studios_main', StudiosMain);
-    Lampa.Component.add('studios_view', StudiosView);
-    Lampa.Component.add('ukrainian_feed', UkrainianFeedMain);
-    Lampa.Component.add('polish_feed', PolishFeedMain);
-    LikhtarStudioSubscription.init();
-
-    addStyles();
-
-    // Override API BEFORE adding rows
-    overrideApi();
-
-    addHeroRow();
-    removeShotsSection();
-
-    if (Lampa.Storage.get('likhtar_section_streamings', true)) {
-        addStudioRow();
+    } else {
+        window.LIKHTAR_STUDIOS_ERROR = 'Lampa.Listener not found';
     }
 
-    addUkrainianContentRow();
-
-    if (Lampa.Storage.get('likhtar_section_mood', true)) {
-        addMoodRow();
-    }
-
-    addServiceRows();
-    addPolishContentRow();
-
-    // Start dynamic title modifier for icons
-    modifyServiceTitles();
-
-    initKinoogladModule();
-
-    // Initial Focus and Styling
-    setTimeout(function () {
-        var heroCard = document.querySelector('.hero-banner');
-        if (heroCard) {
-            heroCard.style.width = '85vw';
-            heroCard.style.marginRight = '1.5em';
-        }
-
-        var studioCard = $('.card--studio');
-        if (studioCard.length) {
-            if (Lampa.Controller.enabled().name === 'main') {
-                Lampa.Controller.collectionFocus(studioCard[0], $('.scroll__content').eq(1)[0]);
-            }
-        }
-    }, 1000);
-}
-
-function runInit() {
-    try {
-        initMarksJacRed();
-        init();
-        window.LIKHTAR_STUDIOS_LOADED = true;
-    } catch (err) {
-        window.LIKHTAR_STUDIOS_ERROR = (err && err.message) ? err.message : String(err);
-        if (typeof console !== 'undefined' && console.error) {
-            console.error('[Likhtar Studios]', err);
-        }
-    }
-}
-
-if (window.appready) runInit();
-else if (typeof Lampa !== 'undefined' && Lampa.Listener && Lampa.Listener.follow) {
-    Lampa.Listener.follow('app', function (e) {
-        if (e.type === 'ready') runInit();
-    });
-} else {
-    window.LIKHTAR_STUDIOS_ERROR = 'Lampa.Listener not found';
-}
-
-}) ();
+})();
