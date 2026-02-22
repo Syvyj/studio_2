@@ -980,11 +980,11 @@
             { id: 'hbo', name: 'HBO', img: LIKHTAR_BASE_URL + 'logos/hbo.svg', providerId: '384' },
             { id: 'apple', name: 'Apple TV+', img: LIKHTAR_BASE_URL + 'logos/apple.svg', providerId: '350' },
             { id: 'amazon', name: 'Prime Video', img: LIKHTAR_BASE_URL + 'logos/amazon.png', providerId: '119' },
-            { id: 'hulu', name: 'Hulu', img: LIKHTAR_BASE_URL + 'logos/hulu.png', providerId: '15' },
+            { id: 'hulu', name: 'Hulu', img: LIKHTAR_BASE_URL + 'logos/Hulu.svg', providerId: '15' },
             { id: 'paramount', name: 'Paramount+', img: LIKHTAR_BASE_URL + 'logos/paramount.svg', providerId: '531' },
-            { id: 'sky_showtime', name: 'Sky Showtime', img: LIKHTAR_BASE_URL + 'logos/skyshowtime.png' },
-            { id: 'syfy', name: 'Syfy', img: LIKHTAR_BASE_URL + 'logos/syfy.png', networkId: '77' },
-            { id: 'educational_and_reality', name: 'Пізнавальне', img: LIKHTAR_BASE_URL + 'logos/discovery.png' },
+            { id: 'sky_showtime', name: 'Sky Showtime', img: LIKHTAR_BASE_URL + 'logos/SkyShowtime.svg' },
+            { id: 'syfy', name: 'Syfy', img: LIKHTAR_BASE_URL + 'logos/Syfy.svg', networkId: '77' },
+            { id: 'educational_and_reality', name: 'Пізнавальне', img: LIKHTAR_BASE_URL + 'logos/Discovery.svg' },
             { id: 'ukrainian_feed', name: 'Українська стрічка', isUkrainianFeed: true },
             { id: 'polish_feed', name: 'Польська стрічка', isPolishFeed: true }
         ];
