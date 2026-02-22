@@ -2018,15 +2018,8 @@
                         var filterParams = ROW_FILTER[id] || {};
                         if (Object.keys(filterParams).length === 0) return callback({ results: [] });
 
-                        // Syfy — малий канал, беремо ширше вікно (12 міс) і нижчий поріг
-                        var monthsBack = (id === 'syfy') ? 24 : 6;
+                        // Немає обмеження дати — завжди показуємо топ-популярні (vote_count≥1 для малих каналів)
                         var minVotes = (id === 'syfy' || id === 'educational_and_reality') ? 1 : 3;
-
-                        var d = new Date();
-                        var currentDate = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
-                        var past = new Date();
-                        past.setMonth(past.getMonth() - monthsBack);
-                        var pastDate = [past.getFullYear(), ('0' + (past.getMonth() + 1)).slice(-2), ('0' + past.getDate()).slice(-2)].join('-');
 
                         var apiKey = 'api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk');
                         var baseSort = '&sort_by=popularity.desc&vote_count.gte=' + minVotes;
@@ -2034,22 +2027,20 @@
                         var networkQ = filterParams.with_networks ? '&with_networks=' + encodeURIComponent(filterParams.with_networks) : '';
                         var companyQ = filterParams.with_companies ? '&with_companies=' + encodeURIComponent(filterParams.with_companies) : '';
                         var genreQ = filterParams.with_genres ? '&with_genres=' + encodeURIComponent(filterParams.with_genres) : '';
-                        var dateMovieQ = '&primary_release_date.gte=' + pastDate + '&primary_release_date.lte=' + currentDate;
-                        var dateTVQ = '&first_air_date.gte=' + pastDate + '&first_air_date.lte=' + currentDate;
 
                         var requests = [];
 
-                        // Фільми (якщо є компанія або жанр, бо у company є і фільми)
+                        // Фільми (якщо є компанія або жанр)
                         if (companyQ || genreQ) {
-                            var urlM = Lampa.TMDB.api('discover/movie?' + apiKey + baseSort + dateMovieQ + companyQ + genreQ);
+                            var urlM = Lampa.TMDB.api('discover/movie?' + apiKey + baseSort + companyQ + genreQ);
                             requests.push(function (cb) {
                                 network.silent(urlM, function (j) { cb(j.results || []); }, function () { cb([]); });
                             });
                         }
 
-                        // Серіали (якщо є network)
+                        // Серіали
                         if (networkQ || companyQ || genreQ) {
-                            var urlT = Lampa.TMDB.api('discover/tv?' + apiKey + baseSort + dateTVQ + networkQ + companyQ + genreQ);
+                            var urlT = Lampa.TMDB.api('discover/tv?' + apiKey + baseSort + networkQ + companyQ + genreQ);
                             requests.push(function (cb) {
                                 network.silent(urlT, function (j) { cb(j.results || []); }, function () { cb([]); });
                             });
