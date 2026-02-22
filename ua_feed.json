@@ -92,6 +92,30 @@
     },
     {
       "adult": false,
+      "backdrop_path": "/2OBOJwNIQXxshOzlZG5g8XX7DkI.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 304775,
+      "origin_country": [
+        "UA"
+      ],
+      "original_language": "uk",
+      "original_name": "Вітя",
+      "overview": "Автослюсар з маленького містечка стає відомим завдяки своїм мудрим порадам. Тепер йому доведеться обирати між мрією стати психологом у Києві й допомогою своїй громаді.",
+      "popularity": 0.9433,
+      "poster_path": "/8LMvtU710yu5zKMCgTKdE9g7TYo.jpg",
+      "first_air_date": "2025-09-01",
+      "name": "Вітя",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
       "backdrop_path": "/jfum19UtlA0MFSNHvsnlKSYtlVM.jpg",
       "genre_ids": [
         9648
@@ -132,6 +156,30 @@
       "vote_average": 3,
       "vote_count": 1,
       "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/WdSJ3pThUAOklNDsF0acfUFFyB.jpg",
+      "genre_ids": [
+        18,
+        10751
+      ],
+      "id": 301860,
+      "origin_country": [
+        "UA"
+      ],
+      "original_language": "uk",
+      "original_name": "Зворотний напрямок",
+      "overview": "«Зворотний напрямок» — український драматичний серіал, що розповідає історію Дарини, яка після трагічної втрати батьків змушена боротися за своє місце в житті. Замість підтримки вона стикається з приниженням від тітки Катерини, котра мала б стати для неї опорою.",
+      "popularity": 0.8022,
+      "poster_path": "/8MHZvdmdYOJin8s63IjW2a2Acdc.jpg",
+      "first_air_date": "2025-09-29",
+      "name": "Зворотний напрямок",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
       "quality": "SD",
       "is_hdr": false
     },
@@ -312,6 +360,54 @@
     },
     {
       "adult": false,
+      "backdrop_path": "/ayLHeYk2NJ0hw9lwcYjHiQ9UYqA.jpg",
+      "genre_ids": [
+        18,
+        10768
+      ],
+      "id": 309453,
+      "origin_country": [
+        "UA"
+      ],
+      "original_language": "uk",
+      "original_name": "Фортеця",
+      "overview": "Історія українського опору і військової оборони міста Харкова та області в перші дні російського вторгнення 2022 року, заснована на реальних подіях.",
+      "popularity": 0.2967,
+      "poster_path": "/mjf50e4e2wMHIOFZgOWqK33M7xI.jpg",
+      "first_air_date": "2025-12-04",
+      "name": "Фортеця",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mHlruDyiPOZHqW4RLRHVjHsvXgo.jpg",
+      "genre_ids": [
+        18,
+        10768
+      ],
+      "id": 307476,
+      "origin_country": [
+        "UA"
+      ],
+      "original_language": "uk",
+      "original_name": "Команда",
+      "overview": "Історія розповідає про тренера футбольної команди Віталія та його молодих спортсменів, які у надзвичайно складних умовах обʼєднуються, щоб підтримати одне одного та наблизити майбутні перемоги. Події розгортаються у Херсоні, де герої знаходять сили протистояти викликам та продовжувати боротьбу.",
+      "popularity": 0.2877,
+      "poster_path": "/gRMtGXojkAAqghyl1eIEHLTngHv.jpg",
+      "first_air_date": "2025-11-11",
+      "name": "Команда",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
       "backdrop_path": "/qagoovMtADPZmwH1Hgf7TIh9zER.jpg",
       "genre_ids": [
         10752,
@@ -334,112 +430,25 @@
     },
     {
       "adult": false,
-      "backdrop_path": "/zZRJD5mVrpEFGbPcgLMWtqscbS5.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 1421157,
-      "original_language": "uk",
-      "original_title": "Стрічка часу",
-      "overview": "Фільм про вчителів та учнів, які під час військових дій продовжують навчати та навчатися, зокрема на деокупованих і прифронтових територіях. Він показує, як війна в Україні впливає на повсякденне життя учнів і вчителів, та виклики, пов’язані з намаганням зберегти освіту і відчуття нормального життя в умовах постійної небезпеки.\r Унікальна хроніка показує шкільне життя в різних регіонах країни: від Харкова та Запоріжжя до Києва, Чернігова, Черкас, Одеси, Миколаєва, Очакова, Кам’янського, а також містечок і селищ, таких як Буча, Бородянка, Зарічне.",
-      "popularity": 0.2055,
-      "poster_path": "/b49YNh0qTTBbxS7IP4sWdypTKoP.jpg",
-      "release_date": "2025-09-10",
-      "title": "Стрічка часу",
-      "video": false,
-      "vote_average": 5.3,
-      "vote_count": 3,
-      "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/qkSRkM2cCfb4wYnzCymx8s8HoZY.jpg",
-      "genre_ids": [
-        18,
-        10752,
-        9648,
-        10749
-      ],
-      "id": 1506768,
-      "original_language": "en",
-      "original_title": "Just Drifting",
-      "overview": "",
-      "popularity": 0.1975,
-      "poster_path": "/6CCZ8XQCtSf6JLXpDWmIwbrQ8Ha.jpg",
-      "release_date": "2025-06-25",
-      "title": "Just Drifting",
-      "video": false,
-      "vote_average": 8,
-      "vote_count": 1,
-      "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/3iZwXeZmitP4fvwn3qXmb5ofjbl.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 1165298,
-      "original_language": "uk",
-      "original_title": "Куба і Аляска",
-      "overview": "Фільм розповідає історію двох українських військовослужбовиць, найкращих подруг і дотепних парамедикинь під позивними «Куба» та «Аляска» на передовій російсько-української війни, які переживають спільну для всіх солдатів історію: чим довше вони захищають Україну, тим більше втрачають зв’язок із друзями, родиною та колишнім життям.",
-      "popularity": 0.1651,
-      "poster_path": "/7ODABHYCAsGM9bNf1BPinOi26K0.jpg",
-      "release_date": "2025-08-14",
-      "title": "Куба і Аляска",
-      "video": false,
-      "vote_average": 8,
-      "vote_count": 3,
-      "has_ua": true,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": null,
-      "genre_ids": [
-        9648,
-        35,
-        80
-      ],
-      "id": 1485681,
-      "original_language": "uk",
-      "original_title": "10 блогерят",
-      "overview": "Герої опиняються замкненими у знімальному павільйоні, де невідомий запускає смертельну гру. Кожні 10 хвилин аудиторія онлайн голосуванням вирішує, хто стане наступною жертвою. Іронічно, жорстко та актуально – фільм зачіпає проблему хейту та його реальних наслідків.",
-      "popularity": 0.1604,
-      "poster_path": "/nV7mLCYUGaeoEZPrlRC2N6CgX60.jpg",
-      "release_date": "2025-10-16",
-      "title": "10 блогерят",
-      "video": false,
-      "vote_average": 4.5,
-      "vote_count": 2,
-      "has_ua": true,
-      "quality": "FHD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/l19zBSsU4cOVv3kvPcF7wz9WXpb.jpg",
+      "backdrop_path": "/djxYNKSzkI6AXG49cnkVH7hxn5M.jpg",
       "genre_ids": [
         35
       ],
-      "id": 1580198,
+      "id": 304662,
+      "origin_country": [
+        "UA"
+      ],
       "original_language": "uk",
-      "original_title": "Жив пес Сірко",
-      "overview": "Сучасне прочитання відомої української народної казки, що розгортається напередодні різдвяних свят.  У центрі сюжету – пес Сірко, який постає розумним і кмітливим помічником. Разом із вовчою компанією він допомагає родині впоратися з труднощами, що виникають одна за одною. Хитрі задуми, неочікувані союзи та комедійні ситуації постійно змінюють хід подій. Кожен новий епізод перевіряє героїв на здатність домовлятися, довіряти та підтримувати близьких у складний момент.",
-      "popularity": 0.1093,
-      "poster_path": "/lnfPWVBOrrWvtZ5BFd1Bt8KTuex.jpg",
-      "release_date": "2025-12-24",
-      "title": "Жив пес Сірко",
-      "video": false,
-      "vote_average": 5.25,
-      "vote_count": 4,
-      "has_ua": true,
-      "quality": "FHD",
+      "original_name": "Життя на трьох",
+      "overview": "Історія про трьох абсолютно різних чоловіків, які вимушені жити під одним дахом у зйомній квартирі. Їхні секрети, мрії та щоденні негаразди стають джерелом безлічі комічних ситуацій, розкриваючи контрастні стилі життя та їхню взаємодію зі світом. Попри всі побутові та особисті проблеми, герої вчаться цінувати дружбу, долати стрес і завжди знаходять привід для сміху.",
+      "popularity": 0.2386,
+      "poster_path": "/3kfIwOQJPdlaKSzs4LcqSNSHJ0O.jpg",
+      "first_air_date": "2025-10-17",
+      "name": "Життя на трьох",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
       "is_hdr": false
     }
   ]

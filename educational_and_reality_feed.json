@@ -1,4 +1,307 @@
 {
   "title": "Пізнавальне",
-  "results": []
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/dF5w4FpM62F4wygVUJMiDhAGwX8.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 157194,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Pole to Pole with Will Smith",
+      "overview": "",
+      "popularity": 12.9695,
+      "poster_path": "/74zSvHdqFoCfQdXc8ZFqhkrbrPj.jpg",
+      "first_air_date": "2026-01-13",
+      "name": "Pole to Pole with Will Smith",
+      "vote_average": 6.143,
+      "vote_count": 21,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jSR36f1YBdXuOYr81RNRZB7ygC1.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 246984,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Parenthood",
+      "overview": "",
+      "popularity": 1.8254,
+      "poster_path": "/o9fvGhqyGRN3Jt9XxodGQJG7kHZ.jpg",
+      "first_air_date": "2025-08-03",
+      "name": "Parenthood",
+      "vote_average": 8.1,
+      "vote_count": 20,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9GMJTuOp2WnC0It0t2HMv23IdIN.jpg",
+      "genre_ids": [
+        99,
+        35
+      ],
+      "id": 246111,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "How Are You? It's Alan (Partridge)",
+      "overview": "",
+      "popularity": 1.7776,
+      "poster_path": "/qk5OdMApS2rY2SrBYdunKPjtGG5.jpg",
+      "first_air_date": "2025-10-03",
+      "name": "How Are You? It's Alan (Partridge)",
+      "vote_average": 6.9,
+      "vote_count": 6,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ecTdWTANa1foVcFj08gUiURxVnX.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 301991,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Kingdom",
+      "overview": "",
+      "popularity": 1.4237,
+      "poster_path": "/lyIc6t4kL04YctRFMyWL9CN8p1r.jpg",
+      "first_air_date": "2025-11-09",
+      "name": "Kingdom",
+      "vote_average": 7.1,
+      "vote_count": 8,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5RnuTD7AsrihhVDMoRCjFBZS8Nk.jpg",
+      "genre_ids": [
+        99,
+        9648
+      ],
+      "id": 296423,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Naming the Dead",
+      "overview": "",
+      "popularity": 0.8496,
+      "poster_path": "/kJQL90dvjqkC8Lc0Ci29tqk2hcZ.jpg",
+      "first_air_date": "2025-08-02",
+      "name": "Naming the Dead",
+      "vote_average": 9,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7nftCXJWOVoXVigNDJlYVJV79VB.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 305200,
+      "origin_country": [
+        "CA"
+      ],
+      "original_language": "en",
+      "original_name": "Toronto Airport Uncovered",
+      "overview": "",
+      "popularity": 0.7819,
+      "poster_path": "/rc94MWM24Jyrlf0Sfo3VKfJ7vMl.jpg",
+      "first_air_date": "2025-11-22",
+      "name": "Toronto Airport Uncovered",
+      "vote_average": 1,
+      "vote_count": 1,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fFW41slOvvQZp6okKSUUjGbUCJA.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 308975,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Incas: The Rise and Fall",
+      "overview": "",
+      "popularity": 0.6234,
+      "poster_path": "/cpfP6gjRnxvDhGkFPyeRFZSKHBh.jpg",
+      "first_air_date": "2025-12-22",
+      "name": "Incas: The Rise and Fall",
+      "vote_average": 7,
+      "vote_count": 1,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6xaB8qT8IiEvOSgmJ8JPzLE9IxV.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 294862,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Hurricane Katrina: Race Against Time",
+      "overview": "",
+      "popularity": 0.6139,
+      "poster_path": "/o1wXiQvxCCZXvhQZaADaSumhVYv.jpg",
+      "first_air_date": "2025-07-27",
+      "name": "Hurricane Katrina: Race Against Time",
+      "vote_average": 5.25,
+      "vote_count": 14,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8XPuCvXRqmxge8fS0XBOFuRm7ii.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 252662,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Hamza's Hidden Wild Isles",
+      "overview": "",
+      "popularity": 0.3717,
+      "poster_path": "/kTzV5Vk6JEPxxsPXjUY8XxY5xbj.jpg",
+      "first_air_date": "2025-10-12",
+      "name": "Hamza's Hidden Wild Isles",
+      "vote_average": 5.5,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rABByNhnjBkrx0JuHQdUV45Ndzk.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 306218,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "What's the Monarchy For?",
+      "overview": "",
+      "popularity": 0.3197,
+      "poster_path": "/4RQi6AAvjPRYFbJUMpUpISH6WAk.jpg",
+      "first_air_date": "2025-12-02",
+      "name": "What's the Monarchy For?",
+      "vote_average": 0,
+      "vote_count": 1,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2gf2BTaSNpeIqJOyJIkUcNfMfd7.jpg",
+      "genre_ids": [
+        99,
+        10767
+      ],
+      "id": 306217,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "The Marvellous Miniature Workshop",
+      "overview": "",
+      "popularity": 0.1402,
+      "poster_path": "/sjgRxXLM4fTNwEABcHavghZ89Fb.jpg",
+      "first_air_date": "2025-12-01",
+      "name": "The Marvellous Miniature Workshop",
+      "vote_average": 5,
+      "vote_count": 1,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vfqQ3KGcxfcVZBiQBAXYplAYoyw.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 294678,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Investigation Shark Attack",
+      "overview": "",
+      "popularity": 0.0903,
+      "poster_path": "/w3Kxj4i7FQ2tUcTdIJzolE3cqE6.jpg",
+      "first_air_date": "2025-07-02",
+      "name": "Investigation Shark Attack",
+      "vote_average": 9.3,
+      "vote_count": 3,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qecZMyJw51zHP5vMmEvOmJx7FoU.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 294679,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Shark Quest: Hunt For The Apex Predator",
+      "overview": "",
+      "popularity": 0.0505,
+      "poster_path": "/fzNrKNhNImWLU35iP1FS4TB2ls6.jpg",
+      "first_air_date": "2025-07-06",
+      "name": "Shark Quest: Hunt For The Apex Predator",
+      "vote_average": 9.5,
+      "vote_count": 4,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    }
+  ]
 }

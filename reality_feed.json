@@ -1,0 +1,472 @@
+{
+  "title": "Реаліті-шоу",
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/A6JmuKrW0f1rGjuQQqdh63HIOKh.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 309280,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Baddies USA",
+      "overview": "",
+      "popularity": 21.9086,
+      "poster_path": "/27IYhrFLxogxRNKIVWivDnNfwF9.jpg",
+      "first_air_date": "2025-11-23",
+      "name": "Baddies USA",
+      "vote_average": 9.5,
+      "vote_count": 10,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/y3w4AklFI465vOR4YNTmjYGr8N1.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 307913,
+      "origin_country": [
+        "CA"
+      ],
+      "original_language": "en",
+      "original_name": "Canada Shore",
+      "overview": "",
+      "popularity": 6.5334,
+      "poster_path": "/lUn56AxVbCqak4CURJMPSyskxS1.jpg",
+      "first_air_date": "2026-01-22",
+      "name": "Canada Shore",
+      "vote_average": 8,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dzcGdFuvkietovVYLuPxdRat2h0.jpg",
+      "genre_ids": [
+        35,
+        10764
+      ],
+      "id": 309714,
+      "origin_country": [
+        "MX"
+      ],
+      "original_language": "es",
+      "original_name": "LOL buscando talento",
+      "overview": "",
+      "popularity": 4.4349,
+      "poster_path": "/70l4rLm9JHMoVncvfizfL8OT5CS.jpg",
+      "first_air_date": "2026-01-16",
+      "name": "LOL buscando talento",
+      "vote_average": 6,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/s2pIMVLujBjLBnNlofmr9kwUXNa.jpg",
+      "genre_ids": [
+        99,
+        10764
+      ],
+      "id": 312428,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Neighbors",
+      "overview": "",
+      "popularity": 3.851,
+      "poster_path": "/u0z7DrdvnxgrgWHCiSJ83OlDtHt.jpg",
+      "first_air_date": "2026-02-13",
+      "name": "Neighbors",
+      "vote_average": 7.7,
+      "vote_count": 3,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 297005,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Celebrity Weakest Link",
+      "overview": "",
+      "popularity": 3.185,
+      "poster_path": "/9zpo2Tcgm2EOyx0E3cyWgKn8crN.jpg",
+      "first_air_date": "2025-09-15",
+      "name": "Celebrity Weakest Link",
+      "vote_average": 4,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aVfk26g5PYSuR3JIdsCL1TMEw2A.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 292493,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "Meu Namorado Coreano",
+      "overview": "",
+      "popularity": 2.8936,
+      "poster_path": "/aiI3uREUvRGa7vawCG58yd4jJz8.jpg",
+      "first_air_date": "2026-01-01",
+      "name": "Meu Namorado Coreano",
+      "vote_average": 6.4,
+      "vote_count": 5,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aKqA9vanDnVrGEMeGW2O831raGq.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 299184,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "Largados e Pelados Brasil: A Tribo",
+      "overview": "",
+      "popularity": 2.3566,
+      "poster_path": "/9AFPjVa1atY83aKZunHUgArbXl6.jpg",
+      "first_air_date": "2025-09-14",
+      "name": "Largados e Pelados Brasil: A Tribo",
+      "vote_average": 0,
+      "vote_count": 1,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vdpZ1rE4vy803uazjyDRTlq2jpi.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 296123,
+      "origin_country": [
+        "NL"
+      ],
+      "original_language": "nl",
+      "original_name": "Kom Je Bij Me Eten? VIPS",
+      "overview": "",
+      "popularity": 2.3551,
+      "poster_path": "/rQygqkjRGVz5GueDlh22cubmevE.jpg",
+      "first_air_date": "2025-08-31",
+      "name": "Kom Je Bij Me Eten? VIPS",
+      "vote_average": 7,
+      "vote_count": 1,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5M3WnHcPHYN3BrLO9ay9VMeKWT2.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 286867,
+      "origin_country": [
+        "IT"
+      ],
+      "original_language": "it",
+      "original_name": "Too Hot to Handle: Italia",
+      "overview": "Привабливі хлопці й дівчата з Італії прибувають на райський курорт, щоб повеселитися. Але заради призу в 100 000 євро їм доведеться відмовитися від улюбленого — сексу.",
+      "popularity": 2.2752,
+      "poster_path": "/1nBoQLJBOj5IMPqdfyQPAw7h1pn.jpg",
+      "first_air_date": "2025-07-18",
+      "name": "Обережно, гаряче! Італія",
+      "vote_average": 7.227,
+      "vote_count": 11,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/h2sZ6klVi4wj695IPhvJyo4Rhhv.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 296976,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "KPOPPED",
+      "overview": "Світові легенди музики та кей-поп-айдоли зійдуться на одній сцені в яскравому шоу пісенних поєдинків. Вони виконають свої найвідоміші хіти в стилі кей-поп, запалюючи сцену, та змагатимуться за можливість продемонструвати свої унікальні таланти.",
+      "popularity": 2.1805,
+      "poster_path": "/akONEneueZVyAnQUgCzBqwJr69x.jpg",
+      "first_air_date": "2025-08-28",
+      "name": "KPOPPED: Музика без кордонів",
+      "vote_average": 3.4,
+      "vote_count": 7,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/JJNq86BWuSencpIiisgem7Xbqn.jpg",
+      "genre_ids": [
+        10764,
+        10767
+      ],
+      "id": 298819,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Dish It Out",
+      "overview": "",
+      "popularity": 1.9643,
+      "poster_path": "/4nxwPOGG45oWjhufCrXrv5kLyKg.jpg",
+      "first_air_date": "2025-09-05",
+      "name": "Dish It Out",
+      "vote_average": 10,
+      "vote_count": 1,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fhQHVGX3DlLtxCvwXmH3hlaWmCx.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 291431,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "The Celebrity Traitors",
+      "overview": "",
+      "popularity": 1.8657,
+      "poster_path": "/rm1GHElZeE7CmVIVeVZMVJG3qp5.jpg",
+      "first_air_date": "2025-10-08",
+      "name": "The Celebrity Traitors",
+      "vote_average": 8.1,
+      "vote_count": 16,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18,
+        99,
+        10764
+      ],
+      "id": 314641,
+      "origin_country": [
+        "PK",
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "HairCog TV Series",
+      "overview": "",
+      "popularity": 1.6286,
+      "poster_path": "/2YAykbIjn1OIUib0MpZsI1SuxJE.jpg",
+      "first_air_date": "2025-10-19",
+      "name": "HairCog TV Series",
+      "vote_average": 9.1,
+      "vote_count": 8,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kKwNMBUu8NUeguAR2MpilbsLBkz.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 290884,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Valley: Persian Style",
+      "overview": "",
+      "popularity": 1.5827,
+      "poster_path": "/35E2zyybMaddISnFGoFa6whS5nD.jpg",
+      "first_air_date": "2026-01-08",
+      "name": "The Valley: Persian Style",
+      "vote_average": 10,
+      "vote_count": 1,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sQzUoErjjEG4h7kvtoOdjLWJs9m.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 293603,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Botched Presents: Plastic Surgery Rewind",
+      "overview": "",
+      "popularity": 1.5297,
+      "poster_path": "/9JAyAgbTA6SIwtIDd3BOk9KMEVG.jpg",
+      "first_air_date": "2025-07-09",
+      "name": "Botched Presents: Plastic Surgery Rewind",
+      "vote_average": 7.3,
+      "vote_count": 3,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jDGJAPm8jgcbK1wDeyX7gfia5MC.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 299359,
+      "origin_country": [
+        "DE"
+      ],
+      "original_language": "de",
+      "original_name": "The Power",
+      "overview": "",
+      "popularity": 1.5084,
+      "poster_path": "/iOxwi81JDw5rHEwD7fPLR69CygI.jpg",
+      "first_air_date": "2025-09-01",
+      "name": "The Power",
+      "vote_average": 6,
+      "vote_count": 1,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sO9cJzqMGrOijBasN5LeFzXE4Hx.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 283967,
+      "origin_country": [
+        "IT"
+      ],
+      "original_language": "it",
+      "original_name": "L'amore è cieco: Italia",
+      "overview": "",
+      "popularity": 1.4872,
+      "poster_path": "/i6IAEwDNjIMl6yhoJE1s78ozxjr.jpg",
+      "first_air_date": "2025-12-01",
+      "name": "L'amore è cieco: Italia",
+      "vote_average": 7.5,
+      "vote_count": 6,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7WuFGj6hNHsPGoyxPDpKzf6s4An.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 277544,
+      "origin_country": [
+        "FR"
+      ],
+      "original_language": "fr",
+      "original_name": "Pour le meilleur et à l'aveugle",
+      "overview": "",
+      "popularity": 1.4553,
+      "poster_path": "/fCC9Bs2eMnED7giwomB03Ydb59Y.jpg",
+      "first_air_date": "2025-09-10",
+      "name": "Pour le meilleur et à l'aveugle",
+      "vote_average": 6.8,
+      "vote_count": 4,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iG0GBzjhbygvGdPweX3cYHLZit6.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 296509,
+      "origin_country": [
+        "GB",
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Are You My First?",
+      "overview": "",
+      "popularity": 1.4044,
+      "poster_path": "/lzRj1QstbBESUvjQD3f29uSPBmy.jpg",
+      "first_air_date": "2025-08-18",
+      "name": "Are You My First?",
+      "vote_average": 2,
+      "vote_count": 2,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9MugieX1LNkNR9ltA9sUIyyOe1W.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 286368,
+      "origin_country": [
+        "PH"
+      ],
+      "original_language": "en",
+      "original_name": "Drag Race Philippines: Slaysian Royale",
+      "overview": "",
+      "popularity": 1.3938,
+      "poster_path": "/ixwkCVidmrJcZunCkPiducp59K7.jpg",
+      "first_air_date": "2025-08-13",
+      "name": "Drag Race Philippines: Slaysian Royale",
+      "vote_average": 8.7,
+      "vote_count": 3,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    }
+  ]
+}

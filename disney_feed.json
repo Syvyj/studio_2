@@ -314,6 +314,55 @@
     },
     {
       "adult": false,
+      "backdrop_path": "/bqkDYOXQGEdrB4OWGlkoYi0QdT.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 233264,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Sneaker Wars: Adidas V. Puma",
+      "overview": "",
+      "popularity": 5.3461,
+      "poster_path": "/h7GOoIGNKdPsQUDI951Zwv5PfR.jpg",
+      "first_air_date": "2025-09-24",
+      "name": "Sneaker Wars: Adidas V. Puma",
+      "vote_average": 7.667,
+      "vote_count": 6,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/z0HHrV0t1NsnrHJK6dbkJbIu2Nb.jpg",
+      "genre_ids": [
+        35,
+        16,
+        10765,
+        10759
+      ],
+      "id": 304530,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Fortnite x The Simpsons",
+      "overview": "",
+      "popularity": 5.3033,
+      "poster_path": "/lr3gn5BN80kc2vkmTOlPuHZlLP.jpg",
+      "first_air_date": "2025-11-01",
+      "name": "Fortnite x The Simpsons",
+      "vote_average": 6.611,
+      "vote_count": 27,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
       "backdrop_path": "/v8tpkxm7AhLu69eaZKJLsNaSL5.jpg",
       "genre_ids": [
         16,
@@ -332,6 +381,104 @@
       "vote_average": 6.769,
       "vote_count": 26,
       "has_ua": true,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5ie07KRqUWV9FDBHVYJ8h3DL9in.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 256150,
+      "origin_country": [
+        "ES"
+      ],
+      "original_language": "es",
+      "original_name": "Mar afuera",
+      "overview": "",
+      "popularity": 3.4553,
+      "poster_path": "/ftkwk1iDB0deK0bKwitRLWaKouE.jpg",
+      "first_air_date": "2025-09-14",
+      "name": "Mar afuera",
+      "vote_average": 7.188,
+      "vote_count": 16,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kXBr9CWrutta2PxUkbYlI9EXrC8.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 237052,
+      "origin_country": [
+        "FR"
+      ],
+      "original_language": "fr",
+      "original_name": "Les Disparues de la gare",
+      "overview": "",
+      "popularity": 2.9736,
+      "poster_path": "/rluDNclq0gQaQjbDuTDvsnYSXxs.jpg",
+      "first_air_date": "2025-10-08",
+      "name": "Les Disparues de la gare",
+      "vote_average": 7.593,
+      "vote_count": 27,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nZKcaSSV7NaGfuPeE6N4Xt5St7E.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 303109,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Fire and Water: Making the Avatar Films",
+      "overview": "",
+      "popularity": 2.8811,
+      "poster_path": "/1Jv4WlLRA659DdZIXOR2f6hZGz8.jpg",
+      "first_air_date": "2025-11-07",
+      "name": "Fire and Water: Making the Avatar Films",
+      "vote_average": 6.7,
+      "vote_count": 7,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dPVOvmaar7tLTLIMlEk0rc8uRIs.jpg",
+      "genre_ids": [
+        10751,
+        16,
+        10765,
+        10759
+      ],
+      "id": 305165,
+      "origin_country": [
+        "CA",
+        "DK",
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "LEGO Marvel Avengers: Strange Tails",
+      "overview": "",
+      "popularity": 2.8398,
+      "poster_path": "/6MhzH93izyEvVO15qgM8UJNvY4z.jpg",
+      "first_air_date": "2025-11-14",
+      "name": "LEGO Marvel Avengers: Strange Tails",
+      "vote_average": 5.6,
+      "vote_count": 8,
+      "has_ua": false,
       "quality": "SD",
       "is_hdr": false
     }

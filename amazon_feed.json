@@ -340,6 +340,151 @@
       "has_ua": false,
       "quality": "SD",
       "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gB2Zq8CMbRlbVKmpVIzzXK5JO3w.jpg",
+      "genre_ids": [
+        18,
+        9648,
+        80
+      ],
+      "id": 294188,
+      "origin_country": [
+        "PH"
+      ],
+      "original_language": "tl",
+      "original_name": "The Alibi",
+      "overview": "",
+      "popularity": 3.4581,
+      "poster_path": "/cpRKdGjA51Capuc3IelUMnqZOE0.jpg",
+      "first_air_date": "2025-11-07",
+      "name": "The Alibi",
+      "vote_average": 8.3,
+      "vote_count": 7,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xmFV4Rc10kFTInBUsYVjyendz1s.jpg",
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "id": 247662,
+      "origin_country": [
+        "IT",
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Hotel Costiera",
+      "overview": "",
+      "popularity": 3.4527,
+      "poster_path": "/5dL2niLZqvXMIh1DWzBHX23zOXG.jpg",
+      "first_air_date": "2025-09-24",
+      "name": "Hotel Costiera",
+      "vote_average": 6.922,
+      "vote_count": 32,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cskW9fqGHqExkXWJBMbz066ZcZo.jpg",
+      "genre_ids": [
+        18,
+        80
+      ],
+      "id": 279013,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "Tremembé",
+      "overview": "",
+      "popularity": 3.4488,
+      "poster_path": "/eVqBFACBpovk0sEtjx3HEb3jOYS.jpg",
+      "first_air_date": "2025-10-31",
+      "name": "Tremembé",
+      "vote_average": 7.696,
+      "vote_count": 23,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4CXPLn2VKxTtlfd2fgClRYTBpiM.jpg",
+      "genre_ids": [
+        10759
+      ],
+      "id": 306905,
+      "origin_country": [
+        "ZA"
+      ],
+      "original_language": "en",
+      "original_name": "The Nowhere Man",
+      "overview": "",
+      "popularity": 3.3192,
+      "poster_path": "/iO4PWIZDhyALn5KYFgph57bIYtK.jpg",
+      "first_air_date": "2025-11-27",
+      "name": "The Nowhere Man",
+      "vote_average": 9,
+      "vote_count": 3,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5trWJ75kxpmKqykkJFcjPIEtpMf.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 309400,
+      "origin_country": [
+        "SE"
+      ],
+      "original_language": "sv",
+      "original_name": "Vaka",
+      "overview": "",
+      "popularity": 3.0679,
+      "poster_path": "/crWFJagt0Fnv0NouuXNyiM5OiJa.jpg",
+      "first_air_date": "2026-01-30",
+      "name": "Vaka",
+      "vote_average": 5.1,
+      "vote_count": 15,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wT4hYTghX8tFaKsthpHlXcZlgn9.jpg",
+      "genre_ids": [
+        10765,
+        9648
+      ],
+      "id": 248488,
+      "origin_country": [
+        "ES",
+        "US"
+      ],
+      "original_language": "es",
+      "original_name": "Dime tu nombre",
+      "overview": "",
+      "popularity": 3.0037,
+      "poster_path": "/vAmcxOxKX1n4njoj5i5w9atZj4c.jpg",
+      "first_air_date": "2025-10-31",
+      "name": "Dime tu nombre",
+      "vote_average": 5,
+      "vote_count": 9,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
     }
   ]
 }

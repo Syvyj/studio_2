@@ -215,6 +215,30 @@
     },
     {
       "adult": false,
+      "backdrop_path": "/smbYqVcXjEJ22csrA7GVga4bMQ9.jpg",
+      "genre_ids": [
+        99,
+        80
+      ],
+      "id": 313228,
+      "origin_country": [
+        "PL"
+      ],
+      "original_language": "pl",
+      "original_name": "Morderca szyty na miarę",
+      "overview": "",
+      "popularity": 1.84,
+      "poster_path": "/3pcmkcUSVbpgKvKLvM7kpDJivUU.jpg",
+      "first_air_date": "2026-02-20",
+      "name": "Morderca szyty na miarę",
+      "vote_average": 0,
+      "vote_count": 0,
+      "has_ua": false,
+      "quality": "SD",
+      "is_hdr": false
+    },
+    {
+      "adult": false,
       "backdrop_path": "/y0suom2xVs41mu3wgKXdwA6MMas.jpg",
       "genre_ids": [
         10402,
@@ -433,31 +457,6 @@
       "name": "Krychowiak: krok od szczytu",
       "vote_average": 8,
       "vote_count": 1,
-      "has_ua": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/uwLAo2VQBunURs9yV9CQM1OdTUj.jpg",
-      "genre_ids": [
-        80,
-        10759,
-        18
-      ],
-      "id": 300465,
-      "origin_country": [
-        "PL"
-      ],
-      "original_language": "pl",
-      "original_name": "Drelich",
-      "overview": "",
-      "popularity": 0.8323,
-      "poster_path": "/jqLlCD80OMnrzM0j4eWSG6Q2DKp.jpg",
-      "first_air_date": "2025-09-14",
-      "name": "Drelich",
-      "vote_average": 7,
-      "vote_count": 5,
       "has_ua": false,
       "quality": "SD",
       "is_hdr": false
