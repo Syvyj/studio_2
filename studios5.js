@@ -26,7 +26,16 @@
     var LIKHTAR_BASE_URL = (currentScript && currentScript.src) ? currentScript.src.replace(/[#?].*$/, '').replace(/[^/]+$/, '') : 'http://127.0.0.1:3000/';
 
     if (LIKHTAR_BASE_URL.indexOf('raw.githubusercontent.com') !== -1) {
-        LIKHTAR_BASE_URL = LIKHTAR_BASE_URL.replace('raw.githubusercontent.com', 'cdn.jsdelivr.net/gh').replace('/main/', '@main/').replace('/master/', '@master/');
+        LIKHTAR_BASE_URL = LIKHTAR_BASE_URL
+            .replace('raw.githubusercontent.com', 'cdn.jsdelivr.net/gh')
+            .replace(/\/([^@/]+\/[^@/]+)\/main\//, '/$1@main/')
+            .replace(/\/([^@/]+\/[^@/]+)\/master\//, '/$1@master/');
+    } else if (LIKHTAR_BASE_URL.indexOf('.github.io') !== -1) {
+        // e.g. https://syvyj.github.io/studio_2/ → https://cdn.jsdelivr.net/gh/syvyj/studio_2@main/
+        var gitioMatch = LIKHTAR_BASE_URL.match(/https?:\/\/([^.]+)\.github\.io\/([^/]+)\//i);
+        if (gitioMatch) {
+            LIKHTAR_BASE_URL = 'https://cdn.jsdelivr.net/gh/' + gitioMatch[1] + '/' + gitioMatch[2] + '@main/';
+        }
     }
 
 
@@ -2290,8 +2299,22 @@
         };
     }
 
+    function setupKinoogladSettings() {
+        if (!Lampa.SettingsApi || !Lampa.SettingsApi.addComponent) return;
+        // Only register the component header here. The channel params are added by initKinoogladModule().
+        Lampa.SettingsApi.addComponent({
+            component: 'kinooglad',
+            name: 'Кіноогляд',
+            icon: '<svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z" fill="currentColor"/></svg>'
+        });
+    }
+
 
     function setupSettings() {
+        if (!Lampa.SettingsApi || !Lampa.SettingsApi.addComponent) return;
+        // Register kinooglad component FIRST so params added later in initKinoogladModule land under it
+        setupKinoogladSettings();
+
         Lampa.SettingsApi.addComponent({
             component: 'likhtar_plugin',
             name: 'Ліхтар',
