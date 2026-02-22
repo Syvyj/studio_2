@@ -176,7 +176,7 @@
                         "with_networks": "64|91|43|2696|4|65",
                         "sort_by": "first_air_date.desc",
                         "first_air_date.lte": "{current_date}",
-                        "vote_count.gte": "0"
+                        "vote_count.gte": "2"
                     }
                 },
                 { "title": "Discovery Channel: Хіти", "url": "discover/tv", "params": { "with_networks": "64", "sort_by": "popularity.desc" } },
@@ -840,7 +840,9 @@
                         _this.activity.loader(false);
                     };
                     studios.forEach(function (studio, index) {
-                        var url = Lampa.TMDB.api('discover/movie?api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk') + '&with_companies=' + encodeURIComponent(studio.id) + '&sort_by=primary_release_date.desc&page=1');
+                        var d = new Date();
+                        var currentDate = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
+                        var url = Lampa.TMDB.api('discover/movie?api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk') + '&with_companies=' + encodeURIComponent(studio.id) + '&sort_by=popularity.desc&primary_release_date.lte=' + currentDate + '&page=1');
                         network.silent(url, function (json) {
                             // FIX: Normalize image paths
                             if (json && json.results && Array.isArray(json.results)) {
@@ -1131,8 +1133,8 @@
                     var apiKey = 'api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk');
                     var d = new Date();
                     var currentDate = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
-                    var urlMovie = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=primary_release_date.desc&primary_release_date.lte=' + currentDate + '&with_origin_country=UA&vote_count.gte=3');
-                    var urlTV = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=first_air_date.desc&first_air_date.lte=' + currentDate + '&with_origin_country=UA&vote_count.gte=3');
+                    var urlMovie = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=primary_release_date.desc&primary_release_date.lte=' + currentDate + '&with_origin_country=UA&vote_count.gte=1');
+                    var urlTV = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=first_air_date.desc&first_air_date.lte=' + currentDate + '&with_origin_country=UA&vote_count.gte=1');
 
                     network.silent(urlMovie, function (json1) {
                         if (json1.results) results = results.concat(json1.results);
@@ -2107,8 +2109,8 @@
                     var apiKey = 'api_key=' + getTmdbKey() + '&language=' + Lampa.Storage.get('language', 'uk');
                     var d = new Date();
                     var currentDate = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
-                    var urlMovie = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=primary_release_date.desc&primary_release_date.lte=' + currentDate + '&with_origin_country=PL&vote_count.gte=3');
-                    var urlTV = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=first_air_date.desc&first_air_date.lte=' + currentDate + '&with_origin_country=PL&vote_count.gte=3');
+                    var urlMovie = Lampa.TMDB.api('discover/movie?' + apiKey + '&sort_by=primary_release_date.desc&primary_release_date.lte=' + currentDate + '&with_origin_country=PL&vote_count.gte=1');
+                    var urlTV = Lampa.TMDB.api('discover/tv?' + apiKey + '&sort_by=first_air_date.desc&first_air_date.lte=' + currentDate + '&with_origin_country=PL&vote_count.gte=1');
 
                     network.silent(urlMovie, function (json1) {
                         if (json1.results) results = results.concat(json1.results);
