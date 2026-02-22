@@ -14,37 +14,17 @@
         return;
     }
 
-    // Підвантаження списків UA/PL TMDB одразу (для повних підбірок у стрічках)
-    (function loadTmdbLists() {
-        var script = document.currentScript || [].slice.call(document.getElementsByTagName('script')).filter(function (s) { return (s.src || '').indexOf('fix.js') !== -1 || (s.src || '').indexOf('likhtar') !== -1; })[0];
-        var base = (script && script.src) ? script.src.replace(/[#?].*$/, '').replace(/[^/]+$/, '') : '';
-        if (!base) return;
-        base = base.replace(/\/?$/, '/') + 'UA_PL_TMDB/';
-        var map = [
-            ['UA_TMDB_movies.json', 'LIKHTAR_UA_MOVIES'],
-            ['UA_TMDB_series.json', 'LIKHTAR_UA_SERIES'],
-            ['PL_TMDB_movies.json', 'LIKHTAR_PL_MOVIES'],
-            ['PL_TMDB_series.json', 'LIKHTAR_PL_SERIES'],
-            ['PL_TMDB_shows.json', 'LIKHTAR_PL_SHOWS']
-        ];
-        map.forEach(function (entry) {
-            var name = entry[0], key = entry[1];
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', base + name, true);
-            xhr.onload = function () {
-                if (xhr.status !== 200) return;
-                try {
-                    var data = JSON.parse(xhr.responseText);
-                    if (data && (data.results || Array.isArray(data))) window[key] = Array.isArray(data.results) ? { results: data.results } : data;
-                } catch (e) { }
-            };
-            xhr.send();
-        });
-    })();
 
     // =================================================================
     // CONFIGURATION & CONSTANTS
     // =================================================================
+
+    var currentScript = document.currentScript || [].slice.call(document.getElementsByTagName('script')).filter(function (s) {
+        return (s.src || '').indexOf('studios') !== -1 || (s.src || '').indexOf('fix.js') !== -1 || (s.src || '').indexOf('likhtar') !== -1;
+    })[0];
+    var LIKHTAR_BASE_URL = (currentScript && currentScript.src) ? currentScript.src.replace(/[#?].*$/, '').replace(/[^/]+$/, '') : 'http://127.0.0.1:3000/';
+
+
 
     var SERVICE_CONFIGS = {
         'netflix': {
@@ -981,16 +961,16 @@
     // ========== ROW 2: STUDIOS (Moved Up) ==========
     function addStudioRow() {
         var studios = [
-            { id: 'netflix', name: 'Netflix', img: 'https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.svg', providerId: '8' },
-            { id: 'disney', name: 'Disney+', img: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg', providerId: '337' },
-            { id: 'hbo', name: 'HBO', img: 'https://upload.wikimedia.org/wikipedia/commons/d/de/HBO_logo.svg', providerId: '384' },
-            { id: 'apple', name: 'Apple TV+', img: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Apple_TV_Plus_Logo.svg', providerId: '350' },
-            { id: 'amazon', name: 'Prime Video', img: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png', providerId: '119' },
-            { id: 'hulu', name: 'Hulu', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Hulu_logo_%282018%29.svg/512px-Hulu_logo_%282018%29.svg.png', providerId: '15' },
-            { id: 'paramount', name: 'Paramount+', img: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Paramount_Plus.svg', providerId: '531' },
-            { id: 'sky_showtime', name: 'Sky Showtime', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/SkyShowtime_Logo_2022.svg/512px-SkyShowtime_Logo_2022.svg.png' },
-            { id: 'syfy', name: 'Syfy', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SYFY.svg/512px-SYFY.svg.png', networkId: '77' },
-            { id: 'educational_and_reality', name: 'Пізнавальне', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Discovery_Channel_-_Logo_2019.svg/512px-Discovery_Channel_-_Logo_2019.svg.png' },
+            { id: 'netflix', name: 'Netflix', img: LIKHTAR_BASE_URL + 'logos/netflix.svg', providerId: '8' },
+            { id: 'disney', name: 'Disney+', img: LIKHTAR_BASE_URL + 'logos/disney.svg', providerId: '337' },
+            { id: 'hbo', name: 'HBO', img: LIKHTAR_BASE_URL + 'logos/hbo.svg', providerId: '384' },
+            { id: 'apple', name: 'Apple TV+', img: LIKHTAR_BASE_URL + 'logos/apple.svg', providerId: '350' },
+            { id: 'amazon', name: 'Prime Video', img: LIKHTAR_BASE_URL + 'logos/amazon.png', providerId: '119' },
+            { id: 'hulu', name: 'Hulu', img: LIKHTAR_BASE_URL + 'logos/hulu.png', providerId: '15' },
+            { id: 'paramount', name: 'Paramount+', img: LIKHTAR_BASE_URL + 'logos/paramount.svg', providerId: '531' },
+            { id: 'sky_showtime', name: 'Sky Showtime', img: LIKHTAR_BASE_URL + 'logos/skyshowtime.png' },
+            { id: 'syfy', name: 'Syfy', img: LIKHTAR_BASE_URL + 'logos/syfy.png', networkId: '77' },
+            { id: 'educational_and_reality', name: 'Пізнавальне', img: LIKHTAR_BASE_URL + 'logos/discovery.png' },
             { id: 'ukrainian_feed', name: 'Українська стрічка', isUkrainianFeed: true },
             { id: 'polish_feed', name: 'Польська стрічка', isPolishFeed: true }
         ];
@@ -1375,17 +1355,6 @@
                 /* Consolidated Styles for StudioJS Widths */
                 .studios_main .card--wide, .studios_view .card--wide { width: 18.3em !important; }
                 .studios_view .category-full { padding-top: 1em; }
-                /* Кнопка "На сторінку" — фіксована ширина як у постерів у секції "Сьогодні на..." */
-                .items-line .scroll__body .service-more-card.card-more,
-                .studios_main .service-more-card.card-more,
-                .studios_view .service-more-card.card-more {
-                    width: 11em !important;
-                    min-width: 11em !important;
-                    max-width: 11em !important;
-                    flex: 0 0 11em !important;
-                    aspect-ratio: 2/3;
-                }
-
                 /* Кнопка підписки на студію — у стилі міток (UA, 4K, HDR), ~50% розміру */
                 .studio-subscription-btn {
                     display: inline-flex;
@@ -1472,6 +1441,533 @@
             </style>
         `);
     }
+
+    // =================================================================
+    // LIKHTAR QUALITY MARKS (Jacred)
+    // =================================================================
+
+    function initMarksJacRed() {
+        var svgIcons = {
+            '4K': '<span style="font-weight:800;font-size:0.85em;color:#ff9800;">4K</span>',
+            'UKR': '<span style="font-weight:800;font-size:0.85em;color:#4fc3f7;">UA</span>',
+            'HDR': '<span style="font-weight:800;font-size:0.85em;color:#ffeb3b;">HDR</span>'
+        };
+
+        var workingProxy = null;
+        var proxies = [
+            'https://myfinder.kozak-bohdan.workers.dev/?key=lmp_2026_JacRed_K9xP7aQ4mV2E&url=',
+            'https://api.allorigins.win/raw?url=',
+            'https://corsproxy.io/?url='
+        ];
+
+        function fetchWithProxy(url, callback) {
+            // Спочатку пробуємо Lampa.Reguest (вбудований проксі Лампи)
+            try {
+                var network = new Lampa.Reguest();
+                network.timeout(10000);
+                network.silent(url, function (json) {
+                    console.log('[JacRed] Direct success via Lampa.Reguest');
+                    var text = typeof json === 'string' ? json : JSON.stringify(json);
+                    workingProxy = 'direct';
+                    callback(null, text);
+                }, function () {
+                    console.log('[JacRed] Direct Lampa.Reguest failed, trying proxies...');
+                    tryProxies(url, callback);
+                });
+            } catch (e) {
+                tryProxies(url, callback);
+            }
+        }
+
+        function tryProxies(url, callback) {
+            var proxyList = (workingProxy && workingProxy !== 'direct') ? [workingProxy] : proxies;
+
+            function tryProxy(index) {
+                if (index >= proxyList.length) {
+                    console.error('[JacRed] All proxies failed for:', url);
+                    callback(new Error('No proxy worked'));
+                    return;
+                }
+                var p = proxyList[index];
+                var target = p.indexOf('url=') > -1 ? p + encodeURIComponent(url) : p + url;
+                console.log('[JacRed] Fetching via proxy:', target);
+
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', target, true);
+                xhr.onload = function () {
+                    if (xhr.status >= 200 && xhr.status < 300) {
+                        console.log('[JacRed] Proxy success:', p);
+                        workingProxy = p;
+                        callback(null, xhr.responseText);
+                    } else {
+                        console.warn('[JacRed] Proxy failed:', xhr.status, p);
+                        tryProxy(index + 1);
+                    }
+                };
+                xhr.onerror = function () {
+                    console.warn('[JacRed] Proxy error:', p);
+                    tryProxy(index + 1);
+                };
+                xhr.timeout = 10000;
+                xhr.ontimeout = function () {
+                    console.warn('[JacRed] Proxy timeout:', p);
+                    tryProxy(index + 1);
+                };
+                xhr.send();
+            }
+            tryProxy(0);
+        }
+
+        var _jacredCache = {};
+
+        function getBestJacred(card, callback) {
+            var cacheKey = 'jacred_v3_' + card.id;
+
+            // In-memory cache (миттєвий)
+            if (_jacredCache[cacheKey]) {
+                console.log('[JacRed] mem-cache HIT:', cacheKey);
+                callback(_jacredCache[cacheKey]);
+                return;
+            }
+
+            // localStorage cache (переживає перезавантаження)
+            try {
+                var raw = Lampa.Storage.get(cacheKey, '');
+                if (raw && typeof raw === 'object' && raw._ts && (Date.now() - raw._ts < 48 * 60 * 60 * 1000)) {
+                    console.log('[JacRed] storage-cache HIT:', cacheKey, raw);
+                    _jacredCache[cacheKey] = raw;
+                    callback(raw);
+                    return;
+                }
+            } catch (e) { }
+
+            console.log('[JacRed] cache MISS for', cacheKey);
+
+            var title = (card.original_title || card.title || card.name || '').toLowerCase();
+            var year = (card.release_date || card.first_air_date || '').substr(0, 4);
+            console.log('[JacRed] title:', title, 'year:', year, 'release_date:', card.release_date, 'first_air_date:', card.first_air_date);
+
+            if (!title || !year) {
+                console.warn('[JacRed] SKIP: no title or year');
+                callback(null);
+                return;
+            }
+
+            var releaseDate = new Date(card.release_date || card.first_air_date);
+            console.log('[JacRed] releaseDate:', releaseDate, 'now:', new Date(), 'future?', releaseDate.getTime() > Date.now());
+            if (releaseDate && releaseDate.getTime() > Date.now()) {
+                console.warn('[JacRed] SKIP: future release');
+                callback(null);
+                return;
+            }
+
+            var apiUrl = 'https://jr.maxvol.pro/api/v1.0/torrents?search=' + encodeURIComponent(title) + '&year=' + year;
+            console.log('[JacRed] API URL:', apiUrl);
+
+            fetchWithProxy(apiUrl, function (err, data) {
+                if (err || !data) {
+                    callback(null);
+                    return;
+                }
+
+                try {
+                    var parsed;
+                    try {
+                        parsed = JSON.parse(data);
+                    } catch (e) {
+                        console.error('[JacRed] JSON Parse Error:', e);
+                        console.log('[JacRed] Raw Data:', data);
+                        callback(null);
+                        return;
+                    }
+
+                    // Handle AllOrigins wrapper if present
+                    if (parsed.contents) {
+                        try {
+                            parsed = JSON.parse(parsed.contents);
+                        } catch (e) {
+                            console.log('[JacRed] Failed to parse inner contents, using raw');
+                        }
+                    }
+
+                    var results = Array.isArray(parsed) ? parsed : (parsed.Results || []);
+                    console.log('[JacRed] Parsed results:', results.length);
+
+                    if (!results.length) {
+                        var emptyData = { empty: true, _ts: Date.now() };
+                        _jacredCache[cacheKey] = emptyData;
+                        try { Lampa.Storage.set(cacheKey, emptyData); } catch (e) { }
+                        callback(null);
+                        return;
+                    }
+
+                    var best = { resolution: 'SD', ukr: false, eng: false, hdr: false };
+                    var resOrder = ['SD', 'HD', 'FHD', '2K', '4K'];
+
+                    results.forEach(function (item) {
+                        var t = (item.title || '').toLowerCase();
+
+                        var currentRes = 'SD';
+                        if (t.indexOf('4k') >= 0 || t.indexOf('2160') >= 0 || t.indexOf('uhd') >= 0) currentRes = '4K';
+                        else if (t.indexOf('2k') >= 0 || t.indexOf('1440') >= 0) currentRes = '2K';
+                        else if (t.indexOf('1080') >= 0 || t.indexOf('fhd') >= 0 || t.indexOf('full hd') >= 0) currentRes = 'FHD';
+                        else if (t.indexOf('720') >= 0 || t.indexOf('hd') >= 0) currentRes = 'HD';
+
+                        if (resOrder.indexOf(currentRes) > resOrder.indexOf(best.resolution)) {
+                            best.resolution = currentRes;
+                        }
+
+                        if (t.indexOf('ukr') >= 0 || t.indexOf('укр') >= 0 || t.indexOf('ua') >= 0 || t.indexOf('ukrainian') >= 0) {
+                            best.ukr = true;
+                        }
+
+                        if (t.indexOf('eng') >= 0 || t.indexOf('english') >= 0 || t.indexOf('multi') >= 0) {
+                            best.eng = true;
+                        }
+
+                        if (t.indexOf('dolby vision') >= 0 || t.indexOf('dolbyvision') >= 0) {
+                            best.hdr = true;
+                            best.dolbyVision = true;
+                        } else if (t.indexOf('hdr') >= 0) {
+                            best.hdr = true;
+                        }
+                    });
+
+                    if (card.original_language === 'uk') best.ukr = true;
+                    if (card.original_language === 'en') best.eng = true;
+
+                    best._ts = Date.now();
+                    _jacredCache[cacheKey] = best;
+                    try { Lampa.Storage.set(cacheKey, best); } catch (e) { }
+                    console.log('[JacRed] RESULT for', card.id, ':', JSON.stringify(best));
+                    callback(best);
+
+                } catch (e) {
+                    callback(null);
+                }
+            });
+        }
+
+        function createBadge(cssClass, label) {
+            var badge = document.createElement('div');
+            badge.classList.add('card__mark');
+            badge.classList.add('card__mark--' + cssClass);
+            badge.textContent = label;
+            return badge;
+        }
+
+        // Вставити мітки в повну картку (спільна логіка для події та вже відкритої сторінки)
+        function injectFullCardMarks(movie, renderEl) {
+            if (!movie || !movie.id || !renderEl) return;
+            var $render = $(renderEl);
+            var rateLine = $render.find('.full-start-new__rate-line').first();
+            if (!rateLine.length) return;
+            if (rateLine.find('.jacred-info-marks-v2').length) return;
+            var marksContainer = $('<div class="jacred-info-marks-v2"></div>');
+            rateLine.prepend(marksContainer);
+            console.log('[JacRed] full card: injecting marks for', movie.id, movie.title || movie.name);
+            getBestJacred(movie, function (data) {
+                if (data && !data.empty) {
+                    renderInfoRowBadges(marksContainer, data);
+                }
+            });
+        }
+
+        // ——— Повна картка: подія 'full' + обробка вже відкритої (deep link ?card=...) ———
+        function initFullCardMarks() {
+            if (!Lampa.Listener || !Lampa.Listener.follow) return;
+            Lampa.Listener.follow('full', function (e) {
+                if (e.type !== 'complite') return;
+                var movie = e.data && e.data.movie;
+                var renderEl = e.object && e.object.activity && e.object.activity.render && e.object.activity.render();
+                injectFullCardMarks(movie, renderEl);
+            });
+            // Якщо відкрили по силці ?card=..., повна картка вже є до нашого init — обробити її одразу
+            setTimeout(function () {
+                try {
+                    var act = Lampa.Activity && Lampa.Activity.active && Lampa.Activity.active();
+                    if (!act || act.component !== 'full') return;
+                    var movie = act.card || act.movie;
+                    var renderEl = act.activity && act.activity.render && act.activity.render();
+                    injectFullCardMarks(movie, renderEl);
+                } catch (err) {
+                    console.warn('[JacRed] full card catch-up:', err);
+                }
+            }, 300);
+        }
+
+        // Картки на головній: MutationObserver тільки для .card (повну картку обробляємо через подію full)
+        function processCards() {
+            $('.card:not(.jacred-mark-processed-v2)').each(function () {
+                var card = $(this);
+                card.addClass('jacred-mark-processed-v2');
+
+                // Hero-банери зберігають movie в heroMovieData
+                var movie = card[0].heroMovieData || card.data('item') || (card[0] && (card[0].card_data || card[0].item)) || null;
+                if (movie && movie.id && !movie.size) {
+                    // Hero-банери не мають .card__view — додаємо прямо на елемент
+                    if (card.hasClass('hero-banner')) {
+                        addMarksToContainer(card, movie, null);
+                    } else {
+                        addMarksToContainer(card, movie, '.card__view');
+                    }
+                }
+            });
+        }
+
+        function observeCardRows() {
+            var observer = new MutationObserver(function () {
+                processCards();
+            });
+            observer.observe(document.body, { childList: true, subtree: true });
+            processCards();
+        }
+
+        function renderInfoRowBadges(container, data) {
+            container.empty();
+
+            // UA+ for Ukrainian audio (simple text, styled like native tags)
+            if (data.ukr) {
+                var uaTag = $('<div class="full-start__pg"></div>');
+                uaTag.text('UA+');
+                container.append(uaTag);
+            }
+
+            // Quality: 4K, 1080p, etc.
+            if (data.resolution && data.resolution !== 'SD') {
+                var resText = data.resolution;
+                if (resText === 'FHD') resText = '1080p';
+                else if (resText === 'HD') resText = '720p';
+
+                var qualityTag = $('<div class="full-start__pg"></div>');
+                qualityTag.text(resText);
+                container.append(qualityTag);
+            }
+
+            // HDR / Dolby Vision
+            if (data.hdr) {
+                var hdrTag = $('<div class="full-start__pg"></div>');
+                hdrTag.text(data.dolbyVision ? 'Dolby Vision' : 'HDR');
+                container.append(hdrTag);
+            }
+        }
+
+        // Перевірка на uafix.net — спочатку BanderaOnline API, fallback — прямий парсинг
+        var _uafixCache = {};
+
+        function checkUafixBandera(movie, callback) {
+            var title = movie.title || movie.name || '';
+            var origTitle = movie.original_title || movie.original_name || '';
+            var imdbId = movie.imdb_id || '';
+            var type = movie.name ? 'series' : 'movie';
+
+            var url = 'https://banderabackend.lampame.v6.rocks/api/v2/search?source=uaflix';
+            if (title) url += '&title=' + encodeURIComponent(title);
+            if (origTitle) url += '&original_title=' + encodeURIComponent(origTitle);
+            if (imdbId) url += '&imdb_id=' + encodeURIComponent(imdbId);
+            url += '&type=' + type;
+
+            var network = new Lampa.Reguest();
+            network.timeout(5000);
+            network.silent(url, function (json) {
+                callback(json && json.ok && json.items && json.items.length > 0);
+            }, function () {
+                callback(null); // null = невідомо, спробуємо fallback
+            });
+        }
+
+        function checkUafixDirect(movie, callback) {
+            // Прямий парсинг uafix.net через пошук DLE
+            var query = movie.original_title || movie.original_name || movie.title || movie.name || '';
+            if (!query) return callback(false);
+
+            var searchUrl = 'https://uafix.net/index.php?do=search&subaction=search&story=' + encodeURIComponent(query);
+
+            fetchWithProxy(searchUrl, function (err, html) {
+                if (err || !html) return callback(false);
+                // Перевіряємо чи є результати пошуку (DLE повертає "знайдено X відповідей")
+                var hasResults = html.indexOf('знайдено') >= 0 && html.indexOf('0 відповідей') < 0;
+                callback(hasResults);
+            });
+        }
+
+        function checkUafix(movie, callback) {
+            if (!movie || !movie.id) return callback(false);
+            var key = 'uafix_' + movie.id;
+            if (_uafixCache[key] !== undefined) return callback(_uafixCache[key]);
+
+            // Спочатку BanderaOnline API
+            checkUafixBandera(movie, function (result) {
+                if (result !== null) {
+                    // API відповів
+                    _uafixCache[key] = result;
+                    callback(result);
+                } else {
+                    // API недоступний — fallback на прямий парсинг
+                    checkUafixDirect(movie, function (found) {
+                        _uafixCache[key] = found;
+                        callback(found);
+                    });
+                }
+            });
+        }
+
+        function addMarksToContainer(element, movie, viewSelector) {
+            var containerParent = viewSelector ? element.find(viewSelector) : element;
+            var marksContainer = containerParent.find('.card-marks');
+
+            if (!marksContainer.length) {
+                marksContainer = $('<div class="card-marks"></div>');
+                containerParent.append(marksContainer);
+            }
+
+            getBestJacred(movie, function (data) {
+                if (!data) data = { empty: true };
+
+                // Паралельно перевіряємо uafix
+                checkUafix(movie, function (hasUafix) {
+                    if (hasUafix && data) {
+                        data.ukr = true;
+                        data.empty = false;
+                    }
+                    if (data && !data.empty) {
+                        renderBadges(marksContainer, data, movie);
+                    }
+                });
+            });
+        }
+
+        function renderBadges(container, data, movie) {
+            container.empty();
+            if (data.ukr && Lampa.Storage.get('likhtar_badge_ua', true)) container.append(createBadge('ua', 'UA'));
+            if (data.eng && Lampa.Storage.get('likhtar_badge_en', true)) container.append(createBadge('en', 'EN'));
+            if (data.resolution && data.resolution !== 'SD') {
+                if (data.resolution === '4K' && Lampa.Storage.get('likhtar_badge_4k', true)) container.append(createBadge('4k', '4K'));
+                else if (data.resolution === 'FHD' && Lampa.Storage.get('likhtar_badge_fhd', true)) container.append(createBadge('fhd', 'FHD'));
+                else if (data.resolution === 'HD' && Lampa.Storage.get('likhtar_badge_fhd', true)) container.append(createBadge('hd', 'HD'));
+                else if (Lampa.Storage.get('likhtar_badge_fhd', true)) container.append(createBadge('hd', data.resolution));
+            }
+            if (data.hdr && Lampa.Storage.get('likhtar_badge_hdr', true)) container.append(createBadge('hdr', 'HDR'));
+            // Рейтинг критиків
+            if (movie) {
+                var rating = parseFloat(movie.imdb_rating || movie.kp_rating || movie.vote_average || 0);
+                if (rating > 0) {
+                    var rBadge = document.createElement('div');
+                    rBadge.classList.add('card__mark', 'card__mark--rating');
+                    rBadge.innerHTML = '<span class="mark-star">★</span>' + rating.toFixed(1);
+                    container.append(rBadge);
+                }
+            }
+        }
+
+        var style = document.createElement('style');
+        style.innerHTML = `
+            /* ====== Вирівнюємо нативну TV мітку з нашими ====== */
+            .card .card__type {
+                left: -0.2em !important;
+            }
+
+            /* ====== Card marks — зліва, стовпчиком під TV ====== */
+            .card-marks {
+                position: absolute;
+                top: 2.7em;
+                left: -0.2em;
+                display: flex;
+                flex-direction: column;
+                gap: 0.15em;
+                z-index: 10;
+                pointer-events: none;
+            }
+            /* Якщо немає TV мітки — піднімаємо на її позицію */
+            .card:not(.card--tv):not(.card--movie) .card-marks,
+            .card--movie .card-marks {
+                top: 1.4em;
+            }
+            .card__mark {
+                padding: 0.35em 0.45em;
+                font-size: 0.8em;
+                font-weight: 800;
+                line-height: 1;
+                letter-spacing: 0.03em;
+                border-radius: 0.3em;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                align-self: flex-start;
+                opacity: 0;
+                animation: mark-fade-in 0.35s ease-out forwards;
+                border: 1px solid rgba(255,255,255,0.15);
+            }
+            .card__mark--ua  { background: linear-gradient(135deg, #1565c0, #42a5f5); color: #fff; border-color: rgba(66,165,245,0.4); }
+            .card__mark--4k  { background: linear-gradient(135deg, #e65100, #ff9800); color: #fff; border-color: rgba(255,152,0,0.4); }
+            .card__mark--fhd { background: linear-gradient(135deg, #4a148c, #ab47bc); color: #fff; border-color: rgba(171,71,188,0.4); }
+            .card__mark--hd  { background: linear-gradient(135deg, #1b5e20, #66bb6a); color: #fff; border-color: rgba(102,187,106,0.4); }
+            .card__mark--en  { background: linear-gradient(135deg, #37474f, #78909c); color: #fff; border-color: rgba(120,144,156,0.4); }
+            .card__mark--hdr { background: linear-gradient(135deg, #f57f17, #ffeb3b); color: #000; border-color: rgba(255,235,59,0.4); }
+            .card__mark--rating { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #ffd700; border-color: rgba(255,215,0,0.3); font-size: 0.75em; white-space: nowrap; }
+            .card__mark--rating .mark-star { margin-right: 0.15em; font-size: 0.9em; }
+
+            /* ====== Картка "На сторінку стрімінгу" — використовуємо нативний card-more ====== */
+            .service-more-card .card-more__box {
+                height: 0;
+                padding-bottom: 150%;
+                position: relative;
+            }
+            .service-more-card .card-more__title {
+                margin-top: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 1.4em;
+            }
+
+            /* ====== NEW badge на стрімінгах ====== */
+            .studio-new-badge {
+                position: absolute;
+                top: 0.4em;
+                right: 0.4em;
+                background: linear-gradient(135deg, #e53935, #ff5252);
+                color: #fff;
+                font-size: 0.65em;
+                font-weight: 800;
+                padding: 0.25em 0.5em;
+                border-radius: 0.3em;
+                letter-spacing: 0.05em;
+                z-index: 5;
+                animation: mark-fade-in 0.35s ease-out forwards;
+                box-shadow: 0 2px 6px rgba(229,57,53,0.4);
+            }
+
+            /* Ховаємо нативну оцінку, коли є наші мітки */
+            .card.jacred-mark-processed-v2 .card__vote { display: none !important; }
+
+            /* ====== Hero banner marks ====== */
+            .hero-banner .card-marks {
+                top: 1.5em !important;
+                left: 1.2em !important;
+                gap: 0.3em !important;
+            }
+            .hero-banner .card__mark {
+                font-size: 1em;
+                padding: 0.4em 0.6em;
+            }
+            
+            /* ====== Full card (info row) marks ====== */
+            .jacred-info-marks-v2 {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5em;
+                margin-right: 1em;
+                align-items: center;
+            }
+
+            @keyframes mark-fade-in { to { opacity: 1; } }
+        `;
+        document.head.appendChild(style);
+
+        initFullCardMarks();
+        observeCardRows();
+    }
+
 
     function addServiceRows() {
         var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality'];
@@ -2899,6 +3395,7 @@
 
     function runInit() {
         try {
+            initMarksJacRed();
             init();
             window.LIKHTAR_STUDIOS_LOADED = true;
         } catch (err) {
