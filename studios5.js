@@ -51,7 +51,7 @@
         'hulu': { title: 'Hulu', icon: '<svg viewBox="0 0 24 24" fill="#3DBB3D"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/></svg>' },
         'syfy': { title: 'Syfy', icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L4.5 20.29L5.21 21L12 18L18.79 21L19.5 20.29L12 2Z"/></svg>' },
         'educational_and_reality': { title: 'Пізнавальне', icon: '<svg viewBox="0 0 24 24" fill="#FF9800"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg>' },
-        'reality': { title: 'Реаліті-шоу', icon: '<svg viewBox="0 0 24 24" fill="#E91E63"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/><path d="M9.5 16.5l6-4.5-6-4.5v9z" fill="#fff"/></svg>' }
+        'reality': { title: 'Реаліті-шоу', icon: '<svg width="24px" height="24px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M780.1 527.2c-8.1-10.3-23.1-12.1-33.5-4.1-10.4 8.1-12.2 23.1-4.1 33.5 70.1 89.3 141.2 207.2 81.8 262-16.5 15.2-36.4 22.1-61.5 21.1-54.8-2.3-128.6-42.6-214.3-116.1 33.4-31.2 65.1-63.7 93.5-94.6 29.2-31.8 43.5-48 51.3-58 8-10.4 6.1-25.4-4.3-33.4-10.4-8.1-25.4-6.1-33.5 4.3-6.7 8.7-20.8 24.6-48.6 54.9-32.4 35.3-63.8 67-94 94.9-30.2-28-61.6-59.7-94-94.9-29.7-32.3-58.3-66.9-84.3-101.7 25-28.3 52.9-57.8 83.5-88.4 87-86.9 175.1-155.2 247.8-192.2 64.8-32.9 114.2-39.6 135.6-18.2 14.6 14.6 14.7 40.2 12.3 59.2-1.7 13 7.6 25 20.6 26.7 13.2 1.7 25-7.5 26.7-20.6 5.5-43-3.2-76.3-25.9-99-26.5-26.5-81.2-46.4-191 9.4-41.2 21-85.6 50.2-131.9 86.5C347.4 138.7 245 108.3 190.6 162.7c-48.7 48.6-35.7 165.2 82.2 330.8-95.1 113-142.5 205-141.1 274.5 0.7 34.6 13.3 63.4 37.4 85.6 24.4 22.5 54.3 33.9 89.1 33.9 2.2 0 4.5 0 6.7-0.1 76.6-3.1 165.9-60.6 248-131.6 82.1 71 171.4 128.4 248 131.6 2.3 0.1 4.5 0.1 6.7 0.1 34.8 0 64.7-11.4 89.1-33.9 69.1-63.7 43.4-173.6-76.6-326.4zM224.3 196.4c18.9-18.9 76.4-30.6 249.9 93.5-29.5 25.1-59.6 53-89.8 83.2-28.5 28.5-54.6 55.9-78.3 82.2-77-112.2-120.9-219.8-81.8-258.9z m38.6 643.3c-25 0.9-45-5.9-61.5-21.1-14.4-13.3-21.6-30.2-22.1-51.6-1.1-55 41.7-135.8 122.8-234 23.7 30.6 50.9 62.6 81.6 96.1 28.4 30.9 60 63.4 93.4 94.6-85.6 73.4-159.3 113.7-214.2 116z m255.9-234l25.6-11c8-3.4 14.6-13.4 14.6-22.2V425.3l31.1-11.6c8.2-3.1 19 0.3 24.1 7.4l51.2 72.1c5 7.1 18.8 20.4 23.5 21.4 4.7 1 9.3 1.9 10.2 1.8l0.8-0.1c9.6-0.8 11.9-3.1 11.9-3.1 6.3-6.1 15.1-17.2 19.6-24.7L793 386.6c4.5-7.5 8.2-20.8 8.2-29.5v-52.3c0-8.7-6.4-12.7-14.2-8.7l-17.6 8.9c-7.8 3.9-14.2 14.3-14.3 23l-0.1 19c0 8.7-3.7 22-8.2 29.5l-39.9 66.3c-4.5 7.5-12.2 7.7-17.2 0.5L643 375.6c-4.9-7.2-23-22.3-29.9-22-6.9 0.3-19.3 3.1-27.5 6.2l-129 48.8c-8.2 3.1-16.7 12.5-19 21l-8.2 30.5c-2.3 8.4 2.6 12.8 10.8 9.8l63.9-23.9v150.3c0.1 8.5 6.6 12.9 14.7 9.4z" fill="#FCA128" /></svg>' }
     };
 
     function getTmdbKey() {
@@ -743,7 +743,7 @@
             { id: 'sky_showtime', name: 'Sky Showtime', img: LIKHTAR_BASE_URL + 'logos/SkyShowtime.svg' },
             { id: 'syfy', name: 'Syfy', img: LIKHTAR_BASE_URL + 'logos/Syfy.svg', networkId: '77' },
             { id: 'educational_and_reality', name: 'Пізнавальне', img: LIKHTAR_BASE_URL + 'logos/Discovery.svg' },
-            { id: 'reality', name: 'Реаліті-шоу', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TLC_logo.svg/512px-TLC_logo.svg.png' },
+            { id: 'reality', name: 'Реаліті-шоу', img: LIKHTAR_BASE_URL + 'logos/TLC_logo.svg' },
             { id: 'ukrainian_feed', name: 'Українська стрічка', isUkrainianFeed: true },
             { id: 'polish_feed', name: 'Польська стрічка', isPolishFeed: true }
         ];
@@ -1227,19 +1227,20 @@
     }
 
     function addServiceRows() {
-        var services = ['ua', 'pl', 'reality', 'netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality'];
+        var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality', 'reality'];
 
         services.forEach(function (id, index) {
-            // Для UA/PL/Reality ставимо індекс вище
+            // Починаємо стрімінги після "Кіно під настрій" та "Українська стрічка" (0, 1, 2, 3)
             var rowIndex = index + 4;
-            if (id === 'ua') rowIndex = 3;
-            if (id === 'reality') rowIndex = 1; // або куди захочеш
-            if (id === 'pl') rowIndex = 14;
+
+            var config = SERVICE_CONFIGS[id];
+            var rowTitle = config ? config.title : 'Завантаження...';
 
             Lampa.ContentRows.add({
                 index: rowIndex,
                 name: 'service_row_' + id,
-                title: 'Завантаження...', // Тимчасова назва, поки летить JSON
+                title: rowTitle, // Встановлюємо правильну назву відразу
+
                 screen: ['main'],
                 call: function (params) {
                     return function (callback) {
