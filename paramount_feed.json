@@ -1,29 +1,26 @@
 {
   "title": "Сьогодні на Paramount+",
-  "last_updated": "2026-02-22T21:48:41.379Z",
-  "results": [
+  "last_updated": "2026-03-01T21:34:49.393Z",
+  "main_row": [
     {
       "adult": false,
-      "backdrop_path": "/9uakM2woks0JV8HKIc4oatIVS88.jpg",
+      "backdrop_path": "/nrNw1YMnKakUxzp8vjHnPmahoic.jpg",
       "genre_ids": [
         27,
-        53
+        9648,
+        80
       ],
-      "id": 1315303,
+      "id": 1159559,
       "original_language": "en",
-      "original_title": "Primate",
-      "overview": "Приїхавши додому з коледжу, Люсі дізнається, що їхній домашній шимпанзе вже не такий, яким був раніше . Заражена сказом тварина повертається до своєї дикої суті, перетворюючи відпустку друзів на моторошну, первісну історію жаху та виживання.",
-      "popularity": 98.2568,
-      "poster_path": "/gIlkYsoI4QREI2iWPIZoxiQqeh7.jpg",
-      "release_date": "2026-01-01",
-      "title": "Примат",
+      "original_title": "Scream 7",
+      "overview": "Коли в тихому містечку, де Сідні Прескотт зуміла почати нове життя, з’являється новий убивця в масці Примари, її давні страхи знову оживають — цього разу небезпека нависла над її донькою. Щоб урятувати близьких і остаточно зупинити кривавий цикл, Сідні доведеться знову зіткнутися з тінями минулого.",
+      "popularity": 187.7203,
+      "poster_path": "/1bKN2QriglJRbrmECHC57Xkk5bk.jpg",
+      "release_date": "2026-02-25",
+      "title": "Крик 7",
       "video": false,
-      "vote_average": 6.632,
-      "vote_count": 379,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 5.889,
+      "vote_count": 157
     },
     {
       "adult": false,
@@ -39,16 +36,50 @@
       "original_language": "en",
       "original_name": "Spartacus: House of Ashur",
       "overview": "Дія серіалу відбувається в античній Італії у I столітті до н. е. За допомогу у придушенні повстання Ашур отримує гладіаторську школу, яка колись належала Лентулу Батіату.",
-      "popularity": 89.1028,
+      "popularity": 67.2254,
       "poster_path": "/3IyuVc7rsw5l1I2chBG2zkWpzLA.jpg",
       "first_air_date": "2025-12-05",
       "name": "Спартак: Дім Ашура",
-      "vote_average": 6.775,
-      "vote_count": 198,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_average": 6.818,
+      "vote_count": 212
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xBORKTaQJTq3l7EdnTTnrZnYzYa.jpg",
+      "genre_ids": [
+        28,
+        80
+      ],
+      "id": 1327688,
+      "original_language": "en",
+      "original_title": "One Mile: Chapter One",
+      "overview": "",
+      "popularity": 43.883,
+      "poster_path": "/1GZaoYe0mQy211DgDSAxAXr30ul.jpg",
+      "release_date": "2026-02-20",
+      "title": "Одна миля: Глава перша",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 37
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9uakM2woks0JV8HKIc4oatIVS88.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 1315303,
+      "original_language": "en",
+      "original_title": "Primate",
+      "overview": "Приїхавши додому з коледжу, Люсі дізнається, що їхній домашній шимпанзе вже не такий, яким був раніше . Заражена сказом тварина повертається до своєї дикої суті, перетворюючи відпустку друзів на моторошну, первісну історію жаху та виживання.",
+      "popularity": 43.3734,
+      "poster_path": "/gIlkYsoI4QREI2iWPIZoxiQqeh7.jpg",
+      "release_date": "2026-01-01",
+      "title": "Примат",
+      "video": false,
+      "vote_average": 6.582,
+      "vote_count": 422
     },
     {
       "adult": false,
@@ -64,16 +95,12 @@
       "original_language": "en",
       "original_name": "Star Trek: Starfleet Academy",
       "overview": "Кадети Зоряного флоту проходять через дружбу, суперництво та перше кохання, готуючись стати офіцерами. Вони стикаються з новою загрозою, яка загрожує Академії та Федерації.",
-      "popularity": 30.2923,
+      "popularity": 30.025,
       "poster_path": "/2ef0s8SyPXog7OQn8XaW78uw2E.jpg",
       "first_air_date": "2026-01-15",
       "name": "Зоряний шлях: Академія Зоряного флоту",
-      "vote_average": 4.786,
-      "vote_count": 124,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 4.8,
+      "vote_count": 129
     },
     {
       "adult": false,
@@ -87,17 +114,32 @@
       "original_language": "en",
       "original_title": "The Running Man",
       "overview": "У недалекому майбутньому світ розділився на еліту та пролетаріат. Для одних життя — це низка привілеї, для інших — боротьба за виживання. Єдиний шанс вибратися з бідності — взяти участь у смертельному реаліті-шоу «Людина, що біжить», де мисливці полюють на учасників, а глядачі жадають видовища. Бен Річардс, зневірений робітник, стає учасником гри, щоб урятувати сім’ю. Але він не просто втікач — він виклик системі. Тепер його переслідують не лише безжальні мисливці, а й сам творець шоу. Щоб вижити, він має змінити правила гри.",
-      "popularity": 28.1915,
+      "popularity": 29.5786,
       "poster_path": "/q6Hm6sQVhJqOD38OGfDvvjOSwva.jpg",
       "release_date": "2025-11-11",
       "title": "Людина, що біжить",
       "video": false,
-      "vote_average": 6.792,
-      "vote_count": 1174,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.789,
+      "vote_count": 1201
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jxQIjkJBTyZSxN3yyilpR0ns6HA.jpg",
+      "genre_ids": [
+        28,
+        80
+      ],
+      "id": 1327690,
+      "original_language": "en",
+      "original_title": "One Mile: Chapter Two",
+      "overview": "",
+      "popularity": 19.9984,
+      "poster_path": "/3sjc9qXXmQoUWKQ3qIjS1nZaUJy.jpg",
+      "release_date": "2026-02-27",
+      "title": "One Mile: Chapter Two",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 28
     },
     {
       "adult": false,
@@ -111,17 +153,13 @@
       "original_language": "en",
       "original_title": "The Naked Gun",
       "overview": "Лише одна людина має унікальний набір навичок… щоб очолити Поліцейський загін і врятувати світ: лейтенант Френк Дребін-молодший.",
-      "popularity": 21.3803,
+      "popularity": 19.1933,
       "poster_path": "/shpxKMg35lrq5gJTZ4lpsIa8PrC.jpg",
       "release_date": "2025-07-30",
       "title": "Голий пістолет",
       "video": false,
-      "vote_average": 6.402,
-      "vote_count": 1460,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.394,
+      "vote_count": 1479
     },
     {
       "adult": false,
@@ -135,17 +173,13 @@
       "original_language": "en",
       "original_title": "Smurfs",
       "overview": "Коли Тата Смурфа таємниче викрадають підступні чаклуни Разамель і Ґарґамель, Смурфетка бере на себе відповідальність та очолює Смурфиків у новій захопливій пригоді, щоб визволити його. Разом із новими друзями Смурфики мають з'ясувати, що саме визначає їхню долю, аби врятувати Всесвіт.",
-      "popularity": 9.3695,
+      "popularity": 10.993,
       "poster_path": "/hwqdWPc6uex3hJF2eCqjbK4uxxk.jpg",
       "release_date": "2025-07-05",
       "title": "Смурфи",
       "video": false,
-      "vote_average": 5.882,
-      "vote_count": 241,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 5.874,
+      "vote_count": 243
     },
     {
       "adult": false,
@@ -160,16 +194,12 @@
       "original_language": "en",
       "original_name": "Outlander: Blood of My Blood",
       "overview": "Приквел фантастично-історичної мелодрами «Чужоземка» розповідає про батьків Джеймі — Браяна й Еллен, а також про батьків Клер — Генрі та Джулію. Обидві пари кидають виклик долі, щоб бути разом, і їхні історії кохання простягаються крізь час і простір — від полів битв Другої світової війни до шотландських Гайлендів XVIII століття — несподівано переплітаючись.",
-      "popularity": 6.9479,
+      "popularity": 7.0517,
       "poster_path": "/wqrmVRTgSwhex7dPgss1HLBRCWK.jpg",
       "first_air_date": "2025-08-08",
       "name": "Чужоземка: Кров моєї крові",
-      "vote_average": 8.479,
-      "vote_count": 73,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 8.5,
+      "vote_count": 73
     },
     {
       "adult": false,
@@ -186,16 +216,12 @@
       "original_language": "en",
       "original_name": "NCIS: Tony & Ziva",
       "overview": "",
-      "popularity": 5.7705,
+      "popularity": 6.0854,
       "poster_path": "/awmOKWSeIaqSRgBasDCIZjUCiaw.jpg",
       "first_air_date": "2025-09-04",
       "name": "NCIS: Tony & Ziva",
       "vote_average": 7.455,
-      "vote_count": 67,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_count": 67
     },
     {
       "adult": false,
@@ -208,17 +234,13 @@
       "original_language": "en",
       "original_title": "Vicious",
       "overview": "Жінка проводить ніч у боротьбі за власне існування, занурюючись у кролячу нору, заховану всередині подарунка від нічного гостя.",
-      "popularity": 3.7132,
+      "popularity": 3.5395,
       "poster_path": "/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
       "release_date": "2025-09-19",
       "title": "Порочний",
       "video": false,
-      "vote_average": 5.984,
-      "vote_count": 224,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 5.98,
+      "vote_count": 227
     },
     {
       "adult": false,
@@ -232,89 +254,13 @@
       "original_language": "en",
       "original_title": "Shell",
       "overview": "Відчайдушно прагнучи повернути собі кар’єру, колись улюблена публікою акторка Саманта Лейк потрапляє у гламурний світ магнатки індустрії велнесу Зої Шеннон — лише щоб відкрити жахливу правду під його бездоганною поверхнею.",
-      "popularity": 2.3595,
+      "popularity": 3.0492,
       "poster_path": "/9CV0Pf6RoFCbTzwoeH6ypCRNyMK.jpg",
       "release_date": "2025-10-01",
       "title": "Маска",
       "video": false,
-      "vote_average": 5.229,
-      "vote_count": 48,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/5lFJVwFA2jtO1ygLoDLGPiT7UhI.jpg",
-      "genre_ids": [
-        35
-      ],
-      "id": 253750,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Crutch",
-      "overview": "",
-      "popularity": 2.1897,
-      "poster_path": "/9tDDG9mLfhJmqOyvolWneeF6Y1g.jpg",
-      "first_air_date": "2025-11-03",
-      "name": "Crutch",
-      "vote_average": 4.5,
-      "vote_count": 10,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/wmeeAR8MvvTEMX7jyOHCU7lwKTN.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 308767,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Handsome Devil: Charming Killer",
-      "overview": "",
-      "popularity": 1.5672,
-      "poster_path": "/eMYeeDy7xj22JnatwxVT8wHTujI.jpg",
-      "first_air_date": "2026-01-20",
-      "name": "Handsome Devil: Charming Killer",
-      "vote_average": 9.25,
-      "vote_count": 4,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/qx3Sr8j1rFsedhCbsnxDahUf75F.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 294876,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Hip Hop Was Born Here",
-      "overview": "",
-      "popularity": 0.8005,
-      "poster_path": "/aStCmjI0JEflLbPgVTcrelGOltx.jpg",
-      "first_air_date": "2025-07-22",
-      "name": "Hip Hop Was Born Here",
-      "vote_average": 3.6,
-      "vote_count": 5,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 5.2,
+      "vote_count": 49
     },
     {
       "adult": false,
@@ -330,17 +276,73 @@
       "original_language": "en",
       "original_title": "Teenage Mutant Ninja Turtles: Chrome Alone 2 - Lost in New Jersey",
       "overview": "",
-      "popularity": 0.7837,
+      "popularity": 2.6499,
       "poster_path": "/nfn3KUIXqX2iW2eKnB8THzu8VEp.jpg",
       "release_date": "2025-12-19",
       "title": "Teenage Mutant Ninja Turtles: Chrome Alone 2 - Lost in New Jersey",
       "video": false,
       "vote_average": 6.833,
-      "vote_count": 12,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 12
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5lFJVwFA2jtO1ygLoDLGPiT7UhI.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 253750,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Crutch",
+      "overview": "",
+      "popularity": 2.0028,
+      "poster_path": "/9tDDG9mLfhJmqOyvolWneeF6Y1g.jpg",
+      "first_air_date": "2025-11-03",
+      "name": "Crutch",
+      "vote_average": 4.5,
+      "vote_count": 10
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wmeeAR8MvvTEMX7jyOHCU7lwKTN.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 308767,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Handsome Devil: Charming Killer",
+      "overview": "",
+      "popularity": 1.5206,
+      "poster_path": "/eMYeeDy7xj22JnatwxVT8wHTujI.jpg",
+      "first_air_date": "2026-01-20",
+      "name": "Handsome Devil: Charming Killer",
+      "vote_average": 9,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qx3Sr8j1rFsedhCbsnxDahUf75F.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 294876,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Hip Hop Was Born Here",
+      "overview": "",
+      "popularity": 0.8022,
+      "poster_path": "/aStCmjI0JEflLbPgVTcrelGOltx.jpg",
+      "first_air_date": "2025-07-22",
+      "name": "Hip Hop Was Born Here",
+      "vote_average": 3.6,
+      "vote_count": 5
     },
     {
       "adult": false,
@@ -354,17 +356,13 @@
       "original_language": "en",
       "original_title": "SpongeBob SquarePants: Order Up",
       "overview": "",
-      "popularity": 0.3096,
+      "popularity": 0.2824,
       "poster_path": "/wR5tkXHpcJLGQA9HKDZcUMpxU50.jpg",
       "release_date": "2025-07-18",
       "title": "SpongeBob SquarePants: Order Up",
       "video": false,
       "vote_average": 7.2,
-      "vote_count": 6,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 6
     },
     {
       "adult": false,
@@ -380,16 +378,1658 @@
       "original_language": "en",
       "original_name": "Murder 360",
       "overview": "",
-      "popularity": 0.1711,
+      "popularity": 0.1353,
       "poster_path": "/fn04IxBlpR8r8SzR6NowBTGg3LG.jpg",
       "first_air_date": "2025-08-05",
       "name": "Murder 360",
       "vote_average": 5.3,
-      "vote_count": 3,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 3
+    }
+  ],
+  "categories": [
+    {
+      "title": "🔥 Нові серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/wmeeAR8MvvTEMX7jyOHCU7lwKTN.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 308767,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Handsome Devil: Charming Killer",
+          "overview": "",
+          "popularity": 1.5206,
+          "poster_path": "/eMYeeDy7xj22JnatwxVT8wHTujI.jpg",
+          "first_air_date": "2026-01-20",
+          "name": "Handsome Devil: Charming Killer",
+          "vote_average": 9,
+          "vote_count": 5
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rXtSdCGmG07zjAg5h7GR1v52ogX.jpg",
+          "genre_ids": [
+            10765,
+            10759
+          ],
+          "id": 223530,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Star Trek: Starfleet Academy",
+          "overview": "Кадети Зоряного флоту проходять через дружбу, суперництво та перше кохання, готуючись стати офіцерами. Вони стикаються з новою загрозою, яка загрожує Академії та Федерації.",
+          "popularity": 30.025,
+          "poster_path": "/2ef0s8SyPXog7OQn8XaW78uw2E.jpg",
+          "first_air_date": "2026-01-15",
+          "name": "Зоряний шлях: Академія Зоряного флоту",
+          "vote_average": 4.8,
+          "vote_count": 129
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/c78kbj781ddvmSn5mgLWFQbC7di.jpg",
+          "genre_ids": [
+            18,
+            10759
+          ],
+          "id": 240459,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Spartacus: House of Ashur",
+          "overview": "Дія серіалу відбувається в античній Італії у I столітті до н. е. За допомогу у придушенні повстання Ашур отримує гладіаторську школу, яка колись належала Лентулу Батіату.",
+          "popularity": 67.2254,
+          "poster_path": "/3IyuVc7rsw5l1I2chBG2zkWpzLA.jpg",
+          "first_air_date": "2025-12-05",
+          "name": "Спартак: Дім Ашура",
+          "vote_average": 6.818,
+          "vote_count": 212
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5lFJVwFA2jtO1ygLoDLGPiT7UhI.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 253750,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Crutch",
+          "overview": "",
+          "popularity": 2.0028,
+          "poster_path": "/9tDDG9mLfhJmqOyvolWneeF6Y1g.jpg",
+          "first_air_date": "2025-11-03",
+          "name": "Crutch",
+          "vote_average": 4.5,
+          "vote_count": 10
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/goqzioeAOJIpa09DhesJkgHcjid.jpg",
+          "genre_ids": [
+            10764,
+            99
+          ],
+          "id": 298846,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Don't Date Brandon",
+          "overview": "",
+          "popularity": 0.7649,
+          "poster_path": "/sIipFBqZSX0zWIgHi4On3uYuGoW.jpg",
+          "first_air_date": "2025-10-28",
+          "name": "Don't Date Brandon",
+          "vote_average": 5,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ub0xUWZUBoAwy1eBG1uwi9ikaVg.jpg",
+          "genre_ids": [
+            10759,
+            18,
+            80
+          ],
+          "id": 247732,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "NCIS: Tony & Ziva",
+          "overview": "",
+          "popularity": 6.0854,
+          "poster_path": "/awmOKWSeIaqSRgBasDCIZjUCiaw.jpg",
+          "first_air_date": "2025-09-04",
+          "name": "NCIS: Tony & Ziva",
+          "vote_average": 7.455,
+          "vote_count": 67
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            99
+          ],
+          "id": 245937,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Magic City: An American Fantasy",
+          "overview": "",
+          "popularity": 1.0728,
+          "poster_path": "/qd0War8Gq6xfvm4jiMPjEThquyk.jpg",
+          "first_air_date": "2025-08-15",
+          "name": "Magic City: An American Fantasy",
+          "vote_average": 10,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/eIzZbii038RzFgKMHIJZEekONfa.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 207484,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Outlander: Blood of My Blood",
+          "overview": "Приквел фантастично-історичної мелодрами «Чужоземка» розповідає про батьків Джеймі — Браяна й Еллен, а також про батьків Клер — Генрі та Джулію. Обидві пари кидають виклик долі, щоб бути разом, і їхні історії кохання простягаються крізь час і простір — від полів битв Другої світової війни до шотландських Гайлендів XVIII століття — несподівано переплітаючись.",
+          "popularity": 7.0517,
+          "poster_path": "/wqrmVRTgSwhex7dPgss1HLBRCWK.jpg",
+          "first_air_date": "2025-08-08",
+          "name": "Чужоземка: Кров моєї крові",
+          "vote_average": 8.5,
+          "vote_count": 73
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/oO8cJEjmsDQ4RpljV5TNH3Jxuko.jpg",
+          "genre_ids": [
+            80,
+            99
+          ],
+          "id": 296198,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Murder 360",
+          "overview": "",
+          "popularity": 0.1353,
+          "poster_path": "/fn04IxBlpR8r8SzR6NowBTGg3LG.jpg",
+          "first_air_date": "2025-08-05",
+          "name": "Murder 360",
+          "vote_average": 5.3,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/qx3Sr8j1rFsedhCbsnxDahUf75F.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 294876,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Hip Hop Was Born Here",
+          "overview": "",
+          "popularity": 0.8022,
+          "poster_path": "/aStCmjI0JEflLbPgVTcrelGOltx.jpg",
+          "first_air_date": "2025-07-22",
+          "name": "Hip Hop Was Born Here",
+          "vote_average": 3.6,
+          "vote_count": 5
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zuKrP0mdGzQKHzOJVihrPG9LeGy.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 282886,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Carters: Hurts to Love You",
+          "overview": "",
+          "popularity": 0.8471,
+          "poster_path": "/t8SizJ3I5ye5Bh1Y6FD5jggXRvF.jpg",
+          "first_air_date": "2025-04-15",
+          "name": "The Carters: Hurts to Love You",
+          "vote_average": 8.7,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tQqbbxBAdW2ql8vbOqMOJbtSQ7O.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 247718,
+          "origin_country": [
+            "GB",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "MobLand",
+          "overview": "Дві впливові злочинні династії – Гаррігани та Стівенсони , ведуть жорстоку війну за контроль над наркоринком та підпільним світом Лондона. Це кривава гра без правил, де кожен хід може стати фатальним. Головний герой, Гаррі да Соуза, опиняється в епіцентрі цього протистояння, намагаючись зберегти свою сім'ю та своє місце в ієрархії.",
+          "popularity": 27.0183,
+          "poster_path": "/bZ4BkHBrs3soGmd5PpMLbEHDh2e.jpg",
+          "first_air_date": "2025-03-30",
+          "name": "Земля Гангстерів",
+          "vote_average": 8.333,
+          "vote_count": 586
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jpo9nZOayoh7IHIIXa6jRT6WP9L.jpg",
+          "genre_ids": [
+            18,
+            80
+          ],
+          "id": 243217,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Happy Face",
+          "overview": "Історія Меліси Джесперсон-Мур, яка у 15 років дізналася, що її батько був серійним убивцею, відомим як Вбивця з усмішкою на обличчі.",
+          "popularity": 6.1202,
+          "poster_path": "/fqFpeUT0H8b9ecfLzm2MsSxEFBJ.jpg",
+          "first_air_date": "2025-03-20",
+          "name": "Щасливе обличчя",
+          "vote_average": 6.9,
+          "vote_count": 59
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iROgBW8T2MZ2Uq0jk3gGFzFkOnh.jpg",
+          "genre_ids": [
+            99,
+            80
+          ],
+          "id": 284412,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Sin City Gigolo: A Murder in Las Vegas",
+          "overview": "",
+          "popularity": 0.3382,
+          "poster_path": "/2VXzaD47ObkbNwKzDzzc24JeDjw.jpg",
+          "first_air_date": "2025-03-04",
+          "name": "Sin City Gigolo: A Murder in Las Vegas",
+          "vote_average": 2,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9RECuEgzpYw1CJbXfYeFixT5hsl.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 282885,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Burden of Guilt",
+          "overview": "",
+          "popularity": 0.6013,
+          "poster_path": "/7QBX8P8YShfOxK0ac07UUeMnQ0v.jpg",
+          "first_air_date": "2025-02-04",
+          "name": "Burden of Guilt",
+          "vote_average": 4,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zEG4uHLM2j4DML2Lkc8C4wIcFVs.jpg",
+          "genre_ids": [
+            99,
+            10764
+          ],
+          "id": 278172,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "PULISIC",
+          "overview": "",
+          "popularity": 1.0722,
+          "poster_path": "/i2xMS76mgYGS8A5T1FoXAhPFzmy.jpg",
+          "first_air_date": "2024-12-09",
+          "name": "PULISIC",
+          "vote_average": 8.5,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/q71au2YjcwXBMZKNzNgjK7RZ3Hs.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 157741,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Landman",
+          "overview": "Дії відбуваються у західному Техасі, місті, де стався справжній бум. Серіал розповідає історію пошуку багатства у світі нафтових свердловин, а також про життя робітників нафтових свердловин та мільярдерів. Ці мільярдери створюють бум такої величини, що він змінює наш клімат, економіку та геополітику.",
+          "popularity": 45.3309,
+          "poster_path": "/hYthRgS1nvQkGILn9YmqsF8kSk6.jpg",
+          "first_air_date": "2024-11-17",
+          "name": "Landman",
+          "vote_average": 8.037,
+          "vote_count": 434
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9YPUhIXQOXGgvO4NgNKr4OAgtBb.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 262193,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Nöthin' but a Good Time: The Uncensored Story of '80s Hair Metal",
+          "overview": "",
+          "popularity": 0.5314,
+          "poster_path": "/An1iU6e7hdN6xDiTAIxv8RT6z7U.jpg",
+          "first_air_date": "2024-09-17",
+          "name": "Nöthin' but a Good Time: The Uncensored Story of '80s Hair Metal",
+          "vote_average": 8,
+          "vote_count": 7
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3fi75E9xnpGpljXKCV7eEMtiZ2n.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 220004,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Three Women",
+          "overview": "",
+          "popularity": 2.9178,
+          "poster_path": "/EDrlkEePHP0vP22u02AUZHhibG.jpg",
+          "first_air_date": "2024-09-13",
+          "name": "Three Women",
+          "vote_average": 6.1,
+          "vote_count": 14
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hgcqf6Rv4RhAw4UzypPyNS6Si7D.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 232821,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "RuPaul's Drag Race Global All Stars",
+          "overview": "",
+          "popularity": 1.6142,
+          "poster_path": "/jbtW0zyr2fwo6SEOLK9jbq7ihZZ.jpg",
+          "first_air_date": "2024-08-16",
+          "name": "RuPaul's Drag Race Global All Stars",
+          "vote_average": 5.5,
+          "vote_count": 6
+        }
+      ]
+    },
+    {
+      "title": "🏆 Топ Серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/w88B4ooZ2LSYPw5107JOkjvI8PI.jpg",
+          "genre_ids": [
+            80,
+            18,
+            9648
+          ],
+          "id": 4057,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal Minds",
+          "overview": "Вони не розплутують низки загадкових доказів. Вони не проводять час у криміналістичних лабораторіях. Вони рідко використовують пістолети. Адже їхня головна зброя - розум. Члени елітного підрозділу ФБР навчились мислити, як злочинці, й щодня рятують десятки людських життів. Замість ретельного вивчення доказів вони намагаються знайти та зрозуміти мотиви злочину, вникаючи в кожен крок злочинця і прагнучи мислити, як він. Працюючи на місці злочину, ці професіонали немов розслідують його зсередини, намагаючись зрозуміти думки злочинця, якими б темними вони не були.",
+          "popularity": 144.8042,
+          "poster_path": "/hdGsPySzgMG3TnFsso3k0QIoTUz.jpg",
+          "first_air_date": "2005-09-22",
+          "name": "Мислити як злочинець",
+          "vote_average": 8.298,
+          "vote_count": 4010
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/c78kbj781ddvmSn5mgLWFQbC7di.jpg",
+          "genre_ids": [
+            18,
+            10759
+          ],
+          "id": 240459,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Spartacus: House of Ashur",
+          "overview": "Дія серіалу відбувається в античній Італії у I столітті до н. е. За допомогу у придушенні повстання Ашур отримує гладіаторську школу, яка колись належала Лентулу Батіату.",
+          "popularity": 67.2254,
+          "poster_path": "/3IyuVc7rsw5l1I2chBG2zkWpzLA.jpg",
+          "first_air_date": "2025-12-05",
+          "name": "Спартак: Дім Ашура",
+          "vote_average": 6.818,
+          "vote_count": 212
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zbfXS4o6UykeXsD8djFTyV7Cj4N.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 46296,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Spartacus",
+          "overview": "Зраджений власною країною та проданий у рабство, Спартак позбавлений кохання всього життя та змушений битись на арені смерті на потіху римській публіці. Спартак повинен боротися за виживання, подружитись з ворогами, і засвоїти політику нового світу жорстокості, сексу і слави. Його будуть спокушати владою і випробовувати помстою. Але його пристрасть дасть Спартаку сили подолати всі випробування…",
+          "popularity": 59.3449,
+          "poster_path": "/6Qub5MoaCedTDvOLIFam0SVjyZx.jpg",
+          "first_air_date": "2010-01-22",
+          "name": "Спартак",
+          "vote_average": 8.03,
+          "vote_count": 2842
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mNHRGO1gFpR2CYZdANe72kcKq7G.jpg",
+          "genre_ids": [
+            80,
+            18,
+            35
+          ],
+          "id": 153312,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Tulsa King",
+          "overview": "Історія італійського мафіозі Двайта «Генерала» Манфреді, якого, після тривалого ув’язнення, глава клану відправляє в богом забуту Талсу, штат Оклахома, щоб відновити там злочинну мережу, не надіючись на хоч якийсь позитивний результат. Це швидше схоже на заслання, щоб прибрати його подалі від впливових керівних посад. Але несподівано Двайт досягає там неймовірних успіхів.",
+          "popularity": 49.24,
+          "poster_path": "/11Zu9w5heCOhzNIjQVjAnpiVa9W.jpg",
+          "first_air_date": "2022-11-13",
+          "name": "Король Талси",
+          "vote_average": 8.284,
+          "vote_count": 2518
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/nf3Vlxm3C9U1aKUUQHmKFZmxPSc.jpg",
+          "genre_ids": [
+            18,
+            10765
+          ],
+          "id": 56570,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Outlander",
+          "overview": "Клер, яка працювала медсестрою під час Другої світової війни, випадково переміщається в часі і потрапляє в 1743 рік. У цьому світі, повному пригод, вона знайомиться з шотландським лицарем Джеймі. У героїв зав'язується пристрасний роман, незважаючи на те, що серце Клер розривається між двома чоловіками - Джеймі і її чоловіком Френком, який залишився в іншому часі.",
+          "popularity": 47.2306,
+          "poster_path": "/tZuKy6RWPQKgyOtx8XWxpdzfQME.jpg",
+          "first_air_date": "2014-08-09",
+          "name": "Чужоземка",
+          "vote_average": 8.2,
+          "vote_count": 2775
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ojyo33io8HGxNCRg21Z1o87YEZX.jpg",
+          "genre_ids": [
+            10759,
+            18,
+            10768
+          ],
+          "id": 71789,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "SEAL Team",
+          "overview": "Вони — еліта Військово-морських сил США. Їм доручають найнебезпечніші місії: пошуково-рятувальні, диверсійні операції та навіть порятунок заручників. Ці хлопці — «морські котики», спецпризначенці — брали участь в захопленні терориста номер один, саме їм світ зобов’язаний виявленням Саддама Хусейна.",
+          "popularity": 45.5813,
+          "poster_path": "/6iSnec83UEMgLOXAtGYwaVNHLjR.jpg",
+          "first_air_date": "2017-09-27",
+          "name": "Морські котики",
+          "vote_average": 8.029,
+          "vote_count": 1603
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/q71au2YjcwXBMZKNzNgjK7RZ3Hs.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 157741,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Landman",
+          "overview": "Дії відбуваються у західному Техасі, місті, де стався справжній бум. Серіал розповідає історію пошуку багатства у світі нафтових свердловин, а також про життя робітників нафтових свердловин та мільярдерів. Ці мільярдери створюють бум такої величини, що він змінює наш клімат, економіку та геополітику.",
+          "popularity": 45.3309,
+          "poster_path": "/hYthRgS1nvQkGILn9YmqsF8kSk6.jpg",
+          "first_air_date": "2024-11-17",
+          "name": "Landman",
+          "vote_average": 8.037,
+          "vote_count": 434
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/39bifj2FNytJ2m1cqOBcWMTKgmV.jpg",
+          "genre_ids": [
+            18,
+            80
+          ],
+          "id": 97951,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Mayor of Kingstown",
+          "overview": "Історія про впливову родину МакЛаскі з Кінґстауна, штат Мічиган, де найприбутковішим вважається тюремний бізнес. Головні герої намагаються забезпечити порядок та справедливість у очолюваному мером Майком МаклЛаскі місті, де немає ні того, ні іншого.",
+          "popularity": 34.22,
+          "poster_path": "/ovM7nRcB2L3X03Rh1Bf9Bhg1sDJ.jpg",
+          "first_air_date": "2021-11-14",
+          "name": "Мер Кінґстауна",
+          "vote_average": 7.882,
+          "vote_count": 583
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ttB60pxSxMyyW9mIDlq89RLf0vQ.jpg",
+          "genre_ids": [
+            80,
+            18,
+            9648
+          ],
+          "id": 86848,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Evil",
+          "overview": "Крістен Бушар — судовий психолог при офісі окружного прокурора Нью-Йорку. Її робота полягає в тому, щоб оцінювати психічний стан підозрюваних у вбивствах людей перед тим, як ті повинні постати перед судом. Життя цієї жінки кардинально міняється, коли вона випадково знайомиться з Девідом Акостою — колишнім журналістом, який став католицьким священиком. Її досвід в аналізі людей дуже б знадобився при визначенні людей, кому необхідне психічне лікування, а кому справді потрібне звільнення від одержимості \"надприродними\" істотами. Компанію їм складе геній науки та технологій — скептично налаштований айтішник, якого мало що може здивувати зі світу \"потойбіччя\", адже він впевнений що все можна пояснити за допомогою науки.",
+          "popularity": 33.0202,
+          "poster_path": "/cfH1494DxB1m2IbS8vbUHGNc57F.jpg",
+          "first_air_date": "2019-09-26",
+          "name": "Зло",
+          "vote_average": 7.768,
+          "vote_count": 966
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/r0Zg70jpcDAD7IMDhVqajSnG9vb.jpg",
+          "genre_ids": [
+            18,
+            10768
+          ],
+          "id": 113962,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Lioness",
+          "overview": "Оперативниця ЦРУ Джо намагається збалансувати особисте та професійне життя, будучи вістрям списа у війні агентства з тероризмом.",
+          "popularity": 32.7196,
+          "poster_path": "/rs5xiB0nfs2hL6Hu8a9VuNL37Mo.jpg",
+          "first_air_date": "2023-07-23",
+          "name": "Спецзагін \"Левиця\"",
+          "vote_average": 8,
+          "vote_count": 1130
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ePr0k72sypMpZYubz6w34dcW68Y.jpg",
+          "genre_ids": [
+            10765,
+            10759,
+            18
+          ],
+          "id": 67198,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Star Trek: Discovery",
+          "overview": "За 10 років до подій оригінального серіалу, екіпаж корабля USS Discovery NCC-1031 відправляється в подорож, щоб вивчати глибокий космос, відкриваючи нові світи і цивілізації.",
+          "popularity": 32.0459,
+          "poster_path": "/6TkHxrRR06i4147am8FN2eFJ7kp.jpg",
+          "first_air_date": "2017-09-24",
+          "name": "Зоряний шлях: Дискавері",
+          "vote_average": 6.989,
+          "vote_count": 1967
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zW0v2YT74C6tRafzqqBkfSqLAN0.jpg",
+          "genre_ids": [
+            10765,
+            10759
+          ],
+          "id": 52814,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Halo",
+          "overview": "Історія про жорстоку війну із союзом інопланетних рас, де людство здає позиції, а останньою надією на виживання стає проект SPARTAN-II, ефективна зброя проти прибульців.",
+          "popularity": 31.3908,
+          "poster_path": "/gddlnMQlnNUSr1Qy9UDzH47IsuL.jpg",
+          "first_air_date": "2022-03-24",
+          "name": "Гало",
+          "vote_average": 8.213,
+          "vote_count": 3108
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wCdhtaLMNtQ37j4OEch4dSKXyoE.jpg",
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 62117,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Younger",
+          "overview": "Після розлучення сорокарічна жінка вдає із себе 26-річну асистентку, щоб отримати новий шанс у редакторській кар’єрі й почати життя спочатку.",
+          "popularity": 31.0078,
+          "poster_path": "/p2bLUWzzsxkwZtHWYkxNLnpYNVH.jpg",
+          "first_air_date": "2015-03-31",
+          "name": "Юна",
+          "vote_average": 6.812,
+          "vote_count": 231
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rXtSdCGmG07zjAg5h7GR1v52ogX.jpg",
+          "genre_ids": [
+            10765,
+            10759
+          ],
+          "id": 223530,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Star Trek: Starfleet Academy",
+          "overview": "Кадети Зоряного флоту проходять через дружбу, суперництво та перше кохання, готуючись стати офіцерами. Вони стикаються з новою загрозою, яка загрожує Академії та Федерації.",
+          "popularity": 30.025,
+          "poster_path": "/2ef0s8SyPXog7OQn8XaW78uw2E.jpg",
+          "first_air_date": "2026-01-15",
+          "name": "Зоряний шлях: Академія Зоряного флоту",
+          "vote_average": 4.8,
+          "vote_count": 129
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/nz6vpYyN1pEwBYeoAVIu2316d0z.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 69158,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Good Fight",
+          "overview": "У центрі сюжету — молода юристка Майя, репутацію якої знищила велика фінансова афера. До того ж скандал позбавив заощаджень її наставницю Діану Локхард. Разом з Майєю вона залишає агентство Lockhart & Lee та приєднується до команди Луки Куїнн.",
+          "popularity": 28.0403,
+          "poster_path": "/gm3LLf349qpYFmOg1i5VjHMvOmc.jpg",
+          "first_air_date": "2017-02-19",
+          "name": "Хороша боротьба",
+          "vote_average": 7.535,
+          "vote_count": 324
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tQqbbxBAdW2ql8vbOqMOJbtSQ7O.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 247718,
+          "origin_country": [
+            "GB",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "MobLand",
+          "overview": "Дві впливові злочинні династії – Гаррігани та Стівенсони , ведуть жорстоку війну за контроль над наркоринком та підпільним світом Лондона. Це кривава гра без правил, де кожен хід може стати фатальним. Головний герой, Гаррі да Соуза, опиняється в епіцентрі цього протистояння, намагаючись зберегти свою сім'ю та своє місце в ієрархії.",
+          "popularity": 27.0183,
+          "poster_path": "/bZ4BkHBrs3soGmd5PpMLbEHDh2e.jpg",
+          "first_air_date": "2025-03-30",
+          "name": "Земля Гангстерів",
+          "vote_average": 8.333,
+          "vote_count": 586
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vIioWssbxRtEkIzgj8r0pCWYkYM.jpg",
+          "genre_ids": [
+            18,
+            37
+          ],
+          "id": 157744,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "1923",
+          "overview": "Даттони стикаються з новими проблемами на початку 20-го століття, включаючи зростання західної експансії, сухий закон та Велику депресію.",
+          "popularity": 25.1875,
+          "poster_path": "/9m9R7mCEBfvnjm9swqd0gBd37v2.jpg",
+          "first_air_date": "2022-12-18",
+          "name": "Єллоустоун: 1923",
+          "vote_average": 8.217,
+          "vote_count": 707
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gG1UDKgnATgTPwoZzqIDlGvnBe1.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 54650,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Power",
+          "overview": "Багатий власник нічного клубу в Нью-Йорку хоче вибитися в міську еліту і веде подвійне життя, торгуючи наркотиками.",
+          "popularity": 22.6494,
+          "poster_path": "/2XxVlImAn4Da77th9TK5hqfBpDV.jpg",
+          "first_air_date": "2014-06-07",
+          "name": "Влада у нічному місті",
+          "vote_average": 7.671,
+          "vote_count": 1269
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/uQUHCqxHsG9blvtCoL7vluMG9Jp.jpg",
+          "genre_ids": [
+            18,
+            37
+          ],
+          "id": 118357,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "1883",
+          "overview": "Історія сім’ї Даттон та їхньої подорожі на захід через Великі рівнини до останнього бастіону дикої Америки. Суворий переказ західної експансії та інтенсивне дослідження однієї сім’ї, яка тікає від бідності, щоб шукати кращого майбутнього на обітованій землі Америки — Монтані.",
+          "popularity": 21.6915,
+          "poster_path": "/50EMw9HYyUVaFOyQhjEnlBpGBBJ.jpg",
+          "first_air_date": "2021-12-19",
+          "name": "Єллоустоун: 1883",
+          "vote_average": 8.263,
+          "vote_count": 870
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/A7lo83g09i3cDmLRKtDiiYN8w0z.jpg",
+          "genre_ids": [
+            18,
+            10759
+          ],
+          "id": 47665,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Black Sails",
+          "overview": "1715 рік. Золотий вік — вершина піратства в Карибському морі. Острів колишньої британської колонії Нью-Провіденс є територією беззаконня, контрольованою найвідомішими піратськими капітанами в історії. Найгрізнішим з них є капітан Флінт. Але британський флот повертається в ці води, погрожуючи знищити Флінта і його команду. Сповнений глибокими, складними, навіть романтичними мотивами, Флінт стає союзником Елеонори Ґатрі, дочки місцевого злодія в законі, який перетворює видобуток піратів в прибуток. Разом вони створюють план, полюючи за вищою нагородою, вигравши яку, вони зупинять захоплення свого будинку і забезпечать їх виживання.",
+          "popularity": 19.0852,
+          "poster_path": "/mZcSwrDdw6cdOVgXm496DgwrQcQ.jpg",
+          "first_air_date": "2014-01-25",
+          "name": "Чорні вітрила",
+          "vote_average": 7.606,
+          "vote_count": 1407
+        }
+      ]
+    },
+    {
+      "title": "🔥 Нові фільми",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/jxQIjkJBTyZSxN3yyilpR0ns6HA.jpg",
+          "genre_ids": [
+            28,
+            80
+          ],
+          "id": 1327690,
+          "original_language": "en",
+          "original_title": "One Mile: Chapter Two",
+          "overview": "",
+          "popularity": 19.9984,
+          "poster_path": "/3sjc9qXXmQoUWKQ3qIjS1nZaUJy.jpg",
+          "release_date": "2026-02-27",
+          "title": "One Mile: Chapter Two",
+          "video": false,
+          "vote_average": 7.3,
+          "vote_count": 28
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/nrNw1YMnKakUxzp8vjHnPmahoic.jpg",
+          "genre_ids": [
+            27,
+            9648,
+            80
+          ],
+          "id": 1159559,
+          "original_language": "en",
+          "original_title": "Scream 7",
+          "overview": "Коли в тихому містечку, де Сідні Прескотт зуміла почати нове життя, з’являється новий убивця в масці Примари, її давні страхи знову оживають — цього разу небезпека нависла над її донькою. Щоб урятувати близьких і остаточно зупинити кривавий цикл, Сідні доведеться знову зіткнутися з тінями минулого.",
+          "popularity": 187.7203,
+          "poster_path": "/1bKN2QriglJRbrmECHC57Xkk5bk.jpg",
+          "release_date": "2026-02-25",
+          "title": "Крик 7",
+          "video": false,
+          "vote_average": 5.889,
+          "vote_count": 157
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/xBORKTaQJTq3l7EdnTTnrZnYzYa.jpg",
+          "genre_ids": [
+            28,
+            80
+          ],
+          "id": 1327688,
+          "original_language": "en",
+          "original_title": "One Mile: Chapter One",
+          "overview": "",
+          "popularity": 43.883,
+          "poster_path": "/1GZaoYe0mQy211DgDSAxAXr30ul.jpg",
+          "release_date": "2026-02-20",
+          "title": "Одна миля: Глава перша",
+          "video": false,
+          "vote_average": 7.2,
+          "vote_count": 37
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9uakM2woks0JV8HKIc4oatIVS88.jpg",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "id": 1315303,
+          "original_language": "en",
+          "original_title": "Primate",
+          "overview": "Приїхавши додому з коледжу, Люсі дізнається, що їхній домашній шимпанзе вже не такий, яким був раніше . Заражена сказом тварина повертається до своєї дикої суті, перетворюючи відпустку друзів на моторошну, первісну історію жаху та виживання.",
+          "popularity": 43.3734,
+          "poster_path": "/gIlkYsoI4QREI2iWPIZoxiQqeh7.jpg",
+          "release_date": "2026-01-01",
+          "title": "Примат",
+          "video": false,
+          "vote_average": 6.582,
+          "vote_count": 422
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cGVgsM30hIvArB7UUAS1KlTedNL.jpg",
+          "genre_ids": [
+            28,
+            12,
+            16,
+            35,
+            10751
+          ],
+          "id": 1488195,
+          "original_language": "en",
+          "original_title": "Teenage Mutant Ninja Turtles: Chrome Alone 2 - Lost in New Jersey",
+          "overview": "",
+          "popularity": 2.6499,
+          "poster_path": "/nfn3KUIXqX2iW2eKnB8THzu8VEp.jpg",
+          "release_date": "2025-12-19",
+          "title": "Teenage Mutant Ninja Turtles: Chrome Alone 2 - Lost in New Jersey",
+          "video": false,
+          "vote_average": 6.833,
+          "vote_count": 12
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/aHj7d7wSLqrg5cjAcgHhiGr97Ih.jpg",
+          "genre_ids": [
+            28,
+            53,
+            878
+          ],
+          "id": 798645,
+          "original_language": "en",
+          "original_title": "The Running Man",
+          "overview": "У недалекому майбутньому світ розділився на еліту та пролетаріат. Для одних життя — це низка привілеї, для інших — боротьба за виживання. Єдиний шанс вибратися з бідності — взяти участь у смертельному реаліті-шоу «Людина, що біжить», де мисливці полюють на учасників, а глядачі жадають видовища. Бен Річардс, зневірений робітник, стає учасником гри, щоб урятувати сім’ю. Але він не просто втікач — він виклик системі. Тепер його переслідують не лише безжальні мисливці, а й сам творець шоу. Щоб вижити, він має змінити правила гри.",
+          "popularity": 29.5786,
+          "poster_path": "/q6Hm6sQVhJqOD38OGfDvvjOSwva.jpg",
+          "release_date": "2025-11-11",
+          "title": "Людина, що біжить",
+          "video": false,
+          "vote_average": 6.789,
+          "vote_count": 1201
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/yGH7ke2rbeSI4IZx90UzIrMlWLq.jpg",
+          "genre_ids": [
+            27,
+            18,
+            53
+          ],
+          "id": 787747,
+          "original_language": "en",
+          "original_title": "Shell",
+          "overview": "Відчайдушно прагнучи повернути собі кар’єру, колись улюблена публікою акторка Саманта Лейк потрапляє у гламурний світ магнатки індустрії велнесу Зої Шеннон — лише щоб відкрити жахливу правду під його бездоганною поверхнею.",
+          "popularity": 3.0492,
+          "poster_path": "/9CV0Pf6RoFCbTzwoeH6ypCRNyMK.jpg",
+          "release_date": "2025-10-01",
+          "title": "Маска",
+          "video": false,
+          "vote_average": 5.2,
+          "vote_count": 49
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/da1mXvCrQrFcw6BxovCavBFbIvz.jpg",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "id": 1251717,
+          "original_language": "en",
+          "original_title": "Vicious",
+          "overview": "Жінка проводить ніч у боротьбі за власне існування, занурюючись у кролячу нору, заховану всередині подарунка від нічного гостя.",
+          "popularity": 3.5395,
+          "poster_path": "/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+          "release_date": "2025-09-19",
+          "title": "Порочний",
+          "video": false,
+          "vote_average": 5.98,
+          "vote_count": 227
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kzeBfhXMRWiykBsqoL3UbfaM0S.jpg",
+          "genre_ids": [
+            28,
+            35,
+            80
+          ],
+          "id": 1035259,
+          "original_language": "en",
+          "original_title": "The Naked Gun",
+          "overview": "Лише одна людина має унікальний набір навичок… щоб очолити Поліцейський загін і врятувати світ: лейтенант Френк Дребін-молодший.",
+          "popularity": 19.1933,
+          "poster_path": "/shpxKMg35lrq5gJTZ4lpsIa8PrC.jpg",
+          "release_date": "2025-07-30",
+          "title": "Голий пістолет",
+          "video": false,
+          "vote_average": 6.394,
+          "vote_count": 1479
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3652bKfqSzSIMNVPpQv2FgE3gPT.jpg",
+          "genre_ids": [
+            10751,
+            35,
+            16
+          ],
+          "id": 1495506,
+          "original_language": "en",
+          "original_title": "SpongeBob SquarePants: Order Up",
+          "overview": "",
+          "popularity": 0.2824,
+          "poster_path": "/wR5tkXHpcJLGQA9HKDZcUMpxU50.jpg",
+          "release_date": "2025-07-18",
+          "title": "SpongeBob SquarePants: Order Up",
+          "video": false,
+          "vote_average": 7.2,
+          "vote_count": 6
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9whEVuKte4Qi0LI4TzPf7glinJW.jpg",
+          "genre_ids": [
+            16,
+            10751,
+            14
+          ],
+          "id": 936108,
+          "original_language": "en",
+          "original_title": "Smurfs",
+          "overview": "Коли Тата Смурфа таємниче викрадають підступні чаклуни Разамель і Ґарґамель, Смурфетка бере на себе відповідальність та очолює Смурфиків у новій захопливій пригоді, щоб визволити його. Разом із новими друзями Смурфики мають з'ясувати, що саме визначає їхню долю, аби врятувати Всесвіт.",
+          "popularity": 10.993,
+          "poster_path": "/hwqdWPc6uex3hJF2eCqjbK4uxxk.jpg",
+          "release_date": "2025-07-05",
+          "title": "Смурфи",
+          "video": false,
+          "vote_average": 5.874,
+          "vote_count": 243
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/538U9snNc2fpnOmYXAPUh3zn31H.jpg",
+          "genre_ids": [
+            28,
+            53,
+            12
+          ],
+          "id": 575265,
+          "original_language": "en",
+          "original_title": "Mission: Impossible - The Final Reckoning",
+          "overview": "Цього разу на головного героя очікує найбільш небезпечна та непередбачувана місія, в якій він має докласти максимум своїх професіональних зусиль, щоб зрештою знищити штучний інтелект, паралельно із цим зупинити свого давнього супротивника, який знову виходить на арену, аби втілити в реальність черговий підступний та зловісний план. Час фінальної розплати вже настав.",
+          "popularity": 38.4115,
+          "poster_path": "/4DbpxUw2HLT4VzPl8ILEpd6D7eS.jpg",
+          "release_date": "2025-05-17",
+          "title": "Місія неможлива: Фінальна розплата",
+          "video": false,
+          "vote_average": 7.188,
+          "vote_count": 2591
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lyBH2mFFU6qrHwD5QKotL2JnEb6.jpg",
+          "genre_ids": [
+            28,
+            35,
+            53
+          ],
+          "id": 1195506,
+          "original_language": "en",
+          "original_title": "Novocaine",
+          "overview": "Коли дівчину його мрії викрадають, звичайний хлопець Нейт перетворює свою нездатність відчувати біль на несподівану перевагу в боротьбі за її повернення.",
+          "popularity": 7.9167,
+          "poster_path": "/djoULp9QvfUa0Slo2qUBYKweM5b.jpg",
+          "release_date": "2025-03-12",
+          "title": "Новокаїн",
+          "video": false,
+          "vote_average": 6.803,
+          "vote_count": 1466
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/noPEm6Vu9Lm6QUdTGLOyRgk4M6s.jpg",
+          "genre_ids": [
+            28,
+            878,
+            35,
+            10751
+          ],
+          "id": 939243,
+          "original_language": "en",
+          "original_title": "Sonic the Hedgehog 3",
+          "overview": "Сонік, Наклз і Тейлз повертаються для нової грандіозної пригоди. Команда возз'єднується, щоб протистояти новому грізному ворогу — Шедоу, таємничому їжаку, який володіє неймовірними здібностями. Команді Соніка доведеться укласти несподіваний союз, якщо вони прагнуть зупинити Шедоу і врятувати планету.",
+          "popularity": 21.4762,
+          "poster_path": "/9U8WEuITXagHQWFQW48egF8oZeb.jpg",
+          "release_date": "2024-12-19",
+          "title": "Їжак Сонік 3",
+          "video": false,
+          "vote_average": 7.622,
+          "vote_count": 3153
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dGGjuaUR253aAZ2Zhto2Y9TR9l6.jpg",
+          "genre_ids": [
+            16,
+            9648,
+            878,
+            18
+          ],
+          "id": 1299652,
+          "original_language": "en",
+          "original_title": "Watchmen: Chapter II",
+          "overview": "",
+          "popularity": 3.557,
+          "poster_path": "/8R9FP8g3W32jAVvMwbTBnoOn78f.jpg",
+          "release_date": "2024-11-25",
+          "title": "Watchmen: Chapter II",
+          "video": false,
+          "vote_average": 7.295,
+          "vote_count": 161
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/yYQDu8yX2zZaCa1hUWD24jq3JRu.jpg",
+          "genre_ids": [
+            35,
+            14
+          ],
+          "id": 1097870,
+          "original_language": "en",
+          "original_title": "Dear Santa",
+          "overview": "Хлопчик випадково робить помилку і відправляє свій різдвяний список Сатані, а не Санті.",
+          "popularity": 3.3361,
+          "poster_path": "/ozN4jGMuW9GKn7q5h0lTNRqs4ga.jpg",
+          "release_date": "2024-11-24",
+          "title": "Дорогий Санта",
+          "video": false,
+          "vote_average": 6.238,
+          "vote_count": 476
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4hvK1uenpT7VVClzoNqXanvgdjX.jpg",
+          "genre_ids": [
+            28,
+            12,
+            18
+          ],
+          "id": 558449,
+          "original_language": "en",
+          "original_title": "Gladiator II",
+          "overview": "«Гладіатор II» продовжує епічну сагу про владу, помсту та інтриги, події якої відбуваються в Стародавньому Римі. Декілька років тому Луцій став свідком вбивства Максимуса від рук свого дядька. Тепер він змушений увійти в Колізей після того як його дім було зруйновано імператорами-тиранами, які тепер керують Римом. Оскільки на карту поставлено майбутнє імперії, Луцій повинен знайти у собі сили забути минуле та повернути Риму і його народу колишню славу.",
+          "popularity": 13.7608,
+          "poster_path": "/7QNBHpplXyffcaBPm0g0110fa7P.jpg",
+          "release_date": "2024-11-13",
+          "title": "Гладіатор II",
+          "video": false,
+          "vote_average": 6.632,
+          "vote_count": 4221
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iR79ciqhtaZ9BE7YFA1HpCHQgX4.jpg",
+          "genre_ids": [
+            27,
+            9648
+          ],
+          "id": 1100782,
+          "original_language": "en",
+          "original_title": "Smile 2",
+          "overview": "Світова поп-сенсація Скай Райлі планує вирушити у світове турне, проте дівчина починає переживати моторошні та незрозумілі події. Приголомшена наростанням жахів і тиском слави, Скай змушена зіткнутися зі своїм темним минулим, щоб відновити стабільність, перш ніж все вийде з-під контролю.",
+          "popularity": 7.0748,
+          "poster_path": "/nRuKw7aMtmACgZFVa9kZUO2wPgn.jpg",
+          "release_date": "2024-10-16",
+          "title": "Усміхайся 2",
+          "video": false,
+          "vote_average": 6.59,
+          "vote_count": 2014
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/bGwBlxl9Ht2zljBHfNQD0YCEtrk.jpg",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "id": 807339,
+          "original_language": "en",
+          "original_title": "Apartment 7A",
+          "overview": "Террі — танцівниця, яка на одному з виступів отримала травму ступні. Вона намагається повернутись на сцену, але провалює всі кастинги. Після чергової невдачі жінка зустрічає літню пару, яка пропонує їй безкоштовно пожити у квартирі по сусідству з ними. Згодом виявляється, що попередниця Террі померла загадковою смертю, літня пара практикує окультні ритуали.",
+          "popularity": 4.9047,
+          "poster_path": "/oMqkMgZ96asAqHx5UMHO6bmbk81.jpg",
+          "release_date": "2024-09-20",
+          "title": "Квартира 7А",
+          "video": false,
+          "vote_average": 6.126,
+          "vote_count": 376
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4cazJU7Jjb5EukxmT7XRCoO9VnV.jpg",
+          "genre_ids": [
+            16,
+            18,
+            878
+          ],
+          "id": 1155058,
+          "original_language": "en",
+          "original_title": "Watchmen: Chapter I",
+          "overview": "В альтернативній світовій історії, створеній супергероями, колись знаменитих «костюмованих шукачів пригод» заборонило суспільство, розчароване в лінчуванні. Тепер, у 1985 році, вбивство Комедіанта, героя, який став урядовим агентом, привертає увагу Роршаха, останнього з оголошених поза законом лінчувачів. Розслідування Роршаха втягує його колег на пенсії: Нічну Сову, Шовкову Примару, доктора Мангеттена і Озімандіаса, в конфлікт з їхнім минулим, один з одним і з таємницею, яка загрожує їхньому життю і світові, що стоїть на межі війни.",
+          "popularity": 1.7015,
+          "poster_path": "/28bc2f8aphWjrfLtJiFSIyUmF6h.jpg",
+          "release_date": "2024-08-12",
+          "title": "Вартові: Розділ I",
+          "video": false,
+          "vote_average": 7.383,
+          "vote_count": 214
+        }
+      ]
+    },
+    {
+      "title": "🏆 Топ Фільми",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/nrNw1YMnKakUxzp8vjHnPmahoic.jpg",
+          "genre_ids": [
+            27,
+            9648,
+            80
+          ],
+          "id": 1159559,
+          "original_language": "en",
+          "original_title": "Scream 7",
+          "overview": "Коли в тихому містечку, де Сідні Прескотт зуміла почати нове життя, з’являється новий убивця в масці Примари, її давні страхи знову оживають — цього разу небезпека нависла над її донькою. Щоб урятувати близьких і остаточно зупинити кривавий цикл, Сідні доведеться знову зіткнутися з тінями минулого.",
+          "popularity": 187.7203,
+          "poster_path": "/1bKN2QriglJRbrmECHC57Xkk5bk.jpg",
+          "release_date": "2026-02-25",
+          "title": "Крик 7",
+          "video": false,
+          "vote_average": 5.8,
+          "vote_count": 145
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9uakM2woks0JV8HKIc4oatIVS88.jpg",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "id": 1315303,
+          "original_language": "en",
+          "original_title": "Primate",
+          "overview": "Приїхавши додому з коледжу, Люсі дізнається, що їхній домашній шимпанзе вже не такий, яким був раніше . Заражена сказом тварина повертається до своєї дикої суті, перетворюючи відпустку друзів на моторошну, первісну історію жаху та виживання.",
+          "popularity": 43.3734,
+          "poster_path": "/gIlkYsoI4QREI2iWPIZoxiQqeh7.jpg",
+          "release_date": "2026-01-01",
+          "title": "Примат",
+          "video": false,
+          "vote_average": 6.575,
+          "vote_count": 420
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/538U9snNc2fpnOmYXAPUh3zn31H.jpg",
+          "genre_ids": [
+            28,
+            53,
+            12
+          ],
+          "id": 575265,
+          "original_language": "en",
+          "original_title": "Mission: Impossible - The Final Reckoning",
+          "overview": "Цього разу на головного героя очікує найбільш небезпечна та непередбачувана місія, в якій він має докласти максимум своїх професіональних зусиль, щоб зрештою знищити штучний інтелект, паралельно із цим зупинити свого давнього супротивника, який знову виходить на арену, аби втілити в реальність черговий підступний та зловісний план. Час фінальної розплати вже настав.",
+          "popularity": 38.4115,
+          "poster_path": "/4DbpxUw2HLT4VzPl8ILEpd6D7eS.jpg",
+          "release_date": "2025-05-17",
+          "title": "Місія неможлива: Фінальна розплата",
+          "video": false,
+          "vote_average": 7.188,
+          "vote_count": 2591
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tSPT36ZKlP2WVHJLM4cQPLSzv3b.jpg",
+          "genre_ids": [
+            18,
+            80
+          ],
+          "id": 238,
+          "original_language": "en",
+          "original_title": "The Godfather",
+          "overview": "Кримінальна сага, що оповідає про нью-йоркську сіцілійську мафіозну сім'ю Корлеоне. Фільм охоплює період 1945—1955 років. Глава сім'ї, Дон Віто Корлеоне, видає заміж свою дочку. В цей час з Другої світової війни повертається його улюблений син Майкл. Майкл, герой війни, гордість сім'ї, не висловлює бажання зайнятися жорстоким сімейним бізнесом. Дон Корлеоне веде справи за старими правилами, але настають інші часи, і з'являються люди, що бажають змінити порядки. На Дона Корлеоне здійснюється замах. Він одужує, але тимчасово втрачає можливість управляти справами сім'ї. Добробут і навіть виживання сім'ї поставлене під загрозу. І тут Майклу доводиться втрутитися. Заради сім'ї він здійснює подвійне вбивство, що вимушує його деякий час ховатися в Італії. Там він одружується, але при замаху на нього гине його молода дружина. Майкл повертається до Нью-Йорку і серйозно починає займатися справами сім'ї.",
+          "popularity": 34.6298,
+          "poster_path": "/3FhQJLfGuN6bplLeeEziAR9nPmV.jpg",
+          "release_date": "1972-03-14",
+          "title": "Хрещений батько",
+          "video": false,
+          "vote_average": 8.687,
+          "vote_count": 22525
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/xnHVX37XZEp33hhCbYlQFq7ux1J.jpg",
+          "genre_ids": [
+            18,
+            10749
+          ],
+          "id": 597,
+          "original_language": "en",
+          "original_title": "Titanic",
+          "overview": "Джек і Роуз, розділені класовими забобонами, по велінню долі знайшли один одного в першій подорожі «непотоплюваного» Титаніка. Але коли приречений, розкішний лайнер стикається з айсбергом в крижаній Північній Антлантиці, їх пристрасний роман перетворюється на захоплюючу гонку на виживання. На що здатне кохання? Чи врятуються вони...",
+          "popularity": 31.6572,
+          "poster_path": "/2XmEN166CfFcJIU62PYmVTxSm4p.jpg",
+          "release_date": "1997-12-18",
+          "title": "Титанік",
+          "video": false,
+          "vote_average": 7.903,
+          "vote_count": 26841
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/aHj7d7wSLqrg5cjAcgHhiGr97Ih.jpg",
+          "genre_ids": [
+            28,
+            53,
+            878
+          ],
+          "id": 798645,
+          "original_language": "en",
+          "original_title": "The Running Man",
+          "overview": "У недалекому майбутньому світ розділився на еліту та пролетаріат. Для одних життя — це низка привілеї, для інших — боротьба за виживання. Єдиний шанс вибратися з бідності — взяти участь у смертельному реаліті-шоу «Людина, що біжить», де мисливці полюють на учасників, а глядачі жадають видовища. Бен Річардс, зневірений робітник, стає учасником гри, щоб урятувати сім’ю. Але він не просто втікач — він виклик системі. Тепер його переслідують не лише безжальні мисливці, а й сам творець шоу. Щоб вижити, він має змінити правила гри.",
+          "popularity": 29.5786,
+          "poster_path": "/q6Hm6sQVhJqOD38OGfDvvjOSwva.jpg",
+          "release_date": "2025-11-11",
+          "title": "Людина, що біжить",
+          "video": false,
+          "vote_average": 6.786,
+          "vote_count": 1199
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
+          "genre_ids": [
+            28,
+            18
+          ],
+          "id": 361743,
+          "original_language": "en",
+          "original_title": "Top Gun: Maverick",
+          "overview": "Довгоочікуване повернення культової стрічки з Томом Крузом у головній ролі. Нові часи потребують нових героїв і породжують нових ворогів. Які виклики постануть перед безстрашним пілотом Меверіком цього разу?",
+          "popularity": 22.9523,
+          "poster_path": "/eYZrF3xCQaMYVD5VZa6YQGqWWzw.jpg",
+          "release_date": "2022-05-21",
+          "title": "Топ Ґан: Меверік",
+          "video": false,
+          "vote_average": 8.156,
+          "vote_count": 10620
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/67HggiWaP9ZLv5sPYmyRV37yAJM.jpg",
+          "genre_ids": [
+            35,
+            18,
+            10749
+          ],
+          "id": 13,
+          "original_language": "en",
+          "original_title": "Forrest Gump",
+          "overview": "Від особи головного героя Форреста Ґампа, недоумкуватого нешкідливого чоловіка з благородним і відкритим серцем, разповідається історія його незвичайного життя.  Фантастичним чином перетворюється він у відомого футболіста, героя війни, успішного бізнесмена. Він стає мільярдером, але залишається таким же нехитрим, придуркуватим і добрим. Форреста чекає постійний успіх у всьому, а він кохає дівчину, з якою дружив в дитинстві, але взаємність приходить дуже пізно.",
+          "popularity": 23.0911,
+          "poster_path": "/4Bjwrfv3GRCY71pWZvqN1gqoyU2.jpg",
+          "release_date": "1994-06-23",
+          "title": "Форрест Ґамп",
+          "video": false,
+          "vote_average": 8.462,
+          "vote_count": 29311
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/44immBwzhDVyjn87b3x3l9mlhAD.jpg",
+          "genre_ids": [
+            27,
+            53,
+            80
+          ],
+          "id": 934433,
+          "original_language": "en",
+          "original_title": "Scream VI",
+          "overview": "Четверо героїв, яким вдалося вижити після моторошного полювання маніяка у масці, покидають Вудсборо та нарешті починають нове життя в іншому місті. Та чи вдасться їм втекти від привидів минулого?",
+          "popularity": 22.9315,
+          "poster_path": "/kQJGeqrshYehFEYcJPJjkV7dnyb.jpg",
+          "release_date": "2023-03-08",
+          "title": "Крик VI",
+          "video": false,
+          "vote_average": 6.965,
+          "vote_count": 3059
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ifUfE79O1raUwbaQRIB7XnFz5ZC.jpg",
+          "genre_ids": [
+            27,
+            9648
+          ],
+          "id": 646385,
+          "original_language": "en",
+          "original_title": "Scream",
+          "overview": "Нове пришестя культового горора на великих екранах! Серійний маніяк в масці виходить на нове полювання. Які моторошні вбивства він замислив цього разу?",
+          "popularity": 23.7212,
+          "poster_path": "/SyVzlWdbryUYNbXYRrafaDCz7Y.jpg",
+          "release_date": "2022-01-12",
+          "title": "Крик",
+          "video": false,
+          "vote_average": 6.687,
+          "vote_count": 3740
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kzeBfhXMRWiykBsqoL3UbfaM0S.jpg",
+          "genre_ids": [
+            28,
+            35,
+            80
+          ],
+          "id": 1035259,
+          "original_language": "en",
+          "original_title": "The Naked Gun",
+          "overview": "Лише одна людина має унікальний набір навичок… щоб очолити Поліцейський загін і врятувати світ: лейтенант Френк Дребін-молодший.",
+          "popularity": 19.1933,
+          "poster_path": "/shpxKMg35lrq5gJTZ4lpsIa8PrC.jpg",
+          "release_date": "2025-07-30",
+          "title": "Голий пістолет",
+          "video": false,
+          "vote_average": 6.394,
+          "vote_count": 1478
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
+          "genre_ids": [
+            18,
+            80
+          ],
+          "id": 240,
+          "original_language": "en",
+          "original_title": "The Godfather Part II",
+          "overview": "Продовження \"Хрещеного батька\", зроблена так само майстерно. Майстерно змонтовані сцени минулого та сьогодення, Коппола в центр драми висуває представників нового покоління гангстерського клану дона Корлеоне та його сина, для яких не існує моральних перешкод на шляху досягнення власної мети. Вони перетворюють мафію, побудовану за патріархальними, ще сицилійськими законами, у цілком прагматичну, жорстку корпорацію, що поступово інтегрується у великий бізнес Америки.",
+          "popularity": 17.1064,
+          "poster_path": "/lxw7SulvT2iPHXk9Cf0UVXCM01Q.jpg",
+          "release_date": "1974-12-20",
+          "title": "Хрещений батько 2",
+          "video": false,
+          "vote_average": 8.571,
+          "vote_count": 13634
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/noPEm6Vu9Lm6QUdTGLOyRgk4M6s.jpg",
+          "genre_ids": [
+            28,
+            878,
+            35,
+            10751
+          ],
+          "id": 939243,
+          "original_language": "en",
+          "original_title": "Sonic the Hedgehog 3",
+          "overview": "Сонік, Наклз і Тейлз повертаються для нової грандіозної пригоди. Команда возз'єднується, щоб протистояти новому грізному ворогу — Шедоу, таємничому їжаку, який володіє неймовірними здібностями. Команді Соніка доведеться укласти несподіваний союз, якщо вони прагнуть зупинити Шедоу і врятувати планету.",
+          "popularity": 21.4762,
+          "poster_path": "/9U8WEuITXagHQWFQW48egF8oZeb.jpg",
+          "release_date": "2024-12-19",
+          "title": "Їжак Сонік 3",
+          "video": false,
+          "vote_average": 7.623,
+          "vote_count": 3151
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8xt8AMb1OKC63AdhNSaYBWxB4Iq.jpg",
+          "genre_ids": [
+            18,
+            53,
+            9648
+          ],
+          "id": 11324,
+          "original_language": "en",
+          "original_title": "Shutter Island",
+          "overview": "На відокремленому острові стоїть клініка для злочинців, яких визнали неосудними. Там вони проходять курс реабілітації. Це місце живе за своїми власними законами і втручання сторонніх тут не вітається. Однак двоє приставів були відправлені, щоб розслідувати зникнення однієї з ув’язнених. На острові їх очікують атмосфера загадковості і великої змови, а на додачу до всього героям доведеться пережити лють стихії та повстання місцевих пацієнтів.",
+          "popularity": 17.152,
+          "poster_path": "/oaTQbnBihg27C5N5Qm2FGewA0pg.jpg",
+          "release_date": "2010-02-14",
+          "title": "Острів проклятих",
+          "video": false,
+          "vote_average": 8.2,
+          "vote_count": 25480
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/aCHn2TXYJfzPXQKA6r9mKPbMlUB.jpg",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 37165,
+          "original_language": "en",
+          "original_title": "The Truman Show",
+          "overview": "Усе своє життя від самого народження Труман Бурбенк, навіть не здогадуючись про це, цілодобово проводить перед об'єктивами телекамер. Він безвиїзно живе і працює на маленькому острові Сігейвен, який насправді є знімальним майданчиком і населений акторами шоу, головним героєм якого і є Трумен. На тридцятому році життя у вигаданому світі Трумен через випадкову помилку знімальної групи починає замислюватися про несправжність Сігейвена і намагається втекти за його межі. Цьому активно перешкоджає керівник шоу Крістоф, який боїться втратити зірку свого проекту.",
+          "popularity": 14.222,
+          "poster_path": "/wf8m3EPke9X1qhkI44iGxAHIGD6.jpg",
+          "release_date": "1998-06-04",
+          "title": "Шоу Трумена",
+          "video": false,
+          "vote_average": 8.151,
+          "vote_count": 19850
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/uy2trYgO8MOQfQXlvMaLhBnkUqg.jpg",
+          "genre_ids": [
+            18,
+            28,
+            53
+          ],
+          "id": 7485,
+          "original_language": "en",
+          "original_title": "Shooter",
+          "overview": "Кращий снайпер морської піхоти Боб Лі Сваґґер залишає армію після провальної місії, і зникає, живучи усамітнено. Його вмовляють повернутися на службу аби допомогти перешкодити змові з метою вбивства президента. Зрештою підставлений за замах, Сваґґер стає об’єктом загальнонаціонального розшуку. Він вирушає на полювання на справжнього вбивцю та тих, хто його підставив, зрештою прагнучи помститися деяким із найвпливовіших і корумпованих лідерів у вільному світі.",
+          "popularity": 12.5595,
+          "poster_path": "/n3llPyhiFNxVnaAJ3gYWn16H1hC.jpg",
+          "release_date": "2007-03-22",
+          "title": "Стрілець",
+          "video": false,
+          "vote_average": 7.12,
+          "vote_count": 5328
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+          "genre_ids": [
+            28,
+            53,
+            12
+          ],
+          "id": 575264,
+          "original_language": "en",
+          "original_title": "Mission: Impossible - Dead Reckoning Part One",
+          "overview": "Агент Ітан Гант та його команда отримують нове завдання, де на них чекає найнебезпечніша місія за всю кар’єру – знайти та знешкодити зброю, яка загрожує безпеці людства, перш ніж та потрапить до чужих рук. Щоб зупинити могутнього ворога, Ітанові доведеться ризикнути усім, аби здійснити місію.",
+          "popularity": 12.9224,
+          "poster_path": "/n8XWrMrr7umlJFDyoXs9m2XccGU.jpg",
+          "release_date": "2023-07-08",
+          "title": "Місія неможлива: Розплата",
+          "video": false,
+          "vote_average": 7.508,
+          "vote_count": 4943
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2vFuG6bWGyQUzYS9d69E5l85nIz.jpg",
+          "genre_ids": [
+            878,
+            12,
+            28
+          ],
+          "id": 667538,
+          "original_language": "en",
+          "original_title": "Transformers: Rise of the Beasts",
+          "overview": "Події розгортаються у 1994 році. Двоє археологів із Нью-Йорку, Ной та Єлена, дізнаються про древній конфлікт, що триває між трьома фракціями Трансформерів: Максималами, Предаконами та Террорконами. Коли світ опиниться за крок до прірви, людству доведеться об’єднати сили в глобальному протистоянні.",
+          "popularity": 13.4754,
+          "poster_path": "/73tyKUtXZCgyUdHM5cAaoY4f0nM.jpg",
+          "release_date": "2023-06-06",
+          "title": "Трансформери: Час Звіроботів",
+          "video": false,
+          "vote_average": 7.185,
+          "vote_count": 5180
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4hvK1uenpT7VVClzoNqXanvgdjX.jpg",
+          "genre_ids": [
+            28,
+            12,
+            18
+          ],
+          "id": 558449,
+          "original_language": "en",
+          "original_title": "Gladiator II",
+          "overview": "«Гладіатор II» продовжує епічну сагу про владу, помсту та інтриги, події якої відбуваються в Стародавньому Римі. Декілька років тому Луцій став свідком вбивства Максимуса від рук свого дядька. Тепер він змушений увійти в Колізей після того як його дім було зруйновано імператорами-тиранами, які тепер керують Римом. Оскільки на карту поставлено майбутнє імперії, Луцій повинен знайти у собі сили забути минуле та повернути Риму і його народу колишню славу.",
+          "popularity": 13.7608,
+          "poster_path": "/7QNBHpplXyffcaBPm0g0110fa7P.jpg",
+          "release_date": "2024-11-13",
+          "title": "Гладіатор II",
+          "video": false,
+          "vote_average": 6.632,
+          "vote_count": 4220
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zPACwR32amTNvzId9qyapCWXYDJ.jpg",
+          "genre_ids": [
+            12,
+            28
+          ],
+          "id": 85,
+          "original_language": "en",
+          "original_title": "Raiders of the Lost Ark",
+          "overview": "Відомий археолог і фахівець з окультних наук доктор Джонс отримує небезпечне завдання від уряду США. Він повинен відправитися на пошуки унікальної реліквії - святого Ковчега. Але Індіана і не підозрює, що аналогічний наказ вже отримали таємні агенти Адольфа Гітлера...",
+          "popularity": 12.9438,
+          "poster_path": "/agyt42Ue42ekpTBfUEBbPdPBRff.jpg",
+          "release_date": "1981-06-12",
+          "title": "Індіана Джонс: У пошуках втраченого ковчега",
+          "video": false,
+          "vote_average": 7.921,
+          "vote_count": 13421
+        }
+      ]
     }
   ]
 }

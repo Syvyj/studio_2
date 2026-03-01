@@ -1,7 +1,7 @@
 {
   "title": "Сьогодні на Disney+",
-  "last_updated": "2026-02-22T21:48:31.200Z",
-  "results": [
+  "last_updated": "2026-03-01T21:34:47.666Z",
+  "main_row": [
     {
       "adult": false,
       "backdrop_path": "/llrSuUkFiR6EjDnh79dq8HEeziF.jpg",
@@ -16,40 +16,12 @@
       "original_language": "en",
       "original_name": "Memory of a Killer",
       "overview": "Коли у кілера Анджело діагностують ранню форму хвороби Альцгеймера, його світи зіштовхуються, наражаючи на небезпеку його родину.",
-      "popularity": 50.6855,
+      "popularity": 50.1379,
       "poster_path": "/kNMua9szfqSkuRYEy43ToIthsaM.jpg",
       "first_air_date": "2026-01-25",
       "name": "Пам'ять убивці",
-      "vote_average": 7.6,
-      "vote_count": 19,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
-      "genre_ids": [
-        18
-      ],
-      "id": 131142,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Love Story",
-      "overview": "Серіал досліджує стрімкий роман і гучний шлюб однієї з найзнаковіших пар ХХ століття — Джона Ф. Кеннеді-молодшого та Керолін Бессетт.",
-      "popularity": 44.006,
-      "poster_path": "/3HJjTbMrKaiMXxJHltUFat1r1P2.jpg",
-      "first_air_date": "2026-02-12",
-      "name": "Історія кохання",
-      "vote_average": 8.9,
-      "vote_count": 16,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": false
+      "vote_average": 7.7,
+      "vote_count": 20
     },
     {
       "adult": false,
@@ -65,16 +37,32 @@
       "original_language": "en",
       "original_name": "The Beauty",
       "overview": "Світ високої моди поринає в темряву, коли міжнародні супермоделі починають гинути жахливими й загадковими способами. Агентів ФБР Купера Медсена та Джордан Беннетт відправляють до Парижа, щоб розкрити правду. Заглиблюючись у розслідування, вони виявляють вірус, що передається статевим шляхом і перетворює звичайних людей на втілення фізичної досконалості — але з жахливими наслідками.",
-      "popularity": 42.8413,
+      "popularity": 41.2427,
       "poster_path": "/vCbWCw7fUdjYxLuNka5EOeLcQJE.jpg",
       "first_air_date": "2026-01-21",
       "name": "Краса",
-      "vote_average": 6.097,
-      "vote_count": 62,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.072,
+      "vote_count": 69
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 131142,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Love Story",
+      "overview": "Серіал досліджує стрімкий роман і гучний шлюб однієї з найзнаковіших пар ХХ століття — Джона Ф. Кеннеді-молодшого та Керолін Бессетт.",
+      "popularity": 33.3431,
+      "poster_path": "/3HJjTbMrKaiMXxJHltUFat1r1P2.jpg",
+      "first_air_date": "2026-02-12",
+      "name": "Історія кохання",
+      "vote_average": 9.026,
+      "vote_count": 19
     },
     {
       "adult": false,
@@ -88,17 +76,13 @@
       "original_language": "en",
       "original_title": "TRON: Ares",
       "overview": "«Трон: Арес» розповідає про надзвичайно розвинену програму Арес. ЇЇ відправляють із цифрового світу у реальний для виконання небезпечної місії, що стає першим контактом людства з істотами штучного інтелекту.",
-      "popularity": 30.2426,
+      "popularity": 26.9216,
       "poster_path": "/lEIK6aErE1Ff2tuq4zk2swULnhk.jpg",
       "release_date": "2025-10-08",
       "title": "Трон: Арес",
       "video": false,
-      "vote_average": 6.5,
-      "vote_count": 1205,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.477,
+      "vote_count": 1229
     },
     {
       "adult": false,
@@ -114,16 +98,12 @@
       "original_language": "en",
       "original_name": "Wonder Man",
       "overview": "Голлівудський актор Саймон Вільямс поринає у світ супергероїв, знаходячи власні сили та стаючи новим супергероєм Диво-чоловіком.",
-      "popularity": 27.9388,
+      "popularity": 21.2645,
       "poster_path": "/9a5jFPjnBHn0SL7YYd9HFMiM8oW.jpg",
       "first_air_date": "2026-01-27",
       "name": "Диво-чоловік",
-      "vote_average": 7.1,
-      "vote_count": 208,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 7.142,
+      "vote_count": 219
     },
     {
       "adult": false,
@@ -139,42 +119,33 @@
       "original_language": "en",
       "original_name": "Alien: Earth",
       "overview": "Коли таємничий космічний корабель зазнає аварії на Землі, молода жінка та різношерста група солдатів-тактиків роблять доленосне відкриття, яке ставить їх віч-на-віч з найбільшою загрозою планети.",
-      "popularity": 21.0035,
+      "popularity": 19.9011,
       "poster_path": "/8e8IKfP0tiR62cNsh4ZpSIWwUVJ.jpg",
       "first_air_date": "2025-08-12",
       "name": "Чужий: Земля",
-      "vote_average": 7.35,
-      "vote_count": 931,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 7.353,
+      "vote_count": 938
     },
     {
       "adult": false,
-      "backdrop_path": "/kiOEVg5BkzLE0pWoPKecXd7wZ2Q.jpg",
+      "backdrop_path": "/yQy9Y3p5INwkfTuHSnzYnz4MCV3.jpg",
       "genre_ids": [
-        10765,
-        80,
-        10759
+        35,
+        14,
+        10751,
+        10749
       ],
-      "id": 114471,
-      "origin_country": [
-        "US"
-      ],
+      "id": 1125257,
       "original_language": "en",
-      "original_name": "Ironheart",
-      "overview": "Після подій «Чорної Пантери: Ваканда назавжди» технології протистоять магії, коли юна геніальна винахідниця Рірі Вільямс повертається до рідного Чикаго, прагнучи заявити про себе у світі. Її унікальний підхід до створення залізних костюмів вражає геніальністю, але в гонитві за амбіціями вона опиняється у зв’язках із таємничим, проте чарівним Паркером Роббінсом, відомим як «Капюшон».",
-      "popularity": 11.9603,
-      "poster_path": "/mWAbDJE5Z7CdoPAa2kNBKeBfW2J.jpg",
-      "first_air_date": "2025-06-24",
-      "name": "Залізне серце",
-      "vote_average": 5.363,
-      "vote_count": 413,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "original_title": "Freakier Friday",
+      "overview": "Події розгортаються через роки після того, як Тесс і Анна пережили кризу ідентичності. Тепер у Анни є власна донька, а незабаром з’явиться й падчерка. Долаючи численні випробування, пов’язані з об’єднанням двох сімей, Тесс і Анна знову переконуються, що блискавка може вдарити двічі.",
+      "popularity": 9.3913,
+      "poster_path": "/rrGuqlTWcvs4mjbgJ8zNujDLgCU.jpg",
+      "release_date": "2025-08-06",
+      "title": "Ще одна шалена п'ятниця",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 621
     },
     {
       "adult": false,
@@ -191,16 +162,54 @@
       "original_language": "en",
       "original_name": "Marvel Zombies",
       "overview": "Після того, як «Месники» були охоплені зомбі-чумою, група вцілілих відкриває ключ до зупинки надпотужних мерців. Вони мчать крізь дистопійні краєвиди та ризикують життям, аби врятувати свій світ.",
-      "popularity": 9.354,
+      "popularity": 7.8849,
       "poster_path": "/bOsPcaqY4PseEd88oT6vNepEj5S.jpg",
       "first_air_date": "2025-09-24",
       "name": "Marvel Zombies",
-      "vote_average": 7.233,
-      "vote_count": 302,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 7.24,
+      "vote_count": 302
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/TMfV5xdAEZhzGN9MYXYomuhePz.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 273247,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Lowdown",
+      "overview": "Власник книгарні у Талсі Лі Рейбон підробляє журналістом та розслідує місцеву корупцію. Коли член впливової сім'ї вмирає, Лі підозрює, що смерть була насильницькою і починає власне розслідування.",
+      "popularity": 7.3125,
+      "poster_path": "/l6ehYzF2Pp9nPTsJkSYJPrEctoB.jpg",
+      "first_air_date": "2025-09-23",
+      "name": "Підспідок",
+      "vote_average": 6.677,
+      "vote_count": 47
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fRi1Qf51rtFzrYM3gvl9ihGjT5Q.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 291084,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Best Medicine",
+      "overview": "",
+      "popularity": 7.179,
+      "poster_path": "/AsnoR1hjEtN2IAJ1CVlssNxFpSO.jpg",
+      "first_air_date": "2026-01-04",
+      "name": "Best Medicine",
+      "vote_average": 7.214,
+      "vote_count": 14
     },
     {
       "adult": false,
@@ -217,65 +226,12 @@
       "original_language": "en",
       "original_name": "Eyes of Wakanda",
       "overview": "Слідуйте за пригодами відважних воїнів Ваканди крізь історію у цій подорожі світом, де вони виконують небезпечні місії, щоб повернути артефакти з вібраніуму, викрадені ворогами Ваканди. Вони — Хатут Заразе, і це їхня історія.",
-      "popularity": 8.5073,
+      "popularity": 7.1677,
       "poster_path": "/binvhtqsyfCVwS0GEFka5ruKxPJ.jpg",
       "first_air_date": "2025-08-01",
       "name": "Очі Ваканди",
-      "vote_average": 6.114,
-      "vote_count": 149,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/TMfV5xdAEZhzGN9MYXYomuhePz.jpg",
-      "genre_ids": [
-        80,
-        18
-      ],
-      "id": 273247,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "The Lowdown",
-      "overview": "Власник книгарні у Талсі Лі Рейбон підробляє журналістом та розслідує місцеву корупцію. Коли член впливової сім'ї вмирає, Лі підозрює, що смерть була насильницькою і починає власне розслідування.",
-      "popularity": 8.0003,
-      "poster_path": "/l6ehYzF2Pp9nPTsJkSYJPrEctoB.jpg",
-      "first_air_date": "2025-09-23",
-      "name": "Підспідок",
-      "vote_average": 6.677,
-      "vote_count": 47,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/yQy9Y3p5INwkfTuHSnzYnz4MCV3.jpg",
-      "genre_ids": [
-        35,
-        14,
-        10751
-      ],
-      "id": 1125257,
-      "original_language": "en",
-      "original_title": "Freakier Friday",
-      "overview": "Події розгортаються через роки після того, як Тесс і Анна пережили кризу ідентичності. Тепер у Анни є власна донька, а незабаром з’явиться й падчерка. Долаючи численні випробування, пов’язані з об’єднанням двох сімей, Тесс і Анна знову переконуються, що блискавка може вдарити двічі.",
-      "popularity": 7.3269,
-      "poster_path": "/rrGuqlTWcvs4mjbgJ8zNujDLgCU.jpg",
-      "release_date": "2025-08-06",
-      "title": "Ще одна шалена п'ятниця",
-      "video": false,
-      "vote_average": 6.86,
-      "vote_count": 618,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.15,
+      "vote_count": 153
     },
     {
       "adult": false,
@@ -290,65 +246,12 @@
       "original_language": "es",
       "original_name": "Hija del fuego: La venganza de la bastarda",
       "overview": "",
-      "popularity": 7.1136,
+      "popularity": 6.4926,
       "poster_path": "/4WRrWmk5BJhlBOFEK0VWWFxamqU.jpg",
       "first_air_date": "2025-11-19",
       "name": "Hija del fuego: La venganza de la bastarda",
       "vote_average": 7.667,
-      "vote_count": 9,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/fRi1Qf51rtFzrYM3gvl9ihGjT5Q.jpg",
-      "genre_ids": [
-        35,
-        18
-      ],
-      "id": 291084,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Best Medicine",
-      "overview": "",
-      "popularity": 7.046,
-      "poster_path": "/AsnoR1hjEtN2IAJ1CVlssNxFpSO.jpg",
-      "first_air_date": "2026-01-04",
-      "name": "Best Medicine",
-      "vote_average": 7.692,
-      "vote_count": 13,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/bqkDYOXQGEdrB4OWGlkoYi0QdT.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 233264,
-      "origin_country": [
-        "GB"
-      ],
-      "original_language": "en",
-      "original_name": "Sneaker Wars: Adidas V. Puma",
-      "overview": "",
-      "popularity": 5.3461,
-      "poster_path": "/h7GOoIGNKdPsQUDI951Zwv5PfR.jpg",
-      "first_air_date": "2025-09-24",
-      "name": "Sneaker Wars: Adidas V. Puma",
-      "vote_average": 7.667,
-      "vote_count": 6,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 9
     },
     {
       "adult": false,
@@ -366,16 +269,12 @@
       "original_language": "en",
       "original_name": "Fortnite x The Simpsons",
       "overview": "",
-      "popularity": 5.3033,
+      "popularity": 6.2504,
       "poster_path": "/lr3gn5BN80kc2vkmTOlPuHZlLP.jpg",
       "first_air_date": "2025-11-01",
       "name": "Fortnite x The Simpsons",
-      "vote_average": 6.611,
-      "vote_count": 27,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 6.617,
+      "vote_count": 30
     },
     {
       "adult": false,
@@ -389,17 +288,13 @@
       "original_language": "en",
       "original_title": "Diary of a Wimpy Kid: The Last Straw",
       "overview": "",
-      "popularity": 3.9547,
+      "popularity": 4.3279,
       "poster_path": "/emcCjpC289NxAGuVwlItHCTrgT7.jpg",
       "release_date": "2025-12-04",
       "title": "Diary of a Wimpy Kid: The Last Straw",
       "video": false,
-      "vote_average": 6.769,
-      "vote_count": 26,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 6.815,
+      "vote_count": 27
     },
     {
       "adult": false,
@@ -414,16 +309,32 @@
       "original_language": "es",
       "original_name": "Mar afuera",
       "overview": "",
-      "popularity": 3.4553,
+      "popularity": 3.6449,
       "poster_path": "/ftkwk1iDB0deK0bKwitRLWaKouE.jpg",
       "first_air_date": "2025-09-14",
       "name": "Mar afuera",
       "vote_average": 7.188,
-      "vote_count": 16,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 16
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bqkDYOXQGEdrB4OWGlkoYi0QdT.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 233264,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Sneaker Wars: Adidas V. Puma",
+      "overview": "",
+      "popularity": 3.3606,
+      "poster_path": "/h7GOoIGNKdPsQUDI951Zwv5PfR.jpg",
+      "first_air_date": "2025-09-24",
+      "name": "Sneaker Wars: Adidas V. Puma",
+      "vote_average": 7.857,
+      "vote_count": 7
     },
     {
       "adult": false,
@@ -439,16 +350,12 @@
       "original_language": "fr",
       "original_name": "Les Disparues de la gare",
       "overview": "",
-      "popularity": 2.9736,
+      "popularity": 2.6952,
       "poster_path": "/rluDNclq0gQaQjbDuTDvsnYSXxs.jpg",
       "first_air_date": "2025-10-08",
       "name": "Les Disparues de la gare",
-      "vote_average": 7.593,
-      "vote_count": 27,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_average": 7.536,
+      "vote_count": 28
     },
     {
       "adult": false,
@@ -463,45 +370,1718 @@
       "original_language": "en",
       "original_name": "Fire and Water: Making the Avatar Films",
       "overview": "",
-      "popularity": 2.8811,
+      "popularity": 2.6584,
       "poster_path": "/1Jv4WlLRA659DdZIXOR2f6hZGz8.jpg",
       "first_air_date": "2025-11-07",
       "name": "Fire and Water: Making the Avatar Films",
       "vote_average": 6.7,
-      "vote_count": 7,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_count": 7
     },
     {
       "adult": false,
-      "backdrop_path": "/dPVOvmaar7tLTLIMlEk0rc8uRIs.jpg",
+      "backdrop_path": "/gtR3IGkb0X1qwPZxFFbDViDLrxX.jpg",
       "genre_ids": [
-        10751,
-        16,
-        10765,
-        10759
+        18,
+        80
       ],
-      "id": 305165,
+      "id": 277702,
       "origin_country": [
-        "CA",
-        "DK",
-        "US"
+        "AR"
       ],
-      "original_language": "en",
-      "original_name": "LEGO Marvel Avengers: Strange Tails",
+      "original_language": "es",
+      "original_name": "Quebranto",
       "overview": "",
-      "popularity": 2.8398,
-      "poster_path": "/6MhzH93izyEvVO15qgM8UJNvY4z.jpg",
-      "first_air_date": "2025-11-14",
-      "name": "LEGO Marvel Avengers: Strange Tails",
-      "vote_average": 5.6,
-      "vote_count": 8,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": true
+      "popularity": 2.6289,
+      "poster_path": "/9vahoC2zp3egFmhS12hQY6dSnm8.jpg",
+      "first_air_date": "2025-08-15",
+      "name": "Quebranto",
+      "vote_average": 7.882,
+      "vote_count": 17
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aQiLb3L29b7qnnHyZ8EqM6hQzp6.jpg",
+      "genre_ids": [
+        80,
+        18,
+        9648
+      ],
+      "id": 281555,
+      "origin_country": [
+        "SE"
+      ],
+      "original_language": "sv",
+      "original_name": "Koka björn",
+      "overview": "",
+      "popularity": 2.4816,
+      "poster_path": "/ovUPzm0pE4W7iXQIvI87VwOWJzG.jpg",
+      "first_air_date": "2025-10-15",
+      "name": "Koka björn",
+      "vote_average": 7.792,
+      "vote_count": 24
+    }
+  ],
+  "categories": [
+    {
+      "title": "🔥 Нові серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 131142,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Love Story",
+          "overview": "Серіал досліджує стрімкий роман і гучний шлюб однієї з найзнаковіших пар ХХ століття — Джона Ф. Кеннеді-молодшого та Керолін Бессетт.",
+          "popularity": 33.3431,
+          "poster_path": "/3HJjTbMrKaiMXxJHltUFat1r1P2.jpg",
+          "first_air_date": "2026-02-12",
+          "name": "Історія кохання",
+          "vote_average": 9.026,
+          "vote_count": 19
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ldz9THIHaV4orMsUrPT1nlQF51T.jpg",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 198178,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Wonder Man",
+          "overview": "Голлівудський актор Саймон Вільямс поринає у світ супергероїв, знаходячи власні сили та стаючи новим супергероєм Диво-чоловіком.",
+          "popularity": 21.2645,
+          "poster_path": "/9a5jFPjnBHn0SL7YYd9HFMiM8oW.jpg",
+          "first_air_date": "2026-01-27",
+          "name": "Диво-чоловік",
+          "vote_average": 7.142,
+          "vote_count": 219
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/llrSuUkFiR6EjDnh79dq8HEeziF.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 291339,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Memory of a Killer",
+          "overview": "Коли у кілера Анджело діагностують ранню форму хвороби Альцгеймера, його світи зіштовхуються, наражаючи на небезпеку його родину.",
+          "popularity": 50.1379,
+          "poster_path": "/kNMua9szfqSkuRYEy43ToIthsaM.jpg",
+          "first_air_date": "2026-01-25",
+          "name": "Пам'ять убивці",
+          "vote_average": 7.7,
+          "vote_count": 20
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
+          "genre_ids": [
+            18,
+            10765
+          ],
+          "id": 273160,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Beauty",
+          "overview": "Світ високої моди поринає в темряву, коли міжнародні супермоделі починають гинути жахливими й загадковими способами. Агентів ФБР Купера Медсена та Джордан Беннетт відправляють до Парижа, щоб розкрити правду. Заглиблюючись у розслідування, вони виявляють вірус, що передається статевим шляхом і перетворює звичайних людей на втілення фізичної досконалості — але з жахливими наслідками.",
+          "popularity": 41.2427,
+          "poster_path": "/vCbWCw7fUdjYxLuNka5EOeLcQJE.jpg",
+          "first_air_date": "2026-01-21",
+          "name": "Краса",
+          "vote_average": 6.072,
+          "vote_count": 69
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3rfOHUwNCzUv9cDgTayny0dwUhK.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 297024,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Fear Factor: House of Fear",
+          "overview": "",
+          "popularity": 0.8087,
+          "poster_path": "/t9U95eNaip1vnmzfgj6kSiyVtAR.jpg",
+          "first_air_date": "2026-01-11",
+          "name": "Fear Factor: House of Fear",
+          "vote_average": 5.8,
+          "vote_count": 5
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/fRi1Qf51rtFzrYM3gvl9ihGjT5Q.jpg",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 291084,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Best Medicine",
+          "overview": "",
+          "popularity": 7.179,
+          "poster_path": "/AsnoR1hjEtN2IAJ1CVlssNxFpSO.jpg",
+          "first_air_date": "2026-01-04",
+          "name": "Best Medicine",
+          "vote_average": 7.214,
+          "vote_count": 14
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/nrcsXRU6u056rtl520M0iiBta6o.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 302919,
+          "origin_country": [
+            "GB",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The End of an Era",
+          "overview": "",
+          "popularity": 2.3132,
+          "poster_path": "/8qEyRXQMC3L77fjY924qcoxaaVs.jpg",
+          "first_air_date": "2025-12-12",
+          "name": "The End of an Era",
+          "vote_average": 8.7,
+          "vote_count": 42
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zssSmaV1VF0l7GHiVCsRctMK50v.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 297025,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Next Level Baker",
+          "overview": "",
+          "popularity": 0.8016,
+          "poster_path": "/AeR0JF0FGNKAs7UorVLl4Msel2T.jpg",
+          "first_air_date": "2025-12-04",
+          "name": "Next Level Baker",
+          "vote_average": 6.5,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ch25hghTZkXFfcx7v2r7cGKKizl.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 304790,
+          "origin_country": [
+            "AR"
+          ],
+          "original_language": "es",
+          "original_name": "Hija del fuego: La venganza de la bastarda",
+          "overview": "",
+          "popularity": 6.4926,
+          "poster_path": "/4WRrWmk5BJhlBOFEK0VWWFxamqU.jpg",
+          "first_air_date": "2025-11-19",
+          "name": "Hija del fuego: La venganza de la bastarda",
+          "vote_average": 7.667,
+          "vote_count": 9
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dPVOvmaar7tLTLIMlEk0rc8uRIs.jpg",
+          "genre_ids": [
+            10751,
+            16,
+            10765,
+            10759
+          ],
+          "id": 305165,
+          "origin_country": [
+            "CA",
+            "DK",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "LEGO Marvel Avengers: Strange Tails",
+          "overview": "",
+          "popularity": 2.2817,
+          "poster_path": "/6MhzH93izyEvVO15qgM8UJNvY4z.jpg",
+          "first_air_date": "2025-11-14",
+          "name": "LEGO Marvel Avengers: Strange Tails",
+          "vote_average": 5.6,
+          "vote_count": 8
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/aG9s3eFH5a7rEzF4843XxDsZkGn.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 303649,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Caroline Flack: Search for the Truth",
+          "overview": "",
+          "popularity": 0.4698,
+          "poster_path": "/libvyWPKCL1OI0A5LsGIqSXNs3f.jpg",
+          "first_air_date": "2025-11-10",
+          "name": "Caroline Flack: Search for the Truth",
+          "vote_average": 9,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3jun6V4bkYQ6GzMNXzPCXVi2wBN.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 304354,
+          "origin_country": [
+            "AR",
+            "MX"
+          ],
+          "original_language": "es",
+          "original_name": "La peor vuelta al mundo",
+          "overview": "",
+          "popularity": 0.4542,
+          "poster_path": "/a2M1Lw4jIEyHmUfQusD7OTEYK9M.jpg",
+          "first_air_date": "2025-11-07",
+          "name": "La peor vuelta al mundo",
+          "vote_average": 9,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/nZKcaSSV7NaGfuPeE6N4Xt5St7E.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 303109,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Fire and Water: Making the Avatar Films",
+          "overview": "",
+          "popularity": 2.6584,
+          "poster_path": "/1Jv4WlLRA659DdZIXOR2f6hZGz8.jpg",
+          "first_air_date": "2025-11-07",
+          "name": "Fire and Water: Making the Avatar Films",
+          "vote_average": 6.7,
+          "vote_count": 7
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/z0HHrV0t1NsnrHJK6dbkJbIu2Nb.jpg",
+          "genre_ids": [
+            35,
+            16,
+            10765,
+            10759
+          ],
+          "id": 304530,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Fortnite x The Simpsons",
+          "overview": "",
+          "popularity": 6.2504,
+          "poster_path": "/lr3gn5BN80kc2vkmTOlPuHZlLP.jpg",
+          "first_air_date": "2025-11-01",
+          "name": "Fortnite x The Simpsons",
+          "vote_average": 6.617,
+          "vote_count": 30
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9FGsMeSPVIsCis1EgWdMO26k3Jt.jpg",
+          "genre_ids": [
+            10762,
+            35,
+            10751
+          ],
+          "id": 285889,
+          "origin_country": [
+            "AR"
+          ],
+          "original_language": "es",
+          "original_name": "Playback: Una somos dos",
+          "overview": "",
+          "popularity": 1.0082,
+          "poster_path": "/zY115hZIOJ7O1KW2L6nva2x3AjM.jpg",
+          "first_air_date": "2025-10-29",
+          "name": "Playback: Una somos dos",
+          "vote_average": 8,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mkaNtktJwAASDMMhK7Mh22kOAko.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 278274,
+          "origin_country": [
+            "ES"
+          ],
+          "original_language": "es",
+          "original_name": "Entrepreneurs",
+          "overview": "",
+          "popularity": 1.5485,
+          "poster_path": "/dk0cSgzkceAyNKtgfhAbKULlnps.jpg",
+          "first_air_date": "2025-10-23",
+          "name": "Entrepreneurs",
+          "vote_average": 6.2,
+          "vote_count": 11
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/aQiLb3L29b7qnnHyZ8EqM6hQzp6.jpg",
+          "genre_ids": [
+            80,
+            18,
+            9648
+          ],
+          "id": 281555,
+          "origin_country": [
+            "SE"
+          ],
+          "original_language": "sv",
+          "original_name": "Koka björn",
+          "overview": "",
+          "popularity": 2.4816,
+          "poster_path": "/ovUPzm0pE4W7iXQIvI87VwOWJzG.jpg",
+          "first_air_date": "2025-10-15",
+          "name": "Koka björn",
+          "vote_average": 7.792,
+          "vote_count": 24
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/6iGEQZUYugExJjmT5KWVKKNUxKA.jpg",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 242907,
+          "origin_country": [
+            "ES"
+          ],
+          "original_language": "es",
+          "original_name": "La suerte",
+          "overview": "",
+          "popularity": 2.0412,
+          "poster_path": "/k9ibdbWVF0qptcQQN6nqz4NlRhC.jpg",
+          "first_air_date": "2025-10-08",
+          "name": "La suerte",
+          "vote_average": 6.346,
+          "vote_count": 13
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kXBr9CWrutta2PxUkbYlI9EXrC8.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 237052,
+          "origin_country": [
+            "FR"
+          ],
+          "original_language": "fr",
+          "original_name": "Les Disparues de la gare",
+          "overview": "",
+          "popularity": 2.6952,
+          "poster_path": "/rluDNclq0gQaQjbDuTDvsnYSXxs.jpg",
+          "first_air_date": "2025-10-08",
+          "name": "Les Disparues de la gare",
+          "vote_average": 7.536,
+          "vote_count": 28
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/bqkDYOXQGEdrB4OWGlkoYi0QdT.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 233264,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Sneaker Wars: Adidas V. Puma",
+          "overview": "",
+          "popularity": 3.3606,
+          "poster_path": "/h7GOoIGNKdPsQUDI951Zwv5PfR.jpg",
+          "first_air_date": "2025-09-24",
+          "name": "Sneaker Wars: Adidas V. Puma",
+          "vote_average": 7.857,
+          "vote_count": 7
+        }
+      ]
+    },
+    {
+      "title": "🏆 Топ Серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/ukzJIPKTTSUzdr7jQoGKdrvZGk7.jpg",
+          "genre_ids": [
+            10751,
+            16,
+            35
+          ],
+          "id": 456,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Simpsons",
+          "overview": "Американський анімаційний серіал, створений Меттом Ґрейнінґом для компанії Fox. Мультсеріал — сатирична пародія на стиль життя середнього класу США, втілена в сім'ї Сімпсонів, яка складається з Гомера, Мардж, Барта, Ліси та Меґґі. Більшість подій відбуваються у вигаданому містечку Спрингфілді. Шоу висміює численні аспекти життя людей, американську культуру, суспільство, навіть американське телебачення.",
+          "popularity": 203.2471,
+          "poster_path": "/aNFV1eTckRkyGyCsXkWiEOSeM8X.jpg",
+          "first_air_date": "1989-12-17",
+          "name": "Сімпсони",
+          "vote_average": 8.012,
+          "vote_count": 10590
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
+          "genre_ids": [
+            16,
+            35
+          ],
+          "id": 1434,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Family Guy",
+          "overview": "У центрі подій — Ґріффіни — неблагонадійна родина, що складається з батьків Пітера та Лоїс, їх дітей Меґ, Кріса та Стюї, та антропоморфного собаки Брайана. Сім'я часто потрапляє у різноманітні буденні халепи, при цьому серіал висміює явища американської культури, політики, та повсякдення.",
+          "popularity": 162.7998,
+          "poster_path": "/8n2a3XX5fOxYq6geOSLlNmNpoiM.jpg",
+          "first_air_date": "1999-01-31",
+          "name": "Сім'янин",
+          "vote_average": 7.391,
+          "vote_count": 4815
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/r0Q6eeN9L1ORL9QsV0Sg8ZV3vnv.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 1408,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "House",
+          "overview": "Доктор Грегорі Хаус – геніальний лікар, який ходить із тростиною, бо його м'язовий інфаркт у правій нозі запізно діагностували. Він явний мізантроп і уникає спілкування з людьми. Часом його поведінку можна назвати майже нелюдяною... Водночас Хаус любить розгадувати медичні загадки, що допомагає рятувати життя.",
+          "popularity": 144.1915,
+          "poster_path": "/iwgOYLcWpJq2ndnwigQlYO9vhSA.jpg",
+          "first_air_date": "2004-11-16",
+          "name": "Доктор Хаус",
+          "vote_average": 8.576,
+          "vote_count": 7372
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4AXxajuAz9tHAOe6h5zDg8z1X2s.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 1911,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Bones",
+          "overview": "Серіал присвячений розкриттю злочинів, які розслідує спеціальний агент ФБР Сілі Бут за допомогою команди антропологів з Джефферсонський інституту (алюзія на Смітсонівський інститут) під керівництвом доктора Темперенс Бреннан на прізвисько «Кістки». Доктор Бреннан і її команда, як правило, отримують справи, де від тіла вбитого залишилися тільки кістки або ж розкладені залишки. Крім злочинів у серіалі також розкриваються особисті взаємини між основними персонажами, включаючи потенційний роман між Бутом і Бреннан.  Літературною основою персонажів серіалу є цикл детективних романів Кеті Райкс, головною героїнею яких є доктор Бреннан. Наразі опубліковано 12 книг. Кеті Райкс є дипломованим антропологом, яка здійснювала судмедекспертизи для ФБР, і образ доктора Бреннан в книгах багато в чому є її альтер-его. Кеті Райкс також виступає продюсером даного серіалу. У серіалі Бреннан теж пише детективніромани, причому героїню її романів звуть Кеті Райкс.",
+          "popularity": 127.7632,
+          "poster_path": "/pv4yMth5mnMp7SAzkLw4zeI7fVw.jpg",
+          "first_air_date": "2005-09-13",
+          "name": "Кістки ",
+          "vote_average": 8.199,
+          "vote_count": 3403
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/w00lfexrsOeR25dO4hsWhbcUnmD.jpg",
+          "genre_ids": [
+            9648,
+            10765,
+            80
+          ],
+          "id": 4087,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The X-Files",
+          "overview": "У серіалі, спецагенти ФБР Фокс Малдер і Дейна Скаллі працюють у відділі \"X-Files\", який спеціалізується на дивних нерозкритих справах, що пов'язані з паранормальними явищами. Малдер вірить у існування іншопланетян і надприродних речей, а от Скаллі, котра за вдачею є скептиком, пропагує в усьому науковий підхід і часто-густо не погоджується з неймовірними теоріями свого напарника.",
+          "popularity": 98.2992,
+          "poster_path": "/3mYa5XNOFGqe62V7RRl33MlaI5h.jpg",
+          "first_air_date": "1993-09-10",
+          "name": "Цілком таємно",
+          "vote_average": 8.4,
+          "vote_count": 3460
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ncftkNAjIz2PBbUMY7T0CHVJP8d.jpg",
+          "genre_ids": [
+            80,
+            10765
+          ],
+          "id": 63174,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Lucifer",
+          "overview": "Знудившись у пеклі, володар пекла переїжджає до Лос-Анджелеса, де відкриває нічний клуб і знайомиться з працівницею відділу розслідування вбивств.",
+          "popularity": 93.1682,
+          "poster_path": "/kdLZ6aGgHDSk13kJvMloIpiXrui.jpg",
+          "first_air_date": "2016-01-25",
+          "name": "Люцифер",
+          "vote_average": 8.436,
+          "vote_count": 15311
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/be6mDIMv7cg8duWkcYVnTB8rphO.jpg",
+          "genre_ids": [
+            10759,
+            18,
+            80
+          ],
+          "id": 1973,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "24",
+          "overview": "Що можна зробити за добу? 24 години — це не так багато, але як скаже Джек Бауер, нехай цього часу завжди не вистачає, за добу він зуміє зробити неможливе. Джек Бауер працює в ЦРУ, займається справами, пов’язаними з тероризмом.\n\nЗа добу він повинен творити неймовірне — наприклад, врятувати від смерті кандидата в президенти на ім’я Девід Палмер, а ще знайти стукача з відділу і затримати його… Ах так, тут ще й доньку викрали, що вже відноситься не просто до справи, яку потрібно розкрити — тут все набагато серйозніше, на кону стоїть доля родини Бауера. А в сім’ї і так проблеми… Що станеться за ці двадцять чотири години? Трапитися може все, що завгодно…\n\nУ авторів вельми оригінальний підхід до серіалу. Весь серіал розділений по днях — один сезон і є один день. А кожна серія вміщає в себе лише годину.",
+          "popularity": 90.0684,
+          "poster_path": "/pWSG8XlXg3nrZHypf4v2C2YryZu.jpg",
+          "first_air_date": "2001-11-06",
+          "name": "24",
+          "vote_average": 7.784,
+          "vote_count": 1720
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mc3rG5M9dFVjMfaCFNfbD5gu2pK.jpg",
+          "genre_ids": [
+            16,
+            35
+          ],
+          "id": 1433,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "American Dad!",
+          "overview": "«Американський тато!» Є яскравим представником сатиричного мультиплікаційного серіалу про життя американської родини. Сюжет розгортається навколо сім'ї Смітів, яка складається з чотирьох осіб, одного прибульця і розмовляючої «Золотої рибки». ",
+          "popularity": 88.3982,
+          "poster_path": "/66PXQsvS4duSBPirbmLWE9eUgNV.jpg",
+          "first_air_date": "2005-02-06",
+          "name": "Американський тато! ",
+          "vote_average": 7.002,
+          "vote_count": 2303
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4jrSbRpLqpvYJtLKncaxZVC47EW.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 60622,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Fargo",
+          "overview": "Професійний убивця на ім’я Лорн Малво випадково потрапив у ДТП біля невеличкого містечка в штаті Міннесота. У місцевій лікарні він зустрічає страхового агента Лестера Найґарда – закомплексованого невдаху, який живе «за правилами». Лестеру розбив обличчя колишній однокласник – Сем Гес, який знущався над ним у школі. Лорн вирішує змінити життя Лестера раз і назавжди. Але змінюється не тільки життя Лестера, але і багатьох мешканців містечка Беміджі і навіть самого кілера. Його філософія \"з'їж, або з'їдять\" може зіграти з ним дурний жарт, якщо таку ж філософію обере колишній телепень як – Лестер.",
+          "popularity": 79.0299,
+          "poster_path": "/tU5FRbWaqmmKqXSJYmobFgjeM1A.jpg",
+          "first_air_date": "2014-04-15",
+          "name": "Фарґо",
+          "vote_average": 8.29,
+          "vote_count": 3144
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/n3Brk7roueE9HOwVmYlJx5j462g.jpg",
+          "genre_ids": [
+            10759,
+            80,
+            18
+          ],
+          "id": 2288,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Prison Break",
+          "overview": "Майкл переконаний в невинності брата, засудженого до страти, і вирішує сам відновити справедливість. Він навмисно скоює злочин, за який потрапляє в ту саму в'язницю, де сидить брат. Ту саму, яку Майкл добре знає, бо сам же її і створював, як інженер-будівельник ... План порятунку геніально простий ...",
+          "popularity": 72.0561,
+          "poster_path": "/kTIVSTs4P6il3R8ecS59ATb9jUy.jpg",
+          "first_air_date": "2005-08-29",
+          "name": "Втеча з в'язниці",
+          "vote_average": 8.073,
+          "vote_count": 5789
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/h050XJoiIobaH6bhj3MAhgilkpJ.jpg",
+          "genre_ids": [
+            18,
+            80,
+            10759
+          ],
+          "id": 75219,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "9-1-1",
+          "overview": "Серіал розповість про роботу поліцейських, «Швидкої допомоги» і пожежної служби. Всі вони виконують свій обов'язок, часто ризикуючи життям і потрапляючи в  моторошні і шокуючі ситуації. Сенс їх щоденної роботи полягає в охороні безпеки вулиць і допомоги всім, хто її потребує. Ці екстрені служби повинні намагатися балансувати, рятуючи тих, хто знаходиться в найбільш вразливому становищі, і при цьому вирішувати проблеми в їхньому власному житті.",
+          "popularity": 70.1727,
+          "poster_path": "/8kStAPxrd9hxs48rMOxqtJUehUa.jpg",
+          "first_air_date": "2018-01-03",
+          "name": "9-1-1",
+          "vote_average": 8.212,
+          "vote_count": 2730
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dk2AwvW3VyKHCWAdED0sJzD0NYQ.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 1409,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Sons of Anarchy",
+          "overview": "Серіал розповідає про клуб байкерів, які намагаються захистити своє місто від наркотиків і впливу із зовні, хоча самі грішать торгівлею зброєю. Молодий лідер клубу не надто впевнений у тому, що вибрав правильний шлях, і намагається щось змінити.",
+          "popularity": 54.6174,
+          "poster_path": "/qQ6hrMFUSNif63OVe3c0Ojc6csW.jpg",
+          "first_air_date": "2008-09-03",
+          "name": "Сини Анархії",
+          "vote_average": 8.414,
+          "vote_count": 3176
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/eksjqZGaGUtSZJD6nWQPsqzDMn0.jpg",
+          "genre_ids": [
+            10765,
+            18,
+            9648
+          ],
+          "id": 1705,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Fringe",
+          "overview": "В центрі сюжету – історія працівників секретного відділу ФБР під керівництвом агента Олівії Данем, які займаються дослідженням різноманітних феноменів та злочинів, які неможливо пояснити. Робота Олівії – суцільний стрес, адже її команда складається із справжніх геніїв, а це люди доволі специфічні. Власне як і завдання, які стоять перед її групою…",
+          "popularity": 52.144,
+          "poster_path": "/zl4XImZTXyGoG8xYq9L00qvQijj.jpg",
+          "first_air_date": "2008-09-09",
+          "name": "Межа",
+          "vote_average": 8.134,
+          "vote_count": 2714
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/a4doyPOabvQor0RGkWdhVENAR3G.jpg",
+          "genre_ids": [
+            18,
+            9648,
+            10765
+          ],
+          "id": 1413,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "American Horror Story",
+          "overview": "Родина Гармонів  переживає не найкращі часи. Вони мріють розпочати життя з чистого  аркушу, переїхавши у новий будинок. Проте замість затишного родинного  гніздечка на них чекає низка страшних убивств, містичних таємниць й  розчарувань. Нова домівка піднімає на поверхню всі страхи, сумніви й  переживання. А боятися є чого - будинок просто переповнений духами  померлих у ньому людей, і далеко не всі з них - невинні жертви.",
+          "popularity": 51.8041,
+          "poster_path": "/qQpgUpAfZ74V3jRQzOKCORbbEUZ.jpg",
+          "first_air_date": "2011-10-05",
+          "name": "Американська історія жаху",
+          "vote_average": 8.09,
+          "vote_count": 5956
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/llrSuUkFiR6EjDnh79dq8HEeziF.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 291339,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Memory of a Killer",
+          "overview": "Коли у кілера Анджело діагностують ранню форму хвороби Альцгеймера, його світи зіштовхуються, наражаючи на небезпеку його родину.",
+          "popularity": 50.1379,
+          "poster_path": "/kNMua9szfqSkuRYEy43ToIthsaM.jpg",
+          "first_air_date": "2026-01-25",
+          "name": "Пам'ять убивці",
+          "vote_average": 7.7,
+          "vote_count": 20
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9oVp0xfKW2igxDEo5wr3JTMQBub.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 74016,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Resident",
+          "overview": "Молодий ідеаліст, випускник престижних університетів США, Девон Правеш потрапляє на роботу в шпиталь Честейн-Парк, де його куратором стає молодий, але високопрофесійний терапевт Конрад Хоукінз. Під його цинічним і безжальним наставництвом Девон відкриває для себе те, що не розкажуть на жодному курсі жодного університету: щастя від успішно врятованого життя пацієнта і одночасно - всі недоліки системи, якою керують безжальні і меркантильні бюрократи та ділки на зразок головного хірурга Рендольфа Белла та його колишньої дружини Лейн Гантер.",
+          "popularity": 49.2208,
+          "poster_path": "/2IkYQJlT26yXef2iot7dhRtavSC.jpg",
+          "first_air_date": "2018-01-21",
+          "name": "Ординатор",
+          "vote_average": 8.395,
+          "vote_count": 1294
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wyspZaGs7CXceV3Ct7NJhcKNDkn.jpg",
+          "genre_ids": [
+            35,
+            80
+          ],
+          "id": 48891,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Brooklyn Nine-Nine",
+          "overview": "Сюжет серіалу оповідає про детектива, на долю якого в один момент випали серйозні зміни. Зовсім недавно він не виявляв до своєї роботи ніякої серйозності, але тепер, коли його штаб очолив новий керівник, детективу доведеться кардинально поміняти своє професійне життя і стати героєм неймовірних історій.",
+          "popularity": 46.0422,
+          "poster_path": "/a9gmarnmzyd7Q7XkyLxvZvK3jNP.jpg",
+          "first_air_date": "2013-09-17",
+          "name": "Бруклін 9-9",
+          "vote_average": 8.214,
+          "vote_count": 3837
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
+          "genre_ids": [
+            16,
+            35,
+            10765
+          ],
+          "id": 615,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Futurama",
+          "overview": "Серіал розпочинається з того, що розвізник піци з Нью-Йорка Філіп Джей Фрай випадково був заморожений у кріогенній камері 31 грудня 1999 року і розморожений тисячу років потому, в місті Новий Нью-Йорк. Фрай намагається уникнути примусового призначення на роботу посильним, і це закінчується його влаштуванням на роботу (все ж таки посильним) у невелику компанію Міжпланетний експрес, яка займається міжгалактичними перевезеннями вантажів. Серіал демонструє пригоди Фрая і його колег під час доставки вантажів, а також у повсякденному житті.",
+          "popularity": 44.6982,
+          "poster_path": "/ihYhOg7t2cPYjFatEhhTXpbbulC.jpg",
+          "first_air_date": "1999-03-28",
+          "name": "Футурама",
+          "vote_average": 8.368,
+          "vote_count": 3638
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rbDFI2I1nMyJtX4Y3jJ4H1QRdRX.jpg",
+          "genre_ids": [
+            18,
+            80,
+            10765
+          ],
+          "id": 60708,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Gotham",
+          "overview": "Детектив Джеймс Ґордон прибуває для подальшого проходження служби до міста Ґотем. Місцевим копам він здається «зеленим» новачком, але на ділі виявляється, що його відваги та розуму достатньо навіть для того, щоб злочинний світ міста почав ставитися до Джима з повагою. Тим більше, що місто давно охоплене війнами гангстерських кланів, розгулом грабіжників та нападами маніяків…",
+          "popularity": 42.3218,
+          "poster_path": "/jpkZUpgvKmt8sdEvI1y6chtFCWc.jpg",
+          "first_air_date": "2014-09-22",
+          "name": "Ґотем",
+          "vote_average": 7.599,
+          "vote_count": 3629
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/si3OheCrSpEyK2JUtZOThsZPUR4.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 2004,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Malcolm in the Middle",
+          "overview": "Серіал запрошує глядача до великої родини, в якій завжди багато веселощів. У ній є все: матуся-монстр, батько-лопух і четверо дітей-шибеників. Вся ця вибухонебезпечна суміш мешкає під одним дахом, де постійно відбувається щось неймовірне. Тут можна побачити бійки, божевільні гонки, хімічні експерименти і безліч курйозних і підступних ситуацій, влаштованих маленькими шибайголовами. Про все це нам розповість юний хлопчина на ім'я Малкольм, який є не тільки частиною цієї божевільної сімейки, а й одним з головних хитрунів...",
+          "popularity": 41.5944,
+          "poster_path": "/rnfxXPJe6xL6hF6L93EiZn1QYRR.jpg",
+          "first_air_date": "2000-01-09",
+          "name": "Малкольм у центрі уваги",
+          "vote_average": 8.46,
+          "vote_count": 4725
+        }
+      ]
+    },
+    {
+      "title": "🔥 Нові фільми",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/v8tpkxm7AhLu69eaZKJLsNaSL5.jpg",
+          "genre_ids": [
+            16,
+            10751,
+            35
+          ],
+          "id": 1392796,
+          "original_language": "en",
+          "original_title": "Diary of a Wimpy Kid: The Last Straw",
+          "overview": "",
+          "popularity": 4.3279,
+          "poster_path": "/emcCjpC289NxAGuVwlItHCTrgT7.jpg",
+          "release_date": "2025-12-04",
+          "title": "Diary of a Wimpy Kid: The Last Straw",
+          "video": false,
+          "vote_average": 6.815,
+          "vote_count": 27
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pUNfHmVqfwRdILhCkU8TdysVOXo.jpg",
+          "genre_ids": [
+            878,
+            12,
+            28
+          ],
+          "id": 533533,
+          "original_language": "en",
+          "original_title": "TRON: Ares",
+          "overview": "«Трон: Арес» розповідає про надзвичайно розвинену програму Арес. ЇЇ відправляють із цифрового світу у реальний для виконання небезпечної місії, що стає першим контактом людства з істотами штучного інтелекту.",
+          "popularity": 26.9216,
+          "poster_path": "/lEIK6aErE1Ff2tuq4zk2swULnhk.jpg",
+          "release_date": "2025-10-08",
+          "title": "Трон: Арес",
+          "video": false,
+          "vote_average": 6.477,
+          "vote_count": 1229
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/yQy9Y3p5INwkfTuHSnzYnz4MCV3.jpg",
+          "genre_ids": [
+            35,
+            14,
+            10751,
+            10749
+          ],
+          "id": 1125257,
+          "original_language": "en",
+          "original_title": "Freakier Friday",
+          "overview": "Події розгортаються через роки після того, як Тесс і Анна пережили кризу ідентичності. Тепер у Анни є власна донька, а незабаром з’явиться й падчерка. Долаючи численні випробування, пов’язані з об’єднанням двох сімей, Тесс і Анна знову переконуються, що блискавка може вдарити двічі.",
+          "popularity": 9.3913,
+          "poster_path": "/rrGuqlTWcvs4mjbgJ8zNujDLgCU.jpg",
+          "release_date": "2025-08-06",
+          "title": "Ще одна шалена п'ятниця",
+          "video": false,
+          "vote_average": 6.9,
+          "vote_count": 621
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+          "genre_ids": [
+            10751,
+            878,
+            35
+          ],
+          "id": 552524,
+          "original_language": "en",
+          "original_title": "Lilo & Stitch",
+          "overview": "Втікач-прибулець Стіч, бешкетний та милий, допомагає самотній гавайській дівчинці Ліло відчути родинне тепло",
+          "popularity": 19.7066,
+          "poster_path": "/mNiiSEggFEkiNLvlqFlAAIWbCJz.jpg",
+          "release_date": "2025-05-17",
+          "title": "Ліло і Стіч",
+          "video": false,
+          "vote_average": 7.213,
+          "vote_count": 2045
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/aJZ33UhVlInyFENbH4GK4s0k6E0.jpg",
+          "genre_ids": [
+            10751,
+            35
+          ],
+          "id": 774100,
+          "original_language": "en",
+          "original_title": "Alexander and the Terrible, Horrible, No Good, Very Bad Road Trip",
+          "overview": "",
+          "popularity": 1.4667,
+          "poster_path": "/AhyvU3nIZ6uzop8lMgRB5N3AY9l.jpg",
+          "release_date": "2025-03-26",
+          "title": "Alexander and the Terrible, Horrible, No Good, Very Bad Road Trip",
+          "video": false,
+          "vote_average": 6.209,
+          "vote_count": 74
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
+          "genre_ids": [
+            10751,
+            14
+          ],
+          "id": 447273,
+          "original_language": "en",
+          "original_title": "Snow White",
+          "overview": "Музична кіноадаптація класичного мультфільму 1937 року. Чарівна музична пригода повертає глядачів до історії Білосніжки та її Мачухи, Злої Королеви.",
+          "popularity": 13.7228,
+          "poster_path": "/miZggYWV3VjtBhoDseSYwRB42IB.jpg",
+          "release_date": "2025-03-19",
+          "title": "Білосніжка",
+          "video": false,
+          "vote_average": 4.325,
+          "vote_count": 1567
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1w8kutrRucTd3wlYyu5QlUDMiG1.jpg",
+          "genre_ids": [
+            12,
+            10751,
+            16
+          ],
+          "id": 762509,
+          "original_language": "en",
+          "original_title": "Mufasa: The Lion King",
+          "overview": "Історія розповідає про левеня-сирітку Муфасу. Він загублений і самотній, але його життя змінюється після знайомства з чуйним левом на ім'я Така – спадкоємцем королівського роду. Ця випадкова зустріч розпочинає захопливу подорож незвичайної групи аутсайдерів, які шукають своє призначення. Їхня дружба пройде чимало випробувань, серед яких втеча від небезпечного і кровожерливого ворога.",
+          "popularity": 15.4136,
+          "poster_path": "/421dFTYWrrSRHFESzawTErn2pPg.jpg",
+          "release_date": "2024-12-18",
+          "title": "Муфаса: Король Лев",
+          "video": false,
+          "vote_average": 7.318,
+          "vote_count": 2536
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/t3r9sFE0KKi4k6z15LVsCXoHxaa.jpg",
+          "genre_ids": [
+            36,
+            18
+          ],
+          "id": 774531,
+          "original_language": "en",
+          "original_title": "Young Woman and the Sea",
+          "overview": "В основі сюжету фільму біографія Гертруди Едерле, американської чемпіонки з плавання, яка вперше здобула золоту медаль на Літніх олімпійських іграх 1924 року. У 1926 році Едерле стала першою жінкою, яка перепливла Ла-Манш.",
+          "popularity": 4.7681,
+          "poster_path": "/dx59B9SyZyPNmsA6yGgmFilxuW7.jpg",
+          "release_date": "2024-05-31",
+          "title": "Дівчина і море",
+          "video": false,
+          "vote_average": 7.9,
+          "vote_count": 406
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pdW32dO2FHSHIkXYFAB19RvbIDc.jpg",
+          "genre_ids": [
+            16,
+            35,
+            10751
+          ],
+          "id": 1123093,
+          "original_language": "en",
+          "original_title": "Diary of a Wimpy Kid Christmas: Cabin Fever",
+          "overview": "",
+          "popularity": 2.085,
+          "poster_path": "/CgWUleumTXrFL6AsQKjpcuwWyN.jpg",
+          "release_date": "2023-12-07",
+          "title": "Diary of a Wimpy Kid Christmas: Cabin Fever",
+          "video": false,
+          "vote_average": 6.617,
+          "vote_count": 90
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hF5GdZpBeE5VCkIjXNfZD5Hvua9.jpg",
+          "genre_ids": [
+            14,
+            10751,
+            35
+          ],
+          "id": 1001884,
+          "original_language": "en",
+          "original_title": "Dashing Through the Snow",
+          "overview": "Розлучений соціальний працівник бере із собою дочку на прогулянку напередодні Різдва.",
+          "popularity": 1.2604,
+          "poster_path": "/AnfXxsoLBS6JDpu65vHsEvEcWSA.jpg",
+          "release_date": "2023-11-16",
+          "title": "Мчимо ми крізь сніг",
+          "video": false,
+          "vote_average": 6.122,
+          "vote_count": 127
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2isursRTvsX34LOBqo386AlurNF.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 1165492,
+          "original_language": "en",
+          "original_title": "Project CC",
+          "overview": "",
+          "popularity": 0.2775,
+          "poster_path": "/sajz55IU98K85ZaGv0JvAq51EUa.jpg",
+          "release_date": "2023-09-29",
+          "title": "Project CC",
+          "video": false,
+          "vote_average": 6.5,
+          "vote_count": 6
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/sB8vn36IrCx5CeZPmX1S6iuPprv.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 1165491,
+          "original_language": "en",
+          "original_title": "Black Belts",
+          "overview": "",
+          "popularity": 0.1428,
+          "poster_path": "/do5RTFU9vCB4R4rSqZWDAzS0w4C.jpg",
+          "release_date": "2023-09-29",
+          "title": "Black Belts",
+          "video": false,
+          "vote_average": 7.3,
+          "vote_count": 10
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3jbOON6GODfhZuo9DrNmg2kKP3d.jpg",
+          "genre_ids": [
+            18,
+            14
+          ],
+          "id": 1164598,
+          "original_language": "en",
+          "original_title": "The Ghost",
+          "overview": "",
+          "popularity": 1.1106,
+          "poster_path": "/f0OYyrHFeLOR8hPaa6cUIMNHylL.jpg",
+          "release_date": "2023-09-29",
+          "title": "The Ghost",
+          "video": false,
+          "vote_average": 7.4,
+          "vote_count": 10
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hUeSuUxNyQivx2wrRvGoyZiZDUu.jpg",
+          "genre_ids": [
+            16,
+            10751,
+            14,
+            35
+          ],
+          "id": 1139087,
+          "original_language": "en",
+          "original_title": "Once Upon a Studio",
+          "overview": "У короткометражці, створеній до 100-річчя Disney, Міккі Маус збирає галерею легендарних діснеївських персонажів для групового фото.",
+          "popularity": 3.5292,
+          "poster_path": "/dYZTYEBjVWZ9DrtTzIM1etpnmx5.jpg",
+          "release_date": "2023-09-24",
+          "title": "Одного разу на студії",
+          "video": false,
+          "vote_average": 8.274,
+          "vote_count": 418
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mzlZAMjE2yk2sW3f9HTeBM3B3jw.jpg",
+          "genre_ids": [
+            35,
+            18,
+            14
+          ],
+          "id": 616747,
+          "original_language": "en",
+          "original_title": "Haunted Mansion",
+          "overview": "Фільм оповідає історію про жінку та її сина, котрі залучають різношерсту команду так званих фахівців, що мають допомогти позбавити дім від надприродних мешканців.",
+          "popularity": 3.0164,
+          "poster_path": "/7ulTEDsmVFwtrnlZBpdDCjsRiFA.jpg",
+          "release_date": "2023-07-26",
+          "title": "Маєток з привидами",
+          "video": false,
+          "vote_average": 6.422,
+          "vote_count": 1205
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2e04vQCW5MwKkoYgHb0m0G3vgXB.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 1143516,
+          "original_language": "en",
+          "original_title": "Maxine",
+          "overview": "",
+          "popularity": 0.7315,
+          "poster_path": "/cKk2DGnE8Ue6ZlUSg2AN57RyH2i.jpg",
+          "release_date": "2023-07-23",
+          "title": "Maxine",
+          "video": false,
+          "vote_average": 5.7,
+          "vote_count": 10
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jVINcecfIWhbBJ2xNGTio8klkmr.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 1135111,
+          "original_language": "en",
+          "original_title": "The Roof",
+          "overview": "",
+          "popularity": 0.6778,
+          "poster_path": "/sAR2yHnZRyp56c1v4Z7a1AxlVxO.jpg",
+          "release_date": "2023-07-23",
+          "title": "The Roof",
+          "video": false,
+          "vote_average": 5.8,
+          "vote_count": 11
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kCFsdI21ELtK9hfp84eJCvMP5RP.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 1143429,
+          "original_language": "en",
+          "original_title": "Beautiful, FL",
+          "overview": "",
+          "popularity": 0.3862,
+          "poster_path": "/pZGhsczR92tjjJ3avg7Hm6YxWNw.jpg",
+          "release_date": "2023-07-17",
+          "title": "Beautiful, FL",
+          "video": false,
+          "vote_average": 5.7,
+          "vote_count": 9
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/stMVkOzLeHqaz6cdd3BV6saKxcz.jpg",
+          "genre_ids": [
+            10402,
+            10751,
+            35
+          ],
+          "id": 929569,
+          "original_language": "en",
+          "original_title": "World's Best",
+          "overview": "",
+          "popularity": 1.1408,
+          "poster_path": "/9xvEhZZMOmLIkqe4khrtF5TkOnO.jpg",
+          "release_date": "2023-06-23",
+          "title": "World's Best",
+          "video": false,
+          "vote_average": 6.2,
+          "vote_count": 20
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lAs4Y5a8Pi86xDwuv8cx2prOVI2.jpg",
+          "genre_ids": [
+            12,
+            10751,
+            14,
+            10749
+          ],
+          "id": 447277,
+          "original_language": "en",
+          "original_title": "The Little Mermaid",
+          "overview": "Підводна принцеса Аріель через кохання до людини, принца Еріка, йде на угоду з морською відьмою. Та дає їй ноги, але натомість відбирає голос.",
+          "popularity": 10.6648,
+          "poster_path": "/zrIDQC9Bz5CKp7uA2t7QKWIt0zK.jpg",
+          "release_date": "2023-05-18",
+          "title": "Русалонька",
+          "video": false,
+          "vote_average": 6.277,
+          "vote_count": 3249
+        }
+      ]
+    },
+    {
+      "title": "🏆 Топ Фільми",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/uRNgkJSkNBFbbn9fPsEjDIy8Sh3.jpg",
+          "genre_ids": [
+            12,
+            14,
+            28
+          ],
+          "id": 22,
+          "original_language": "en",
+          "original_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "overview": "Фільм розповідає про події в Карибському морі в XVII-му столітті. Пірат і джентльмен в одній особі, Джек Спарроу, разом з дочкою губернатора намагаються зупинити грізний план небезпечних піратів, які намагаються зняти стародавнє прокляття, яка тримає їх між життям і смертю і при світлі місяця їх тіла перетворюються на їх же скелети.",
+          "popularity": 28.3194,
+          "poster_path": "/x6mj1ceKTf8J6ryhXxSWwinS1Np.jpg",
+          "release_date": "2003-07-09",
+          "title": "Пірати Карибського моря: Прокляття Чорної перлини",
+          "video": false,
+          "vote_average": 7.82,
+          "vote_count": 21919
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pUNfHmVqfwRdILhCkU8TdysVOXo.jpg",
+          "genre_ids": [
+            878,
+            12,
+            28
+          ],
+          "id": 533533,
+          "original_language": "en",
+          "original_title": "TRON: Ares",
+          "overview": "«Трон: Арес» розповідає про надзвичайно розвинену програму Арес. ЇЇ відправляють із цифрового світу у реальний для виконання небезпечної місії, що стає першим контактом людства з істотами штучного інтелекту.",
+          "popularity": 26.9216,
+          "poster_path": "/lEIK6aErE1Ff2tuq4zk2swULnhk.jpg",
+          "release_date": "2025-10-08",
+          "title": "Трон: Арес",
+          "video": false,
+          "vote_average": 6.477,
+          "vote_count": 1229
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tuDhEdza074bA497bO9WFEPs6O6.jpg",
+          "genre_ids": [
+            12,
+            10751,
+            14
+          ],
+          "id": 411,
+          "original_language": "en",
+          "original_title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+          "overview": "Чотирьох дітей батьки відправляють з Лондона в село, до старого професора, щоб пересидіти бомбардування міста. У його будинку діти виявляють таємничу платтяну шафу, через яку потрапляють в казкову країну Нарнію, де мешкають фантастичні люди, тварини і істоти. Виявляється, що ця країна знаходиться під владою злої Чаклунки, через яку там - вічна зима, і війни їм не уникнути і в цих землях. Діти мають допомогти царю Асланові перемогти Чаклунку, зруйнувати заклинання і звільнити жителів Нарнії.",
+          "popularity": 20.8648,
+          "poster_path": "/qi116QwQoF5W2ASZ8U4bEaAMQmT.jpg",
+          "release_date": "2005-12-07",
+          "title": "Хроніки Нарнії: Лев, чаклунка та шафа",
+          "video": false,
+          "vote_average": 7.135,
+          "vote_count": 11350
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/6GF9uJs7AnbcJvyfoZyjZv063Oo.jpg",
+          "genre_ids": [
+            10751,
+            16,
+            18,
+            12
+          ],
+          "id": 8587,
+          "original_language": "en",
+          "original_title": "The Lion King",
+          "overview": "У величного Короля-Лева Муфаси народжується спадкоємець на ім'я Сімба. Вже в дитинстві допитливе маля стає жертвою інтриг свого дядька Шрама, який мріє про владу. Сімба пізнає горе втрати, зраду і вигнання, але врешті-решт знаходить вірних друзів і кохану. Загартований випробуваннями, він в нелегкій боротьбі відвойовує своє законне місце в \"Колі життя\", усвідомивши, що означає бути справжнім Королем.",
+          "popularity": 20.5894,
+          "poster_path": "/3BF1CYHaMhdnzSBjExxyy2gr2XW.jpg",
+          "release_date": "1994-06-15",
+          "title": "Король Лев",
+          "video": false,
+          "vote_average": 8.252,
+          "vote_count": 19426
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+          "genre_ids": [
+            10751,
+            878,
+            35
+          ],
+          "id": 552524,
+          "original_language": "en",
+          "original_title": "Lilo & Stitch",
+          "overview": "Втікач-прибулець Стіч, бешкетний та милий, допомагає самотній гавайській дівчинці Ліло відчути родинне тепло",
+          "popularity": 19.7066,
+          "poster_path": "/mNiiSEggFEkiNLvlqFlAAIWbCJz.jpg",
+          "release_date": "2025-05-17",
+          "title": "Ліло і Стіч",
+          "video": false,
+          "vote_average": 7.213,
+          "vote_count": 2043
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cWczNud8Y8i8ab0Z4bxos4myWYO.jpg",
+          "genre_ids": [
+            16,
+            10751,
+            12
+          ],
+          "id": 38757,
+          "original_language": "en",
+          "original_title": "Tangled",
+          "overview": "Уже багато років у високій башті без дверей нудиться довговолоса красуня-принцеса Рапунцель. Нерідна мати постійно лякає її жахами великого світу. Хоча насправді справжній мотив злої жінки простий: усе життя тримати дівчину замкненою в чотирьох стінах і гладити чарівну двадцятиметрову косу дівчини, яка має властивість продовжувати молодість. Так би й жила красуня у в’язниці, але одного дня до вежі пробирається самовпевнений злодюга на ім’я Флінт, за допомогою якого Рапунцель вирішує втекти з ув'язнення у великий світ…",
+          "popularity": 16.3082,
+          "poster_path": "/npewafIUs36lXv0vO2XVLc1dvpP.jpg",
+          "release_date": "2010-11-24",
+          "title": "Рапунцель: Заплутана історія",
+          "video": false,
+          "vote_average": 7.609,
+          "vote_count": 12216
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/uzIGtyS6bbnJzGsPL93WCF1FWm8.jpg",
+          "genre_ids": [
+            12,
+            28,
+            14
+          ],
+          "id": 1865,
+          "original_language": "en",
+          "original_title": "Pirates of the Caribbean: On Stranger Tides",
+          "overview": "У новій історії про пошуки істини, вічної молодості і смертельної небезпеки капітану Джеку Спарроу належить зіткнутися з жінкою зі свого минулого Анжелікою. Вона силою примушує капітана Джека Спарроу зійти на корабель «Помста Королеви Анни», яким керує підступний лиходій Чорна Борода. Наш герой опиняється в ситуації, коли він не знає, чого йому боятися більше - жахливого лиходія або ж свою давню подругу.",
+          "popularity": 16.2114,
+          "poster_path": "/7zcFAzi0RGpgZ4YlYxX6BicVZI8.jpg",
+          "release_date": "2011-05-15",
+          "title": "Пірати Карибського моря: На дивних берегах",
+          "video": false,
+          "vote_average": 6.565,
+          "vote_count": 14781
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1w8kutrRucTd3wlYyu5QlUDMiG1.jpg",
+          "genre_ids": [
+            12,
+            10751,
+            16
+          ],
+          "id": 762509,
+          "original_language": "en",
+          "original_title": "Mufasa: The Lion King",
+          "overview": "Історія розповідає про левеня-сирітку Муфасу. Він загублений і самотній, але його життя змінюється після знайомства з чуйним левом на ім'я Така – спадкоємцем королівського роду. Ця випадкова зустріч розпочинає захопливу подорож незвичайної групи аутсайдерів, які шукають своє призначення. Їхня дружба пройде чимало випробувань, серед яких втеча від небезпечного і кровожерливого ворога.",
+          "popularity": 15.4136,
+          "poster_path": "/421dFTYWrrSRHFESzawTErn2pPg.jpg",
+          "release_date": "2024-12-18",
+          "title": "Муфаса: Король Лев",
+          "video": false,
+          "vote_average": 7.318,
+          "vote_count": 2537
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vr6n6ZFUZvedvIlhfYcbCWcaKyW.jpg",
+          "genre_ids": [
+            12,
+            14,
+            28
+          ],
+          "id": 58,
+          "original_language": "en",
+          "original_title": "Pirates of the Caribbean: Dead Man's Chest",
+          "overview": "Капітан Джек Спарроу опиняється в центрі чергової інтригуючої загадки, пов'язаної з надприродним. Виявляється, що на Спарроу лежить страшне прокляття всіх капітанів легендарного корабля-примари - Летючий Голландець і якщо він не знайде спосіб зняти з себе цю ношу, тоді після життя його чекає вічне рабство, прокляття і муки. Взаємостосунки Спарроу з потойбічним світом вносять серйозні зміни у весільні плани Вілла Тернера і Елізабет Свонн, яким так само доводиться взяти активну участь в пригодах Джека.",
+          "popularity": 14.6766,
+          "poster_path": "/ao3IWj9B0D65ABnNmZK8ahHQVuw.jpg",
+          "release_date": "2006-07-06",
+          "title": "Пірати Карибського моря: Скриня мерця",
+          "video": false,
+          "vote_average": 7.374,
+          "vote_count": 16921
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lNJ3AxUdUGrYoxPkecMavpU6lI7.jpg",
+          "genre_ids": [
+            14,
+            12,
+            28,
+            10751,
+            10749
+          ],
+          "id": 102651,
+          "original_language": "en",
+          "original_title": "Maleficent",
+          "overview": "Юна чаклунка Малефісента вела відокремлене життя в зачарованому лісі, оточена казковими істотами, але одного разу все змінилося... В її світ вторглися люди, які принесли з собою руйнування і хаос, і Малефісенті довелося встати на захист своїх підданих, закликавши на допомогу могутні темні сили. У запалі боротьби Малефісента наклала страшне закляття на новонароджену дочку короля, прекрасну Аврору. Але, спостерігаючи за тим, як росте маленька принцеса, Малефісента починає сумніватися у правильності свого вчинку - адже, можливо, саме Аврора може вдихнути нове життя в чарівне лісове царство...",
+          "popularity": 14.1109,
+          "poster_path": "/9IY43oYZrQZogpN4FStDdTbbukB.jpg",
+          "release_date": "2014-05-28",
+          "title": "Чаклунка",
+          "video": false,
+          "vote_average": 7.087,
+          "vote_count": 13596
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1jHxkVXMI5s3vRiyiZooUy1shB5.jpg",
+          "genre_ids": [
+            12,
+            14,
+            28
+          ],
+          "id": 285,
+          "original_language": "en",
+          "original_title": "Pirates of the Caribbean: At World's End",
+          "overview": "Нові пригоди Джека Спарроу і його друзів Вілла Тернера і Елізабет Свон. Цього разу Віллу і Елізабет доведеться об'єднатися з самим Капітаном Барбоссою для того, щоб відправитися на край світу і врятувати свого друга — Джека Спарроу. Ситуація ускладнюється тим, що Елізабет викрадають китайські пірати...",
+          "popularity": 14.0807,
+          "poster_path": "/r7uCQ11u9r88Rp4Rvt1AlGu05Lo.jpg",
+          "release_date": "2007-05-19",
+          "title": "Пірати Карибського моря: На краю світу",
+          "video": false,
+          "vote_average": 7.267,
+          "vote_count": 15248
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/6MKr3KgOLmzOP6MSuZERO41Lpkt.jpg",
+          "genre_ids": [
+            35,
+            80,
+            12
+          ],
+          "id": 337404,
+          "original_language": "en",
+          "original_title": "Cruella",
+          "overview": "Події фільму відбуваються на тлі панк-рокового Лондона 1970-х років та розказують про юну шахрайку Естеллу, розумну та винахідливу дівчину, яка хоче зробити собі ім’я у світі моди. Вона знаходить друзів: кількох молодих злодіїв, які розділяють потяг Естелли до епатажу, і разом вони намагаються влаштуватись у Лондоні. Одного разу талант Естелли привертає увагу Баронеси фон Хеллман, легенди моди, яка є руйнівно шикарною та страхітливо високою. Але їхні стосунки запускають хід подій і одкровень, які змусять Естеллу прийняти свою жорстоку сторону і стати неприємною, модною та мстивою Круеллою.",
+          "popularity": 14.0379,
+          "poster_path": "/u54h5hRgkNUTguA8wPBG3VjMoWC.jpg",
+          "release_date": "2021-05-26",
+          "title": "Круелла",
+          "video": false,
+          "vote_average": 7.975,
+          "vote_count": 9921
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
+          "genre_ids": [
+            10751,
+            14
+          ],
+          "id": 447273,
+          "original_language": "en",
+          "original_title": "Snow White",
+          "overview": "Музична кіноадаптація класичного мультфільму 1937 року. Чарівна музична пригода повертає глядачів до історії Білосніжки та її Мачухи, Злої Королеви.",
+          "popularity": 13.7228,
+          "poster_path": "/miZggYWV3VjtBhoDseSYwRB42IB.jpg",
+          "release_date": "2025-03-19",
+          "title": "Білосніжка",
+          "video": false,
+          "vote_average": 4.327,
+          "vote_count": 1566
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/uU1Mt4JWhDvl4vKb3AfxNsorkoM.jpg",
+          "genre_ids": [
+            10751,
+            14,
+            10749
+          ],
+          "id": 321612,
+          "original_language": "en",
+          "original_title": "Beauty and the Beast",
+          "overview": "Чарівна легенда про кохання Красуні і Чудовиська, що хвилює вже багато поколінь, оживе на екранах в дивовижній фентезі-інтерпретації класичної історії від Дісней. У маленькому селищі мешкає юна красуня Бель. Одного разу її батько, випадково збившись зі шляху, стає бранцем Чудовиська.",
+          "popularity": 12.2911,
+          "poster_path": "/70hp2PuShBZ4wL2FGPfjTrWlVMU.jpg",
+          "release_date": "2017-03-16",
+          "title": "Красуня і Чудовисько",
+          "video": false,
+          "vote_average": 7,
+          "vote_count": 15925
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/q7vmCCmyiHnuKGMzHZlr0fD44b9.jpg",
+          "genre_ids": [
+            10749,
+            14,
+            10751,
+            18
+          ],
+          "id": 150689,
+          "original_language": "en",
+          "original_title": "Cinderella",
+          "overview": "Фільм розповість про пригоди молодої дівчини на ім'я Елла. Овдовівши, батько Елли одружується вдруге. Намагаючись підтримати батька, Елла приймає нову сім'ю - мачуху Леді Тремейн та її дочок Анастасію та Дрізеллу в своєму будинку. Незабаром і батько Елли трагічно гине, а дівчина опиняється один на один з жадібними і заздрісними новими родичами. З господині будинку вона перетворюється на служницю, забрудненою золою, за що і отримує прізвисько - Попелюшка.",
+          "popularity": 11.9779,
+          "poster_path": "/ujbKSyYRgLoUgbNyX6wIrudWkcT.jpg",
+          "release_date": "2015-03-06",
+          "title": "Попелюшка",
+          "video": false,
+          "vote_average": 6.823,
+          "vote_count": 7326
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4BS8tgBNWg2jPiDlBwM2iJe1xB7.jpg",
+          "genre_ids": [
+            16,
+            10751,
+            12,
+            35
+          ],
+          "id": 49013,
+          "original_language": "en",
+          "original_title": "Cars 2",
+          "overview": "Починається найважливіша і престижніша в світі гонка, Світовий Гран-прі, в якій буде визначений найшвидший гонщик зі всіх категорій — NASCAR, Ле-Ман, Формула-1. МакКвін буде змагатися з кращими з кращих, на найкрасивіших і небезпечніших трасах Італії, Японії і Франції. Але головне — Блискавка ще не знає, що вони з Сирником опиняться в самому серці заплутаної і запаморочливої шпигунської змови.",
+          "popularity": 11.7364,
+          "poster_path": "/z1IBBvl2UWHTSaGNwVdy40U5488.jpg",
+          "release_date": "2011-06-11",
+          "title": "Тачки 2",
+          "video": false,
+          "vote_average": 6.173,
+          "vote_count": 8362
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7C921eWK06n12c1miRXnYoEu5Yv.jpg",
+          "genre_ids": [
+            12,
+            28,
+            14
+          ],
+          "id": 166426,
+          "original_language": "en",
+          "original_title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+          "overview": "Вічний щасливчик капітан Джек Спарроу переживає важкі часи – команда його покинула, за душею ні гроша, та ще й за ним полюють. Колись дуже давно в молодості Джек Спарроу переміг лютого іспанського борця з піратами капітана Салазара, запроторивши його в Диявольський трикутник і приречивши на страждання. Салазар чекав, доки не звільниться від прокляття, щоб помститися... Єдиний шанс Джека вижити – знайти легендарний тризубець Посейдона. І допоможуть йому у цьому  нові друзі – Генрі Тернер і Каріна Сміт.",
+          "popularity": 11.7163,
+          "poster_path": "/1HF0YKHMx9CNpB1862DWXqlgqzc.jpg",
+          "release_date": "2017-05-23",
+          "title": "Пірати Карибського моря: Помста Салазара",
+          "video": false,
+          "vote_average": 6.653,
+          "vote_count": 12652
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg",
+          "genre_ids": [
+            12,
+            18,
+            10751,
+            16
+          ],
+          "id": 420818,
+          "original_language": "en",
+          "original_title": "The Lion King",
+          "overview": "Римейк однойменного мультфільму 1994-го року. Сімбі, синові короля Муфаси, доведеться пройти нелегкий шлях, щоб заявити своє право на владу. Найсучасніші технології занурять вас у фантастичний світ африканської савани. Зустріньтеся з її дикими мешканцями, що не менше за людей знають про любов і зраду, дружбу, сміливість і справжню відданість!",
+          "popularity": 11.6679,
+          "poster_path": "/oV8YOMoooj1A4hNeabGznT6iaEs.jpg",
+          "release_date": "2019-07-12",
+          "title": "Король Лев",
+          "video": false,
+          "vote_average": 7.097,
+          "vote_count": 10654
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/fW4ZCoEZRBqLAJGFQ2g5AdAfPQR.jpg",
+          "genre_ids": [
+            10749,
+            10751,
+            16,
+            14
+          ],
+          "id": 10020,
+          "original_language": "en",
+          "original_title": "Beauty and the Beast",
+          "overview": "Фільм запрошує в зачарований замок, схований в нетрях темного чарівного лісу. Його господар – жахливе Чудовисько, якого всі бояться і ненавидять. Лише найпрекрасніша і смілива дівчина в світі на ім'я Белль здатна розгадати таємницю господаря замку і зруйнувати чари, що прирікають його на вічне перебування в шкурі страшного звіра. Але для цього Белль доведеться виступити проти всіх: адже жителі її села, підбурювані злобним мисливцем Гастоном, хочуть вбити горде і добре Чудовисько...",
+          "popularity": 11.5981,
+          "poster_path": "/4GLigfhh31IDoBhPf35izjIacGu.jpg",
+          "release_date": "1991-10-22",
+          "title": "Красуня і Чудовисько",
+          "video": false,
+          "vote_average": 7.724,
+          "vote_count": 10529
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mUYV0ZdsDEliGaQahcQH1F3grsP.jpg",
+          "genre_ids": [
+            16,
+            10751,
+            12
+          ],
+          "id": 10674,
+          "original_language": "en",
+          "original_title": "Mulan",
+          "overview": "Для великого народу настали важкі часи: на країну напало войовниче плем'я гунів. Переодягнувшись у чоловічий одяг, Мулан приєднується до інших воїнів і відправляється у небезпечний похід до підніжжя засніжених гір. Її супроводжує кумедний дракончик Мушу, який більше схожий на маленьку собачку, ніж на міфічне чудовисько.  Намагаючись приховати таємницю, вони потрапляють в кумедні ситуації і не підозрюють, що їх секрет ось - ось розкриється!...",
+          "popularity": 11.3743,
+          "poster_path": "/shMwRJ2M1JysUqtG4frxBz1LHsd.jpg",
+          "release_date": "1998-06-18",
+          "title": "Мулан",
+          "video": false,
+          "vote_average": 7.901,
+          "vote_count": 10287
+        }
+      ]
     }
   ]
 }

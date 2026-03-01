@@ -1,7 +1,7 @@
 {
   "title": "Сьогодні на Польська стрічка",
-  "last_updated": "2026-02-22T21:47:21.299Z",
-  "results": [
+  "last_updated": "2026-03-01T21:34:35.769Z",
+  "main_row": [
     {
       "adult": false,
       "backdrop_path": "/2yo2k8CmgZxfBQYAZ8TnHIYzEme.jpg",
@@ -14,39 +14,31 @@
       "original_language": "pl",
       "original_title": "Druga Furioza",
       "overview": "Після вбивства авторитета жорстокого бандитського угрупування Фуріози владу в ньому захоплює Ґолден, який планує перетнути кордони й розширити його вплив.",
-      "popularity": 8.7794,
+      "popularity": 7.2354,
       "poster_path": "/dlSYrrFVMyDJ4XmblLMEYS4mkdT.jpg",
       "release_date": "2025-10-14",
       "title": "Знову лють",
       "video": false,
       "vote_average": 6.517,
-      "vote_count": 89,
-      "has_ua": true,
-      "has_pl": true,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_count": 89
     },
     {
       "adult": false,
-      "backdrop_path": "/xQJIFz6TTMCt6h5hdTrDr8zaZeE.jpg",
+      "backdrop_path": "/xlDLKxpVBja48g4jRuMkzKkF4Jn.jpg",
       "genre_ids": [
-        35
+        18
       ],
-      "id": 1379458,
+      "id": 1416589,
       "original_language": "pl",
-      "original_title": "Teściowie 3",
+      "original_title": "Brat",
       "overview": "",
-      "popularity": 3.3172,
-      "poster_path": "/2oweH2TMqb9KyalKYtJD7c5945i.jpg",
-      "release_date": "2025-09-12",
-      "title": "Teściowie 3",
+      "popularity": 3.1358,
+      "poster_path": "/fhrJYQ1EuPGXqG4B4lqnUYP0TFZ.jpg",
+      "release_date": "2025-12-05",
+      "title": "Brat",
       "video": false,
-      "vote_average": 6.25,
-      "vote_count": 12,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 6,
+      "vote_count": 4
     },
     {
       "adult": false,
@@ -59,17 +51,70 @@
       "original_language": "pl",
       "original_title": "Ministranci",
       "overview": "",
-      "popularity": 2.4088,
-      "poster_path": "/noEUGtI4fwfvjrJWZm7Fz0fw7Ji.jpg",
+      "popularity": 2.8956,
+      "poster_path": "/hU33dNTYBOq3Qv4tsG2qFtwqDPl.jpg",
       "release_date": "2025-11-21",
       "title": "Ministranci",
       "video": false,
-      "vote_average": 7.9,
-      "vote_count": 4,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 7.833,
+      "vote_count": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xQJIFz6TTMCt6h5hdTrDr8zaZeE.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 1379458,
+      "original_language": "pl",
+      "original_title": "Teściowie 3",
+      "overview": "",
+      "popularity": 2.7331,
+      "poster_path": "/2oweH2TMqb9KyalKYtJD7c5945i.jpg",
+      "release_date": "2025-09-12",
+      "title": "Teściowie 3",
+      "video": false,
+      "vote_average": 6.25,
+      "vote_count": 12
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/q7EtSnj9x59sUGHHCCuY6TuyuGf.jpg",
+      "genre_ids": [
+        18,
+        36,
+        10402
+      ],
+      "id": 1299799,
+      "original_language": "pl",
+      "original_title": "Chopin, Chopin!",
+      "overview": "Париж, 1835 рік. Фридерик Шопен – 25-річний улюбленець паризьких салонів, аристократії та самого короля Франції. Він рок-зірка свого часу – про Шопена говорять усі. Дає уроки гри на фортепіано, пише шедеври, а після концертів, що збирають натовпи, зʼявляється на кількох вечірках за ніч. Він бере від життя все, що може. Аж поки одного дня не дізнається, що смертельно хворий. Відтоді музика стає його єдиною пристрастю. Усвідомлюючи, що часу майже не залишилось, Шопен поспішає здійснити музичну революцію.",
+      "popularity": 2.7121,
+      "poster_path": "/oC1FRpOsjn7kuOvO6ly6Ixo4qK.jpg",
+      "release_date": "2025-10-10",
+      "title": "Шопен, Шопен!",
+      "video": false,
+      "vote_average": 7.455,
+      "vote_count": 11
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cf7yULFQ86y5d43jRsWekdzrJmR.jpg",
+      "genre_ids": [
+        53,
+        80
+      ],
+      "id": 1358835,
+      "original_language": "pl",
+      "original_title": "Prześwit",
+      "overview": "",
+      "popularity": 2.6386,
+      "poster_path": "/oOsZ4Ov07XawnZQAgNWryGWgOb4.jpg",
+      "release_date": "2025-10-10",
+      "title": "Prześwit",
+      "video": false,
+      "vote_average": 3,
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -85,86 +130,13 @@
       "original_language": "pl",
       "original_title": "Orzełek Iggy",
       "overview": "",
-      "popularity": 2.0202,
+      "popularity": 1.9456,
       "poster_path": "/vah8C08Lie1ldXRdzdNyKwvnBDq.jpg",
       "release_date": "2026-02-06",
       "title": "Orzełek Iggy",
       "video": false,
       "vote_average": 10,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/y0suom2xVs41mu3wgKXdwA6MMas.jpg",
-      "genre_ids": [
-        10402,
-        99,
-        18
-      ],
-      "id": 1504442,
-      "original_language": "pl",
-      "original_title": "Quebonafide: Północ, Południe",
-      "overview": "",
-      "popularity": 1.5634,
-      "poster_path": "/1DOYZiMCQSg4d4BrgltQUtNVVWe.jpg",
-      "release_date": "2025-09-22",
-      "title": "Quebonafide: Północ, Południe",
-      "video": false,
-      "vote_average": 8,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/dtthIE3wYmoGkyoS3dHJkLosZJk.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 1538513,
-      "original_language": "pl",
-      "original_title": "SZCZĘSNY",
-      "overview": "",
-      "popularity": 1.399,
-      "poster_path": "/egbY7lKWRcAve1aMJAPjNYQm5bz.jpg",
-      "release_date": "2025-10-10",
-      "title": "SZCZĘSNY",
-      "video": false,
-      "vote_average": 6.8,
-      "vote_count": 3,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/uQChV8d7gfO44E6cf4rZWGmRBdd.jpg",
-      "genre_ids": [
-        35,
-        10749
-      ],
-      "id": 1440660,
-      "original_language": "pl",
-      "original_title": "Seks dla opornych",
-      "overview": "",
-      "popularity": 1.2403,
-      "poster_path": "/bCXYcO7uc1FqcrlicICl9VAgqed.jpg",
-      "release_date": "2025-10-17",
-      "title": "Seks dla opornych",
-      "video": false,
-      "vote_average": 6,
-      "vote_count": 4,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -176,64 +148,13 @@
       "original_language": "pl",
       "original_title": "Pan Olbrychski",
       "overview": "",
-      "popularity": 1.2298,
+      "popularity": 1.2062,
       "poster_path": "/hbJsgns57s53TLOLY3gzC2A8ijo.jpg",
       "release_date": "2025-08-29",
       "title": "Pan Olbrychski",
       "video": false,
       "vote_average": 7,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": null,
-      "genre_ids": [
-        35,
-        10749
-      ],
-      "id": 1393288,
-      "original_language": "pl",
-      "original_title": "Piernikowe serce",
-      "overview": "",
-      "popularity": 1.2272,
-      "poster_path": "/eNqxiKeXfISYyKpC8EeqUcdwoJb.jpg",
-      "release_date": "2025-11-28",
-      "title": "Piernikowe serce",
-      "video": false,
-      "vote_average": 5,
-      "vote_count": 2,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/q7EtSnj9x59sUGHHCCuY6TuyuGf.jpg",
-      "genre_ids": [
-        18,
-        36,
-        10402
-      ],
-      "id": 1299799,
-      "original_language": "pl",
-      "original_title": "Chopin, Chopin!",
-      "overview": "Париж, 1835 рік. Фридерик Шопен – 25-річний улюбленець паризьких салонів, аристократії та самого короля Франції. Він рок-зірка свого часу – про Шопена говорять усі. Дає уроки гри на фортепіано, пише шедеври, а після концертів, що збирають натовпи, зʼявляється на кількох вечірках за ніч. Він бере від життя все, що може. Аж поки одного дня не дізнається, що смертельно хворий. Відтоді музика стає його єдиною пристрастю. Усвідомлюючи, що часу майже не залишилось, Шопен поспішає здійснити музичну революцію.",
-      "popularity": 0.9775,
-      "poster_path": "/oC1FRpOsjn7kuOvO6ly6Ixo4qK.jpg",
-      "release_date": "2025-10-10",
-      "title": "Шопен, Шопен!",
-      "video": false,
-      "vote_average": 7.1,
-      "vote_count": 8,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -246,86 +167,13 @@
       "original_language": "pl",
       "original_title": "Dom dobry",
       "overview": "",
-      "popularity": 0.9614,
+      "popularity": 1.1489,
       "poster_path": "/ezLtPFCzGYYvCp6NPxIBKI43tDs.jpg",
       "release_date": "2025-11-07",
       "title": "Dom dobry",
       "video": false,
-      "vote_average": 7.05,
-      "vote_count": 20,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/7dOFydvTduWxwVJCjqTw7aMjiLF.jpg",
-      "genre_ids": [
-        10749,
-        35
-      ],
-      "id": 1212123,
-      "original_language": "pl",
-      "original_title": "Baśka",
-      "overview": "",
-      "popularity": 0.8745,
-      "poster_path": "/4c6iy1ofXoh63xMBHlDyPc60uBg.jpg",
-      "release_date": "2026-01-30",
-      "title": "Baśka",
-      "video": false,
-      "vote_average": 4.75,
-      "vote_count": 4,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/5JOHHE5jJiNrwLpQpfrbvRTA0nZ.jpg",
-      "genre_ids": [
-        10751,
-        12
-      ],
-      "id": 1361623,
-      "original_language": "pl",
-      "original_title": "O psie, który jeździł koleją 2",
-      "overview": "",
-      "popularity": 0.8111,
-      "poster_path": "/u6wf4AQkBE5peN6ze1EDnlmyvqx.jpg",
-      "release_date": "2025-08-08",
-      "title": "O psie, który jeździł koleją 2",
-      "video": false,
-      "vote_average": 6.063,
-      "vote_count": 8,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/8v02Znw96srXAjvj0mhwL5BYKUU.jpg",
-      "genre_ids": [
-        27,
-        9648
-      ],
-      "id": 1637218,
-      "original_language": "pl",
-      "original_title": "Ned",
-      "overview": "",
-      "popularity": 0.78,
-      "poster_path": "/r52h9MW4Tct6dy2u3TeOZlDgTOf.jpg",
-      "release_date": "2025-10-03",
-      "title": "Ned",
-      "video": false,
-      "vote_average": 8.5,
-      "vote_count": 4,
-      "has_ua": true,
-      "has_pl": true,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 7.095,
+      "vote_count": 21
     },
     {
       "adult": false,
@@ -339,17 +187,108 @@
       "original_language": "pl",
       "original_title": "Vinci 2",
       "overview": "",
-      "popularity": 0.675,
+      "popularity": 1.1466,
       "poster_path": "/w1g09C1ftgtqJRnMENgNftPtZ0Q.jpg",
       "release_date": "2025-07-25",
       "title": "Vinci 2",
       "video": false,
       "vote_average": 6.13,
-      "vote_count": 23,
-      "has_ua": true,
-      "has_pl": true,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_count": 23
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dtthIE3wYmoGkyoS3dHJkLosZJk.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1538513,
+      "original_language": "pl",
+      "original_title": "SZCZĘSNY",
+      "overview": "",
+      "popularity": 1.0833,
+      "poster_path": "/egbY7lKWRcAve1aMJAPjNYQm5bz.jpg",
+      "release_date": "2025-10-10",
+      "title": "SZCZĘSNY",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        35,
+        10749
+      ],
+      "id": 1393288,
+      "original_language": "pl",
+      "original_title": "Piernikowe serce",
+      "overview": "",
+      "popularity": 0.8918,
+      "poster_path": "/eNqxiKeXfISYyKpC8EeqUcdwoJb.jpg",
+      "release_date": "2025-11-28",
+      "title": "Piernikowe serce",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/y0suom2xVs41mu3wgKXdwA6MMas.jpg",
+      "genre_ids": [
+        10402,
+        99,
+        18
+      ],
+      "id": 1504442,
+      "original_language": "pl",
+      "original_title": "Quebonafide: Północ, Południe",
+      "overview": "",
+      "popularity": 0.8424,
+      "poster_path": "/1DOYZiMCQSg4d4BrgltQUtNVVWe.jpg",
+      "release_date": "2025-09-22",
+      "title": "Quebonafide: Północ, Południe",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7dOFydvTduWxwVJCjqTw7aMjiLF.jpg",
+      "genre_ids": [
+        10749,
+        35
+      ],
+      "id": 1212123,
+      "original_language": "pl",
+      "original_title": "Baśka",
+      "overview": "",
+      "popularity": 0.8285,
+      "poster_path": "/4c6iy1ofXoh63xMBHlDyPc60uBg.jpg",
+      "release_date": "2026-01-30",
+      "title": "Baśka",
+      "video": false,
+      "vote_average": 4.75,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 1422558,
+      "original_language": "pl",
+      "original_title": "Martwi przed świtem",
+      "overview": "",
+      "popularity": 0.7571,
+      "poster_path": "/73kX2YZjKzhH01NGUT1DeTETb7b.jpg",
+      "release_date": "2025-10-31",
+      "title": "Martwi przed świtem",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -361,87 +300,13 @@
       "original_language": "sk",
       "original_title": "Otec",
       "overview": "",
-      "popularity": 0.5968,
+      "popularity": 0.6136,
       "poster_path": "/qz4e1LLeRKk74a0Pyfqvb8zQlJe.jpg",
       "release_date": "2025-09-11",
       "title": "Otec",
       "video": false,
       "vote_average": 6.4,
-      "vote_count": 11,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/xlDLKxpVBja48g4jRuMkzKkF4Jn.jpg",
-      "genre_ids": [
-        18
-      ],
-      "id": 1416589,
-      "original_language": "pl",
-      "original_title": "Brat",
-      "overview": "",
-      "popularity": 0.5361,
-      "poster_path": "/fhrJYQ1EuPGXqG4B4lqnUYP0TFZ.jpg",
-      "release_date": "2025-12-05",
-      "title": "Brat",
-      "video": false,
-      "vote_average": 6,
-      "vote_count": 4,
-      "has_ua": true,
-      "has_pl": true,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/zhpHhQF9IVKUwpB28rydxNEF6q0.jpg",
-      "genre_ids": [
-        27,
-        9648,
-        53,
-        35
-      ],
-      "id": 1637450,
-      "original_language": "en",
-      "original_title": "The Buckethead",
-      "overview": "",
-      "popularity": 0.5034,
-      "poster_path": "/lWkKBoeeySiUDQY6C2A8fMrPWJk.jpg",
-      "release_date": "2025-12-20",
-      "title": "The Buckethead",
-      "video": false,
-      "vote_average": 9,
-      "vote_count": 3,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/uWx7AScgVcG8fdEju6oKgzAxXIl.jpg",
-      "genre_ids": [
-        35,
-        10749
-      ],
-      "id": 1468789,
-      "original_language": "pl",
-      "original_title": "Planeta Singli 4: Wyspa",
-      "overview": "Відпочинок п’ятьох друзів у Греції перетворюється на кумедну детективну історію, коли партнера одного з них починають підозрювати в шахрайстві.",
-      "popularity": 0.4945,
-      "poster_path": "/l7V0EI8Pq3izRCoFmMlbg2YxHM0.jpg",
-      "release_date": "2025-08-26",
-      "title": "Планета самотніх: Грецька пригода",
-      "video": false,
-      "vote_average": 5.167,
-      "vote_count": 27,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_count": 11
     },
     {
       "adult": false,
@@ -453,17 +318,1231 @@
       "original_language": "en",
       "original_title": "Camper",
       "overview": "",
-      "popularity": 0.4581,
+      "popularity": 0.4987,
       "poster_path": "/its1aqxjI1WK6vN6A2ECpENxfTz.jpg",
       "release_date": "2025-12-12",
       "title": "Camper",
       "video": false,
       "vote_average": 3,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5H5UPPDRZAJqA3VlXKUxA1bxUoZ.jpg",
+      "genre_ids": [
+        53,
+        28,
+        36
+      ],
+      "id": 1359076,
+      "original_language": "pl",
+      "original_title": "Zamach na papieża",
+      "overview": "",
+      "popularity": 0.4906,
+      "poster_path": "/wvNLNMZjSYvnPvIdfMZWZzpBPIW.jpg",
+      "release_date": "2025-09-26",
+      "title": "Zamach na papieża",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 9
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2zj3XMhUIoeP0PovvvpWnDwkLgk.jpg",
+      "genre_ids": [
+        35,
+        12
+      ],
+      "id": 1295479,
+      "original_language": "pl",
+      "original_title": "LARP. Miłość, trolle i inne questy",
+      "overview": "",
+      "popularity": 0.474,
+      "poster_path": "/5kegcsSUgT5rIxNvmE65X1nnOVU.jpg",
+      "release_date": "2025-10-17",
+      "title": "LARP. Miłość, trolle i inne questy",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7SzUd9CzaCmrWu8BbYDmE9LPMml.jpg",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "id": 1314235,
+      "original_language": "pl",
+      "original_title": "Triumf serca",
+      "overview": "",
+      "popularity": 0.4544,
+      "poster_path": "/odkKeZaG6w4Py9RAbyHr38pacvO.jpg",
+      "release_date": "2025-09-12",
+      "title": "Triumf serca",
+      "video": false,
+      "vote_average": 6.375,
+      "vote_count": 8
+    }
+  ],
+  "categories": [
+    {
+      "title": "🎬 Нові польські фільми",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            18,
+            27
+          ],
+          "id": 1418000,
+          "original_language": "en",
+          "original_title": "Zatrucie Rodziny",
+          "overview": "",
+          "popularity": 0.0561,
+          "poster_path": null,
+          "release_date": "2027-12-31",
+          "title": "Zatrucie Rodziny",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [],
+          "id": 1417593,
+          "original_language": "en",
+          "original_title": "Deconstruction of Art History",
+          "overview": "",
+          "popularity": 0.0464,
+          "poster_path": null,
+          "release_date": "2027-12-31",
+          "title": "Deconstruction of Art History",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [],
+          "id": 1417592,
+          "original_language": "en",
+          "original_title": "A World Without Trees",
+          "overview": "",
+          "popularity": 0.0256,
+          "poster_path": null,
+          "release_date": "2027-12-31",
+          "title": "A World Without Trees",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [],
+          "id": 1236491,
+          "original_language": "pl",
+          "original_title": "Galeria Malta",
+          "overview": "",
+          "popularity": 0.0071,
+          "poster_path": "/tCyjSEwrKqxrsOmnEvYzXzN9iuK.jpg",
+          "release_date": "2026-12-31",
+          "title": "Galeria Malta",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            18
+          ],
+          "id": 1598907,
+          "original_language": "pl",
+          "original_title": "Wesołych świąt, Franz",
+          "overview": "",
+          "popularity": 0.0143,
+          "poster_path": null,
+          "release_date": "2026-12-03",
+          "title": "Wesołych świąt, Franz",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kGpzJIKs17jNBq2zLgVgLhvJqnN.jpg",
+          "genre_ids": [
+            18,
+            36
+          ],
+          "id": 1396056,
+          "original_language": "pl",
+          "original_title": "Nasza rewolucja. Historia miłości Grażyny i Jacka Kuroniów",
+          "overview": "",
+          "popularity": 0.0811,
+          "poster_path": null,
+          "release_date": "2026-11-11",
+          "title": "Nasza rewolucja. Historia miłości Grażyny i Jacka Kuroniów",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            10751
+          ],
+          "id": 1601776,
+          "original_language": "pl",
+          "original_title": "Przepis na święta",
+          "overview": "",
+          "popularity": 0.1332,
+          "poster_path": null,
+          "release_date": "2026-11-06",
+          "title": "Przepis na święta",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            878,
+            18,
+            10749
+          ],
+          "id": 1480865,
+          "original_language": "pl",
+          "original_title": "Czas, który nie nadszedł",
+          "overview": "",
+          "popularity": 0.1225,
+          "poster_path": null,
+          "release_date": "2026-10-16",
+          "title": "Czas, który nie nadszedł",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/bD6MaCo5XlBmTtEXn6I4t05GsX6.jpg",
+          "genre_ids": [
+            18,
+            36
+          ],
+          "id": 1321666,
+          "original_language": "pl",
+          "original_title": "Lalka",
+          "overview": "",
+          "popularity": 0.7333,
+          "poster_path": "/4fzO2JQFUyCo7CiGydGejBHJpqN.jpg",
+          "release_date": "2026-09-30",
+          "title": "Lalka",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/OYikwyUKEWvjlsMIOjpxgqrPIL.jpg",
+          "genre_ids": [
+            18,
+            10749
+          ],
+          "id": 1396045,
+          "original_language": "pl",
+          "original_title": "Powiedz mi, co czujesz",
+          "overview": "",
+          "popularity": 0.0736,
+          "poster_path": "/kolJqRhcJPTYrqbbqOKZ69QGYkB.jpg",
+          "release_date": "2026-09-18",
+          "title": "Powiedz mi, co czujesz",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [],
+          "id": 1607290,
+          "original_language": "en",
+          "original_title": "Ratrace",
+          "overview": "",
+          "popularity": 0.0398,
+          "poster_path": "/3Ot9PW5cG3O7IfSMz363mr1CvQF.jpg",
+          "release_date": "2026-09-10",
+          "title": "Ratrace",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pcateWuAui4WuBhsuXVqAQiwL2r.jpg",
+          "genre_ids": [
+            16,
+            12
+          ],
+          "id": 1610292,
+          "original_language": "pl",
+          "original_title": "Fru! 2",
+          "overview": "",
+          "popularity": 0.0459,
+          "poster_path": "/iooPZjGRE2IkJxnhJ3GMRU9Sska.jpg",
+          "release_date": "2026-06-27",
+          "title": "Fru! 2",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/psPHCfKHjb3fKLJFxUMANd1VeMS.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 1625247,
+          "original_language": "pl",
+          "original_title": "Lek na samotność",
+          "overview": "",
+          "popularity": 0.0564,
+          "poster_path": "/gEaFDrcCDWLtcY6MQRInhsFJBo7.jpg",
+          "release_date": "2026-06-26",
+          "title": "Lek na samotność",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pJlPRzus9xdajjVAWdydiY7sbR2.jpg",
+          "genre_ids": [
+            16,
+            10751,
+            14,
+            12
+          ],
+          "id": 1277047,
+          "original_language": "pl",
+          "original_title": "Chłopiec na krańcach świata",
+          "overview": "",
+          "popularity": 0.1556,
+          "poster_path": "/kbaNDWXbHvdnWc7ac7CzwQngYvd.jpg",
+          "release_date": "2026-06-26",
+          "title": "Chłopiec na krańcach świata",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            99
+          ],
+          "id": 1510214,
+          "original_language": "en",
+          "original_title": "Tokyo In 33 RPM",
+          "overview": "",
+          "popularity": 0.0239,
+          "poster_path": "/9P77DfblUTHT2xJUxNyJYb4oUcn.jpg",
+          "release_date": "2026-05-15",
+          "title": "Tokyo In 33 RPM",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            18
+          ],
+          "id": 1383155,
+          "original_language": "pl",
+          "original_title": "Trójka",
+          "overview": "",
+          "popularity": 0.0637,
+          "poster_path": null,
+          "release_date": "2026-05-01",
+          "title": "Trójka",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            18,
+            10749,
+            14
+          ],
+          "id": 1197930,
+          "original_language": "pl",
+          "original_title": "Anioł morski",
+          "overview": "",
+          "popularity": 0.3057,
+          "poster_path": "/qw98EMWgMY59sXLbEuuDSNVg0OG.jpg",
+          "release_date": "2026-03-27",
+          "title": "Anioł morski",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 1625588,
+          "original_language": "pl",
+          "original_title": "Lowcy Skór",
+          "overview": "",
+          "popularity": 0.0214,
+          "poster_path": "/tZLQJSAf7mvCHYiim31Ld7RjcFQ.jpg",
+          "release_date": "2026-03-26",
+          "title": "Lowcy Skór",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            99
+          ],
+          "id": 1605315,
+          "original_language": "pl",
+          "original_title": "Dziewczyna, która bała się fajerwerków",
+          "overview": "",
+          "popularity": 0.0261,
+          "poster_path": "/y5JEBfSaYu1v5OLEk0WY8b4yaBi.jpg",
+          "release_date": "2026-03-20",
+          "title": "Dziewczyna, która bała się fajerwerków",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 1575156,
+          "original_language": "pl",
+          "original_title": "Algorytm życia",
+          "overview": "",
+          "popularity": 0.1212,
+          "poster_path": "/oap0V7L8GGSFsjY3RETvlvUaeTc.jpg",
+          "release_date": "2026-03-20",
+          "title": "Algorytm życia",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ]
+    },
+    {
+      "title": "📺 Польські серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [],
+          "id": 309975,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Przygody w Rzeszowie cześć 1",
+          "overview": "",
+          "popularity": 0.0143,
+          "poster_path": null,
+          "first_air_date": "2026-06-25",
+          "name": "Przygody w Rzeszowie cześć 1",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            18,
+            80
+          ],
+          "id": 286702,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Piekło kobiet",
+          "overview": "",
+          "popularity": 0.9201,
+          "poster_path": null,
+          "first_air_date": "2026-03-06",
+          "name": "Piekło kobiet",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            99
+          ],
+          "id": 308050,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Edyta Górniak",
+          "overview": "",
+          "popularity": 0.9458,
+          "poster_path": null,
+          "first_air_date": "2026-03-05",
+          "name": "Edyta Górniak",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/6jbV1lCRvsXX07q3S7TVrDTibvu.jpg",
+          "genre_ids": [],
+          "id": 315458,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Moto Fachury",
+          "overview": "",
+          "popularity": 0,
+          "poster_path": null,
+          "first_air_date": "2026-03-01",
+          "name": "Moto Fachury",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3ItuncOlB6dN0m9x3B36M2WCvoB.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 315343,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Nieusłyszane",
+          "overview": "",
+          "popularity": 0.05,
+          "poster_path": "/3cPd5m8IysvNksREwGXf1cPu9s7.jpg",
+          "first_air_date": "2026-02-28",
+          "name": "Nieusłyszane",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            99
+          ],
+          "id": 315097,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Kamil Stoch: najlepszy raz",
+          "overview": "",
+          "popularity": 0.1608,
+          "poster_path": null,
+          "first_air_date": "2026-02-28",
+          "name": "Kamil Stoch: najlepszy raz",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/smbYqVcXjEJ22csrA7GVga4bMQ9.jpg",
+          "genre_ids": [
+            99,
+            80
+          ],
+          "id": 313228,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Morderca szyty na miarę",
+          "overview": "",
+          "popularity": 3.3181,
+          "poster_path": "/3pcmkcUSVbpgKvKLvM7kpDJivUU.jpg",
+          "first_air_date": "2026-02-20",
+          "name": "Morderca szyty na miarę",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wBVJtiDpvHKPA4yZTopuFHXRLpC.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 308199,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "DODA",
+          "overview": "",
+          "popularity": 0.3822,
+          "poster_path": "/8utfUwqXtgDbccbC7hkpfITdxLZ.jpg",
+          "first_air_date": "2026-02-20",
+          "name": "DODA",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ra12F3J3uVe112FEqBGmQapW2Bu.jpg",
+          "genre_ids": [
+            18,
+            10768
+          ],
+          "id": 270444,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Ołowiane dzieci",
+          "overview": "Молода педіатриня виявляє, що діти, які живуть поблизу металургійного заводу, страждають на отруєння свинцем, і ризикує всім заради їхнього порятунку.",
+          "popularity": 13.6508,
+          "poster_path": "/hceafL0x6jfA7E7a1Yysoj4vdPE.jpg",
+          "first_air_date": "2026-02-11",
+          "name": "Свинцеві діти",
+          "vote_average": 8.229,
+          "vote_count": 24
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mWzn4Mg7FbuDMg7CKR88dKlWAwg.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 294637,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Młode gliny",
+          "overview": "",
+          "popularity": 0.2459,
+          "poster_path": "/6tmnm9pQGdpaVYpajjgjCtt3oOd.jpg",
+          "first_air_date": "2026-02-09",
+          "name": "Młode gliny",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [],
+          "id": 315366,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Okrasa łamie przepisy",
+          "overview": "",
+          "popularity": 0.0143,
+          "poster_path": null,
+          "first_air_date": "2026-02-03",
+          "name": "Okrasa łamie przepisy",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [],
+          "id": 312430,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "strażacy z sąsiedztwa",
+          "overview": "",
+          "popularity": 0.0168,
+          "poster_path": null,
+          "first_air_date": "2026-01-26",
+          "name": "strażacy z sąsiedztwa",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8bZouZGZXsPHkDGPtP6A5i8L8DY.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 309758,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Tajemnice kutlowych seriali",
+          "overview": "",
+          "popularity": 0.116,
+          "poster_path": "/v9Gc1E5dFJR7H0t9W4Ik6znwHnL.jpg",
+          "first_air_date": "2026-01-03",
+          "name": "Tajemnice kutlowych seriali",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jcOllGNsd4D75kHrlNL9DC7cJhW.jpg",
+          "genre_ids": [],
+          "id": 309324,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Sanah na stadionach",
+          "overview": "",
+          "popularity": 0.1838,
+          "poster_path": "/n9d66LvHjx6kiyqArQ1rT5fMKmI.jpg",
+          "first_air_date": "2025-12-27",
+          "name": "Sanah na stadionach",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5D8xbKFrh9pqVUhjXVGZMpfqjwv.jpg",
+          "genre_ids": [
+            18,
+            9648
+          ],
+          "id": 304199,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Niebo",
+          "overview": "",
+          "popularity": 2.966,
+          "poster_path": "/nEPHznUswIcS7f5nVxIv6GogFtb.jpg",
+          "first_air_date": "2025-12-26",
+          "name": "Niebo",
+          "vote_average": 4.333,
+          "vote_count": 6
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/xfzNU5ytrRxxIosE9Jo87Yc2Y8p.jpg",
+          "genre_ids": [
+            99,
+            10764,
+            10763
+          ],
+          "id": 309636,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "25 lat miłości: Jubileusz M jak miłość",
+          "overview": "",
+          "popularity": 0.0525,
+          "poster_path": "/o8T6CvMeJmd2PxZK8xukKcma0OL.jpg",
+          "first_air_date": "2025-12-25",
+          "name": "25 lat miłości: Jubileusz M jak miłość",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/bH0Hpj3xXQclwk023ImTNDFqLsV.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 308915,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "CSITV: Nowa era Buddy",
+          "overview": "",
+          "popularity": 0.1149,
+          "poster_path": "/xK2SoAwSSb6ME1s55fqO3HVSfWQ.jpg",
+          "first_air_date": "2025-12-20",
+          "name": "CSITV: Nowa era Buddy",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8OYCsaVYLfrgqJSs9AnSG6dKPDX.jpg",
+          "genre_ids": [
+            99,
+            80
+          ],
+          "id": 303155,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Zabić Miss",
+          "overview": "",
+          "popularity": 0.2015,
+          "poster_path": "/93BUvaRQA83akLm1Yown5NsIbzE.jpg",
+          "first_air_date": "2025-12-17",
+          "name": "Zabić Miss",
+          "vote_average": 10,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/xogKYGWDwYP9oTp1bVNUJavTfTZ.jpg",
+          "genre_ids": [
+            99,
+            80
+          ],
+          "id": 308049,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Niedziela cudów",
+          "overview": "",
+          "popularity": 0.0214,
+          "poster_path": "/6cFgCIV5Kph6POXzcCrpnojfwTQ.jpg",
+          "first_air_date": "2025-12-14",
+          "name": "Niedziela cudów",
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/viuBeQoE8JMsYmuf4S7350UoM5c.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 306553,
+          "origin_country": [
+            "PL"
+          ],
+          "original_language": "pl",
+          "original_name": "Eksperyment: Odsiadka",
+          "overview": "",
+          "popularity": 0.4146,
+          "poster_path": "/zXbuJcMmwPisrwebXVyO5729ZIo.jpg",
+          "first_air_date": "2025-12-03",
+          "name": "Eksperyment: Odsiadka",
+          "vote_average": 7,
+          "vote_count": 1
+        }
+      ]
+    },
+    {
+      "title": "🏆 Хіти Польщі",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/zBG5Mg29NH9xxpWMMG7BIvKwYhL.jpg",
+          "genre_ids": [
+            10749,
+            18
+          ],
+          "id": 829557,
+          "original_language": "pl",
+          "original_title": "365 dni: Ten dzień",
+          "overview": "Лаура та Массімо повертаються, і вони сильніші, ніж будь-коли. Але сімейні проблеми Массімо й загадковий чоловік, який прагне завоювати Лауру, ускладнюють життя пари.",
+          "popularity": 14.0471,
+          "poster_path": "/iSQ4SXaeTKvgc2GKjpcjLmCEhDO.jpg",
+          "release_date": "2022-04-26",
+          "title": "365 днів: Цей день",
+          "video": false,
+          "vote_average": 5.93,
+          "vote_count": 1824
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/6cpRpfD3isvluFwXDGSiDVyibPJ.jpg",
+          "genre_ids": [
+            10749,
+            18
+          ],
+          "id": 829560,
+          "original_language": "pl",
+          "original_title": "Kolejne 365 dni",
+          "overview": "Стосунки Лаури й Массімо висять на волосині. Закохані намагаються подолати недовіру, а наполегливий Начо робить усе, щоб розлучити їх.",
+          "popularity": 7.7974,
+          "poster_path": "/gXTKvuRJLdLPInOxHyI2lDzLcCR.jpg",
+          "release_date": "2022-08-18",
+          "title": "Наступні 365 днів",
+          "video": false,
+          "vote_average": 6.384,
+          "vote_count": 1291
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2yo2k8CmgZxfBQYAZ8TnHIYzEme.jpg",
+          "genre_ids": [
+            28,
+            80,
+            53
+          ],
+          "id": 1072699,
+          "original_language": "pl",
+          "original_title": "Druga Furioza",
+          "overview": "Після вбивства авторитета жорстокого бандитського угрупування Фуріози владу в ньому захоплює Ґолден, який планує перетнути кордони й розширити його вплив.",
+          "popularity": 7.2354,
+          "poster_path": "/dlSYrrFVMyDJ4XmblLMEYS4mkdT.jpg",
+          "release_date": "2025-10-14",
+          "title": "Знову лють",
+          "video": false,
+          "vote_average": 6.517,
+          "vote_count": 89
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tNvpplzuQ3delUdHejzHJNcuSZX.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 1043912,
+          "original_language": "pl",
+          "original_title": "Teściowie 2",
+          "overview": "",
+          "popularity": 6.4127,
+          "poster_path": "/oXfk4IvOBwhmOulGhLLNhBHMLa9.jpg",
+          "release_date": "2023-09-15",
+          "title": "Teściowie 2",
+          "video": false,
+          "vote_average": 6.46,
+          "vote_count": 25
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            28,
+            18
+          ],
+          "id": 36410,
+          "original_language": "pl",
+          "original_title": "Zero",
+          "overview": "",
+          "popularity": 5.6281,
+          "poster_path": "/3BKe6bJEay1dQkKVz10iNQgQFFu.jpg",
+          "release_date": "2009-09-15",
+          "title": "Zero",
+          "video": false,
+          "vote_average": 5.042,
+          "vote_count": 12
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/29mZ5bR5m2w3xuvwJH7BHMFQQwH.jpg",
+          "genre_ids": [
+            10749,
+            18
+          ],
+          "id": 664413,
+          "original_language": "pl",
+          "original_title": "365 dni",
+          "overview": "Жінка стає жертвою владного мафіозі, який бере її в полон і дає рік, щоб покохати його.",
+          "popularity": 5.5164,
+          "poster_path": "/yXXrRrIZaqUlriQz7PaMQOUj6qG.jpg",
+          "release_date": "2020-02-07",
+          "title": "365 днів",
+          "video": false,
+          "vote_average": 7.003,
+          "vote_count": 9422
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cIj0OWDaGuv20eTIQ6iabCY9X2H.jpg",
+          "genre_ids": [
+            18,
+            80
+          ],
+          "id": 616720,
+          "original_language": "pl",
+          "original_title": "Fighter",
+          "overview": "Відомий боєць ММА з Польщі, Томек Яніцький, досить щаслива людина: у нього успішна кар'єра, є гроші, а ще він зустрічається з красунею Агатою. Але все змінюється, коли чемпіонський бій героя за важливий пояс скасовується, він впадає в сказ і починає робити дурниці. У результаті він змушений виїхати з міста, щоб усе почати заново. На новому місці в хлопця починаються стосунки, усе начебто налагоджується, але минуле наздоганяє. Спортсмен знову змушений вийти на ринг, зіткнувшись зі своїм старим противником.",
+          "popularity": 5.3838,
+          "poster_path": "/8CxySY285VPAytMqBuBEaQARNm5.jpg",
+          "release_date": "2019-07-19",
+          "title": "Боєць",
+          "video": false,
+          "vote_average": 3.767,
+          "vote_count": 15
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tFtbTA3B1mm9nuvA9M32FJD08Kp.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 486484,
+          "original_language": "pl",
+          "original_title": "Dzikie róże",
+          "overview": "",
+          "popularity": 5.2288,
+          "poster_path": "/fjIeXZ6DmaXMEi1Y61XvBAWlxKw.jpg",
+          "release_date": "2017-12-29",
+          "title": "Dzikie róże",
+          "video": false,
+          "vote_average": 5.3,
+          "vote_count": 23
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wK8J98duAOa3QLIVMGIEZdjhgEK.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 627958,
+          "original_language": "pl",
+          "original_title": "Proceder",
+          "overview": "",
+          "popularity": 4.7067,
+          "poster_path": "/3OxwzbNhRkGB6v3pl3oMfYqsqp4.jpg",
+          "release_date": "2019-11-29",
+          "title": "Proceder",
+          "video": false,
+          "vote_average": 7.708,
+          "vote_count": 36
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iAdteA5oimJsR3lqL1tzvtI7zjj.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 1105000,
+          "original_language": "pl",
+          "original_title": "Lewandowski - Nieznany",
+          "overview": "",
+          "popularity": 4.5161,
+          "poster_path": "/g1aJIwpTs9kgkxBy6dsnQIw5vv0.jpg",
+          "release_date": "2023-03-31",
+          "title": "Lewandowski - Nieznany",
+          "video": false,
+          "vote_average": 6.5,
+          "vote_count": 15
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/aqGDZrEN3wCpLHs4lPoN07BijdZ.jpg",
+          "genre_ids": [
+            18,
+            10402,
+            36
+          ],
+          "id": 135161,
+          "original_language": "pl",
+          "original_title": "Jesteś Bogiem",
+          "overview": "",
+          "popularity": 4.3722,
+          "poster_path": "/obzhVV6Pc51jjDrOy6ZHscLp1c8.jpg",
+          "release_date": "2012-09-21",
+          "title": "Jesteś Bogiem",
+          "video": false,
+          "vote_average": 6.4,
+          "vote_count": 65
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zGNLkZYzFrBvROL2g6UNJsfnA8h.jpg",
+          "genre_ids": [
+            18,
+            53
+          ],
+          "id": 72478,
+          "original_language": "pl",
+          "original_title": "Sala samobójców",
+          "overview": "",
+          "popularity": 4.3144,
+          "poster_path": "/nFxqnjti8PBAxAPbmnIJk0GBGky.jpg",
+          "release_date": "2011-03-04",
+          "title": "Sala samobójców",
+          "video": false,
+          "vote_average": 7.283,
+          "vote_count": 474
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9wbBJXQGcY1ex7rcWIG2TLCkmgQ.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 48119,
+          "original_language": "pl",
+          "original_title": "Z odzysku",
+          "overview": "Дев'ятнадцятирічний Войтек, відчайдушно намагається знайти своє місце у суспільстві, не лише стати самостійним, але й забезпечити свою кохану і значно старшу за себе Катю, нелегальну українську заробітчанку та її сина. Заради неї Войтек готовий іти на злочин, займатися рекетом, повертаючи задавнені борги. Добрі наміри юнака стають дорогою до пекла. Він все глибше поринає у трясовину насильства, втрачає родину, друзів, і свою гідність...",
+          "popularity": 4.3003,
+          "poster_path": "/2SKzV3CE1MTWEmL65L2Isb8uuOm.jpg",
+          "release_date": "2006-11-17",
+          "title": "Повертаючи борги",
+          "video": false,
+          "vote_average": 5.583,
+          "vote_count": 12
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/6U6F2OnHTLs1Pxk8ZVDCRbd3a76.jpg",
+          "genre_ids": [
+            16,
+            36,
+            18
+          ],
+          "id": 734002,
+          "original_language": "pl",
+          "original_title": "Chłopi",
+          "overview": "У селі XIX століття, одруження місцевої красуні з багатим вдівцем призводить до жорсткого суперництва та хтивих бажань, що штовхає спільноту у вир катастроф, які закінчуються трагічною кінцівкою.",
+          "popularity": 4.2828,
+          "poster_path": "/kBuRtJ3IkFfLf74CfORZcgOFI2c.jpg",
+          "release_date": "2023-10-13",
+          "title": "Кріпачка",
+          "video": false,
+          "vote_average": 7.516,
+          "vote_count": 153
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7CcRjFHEsOGAF7ATgMN2pXvKILS.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 253267,
+          "original_language": "en",
+          "original_title": "Vessel",
+          "overview": "",
+          "popularity": 4.2626,
+          "poster_path": "/nBmLBVJcLjj1fzzs0NX0yKFm8Pw.jpg",
+          "release_date": "2014-03-09",
+          "title": "Vessel",
+          "video": false,
+          "vote_average": 7.6,
+          "vote_count": 14
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1bfM65fgDxGQxybkc8S0e7wrWfO.jpg",
+          "genre_ids": [
+            10402,
+            35
+          ],
+          "id": 346443,
+          "original_language": "pl",
+          "original_title": "Disco Polo",
+          "overview": "",
+          "popularity": 4.0515,
+          "poster_path": "/vbPLAtvFJ4v5AMQIGmmHDkBkGUk.jpg",
+          "release_date": "2015-02-27",
+          "title": "Disco Polo",
+          "video": false,
+          "vote_average": 5.083,
+          "vote_count": 36
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4c99IHeOfpf5bIPC7eEJMKOEzLS.jpg",
+          "genre_ids": [
+            35,
+            10752,
+            36
+          ],
+          "id": 256608,
+          "original_language": "pl",
+          "original_title": "AmbaSSada",
+          "overview": "",
+          "popularity": 4.0447,
+          "poster_path": "/p118qJ0cwJBAOybBnauNgpdgVOr.jpg",
+          "release_date": "2013-10-18",
+          "title": "AmbaSSada",
+          "video": false,
+          "vote_average": 5.231,
+          "vote_count": 26
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zeKpZnZQUctVPj4WZJy6ne04OyI.jpg",
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 999133,
+          "original_language": "pl",
+          "original_title": "Tata",
+          "overview": "Історія, що розвивається між двома кордонами, українським та польським. Міхал – батько-одинак і далекобійник. Коли він у дорозі, його доньку доглядає українська жінка. Та її раптова смерть відправляє Міхала у несподівану подорож до України, під час якої він дізнається, що таке батьківство та що є найголовнішим у житті...",
+          "popularity": 4.0388,
+          "poster_path": "/G0HjKeIHkeZsBVocGr3J2jnWRi.jpg",
+          "release_date": "2023-02-17",
+          "title": "Тато",
+          "video": false,
+          "vote_average": 5.85,
+          "vote_count": 10
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vHJGWNMp66JZ4tigV8ZyXbSXiIu.jpg",
+          "genre_ids": [
+            36,
+            18,
+            10752
+          ],
+          "id": 1153166,
+          "original_language": "pl",
+          "original_title": "Raport Pileckiego",
+          "overview": "",
+          "popularity": 3.9363,
+          "poster_path": "/iF2QomEVHtiCClCRQGWoj7Fmv1q.jpg",
+          "release_date": "2023-09-01",
+          "title": "Raport Pileckiego",
+          "video": false,
+          "vote_average": 6.4,
+          "vote_count": 17
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/46SDQjPr2aQXuf5EPSjjLH7TVkK.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 154575,
+          "original_language": "pl",
+          "original_title": "Iluminacja",
+          "overview": "",
+          "popularity": 3.8845,
+          "poster_path": "/xZ1MLeAzl7Dh204dGlwzpjMcj50.jpg",
+          "release_date": "1973-09-29",
+          "title": "Iluminacja",
+          "video": false,
+          "vote_average": 6.929,
+          "vote_count": 56
+        }
+      ]
     }
   ]
 }

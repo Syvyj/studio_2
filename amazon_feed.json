@@ -1,13 +1,13 @@
 {
   "title": "Сьогодні на Prime Video",
-  "last_updated": "2026-02-22T21:48:18.934Z",
-  "results": [
+  "last_updated": "2026-03-01T21:34:45.695Z",
+  "main_row": [
     {
       "adult": false,
-      "backdrop_path": "/77TCOiGEmHYLndIw4jsf6uUra4X.jpg",
+      "backdrop_path": "/dnEljhBkw53ra7tEl2JNKGrI0wk.jpg",
       "genre_ids": [
-        80,
         18,
+        80,
         9648
       ],
       "id": 241372,
@@ -17,16 +17,33 @@
       "original_language": "en",
       "original_name": "56 Days",
       "overview": "Після випадкової зустрічі в супермаркеті між Олівером і Кіарою спалахує пристрасний роман. Та коли через 56 днів знаходять тіло жорстоко вбитої людини, розслідування занурюється в їхню бурхливу історію кохання й поступово розкриває похмурі таємниці.",
-      "popularity": 146.2642,
+      "popularity": 109.8135,
       "poster_path": "/zR6P6lwrqmjsl8HjjI1eViUONSO.jpg",
       "first_air_date": "2026-02-18",
       "name": "56 днів",
-      "vote_average": 5,
-      "vote_count": 29,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 5.983,
+      "vote_count": 58
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yQw23xxmVBFVHPCF6V68TAIIfno.jpg",
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "id": 219760,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Terminal List: Dark Wolf",
+      "overview": "Бен Едвардс, елітний «морський котик», стикається з переломним моментом у своїй кар’єрі. Після фатальної операції він втрачає статус у SEAL і змушений стати оперативником тіньового підрозділу ЦРУ.",
+      "popularity": 17.6135,
+      "poster_path": "/fpiLywwnX4eQTAFBJJdYV0osJrI.jpg",
+      "first_air_date": "2025-08-27",
+      "name": "Список смертників: Темний вовк",
+      "vote_average": 7.476,
+      "vote_count": 206
     },
     {
       "adult": false,
@@ -43,66 +60,34 @@
       "original_language": "en",
       "original_name": "Steal",
       "overview": "Динамічний трилер про пограбування століття та звичайну офісну працівницю, яка несподівано опиняється в самому центрі подій.",
-      "popularity": 29.4212,
+      "popularity": 15.7492,
       "poster_path": "/rqw9LbnXqjtHuXlHUvlisPTeo0L.jpg",
       "first_air_date": "2026-01-21",
       "name": "Крадіжка",
-      "vote_average": 7.395,
-      "vote_count": 95,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_average": 7.4,
+      "vote_count": 97
     },
     {
       "adult": false,
-      "backdrop_path": "/yQw23xxmVBFVHPCF6V68TAIIfno.jpg",
+      "backdrop_path": "/m8BuLCx997QVljT0wdss62QaRre.jpg",
       "genre_ids": [
-        10759,
-        18
+        18,
+        10768,
+        10759
       ],
-      "id": 219760,
+      "id": 211178,
       "origin_country": [
         "US"
       ],
       "original_language": "en",
-      "original_name": "The Terminal List: Dark Wolf",
-      "overview": "Бен Едвардс, елітний «морський котик», стикається з переломним моментом у своїй кар’єрі. Після фатальної операції він втрачає статус у SEAL і змушений стати оперативником тіньового підрозділу ЦРУ.",
-      "popularity": 15.7773,
-      "poster_path": "/fpiLywwnX4eQTAFBJJdYV0osJrI.jpg",
-      "first_air_date": "2025-08-27",
-      "name": "Список смертників: Темний вовк",
-      "vote_average": 7.47,
-      "vote_count": 203,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/4pxGvtwxDlATy9nvJMvYL8u25LZ.jpg",
-      "genre_ids": [
-        80,
-        9648
-      ],
-      "id": 256317,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Countdown",
-      "overview": "Детектив з Лос-Анджелеса Марк Мітчем приєднується до таємної оперативної групи, учасники якої працюють під прикриттям у різних правоохоронних структурах. Його мета — знайти вбивцю офіцера з Міністерства внутрішньої безпеки. Під час розслідування він розкриває масштабну змову, яка загрожує життю мільйонів мешканців міста.",
-      "popularity": 11.0305,
-      "poster_path": "/alxnHVi1ublXWojLnYWkr0KU0tk.jpg",
-      "first_air_date": "2025-06-25",
-      "name": "Зворотний відлік",
-      "vote_average": 7.3,
-      "vote_count": 125,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "original_name": "The Gray House",
+      "overview": "",
+      "popularity": 11.8724,
+      "poster_path": "/wE5jZDeQuiulaAtjeaEq0y8tpey.jpg",
+      "first_air_date": "2026-02-26",
+      "name": "The Gray House",
+      "vote_average": 3.5,
+      "vote_count": 13
     },
     {
       "adult": false,
@@ -118,16 +103,12 @@
       "original_language": "en",
       "original_name": "Ballard",
       "overview": "Детективка Рене Баллард очолює новий відділ нерозкритих справ у Лос-Анджелеській поліції. Вона відома своєю рішучістю, емпатією та здатністю викривати змови.",
-      "popularity": 8.0188,
+      "popularity": 7.8899,
       "poster_path": "/isK5S11dNEADuEpOwskVqQjtvy3.jpg",
       "first_air_date": "2025-07-09",
       "name": "Баллард",
       "vote_average": 7.052,
-      "vote_count": 144,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_count": 144
     },
     {
       "adult": false,
@@ -144,16 +125,33 @@
       "original_language": "en",
       "original_name": "The Mighty Nein",
       "overview": "Історія про групу злочинців і вигнанців, які виявляються єдиними, хто може запобігти зануренню королівства в хаос, коли таємничий артефакт, що може змінювати реальність, потрапляє не до тих рук.",
-      "popularity": 7.5532,
+      "popularity": 7.7766,
       "poster_path": "/nHlvaNhb6DxCJBeidacEtiNWZmr.jpg",
       "first_air_date": "2025-11-19",
       "name": "Могутня дев'ятка",
-      "vote_average": 7.959,
-      "vote_count": 74,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_average": 7.934,
+      "vote_count": 76
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kPOm8uBC7ajkjCWC0NM2lRbhRLs.jpg",
+      "genre_ids": [
+        10759,
+        18
+      ],
+      "id": 227114,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Butterfly",
+      "overview": "Девід Чан, колишній співробітник розвідки США, живе в Південній Кореї. Таємна розвідувальна організація надсилає для його ліквідації агента. Цим агентом виявляється Ребекка — донька Девіда, яка вважала його загиблим уже багато років.",
+      "popularity": 6.5043,
+      "poster_path": "/ynQMN7zvGxAztnWaqb0r94VobOu.jpg",
+      "first_air_date": "2025-08-13",
+      "name": "Метелик",
+      "vote_average": 7.081,
+      "vote_count": 118
     },
     {
       "adult": false,
@@ -170,90 +168,12 @@
       "original_language": "en",
       "original_name": "The Girlfriend",
       "overview": "Ідилічне життя Лори руйнується, коли нова дівчина її сина викликає підозри. Вирішивши захистити його, Лора заходить надто далеко, і постає питання: вона діє обережно та виправдано чи вже повністю охоплена параноєю?",
-      "popularity": 7.3772,
+      "popularity": 5.918,
       "poster_path": "/uqREi9r2JlbxQIBT82qzSaZ9FU3.jpg",
       "first_air_date": "2025-09-10",
       "name": "Дівчина мого сина",
-      "vote_average": 7.139,
-      "vote_count": 104,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/kPOm8uBC7ajkjCWC0NM2lRbhRLs.jpg",
-      "genre_ids": [
-        10759,
-        18
-      ],
-      "id": 227114,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Butterfly",
-      "overview": "Девід Чан, колишній співробітник розвідки США, живе в Південній Кореї. Таємна розвідувальна організація надсилає для його ліквідації агента. Цим агентом виявляється Ребекка — донька Девіда, яка вважала його загиблим уже багато років.",
-      "popularity": 7.1173,
-      "poster_path": "/ynQMN7zvGxAztnWaqb0r94VobOu.jpg",
-      "first_air_date": "2025-08-13",
-      "name": "Метелик",
-      "vote_average": 7.065,
-      "vote_count": 115,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/uj4wyiZPmZNRJBjThtqNrZvHN9w.jpg",
-      "genre_ids": [
-        9648
-      ],
-      "id": 245827,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Harlan Coben's Lazarus",
-      "overview": "Судовий психіатр доктор Джоел «Лаз» Лазарус змушений зіткнутися з давно похованими демонами після того, як його батько, доктор Л., помирає за підозрілих обставин. Спочатку переконаний, що смерть батька є самогубством, Лаз незабаром опиняється втягнутим у світ вбивчих змов і гонитви за вбивцею, сповнений дивними баченнями людей, яких він знає мертвими.",
-      "popularity": 6.4676,
-      "poster_path": "/bfULTZ6vjj950eszb0k2vh7PP3s.jpg",
-      "first_air_date": "2025-10-22",
-      "name": "Лазар",
-      "vote_average": 6.336,
-      "vote_count": 55,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/yZJ6ecQCRsXg3rx7hJbwYPHuzD3.jpg",
-      "genre_ids": [
-        16,
-        10751
-      ],
-      "id": 225361,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "BAT-FAM",
-      "overview": "«BAT-FAM» розповідає про Бетмена, Альфреда та молодого Деміана Вейна, які живуть разом із незвичайною групою нових сусідів, захищаючи Готем-Сіті.",
-      "popularity": 5.824,
-      "poster_path": "/8C34YTylNBt4DWM1a9oAAXqmTSr.jpg",
-      "first_air_date": "2025-11-10",
-      "name": "BAT-FAM",
-      "vote_average": 4.393,
-      "vote_count": 14,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "HD",
-      "is_hdr": false
+      "vote_average": 7.165,
+      "vote_count": 106
     },
     {
       "adult": false,
@@ -270,16 +190,53 @@
       "original_language": "en",
       "original_name": "The Assassin",
       "overview": "Джулі — колишня вбивця, яка відійшла від справ і поселилася в Греції. Її навідує син Едвард, щоб дізнатися правду про батька. Однак небезпечне минуле Джулі наздоганяє її, і вони з сином змушені рятуватися втечею.",
-      "popularity": 5.3824,
+      "popularity": 5.689,
       "poster_path": "/3O2UgEszp1CVbL8p9XnKkFDkbk3.jpg",
       "first_air_date": "2025-07-25",
       "name": "Вбивця",
-      "vote_average": 6.737,
-      "vote_count": 57,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.741,
+      "vote_count": 58
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uj4wyiZPmZNRJBjThtqNrZvHN9w.jpg",
+      "genre_ids": [
+        9648
+      ],
+      "id": 245827,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Harlan Coben's Lazarus",
+      "overview": "Судовий психіатр доктор Джоел «Лаз» Лазарус змушений зіткнутися з давно похованими демонами після того, як його батько, доктор Л., помирає за підозрілих обставин. Спочатку переконаний, що смерть батька є самогубством, Лаз незабаром опиняється втягнутим у світ вбивчих змов і гонитви за вбивцею, сповнений дивними баченнями людей, яких він знає мертвими.",
+      "popularity": 4.8909,
+      "poster_path": "/bfULTZ6vjj950eszb0k2vh7PP3s.jpg",
+      "first_air_date": "2025-10-22",
+      "name": "Лазар",
+      "vote_average": 6.313,
+      "vote_count": 56
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yZJ6ecQCRsXg3rx7hJbwYPHuzD3.jpg",
+      "genre_ids": [
+        16,
+        10751
+      ],
+      "id": 225361,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "BAT-FAM",
+      "overview": "«BAT-FAM» розповідає про Бетмена, Альфреда та молодого Деміана Вейна, які живуть разом із незвичайною групою нових сусідів, захищаючи Готем-Сіті.",
+      "popularity": 4.8877,
+      "poster_path": "/8C34YTylNBt4DWM1a9oAAXqmTSr.jpg",
+      "first_air_date": "2025-11-10",
+      "name": "BAT-FAM",
+      "vote_average": 4.393,
+      "vote_count": 14
     },
     {
       "adult": false,
@@ -295,92 +252,12 @@
       "original_language": "en",
       "original_name": "Malice",
       "overview": "Харизматичний репетитор проникає в життя заможної родини, приховуючи зловісний задум. Коли його план помсти починає розкриватися, сім’я змушена протистояти ворогу, який живе з ними під одним дахом.",
-      "popularity": 4.6666,
+      "popularity": 4.8578,
       "poster_path": "/cl3lRnJ3CtsVtplpVSA1u2Vtjey.jpg",
       "first_air_date": "2025-11-14",
       "name": "Злочинний намір",
-      "vote_average": 6.824,
-      "vote_count": 34,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/2VCSUWfJSE5nrMpSBquiZtpHUUP.jpg",
-      "genre_ids": [
-        99,
-        80
-      ],
-      "id": 308606,
-      "origin_country": [
-        "ES"
-      ],
-      "original_language": "es",
-      "original_name": "Pelayo: Más allá del límite",
-      "overview": "",
-      "popularity": 3.8786,
-      "poster_path": "/fNxvkDtJKUXIPZaVHVSNacktBRV.jpg",
-      "first_air_date": "2026-01-09",
-      "name": "Pelayo: Más allá del límite",
-      "vote_average": 6.1,
-      "vote_count": 9,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/dnB98op1crXpolR1PXg61jW4ej3.jpg",
-      "genre_ids": [
-        9648,
-        18
-      ],
-      "id": 296243,
-      "origin_country": [
-        "MX"
-      ],
-      "original_language": "es",
-      "original_name": "Cometierra",
-      "overview": "",
-      "popularity": 3.8354,
-      "poster_path": "/d8LYs7rSj5kmHDKBMgiqE1ACCoq.jpg",
-      "first_air_date": "2025-10-31",
-      "name": "Cometierra",
-      "vote_average": 6.467,
-      "vote_count": 15,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/gB2Zq8CMbRlbVKmpVIzzXK5JO3w.jpg",
-      "genre_ids": [
-        18,
-        9648,
-        80
-      ],
-      "id": 294188,
-      "origin_country": [
-        "PH"
-      ],
-      "original_language": "tl",
-      "original_name": "The Alibi",
-      "overview": "",
-      "popularity": 3.4581,
-      "poster_path": "/cpRKdGjA51Capuc3IelUMnqZOE0.jpg",
-      "first_air_date": "2025-11-07",
-      "name": "The Alibi",
-      "vote_average": 8.3,
-      "vote_count": 7,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": true
+      "vote_average": 6.829,
+      "vote_count": 35
     },
     {
       "adult": false,
@@ -397,16 +274,12 @@
       "original_language": "en",
       "original_name": "Hotel Costiera",
       "overview": "",
-      "popularity": 3.4527,
+      "popularity": 4.6071,
       "poster_path": "/5dL2niLZqvXMIh1DWzBHX23zOXG.jpg",
       "first_air_date": "2025-09-24",
       "name": "Hotel Costiera",
-      "vote_average": 6.922,
-      "vote_count": 32,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.9,
+      "vote_count": 32
     },
     {
       "adult": false,
@@ -422,64 +295,98 @@
       "original_language": "pt",
       "original_name": "Tremembé",
       "overview": "",
-      "popularity": 3.4488,
+      "popularity": 4.2592,
       "poster_path": "/eVqBFACBpovk0sEtjx3HEb3jOYS.jpg",
       "first_air_date": "2025-10-31",
       "name": "Tremembé",
-      "vote_average": 7.696,
-      "vote_count": 23,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_average": 7.7,
+      "vote_count": 23
     },
     {
       "adult": false,
-      "backdrop_path": "/4CXPLn2VKxTtlfd2fgClRYTBpiM.jpg",
+      "backdrop_path": "/oyr8vPGD66eNqruV3LjoI72UNxl.jpg",
       "genre_ids": [
-        10759
+        18,
+        35,
+        10751
       ],
-      "id": 306905,
+      "id": 248833,
       "origin_country": [
-        "ZA"
+        "US"
       ],
       "original_language": "en",
-      "original_name": "The Nowhere Man",
-      "overview": "",
-      "popularity": 3.3192,
-      "poster_path": "/iO4PWIZDhyALn5KYFgph57bIYtK.jpg",
-      "first_air_date": "2025-11-27",
-      "name": "The Nowhere Man",
-      "vote_average": 9,
-      "vote_count": 3,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "original_name": "The Runarounds",
+      "overview": "Шкільний гурт випускається і намагається здобути славу та успіх у музичній індустрії.",
+      "popularity": 4.105,
+      "poster_path": "/2jRm53TlWpStFkOb1SAiMRVcqX3.jpg",
+      "first_air_date": "2025-09-01",
+      "name": "Шалені",
+      "vote_average": 7.917,
+      "vote_count": 30
     },
     {
       "adult": false,
-      "backdrop_path": "/5trWJ75kxpmKqykkJFcjPIEtpMf.jpg",
+      "backdrop_path": "/dnB98op1crXpolR1PXg61jW4ej3.jpg",
       "genre_ids": [
+        9648,
         18
       ],
-      "id": 309400,
+      "id": 296243,
       "origin_country": [
-        "SE"
+        "MX"
       ],
-      "original_language": "sv",
-      "original_name": "Vaka",
+      "original_language": "es",
+      "original_name": "Cometierra",
       "overview": "",
-      "popularity": 3.0679,
-      "poster_path": "/crWFJagt0Fnv0NouuXNyiM5OiJa.jpg",
-      "first_air_date": "2026-01-30",
-      "name": "Vaka",
-      "vote_average": 5.1,
-      "vote_count": 15,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": true
+      "popularity": 3.6324,
+      "poster_path": "/d8LYs7rSj5kmHDKBMgiqE1ACCoq.jpg",
+      "first_air_date": "2025-10-31",
+      "name": "Cometierra",
+      "vote_average": 6.467,
+      "vote_count": 15
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gB2Zq8CMbRlbVKmpVIzzXK5JO3w.jpg",
+      "genre_ids": [
+        18,
+        9648,
+        80
+      ],
+      "id": 294188,
+      "origin_country": [
+        "PH"
+      ],
+      "original_language": "tl",
+      "original_name": "The Alibi",
+      "overview": "",
+      "popularity": 3.3407,
+      "poster_path": "/cpRKdGjA51Capuc3IelUMnqZOE0.jpg",
+      "first_air_date": "2025-11-07",
+      "name": "The Alibi",
+      "vote_average": 8.3,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2VCSUWfJSE5nrMpSBquiZtpHUUP.jpg",
+      "genre_ids": [
+        99,
+        80
+      ],
+      "id": 308606,
+      "origin_country": [
+        "ES"
+      ],
+      "original_language": "es",
+      "original_name": "Pelayo: Más allá del límite",
+      "overview": "",
+      "popularity": 3.1854,
+      "poster_path": "/fNxvkDtJKUXIPZaVHVSNacktBRV.jpg",
+      "first_air_date": "2026-01-09",
+      "name": "Pelayo: Más allá del límite",
+      "vote_average": 6.1,
+      "vote_count": 9
     },
     {
       "adult": false,
@@ -496,16 +403,897 @@
       "original_language": "es",
       "original_name": "Dime tu nombre",
       "overview": "",
-      "popularity": 3.0037,
+      "popularity": 2.7912,
       "poster_path": "/vAmcxOxKX1n4njoj5i5w9atZj4c.jpg",
       "first_air_date": "2025-10-31",
       "name": "Dime tu nombre",
       "vote_average": 5,
-      "vote_count": 9,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 9
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4CXPLn2VKxTtlfd2fgClRYTBpiM.jpg",
+      "genre_ids": [
+        10759
+      ],
+      "id": 306905,
+      "origin_country": [
+        "ZA"
+      ],
+      "original_language": "en",
+      "original_name": "The Nowhere Man",
+      "overview": "",
+      "popularity": 2.7887,
+      "poster_path": "/iO4PWIZDhyALn5KYFgph57bIYtK.jpg",
+      "first_air_date": "2025-11-27",
+      "name": "The Nowhere Man",
+      "vote_average": 9,
+      "vote_count": 3
+    }
+  ],
+  "categories": [
+    {
+      "title": "🔥 Нові серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/m8BuLCx997QVljT0wdss62QaRre.jpg",
+          "genre_ids": [
+            18,
+            10768,
+            10759
+          ],
+          "id": 211178,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Gray House",
+          "overview": "",
+          "popularity": 11.8724,
+          "poster_path": "/wE5jZDeQuiulaAtjeaEq0y8tpey.jpg",
+          "first_air_date": "2026-02-26",
+          "name": "The Gray House",
+          "vote_average": 3.5,
+          "vote_count": 13
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/puF2PmTGGuYN81tfmilXFjDZKox.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 307980,
+          "origin_country": [
+            "CA",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The CEO Club",
+          "overview": "",
+          "popularity": 3.6535,
+          "poster_path": "/3xNFwqqXJpMhq4od97nncOzJ1S1.jpg",
+          "first_air_date": "2026-02-23",
+          "name": "The CEO Club",
+          "vote_average": 1,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dnEljhBkw53ra7tEl2JNKGrI0wk.jpg",
+          "genre_ids": [
+            18,
+            80,
+            9648
+          ],
+          "id": 241372,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "56 Days",
+          "overview": "Після випадкової зустрічі в супермаркеті між Олівером і Кіарою спалахує пристрасний роман. Та коли через 56 днів знаходять тіло жорстоко вбитої людини, розслідування занурюється в їхню бурхливу історію кохання й поступово розкриває похмурі таємниці.",
+          "popularity": 109.8135,
+          "poster_path": "/zR6P6lwrqmjsl8HjjI1eViUONSO.jpg",
+          "first_air_date": "2026-02-18",
+          "name": "56 днів",
+          "vote_average": 5.983,
+          "vote_count": 58
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/d9F3JZQzBBxKeckKRosdjWvoNew.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 312593,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Soul Power: The Legend of the American Basketball Association",
+          "overview": "",
+          "popularity": 0.6196,
+          "poster_path": "/ivqq6n2yERPz1ys2ucRLwOyC79s.jpg",
+          "first_air_date": "2026-02-12",
+          "name": "Soul Power: The Legend of the American Basketball Association",
+          "vote_average": 6.7,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5trWJ75kxpmKqykkJFcjPIEtpMf.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 309400,
+          "origin_country": [
+            "SE"
+          ],
+          "original_language": "sv",
+          "original_name": "Vaka",
+          "overview": "",
+          "popularity": 2.3841,
+          "poster_path": "/crWFJagt0Fnv0NouuXNyiM5OiJa.jpg",
+          "first_air_date": "2026-01-30",
+          "name": "Vaka",
+          "vote_average": 5.1,
+          "vote_count": 15
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tSFndbpoEctuYviiSRJHjyC31V9.jpg",
+          "genre_ids": [
+            18,
+            80,
+            9648
+          ],
+          "id": 254071,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Steal",
+          "overview": "Динамічний трилер про пограбування століття та звичайну офісну працівницю, яка несподівано опиняється в самому центрі подій.",
+          "popularity": 15.7492,
+          "poster_path": "/rqw9LbnXqjtHuXlHUvlisPTeo0L.jpg",
+          "first_air_date": "2026-01-21",
+          "name": "Крадіжка",
+          "vote_average": 7.4,
+          "vote_count": 97
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dzcGdFuvkietovVYLuPxdRat2h0.jpg",
+          "genre_ids": [
+            35,
+            10764
+          ],
+          "id": 309714,
+          "origin_country": [
+            "MX"
+          ],
+          "original_language": "es",
+          "original_name": "LOL buscando talento",
+          "overview": "",
+          "popularity": 3.9191,
+          "poster_path": "/70l4rLm9JHMoVncvfizfL8OT5CS.jpg",
+          "first_air_date": "2026-01-16",
+          "name": "LOL buscando talento",
+          "vote_average": 7.333,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tv7xmXZ0tV98SGcySTxYwleWzj8.jpg",
+          "genre_ids": [
+            80
+          ],
+          "id": 309129,
+          "origin_country": [
+            "DK"
+          ],
+          "original_language": "da",
+          "original_name": "Slangedræber",
+          "overview": "",
+          "popularity": 0.9548,
+          "poster_path": "/wSGapoEMpRm0g120t69JSSgpuhf.jpg",
+          "first_air_date": "2026-01-16",
+          "name": "Slangedræber",
+          "vote_average": 10,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2VCSUWfJSE5nrMpSBquiZtpHUUP.jpg",
+          "genre_ids": [
+            99,
+            80
+          ],
+          "id": 308606,
+          "origin_country": [
+            "ES"
+          ],
+          "original_language": "es",
+          "original_name": "Pelayo: Más allá del límite",
+          "overview": "",
+          "popularity": 3.1854,
+          "poster_path": "/fNxvkDtJKUXIPZaVHVSNacktBRV.jpg",
+          "first_air_date": "2026-01-09",
+          "name": "Pelayo: Más allá del límite",
+          "vote_average": 6.1,
+          "vote_count": 9
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/i2KCO37N3wGh0XS0oEX3Nb0AAie.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 304949,
+          "origin_country": [
+            "DE"
+          ],
+          "original_language": "de",
+          "original_name": "Miss Sophie - Same Procedure as Every Year",
+          "overview": "",
+          "popularity": 1.6512,
+          "poster_path": "/follsMnclMP4sdiAOsCEg4xVS9r.jpg",
+          "first_air_date": "2025-12-22",
+          "name": "Miss Sophie - Same Procedure as Every Year",
+          "vote_average": 6.643,
+          "vote_count": 7
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/nXarJLj1Z4ZSiBqXpmLNrqczMiv.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 305930,
+          "origin_country": [
+            "FR"
+          ],
+          "original_language": "fr",
+          "original_name": "ORELSAN : Yoroï, un an dans l'armure",
+          "overview": "",
+          "popularity": 0.408,
+          "poster_path": "/c5jE1EuDpGn5725xvn2QNcuYcaP.jpg",
+          "first_air_date": "2025-11-28",
+          "name": "ORELSAN : Yoroï, un an dans l'armure",
+          "vote_average": 7,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4CXPLn2VKxTtlfd2fgClRYTBpiM.jpg",
+          "genre_ids": [
+            10759
+          ],
+          "id": 306905,
+          "origin_country": [
+            "ZA"
+          ],
+          "original_language": "en",
+          "original_name": "The Nowhere Man",
+          "overview": "",
+          "popularity": 2.7887,
+          "poster_path": "/iO4PWIZDhyALn5KYFgph57bIYtK.jpg",
+          "first_air_date": "2025-11-27",
+          "name": "The Nowhere Man",
+          "vote_average": 9,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iLS7ngE6ituPfgE0u5Ybr2QZWl5.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 306717,
+          "origin_country": [
+            "DK"
+          ],
+          "original_language": "da",
+          "original_name": "Villa of Broken Hearts",
+          "overview": "",
+          "popularity": 0.1878,
+          "poster_path": "/sJk02YyYCfE8ng0SIyUHC0LHHlt.jpg",
+          "first_air_date": "2025-11-26",
+          "name": "Villa of Broken Hearts",
+          "vote_average": 8,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hLuMQs8J8xBL0jNuZVvFOn0p6f6.jpg",
+          "genre_ids": [
+            35,
+            10764
+          ],
+          "id": 305639,
+          "origin_country": [
+            "FR"
+          ],
+          "original_language": "fr",
+          "original_name": "LOL : In Real Life",
+          "overview": "",
+          "popularity": 0.4498,
+          "poster_path": "/4wkILAWKhekm1PWJW8aYg2xWW2Z.jpg",
+          "first_air_date": "2025-11-21",
+          "name": "LOL : In Real Life",
+          "vote_average": 6.417,
+          "vote_count": 6
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7K7wbQIpkzif4fMhDHsCweXFS42.jpg",
+          "genre_ids": [
+            16,
+            10765,
+            10759
+          ],
+          "id": 219080,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Mighty Nein",
+          "overview": "Історія про групу злочинців і вигнанців, які виявляються єдиними, хто може запобігти зануренню королівства в хаос, коли таємничий артефакт, що може змінювати реальність, потрапляє не до тих рук.",
+          "popularity": 7.7766,
+          "poster_path": "/nHlvaNhb6DxCJBeidacEtiNWZmr.jpg",
+          "first_air_date": "2025-11-19",
+          "name": "Могутня дев'ятка",
+          "vote_average": 7.934,
+          "vote_count": 76
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/nyYZBqrEwDpDwSTJvFgbJ5uTDcj.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 294060,
+          "origin_country": [
+            "NL"
+          ],
+          "original_language": "nl",
+          "original_name": "Beauty and the Geek",
+          "overview": "",
+          "popularity": 0.3032,
+          "poster_path": "/2oMmizdimQJvKzaTW6Roa8uIrew.jpg",
+          "first_air_date": "2025-11-14",
+          "name": "Beauty and the Geek",
+          "vote_average": 9,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/AsWevUaVrwK1kiJFAoo9YKMgYty.jpg",
+          "genre_ids": [
+            18,
+            9648
+          ],
+          "id": 244416,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Malice",
+          "overview": "Харизматичний репетитор проникає в життя заможної родини, приховуючи зловісний задум. Коли його план помсти починає розкриватися, сім’я змушена протистояти ворогу, який живе з ними під одним дахом.",
+          "popularity": 4.8578,
+          "poster_path": "/cl3lRnJ3CtsVtplpVSA1u2Vtjey.jpg",
+          "first_air_date": "2025-11-14",
+          "name": "Злочинний намір",
+          "vote_average": 6.829,
+          "vote_count": 35
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/yZJ6ecQCRsXg3rx7hJbwYPHuzD3.jpg",
+          "genre_ids": [
+            16,
+            10751
+          ],
+          "id": 225361,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "BAT-FAM",
+          "overview": "«BAT-FAM» розповідає про Бетмена, Альфреда та молодого Деміана Вейна, які живуть разом із незвичайною групою нових сусідів, захищаючи Готем-Сіті.",
+          "popularity": 4.8877,
+          "poster_path": "/8C34YTylNBt4DWM1a9oAAXqmTSr.jpg",
+          "first_air_date": "2025-11-10",
+          "name": "BAT-FAM",
+          "vote_average": 4.393,
+          "vote_count": 14
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gB2Zq8CMbRlbVKmpVIzzXK5JO3w.jpg",
+          "genre_ids": [
+            18,
+            9648,
+            80
+          ],
+          "id": 294188,
+          "origin_country": [
+            "PH"
+          ],
+          "original_language": "tl",
+          "original_name": "The Alibi",
+          "overview": "",
+          "popularity": 3.3407,
+          "poster_path": "/cpRKdGjA51Capuc3IelUMnqZOE0.jpg",
+          "first_air_date": "2025-11-07",
+          "name": "The Alibi",
+          "vote_average": 8.3,
+          "vote_count": 7
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iWZJ196qRxvdNUlIqHv1YeJybjp.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 303399,
+          "origin_country": [
+            "DK"
+          ],
+          "original_language": "da",
+          "original_name": "LOL: Den der ler sidst - Halloween Special",
+          "overview": "",
+          "popularity": 0.8502,
+          "poster_path": "/xuiN3wxCkYttexes8BhxcbahETL.jpg",
+          "first_air_date": "2025-10-31",
+          "name": "LOL: Den der ler sidst - Halloween Special",
+          "vote_average": 8,
+          "vote_count": 2
+        }
+      ]
+    },
+    {
+      "title": "🏆 Топ Серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/dnEljhBkw53ra7tEl2JNKGrI0wk.jpg",
+          "genre_ids": [
+            18,
+            80,
+            9648
+          ],
+          "id": 241372,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "56 Days",
+          "overview": "Після випадкової зустрічі в супермаркеті між Олівером і Кіарою спалахує пристрасний роман. Та коли через 56 днів знаходять тіло жорстоко вбитої людини, розслідування занурюється в їхню бурхливу історію кохання й поступово розкриває похмурі таємниці.",
+          "popularity": 109.8135,
+          "poster_path": "/zR6P6lwrqmjsl8HjjI1eViUONSO.jpg",
+          "first_air_date": "2026-02-18",
+          "name": "56 днів",
+          "vote_average": 5.9,
+          "vote_count": 55
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/13kblIK8DnxMurcRDkeyy2sGR7v.jpg",
+          "genre_ids": [
+            10759,
+            18,
+            10768
+          ],
+          "id": 44217,
+          "origin_country": [
+            "CA"
+          ],
+          "original_language": "en",
+          "original_name": "Vikings",
+          "overview": "Це історія про пригоди найбільшого героя свого часу - Раґнара Лодброка. У серіалі показаний Раґнар зі своїм племенем братів-вікінгів і його сім'єю в процесі становлення королем усіх племен вікінгів.  Раґнар - безстрашний воїн і релігійний вікінґ, який об'єднує всі племена і поширює серед них поклоніння скандинавським богам. Згідно з легендою, він - прямий нащадок Одіна, бога війни і воїнів.",
+          "popularity": 85.5801,
+          "poster_path": "/rLjTaliRDjtN2Zfhualqw1WkWWS.jpg",
+          "first_air_date": "2013-03-03",
+          "name": "Вікінги",
+          "vote_average": 8.093,
+          "vote_count": 7497
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/czffzEgaBko4mXW84B1J1EnQBzo.jpg",
+          "genre_ids": [
+            10765,
+            10759
+          ],
+          "id": 76479,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Boys",
+          "overview": "Події розгортаються в альтернативному світі, де супергерої є звичним явищем. Вони щоденно по кілька разів рятують світ, знімаються у фільмах і стають обличчями рекламних кампаній відомих брендів. Втім, є і зворотня сторона медалі: кожен день тисячі людей страждають від дій супергероїв, для яких людське життя насправді не коштує зовсім нічого. Але є невеличка групка відчайдухів, яких такий стан справ не влаштовує, вони мають мету – покарати знахабнілих надлюдей та вивести їх на чисту воду…",
+          "popularity": 66.0425,
+          "poster_path": "/iNKkWK11okzbenMvJY87aOHNfll.jpg",
+          "first_air_date": "2019-07-25",
+          "name": "Хлопаки",
+          "vote_average": 8.44,
+          "vote_count": 11625
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/coaPCIqQBPUZsOnJcWZxhaORcDT.jpg",
+          "genre_ids": [
+            10759,
+            10765
+          ],
+          "id": 106379,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Fallout",
+          "overview": "У постапокаліптичному Лос-Анджелесі громадяни змушені жити в підземних бункерах, щоб захистити себе від радіації, мутантів і бандитів, які заполонили світ після ядерної катастрофи.",
+          "popularity": 56.1277,
+          "poster_path": "/gzrd8arPmUEJ5fHG9VZ50KUsJqU.jpg",
+          "first_air_date": "2024-04-10",
+          "name": "Фолаут",
+          "vote_average": 8.133,
+          "vote_count": 2619
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2FkzcINn8nLGiC3XqGTqJYljcuE.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 71932,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "AVN Awards",
+          "overview": "",
+          "popularity": 52.447,
+          "poster_path": "/7f6wnV0tkxn5sif7LqjyzN6eLk6.jpg",
+          "first_air_date": "",
+          "name": "AVN Awards",
+          "vote_average": 5.7,
+          "vote_count": 25
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/JYgqp8g2kI3SEus9XBDSHukfBN.jpg",
+          "genre_ids": [
+            10759,
+            18,
+            80
+          ],
+          "id": 108978,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Reacher",
+          "overview": "Джека Річера, колишнього майора армійської військової поліції, заарештовують за підозрою у вбивстві. Знявши з себе підозри, герой сам береться за пошуки кілера.",
+          "popularity": 45.1301,
+          "poster_path": "/pJVJCnjLBvAd8iVQ3y8G4cFgyg8.jpg",
+          "first_air_date": "2022-02-03",
+          "name": "Річер",
+          "vote_average": 8.08,
+          "vote_count": 2671
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3siv3RaQrdr2tQiv9jHq71sLlzo.jpg",
+          "genre_ids": [
+            18,
+            10751,
+            10759
+          ],
+          "id": 85077,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Chosen",
+          "overview": "Сюжет бере початок із знайомства та кількох перепертій в які потрапляє Ісус після з найомства з рибалками Саймоном та Андрієм. Ці люди насправді зустрічались з Ісусом раніше, але лише на короткий час. Іван Хреститель познайомив їх з Ісусом відразу після хрещення Ісуса. Пізніше вони знайомляться із Іваном та його братом Яковом. Навіть ця невеличка групка молодих та фізично сильних людей із нетиповими віруваннями починає привертати увагу як окупаційної влади римлян так і ортодоксальних фарисеїв, які співпрацюють із окупантами...",
+          "popularity": 42.7979,
+          "poster_path": "/8v599UivCdmF9mrOBZhzNHdk8zK.jpg",
+          "first_air_date": "2019-04-21",
+          "name": "Обраний",
+          "vote_average": 8.673,
+          "vote_count": 761
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rcw9qVY8fmbjyCZv3idjrC1TkvW.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 67384,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Goliath",
+          "overview": "В руки опального адвоката, який ганяється за машинами швидкої допомоги в пошуках нових клієнтів, потрапляє справу, яка може принести йому спокутування або, принаймні, можливість помститися фірмі, що викинула його на вулицю.",
+          "popularity": 37.2522,
+          "poster_path": "/7tlILOLljpoCiUtD9lKkrTxfOYE.jpg",
+          "first_air_date": "2016-10-13",
+          "name": "Голіаф",
+          "vote_average": 7.554,
+          "vote_count": 461
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7yKtaRij2giAj0s09F6gmB8XIje.jpg",
+          "genre_ids": [
+            18,
+            9648,
+            10765
+          ],
+          "id": 63639,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Expanse",
+          "overview": "XXIII століття. Людство колонізувало Сонячну систему. Землею править ООН. Колонія на Марсі тепер незалежна і має власну армію. Внутрішні планети залежать від ресурсів поясу астероїдів. Астероїдяни живуть і працюють у космосі, повітря і вода у них цінується більше за золото. Десятиріччями назрівав конфлікт, який поставив Землю, Марс і Пояс на грань війни. І для її початку вистачить і однієї іскри.",
+          "popularity": 36.628,
+          "poster_path": "/oX8wtO2Ar17L04bX4lLS3kIORfJ.jpg",
+          "first_air_date": "2015-12-14",
+          "name": "Простір",
+          "vote_average": 8.068,
+          "vote_count": 2729
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/23S5oKZjlXehjNLEhMQuxjwbyuA.jpg",
+          "genre_ids": [
+            9648,
+            18,
+            80
+          ],
+          "id": 60585,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Bosch",
+          "overview": "Гаррі Босх - головний герой однойменної історії. Свого часу він був учасником військової операції у В'єтнамі. Тепер Босх працює детективом у відділі вбивств у Лос-Анджелесі. Для нього робота - це життя, а життя - це робота. Натура у героя вкрай замкнута, тому Босх відлюдник, не любить розваг. Ну, хіба що за винятком джазу. \n\nБосху досить довго не дає спокою одна справа. У місті відбулося вбивство тринадцятирічного хлопчика. Детектив береться за пошуки маніяка, проте, і сам незабаром стає підозрюваним. Завдання ускладнюється: пошук вбивці плюс захист власної незалежності. Якраз для Босха...",
+          "popularity": 35.4703,
+          "poster_path": "/lQPwNJ6DRpmRfTrKy8A94c7IvU3.jpg",
+          "first_air_date": "2015-01-14",
+          "name": "Детектив Босх",
+          "vote_average": 7.925,
+          "vote_count": 690
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dfmPbyeZZSz3bekeESvMJaH91gS.jpg",
+          "genre_ids": [
+            16,
+            10765,
+            10759,
+            18
+          ],
+          "id": 95557,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Invincible",
+          "overview": "17-річний Марк Грейсон дізнається, що його батько наймогутніший супергерой на Землі. Тепер підлітку належить впоратися з силами, які дісталися йому у спадок.",
+          "popularity": 35.4509,
+          "poster_path": "/nMmOmuLQKAwQigEgnbIrSeoWlxQ.jpg",
+          "first_air_date": "2021-03-25",
+          "name": "НЕПЕРЕМОЖНИЙ",
+          "vote_average": 8.615,
+          "vote_count": 5288
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/NNC08YmJFFlLi1prBkK8quk3dp.jpg",
+          "genre_ids": [
+            10759,
+            10765,
+            18
+          ],
+          "id": 84773,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Lord of the Rings: The Rings of Power",
+          "overview": "Події серіалу відбуваються до Війни за Перстень, і до того часу, як Араґорн став правителем Возз’єднаного королівства.",
+          "popularity": 29.86,
+          "poster_path": "/45RSLfEgfdkfWrEMUnmJsffPwos.jpg",
+          "first_air_date": "2022-09-01",
+          "name": "Володар перснів: Персні влади",
+          "vote_average": 7.247,
+          "vote_count": 3598
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jCcSS9iDpKgll8Kpp7qVhSn0l1f.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 194766,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Summer I Turned Pretty",
+          "overview": "Любовний трикутник між однією дівчиною і двома братами. Історія про перше кохання, перше розбите серце і магію того одного, ідеального літа.",
+          "popularity": 28.1396,
+          "poster_path": "/gTtdDWOm2TdCj6SDeSff85n6dxp.jpg",
+          "first_air_date": "2022-06-16",
+          "name": "Літо, коли я стала привабливою",
+          "vote_average": 8.118,
+          "vote_count": 1038
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2y2TbzeKZHYqTN5gb4nBv9dKk1f.jpg",
+          "genre_ids": [
+            10759,
+            18
+          ],
+          "id": 73375,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Tom Clancy's Jack Ryan",
+          "overview": "Аналітик ЦРУ Джек Раян звертає увагу на підозрілу серію банківських переказів і починає власне розслідування. Це змушує його залишити роботу в офісі та взяти участь у небезпечній операції у Європі та на Близькому Сході, аби впіймати ісламського екстреміста, який готує атаку на США та її союзників.",
+          "popularity": 26.8243,
+          "poster_path": "/xbQlzhzFZMRWmY1GL3g7k0wTPN3.jpg",
+          "first_air_date": "2018-08-30",
+          "name": "Джек Раян",
+          "vote_average": 7.68,
+          "vote_count": 1729
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tldMHeR7UnihV5ffrxxM8cDhbtT.jpg",
+          "genre_ids": [
+            10759,
+            18,
+            10765
+          ],
+          "id": 205715,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Gen V",
+          "overview": "У єдиному в Америці коледжі для супергероїв обдаровані студенти випробовують свої моральні межі, змагаючись за найвищий рейтинг в університеті та шанс приєднатися до Сімки, елітної команди супергероїв. Коли похмурі таємниці школи випливають на світло, вони повинні вирішити, якими героями вони хочуть стати.",
+          "popularity": 25.7324,
+          "poster_path": "/pXPGLgPQWYrQIiCB67z5ZnqNUKr.jpg",
+          "first_air_date": "2023-09-28",
+          "name": "Покоління Ві",
+          "vote_average": 7.692,
+          "vote_count": 1348
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/muz4zF9dk1h7b9Nu8duOysvX823.jpg",
+          "genre_ids": [
+            16,
+            35,
+            18,
+            10765
+          ],
+          "id": 94954,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Hazbin Hotel",
+          "overview": "Намагаючись знайти ненасильницьку альтернативу для зменшення перенаселення Пекла, дочка Люцифера відкриває готель для реабілітації, який пропонує групі демонів-невдах шанс на спокуту.",
+          "popularity": 25.394,
+          "poster_path": "/djUImVAaKUu6a1cOCL9OX4hJcSO.jpg",
+          "first_air_date": "2024-01-18",
+          "name": "Готель «Газбін»",
+          "vote_average": 8.604,
+          "vote_count": 1524
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cYHJfdRnIhmeBoYN4jRMMnBDroO.jpg",
+          "genre_ids": [
+            80,
+            18,
+            9648
+          ],
+          "id": 213306,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Cross",
+          "overview": "Алекс Кросс - блискучий, але недосконалий детектив з розслідування вбивств, сповнений протиріч. Люблячий батько і сім'янин, Кросс цілеспрямований до одержимості, коли полює на вбивць. Він відчайдушно прагне кохання, але вбивство дружини зробило його надто травмованим, щоб його отримати.",
+          "popularity": 25.2035,
+          "poster_path": "/zowUSxbACgbhHWsGQ1GKgb9AwgI.jpg",
+          "first_air_date": "2024-11-14",
+          "name": "Кросс",
+          "vote_average": 6.994,
+          "vote_count": 251
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dWEbHN4DRxJsIZqJHFhOq0KFSxD.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 243881,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "House of David",
+          "overview": "Історія сходження біблійного персонажа Давида, який стає найвідомішим царем Ізраїлю. Серіал слідує за колись могутнім царем Саулом, який стає жертвою власної гордині. За вказівкою Бога, пророк Самуїл помазує новим царем малоймовірного підлітка-вигнанця.",
+          "popularity": 24.267,
+          "poster_path": "/mYMeu2XmiCmoUhxeLIdYDqiOvZR.jpg",
+          "first_air_date": "2025-02-27",
+          "name": "Дім Давида",
+          "vote_average": 8,
+          "vote_count": 202
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1P3QtW1IkivqDrKbbwuR0zCYIf8.jpg",
+          "genre_ids": [
+            10765,
+            18
+          ],
+          "id": 71914,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Wheel of Time",
+          "overview": "В Емондів Луг приїжджають троє чужинців: сивий менестріль Том Меррілін, прекрасна леді Морейн та її сторож Лан. Морейн належить до організації «Айз Седай» і вважає, що сили темряви полюють на п’ять підлітків, один з яких — реінкарнація стародавньої могутньої особистості. Згідно з пророцтвом, повернувшись у світ, вона врятує людство, нашкодивши йому.",
+          "popularity": 24.1365,
+          "poster_path": "/qhrIk1DELBGyqO7An9sPCt909Ek.jpg",
+          "first_air_date": "2021-11-18",
+          "name": "Колесо часу",
+          "vote_average": 7.621,
+          "vote_count": 2344
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/p1rQJ5bljPSk3LoCo5UKRkpsiSd.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 249522,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Beast Games",
+          "overview": "Я зібрав 1000 людей, щоб боротися за 5 000 000 доларів, НАЙБІЛЬШИЙ грошовий приз в історії ТБ! Ми також роздаємо приватний острів, авто Lamborghini та мільйони інших грошових призів під час змагань! Приєднуйтеся, щоб побачити найкраще шоу, яке коли-небудь створювалося!",
+          "popularity": 20.9866,
+          "poster_path": "/a9bJwhEXXQjk3ORls7EcWEvNfct.jpg",
+          "first_air_date": "2024-12-19",
+          "name": "Ігри звірів",
+          "vote_average": 7.512,
+          "vote_count": 204
+        }
+      ]
+    },
+    {
+      "title": "🔥 Нові фільми",
+      "results": []
+    },
+    {
+      "title": "🏆 Топ Фільми",
+      "results": []
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "title": "Сьогодні на Реаліті-шоу",
-  "last_updated": "2026-02-22T21:47:32.288Z",
-  "results": [
+  "last_updated": "2026-03-01T21:34:37.555Z",
+  "main_row": [
     {
       "adult": false,
       "backdrop_path": "/A6JmuKrW0f1rGjuQQqdh63HIOKh.jpg",
@@ -15,16 +15,12 @@
       "original_language": "en",
       "original_name": "Baddies USA",
       "overview": "",
-      "popularity": 21.9086,
+      "popularity": 10.5949,
       "poster_path": "/27IYhrFLxogxRNKIVWivDnNfwF9.jpg",
       "first_air_date": "2025-11-23",
       "name": "Baddies USA",
       "vote_average": 9.5,
-      "vote_count": 10,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 10
     },
     {
       "adult": false,
@@ -39,16 +35,12 @@
       "original_language": "en",
       "original_name": "Canada Shore",
       "overview": "",
-      "popularity": 6.5334,
+      "popularity": 4.6736,
       "poster_path": "/lUn56AxVbCqak4CURJMPSyskxS1.jpg",
       "first_air_date": "2026-01-22",
       "name": "Canada Shore",
       "vote_average": 8,
-      "vote_count": 2,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 2
     },
     {
       "adult": false,
@@ -64,16 +56,12 @@
       "original_language": "es",
       "original_name": "LOL buscando talento",
       "overview": "",
-      "popularity": 4.4349,
+      "popularity": 3.9191,
       "poster_path": "/70l4rLm9JHMoVncvfizfL8OT5CS.jpg",
       "first_air_date": "2026-01-16",
       "name": "LOL buscando talento",
-      "vote_average": 6,
-      "vote_count": 2,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 7.333,
+      "vote_count": 3
     },
     {
       "adult": false,
@@ -89,136 +77,12 @@
       "original_language": "en",
       "original_name": "Neighbors",
       "overview": "",
-      "popularity": 3.851,
+      "popularity": 3.7979,
       "poster_path": "/u0z7DrdvnxgrgWHCiSJ83OlDtHt.jpg",
       "first_air_date": "2026-02-13",
       "name": "Neighbors",
-      "vote_average": 7.7,
-      "vote_count": 3,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
-      "genre_ids": [
-        10764
-      ],
-      "id": 297005,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Celebrity Weakest Link",
-      "overview": "",
-      "popularity": 3.185,
-      "poster_path": "/9zpo2Tcgm2EOyx0E3cyWgKn8crN.jpg",
-      "first_air_date": "2025-09-15",
-      "name": "Celebrity Weakest Link",
-      "vote_average": 4,
-      "vote_count": 2,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/aVfk26g5PYSuR3JIdsCL1TMEw2A.jpg",
-      "genre_ids": [
-        10764
-      ],
-      "id": 292493,
-      "origin_country": [
-        "BR"
-      ],
-      "original_language": "pt",
-      "original_name": "Meu Namorado Coreano",
-      "overview": "",
-      "popularity": 2.8936,
-      "poster_path": "/aiI3uREUvRGa7vawCG58yd4jJz8.jpg",
-      "first_air_date": "2026-01-01",
-      "name": "Meu Namorado Coreano",
       "vote_average": 6.4,
-      "vote_count": 5,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/aKqA9vanDnVrGEMeGW2O831raGq.jpg",
-      "genre_ids": [
-        10764
-      ],
-      "id": 299184,
-      "origin_country": [
-        "BR"
-      ],
-      "original_language": "pt",
-      "original_name": "Largados e Pelados Brasil: A Tribo",
-      "overview": "",
-      "popularity": 2.3566,
-      "poster_path": "/9AFPjVa1atY83aKZunHUgArbXl6.jpg",
-      "first_air_date": "2025-09-14",
-      "name": "Largados e Pelados Brasil: A Tribo",
-      "vote_average": 0,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/vdpZ1rE4vy803uazjyDRTlq2jpi.jpg",
-      "genre_ids": [
-        10764
-      ],
-      "id": 296123,
-      "origin_country": [
-        "NL"
-      ],
-      "original_language": "nl",
-      "original_name": "Kom Je Bij Me Eten? VIPS",
-      "overview": "",
-      "popularity": 2.3551,
-      "poster_path": "/rQygqkjRGVz5GueDlh22cubmevE.jpg",
-      "first_air_date": "2025-08-31",
-      "name": "Kom Je Bij Me Eten? VIPS",
-      "vote_average": 7,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/5M3WnHcPHYN3BrLO9ay9VMeKWT2.jpg",
-      "genre_ids": [
-        10764
-      ],
-      "id": 286867,
-      "origin_country": [
-        "IT"
-      ],
-      "original_language": "it",
-      "original_name": "Too Hot to Handle: Italia",
-      "overview": "Привабливі хлопці й дівчата з Італії прибувають на райський курорт, щоб повеселитися. Але заради призу в 100 000 євро їм доведеться відмовитися від улюбленого — сексу.",
-      "popularity": 2.2752,
-      "poster_path": "/1nBoQLJBOj5IMPqdfyQPAw7h1pn.jpg",
-      "first_air_date": "2025-07-18",
-      "name": "Обережно, гаряче! Італія",
-      "vote_average": 7.227,
-      "vote_count": 11,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 5
     },
     {
       "adult": false,
@@ -233,16 +97,113 @@
       "original_language": "en",
       "original_name": "KPOPPED",
       "overview": "Світові легенди музики та кей-поп-айдоли зійдуться на одній сцені в яскравому шоу пісенних поєдинків. Вони виконають свої найвідоміші хіти в стилі кей-поп, запалюючи сцену, та змагатимуться за можливість продемонструвати свої унікальні таланти.",
-      "popularity": 2.1805,
+      "popularity": 3.6145,
       "poster_path": "/akONEneueZVyAnQUgCzBqwJr69x.jpg",
       "first_air_date": "2025-08-28",
       "name": "KPOPPED: Музика без кордонів",
       "vote_average": 3.4,
-      "vote_count": 7,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9vakozR72Z1EJtohaLJQn1MFSOG.jpg",
+      "genre_ids": [
+        10764,
+        99
+      ],
+      "id": 313232,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "The Dyers' Caravan Park",
+      "overview": "",
+      "popularity": 3.4266,
+      "poster_path": "/xhCjvwZBOQRKTgcZhRineH3M91y.jpg",
+      "first_air_date": "2026-02-24",
+      "name": "The Dyers' Caravan Park",
+      "vote_average": 1,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aVfk26g5PYSuR3JIdsCL1TMEw2A.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 292493,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "Meu Namorado Coreano",
+      "overview": "",
+      "popularity": 2.604,
+      "poster_path": "/aiI3uREUvRGa7vawCG58yd4jJz8.jpg",
+      "first_air_date": "2026-01-01",
+      "name": "Meu Namorado Coreano",
+      "vote_average": 6.4,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 297005,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Celebrity Weakest Link",
+      "overview": "",
+      "popularity": 2.5342,
+      "poster_path": "/9zpo2Tcgm2EOyx0E3cyWgKn8crN.jpg",
+      "first_air_date": "2025-09-15",
+      "name": "Celebrity Weakest Link",
+      "vote_average": 4,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5M3WnHcPHYN3BrLO9ay9VMeKWT2.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 286867,
+      "origin_country": [
+        "IT"
+      ],
+      "original_language": "it",
+      "original_name": "Too Hot to Handle: Italia",
+      "overview": "Привабливі хлопці й дівчата з Італії прибувають на райський курорт, щоб повеселитися. Але заради призу в 100 000 євро їм доведеться відмовитися від улюбленого — сексу.",
+      "popularity": 2.5284,
+      "poster_path": "/1nBoQLJBOj5IMPqdfyQPAw7h1pn.jpg",
+      "first_air_date": "2025-07-18",
+      "name": "Обережно, гаряче! Італія",
+      "vote_average": 7.227,
+      "vote_count": 11
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kKwNMBUu8NUeguAR2MpilbsLBkz.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 290884,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Valley: Persian Style",
+      "overview": "",
+      "popularity": 1.9465,
+      "poster_path": "/35E2zyybMaddISnFGoFa6whS5nD.jpg",
+      "first_air_date": "2026-01-08",
+      "name": "The Valley: Persian Style",
+      "vote_average": 10,
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -258,16 +219,32 @@
       "original_language": "en",
       "original_name": "Dish It Out",
       "overview": "",
-      "popularity": 1.9643,
+      "popularity": 1.7809,
       "poster_path": "/4nxwPOGG45oWjhufCrXrv5kLyKg.jpg",
       "first_air_date": "2025-09-05",
       "name": "Dish It Out",
       "vote_average": 10,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vdpZ1rE4vy803uazjyDRTlq2jpi.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 296123,
+      "origin_country": [
+        "NL"
+      ],
+      "original_language": "nl",
+      "original_name": "Kom Je Bij Me Eten? VIPS",
+      "overview": "",
+      "popularity": 1.7358,
+      "poster_path": "/rQygqkjRGVz5GueDlh22cubmevE.jpg",
+      "first_air_date": "2025-08-31",
+      "name": "Kom Je Bij Me Eten? VIPS",
+      "vote_average": 7,
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -282,91 +259,12 @@
       "original_language": "en",
       "original_name": "The Celebrity Traitors",
       "overview": "",
-      "popularity": 1.8657,
+      "popularity": 1.6127,
       "poster_path": "/rm1GHElZeE7CmVIVeVZMVJG3qp5.jpg",
       "first_air_date": "2025-10-08",
       "name": "The Celebrity Traitors",
       "vote_average": 8.1,
-      "vote_count": 16,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": null,
-      "genre_ids": [
-        18,
-        99,
-        10764
-      ],
-      "id": 314641,
-      "origin_country": [
-        "PK",
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "HairCog TV Series",
-      "overview": "",
-      "popularity": 1.6286,
-      "poster_path": "/2YAykbIjn1OIUib0MpZsI1SuxJE.jpg",
-      "first_air_date": "2025-10-19",
-      "name": "HairCog TV Series",
-      "vote_average": 9.1,
-      "vote_count": 8,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/kKwNMBUu8NUeguAR2MpilbsLBkz.jpg",
-      "genre_ids": [
-        10764
-      ],
-      "id": 290884,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "The Valley: Persian Style",
-      "overview": "",
-      "popularity": 1.5827,
-      "poster_path": "/35E2zyybMaddISnFGoFa6whS5nD.jpg",
-      "first_air_date": "2026-01-08",
-      "name": "The Valley: Persian Style",
-      "vote_average": 10,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/sQzUoErjjEG4h7kvtoOdjLWJs9m.jpg",
-      "genre_ids": [
-        10764
-      ],
-      "id": 293603,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Botched Presents: Plastic Surgery Rewind",
-      "overview": "",
-      "popularity": 1.5297,
-      "poster_path": "/9JAyAgbTA6SIwtIDd3BOk9KMEVG.jpg",
-      "first_air_date": "2025-07-09",
-      "name": "Botched Presents: Plastic Surgery Rewind",
-      "vote_average": 7.3,
-      "vote_count": 3,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 16
     },
     {
       "adult": false,
@@ -381,16 +279,52 @@
       "original_language": "de",
       "original_name": "The Power",
       "overview": "",
-      "popularity": 1.5084,
+      "popularity": 1.5564,
       "poster_path": "/iOxwi81JDw5rHEwD7fPLR69CygI.jpg",
       "first_air_date": "2025-09-01",
       "name": "The Power",
       "vote_average": 6,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1Z6w9vzEbWQZ2LgX0IlNNVPKeoz.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 313086,
+      "origin_country": [
+        "AU"
+      ],
+      "original_language": "en",
+      "original_name": "MAFS: After The Dinner Party",
+      "overview": "",
+      "popularity": 1.5185,
+      "poster_path": "/giZb6dza6bxXhzYXgcklu8IbQkA.jpg",
+      "first_air_date": "2026-02-18",
+      "name": "MAFS: After The Dinner Party",
+      "vote_average": 8,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/n9wt1JFAFEE94nm7xSaFh5CSvZ5.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 299675,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Inside: USA",
+      "overview": "Творці контенту беруть участь у шалених випробуваннях, щоб виграти мільйон доларів у першому американському реаліті-шоу від британського YouTube-колективу Sidemen.",
+      "popularity": 1.4463,
+      "poster_path": "/2nIorVBptPyrzKTLlih4UovT3nu.jpg",
+      "first_air_date": "2025-09-21",
+      "name": "Inside: США",
+      "vote_average": 4.75,
+      "vote_count": 6
     },
     {
       "adult": false,
@@ -405,89 +339,900 @@
       "original_language": "it",
       "original_name": "L'amore è cieco: Italia",
       "overview": "",
-      "popularity": 1.4872,
+      "popularity": 1.4105,
       "poster_path": "/i6IAEwDNjIMl6yhoJE1s78ozxjr.jpg",
       "first_air_date": "2025-12-01",
       "name": "L'amore è cieco: Italia",
       "vote_average": 7.5,
-      "vote_count": 6,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 6
     },
     {
       "adult": false,
-      "backdrop_path": "/7WuFGj6hNHsPGoyxPDpKzf6s4An.jpg",
+      "backdrop_path": "/3zpScPAgn0Z9ddfxKwvkRasKyf0.jpg",
       "genre_ids": [
         10764
       ],
-      "id": 277544,
+      "id": 298469,
       "origin_country": [
-        "FR"
-      ],
-      "original_language": "fr",
-      "original_name": "Pour le meilleur et à l'aveugle",
-      "overview": "",
-      "popularity": 1.4553,
-      "poster_path": "/fCC9Bs2eMnED7giwomB03Ydb59Y.jpg",
-      "first_air_date": "2025-09-10",
-      "name": "Pour le meilleur et à l'aveugle",
-      "vote_average": 6.8,
-      "vote_count": 4,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/iG0GBzjhbygvGdPweX3cYHLZit6.jpg",
-      "genre_ids": [
-        10764
-      ],
-      "id": 296509,
-      "origin_country": [
-        "GB",
         "US"
       ],
       "original_language": "en",
-      "original_name": "Are You My First?",
+      "original_name": "99 to Beat",
       "overview": "",
-      "popularity": 1.4044,
-      "poster_path": "/lzRj1QstbBESUvjQD3f29uSPBmy.jpg",
-      "first_air_date": "2025-08-18",
-      "name": "Are You My First?",
-      "vote_average": 2,
-      "vote_count": 2,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "popularity": 1.3276,
+      "poster_path": "/4PmwlsYlGQLszZHt07L1ZGOpuOC.jpg",
+      "first_air_date": "2025-09-21",
+      "name": "99 to Beat",
+      "vote_average": 7.5,
+      "vote_count": 2
     },
     {
       "adult": false,
-      "backdrop_path": "/9MugieX1LNkNR9ltA9sUIyyOe1W.jpg",
+      "backdrop_path": "/hWPLvmYb8jvkSHrlfgvw29HmwUW.jpg",
       "genre_ids": [
         10764
       ],
-      "id": 286368,
+      "id": 300594,
       "origin_country": [
-        "PH"
+        "US"
       ],
       "original_language": "en",
-      "original_name": "Drag Race Philippines: Slaysian Royale",
+      "original_name": "Is It Cake? Halloween",
       "overview": "",
-      "popularity": 1.3938,
-      "poster_path": "/ixwkCVidmrJcZunCkPiducp59K7.jpg",
-      "first_air_date": "2025-08-13",
-      "name": "Drag Race Philippines: Slaysian Royale",
-      "vote_average": 8.7,
-      "vote_count": 3,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "popularity": 1.2636,
+      "poster_path": "/msfCGuLiZwLV8O5JZ3EoY6aeiim.jpg",
+      "first_air_date": "2025-10-08",
+      "name": "Is It Cake? Halloween",
+      "vote_average": 7.083,
+      "vote_count": 6
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/omBP9apbOEv9E2MNc4cjju9La9x.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 261887,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Building the Band",
+      "overview": "У цьому інноваційному реаліті-шоу талановиті виконавці наосліп змагаються за шанс співати в новому гурті.",
+      "popularity": 1.2377,
+      "poster_path": "/uNX52MJTHL8oi8vmrK8d3TElhRg.jpg",
+      "first_air_date": "2025-07-09",
+      "name": "Гурт наосліп",
+      "vote_average": 7.393,
+      "vote_count": 14
+    }
+  ],
+  "categories": [
+    {
+      "title": "🔥 Свіжі випуски",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/dA9n3w3bO8eBB8uS2lLKu4jCrcA.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 313865,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "The Heat",
+          "overview": "",
+          "popularity": 0.8764,
+          "poster_path": "/lTD9hmY7Pcz60h3G76ub42UjTP0.jpg",
+          "first_air_date": "2026-02-24",
+          "name": "The Heat",
+          "vote_average": 10,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9vakozR72Z1EJtohaLJQn1MFSOG.jpg",
+          "genre_ids": [
+            10764,
+            99
+          ],
+          "id": 313232,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "The Dyers' Caravan Park",
+          "overview": "",
+          "popularity": 3.4266,
+          "poster_path": "/xhCjvwZBOQRKTgcZhRineH3M91y.jpg",
+          "first_air_date": "2026-02-24",
+          "name": "The Dyers' Caravan Park",
+          "vote_average": 1,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mYXuBmkV5oWDNLo1WVbEgtxWEIv.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 313936,
+          "origin_country": [
+            "NL"
+          ],
+          "original_language": "nl",
+          "original_name": "De Drop",
+          "overview": "",
+          "popularity": 0.4228,
+          "poster_path": "/hcKjCPpM7vDxjcFtPWRjG6yl39r.jpg",
+          "first_air_date": "2026-02-21",
+          "name": "De Drop",
+          "vote_average": 5,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/eevWp9BVR8zFTkGoAJOp8uhVO53.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 314428,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Hunting Outback Gold",
+          "overview": "",
+          "popularity": 0.4368,
+          "poster_path": "/aTaTSblqzMqR1xZlVUJEthIwM4W.jpg",
+          "first_air_date": "2026-02-19",
+          "name": "Hunting Outback Gold",
+          "vote_average": 5,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1Z6w9vzEbWQZ2LgX0IlNNVPKeoz.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 313086,
+          "origin_country": [
+            "AU"
+          ],
+          "original_language": "en",
+          "original_name": "MAFS: After The Dinner Party",
+          "overview": "",
+          "popularity": 1.5185,
+          "poster_path": "/giZb6dza6bxXhzYXgcklu8IbQkA.jpg",
+          "first_air_date": "2026-02-18",
+          "name": "MAFS: After The Dinner Party",
+          "vote_average": 8,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/p6eNL510I5mm2io87ax84RUJwkI.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 307689,
+          "origin_country": [
+            "NO"
+          ],
+          "original_language": "no",
+          "original_name": "Ligaen",
+          "overview": "",
+          "popularity": 0.177,
+          "poster_path": "/zoNF21FaFwjUQDHQOuqjgIRLHgi.jpg",
+          "first_air_date": "2026-02-17",
+          "name": "Ligaen",
+          "vote_average": 9,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zYjIeQJphEEvcHMmvoiEWWc71xi.jpg",
+          "genre_ids": [
+            99,
+            10764
+          ],
+          "id": 314127,
+          "origin_country": [
+            "NL"
+          ],
+          "original_language": "nl",
+          "original_name": "Ferry Lost",
+          "overview": "",
+          "popularity": 0.4987,
+          "poster_path": "/kVJDDmVlPkyVAoFQZMwsFxJpOeE.jpg",
+          "first_air_date": "2026-02-16",
+          "name": "Ferry Lost",
+          "vote_average": 5,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/s2pIMVLujBjLBnNlofmr9kwUXNa.jpg",
+          "genre_ids": [
+            99,
+            10764
+          ],
+          "id": 312428,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Neighbors",
+          "overview": "",
+          "popularity": 3.7979,
+          "poster_path": "/u0z7DrdvnxgrgWHCiSJ83OlDtHt.jpg",
+          "first_air_date": "2026-02-13",
+          "name": "Neighbors",
+          "vote_average": 6.4,
+          "vote_count": 5
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jKaW7Mh4nI4IZtR9V3S0OuF1ABl.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 308609,
+          "origin_country": [
+            "BE"
+          ],
+          "original_language": "nl",
+          "original_name": "Welcome to the LA",
+          "overview": "",
+          "popularity": 0.1325,
+          "poster_path": "/cuHBqei3O1BlV9U3VPTRd9DaN4F.jpg",
+          "first_air_date": "2026-02-11",
+          "name": "Welcome to the LA",
+          "vote_average": 7,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lC1SOQ73UjSDXEgRgAZJFWuupG2.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 313692,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "The Summit",
+          "overview": "",
+          "popularity": 0.2623,
+          "poster_path": "/phg9CzkvuYGHGZYG6y6CHSZOOv.jpg",
+          "first_air_date": "2026-02-10",
+          "name": "The Summit",
+          "vote_average": 4,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/Af0n9DQkvouLnzXCBY8LILRWEZl.jpg",
+          "genre_ids": [
+            10764,
+            99
+          ],
+          "id": 308931,
+          "origin_country": [
+            "NL"
+          ],
+          "original_language": "nl",
+          "original_name": "Over de A4",
+          "overview": "",
+          "popularity": 0.0574,
+          "poster_path": "/nZw08gjtZvMNdztPTbI7jZnbWzj.jpg",
+          "first_air_date": "2026-02-10",
+          "name": "Over de A4",
+          "vote_average": 8,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/RpMLsk5HwC8VrAQCtoX22vUcQH.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 312015,
+          "origin_country": [
+            "NL"
+          ],
+          "original_language": "nl",
+          "original_name": "Frank's Veiling: Influencers onder de hamer",
+          "overview": "",
+          "popularity": 0.166,
+          "poster_path": "/2RRABATLDk5mgh0trk3eRmVogTF.jpg",
+          "first_air_date": "2026-02-09",
+          "name": "Frank's Veiling: Influencers onder de hamer",
+          "vote_average": 10,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cZqNoOHxRUMWguqNeWzhEAVXtd3.jpg",
+          "genre_ids": [
+            99,
+            10764
+          ],
+          "id": 312328,
+          "origin_country": [
+            "DK"
+          ],
+          "original_language": "da",
+          "original_name": "Grænsepolitiet - Danmark",
+          "overview": "",
+          "popularity": 0.6832,
+          "poster_path": "/fxiPFyJbK60ki5B624b1Au1G5es.jpg",
+          "first_air_date": "2026-02-04",
+          "name": "Grænsepolitiet - Danmark",
+          "vote_average": 10,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/AvgX4BvuHccE85yqafMRWVLSDTq.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 312952,
+          "origin_country": [
+            "DK"
+          ],
+          "original_language": "da",
+          "original_name": "Luksusfælden - regnskabets time",
+          "overview": "",
+          "popularity": 0.0362,
+          "poster_path": "/71rvP1aYg4bQRTUJNylLhbVZsD8.jpg",
+          "first_air_date": "2026-02-03",
+          "name": "Luksusfælden - regnskabets time",
+          "vote_average": 10,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7oBYd2DIzxW1wtLa2pPl8FF9TPI.jpg",
+          "genre_ids": [
+            99,
+            10764
+          ],
+          "id": 312046,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Glitter & Gold: Ice Dancing",
+          "overview": "Напередодні зимових Олімпійських ігор 2026 р. зануртеся в напружений драматичний світ фігурного катання, де найкращі спортивні пари змагаються за золоту медаль і славу.",
+          "popularity": 0.8156,
+          "poster_path": "/wEYwgIVAQoHz5w9rstrxdLkKnuy.jpg",
+          "first_air_date": "2026-02-01",
+          "name": "Блиск і золото: Танці на льоду",
+          "vote_average": 8.7,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1lUE0N4oMs9wjs5y44YML6janCr.jpg",
+          "genre_ids": [
+            10764,
+            10751
+          ],
+          "id": 307965,
+          "origin_country": [
+            "BE"
+          ],
+          "original_language": "nl",
+          "original_name": "Konvooi",
+          "overview": "",
+          "popularity": 0.1484,
+          "poster_path": "/zGDj9AjCGF55Y31sjNaGQlRVvaW.jpg",
+          "first_air_date": "2026-02-01",
+          "name": "Konvooi",
+          "vote_average": 10,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gI3DUDxhKVJPYnfsRt8aHeuXTu4.jpg",
+          "genre_ids": [
+            10764,
+            10767
+          ],
+          "id": 287014,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Secret Genius",
+          "overview": "",
+          "popularity": 0.7645,
+          "poster_path": "/k4m7fKEfcd6EBglLAd7Dtr58c8t.jpg",
+          "first_air_date": "2026-02-01",
+          "name": "Secret Genius",
+          "vote_average": 10,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/y3w4AklFI465vOR4YNTmjYGr8N1.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 307913,
+          "origin_country": [
+            "CA"
+          ],
+          "original_language": "en",
+          "original_name": "Canada Shore",
+          "overview": "",
+          "popularity": 4.6736,
+          "poster_path": "/lUn56AxVbCqak4CURJMPSyskxS1.jpg",
+          "first_air_date": "2026-01-22",
+          "name": "Canada Shore",
+          "vote_average": 8,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/g7UMVHvj0RRiosQNrNvMSkINs5e.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 306657,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Star Search",
+          "overview": "",
+          "popularity": 1.2345,
+          "poster_path": "/rchRdbpf4Of7A4rGl4UD4tv1J1O.jpg",
+          "first_air_date": "2026-01-20",
+          "name": "Star Search",
+          "vote_average": 8.5,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tY0Ra1mXWV3MlKQ9ohciwR1ecPT.jpg",
+          "genre_ids": [
+            10764,
+            18,
+            10751
+          ],
+          "id": 311925,
+          "origin_country": [
+            "MX"
+          ],
+          "original_language": "es",
+          "original_name": "¿Apostarías por Mi? Pre Show",
+          "overview": "",
+          "popularity": 0.3908,
+          "poster_path": "/lyiP67s7JPh8Q6STKhRIC2e5Iw3.jpg",
+          "first_air_date": "2026-01-19",
+          "name": "¿Apostarías por Mi? Pre Show",
+          "vote_average": 8,
+          "vote_count": 1
+        }
+      ]
+    },
+    {
+      "title": "🍳 Кулінарні битви",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/kitfuCa2TqX6oY5HvdFRjMMaLwc.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 2370,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Hell's Kitchen",
+          "overview": "Всесвітньо відомий шеф-кухар Гордон Рамзі проводить 12 молодих кухарів через суворі випробування, щоб визначити, хто з них виграє ресторан своєї мрії.",
+          "popularity": 25.7729,
+          "poster_path": "/shOVFku8daIGRpgjTdMZBxUAvsV.jpg",
+          "first_air_date": "2005-05-30",
+          "name": "Пекельна кухня",
+          "vote_average": 6.818,
+          "vote_count": 319
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/t9cRI8CKYWlLFhdZF020UIpCim4.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 17404,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Chopped",
+          "overview": "",
+          "popularity": 20.8265,
+          "poster_path": "/x7g390tj73dtlGX3ajZrlQRcRpO.jpg",
+          "first_air_date": "2009-01-13",
+          "name": "Chopped",
+          "vote_average": 6.395,
+          "vote_count": 62
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1fXznFH7cmHxSli5PRbnNvvte3Y.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 41822,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Top Chef",
+          "overview": "",
+          "popularity": 17.5386,
+          "poster_path": "/z61ri5TRlMCdFLlcdOnyQt4OzAd.jpg",
+          "first_air_date": "2006-03-08",
+          "name": "Top Chef",
+          "vote_average": 6.8,
+          "vote_count": 64
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vg4QxGpweriMUGkcXNgjbFDqWFK.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 16395,
+          "origin_country": [
+            "AU"
+          ],
+          "original_language": "en",
+          "original_name": "MasterChef Australia",
+          "overview": "",
+          "popularity": 14.966,
+          "poster_path": "/m5akdtbWznF8KpOewKyKw0C36s1.jpg",
+          "first_air_date": "2009-04-27",
+          "name": "MasterChef Australia",
+          "vote_average": 7.006,
+          "vote_count": 80
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/fW5dqCVKbWblw8iVehDCz2uFiu1.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 3431,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Great British Menu",
+          "overview": "",
+          "popularity": 14.8804,
+          "poster_path": "/4fEs08TXvJ85E0d9SxGm69D3hsw.jpg",
+          "first_air_date": "2006-04-10",
+          "name": "Great British Menu",
+          "vote_average": 6.5,
+          "vote_count": 6
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kxb02OCWt9VYMvVeoY7dNhSNFT2.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 40290,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "MasterChef",
+          "overview": "",
+          "popularity": 14.4285,
+          "poster_path": "/42gO1qCC6GPtHKNXvOdhunhzyS3.jpg",
+          "first_air_date": "2010-07-27",
+          "name": "MasterChef",
+          "vote_average": 7.076,
+          "vote_count": 284
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/uuYNsBHFQTPMbl3WsTgW7yupHbx.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 55630,
+          "origin_country": [
+            "IT"
+          ],
+          "original_language": "it",
+          "original_name": "MasterChef Italia",
+          "overview": "",
+          "popularity": 13.7026,
+          "poster_path": "/wD8S0XLIrHsKzGuw5xPMjDCYYbq.jpg",
+          "first_air_date": "2011-09-21",
+          "name": "MasterChef Italia",
+          "vote_average": 7.1,
+          "vote_count": 27
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/k4Im5j9MhPazSy5MLsSgqOMjnG9.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 37757,
+          "origin_country": [
+            "GR"
+          ],
+          "original_language": "el",
+          "original_name": "MasterChef Greece",
+          "overview": "",
+          "popularity": 11.1626,
+          "poster_path": "/h0MR8xGqddeeJHgqDuW14jW25ov.jpg",
+          "first_air_date": "2010-10-03",
+          "name": "MasterChef Greece",
+          "vote_average": 5.6,
+          "vote_count": 8
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/fzKVh8VDvasbzYUmRNnpV6CRdj.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 4360,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Iron Chef America",
+          "overview": "",
+          "popularity": 10.1656,
+          "poster_path": "/qHTuJ9LvGlLImr7n8Rg0KaTxG9L.jpg",
+          "first_air_date": "2005-01-16",
+          "name": "Iron Chef America",
+          "vote_average": 6.472,
+          "vote_count": 18
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zfrdHBndFr6DZ8Bbr61IOUXOlrB.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 26870,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Celebrity Masterchef",
+          "overview": "",
+          "popularity": 8.6541,
+          "poster_path": "/nDnryvB1aus2pktUjgXFgdOxh8t.jpg",
+          "first_air_date": "2006-09-11",
+          "name": "Celebrity Masterchef",
+          "vote_average": 6.1,
+          "vote_count": 13
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3YprSPTBtE78YOccyglrg2EIkcw.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 37790,
+          "origin_country": [
+            "SE"
+          ],
+          "original_language": "sv",
+          "original_name": "Sveriges Mästerkock",
+          "overview": "",
+          "popularity": 8.5484,
+          "poster_path": "/sZjZeSNssu2rjDtsTbs38B20CyW.jpg",
+          "first_air_date": "2011-01-12",
+          "name": "Sveriges Mästerkock",
+          "vote_average": 8,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7ppim9hgCftAAnNCbUdIqouvgBb.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 62348,
+          "origin_country": [
+            "HU"
+          ],
+          "original_language": "hu",
+          "original_name": "A Konyhafőnök",
+          "overview": "",
+          "popularity": 8.4592,
+          "poster_path": "/1CoHXUTSS3IPN41pgxlvTfcVuu4.jpg",
+          "first_air_date": "2014-09-01",
+          "name": "A Konyhafőnök",
+          "vote_average": 7,
+          "vote_count": 1
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5PvRfVsansmSnJbhgmRqZzGvaCn.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 54493,
+          "origin_country": [
+            "FR"
+          ],
+          "original_language": "fr",
+          "original_name": "Top Chef",
+          "overview": "",
+          "popularity": 7.6213,
+          "poster_path": "/1RYpOk7GWbFbUbPasw85YC7iPgo.jpg",
+          "first_air_date": "2010-02-22",
+          "name": "Top Chef",
+          "vote_average": 7.5,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zPaCuvPr2OreS29xpUtWAoK2gQ4.jpg",
+          "genre_ids": [
+            10764,
+            35
+          ],
+          "id": 31783,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Worst Cooks in America",
+          "overview": "",
+          "popularity": 7.3751,
+          "poster_path": "/vE3uKy2AGHQAyDLJ3nR08zpkRJ0.jpg",
+          "first_air_date": "2010-01-03",
+          "name": "Worst Cooks in America",
+          "vote_average": 6.552,
+          "vote_count": 29
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ksLJlt8u9S1L9MktIxYv0OPlumE.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 4594,
+          "origin_country": [
+            "JP"
+          ],
+          "original_language": "en",
+          "original_name": "Iron Chef",
+          "overview": "",
+          "popularity": 7.078,
+          "poster_path": "/jQup2R8XqIVQxFDv4CfcZXazJe0.jpg",
+          "first_air_date": "1993-10-10",
+          "name": "Iron Chef",
+          "vote_average": 7.1,
+          "vote_count": 21
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3fkvNX5vFxmJ5JSeqICo1YuPkCr.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 64203,
+          "origin_country": [
+            "BR"
+          ],
+          "original_language": "pt",
+          "original_name": "MasterChef",
+          "overview": "",
+          "popularity": 6.757,
+          "poster_path": "/tdhpC9YY3MEl3jdWlmIxGudALWD.jpg",
+          "first_air_date": "2014-09-02",
+          "name": "MasterChef",
+          "vote_average": 7.2,
+          "vote_count": 20
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dJhSQMJ6lRFWgqcXsW0dZW7JEJD.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 49982,
+          "origin_country": [
+            "ES"
+          ],
+          "original_language": "es",
+          "original_name": "MasterChef",
+          "overview": "",
+          "popularity": 6.4788,
+          "poster_path": "/9p3sgMqNulDMsHbk2ZdOsWoJqTq.jpg",
+          "first_air_date": "2013-04-10",
+          "name": "MasterChef",
+          "vote_average": 6,
+          "vote_count": 13
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rfIF8tnmBCCj72s8WtKKJtlQ3wL.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 127881,
+          "origin_country": [
+            "CO"
+          ],
+          "original_language": "es",
+          "original_name": "Masterchef Celebrity Colombia",
+          "overview": "",
+          "popularity": 6.2667,
+          "poster_path": "/zUWqZRKdWt6UAIsLBtHGLENXOru.jpg",
+          "first_air_date": "2018-06-05",
+          "name": "Masterchef Celebrity Colombia",
+          "vote_average": 2.5,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ykKwRImtCLYQHB1bLsM6jf4UftQ.jpg",
+          "genre_ids": [
+            10764,
+            35
+          ],
+          "id": 69020,
+          "origin_country": [
+            "ES"
+          ],
+          "original_language": "es",
+          "original_name": "MasterChef Celebrity",
+          "overview": "",
+          "popularity": 6.2296,
+          "poster_path": "/tWYjTji6NyJivwvgi3zebJ03kzz.jpg",
+          "first_air_date": "2016-11-06",
+          "name": "MasterChef Celebrity",
+          "vote_average": 5.8,
+          "vote_count": 12
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vxa8VrOpHgIBxXIVHmhe6SoEjVn.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 77791,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Nailed It!",
+          "overview": "Пекарі-аматори з жахливою кулінарною репутацією намагаються відтворити їстівні шедеври й виграти 10 000 доларів у конкурсі, що часто нагадує кондитерське побоїще.",
+          "popularity": 6.0947,
+          "poster_path": "/3wLAkbQu2Ld1rjiEeFvHnqmO5zN.jpg",
+          "first_air_date": "2018-03-09",
+          "name": "Ось як треба!",
+          "vote_average": 7.11,
+          "vote_count": 73
+        }
+      ]
+    },
+    {
+      "title": "🎤 Таланти та Музика",
+      "results": []
     }
   ]
 }

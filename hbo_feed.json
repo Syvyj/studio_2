@@ -1,7 +1,7 @@
 {
   "title": "Сьогодні на HBO / Max",
-  "last_updated": "2026-02-22T21:48:06.371Z",
-  "results": [
+  "last_updated": "2026-03-01T21:34:44.020Z",
+  "main_row": [
     {
       "adult": false,
       "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
@@ -17,16 +17,12 @@
       "original_language": "en",
       "original_name": "A Knight of the Seven Kingdoms",
       "overview": "За століття до подій «Гри престолів» Вестеросом блукали два несподівані герої... молодий, наївний, але сміливий лицар, сер Дункан Високий, та його мініатюрний зброєновець, Егг. Події відбуваються в епоху, коли рід Таргарієнів все ще володів Залізним Троном, а пам'ять про останнього дракона ще не зникла з пам'яті живих, великі долі, могутні вороги та небезпечні подвиги чекають на цих неймовірних та незрівнянних друзів.",
-      "popularity": 300.1181,
+      "popularity": 264.0799,
       "poster_path": "/bDYAjBVXblqeqjQR1M7KmW8xxKP.jpg",
       "first_air_date": "2026-01-18",
       "name": "Лицар Сімох Королівств",
-      "vote_average": 8.5,
-      "vote_count": 370,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 8.505,
+      "vote_count": 551
     },
     {
       "adult": false,
@@ -37,19 +33,15 @@
       ],
       "id": 1316092,
       "original_language": "en",
-      "original_title": "“Wuthering Heights”",
+      "original_title": "\"Wuthering Heights\"",
       "overview": "Пристрасна й бурхлива історія кохання на тлі йоркширських пустищ, що досліджує напружені та руйнівні стосунки між Гіткліфом і Кетрін Ерншо.",
-      "popularity": 149.9314,
+      "popularity": 96.2299,
       "poster_path": "/2AKDJSZGXEoG8EWROZV2urEddFJ.jpg",
       "release_date": "2026-02-11",
       "title": "«Буремний перевал»",
       "video": false,
-      "vote_average": 6.587,
-      "vote_count": 311,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": true
+      "vote_average": 6.52,
+      "vote_count": 416
     },
     {
       "adult": false,
@@ -63,17 +55,13 @@
       "original_language": "en",
       "original_title": "One Battle After Another",
       "overview": "Коли їхній зловісний ворог знову з’являється після 16 років, група колишніх революціонерів об'єднується, щоб урятувати доньку одного з них.",
-      "popularity": 40.9315,
+      "popularity": 38.6067,
       "poster_path": "/ojzqCrYrMoNt1rZWmt8i5MrIXio.jpg",
       "release_date": "2025-09-23",
       "title": "Одна битва за іншою",
       "video": false,
-      "vote_average": 7.4,
-      "vote_count": 2866,
-      "has_ua": true,
-      "has_pl": true,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 7.406,
+      "vote_count": 2933
     },
     {
       "adult": false,
@@ -89,16 +77,12 @@
       "original_language": "en",
       "original_name": "IT: Welcome to Derry",
       "overview": "Приквел культового фільму Воно переносить глядачів у 1962 рік, коли в невеликому містечку Деррі починає прокидатися стародавнє зло, здатне харчуватися страхом та підкоряти собі людей. У центрі сюжету — група підлітків, які стикаються з моторошними подіями та намагаються зрозуміти, що ховається під спокійною поверхнею їхнього рідного міста. Чим глибше вони занурюються в розслідування, тим більше помічають дивацтва, пов'язані зі зникненнями жителів і міфічними істотами, що ховаються в глибинах Деррі. Незважаючи на мовчання дорослих, хлопці вирішують докопатися до істини, не здогадуючись, до яких наслідків це призведе.",
-      "popularity": 39.7904,
+      "popularity": 36.2692,
       "poster_path": "/lcoX5sWwMSm6vwqqokW5ND6VgvR.jpg",
       "first_air_date": "2025-10-26",
       "name": "Воно: Ласкаво просимо в Деррі",
-      "vote_average": 8.229,
-      "vote_count": 1296,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_average": 8.2,
+      "vote_count": 1311
     },
     {
       "adult": false,
@@ -114,16 +98,12 @@
       "original_language": "en",
       "original_name": "Task",
       "overview": "Агент ФБР очолює оперативну групу, яка має покласти край серії пограбувань наркомагазинів, очолюваних нічого не підозрюючим сімейним чоловіком у робітничому передмісті за межами Філадельфії.",
-      "popularity": 11.0942,
+      "popularity": 9.6574,
       "poster_path": "/gcg5jx7lyWKV5K6evtwjIb2iu2Q.jpg",
       "first_air_date": "2025-09-07",
       "name": "Місія",
-      "vote_average": 6.803,
-      "vote_count": 277,
-      "has_ua": true,
-      "has_pl": true,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.806,
+      "vote_count": 281
     },
     {
       "adult": false,
@@ -140,16 +120,12 @@
       "original_language": "en",
       "original_name": "The Chair Company",
       "overview": "Після інциденту на роботі головний герой опиняється в ситуації, коли йому доводиться розслідувати далекосяжну змову.",
-      "popularity": 8.7269,
+      "popularity": 7.5556,
       "poster_path": "/puD6gJvCK3myZ1QrVzwuEQmHtzI.jpg",
       "first_air_date": "2025-10-12",
       "name": "Між крісел",
-      "vote_average": 7.079,
-      "vote_count": 76,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_average": 7.1,
+      "vote_count": 76
     },
     {
       "adult": false,
@@ -164,40 +140,12 @@
       "original_language": "en",
       "original_name": "I Love LA",
       "overview": "Друзі, які давно не бачилися, знову збираються разом і намагаються розібратися у складнощах амбіцій, стосунків і того, як час змінив кожного з них.",
-      "popularity": 6.4975,
+      "popularity": 6.4749,
       "poster_path": "/naf96FbSZQbiITbTmyEKkDdROOe.jpg",
       "first_air_date": "2025-11-02",
       "name": "Я люблю Лос-Анджелес",
-      "vote_average": 6.781,
-      "vote_count": 32,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/iFAZ89ziLF6oLChvGid1I9pZo7E.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 287967,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Billy Joel: And So It Goes",
-      "overview": "",
-      "popularity": 1.4253,
-      "poster_path": "/jpekB5xqW7abzanLEyt69i6Jtpg.jpg",
-      "first_air_date": "2025-07-18",
-      "name": "Billy Joel: And So It Goes",
-      "vote_average": 8.4,
-      "vote_count": 10,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_average": 6.758,
+      "vote_count": 33
     },
     {
       "adult": false,
@@ -212,65 +160,33 @@
       "original_language": "en",
       "original_name": "Seen & Heard: The History of Black Television",
       "overview": "",
-      "popularity": 1.3324,
+      "popularity": 3.0739,
       "poster_path": "/ier0S5KokLWZkS4ynqxKK0IaeTZ.jpg",
       "first_air_date": "2025-09-09",
       "name": "Seen & Heard: The History of Black Television",
       "vote_average": 2.286,
-      "vote_count": 7,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 7
     },
     {
       "adult": false,
-      "backdrop_path": "/uNGYFLFn4WQeXfJ6sXg2rcMceH6.jpg",
+      "backdrop_path": "/pYMXfAEcJriegcAZjNl4GYGsL5g.jpg",
       "genre_ids": [
-        99,
-        80
+        16,
+        12,
+        35,
+        10751
       ],
-      "id": 277831,
-      "origin_country": [
-        "US"
-      ],
+      "id": 1529346,
       "original_language": "en",
-      "original_name": "The Yogurt Shop Murders",
-      "overview": "Розслідує трагічне вбивство чотирьох дівчат-підлітків у магазині \"Не можу повірити, що це йогурт\" 6 грудня 1991 року в Остіні, штат Техас. Хронічно описує величезну травму, залишену злочином, і детально описує лабіринт розслідування.",
-      "popularity": 1.2028,
-      "poster_path": "/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
-      "first_air_date": "2025-08-03",
-      "name": "Розсліжування вбивства в йогуртній крамниці",
-      "vote_average": 7,
-      "vote_count": 20,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/pMwpgzXcS6WYmazRGChUNjt2zyn.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 303175,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Alex vs ARod",
+      "original_title": "Krypto Saves the Day!: School Bus Scuffle",
       "overview": "",
-      "popularity": 1.1793,
-      "poster_path": "/qZyWiRLcD2uuiyVKE2TukxLVMY.jpg",
-      "first_air_date": "2025-11-06",
-      "name": "Alex vs ARod",
-      "vote_average": 5.333,
-      "vote_count": 3,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "popularity": 2.0931,
+      "poster_path": "/giRBhQ8WSDdXR3WdcwzjAq6VYGJ.jpg",
+      "release_date": "2025-08-13",
+      "title": "Krypto Saves the Day!: School Bus Scuffle",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 9
     },
     {
       "adult": false,
@@ -286,16 +202,32 @@
       "original_language": "en",
       "original_name": "Mel Brooks: The 99 Year Old Man!",
       "overview": "",
-      "popularity": 1.1419,
+      "popularity": 2.0433,
       "poster_path": "/htSwFYOyepCbLUUuyCtvC0uCQ3b.jpg",
       "first_air_date": "2026-01-22",
       "name": "Mel Brooks: The 99 Year Old Man!",
       "vote_average": 6.5,
-      "vote_count": 4,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iFAZ89ziLF6oLChvGid1I9pZo7E.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 287967,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Billy Joel: And So It Goes",
+      "overview": "",
+      "popularity": 1.6456,
+      "poster_path": "/jpekB5xqW7abzanLEyt69i6Jtpg.jpg",
+      "first_air_date": "2025-07-18",
+      "name": "Billy Joel: And So It Goes",
+      "vote_average": 8.4,
+      "vote_count": 10
     },
     {
       "adult": false,
@@ -308,39 +240,54 @@
       "original_language": "en",
       "original_title": "The Family McMullen",
       "overview": "Згуртована родина долає життєві злети й падіння, стикаючись із особистими випробуваннями та змінними стосунками. Зустрічаючи несподівані перешкоди, вони випробовують міцність своїх зв’язків, відкриваючи складність любові, вірності та зростання всередині сім’ї.",
-      "popularity": 1.088,
+      "popularity": 1.0822,
       "poster_path": "/yIng9VmkPqwN1QHeKtZCKwvSTb3.jpg",
       "release_date": "2025-10-15",
       "title": "Родина МакМаллен",
       "video": false,
       "vote_average": 5.357,
-      "vote_count": 14,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": false
+      "vote_count": 14
     },
     {
       "adult": false,
-      "backdrop_path": "/79sgiO0GWhd6ArGOfLMT3R0F0Br.jpg",
+      "backdrop_path": "/pMwpgzXcS6WYmazRGChUNjt2zyn.jpg",
       "genre_ids": [
-        18
+        99
       ],
-      "id": 1270082,
-      "original_language": "es",
-      "original_title": "Ramón y Ramón",
+      "id": 303175,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Alex vs ARod",
       "overview": "",
-      "popularity": 0.5127,
-      "poster_path": "/k6dP7oDg2oJ4RmzmUhAHrUH6IWD.jpg",
-      "release_date": "2025-06-27",
-      "title": "Ramón y Ramón",
-      "video": false,
-      "vote_average": 7.286,
-      "vote_count": 7,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "popularity": 1.0693,
+      "poster_path": "/qZyWiRLcD2uuiyVKE2TukxLVMY.jpg",
+      "first_air_date": "2025-11-06",
+      "name": "Alex vs ARod",
+      "vote_average": 5.333,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hDnZH0EnLJyAc4c1tu0mRE2O6qr.jpg",
+      "genre_ids": [
+        99,
+        80
+      ],
+      "id": 277831,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Yogurt Shop Murders",
+      "overview": "Розслідує трагічне вбивство чотирьох дівчат-підлітків у магазині \"Не можу повірити, що це йогурт\" 6 грудня 1991 року в Остіні, штат Техас. Хронічно описує величезну травму, залишену злочином, і детально описує лабіринт розслідування.",
+      "popularity": 0.9636,
+      "poster_path": "/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
+      "first_air_date": "2025-08-03",
+      "name": "Розсліжування вбивства в йогуртній крамниці",
+      "vote_average": 7,
+      "vote_count": 20
     },
     {
       "adult": false,
@@ -354,42 +301,1656 @@
       "original_language": "en",
       "original_title": "Krypto Saves the Day!: Halloween Havoc",
       "overview": "",
-      "popularity": 0.2838,
+      "popularity": 0.4294,
       "poster_path": "/xVQgm5rZxmvRW8ttngCsnqmmitY.jpg",
       "release_date": "2025-09-30",
       "title": "Krypto Saves the Day!: Halloween Havoc",
       "video": false,
       "vote_average": 6.3,
-      "vote_count": 3,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 3
+    }
+  ],
+  "categories": [
+    {
+      "title": "🔥 Нові серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/s2pIMVLujBjLBnNlofmr9kwUXNa.jpg",
+          "genre_ids": [
+            99,
+            10764
+          ],
+          "id": 312428,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Neighbors",
+          "overview": "",
+          "popularity": 3.7979,
+          "poster_path": "/u0z7DrdvnxgrgWHCiSJ83OlDtHt.jpg",
+          "first_air_date": "2026-02-13",
+          "name": "Neighbors",
+          "vote_average": 6.4,
+          "vote_count": 5
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5ECEMrt5DbTcXQqGfVwhtOtdcJl.jpg",
+          "genre_ids": [
+            99,
+            35
+          ],
+          "id": 308112,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Mel Brooks: The 99 Year Old Man!",
+          "overview": "",
+          "popularity": 2.0433,
+          "poster_path": "/htSwFYOyepCbLUUuyCtvC0uCQ3b.jpg",
+          "first_air_date": "2026-01-22",
+          "name": "Mel Brooks: The 99 Year Old Man!",
+          "vote_average": 6.5,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+          "genre_ids": [
+            18,
+            10765,
+            10759
+          ],
+          "id": 224372,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "A Knight of the Seven Kingdoms",
+          "overview": "За століття до подій «Гри престолів» Вестеросом блукали два несподівані герої... молодий, наївний, але сміливий лицар, сер Дункан Високий, та його мініатюрний зброєновець, Егг. Події відбуваються в епоху, коли рід Таргарієнів все ще володів Залізним Троном, а пам'ять про останнього дракона ще не зникла з пам'яті живих, великі долі, могутні вороги та небезпечні подвиги чекають на цих неймовірних та незрівнянних друзів.",
+          "popularity": 264.0799,
+          "poster_path": "/bDYAjBVXblqeqjQR1M7KmW8xxKP.jpg",
+          "first_air_date": "2026-01-18",
+          "name": "Лицар Сімох Королівств",
+          "vote_average": 8.505,
+          "vote_count": 551
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pMwpgzXcS6WYmazRGChUNjt2zyn.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 303175,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Alex vs ARod",
+          "overview": "",
+          "popularity": 1.0693,
+          "poster_path": "/qZyWiRLcD2uuiyVKE2TukxLVMY.jpg",
+          "first_air_date": "2025-11-06",
+          "name": "Alex vs ARod",
+          "vote_average": 5.333,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/52h1FHwHLVG7oafzHTAJkmUKNMu.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 271053,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "I Love LA",
+          "overview": "Друзі, які давно не бачилися, знову збираються разом і намагаються розібратися у складнощах амбіцій, стосунків і того, як час змінив кожного з них.",
+          "popularity": 6.4749,
+          "poster_path": "/naf96FbSZQbiITbTmyEKkDdROOe.jpg",
+          "first_air_date": "2025-11-02",
+          "name": "Я люблю Лос-Анджелес",
+          "vote_average": 6.758,
+          "vote_count": 33
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2746UvsbkZINd873Yd3o3TxOwCP.jpg",
+          "genre_ids": [
+            18,
+            9648
+          ],
+          "id": 200875,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "IT: Welcome to Derry",
+          "overview": "Приквел культового фільму Воно переносить глядачів у 1962 рік, коли в невеликому містечку Деррі починає прокидатися стародавнє зло, здатне харчуватися страхом та підкоряти собі людей. У центрі сюжету — група підлітків, які стикаються з моторошними подіями та намагаються зрозуміти, що ховається під спокійною поверхнею їхнього рідного міста. Чим глибше вони занурюються в розслідування, тим більше помічають дивацтва, пов'язані зі зникненнями жителів і міфічними істотами, що ховаються в глибинах Деррі. Незважаючи на мовчання дорослих, хлопці вирішують докопатися до істини, не здогадуючись, до яких наслідків це призведе.",
+          "popularity": 36.2692,
+          "poster_path": "/lcoX5sWwMSm6vwqqokW5ND6VgvR.jpg",
+          "first_air_date": "2025-10-26",
+          "name": "Воно: Ласкаво просимо в Деррі",
+          "vote_average": 8.2,
+          "vote_count": 1311
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jq9biQdGSL0GIUyDaLLl7x8rgzm.jpg",
+          "genre_ids": [
+            35,
+            18,
+            9648
+          ],
+          "id": 271267,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Chair Company",
+          "overview": "Після інциденту на роботі головний герой опиняється в ситуації, коли йому доводиться розслідувати далекосяжну змову.",
+          "popularity": 7.5556,
+          "poster_path": "/puD6gJvCK3myZ1QrVzwuEQmHtzI.jpg",
+          "first_air_date": "2025-10-12",
+          "name": "Між крісел",
+          "vote_average": 7.1,
+          "vote_count": 76
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/bxhW3nOBkVGEclPG29g8v5ricth.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 299126,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Seen & Heard: The History of Black Television",
+          "overview": "",
+          "popularity": 3.0739,
+          "poster_path": "/ier0S5KokLWZkS4ynqxKK0IaeTZ.jpg",
+          "first_air_date": "2025-09-09",
+          "name": "Seen & Heard: The History of Black Television",
+          "vote_average": 2.286,
+          "vote_count": 7
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/aMvrl6xEkyISLQgn9WmiC2nJtAW.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 228305,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Task",
+          "overview": "Агент ФБР очолює оперативну групу, яка має покласти край серії пограбувань наркомагазинів, очолюваних нічого не підозрюючим сімейним чоловіком у робітничому передмісті за межами Філадельфії.",
+          "popularity": 9.6574,
+          "poster_path": "/gcg5jx7lyWKV5K6evtwjIb2iu2Q.jpg",
+          "first_air_date": "2025-09-07",
+          "name": "Місія",
+          "vote_average": 6.806,
+          "vote_count": 281
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hDnZH0EnLJyAc4c1tu0mRE2O6qr.jpg",
+          "genre_ids": [
+            99,
+            80
+          ],
+          "id": 277831,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Yogurt Shop Murders",
+          "overview": "Розслідує трагічне вбивство чотирьох дівчат-підлітків у магазині \"Не можу повірити, що це йогурт\" 6 грудня 1991 року в Остіні, штат Техас. Хронічно описує величезну травму, залишену злочином, і детально описує лабіринт розслідування.",
+          "popularity": 0.9636,
+          "poster_path": "/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
+          "first_air_date": "2025-08-03",
+          "name": "Розсліжування вбивства в йогуртній крамниці",
+          "vote_average": 7,
+          "vote_count": 20
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iFAZ89ziLF6oLChvGid1I9pZo7E.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 287967,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Billy Joel: And So It Goes",
+          "overview": "",
+          "popularity": 1.6456,
+          "poster_path": "/jpekB5xqW7abzanLEyt69i6Jtpg.jpg",
+          "first_air_date": "2025-07-18",
+          "name": "Billy Joel: And So It Goes",
+          "vote_average": 8.4,
+          "vote_count": 10
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2qe5IhZFWccV5r6lo6pB2R0fPUo.jpg",
+          "genre_ids": [
+            99,
+            80
+          ],
+          "id": 291926,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Mortician",
+          "overview": "",
+          "popularity": 2.174,
+          "poster_path": "/vhJ3FFCtL5I3FKJmJ75WL5xdQgy.jpg",
+          "first_air_date": "2025-06-01",
+          "name": "The Mortician",
+          "vote_average": 7.056,
+          "vote_count": 18
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/g0gQOWjCBYUUYVw1dlN6Fg60CzY.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 277685,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Pee-wee as Himself",
+          "overview": "",
+          "popularity": 2.3333,
+          "poster_path": "/245axX0GN2QQE8KwXGKEvAVl1YP.jpg",
+          "first_air_date": "2025-05-23",
+          "name": "Pee-wee as Himself",
+          "vote_average": 8.1,
+          "vote_count": 27
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/eGZpzIhjBaXE864coSvucZrAjcS.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 288377,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Dark Money Game",
+          "overview": "",
+          "popularity": 0.7006,
+          "poster_path": "/juNPjycMnjazImnPZzizH5wKQCz.jpg",
+          "first_air_date": "2025-04-15",
+          "name": "The Dark Money Game",
+          "vote_average": 6.8,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/oTFuVZoZNkspvDNbVKxbi4Cl46T.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 276553,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Celtics City",
+          "overview": "",
+          "popularity": 1.9213,
+          "poster_path": "/sPwE7NtveUK0lMUgr3g3ZygIsqB.jpg",
+          "first_air_date": "2025-03-03",
+          "name": "Celtics City",
+          "vote_average": 7.2,
+          "vote_count": 8
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1Ruds4jrSyEJClgA3fxF3ut75P2.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 282670,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Eyes on the Prize III: We Who Believe in Freedom Cannot Rest 1977-2015",
+          "overview": "",
+          "popularity": 0.549,
+          "poster_path": "/r1acHeg4fXyIBu7BSLKYEpUnhys.jpg",
+          "first_air_date": "2025-02-25",
+          "name": "Eyes on the Prize III: We Who Believe in Freedom Cannot Rest 1977-2015",
+          "vote_average": 2.3,
+          "vote_count": 7
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/86MpZEwuDxfYulOv1KiiWDEFF7F.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 252174,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "An Update on Our Family",
+          "overview": "",
+          "popularity": 1.3099,
+          "poster_path": "/eWnju8bJhB6peZgDdGCLGjCPvrq.jpg",
+          "first_air_date": "2025-01-15",
+          "name": "An Update on Our Family",
+          "vote_average": 6.2,
+          "vote_count": 5
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/knZ49wXbw3drtcWf1O9RMgZR2jH.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 201646,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Get Millie Black",
+          "overview": "",
+          "popularity": 2.0166,
+          "poster_path": "/ytXuD2ZP9Q82OzalMaGYoKUUPCG.jpg",
+          "first_air_date": "2024-11-25",
+          "name": "Прибрати Міллі Блек",
+          "vote_average": 6.233,
+          "vote_count": 43
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lBoHzOgft2QfpjkVVvZCqeM4ttT.jpg",
+          "genre_ids": [
+            10765,
+            18,
+            10759
+          ],
+          "id": 90228,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Dune: Prophecy",
+          "overview": "За 10 000 років до піднесення Пола Атріда, Сестри Харконнен борються з силами, які загрожують майбутньому людства, і створюють легендарну секту, відому як Бене Гессерит.",
+          "popularity": 9.7611,
+          "poster_path": "/gfFZGyFwbyWkCQt4REqEMFUVRCo.jpg",
+          "first_air_date": "2024-11-17",
+          "name": "Дюна: Пророцтво",
+          "vote_average": 7.269,
+          "vote_count": 531
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/n7F84aHbOPmkz1nJC6pB0fKs9yJ.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 223518,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Breath of Fire",
+          "overview": "",
+          "popularity": 0.6461,
+          "poster_path": "/52BdtBXtn7Io5YKZ9B9bGtgsmVi.jpg",
+          "first_air_date": "2024-10-23",
+          "name": "Breath of Fire",
+          "vote_average": 6.5,
+          "vote_count": 4
+        }
+      ]
     },
     {
-      "adult": false,
-      "backdrop_path": "/pYMXfAEcJriegcAZjNl4GYGsL5g.jpg",
-      "genre_ids": [
-        16,
-        12,
-        35,
-        10751
-      ],
-      "id": 1529346,
-      "original_language": "en",
-      "original_title": "Krypto Saves the Day!: School Bus Scuffle",
-      "overview": "",
-      "popularity": 0.2715,
-      "poster_path": "/giRBhQ8WSDdXR3WdcwzjAq6VYGJ.jpg",
-      "release_date": "2025-08-13",
-      "title": "Krypto Saves the Day!: School Bus Scuffle",
-      "video": false,
-      "vote_average": 6.7,
-      "vote_count": 9,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "title": "🏆 Топ Серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+          "genre_ids": [
+            18,
+            10765,
+            10759
+          ],
+          "id": 224372,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "A Knight of the Seven Kingdoms",
+          "overview": "За століття до подій «Гри престолів» Вестеросом блукали два несподівані герої... молодий, наївний, але сміливий лицар, сер Дункан Високий, та його мініатюрний зброєновець, Егг. Події відбуваються в епоху, коли рід Таргарієнів все ще володів Залізним Троном, а пам'ять про останнього дракона ще не зникла з пам'яті живих, великі долі, могутні вороги та небезпечні подвиги чекають на цих неймовірних та незрівнянних друзів.",
+          "popularity": 264.0799,
+          "poster_path": "/bDYAjBVXblqeqjQR1M7KmW8xxKP.jpg",
+          "first_air_date": "2026-01-18",
+          "name": "Лицар Сімох Королівств",
+          "vote_average": 8.505,
+          "vote_count": 551
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
+          "genre_ids": [
+            10765,
+            18,
+            10759
+          ],
+          "id": 1399,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Game of Thrones",
+          "overview": "Ось і підходить до завершення літо, що тривало майже десятиліття. Навколо осередку влади Семи королівств, Залізного трону, зріє змова, і в цей непростий час король вирішує шукати підтримки у друга юності Еддарда Старка. У світі, де всі — від короля до найманця — рвуться до влади, плетуть інтриги й готові встромити ніж у спину, є місце і шляхетності, співчуттю та любові. Тим часом ніхто не помічає пробудження темряви з легенд далеко на Півночі — й лише Стіна захищає живих на південь від неї.",
+          "popularity": 166.5887,
+          "poster_path": "/cdhtHAfcYhiSVYpN40XMDrPoapP.jpg",
+          "first_air_date": "2011-04-17",
+          "name": "Гра престолів",
+          "vote_average": 8.459,
+          "vote_count": 26350
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tNi2aJPdCKfielGYzIi3IKxStz9.jpg",
+          "genre_ids": [
+            10762,
+            35
+          ],
+          "id": 502,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Sesame Street",
+          "overview": "Вулиця Сезам — міжнародна дитяча телевізійна освітня програма, яка вперше вийшла в ефір найбільшої американської некомерційної мережі PBS 11 листопада 1969.\n\n«Вулиця Сезам» — одна з найпопулярніших у світі дитячих передач. У створенні шоу активно брали участь педагоги та психологи, фахівці з розвитку дитини, які подбали про доступність та привабливость програми для дошкільнят та дітей до 12 років. «Вулиця Сезам» навчить не лише читання та рахунку, в ігровій формі діти дізнаються про основні норми та цінності сучасного суспільства, про позитивні та негативні риси характеру, навчаться вирішувати конфлікти мирним шляхом. програма виховує у дитині самоповагу, оптимізм, активну життєву позицію та стимулює допитливість. Основними дійовими особами є Зелібоба, Кубік, Бусинка, Знак та інші.\n\nУкраїнською Вулицю Сезам озвучила студія Пілот у 2013 році для телеканалу Сонце. Прем'єра україномовної версії Вулиці Сезам відбулася у жовтні 2013 року на телеканалі Сонце",
+          "popularity": 75.4685,
+          "poster_path": "/vBiiL2K8IyVpu1F1bswnePIn7Lw.jpg",
+          "first_air_date": "1969-11-10",
+          "name": "Вулиця Сезам",
+          "vote_average": 7.087,
+          "vote_count": 276
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 1398,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Sopranos",
+          "overview": "У центрі сюжетної лінії — американський мафіозний бос Тоні Сопрано (скорочено — Ті), у якого — дві родини. Одна — звичайна: дружина, двоє дітей, стара мати. Інша сім’я — серйозні італійські бандити, якими грамотно керує Тоні. Але життя на два фронти далеко не просте, і у містера Сопрано починаються проблеми зі здоров'ям.",
+          "popularity": 72.8647,
+          "poster_path": "/mtROfUtV12kVvdEaX4CV5DElzNC.jpg",
+          "first_air_date": "1999-01-10",
+          "name": "Клан Сопрано",
+          "vote_average": 8.655,
+          "vote_count": 3308
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/njEGYHyq58q94ZPJlSGs6bGrepv.jpg",
+          "genre_ids": [
+            35,
+            10767
+          ],
+          "id": 4419,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Real Time with Bill Maher",
+          "overview": "Двосерійний чорно-білий італійський фільм-драма 1948 року, поставлений режисером Ріккардо Фредою за однойменним романом французького письменника Віктора Гюго.",
+          "popularity": 55.2391,
+          "poster_path": "/pbpoLLp4kvnYVfnEGiEhagpJuVZ.jpg",
+          "first_air_date": "2003-02-21",
+          "name": "В даний час з Біллом Маром",
+          "vote_average": 6.028,
+          "vote_count": 232
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2xGcSLyTAzConiHAByWqhfLiatT.jpg",
+          "genre_ids": [
+            10765,
+            18,
+            10759
+          ],
+          "id": 94997,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "House of the Dragon",
+          "overview": "Члени дому Тарґарієнів залишають приречену Валірію і відправляються на захід, де знаходять величезну територію, населену ворогуючими королівствами.",
+          "popularity": 54.5414,
+          "poster_path": "/yaGOa7I9xIug8qsw7vXzkeMZ1mb.jpg",
+          "first_air_date": "2022-08-21",
+          "name": "Дім дракона",
+          "vote_average": 8.292,
+          "vote_count": 5751
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/bPLRjO2pcBx0WL73WUPzuNzQ3YN.jpg",
+          "genre_ids": [
+            18,
+            9648
+          ],
+          "id": 46648,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "True Detective",
+          "overview": "Американський детективний серіал з паралельними оповідями, в яких розслідування викриває особисті та професійні секрети всіх причетних - як в межах, так і поза законом.",
+          "popularity": 51.2192,
+          "poster_path": "/yzbAnQp1pIhjLDEvIP1ZgAMVvrk.jpg",
+          "first_air_date": "2014-01-12",
+          "name": "Справжній детектив",
+          "vote_average": 8.284,
+          "vote_count": 3970
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rX5hvSRB2k4YoIvRg6Zky52rWk0.jpg",
+          "genre_ids": [
+            10765,
+            37
+          ],
+          "id": 63247,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Westworld",
+          "overview": "Події серіалу розгортаються у футуристичному розважальному парку, де роботи допомагають людям втілювати їх фантазії, розігруючи сцени з минулих часів. Але парк виходить з ладу, роботи більше не під контролем власників, і двоє гостей парку опиняються під прицілом стрільця-андроїда.",
+          "popularity": 50.3722,
+          "poster_path": "/cVJthVgNqWCdBYrGBFKt560O2NK.jpg",
+          "first_air_date": "2016-10-02",
+          "name": "Світ Дикого Заходу",
+          "vote_average": 8.027,
+          "vote_count": 6028
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9KnIzPCv9XpWA0MqmwiKBZvV1Sj.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 85552,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Euphoria",
+          "overview": "У центрі історії — 17-річна Ру Беннетт, яка повернулася до рідного дому після лікування в реабілітаційній клініці. Не гаючи часу, вона знову береться за старі звички — наркотики й тусовки. Однак поява в місті дівчини Джулс стає для Ру знаком надії.",
+          "popularity": 48.3172,
+          "poster_path": "/nsZkLSw1d0le18B8F0B5VMv6QKJ.jpg",
+          "first_air_date": "2019-06-16",
+          "name": "Ейфорія",
+          "vote_average": 8.284,
+          "vote_count": 10315
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rCTLaPwuApDx8vLGjYZ9pRl7zRB.jpg",
+          "genre_ids": [
+            35,
+            18,
+            9648
+          ],
+          "id": 111803,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The White Lotus",
+          "overview": "Це історія про постояльців і обслуговуючий персонал фешенебельного гавайського готелю. Багатії, які прибули на курорт розважитися, відпочити і, що називається, перезавантажитися, замість цього притягли з собою на райський острів всі свої проблеми. Дбайливо створювана працівниками закладу атмосфера ідилії довго не протримається.",
+          "popularity": 48.2522,
+          "poster_path": "/zs4rJT480JvzCrqudVQnayntI9I.jpg",
+          "first_air_date": "2021-07-11",
+          "name": "Білий лотос",
+          "vote_average": 7.621,
+          "vote_count": 1326
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/layPSOJGckJv3PXZDIVluMq69mn.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 1438,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Wire",
+          "overview": "Підрозділ поліцейських в Балтіморі намагається за допомогою спеціальних засобів і заходів по прослуховуванню і прихованої відеозйомки довести до суду розслідування злочинів організованих злочинних груп, які займаються незаконним розповсюдженням наркотиків.",
+          "popularity": 46.7746,
+          "poster_path": "/o9JJcOHl8EXOHBDqmWBs7Sl1d9J.jpg",
+          "first_air_date": "2002-06-02",
+          "name": "Дроти",
+          "vote_average": 8.617,
+          "vote_count": 2577
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/t97VtC5qvra5GThnNBCXHJFnmXg.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 4546,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Curb Your Enthusiasm",
+          "overview": "Цей комедійний серіал є унікальним у своєму роді. Ларрі Девід зважився зняти історію про самого себе. Цей хлопець каже те, що думає; він конфліктує з усім світом, тому проблеми постійно переслідують його, але Ларрі не має бажання прогинатися і здаватися.",
+          "popularity": 44.9802,
+          "poster_path": "/py843nYpZhfpze1J6gW68tCWdQc.jpg",
+          "first_air_date": "2000-10-15",
+          "name": "Вгамуй свій ентузіазм",
+          "vote_average": 8,
+          "vote_count": 888
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2746UvsbkZINd873Yd3o3TxOwCP.jpg",
+          "genre_ids": [
+            18,
+            9648
+          ],
+          "id": 200875,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "IT: Welcome to Derry",
+          "overview": "Приквел культового фільму Воно переносить глядачів у 1962 рік, коли в невеликому містечку Деррі починає прокидатися стародавнє зло, здатне харчуватися страхом та підкоряти собі людей. У центрі сюжету — група підлітків, які стикаються з моторошними подіями та намагаються зрозуміти, що ховається під спокійною поверхнею їхнього рідного міста. Чим глибше вони занурюються в розслідування, тим більше помічають дивацтва, пов'язані зі зникненнями жителів і міфічними істотами, що ховаються в глибинах Деррі. Незважаючи на мовчання дорослих, хлопці вирішують докопатися до істини, не здогадуючись, до яких наслідків це призведе.",
+          "popularity": 36.2692,
+          "poster_path": "/lcoX5sWwMSm6vwqqokW5ND6VgvR.jpg",
+          "first_air_date": "2025-10-26",
+          "name": "Воно: Ласкаво просимо в Деррі",
+          "vote_average": 8.2,
+          "vote_count": 1311
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pOKcw45cAMPu8DN7E3bN5FEvxM3.jpg",
+          "genre_ids": [
+            16,
+            10765,
+            10759
+          ],
+          "id": 33217,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Young Justice",
+          "overview": "Молода ліга справедливості - новий мультсеріал від компанії DC розповідає про групу підлітків-помічників супергероїв з Ліги Справедливості. Вони захотіли утвердитися і довести своїм досвідченим наставникам, що вони готові самостійно виконувати завдання надзвичайної небезпеки. І тепер вони Молода ліга справедливості - команда, що складається з шістьох осіб: Супербій, Кід Флеш, Міс Марсіанка, Аквалед, Робін, Артеміда; під проводом всієї Ліги, вони роблять небезпечні завдання, виконуючи їх з часткою гумору, з'ясовуючи стосунки між собою і, звичайно ж, перемагають найнебезпечніших ворогів.",
+          "popularity": 33.338,
+          "poster_path": "/zMJw34G4OJhcd9NjKSRjJdDqjbR.jpg",
+          "first_air_date": "2010-11-26",
+          "name": "Молода ліга справедливості",
+          "vote_average": 8.4,
+          "vote_count": 1189
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/nGhC6P0lgcrY57NRB9nweu4nWaK.jpg",
+          "genre_ids": [
+            10765,
+            18,
+            9648
+          ],
+          "id": 10545,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "True Blood",
+          "overview": "Події розгортаються в невеликому містечку в передмісті Нового Орлеана. З тих пір, як японці винайшли синтетичну кров, у вампірів відпала необхідність вбивати простих смертних. Вони покинули свої труни і офіційно заявили про свої права. Але не всі люди виявилися готові до цього, і не всі вампіри раді відмовитися від звичних ласощів. Сьюкі Стекхауз - звичайна офіціантка з приміського кафе, наділена здатністю читати думки оточуючих, знайомиться з «гарним» вампіром Біллом Комптон. І відразу набуває багато ворогів з «поганих хлопців».",
+          "popularity": 32.6996,
+          "poster_path": "/u4o0SlvK8PIKhiCQKWGnhOO1Lbd.jpg",
+          "first_air_date": "2008-09-07",
+          "name": "Реальна Кров",
+          "vote_average": 7.615,
+          "vote_count": 2018
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/bcdUYUFk8GdpZJPiSAas9UeocLH.jpg",
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 76331,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Succession",
+          "overview": "Лоґан Рой — могутній, але старіючий глава міжнародного медійного конгломерату Waystar Royco. В майбутньому правління компанією повинен прийняти старший син, але передусім всій сім’ї доведеться пережити інтриги, зраду і неприкриту боротьбу за владу.",
+          "popularity": 31.9973,
+          "poster_path": "/4qlr6zzWxVBNVJJNAM4qk2Kt97h.jpg",
+          "first_air_date": "2018-06-03",
+          "name": "Спадкоємці",
+          "vote_average": 8.29,
+          "vote_count": 1529
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/q31EEBycbOyX7GGJP4GTPI5WJRO.jpg",
+          "genre_ids": [
+            10767,
+            35,
+            10763
+          ],
+          "id": 60694,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Last Week Tonight with John Oliver",
+          "overview": "Американське вечірнє ток-шоу і телепрограма новинної сатири, яку веде комік Джон Олівер.",
+          "popularity": 31.2669,
+          "poster_path": "/xN6GpXLMgOyRRNn6RXyq6qz3NTx.jpg",
+          "first_air_date": "2014-04-27",
+          "name": "Події минулого тижня з Джоном Олівером",
+          "vote_average": 7.8,
+          "vote_count": 770
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mXtL24G2Awyl3lKFtreMHnH5qFC.jpg",
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 105,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Sex and the City",
+          "overview": "У центрі серіалу — Керрі Бредшоу, Міранда Гоббс, Шарлотта Йорк і Саманта Джонс — чотири подруги, чотири яскраві особистості, чотири погляди на життя та чотири способи подолання проблем, що виникають. Незалежні мешканки Нью-Йорку сміливо перейшли тридцятирічний рубіж, упевнені в собі та відверті одна з одною.",
+          "popularity": 29.988,
+          "poster_path": "/9JEst8b9Z5yQ5QG4jIwx0hm4ls5.jpg",
+          "first_air_date": "1998-06-06",
+          "name": "Секс і місто",
+          "vote_average": 7.4,
+          "vote_count": 2121
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 100088,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Last of Us",
+          "overview": "Через двадцять років після того, як сучасна цивілізація була знищена, Джоел, загартований уцілілий, наймається, щоб вивезти Еллі, 14-річну дівчину, із жорстокої карантинної зони. Те, що починається з маленької роботи, невдовзі перетворюється на брутальну, несамовиту подорож, оскільки їм обом доведеться подорожувати по США і залежати одне від одного для виживання.",
+          "popularity": 29.9869,
+          "poster_path": "/60wEFrIA0mq68KKzwmep7mHEzu4.jpg",
+          "first_air_date": "2023-01-15",
+          "name": "Останні з нас",
+          "vote_average": 8.448,
+          "vote_count": 6803
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iAzH3jFEaDMkjEsNNBUpGzSJ6VR.jpg",
+          "genre_ids": [
+            18,
+            10759,
+            10765
+          ],
+          "id": 75450,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Titans",
+          "overview": "У надії зупинити свого батька — стародавнього демона Триґона — володарка неймовірних здібностей дівчина Рейвен звертається за допомогою до Робіна. Колишній напарник Бетмена тепер сам вершить правосуддя на вулицях Ґотему, але, щоб зупинити зло, Рейвен і Робіну знадобиться підмога.",
+          "popularity": 27.1896,
+          "poster_path": "/eH9lf8Abs2BTz3zwlEZE6Q9iwlI.jpg",
+          "first_air_date": "2018-10-12",
+          "name": "Титани",
+          "vote_average": 7.875,
+          "vote_count": 2802
+        }
+      ]
+    },
+    {
+      "title": "🔥 Нові фільми",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
+          "genre_ids": [
+            10749,
+            18
+          ],
+          "id": 1316092,
+          "original_language": "en",
+          "original_title": "\"Wuthering Heights\"",
+          "overview": "Пристрасна й бурхлива історія кохання на тлі йоркширських пустищ, що досліджує напружені та руйнівні стосунки між Гіткліфом і Кетрін Ерншо.",
+          "popularity": 96.2299,
+          "poster_path": "/2AKDJSZGXEoG8EWROZV2urEddFJ.jpg",
+          "release_date": "2026-02-11",
+          "title": "«Буремний перевал»",
+          "video": false,
+          "vote_average": 6.52,
+          "vote_count": 416
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/czJyil5XbEq81K6Gw2arzUUcMUo.jpg",
+          "genre_ids": [
+            16
+          ],
+          "id": 1529650,
+          "original_language": "en",
+          "original_title": "Krypto Saves the Day!: Package Pandemonium",
+          "overview": "",
+          "popularity": 0.2236,
+          "poster_path": "/rmk3dVvXlIuZLkh776PIHOrqtJW.jpg",
+          "release_date": "2025-11-28",
+          "title": "Krypto Saves the Day!: Package Pandemonium",
+          "video": false,
+          "vote_average": 5.5,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ydizf7MP7vOYK7bnDcqAvhFVYxr.jpg",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 1548017,
+          "original_language": "en",
+          "original_title": "The Family McMullen",
+          "overview": "Згуртована родина долає життєві злети й падіння, стикаючись із особистими випробуваннями та змінними стосунками. Зустрічаючи несподівані перешкоди, вони випробовують міцність своїх зв’язків, відкриваючи складність любові, вірності та зростання всередині сім’ї.",
+          "popularity": 1.0822,
+          "poster_path": "/yIng9VmkPqwN1QHeKtZCKwvSTb3.jpg",
+          "release_date": "2025-10-15",
+          "title": "Родина МакМаллен",
+          "video": false,
+          "vote_average": 5.357,
+          "vote_count": 14
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tof8ovnN0CIwi2I6qIa5zE0LHfm.jpg",
+          "genre_ids": [
+            16,
+            35,
+            10751
+          ],
+          "id": 1529648,
+          "original_language": "en",
+          "original_title": "Krypto Saves the Day!: Halloween Havoc",
+          "overview": "",
+          "popularity": 0.4294,
+          "poster_path": "/xVQgm5rZxmvRW8ttngCsnqmmitY.jpg",
+          "release_date": "2025-09-30",
+          "title": "Krypto Saves the Day!: Halloween Havoc",
+          "video": false,
+          "vote_average": 6.3,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gre7gyocZSuwd7M51CGlqsJqBmB.jpg",
+          "genre_ids": [
+            53,
+            80,
+            28
+          ],
+          "id": 1054867,
+          "original_language": "en",
+          "original_title": "One Battle After Another",
+          "overview": "Коли їхній зловісний ворог знову з’являється після 16 років, група колишніх революціонерів об'єднується, щоб урятувати доньку одного з них.",
+          "popularity": 38.6067,
+          "poster_path": "/ojzqCrYrMoNt1rZWmt8i5MrIXio.jpg",
+          "release_date": "2025-09-23",
+          "title": "Одна битва за іншою",
+          "video": false,
+          "vote_average": 7.406,
+          "vote_count": 2933
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pYMXfAEcJriegcAZjNl4GYGsL5g.jpg",
+          "genre_ids": [
+            16,
+            12,
+            35,
+            10751
+          ],
+          "id": 1529346,
+          "original_language": "en",
+          "original_title": "Krypto Saves the Day!: School Bus Scuffle",
+          "overview": "",
+          "popularity": 2.0931,
+          "poster_path": "/giRBhQ8WSDdXR3WdcwzjAq6VYGJ.jpg",
+          "release_date": "2025-08-13",
+          "title": "Krypto Saves the Day!: School Bus Scuffle",
+          "video": false,
+          "vote_average": 6.7,
+          "vote_count": 9
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/79sgiO0GWhd6ArGOfLMT3R0F0Br.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 1270082,
+          "original_language": "es",
+          "original_title": "Ramón y Ramón",
+          "overview": "",
+          "popularity": 0.3416,
+          "poster_path": "/k6dP7oDg2oJ4RmzmUhAHrUH6IWD.jpg",
+          "release_date": "2025-06-27",
+          "title": "Ramón y Ramón",
+          "video": false,
+          "vote_average": 7.286,
+          "vote_count": 7
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kOUV5WbisWMg56d8eB45ZHEVxYq.jpg",
+          "genre_ids": [
+            18,
+            53,
+            10402
+          ],
+          "id": 1151272,
+          "original_language": "es",
+          "original_title": "Sirāt",
+          "overview": "Луїс із сином та їхнім вірним собакою мандрують марокканською пустелею в пошуках зниклої доньки. Приєднавшись до групи рейверів, що прямують на чергову вечірку в серці Сахари, вони поринають у пекельну подорож крізь нескінченні піски. Безжальна пустеля змусить їх переосмислити власне життя.",
+          "popularity": 13.9514,
+          "poster_path": "/7snoK3Q2cRDCxmcnjXRDJIQ6seY.jpg",
+          "release_date": "2025-06-06",
+          "title": "Сират",
+          "video": false,
+          "vote_average": 6.824,
+          "vote_count": 490
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+          "genre_ids": [
+            27,
+            28,
+            53
+          ],
+          "id": 1233413,
+          "original_language": "en",
+          "original_title": "Sinners",
+          "overview": "Брати-близнюки повертаються до свого міста, щоб залишити непросте життя позаду. Однак почати все спочатку не вдається, бо у рідному домі на них чекає ще більше зло.",
+          "popularity": 35.5743,
+          "poster_path": "/zWGxWz3zu6w2oFvwxLjkXrhWjtu.jpg",
+          "release_date": "2025-04-16",
+          "title": "Грішники",
+          "video": false,
+          "vote_average": 7.49,
+          "vote_count": 3810
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+          "genre_ids": [
+            10751,
+            14,
+            35,
+            12
+          ],
+          "id": 950387,
+          "original_language": "en",
+          "original_title": "A Minecraft Movie",
+          "overview": "Ласкаво просимо до світу Minecraft! Творчість тут допомагає не лише майструвати, а й необхідна для існування! Ґаррет «Сміттяр» Ґаррісон, Генрі, Наталі та Дон – це четверо невдах, які вирішують свої буденні проблеми. Та одного дня, пройшовши таємничий портал, вони потрапляють у Верхній світ – химерну кубічну країну чудес, яка процвітає завдяки уяві. Щоб повернутися додому, їм доведеться пізнати цей світ (і захистити його від злих істот, таких як Піґліни та Зомбі). Для цього герої вирушать у магічний квест з новим знайомим, досвідченим майстром Стівом. Спільна пригода випробує усіх п'ятьох на сміливість та подарує можливість віднайти унікальні навички, які роблять кожного з них неповторним творцем... саме ті навички, які їм потрібні для успіху в реальному світі.",
+          "popularity": 23.5916,
+          "poster_path": "/lMoQfE4NK5xjmrxvlrm2sc3wmvF.jpg",
+          "release_date": "2025-03-31",
+          "title": "Minecraft: Фільм",
+          "video": false,
+          "vote_average": 6.274,
+          "vote_count": 2807
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iveeHEGtkq0dBJZtOcoK650sZ6x.jpg",
+          "genre_ids": [
+            80,
+            18,
+            36
+          ],
+          "id": 1013601,
+          "original_language": "en",
+          "original_title": "The Alto Knights",
+          "overview": "Віто Дженовезе та Френк Костелло — пара американців італійського походження, які керують двома різними злочинними родинами в середині 20 століття. Дженовезе намагався вбити Костелло в 1957 році, хоча Костелло відійшов від справ банди.",
+          "popularity": 2.9231,
+          "poster_path": "/z9VNdTfVhhKq8crDcytBRiTxmTK.jpg",
+          "release_date": "2025-03-19",
+          "title": "Лицарі Альто",
+          "video": false,
+          "vote_average": 6.22,
+          "vote_count": 396
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9PRKAdrDvAdCfg3EcApLTfzGsEt.jpg",
+          "genre_ids": [
+            878,
+            35,
+            12
+          ],
+          "id": 696506,
+          "original_language": "en",
+          "original_title": "Mickey 17",
+          "overview": "«Одноразовий співробітник» бере участь у колонізації крижаного світу. Після смерті Мікі його свідомість щоразу завантажується у нове тіло.",
+          "popularity": 12.7801,
+          "poster_path": "/tQmakzhtcG3J2a1guoRbzC5zAwc.jpg",
+          "release_date": "2025-02-28",
+          "title": "Мікі 17",
+          "video": false,
+          "vote_average": 6.826,
+          "vote_count": 3303
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9Qq8InnodUYs8zdam8Zj967i6RO.jpg",
+          "genre_ids": [
+            18,
+            53
+          ],
+          "id": 1106739,
+          "original_language": "en",
+          "original_title": "Juror #2",
+          "overview": "Будучи присяжним у справі про резонансне вбивство, сім'янин стикається з серйозною моральною дилемою, яку він може використати для того, щоб вплинути на вердикт присяжних і потенційно засудити або звільнити невинних вбивць.",
+          "popularity": 4.5111,
+          "poster_path": "/bdbuTPatsV1H1mVIcHnclAq24UL.jpg",
+          "release_date": "2024-10-30",
+          "title": "Присяжний №2",
+          "video": false,
+          "vote_average": 6.879,
+          "vote_count": 2364
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9Xx0BCkxDsF47niAPsb8lQ0O9Qu.jpg",
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 1088514,
+          "original_language": "es",
+          "original_title": "La habitación de al lado",
+          "overview": "Напружені стосунки Марти з матір’ю повністю руйнуються, коли непорозуміння розлучає їх.",
+          "popularity": 2.407,
+          "poster_path": "/aFeEXvKtKZ9wY3EMsR7yp9Izfej.jpg",
+          "release_date": "2024-10-07",
+          "title": "Сусідня кімната",
+          "video": false,
+          "vote_average": 6.8,
+          "vote_count": 661
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/AVWlQpVhpudyFsSh3OQIieHHYf.jpg",
+          "genre_ids": [
+            18,
+            80,
+            53
+          ],
+          "id": 889737,
+          "original_language": "en",
+          "original_title": "Joker: Folie à Deux",
+          "overview": "Артур Флек запроторений до лікарні Аркгем, де очікує на суд через злочини, скоєні ним в образі Джокера. Розриваючись між двома особистостями, Артур не лише пізнає справжнє кохання, а й також віднайде музику, яка завжди грала всередині нього.",
+          "popularity": 9.9727,
+          "poster_path": "/7pA1VcVLqXdcHXLvpvuAsm6AhS0.jpg",
+          "release_date": "2024-10-01",
+          "title": "Джокер: Божевілля на двох",
+          "video": false,
+          "vote_average": 5.396,
+          "vote_count": 2802
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kF8ljC7Y4p1UsmKBi2LxelZpqw.jpg",
+          "genre_ids": [
+            35,
+            14,
+            27
+          ],
+          "id": 917496,
+          "original_language": "en",
+          "original_title": "Beetlejuice Beetlejuice",
+          "overview": "Після несподіваної сімейної трагедії, три покоління родини Дітц повертаються додому у Вінтер-Рівер. Життя Лідії, яку досі переслідує Бітлджюс, перевертається догори дриґом. Її бунтівна донька-підліток Астрід знаходить на горищі таємничий макет міста і випадково відкриває портал до потойбічного світу. Проблеми назрівають в обох світах, тому це лише питання часу, коли хтось тричі вимовить ім'я Бітлджюса. Як тільки це станеться, пустотливий демон повернеться і влаштує хаос у своєму фірмовому стилі.",
+          "popularity": 11.5084,
+          "poster_path": "/vsNtayw04A2iZQc2E90DX6dkYTX.jpg",
+          "release_date": "2024-09-04",
+          "title": "Бітлджюс Бітлджюс",
+          "video": false,
+          "vote_average": 6.943,
+          "vote_count": 2992
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/58D6ZAvOKxlHjyX9S8qNKSBE9Y.jpg",
+          "genre_ids": [
+            28,
+            53
+          ],
+          "id": 718821,
+          "original_language": "en",
+          "original_title": "Twisters",
+          "overview": "Колись Кейт любила спостерігати за смерчами на власні очі, а тепер вивчає їх за комп’ютерними моделями. Давній друг Хаві переконує Кейт долучитися до команди мисливців за торнадо, аби бути однією з перших, хто побачить в дії нову революційну систему стеження за смерчами. Зірка соцмереж Тайлер знаменитий тим, що разом зі своєю командою наближається максимально близько до епіцентру вихору. І Кейт, і Тайлер разом зі своїми командами очікують наближення шторму...",
+          "popularity": 7.3223,
+          "poster_path": "/gBDhqamNshgx3rEr7GjyJFI9i9V.jpg",
+          "release_date": "2024-07-10",
+          "title": "Смерчі",
+          "video": false,
+          "vote_average": 6.78,
+          "vote_count": 2841
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg",
+          "genre_ids": [
+            28,
+            878,
+            12
+          ],
+          "id": 786892,
+          "original_language": "en",
+          "original_title": "Furiosa: A Mad Max Saga",
+          "overview": "Коли світ занепав, юну Фуріозу викрадають із Зеленого Місця Багатьох Матерів та віддають до рук великої Байкерської Орди на чолі з Дементусом. Пробираючись разом Пусткою, вони натрапляють на Цитадель Несмертела Джо. Поки два тирани воюють за панування, на Фуріозу чекає багато випробувань у спробі віднайти шлях додому.",
+          "popularity": 11.789,
+          "poster_path": "/sFlzEPsNCeApWNPGMzhrF1970Nh.jpg",
+          "release_date": "2024-05-22",
+          "title": "Фуріоза: Шалений Макс. Сага",
+          "video": false,
+          "vote_average": 7.454,
+          "vote_count": 4685
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rSle4ix2IZ6UMgCDY8L3ngdOmSZ.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 558915,
+          "original_language": "en",
+          "original_title": "The Color Purple",
+          "overview": "Адаптація бродвейського мюзиклу \"Барва пурпурова\", заснованого на романі та екранізації",
+          "popularity": 2.4026,
+          "poster_path": "/q1pFIG2wXjW1ZAa1ZQBp7cM63l9.jpg",
+          "release_date": "2023-12-25",
+          "title": "Барва пурпурова",
+          "video": false,
+          "vote_average": 7.019,
+          "vote_count": 346
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7S0bXv3BqCuPfImKRf5kkmBVYZR.jpg",
+          "genre_ids": [
+            28,
+            12,
+            14
+          ],
+          "id": 572802,
+          "original_language": "en",
+          "original_title": "Aquaman and the Lost Kingdom",
+          "overview": "Чорна Манта не зміг перемогти Аквамена з першого разу, але не полишив бажання помститися за смерть батька. Проте цього разу він ще небезпечніший і прагне знищити свого ворога раз і назавжди. Щоб зупинити його, Аквамен звернеться до свого ув'язненого брата Орма, колишнього короля Атлантиди, щоб укласти неочікуваний союз. Вони повинні відкинути розбіжності, щоб захистити королівство і врятувати світ від знищення.",
+          "popularity": 11.536,
+          "poster_path": "/ogBBDvgi9k0qhjqe67TDmt66CBA.jpg",
+          "release_date": "2023-12-20",
+          "title": "Аквамен і загублене королівство",
+          "video": false,
+          "vote_average": 6.543,
+          "vote_count": 3381
+        }
+      ]
+    },
+    {
+      "title": "🏆 Топ Фільми",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
+          "genre_ids": [
+            10749,
+            18
+          ],
+          "id": 1316092,
+          "original_language": "en",
+          "original_title": "\"Wuthering Heights\"",
+          "overview": "Пристрасна й бурхлива історія кохання на тлі йоркширських пустищ, що досліджує напружені та руйнівні стосунки між Гіткліфом і Кетрін Ерншо.",
+          "popularity": 96.2299,
+          "poster_path": "/2AKDJSZGXEoG8EWROZV2urEddFJ.jpg",
+          "release_date": "2026-02-11",
+          "title": "«Буремний перевал»",
+          "video": false,
+          "vote_average": 6.52,
+          "vote_count": 416
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gre7gyocZSuwd7M51CGlqsJqBmB.jpg",
+          "genre_ids": [
+            53,
+            80,
+            28
+          ],
+          "id": 1054867,
+          "original_language": "en",
+          "original_title": "One Battle After Another",
+          "overview": "Коли їхній зловісний ворог знову з’являється після 16 років, група колишніх революціонерів об'єднується, щоб урятувати доньку одного з них.",
+          "popularity": 38.6067,
+          "poster_path": "/ojzqCrYrMoNt1rZWmt8i5MrIXio.jpg",
+          "release_date": "2025-09-23",
+          "title": "Одна битва за іншою",
+          "video": false,
+          "vote_average": 7.406,
+          "vote_count": 2933
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+          "genre_ids": [
+            27,
+            28,
+            53
+          ],
+          "id": 1233413,
+          "original_language": "en",
+          "original_title": "Sinners",
+          "overview": "Брати-близнюки повертаються до свого міста, щоб залишити непросте життя позаду. Однак почати все спочатку не вдається, бо у рідному домі на них чекає ще більше зло.",
+          "popularity": 35.5743,
+          "poster_path": "/zWGxWz3zu6w2oFvwxLjkXrhWjtu.jpg",
+          "release_date": "2025-04-16",
+          "title": "Грішники",
+          "video": false,
+          "vote_average": 7.49,
+          "vote_count": 3810
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+          "genre_ids": [
+            28,
+            878,
+            12
+          ],
+          "id": 27205,
+          "original_language": "en",
+          "original_title": "Inception",
+          "overview": "Виконавчий директор невеликої фірми заправляє організацією, співробітники якої вміють занурюватися в сни людей, щоб імплантувати в них нову інформацію або, навпаки, видаляти зайву. Тиху наукову роботу порушує замовлення, від якого не можна відмовитися, — імплантувати в мозок успішного бізнесмена «правильні» ідеї, які сподобаються його конкурентам.",
+          "popularity": 30.0366,
+          "poster_path": "/r84x4x93LbZ2gozISTBYVeq0gLZ.jpg",
+          "release_date": "2010-07-15",
+          "title": "Початок",
+          "video": false,
+          "vote_average": 8.37,
+          "vote_count": 38765
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dqK9Hag1054tghRQSqLSfrkvQnA.jpg",
+          "genre_ids": [
+            28,
+            80,
+            53
+          ],
+          "id": 155,
+          "original_language": "en",
+          "original_title": "The Dark Knight",
+          "overview": "Бетмен піднімає ставки у війні з криміналом. За допомогою лейтенанта Джеймса Ґордона і прокурора Гарві Дента, він має намір очистити вулиці від злочинності, що отруює місто. Співпраця виявляється ефективною, але скоро вони виявлять себе посеред хаосу, розв'язаного новим кримінальним генієм, відомим переляканим городянам під ім'ям Джокер.",
+          "popularity": 26.1735,
+          "poster_path": "/hAf98uHIXMFzqNN5LX1vnouCShr.jpg",
+          "release_date": "2008-07-16",
+          "title": "Темний лицар",
+          "video": false,
+          "vote_average": 8.527,
+          "vote_count": 35253
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lpBqjU3OyG9DnIy5BHt0zNw8n0q.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 11566,
+          "original_language": "en",
+          "original_title": "Dave",
+          "overview": "Дейва Ковіка, дуже схожого на американського президента, запрошують заміняти главу країни під час публічних появ, але в перший же вихід справжнього президента схопив удар і, прямо скажемо, не на робочому місці, а на коханці. Амбітний помічник президента, не бажаючи, щоб влада перейшла до віце-президента, просить його зображати і далі народного обранця. І актор виявляється набагато кращим президентом, ніж справжній. Він набирається сміливості, звільняє свого помічника і бере правління в свої руки ...",
+          "popularity": 25.9546,
+          "poster_path": "/kad8stmKrZF3YMLB1XV9yLfMWVo.jpg",
+          "release_date": "1993-05-07",
+          "title": "Дейв",
+          "video": false,
+          "vote_average": 6.646,
+          "vote_count": 816
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+          "genre_ids": [
+            10751,
+            14,
+            35,
+            12
+          ],
+          "id": 950387,
+          "original_language": "en",
+          "original_title": "A Minecraft Movie",
+          "overview": "Ласкаво просимо до світу Minecraft! Творчість тут допомагає не лише майструвати, а й необхідна для існування! Ґаррет «Сміттяр» Ґаррісон, Генрі, Наталі та Дон – це четверо невдах, які вирішують свої буденні проблеми. Та одного дня, пройшовши таємничий портал, вони потрапляють у Верхній світ – химерну кубічну країну чудес, яка процвітає завдяки уяві. Щоб повернутися додому, їм доведеться пізнати цей світ (і захистити його від злих істот, таких як Піґліни та Зомбі). Для цього герої вирушать у магічний квест з новим знайомим, досвідченим майстром Стівом. Спільна пригода випробує усіх п'ятьох на сміливість та подарує можливість віднайти унікальні навички, які роблять кожного з них неповторним творцем... саме ті навички, які їм потрібні для успіху в реальному світі.",
+          "popularity": 23.5916,
+          "poster_path": "/lMoQfE4NK5xjmrxvlrm2sc3wmvF.jpg",
+          "release_date": "2025-03-31",
+          "title": "Minecraft: Фільм",
+          "video": false,
+          "vote_average": 6.274,
+          "vote_count": 2807
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg",
+          "genre_ids": [
+            28,
+            878
+          ],
+          "id": 603,
+          "original_language": "en",
+          "original_title": "The Matrix",
+          "overview": "Хакер Томас Андерсон одного дня опиняється перед вибором, запропонованим таємничими незнайомцями. Він може продовжувати жити у своєму звичайному світі, який насправді — лише сон. Або ж поглянути в обличчя страшній реальності?",
+          "popularity": 23.3013,
+          "poster_path": "/kFvvcwzis0CmZeYesx48ghhc4RJ.jpg",
+          "release_date": "1999-03-31",
+          "title": "Матриця",
+          "video": false,
+          "vote_average": 8.239,
+          "vote_count": 27444
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gILte6Zd7m1YneIr6MVhh30S9pr.jpg",
+          "genre_ids": [
+            18,
+            80
+          ],
+          "id": 769,
+          "original_language": "en",
+          "original_title": "GoodFellas",
+          "overview": "Парубок з дитинства обожнює гангстерів, і його єдина мрія — стати таким як вони: їздити в швидких машинах, носити дорогі костюми і користуватися загальною пошаною, що переходить в шанування. Пізніше він дійсно став гангстером, але за все в житті доводиться платити...",
+          "popularity": 22.1178,
+          "poster_path": "/o4bIaSSfu6JVmzJYDmVVQCJeD5b.jpg",
+          "release_date": "1990-09-12",
+          "title": "Славні Хлопці",
+          "video": false,
+          "vote_average": 8.452,
+          "vote_count": 14063
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8XeUEIXiZiRNqz0EcKC65vje8Th.jpg",
+          "genre_ids": [
+            878,
+            27,
+            35
+          ],
+          "id": 1159831,
+          "original_language": "en",
+          "original_title": "The Bride!",
+          "overview": "У 1930-ті роки. Самотній Франкенштейн вирушає до Чикаго, щоб звернутися до доктора Єфронія за допомогою у створенні компаньйона для себе. Їм вдається оживити вбиту дівчину, і на світ з'являється Наречена. Вона перевершує всі їхні плани, розпалюючи пристрасний роман, привертаючи увагу поліції та викликає радикальний громадський рух.",
+          "popularity": 21.9234,
+          "poster_path": "/n2FRQjACwJjnrHfCbLwE1ynPV0h.jpg",
+          "release_date": "2026-03-04",
+          "title": "Наречена!",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1XAC6RPT01UX9EQGy2JVn5c8pgy.jpg",
+          "genre_ids": [
+            12,
+            14
+          ],
+          "id": 671,
+          "original_language": "en",
+          "original_title": "Harry Potter and the Philosopher's Stone",
+          "overview": "Життя десятирічного Гаррі Поттера не можна назвати солодким: батьки померли, щойно йому виповнився рік, а дядько і тітка, які взяли сироту на виховання, не дуже і піклуються про нього. Але одинадцятий день народження все змінює. Дивний гість, який несподівано з'явився на порозі, приносить листа, з якого хлопчик дізнається, що насправді він - чарівник, і зарахований до школи магії під назвою Гоґвортс. А вже за кілька тижнів Гаррі мчатиме в поїзді Гоґвортс-експрес назустріч новому життю, де на нього чекають неймовірні пригоди та вірні друзі!",
+          "popularity": 21.8186,
+          "poster_path": "/e6GHBWj2NIuVxl0eETgoRTIVRUF.jpg",
+          "release_date": "2001-11-16",
+          "title": "Гаррі Поттер і філософський камінь",
+          "video": false,
+          "vote_average": 7.899,
+          "vote_count": 29202
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vbk5CfaAHOjQPSAcYm6AoRRz2Af.jpg",
+          "genre_ids": [
+            12,
+            14
+          ],
+          "id": 673,
+          "original_language": "en",
+          "original_title": "Harry Potter and the Prisoner of Azkaban",
+          "overview": "Доля Гаррі і всієї спільноти чарівників виглядає дуже похмуро, коли сумнозвісний Сіріус Блек, який вбив одним закляттям відразу 13 маґлів, і є великими шанувальником темного чаклуна Лорда Волдеморта, тікає з в’язниці Азкабан. Охоронці повідомили, що останнім часом уві сні Блек бурмотів: «Він у Гоґвортсі… Він у Гоґвортсі». Тепер навіть у стінах своєї магічної школи Гаррі не може почуватись безпечно, адже всі розуміють, що засуджений вбивця прямує саме туди…",
+          "popularity": 21.084,
+          "poster_path": "/wE6ErROyLJQzPSq3ZqAYbp54E1T.jpg",
+          "release_date": "2004-05-31",
+          "title": "Гаррі Поттер і в’язень Азкабану",
+          "video": false,
+          "vote_average": 8.008,
+          "vote_count": 22878
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hO7KbdvGOtDdeg0W4Y5nKEHeDDh.jpg",
+          "genre_ids": [
+            80,
+            53,
+            18
+          ],
+          "id": 475557,
+          "original_language": "en",
+          "original_title": "Joker",
+          "overview": "Ґотем, початок 1980-х років. Комік Артур Флек живе з хворою матір’ю, яка змалку вчила його «ходити з усмішкою». Намагаючись нести у світ хороше й дарувати людям радість, Артур стикається з людською жорстокістю та поступово доходить висновку, що цей світ отримає від нього не добру усмішку, а посмішку лиходія Джокера.",
+          "popularity": 20.7234,
+          "poster_path": "/5h77YBF7g9s0ju5yblWskkN3wa7.jpg",
+          "release_date": "2019-10-01",
+          "title": "Джокер",
+          "video": false,
+          "vote_average": 8.128,
+          "vote_count": 27358
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3N5QNUqS76GFYNoEayfkkJyAyTN.jpg",
+          "genre_ids": [
+            35,
+            12
+          ],
+          "id": 346698,
+          "original_language": "en",
+          "original_title": "Barbie",
+          "overview": "У дивовижній країні Барбіленд усе має бути ідеально. Високим вимогам цього світу Барбі не відповідала, тож вирушила у світ людей. Не відповідність нормам краси – це вирок у Барбіленді. Натомість серед людей, щоб бути щасливою, потрібно мати зовсім інший набір якостей.",
+          "popularity": 20.4258,
+          "poster_path": "/hmf2xnlUPdZyoRBFf7P6RCKTXEe.jpg",
+          "release_date": "2023-07-19",
+          "title": "Барбі",
+          "video": false,
+          "vote_average": 6.929,
+          "vote_count": 10809
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/w2IJCEAet5u9UfH8CRHG6LSIuEP.jpg",
+          "genre_ids": [
+            80,
+            18,
+            28
+          ],
+          "id": 27725,
+          "original_language": "en",
+          "original_title": "High Sierra",
+          "overview": "Відомий грабіжник Рой Ерл виходить на свободу, несподівано отримавши помилування. Виявилося, що за нього поклопотався один з мафіозних босів, поставивши, втім, одну умову: організувати пограбування коштовностей з сейфа в курортному готелі. Ерл відправляється в призначене місце, де знайомиться з майбутніми спільниками…",
+          "popularity": 19.69,
+          "poster_path": "/fkP6yy25Wja6Sn3AIlZ4F1BWsy0.jpg",
+          "release_date": "1941-01-23",
+          "title": "Висока Сієра",
+          "video": false,
+          "vote_average": 7.1,
+          "vote_count": 348
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5JaR6UEoCJJLtLpqFOVMY4O4R7P.jpg",
+          "genre_ids": [
+            80,
+            18,
+            28
+          ],
+          "id": 949,
+          "original_language": "en",
+          "original_title": "Heat",
+          "overview": "Ніл МакКолі — злочинець. Один з кращих в Лос-Анджелесі, якщо можна так сказати про злочинця. І працювати з ним разом мають за честь суперпрофесіонали кримінального світу. Але проти нього виступає детектив Вінсент Ганна. У Вінсента і Ніла дуже багато спільного. Ймовірно, спільного у них навіть більше, ніж відмінностей. Проте вони все ж таки стоять по різні сторони закону.  Дві сильні команди зійшлися один проти одного. Це сутичка не на життя, а на смерть...",
+          "popularity": 18.254,
+          "poster_path": "/qT3rcAX7dV457IpBXHzUBFeOExe.jpg",
+          "release_date": "1995-12-15",
+          "title": "Сутичка",
+          "video": false,
+          "vote_average": 7.928,
+          "vote_count": 8122
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rvtdN5XkWAfGX6xDuPL6yYS2seK.jpg",
+          "genre_ids": [
+            80,
+            9648,
+            53
+          ],
+          "id": 414906,
+          "original_language": "en",
+          "original_title": "The Batman",
+          "overview": "Бетмен розслідує детективну справу — деякі люди починають вмирати дивним чином, Бетмен повинен заглибитись в темний світ Ґотема, щоб знайти підказки і вирішити таємницю чи змову, пов’язану з історією Ґотема та його злочинцями.",
+          "popularity": 17.7548,
+          "poster_path": "/aUnroGJlZPlaEPv1nKfnSzkUB5j.jpg",
+          "release_date": "2022-03-01",
+          "title": "Бетмен",
+          "video": false,
+          "vote_average": 7.657,
+          "vote_count": 11652
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8f9dnOtpArDrOMEylpSN9Sc6fuz.jpg",
+          "genre_ids": [
+            12,
+            14
+          ],
+          "id": 674,
+          "original_language": "en",
+          "original_title": "Harry Potter and the Goblet of Fire",
+          "overview": "Гаррі, Рон і Герміона не можуть дочекатись фіналу Кубку світу з квідичу. Гаррі проводить час, мріючи про неймовірну Чо Чанґ! Він просто хоче бути звичайним 14-річним хлопцем зі звичними турботами. Проте він незвичайний навіть за чаклунськими стандартами… Цього року у Гоґвортсі, вперше за сотні років, планують провести турнір між трьома школами магії. З кожної з них виберуть по одному учаснику, і їм випаде пройти дуже небезпечні випробування. Проте Келих Вогню неочікувано обирає ще й четвертого – Гаррі Поттера. А у Гаррі починає палати його шрам у вигляді блискавки, наче натякаючи на зловісну присутність Лорда Волдеморта…",
+          "popularity": 16.803,
+          "poster_path": "/FsRzFBlybk2EdviTG3d4GUrm7S.jpg",
+          "release_date": "2005-11-16",
+          "title": "Гаррі Поттер і келих вогню",
+          "video": false,
+          "vote_average": 7.801,
+          "vote_count": 21894
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/y2DB71C4nyIdMrANijz8mzvQtk6.jpg",
+          "genre_ids": [
+            28,
+            80,
+            18,
+            53
+          ],
+          "id": 49026,
+          "original_language": "en",
+          "original_title": "The Dark Knight Rises",
+          "overview": "Вісім років тому Бетмен розчинився в темряві, перетворившись з героя на втікача. Прийнявши на себе провину за смерть прокурора Гарві Дента, Темний лицар пожертвував усім. З комісаром Ґордоном вони вирішили, що так буде краще для всіх. Поки злочинність була розчавлена ​​антикримінальних актом Дента, брехня діяла. Та з появою хитрої лиходійки із загадковим минулим все змінюється.",
+          "popularity": 16.4952,
+          "poster_path": "/gP3KJvuqZGwYEZ0BWXNadYAMFO3.jpg",
+          "release_date": "2012-07-17",
+          "title": "Темний лицар повертається",
+          "video": false,
+          "vote_average": 7.8,
+          "vote_count": 24035
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1stUIsjawROZxjiCMtqqXqgfZWC.jpg",
+          "genre_ids": [
+            12,
+            14
+          ],
+          "id": 672,
+          "original_language": "en",
+          "original_title": "Harry Potter and the Chamber of Secrets",
+          "overview": "Гаррі Поттер провів чергове довге літо із нестерпними Дурслями. Та ось настав час повертатися до школи чарів і чаклунства Гоґвортс на другий навчальний рік. Проте хтось намагається завадити Гаррі потрапити на потяг до школи. І єдиний спосіб дістатись Гоґвортсу – чарівна літаюча машина, яка, на превеликий жаль, врізається в цінне дерево, Войовничу Вербу. Хай би там як, усе це схоже на буденний день у парку в порівняні з тим, що чекає на Гаррі у залах Гоґвортсу: хлопець починає чути моторошні зловісні голоси, що, здається, долинають зі стін. А ще він підозрює, що Драко Мелфой затіяв щось лихе. Незабаром не тільки Гаррі хвилюється через лиховісні події, адже в школі починають відбуватися жахливі речі. Загадково миготять написані кров’ю на стіні слова, проголошуючи: «ТАЄМНУ КІМНАТУ ВІДЧИНЕНО. СТЕРЕЖІТЬСЯ, ВОРОГИ СПАДКОЄМЦЯ!»",
+          "popularity": 15.9856,
+          "poster_path": "/entVx8fXnznV93yhzZAWeBA7pZY.jpg",
+          "release_date": "2002-11-13",
+          "title": "Гаррі Поттер і таємна кімната",
+          "video": false,
+          "vote_average": 7.705,
+          "vote_count": 23295
+        }
+      ]
     }
   ]
 }

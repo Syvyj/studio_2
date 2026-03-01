@@ -1,7 +1,7 @@
 {
   "title": "Сьогодні на Пізнавальне",
-  "last_updated": "2026-02-22T21:49:12.297Z",
-  "results": [
+  "last_updated": "2026-03-01T21:34:55.291Z",
+  "main_row": [
     {
       "adult": false,
       "backdrop_path": "/dF5w4FpM62F4wygVUJMiDhAGwX8.jpg",
@@ -15,40 +15,12 @@
       "original_language": "en",
       "original_name": "Pole to Pole with Will Smith",
       "overview": "",
-      "popularity": 12.9695,
+      "popularity": 9.7115,
       "poster_path": "/74zSvHdqFoCfQdXc8ZFqhkrbrPj.jpg",
       "first_air_date": "2026-01-13",
       "name": "Pole to Pole with Will Smith",
-      "vote_average": 6.143,
-      "vote_count": 21,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/jSR36f1YBdXuOYr81RNRZB7ygC1.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 246984,
-      "origin_country": [
-        "GB"
-      ],
-      "original_language": "en",
-      "original_name": "Parenthood",
-      "overview": "",
-      "popularity": 1.8254,
-      "poster_path": "/o9fvGhqyGRN3Jt9XxodGQJG7kHZ.jpg",
-      "first_air_date": "2025-08-03",
-      "name": "Parenthood",
-      "vote_average": 8.1,
-      "vote_count": 20,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": false
+      "vote_average": 6.1,
+      "vote_count": 22
     },
     {
       "adult": false,
@@ -64,16 +36,32 @@
       "original_language": "en",
       "original_name": "How Are You? It's Alan (Partridge)",
       "overview": "",
-      "popularity": 1.7776,
+      "popularity": 1.8977,
       "poster_path": "/qk5OdMApS2rY2SrBYdunKPjtGG5.jpg",
       "first_air_date": "2025-10-03",
       "name": "How Are You? It's Alan (Partridge)",
       "vote_average": 6.9,
-      "vote_count": 6,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 6
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jSR36f1YBdXuOYr81RNRZB7ygC1.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 246984,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Parenthood",
+      "overview": "",
+      "popularity": 1.7483,
+      "poster_path": "/o9fvGhqyGRN3Jt9XxodGQJG7kHZ.jpg",
+      "first_air_date": "2025-08-03",
+      "name": "Parenthood",
+      "vote_average": 8.1,
+      "vote_count": 20
     },
     {
       "adult": false,
@@ -88,16 +76,32 @@
       "original_language": "en",
       "original_name": "Kingdom",
       "overview": "",
-      "popularity": 1.4237,
+      "popularity": 1.1814,
       "poster_path": "/lyIc6t4kL04YctRFMyWL9CN8p1r.jpg",
       "first_air_date": "2025-11-09",
       "name": "Kingdom",
       "vote_average": 7.1,
-      "vote_count": 8,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_count": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7nftCXJWOVoXVigNDJlYVJV79VB.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 305200,
+      "origin_country": [
+        "CA"
+      ],
+      "original_language": "en",
+      "original_name": "Toronto Airport Uncovered",
+      "overview": "",
+      "popularity": 1.0591,
+      "poster_path": "/rc94MWM24Jyrlf0Sfo3VKfJ7vMl.jpg",
+      "first_air_date": "2025-11-22",
+      "name": "Toronto Airport Uncovered",
+      "vote_average": 1,
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -113,64 +117,12 @@
       "original_language": "en",
       "original_name": "Naming the Dead",
       "overview": "",
-      "popularity": 0.8496,
+      "popularity": 0.6735,
       "poster_path": "/kJQL90dvjqkC8Lc0Ci29tqk2hcZ.jpg",
       "first_air_date": "2025-08-02",
       "name": "Naming the Dead",
       "vote_average": 9,
-      "vote_count": 2,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/7nftCXJWOVoXVigNDJlYVJV79VB.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 305200,
-      "origin_country": [
-        "CA"
-      ],
-      "original_language": "en",
-      "original_name": "Toronto Airport Uncovered",
-      "overview": "",
-      "popularity": 0.7819,
-      "poster_path": "/rc94MWM24Jyrlf0Sfo3VKfJ7vMl.jpg",
-      "first_air_date": "2025-11-22",
-      "name": "Toronto Airport Uncovered",
-      "vote_average": 1,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/fFW41slOvvQZp6okKSUUjGbUCJA.jpg",
-      "genre_ids": [
-        99
-      ],
-      "id": 308975,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Incas: The Rise and Fall",
-      "overview": "",
-      "popularity": 0.6234,
-      "poster_path": "/cpfP6gjRnxvDhGkFPyeRFZSKHBh.jpg",
-      "first_air_date": "2025-12-22",
-      "name": "Incas: The Rise and Fall",
-      "vote_average": 7,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_count": 2
     },
     {
       "adult": false,
@@ -185,16 +137,12 @@
       "original_language": "en",
       "original_name": "Hurricane Katrina: Race Against Time",
       "overview": "",
-      "popularity": 0.6139,
+      "popularity": 0.4972,
       "poster_path": "/o1wXiQvxCCZXvhQZaADaSumhVYv.jpg",
       "first_air_date": "2025-07-27",
       "name": "Hurricane Katrina: Race Against Time",
       "vote_average": 5.25,
-      "vote_count": 14,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_count": 14
     },
     {
       "adult": false,
@@ -209,16 +157,32 @@
       "original_language": "en",
       "original_name": "Hamza's Hidden Wild Isles",
       "overview": "",
-      "popularity": 0.3717,
+      "popularity": 0.4907,
       "poster_path": "/kTzV5Vk6JEPxxsPXjUY8XxY5xbj.jpg",
       "first_air_date": "2025-10-12",
       "name": "Hamza's Hidden Wild Isles",
       "vote_average": 5.5,
-      "vote_count": 2,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fFW41slOvvQZp6okKSUUjGbUCJA.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 308975,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Incas: The Rise and Fall",
+      "overview": "",
+      "popularity": 0.3619,
+      "poster_path": "/cpfP6gjRnxvDhGkFPyeRFZSKHBh.jpg",
+      "first_air_date": "2025-12-22",
+      "name": "Incas: The Rise and Fall",
+      "vote_average": 7,
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -233,16 +197,12 @@
       "original_language": "en",
       "original_name": "What's the Monarchy For?",
       "overview": "",
-      "popularity": 0.3197,
+      "popularity": 0.2692,
       "poster_path": "/4RQi6AAvjPRYFbJUMpUpISH6WAk.jpg",
       "first_air_date": "2025-12-02",
       "name": "What's the Monarchy For?",
       "vote_average": 0,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -258,16 +218,12 @@
       "original_language": "en",
       "original_name": "The Marvellous Miniature Workshop",
       "overview": "",
-      "popularity": 0.1402,
+      "popularity": 0.1519,
       "poster_path": "/sjgRxXLM4fTNwEABcHavghZ89Fb.jpg",
       "first_air_date": "2025-12-01",
       "name": "The Marvellous Miniature Workshop",
       "vote_average": 5,
-      "vote_count": 1,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 1
     },
     {
       "adult": false,
@@ -282,16 +238,12 @@
       "original_language": "en",
       "original_name": "Investigation Shark Attack",
       "overview": "",
-      "popularity": 0.0903,
+      "popularity": 0.1053,
       "poster_path": "/w3Kxj4i7FQ2tUcTdIJzolE3cqE6.jpg",
       "first_air_date": "2025-07-02",
       "name": "Investigation Shark Attack",
       "vote_average": 9.3,
-      "vote_count": 3,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 3
     },
     {
       "adult": false,
@@ -306,16 +258,1684 @@
       "original_language": "en",
       "original_name": "Shark Quest: Hunt For The Apex Predator",
       "overview": "",
-      "popularity": 0.0505,
+      "popularity": 0.098,
       "poster_path": "/fzNrKNhNImWLU35iP1FS4TB2ls6.jpg",
       "first_air_date": "2025-07-06",
       "name": "Shark Quest: Hunt For The Apex Predator",
       "vote_average": 9.5,
-      "vote_count": 4,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_count": 4
+    }
+  ],
+  "categories": [
+    {
+      "title": "🔥 Нові випуски",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/liGU5vmxT1FisyfAh1v6octAFDz.jpg",
+          "genre_ids": [
+            18,
+            10759
+          ],
+          "id": 270572,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Lord of the Flies",
+          "overview": "Після авіакатастрофи група школярів опиняється на тропічному острові без дорослих. Ральф обирається лідером і за допомогою розумного Піггі намагається підтримувати порядок і цивілізацію. Джек, відповідальний за сигнальний вогонь, все більше зосереджується на полюванні та боротьбі за владу. Це призводить до напруженості всередині групи, поступово штовхаючи хлопців від надії та структури до хаосу і трагедії.",
+          "popularity": 9.384,
+          "poster_path": "/qkG7viD4fqutLUoCEr7sIIcwuh.jpg",
+          "first_air_date": "2026-02-08",
+          "name": "Володар мух",
+          "vote_average": 8,
+          "vote_count": 25
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dF5w4FpM62F4wygVUJMiDhAGwX8.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 157194,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Pole to Pole with Will Smith",
+          "overview": "",
+          "popularity": 9.7115,
+          "poster_path": "/74zSvHdqFoCfQdXc8ZFqhkrbrPj.jpg",
+          "first_air_date": "2026-01-13",
+          "name": "Pole to Pole with Will Smith",
+          "vote_average": 6.1,
+          "vote_count": 22
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/uaQyiLlSiKYWwvVVhWL7xcjf3qN.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 262361,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Can You Keep a Secret?",
+          "overview": "",
+          "popularity": 1.9534,
+          "poster_path": "/tHClv1qk48Hcu3DjusH1nglQIl9.jpg",
+          "first_air_date": "2026-01-07",
+          "name": "Can You Keep a Secret?",
+          "vote_average": 7.75,
+          "vote_count": 8
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/snOMxLdkkfbpVC9YqejhvfJhUvs.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 290724,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Waiting for the Out",
+          "overview": "",
+          "popularity": 1.3816,
+          "poster_path": "/7e10bTKGK1TwHgxEl06lMCTerAI.jpg",
+          "first_air_date": "2026-01-03",
+          "name": "Waiting for the Out",
+          "vote_average": 4.6,
+          "vote_count": 5
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9OUDNZjZOgJiFTjXfOtUBy90FUH.jpg",
+          "genre_ids": [
+            10765,
+            18
+          ],
+          "id": 259886,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "The War Between the Land and the Sea",
+          "overview": "",
+          "popularity": 11.8834,
+          "poster_path": "/4wDU61HtpXbcwpgCy1xnodxKRYN.jpg",
+          "first_air_date": "2025-12-07",
+          "name": "The War Between the Land and the Sea",
+          "vote_average": 6.878,
+          "vote_count": 90
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iyie3Q0Xy6JTo8HmPAUXvXaaF4K.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 306502,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Prisoner 951",
+          "overview": "",
+          "popularity": 0.9265,
+          "poster_path": "/mgJgnPO8Le1lCmWvKxhs4DTduIZ.jpg",
+          "first_air_date": "2025-11-23",
+          "name": "Prisoner 951",
+          "vote_average": 5.6,
+          "vote_count": 8
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/c54arxwmTXMv4bPJo3RxbASW2s2.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 275557,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Wild Cherry",
+          "overview": "",
+          "popularity": 1.6911,
+          "poster_path": "/oxn4ylDZSnQq83H0jXAmueBFV8A.jpg",
+          "first_air_date": "2025-11-15",
+          "name": "Wild Cherry",
+          "vote_average": 5.1,
+          "vote_count": 10
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ecTdWTANa1foVcFj08gUiURxVnX.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 301991,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Kingdom",
+          "overview": "",
+          "popularity": 1.1814,
+          "poster_path": "/lyIc6t4kL04YctRFMyWL9CN8p1r.jpg",
+          "first_air_date": "2025-11-09",
+          "name": "Kingdom",
+          "vote_average": 7.1,
+          "vote_count": 8
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/xN7mu9YB74dyB4z4vyROkffDuVo.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 271938,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Riot Women",
+          "overview": "",
+          "popularity": 1.5638,
+          "poster_path": "/6fy35XZoMEBBjw8Nl1fgPpfVe5e.jpg",
+          "first_air_date": "2025-10-12",
+          "name": "Riot Women",
+          "vote_average": 8.4,
+          "vote_count": 6
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8XPuCvXRqmxge8fS0XBOFuRm7ii.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 252662,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Hamza's Hidden Wild Isles",
+          "overview": "",
+          "popularity": 0.4907,
+          "poster_path": "/kTzV5Vk6JEPxxsPXjUY8XxY5xbj.jpg",
+          "first_air_date": "2025-10-12",
+          "name": "Hamza's Hidden Wild Isles",
+          "vote_average": 5.5,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/fhQHVGX3DlLtxCvwXmH3hlaWmCx.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 291431,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "The Celebrity Traitors",
+          "overview": "",
+          "popularity": 1.6127,
+          "poster_path": "/rm1GHElZeE7CmVIVeVZMVJG3qp5.jpg",
+          "first_air_date": "2025-10-08",
+          "name": "The Celebrity Traitors",
+          "vote_average": 8.1,
+          "vote_count": 16
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9GMJTuOp2WnC0It0t2HMv23IdIN.jpg",
+          "genre_ids": [
+            99,
+            35
+          ],
+          "id": 246111,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "How Are You? It's Alan (Partridge)",
+          "overview": "",
+          "popularity": 1.8977,
+          "poster_path": "/qk5OdMApS2rY2SrBYdunKPjtGG5.jpg",
+          "first_air_date": "2025-10-03",
+          "name": "How Are You? It's Alan (Partridge)",
+          "vote_average": 6.9,
+          "vote_count": 6
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tdUxBzgtMeEbFa9hgbrq4PIT6mU.jpg",
+          "genre_ids": [
+            18,
+            80
+          ],
+          "id": 272265,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "The Guest",
+          "overview": "Френ — багата й успішна бізнес-леді. Рія — звичайна дівчина, яка не знає, чого хоче від життя. Коли Рія влаштовується до Френ прибиральницею, вона швидко знаходить спільну мову з начальницею. Та в якийсь момент необережна порада, отримана від старшої подруги, обертається для Рії шокуючими наслідками. Відтоді жінок єднає похмура таємниця, а їхнє спілкування починає нагадувати гру в кота-мишку.",
+          "popularity": 3.0408,
+          "poster_path": "/thVQXVweqqVFgRPObX1zbTxzpUw.jpg",
+          "first_air_date": "2025-09-01",
+          "name": "Гостя",
+          "vote_average": 7.278,
+          "vote_count": 18
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/bEhOXB2Pmda0tgRya5tLEaDr1qY.jpg",
+          "genre_ids": [
+            18,
+            10759
+          ],
+          "id": 240558,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "King & Conqueror",
+          "overview": "Вільгельм Нормандський і Гарольд Вессекський були двома особистостями, яким судилося зустрітися в битві при Гастінгсі в 1066 році; вони були союзниками, але не мали претензій на британську монархію, поки доля не змусила їх вступити в конфлікт за корону країни.",
+          "popularity": 6.0084,
+          "poster_path": "/n9eVqwafupAicRCM3Q88XL94lKU.jpg",
+          "first_air_date": "2025-08-24",
+          "name": "Король і завойовник",
+          "vote_average": 7,
+          "vote_count": 55
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jSR36f1YBdXuOYr81RNRZB7ygC1.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 246984,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Parenthood",
+          "overview": "",
+          "popularity": 1.7483,
+          "poster_path": "/o9fvGhqyGRN3Jt9XxodGQJG7kHZ.jpg",
+          "first_air_date": "2025-08-03",
+          "name": "Parenthood",
+          "vote_average": 8.1,
+          "vote_count": 20
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5RnuTD7AsrihhVDMoRCjFBZS8Nk.jpg",
+          "genre_ids": [
+            99,
+            9648
+          ],
+          "id": 296423,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Naming the Dead",
+          "overview": "",
+          "popularity": 0.6735,
+          "poster_path": "/kJQL90dvjqkC8Lc0Ci29tqk2hcZ.jpg",
+          "first_air_date": "2025-08-02",
+          "name": "Naming the Dead",
+          "vote_average": 9,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/sIaqav6t1FU43cZ6nfMBTQxcU09.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 277294,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Destination X",
+          "overview": "",
+          "popularity": 1.1921,
+          "poster_path": "/1hgsHXrm9bUSHTju0JZwCPWlNIO.jpg",
+          "first_air_date": "2025-07-30",
+          "name": "Destination X",
+          "vote_average": 7.5,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/6xaB8qT8IiEvOSgmJ8JPzLE9IxV.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 294862,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Hurricane Katrina: Race Against Time",
+          "overview": "",
+          "popularity": 0.4972,
+          "poster_path": "/o1wXiQvxCCZXvhQZaADaSumhVYv.jpg",
+          "first_air_date": "2025-07-27",
+          "name": "Hurricane Katrina: Race Against Time",
+          "vote_average": 5.25,
+          "vote_count": 14
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/qecZMyJw51zHP5vMmEvOmJx7FoU.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 294679,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Shark Quest: Hunt For The Apex Predator",
+          "overview": "",
+          "popularity": 0.098,
+          "poster_path": "/fzNrKNhNImWLU35iP1FS4TB2ls6.jpg",
+          "first_air_date": "2025-07-06",
+          "name": "Shark Quest: Hunt For The Apex Predator",
+          "vote_average": 9.5,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vfqQ3KGcxfcVZBiQBAXYplAYoyw.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 294678,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Investigation Shark Attack",
+          "overview": "",
+          "popularity": 0.1053,
+          "poster_path": "/w3Kxj4i7FQ2tUcTdIJzolE3cqE6.jpg",
+          "first_air_date": "2025-07-02",
+          "name": "Investigation Shark Attack",
+          "vote_average": 9.3,
+          "vote_count": 3
+        }
+      ]
+    },
+    {
+      "title": "🌍 Discovery Channel",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/edhROlXRob3TopjWJ5898GSvQpI.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 1428,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "MythBusters",
+          "overview": "Руйнівники міфів - американська науково-популярна телепередача на каналі Discovery Channel. Передачу ведуть фахівці із спецефектів Джеймі Хайнеман і Адам Севідж, що використовують свої навички і досвід для експериментальної перевірки різних байок, чуток, міських легенд і інших породжень популярної культури. Ці чуваки піддають перевірці \"міські міфи\". До отриманих результатів неможливо причепитися: експерименти і досліди проводяться за всіма канонами науки. Ви стаєте учасниками зухвалих і нерідко небезпечних дослідів, на ваших очах народжуються непередбачені, часом сенсаційні результати. \n\nЯкщо ви хочете довідатися, як діє добротна петарда в бетономішалці, чи можна врятуватися з падаючого ліфта і чи вибухають силіконові груди через перепад тиску на великій висоті, то ця програма для вас.",
+          "popularity": 32.0497,
+          "poster_path": "/lvRnMu00NLGiTPijGZg9CRF3nuY.jpg",
+          "first_air_date": "2003-01-23",
+          "name": "Руйнівники міфів",
+          "vote_average": 7.815,
+          "vote_count": 601
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 34634,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Gold Rush",
+          "overview": "",
+          "popularity": 26.5532,
+          "poster_path": "/zRlu3idMmqfrtnw7h2qHaAGzxnw.jpg",
+          "first_air_date": "2010-12-03",
+          "name": "Gold Rush",
+          "vote_average": 7.034,
+          "vote_count": 178
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 17937,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Ghost Adventures",
+          "overview": "",
+          "popularity": 18.0675,
+          "poster_path": "/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
+          "first_air_date": "2008-10-17",
+          "name": "Ghost Adventures",
+          "vote_average": 7.687,
+          "vote_count": 206
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/qdVdWLUAj9Xxrx0OIT76gWVI4fg.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 2612,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Deadliest Catch",
+          "overview": "",
+          "popularity": 16.2574,
+          "poster_path": "/aqF7wHfA2n89zbBqG6DLuDjrHut.jpg",
+          "first_air_date": "2005-04-12",
+          "name": "Deadliest Catch",
+          "vote_average": 7.167,
+          "vote_count": 165
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/92nx3yNRsDaxLNBj95UZ1cQEMjv.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 58832,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Naked and Afraid",
+          "overview": "",
+          "popularity": 14.0502,
+          "poster_path": "/7MP5tl0I0tTnvV2n5b2Et4blFu8.jpg",
+          "first_air_date": "2013-06-23",
+          "name": "Naked and Afraid",
+          "vote_average": 6.808,
+          "vote_count": 107
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/i0SR6e1nuGmC8X2FvZFAnEnf1G8.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 15871,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Shark Week",
+          "overview": "",
+          "popularity": 10.6482,
+          "poster_path": "/wRAOmmAVxpYKHRT1ZIbcWz4pUTe.jpg",
+          "first_air_date": "1988-07-17",
+          "name": "Shark Week",
+          "vote_average": 7.6,
+          "vote_count": 17
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hyQR0V7UGpkvjSQ5F4qmwtWW1sB.jpg",
+          "genre_ids": [
+            10764,
+            99
+          ],
+          "id": 45303,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Salvage Hunters",
+          "overview": "",
+          "popularity": 9.6681,
+          "poster_path": "/l01tfkunPY0LEVZiENIvVF9XOyr.jpg",
+          "first_air_date": "2011-11-14",
+          "name": "Salvage Hunters",
+          "vote_average": 6.6,
+          "vote_count": 11
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/z2ZmYbhk0McewduBFtCqkmcZoqT.jpg",
+          "genre_ids": [
+            80,
+            9648
+          ],
+          "id": 72597,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Manhunt",
+          "overview": "Історія протистояння офіцера ФБР Джима Фіцджеральда і небезпечного злочинця Теодора Качинського на прізвисько Унабомбер, який розсилав поштою саморобні бомби.",
+          "popularity": 9.0982,
+          "poster_path": "/9ukZcwaqcObmmxxfcIXTgVMvalJ.jpg",
+          "first_air_date": "2017-08-01",
+          "name": "Полювання на Унабомбера",
+          "vote_average": 7.586,
+          "vote_count": 509
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mwFItkiu74dDVCxuFG5UezVFVPJ.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 62959,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "BattleBots",
+          "overview": "",
+          "popularity": 8.7318,
+          "poster_path": "/zqZiksZMPIhOIVrnDLV03XZ6x5A.jpg",
+          "first_air_date": "2015-06-21",
+          "name": "BattleBots",
+          "vote_average": 7.385,
+          "vote_count": 52
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/858LmWtuMNuOXgH9oFxbcNepOx1.jpg",
+          "genre_ids": [
+            10759,
+            99
+          ],
+          "id": 4709,
+          "origin_country": [
+            "US",
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Man vs. Wild",
+          "overview": "Пригодницьке шоу на телеканалі «Discovery Channel», ведучий програми Бер Ґріллз висаджується у всіляких диких місцях і показує глядачам, як вижити і знайти допомогу.",
+          "popularity": 6.919,
+          "poster_path": "/9M4xXcz9m1aUlRsASv7vsx776do.jpg",
+          "first_air_date": "2006-10-27",
+          "name": "Людина проти дикої природи",
+          "vote_average": 6.997,
+          "vote_count": 184
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/d5lTgzzY0vs3Or89oc5ik7ONgQA.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 61019,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Street Outlaws",
+          "overview": "",
+          "popularity": 6.6656,
+          "poster_path": "/oQXmhjhmqdArArpnubmtm20d0zX.jpg",
+          "first_air_date": "2013-12-16",
+          "name": "Street Outlaws",
+          "vote_average": 8,
+          "vote_count": 65
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jQD4XN0FFDElt9e8tFswiL7mibU.jpg",
+          "genre_ids": [
+            99,
+            10764
+          ],
+          "id": 58704,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Bering Sea Gold",
+          "overview": "",
+          "popularity": 6.5576,
+          "poster_path": "/jrMvJCbdBEA6UphJhL4kgtmY5Pw.jpg",
+          "first_air_date": "2012-01-27",
+          "name": "Bering Sea Gold",
+          "vote_average": 6.473,
+          "vote_count": 37
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/qkfC7uVEQ5RiPsGmNhFQ0uO1LK1.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 63451,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Naked and Afraid XL",
+          "overview": "",
+          "popularity": 6.2774,
+          "poster_path": "/6cdVgcmrrC0RKNJ8U3EV8zuL2qC.jpg",
+          "first_air_date": "2015-11-08",
+          "name": "Naked and Afraid XL",
+          "vote_average": 7.185,
+          "vote_count": 46
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ln93mBuLmw2sz3Tr3damJ4Czfav.jpg",
+          "genre_ids": [
+            10764,
+            35
+          ],
+          "id": 2584,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Dirty Jobs",
+          "overview": "",
+          "popularity": 6.2451,
+          "poster_path": "/mVWrO9JANfiemg6u7tQmob55tsM.jpg",
+          "first_air_date": "2005-07-26",
+          "name": "Dirty Jobs",
+          "vote_average": 6.94,
+          "vote_count": 92
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/q4rKamx2oBAtWf3PdmIb49VezAL.jpg",
+          "genre_ids": [
+            10764,
+            99,
+            18
+          ],
+          "id": 76506,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Gold Rush: White Water",
+          "overview": "",
+          "popularity": 5.7885,
+          "poster_path": "/xgMyo8Re5uufo90Dxm773Tnjh1o.jpg",
+          "first_air_date": "2018-01-19",
+          "name": "Gold Rush: White Water",
+          "vote_average": 7.2,
+          "vote_count": 39
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pBjYwUATX2E8SRKA1oMvMi1h6eq.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 33827,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "How the Universe Works",
+          "overview": "Документальний серіал про вивчення космічного простору поєднує дослідження знаменитих учених, сучасну астрономію та інноваційні технології, з метою відкрити завісу таємниці на космічні процеси та отримати відповідь на важливе питання про те, як влаштований Всесвіт. Від сміливої місії революційного зонда «Юнона», створеного НАСА, до дослідження особливостей будови Юпітера та можливості пілотованого польоту на Марс — настав час вивчити та спробувати розгадати деякі з найбільших загадок Всесвіту.",
+          "popularity": 5.736,
+          "poster_path": "/j1H8WaeiIDaxAEyQgIRTM3Y2fgh.jpg",
+          "first_air_date": "2010-04-25",
+          "name": "Як влаштований Всесвіт",
+          "vote_average": 8.28,
+          "vote_count": 118
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/c91K5tT84ft6E9fvK1BURvRaA7z.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 46874,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Fast N' Loud",
+          "overview": "",
+          "popularity": 5.5136,
+          "poster_path": "/976AyeDT1isz2uAnYuQrjRkS05D.jpg",
+          "first_air_date": "2012-06-06",
+          "name": "Fast N' Loud",
+          "vote_average": 6.941,
+          "vote_count": 51
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jH8BWwd1kIfY3N614o9idhW8rOJ.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 46268,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Moonshiners",
+          "overview": "",
+          "popularity": 5.2753,
+          "poster_path": "/brgOpuQs3nhqRKQWomMv0jpHqxM.jpg",
+          "first_air_date": "2011-12-06",
+          "name": "Moonshiners",
+          "vote_average": 7.19,
+          "vote_count": 42
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/utFM4lkrQ5lX2KNDjwMYLzFBrX3.jpg",
+          "genre_ids": [
+            10764,
+            10751
+          ],
+          "id": 61789,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Alaskan Bush People",
+          "overview": "",
+          "popularity": 4.9366,
+          "poster_path": "/uUrQfZHcnaSwmW7ZtkLEQ1lmpYl.jpg",
+          "first_air_date": "2014-05-06",
+          "name": "Alaskan Bush People",
+          "vote_average": 6.4,
+          "vote_count": 61
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/sEUdXMYquZPwTsWLesYj5KjxdLv.jpg",
+          "genre_ids": [
+            99,
+            9648,
+            18
+          ],
+          "id": 4038,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "A Haunting",
+          "overview": "",
+          "popularity": 4.6317,
+          "poster_path": "/c7GMWnH8Bl9UCZYQ5UzExiYqkD8.jpg",
+          "first_air_date": "2005-10-28",
+          "name": "A Haunting",
+          "vote_average": 7.329,
+          "vote_count": 82
+        }
+      ]
+    },
+    {
+      "title": "🦁 National Geographic",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/2Nwbv0hrN8sThLvgooShcPqmFrO.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 58474,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Cosmos",
+          "overview": "Документальний серіал розповість про останні наукові відкриття, які були зроблені в астрономії, астрофізиці й інших науках. Астрофізик Ніл Деґрасс Тайсон розповість про відкриття законів світу космосу, спостережень за космічними процесами й про можливості нових космічних подорожей. Усі, навіть доволі складні поняття подаються із вражаючою чіткістю у поєднанні з природньою емоційністю, а комп’ютерна графіка й використання спеціальних ефектів роблять кожен епізод захоплюючим і незвичайним.",
+          "popularity": 12.58,
+          "poster_path": "/5o07ps0QZ0bNoRYxTn9cPdRWlUu.jpg",
+          "first_air_date": "2014-03-09",
+          "name": "Космос: подорож у просторі та часі",
+          "vote_average": 8.49,
+          "vote_count": 1652
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rzijyomlauJbIEhgWLUfrEINJx0.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 70128,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Genius",
+          "overview": "Геній - серіал про наповнене бурхливими подіями життя фізика, який стане справжньою іконою свого часу, - Альберта Ейнштейна. Абсолютно незалежний, геніальний від народження, з розумом, що все піддає сумніву, Ейнштейн принципово змінив наше сприйняття навколишнього світу.",
+          "popularity": 12.3695,
+          "poster_path": "/6jmNVWOvCx92C2rH1Mo1OAfjoNg.jpg",
+          "first_air_date": "2017-04-25",
+          "name": "Геній",
+          "vote_average": 7.463,
+          "vote_count": 297
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dF5w4FpM62F4wygVUJMiDhAGwX8.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 157194,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Pole to Pole with Will Smith",
+          "overview": "",
+          "popularity": 9.7115,
+          "poster_path": "/74zSvHdqFoCfQdXc8ZFqhkrbrPj.jpg",
+          "first_air_date": "2026-01-13",
+          "name": "Pole to Pole with Will Smith",
+          "vote_average": 6.1,
+          "vote_count": 22
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rlr7ldDpT67kuublz5W6QGDR6OJ.jpg",
+          "genre_ids": [
+            10764,
+            99
+          ],
+          "id": 60910,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Life Below Zero",
+          "overview": "",
+          "popularity": 9.0264,
+          "poster_path": "/a1pZCA3nmZvQGI1L21Riuglfw6f.jpg",
+          "first_air_date": "2013-05-19",
+          "name": "Life Below Zero",
+          "vote_average": 7.3,
+          "vote_count": 44
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hy8Fq9b1AymJP28NT2kMH3QXGg9.jpg",
+          "genre_ids": [
+            10751,
+            10764
+          ],
+          "id": 6326,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Dog Whisperer",
+          "overview": "",
+          "popularity": 6.6298,
+          "poster_path": "/mRtOuQZmfyCKyjeBlcsY2hXNmV9.jpg",
+          "first_air_date": "2004-09-13",
+          "name": "Dog Whisperer",
+          "vote_average": 6.6,
+          "vote_count": 33
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kPkQzf4H6nSAXiTgPFCa7Kkqvub.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 5672,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Explorer",
+          "overview": "",
+          "popularity": 6.2663,
+          "poster_path": "/fQFoJh5Jvj8FwCXyFDYtbJtIxSZ.jpg",
+          "first_air_date": "1985-04-07",
+          "name": "Explorer",
+          "vote_average": 5.9,
+          "vote_count": 15
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7ysNbTEttcxUq0MJwqWe3MO30Qy.jpg",
+          "genre_ids": [
+            10767
+          ],
+          "id": 64711,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "StarTalk with Neil deGrasse Tyson",
+          "overview": "",
+          "popularity": 5.5569,
+          "poster_path": "/qCSXMlSNtgqTkrAYzK9dWPS7hHR.jpg",
+          "first_air_date": "2015-04-20",
+          "name": "StarTalk with Neil deGrasse Tyson",
+          "vote_average": 6.563,
+          "vote_count": 24
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4WfOrKJgQ967DyAyC6iklU7tefR.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 4199,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "MegaStructures",
+          "overview": "",
+          "popularity": 5.2733,
+          "poster_path": "/su1CZwwZ7lx2RQvBIsijOcoXV9s.jpg",
+          "first_air_date": "2004-01-01",
+          "name": "MegaStructures",
+          "vote_average": 7.435,
+          "vote_count": 23
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lfFsXzDxL7AKZat7LRKx6p9F1AQ.jpg",
+          "genre_ids": [
+            99,
+            35,
+            10764
+          ],
+          "id": 54315,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Brain Games",
+          "overview": "",
+          "popularity": 5.2446,
+          "poster_path": "/7AQXFOcF1if3hSuzrv1UqHxQzmr.jpg",
+          "first_air_date": "2011-10-09",
+          "name": "Brain Games",
+          "vote_average": 7.507,
+          "vote_count": 72
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mFeMpWfNj5PdUI2DGhaWDIWRIkU.jpg",
+          "genre_ids": [
+            10765,
+            10759
+          ],
+          "id": 68427,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Mars",
+          "overview": "У 2033 році перша експедиція на Марс входить в атмосферу червоної планети, поки SpaceX намагається посадити ракету багаторазового використання.",
+          "popularity": 4.8772,
+          "poster_path": "/59HFF7FPHJ51v149CidsLAQcG28.jpg",
+          "first_air_date": "2016-11-14",
+          "name": "Марс",
+          "vote_average": 7.003,
+          "vote_count": 356
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/npCaBQi941PRhHlUEWPws4qi10U.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 86799,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Hot Zone",
+          "overview": "Екранізація книги про небезпечний вірус розповість про перше виявлення Еболи та героїчну науковицю, яка намагалася зупинити хворобу.",
+          "popularity": 4.8659,
+          "poster_path": "/6CSPieuzXvp4gcSSPZzuUwBXjaP.jpg",
+          "first_air_date": "2019-05-27",
+          "name": "Гаряча зона",
+          "vote_average": 7.1,
+          "vote_count": 133
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5GcGsibDHlkmXk8rFiWR7kqU4l2.jpg",
+          "genre_ids": [
+            10759,
+            10764
+          ],
+          "id": 62598,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Wicked Tuna",
+          "overview": "",
+          "popularity": 4.7596,
+          "poster_path": "/z1N5U6tTEl36OcLXgt4UnaPtC3M.jpg",
+          "first_air_date": "2012-04-01",
+          "name": "Wicked Tuna",
+          "vote_average": 6.7,
+          "vote_count": 25
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5oeyV08lHHnCksfxSqWN0Fr5C0e.jpg",
+          "genre_ids": [
+            10759,
+            10764
+          ],
+          "id": 61120,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Running Wild with Bear Grylls",
+          "overview": "Спеціаліст з виживання Беар Ґріллз повертається в дику природу в новому сезоні свого пригодницького серіалу разом з популярними голлівудськими знаменитостями, від супергероїв Марвел, до зазначених різними преміями зірок шоу-бізнесу.",
+          "popularity": 4.4951,
+          "poster_path": "/sA3E8KlWPGVY2JjbsmtgW8Lk4mG.jpg",
+          "first_air_date": "2014-07-28",
+          "name": "Дикі пригоди з Беаром Ґріллзом",
+          "vote_average": 6.9,
+          "vote_count": 56
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/oVxQNJUi0NY4mj6VYgFWlgP5aL1.jpg",
+          "genre_ids": [
+            99,
+            10764,
+            35
+          ],
+          "id": 64905,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Science of Stupid",
+          "overview": "",
+          "popularity": 4.2307,
+          "poster_path": "/4vzpJ7JNMaDrPYAWBN1HAFmsMC0.jpg",
+          "first_air_date": "2014-04-09",
+          "name": "Science of Stupid",
+          "vote_average": 6.2,
+          "vote_count": 20
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rjsOYAPkz0SL6sjiASlaYkBdGiO.jpg",
+          "genre_ids": [
+            18,
+            10768
+          ],
+          "id": 157160,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "A Small Light",
+          "overview": "Серіал розповідає про дивовижну історію Міп Гіс, голландки, яка, ризикуючи життям, приховувала родину Анни Франк від нацистів протягом двох років під час Другої світової війни.",
+          "popularity": 4.197,
+          "poster_path": "/3UN0SY7TQ2crfMZ7OYtpbsaGsIb.jpg",
+          "first_air_date": "2023-05-01",
+          "name": "Маленький вогник",
+          "vote_average": 7.893,
+          "vote_count": 112
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4LHqYNHoVVQYkXnyye9UWrSpBOI.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 65052,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "To Catch a Smuggler",
+          "overview": "",
+          "popularity": 3.9432,
+          "poster_path": "/54w5jqX3hDTMM4xXLdBPWtvk5ke.jpg",
+          "first_air_date": "2020-01-01",
+          "name": "To Catch a Smuggler",
+          "vote_average": 8.6,
+          "vote_count": 8
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cDrobSXfEJqng2a8siHPtWhwB5b.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 9311,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Seconds From Disaster",
+          "overview": "",
+          "popularity": 3.9092,
+          "poster_path": "/clHF8luMdEHSNkyv5bTp5bzXhRG.jpg",
+          "first_air_date": "2005-09-19",
+          "name": "Seconds From Disaster",
+          "vote_average": 6.942,
+          "vote_count": 26
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/u3FZnAS0v79OJXLP4XxoVzx49m5.jpg",
+          "genre_ids": [
+            99,
+            10765
+          ],
+          "id": 5333,
+          "origin_country": [
+            "US",
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Superscience",
+          "overview": "",
+          "popularity": 3.8574,
+          "poster_path": "/nqn7medHWybR4a2fRE9Q7VF6TlN.jpg",
+          "first_air_date": "2004-09-15",
+          "name": "Superscience",
+          "vote_average": 7.7,
+          "vote_count": 6
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ydafQ7iMViqNvKBgJuHPTDG8BhE.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 37158,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Drain the Oceans",
+          "overview": "Відмінний, красивий та пізнавальний проект від National Geographic який запрошує глядачів у неймовірну мандрівку, під час якої можна дослідити відомі корабельні аварії, відшукати скарби та затонулі міста, використовуючи підводну систему сканування та наукові дані. Скануючи місця на дні океану, де лежать затонулі кораблі, скарби та міста, шоу намагається відповісти, як вони виглядають, як вони стали такими якими є та чи приховують якісь секрети. Кожен епізод – нова захоплююча мандрівка, нова історія...",
+          "popularity": 3.8292,
+          "poster_path": "/fif5p0FxXFCIuasdjkwyOaI3xxo.jpg",
+          "first_air_date": "2018-05-28",
+          "name": "Осушення океану",
+          "vote_average": 7,
+          "vote_count": 27
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wZ8wzsZI4s4YLaqQM0cG9cEswOu.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 34381,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Great Migrations",
+          "overview": "",
+          "popularity": 3.577,
+          "poster_path": "/qv7nLtGL8i6RCXfQILXhWgR4p0m.jpg",
+          "first_air_date": "2010-11-07",
+          "name": "Great Migrations",
+          "vote_average": 7.655,
+          "vote_count": 29
+        }
+      ]
+    },
+    {
+      "title": "🐾 Animal Planet",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/bOBr4PwLVHAeMUlwvnf5j97YGIT.jpg",
+          "genre_ids": [
+            99,
+            10759,
+            10764
+          ],
+          "id": 18150,
+          "origin_country": [
+            "GB",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "River Monsters",
+          "overview": "Зустріти річкових монстрів дуже складно, однак якщо з ними зустрітися віч-на-віч, то можна покалічитися або зовсім померти. Саме тому наші герої телепередачі відправляються в різні місця, де за інформацією зустрічалися ті самі монстри. Тим самим ризикуючи своїм життям, але мета телеведучого: довести міф або ж зруйнувати його. Він ще й не підозрює, що більшість випадків нападу підводних мешканців, виявиться правдою. Тепер він один на один з річковими монстрами, які харчуються людською плоттю і великою рибою.",
+          "popularity": 6.8088,
+          "poster_path": "/2JhUaEgz8O9n5IBNUZ5aKXFYgMD.jpg",
+          "first_air_date": "2009-04-05",
+          "name": "Річкові монстри",
+          "vote_average": 7.381,
+          "vote_count": 63
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kRDyFAqZekgLKP8VkAi2sYCZUV0.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 61329,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Tanked",
+          "overview": "",
+          "popularity": 4.503,
+          "poster_path": "/njjzKLWtJ3IZVxG0A5vm0FWIAiz.jpg",
+          "first_air_date": "2011-08-07",
+          "name": "Tanked",
+          "vote_average": 7.577,
+          "vote_count": 26
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            99,
+            10751
+          ],
+          "id": 4325,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Pet Star",
+          "overview": "",
+          "popularity": 4.4462,
+          "poster_path": "/zMpgsJIH0G0rAEaWQUzONCvN6Fr.jpg",
+          "first_air_date": "2002-08-09",
+          "name": "Pet Star",
+          "vote_average": 7.7,
+          "vote_count": 7
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/aHMqnwNzIsa7wbpjELUzwEpXbHT.jpg",
+          "genre_ids": [
+            10764,
+            18
+          ],
+          "id": 39882,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Finding Bigfoot",
+          "overview": "",
+          "popularity": 3.4937,
+          "poster_path": "/Lgc4MnuTv16ISNTWoAb95KA61f.jpg",
+          "first_air_date": "2011-05-30",
+          "name": "Finding Bigfoot",
+          "vote_average": 5.5,
+          "vote_count": 23
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4HOflQveHGt92OGzwgKF7J3DfdH.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 59687,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "My Cat from Hell",
+          "overview": "",
+          "popularity": 3.3754,
+          "poster_path": "/fWv8df1gs1RCtEWdxJKGOeZxqEM.jpg",
+          "first_air_date": "2011-05-07",
+          "name": "My Cat from Hell",
+          "vote_average": 7.402,
+          "vote_count": 46
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/l7sy5QDY6tuH6l01YxWkl0n6P7o.jpg",
+          "genre_ids": [
+            10762
+          ],
+          "id": 27560,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Jim Henson's Animal Show with Stinky and Jake",
+          "overview": "",
+          "popularity": 3.1378,
+          "poster_path": "/aLphD6YolthiXcILgrqCcyNnDSM.jpg",
+          "first_air_date": "1994-10-03",
+          "name": "Jim Henson's Animal Show with Stinky and Jake",
+          "vote_average": 9.5,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zPwurtClWPxo5xlVOGnwzRsd4EI.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 21665,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Monsters Inside Me",
+          "overview": "",
+          "popularity": 3.0109,
+          "poster_path": "/l4CGuHCqbpN45D1OeBOAr2I612i.jpg",
+          "first_air_date": "2009-07-01",
+          "name": "Monsters Inside Me",
+          "vote_average": 8,
+          "vote_count": 12
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5DTz5haIVQ2taH9CYx9yGwizTjn.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 49474,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Treehouse Masters",
+          "overview": "",
+          "popularity": 2.9392,
+          "poster_path": "/pbt70N1mEHD8wRmFJX1lc6sNhXR.jpg",
+          "first_air_date": "2013-05-31",
+          "name": "Treehouse Masters",
+          "vote_average": 6.8,
+          "vote_count": 17
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/v48dSrKSKD3C5aLJofx4bnhYwQ.jpg",
+          "genre_ids": [
+            99,
+            10759,
+            10751
+          ],
+          "id": 1904,
+          "origin_country": [
+            "AU"
+          ],
+          "original_language": "en",
+          "original_name": "The Crocodile Hunter",
+          "overview": "",
+          "popularity": 2.9237,
+          "poster_path": "/youExJaJ4EW8jjDllu0emOJAIKi.jpg",
+          "first_air_date": "1997-04-05",
+          "name": "The Crocodile Hunter",
+          "vote_average": 7.576,
+          "vote_count": 33
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/q5WMnNMdCJBlJ9envdL74n2UOVV.jpg",
+          "genre_ids": [
+            99,
+            18
+          ],
+          "id": 1934,
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Meerkat Manor",
+          "overview": "",
+          "popularity": 2.332,
+          "poster_path": "/uLhIQxM5IZlW6qeYgXOv4CLuP4z.jpg",
+          "first_air_date": "2005-09-02",
+          "name": "Meerkat Manor",
+          "vote_average": 7.6,
+          "vote_count": 16
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jN8bnp0HOyonQJ9IgtMgtB7ULDZ.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 1595,
+          "origin_country": [
+            "AU",
+            "US",
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "The Crocodile Hunter Diaries",
+          "overview": "",
+          "popularity": 2.3019,
+          "poster_path": "/x2uwR7uu7ArXNimMdzVaWgreblD.jpg",
+          "first_air_date": "2002-01-02",
+          "name": "The Crocodile Hunter Diaries",
+          "vote_average": 9,
+          "vote_count": 7
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/s15sCYBmalNtbXn4hyLdzVcEoIp.jpg",
+          "genre_ids": [
+            80,
+            99,
+            10764,
+            18
+          ],
+          "id": 1768,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Animal Cops: Houston",
+          "overview": "",
+          "popularity": 2.2974,
+          "poster_path": "/pT5AqjPB7kxTDmaO5xsKpBpmD0U.jpg",
+          "first_air_date": "2003-08-11",
+          "name": "Animal Cops: Houston",
+          "vote_average": 9.6,
+          "vote_count": 15
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/fd7ngbuZyYJOF5o1SO4yJCROhU9.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 62997,
+          "origin_country": [
+            "GB",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Dr. Jeff: Rocky Mountain Vet",
+          "overview": "",
+          "popularity": 2.2818,
+          "poster_path": "/rd33VJBRckNoKDVdFAGua2wu4Ap.jpg",
+          "first_air_date": "2015-07-11",
+          "name": "Dr. Jeff: Rocky Mountain Vet",
+          "vote_average": 6.5,
+          "vote_count": 10
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tysqPg2HVV1ZQfyP1d99bH5nxpG.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 296,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Animal Precinct",
+          "overview": "",
+          "popularity": 2.2691,
+          "poster_path": "/oi1UofkTZkT4MF2kE0IZAr9zsiY.jpg",
+          "first_air_date": "2001-06-26",
+          "name": "Animal Precinct",
+          "vote_average": 7.7,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/xG0p8sQN2lmlFxcp128ZCeYEdxd.jpg",
+          "genre_ids": [
+            10764,
+            80
+          ],
+          "id": 67095,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Lone Star Law",
+          "overview": "",
+          "popularity": 2.1186,
+          "poster_path": "/rCi0l8XfSE3cz6of8stJaLSZEZ3.jpg",
+          "first_air_date": "2016-06-02",
+          "name": "Lone Star Law",
+          "vote_average": 5.1,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mZWbAfgPsBFwEfkbdQ5yKsS79Rq.jpg",
+          "genre_ids": [
+            99,
+            10764
+          ],
+          "id": 65043,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Last Alaskans",
+          "overview": "",
+          "popularity": 2.1063,
+          "poster_path": "/iY7oyaLFw5LrT2wvi6vcT9df9Mo.jpg",
+          "first_air_date": "2015-05-25",
+          "name": "The Last Alaskans",
+          "vote_average": 6.8,
+          "vote_count": 13
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cPyiXCCrT9Utme8RRMmjpuVhY7k.jpg",
+          "genre_ids": [
+            9648,
+            10765
+          ],
+          "id": 17387,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Lost Tapes",
+          "overview": "",
+          "popularity": 1.996,
+          "poster_path": "/6xugmhvUSsR4WEu2EykiTswtOJb.jpg",
+          "first_air_date": "2008-10-30",
+          "name": "Lost Tapes",
+          "vote_average": 6.2,
+          "vote_count": 13
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lnpGQXFPChQg5D0dsJdjBUWe8PQ.jpg",
+          "genre_ids": [
+            10764,
+            80
+          ],
+          "id": 60908,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "North Woods Law",
+          "overview": "",
+          "popularity": 1.9244,
+          "poster_path": "/kS93EaTX8ZTjdS2ZrarYvNbRG21.jpg",
+          "first_air_date": "2012-03-11",
+          "name": "North Woods Law",
+          "vote_average": 7.3,
+          "vote_count": 7
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/r7HzSMhpB2qhoXHoZKD8IQdvmlW.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 83542,
+          "origin_country": [
+            "AU",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Crikey! It's the Irwins",
+          "overview": "",
+          "popularity": 1.9207,
+          "poster_path": "/9GilRQl4TU6qXcmSpi3yLG1ZLvi.jpg",
+          "first_air_date": "2018-10-28",
+          "name": "Crikey! It's the Irwins",
+          "vote_average": 7.9,
+          "vote_count": 16
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3jUPFwHxej9KmXXLGzfoSv7quaZ.jpg",
+          "genre_ids": [
+            99,
+            10764,
+            18
+          ],
+          "id": 8183,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Whale Wars",
+          "overview": "",
+          "popularity": 1.7813,
+          "poster_path": "/a7beVCFewYQIRedMPRUr6RrHiiG.jpg",
+          "first_air_date": "2008-11-07",
+          "name": "Whale Wars",
+          "vote_average": 7.3,
+          "vote_count": 10
+        }
+      ]
     }
   ]
 }

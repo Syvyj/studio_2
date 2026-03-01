@@ -1,10 +1,29 @@
 {
   "title": "Сьогодні на Hulu",
-  "last_updated": "2026-02-22T21:49:05.134Z",
-  "results": [
+  "last_updated": "2026-03-01T21:34:52.921Z",
+  "main_row": [
     {
       "adult": false,
-      "backdrop_path": "/82lM4GJ9uuNvNDOEpxFy77uv4Ak.jpg",
+      "backdrop_path": "/hS7d9UCjOUGi1u5UL6HTqa3etND.jpg",
+      "genre_ids": [
+        18,
+        878
+      ],
+      "id": 1032892,
+      "original_language": "en",
+      "original_title": "In the Blink of an Eye",
+      "overview": "Три сюжетні лінії, що охоплюють тисячі років, перетинаються й досліджують теми надії, зв’язку та кола життя.",
+      "popularity": 109.9489,
+      "poster_path": "/4vWqIdoBavo1htxmxlScDniOS9C.jpg",
+      "release_date": "2026-01-26",
+      "title": "За мить ока",
+      "video": false,
+      "vote_average": 4.1,
+      "vote_count": 29
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gaKFXcB5J1gz0QqYj8bWIfrPc04.jpg",
       "genre_ids": [
         28,
         878,
@@ -14,41 +33,13 @@
       "original_language": "en",
       "original_title": "Predator: Badlands",
       "overview": "Дія розгортається в майбутньому на віддаленій планеті, де молодий Хижак, вигнаний зі свого клану, знаходить малоймовірного союзника в особі Тії та вирушає в підступну подорож на пошуки свого остаточного супротивника.",
-      "popularity": 147.7011,
+      "popularity": 93.9624,
       "poster_path": "/qRA3DbdUfQDJPgKkC7QnuCCU717.jpg",
       "release_date": "2025-11-05",
       "title": "Хижак: Дикі землі",
       "video": false,
-      "vote_average": 7.72,
-      "vote_count": 2114,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
-      "genre_ids": [
-        18
-      ],
-      "id": 131142,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Love Story",
-      "overview": "Серіал досліджує стрімкий роман і гучний шлюб однієї з найзнаковіших пар ХХ століття — Джона Ф. Кеннеді-молодшого та Керолін Бессетт.",
-      "popularity": 44.006,
-      "poster_path": "/3HJjTbMrKaiMXxJHltUFat1r1P2.jpg",
-      "first_air_date": "2026-02-12",
-      "name": "Історія кохання",
-      "vote_average": 8.9,
-      "vote_count": 16,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": false
+      "vote_average": 7.711,
+      "vote_count": 2195
     },
     {
       "adult": false,
@@ -64,16 +55,32 @@
       "original_language": "en",
       "original_name": "The Beauty",
       "overview": "Світ високої моди поринає в темряву, коли міжнародні супермоделі починають гинути жахливими й загадковими способами. Агентів ФБР Купера Медсена та Джордан Беннетт відправляють до Парижа, щоб розкрити правду. Заглиблюючись у розслідування, вони виявляють вірус, що передається статевим шляхом і перетворює звичайних людей на втілення фізичної досконалості — але з жахливими наслідками.",
-      "popularity": 42.8413,
+      "popularity": 41.2427,
       "poster_path": "/vCbWCw7fUdjYxLuNka5EOeLcQJE.jpg",
       "first_air_date": "2026-01-21",
       "name": "Краса",
-      "vote_average": 6.1,
-      "vote_count": 62,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.072,
+      "vote_count": 69
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 131142,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Love Story",
+      "overview": "Серіал досліджує стрімкий роман і гучний шлюб однієї з найзнаковіших пар ХХ століття — Джона Ф. Кеннеді-молодшого та Керолін Бессетт.",
+      "popularity": 33.3431,
+      "poster_path": "/3HJjTbMrKaiMXxJHltUFat1r1P2.jpg",
+      "first_air_date": "2026-02-12",
+      "name": "Історія кохання",
+      "vote_average": 9.026,
+      "vote_count": 19
     },
     {
       "adult": false,
@@ -86,41 +93,13 @@
       "original_language": "en",
       "original_title": "Rental Family",
       "overview": "Самотній американський актор, що мешкає в Токіо, починає працювати в японській компанії, яка надає «орендовані родини», — він грає підставні ролі в житті інших людей. Згодом він знаходить неочікувані зв’язки та несподівану радість у цій штучній родині.",
-      "popularity": 29.751,
+      "popularity": 22.5369,
       "poster_path": "/rEutyvM2e0hu6Hn51aF495J1F9L.jpg",
       "release_date": "2025-11-20",
       "title": "Сім'я напрокат",
       "video": false,
-      "vote_average": 7.82,
-      "vote_count": 434,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/ySHUoK4utUOiSfCinw81H1TsV0E.jpg",
-      "genre_ids": [
-        878,
-        28,
-        27
-      ],
-      "id": 1241470,
-      "original_language": "en",
-      "original_title": "Osiris",
-      "overview": "Команду спецпризначенців викрадає під час операції загадковий космічний корабель. Прокинувшись, вони виявляють, що стали здобиччю безжальної інопланетної раси — і тепер мають боротися за виживання.",
-      "popularity": 23.1295,
-      "poster_path": "/3YtZHtXPNG5AleisgEatEfZOT2w.jpg",
-      "release_date": "2025-07-25",
-      "title": "Осіріс",
-      "video": false,
-      "vote_average": 6.013,
-      "vote_count": 186,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 7.811,
+      "vote_count": 501
     },
     {
       "adult": false,
@@ -136,16 +115,32 @@
       "original_language": "en",
       "original_name": "Alien: Earth",
       "overview": "Коли таємничий космічний корабель зазнає аварії на Землі, молода жінка та різношерста група солдатів-тактиків роблять доленосне відкриття, яке ставить їх віч-на-віч з найбільшою загрозою планети.",
-      "popularity": 21.0035,
+      "popularity": 19.9011,
       "poster_path": "/8e8IKfP0tiR62cNsh4ZpSIWwUVJ.jpg",
       "first_air_date": "2025-08-12",
       "name": "Чужий: Земля",
-      "vote_average": 7.348,
-      "vote_count": 929,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 7.353,
+      "vote_count": 938
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ySHUoK4utUOiSfCinw81H1TsV0E.jpg",
+      "genre_ids": [
+        878,
+        28,
+        27
+      ],
+      "id": 1241470,
+      "original_language": "en",
+      "original_title": "Osiris",
+      "overview": "Команду спецпризначенців викрадає під час операції загадковий космічний корабель. Прокинувшись, вони виявляють, що стали здобиччю безжальної інопланетної раси — і тепер мають боротися за виживання.",
+      "popularity": 18.727,
+      "poster_path": "/3YtZHtXPNG5AleisgEatEfZOT2w.jpg",
+      "release_date": "2025-07-25",
+      "title": "Осіріс",
+      "video": false,
+      "vote_average": 6.04,
+      "vote_count": 186
     },
     {
       "adult": false,
@@ -158,66 +153,13 @@
       "original_language": "en",
       "original_title": "Ella McCay",
       "overview": "Ідеалістична молода політикиня балансує між сімейними проблемами та складною роботою, готуючись зайняти посаду свого наставника — чинного губернатора штату з багаторічним досвідом.",
-      "popularity": 16.3113,
+      "popularity": 16.4715,
       "poster_path": "/ifIKMTQmMpYRp0UxgjG3fK5SmIO.jpg",
       "release_date": "2025-12-11",
       "title": "Елла МакКей",
       "video": false,
-      "vote_average": 5.651,
-      "vote_count": 76,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/3C01kAcKGR6FwsUUSOvJ8N82pqr.jpg",
-      "genre_ids": [
-        878,
-        27,
-        53
-      ],
-      "id": 1086260,
-      "original_language": "en",
-      "original_title": "The Astronaut",
-      "overview": "Астронавтка підозрює, що щось позаземне повернулося разом із нею на Землю.",
-      "popularity": 13.9093,
-      "poster_path": "/souvvkJHYhztC1UqZ8lEVUiJa3J.jpg",
-      "release_date": "2025-09-26",
-      "title": "Астронавтка",
-      "video": false,
-      "vote_average": 5.821,
-      "vote_count": 204,
-      "has_ua": true,
-      "has_pl": true,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/1dqFuNiutgBdNF9d5QOQBWHHvft.jpg",
-      "genre_ids": [
-        28,
-        80,
-        35,
-        53
-      ],
-      "id": 1217602,
-      "original_language": "en",
-      "original_title": "London Calling",
-      "overview": "Після невдалої справи найманий убивця втікає з Великої Британії, але в новому місті отримує ще дивніше завдання: няньчити сина кримінального боса й навчити його бути справжнім чоловіком.",
-      "popularity": 13.4102,
-      "poster_path": "/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg",
-      "release_date": "2025-09-18",
-      "title": "Лондон кличе",
-      "video": false,
-      "vote_average": 6.736,
-      "vote_count": 89,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": false
+      "vote_average": 5.5,
+      "vote_count": 85
     },
     {
       "adult": false,
@@ -231,86 +173,33 @@
       "original_language": "en",
       "original_title": "The Toxic Avenger Unrated",
       "overview": "Дія фільму розгортається у фантастичному світі навколо Вінстона, стереотипного слабака, який працює прибиральником у фітнес-клубі. У нього діагностували невиліковну хворобу, яку можна вилікувати лише за допомогою дорогого лікування, яке його жадібний роботодавець відмовляється оплачувати. Вирішивши взяти справу в свої руки і пограбувати свою компанію, Вінстон падає в яму з токсичними відходами та перетворюється на деформованого монстра, який прагне творити добро і помститися всім людям, які його скривдили.",
-      "popularity": 12.8841,
+      "popularity": 11.57,
       "poster_path": "/7DQcz7m18lZMY5kba0zWq2utuAf.jpg",
       "release_date": "2025-08-28",
       "title": "Токсичний месник",
       "video": false,
-      "vote_average": 6.036,
-      "vote_count": 304,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 6.002,
+      "vote_count": 312
     },
     {
       "adult": false,
-      "backdrop_path": "/39Niij05MXfibXBsHiUU0Ml0POX.jpg",
+      "backdrop_path": "/3C01kAcKGR6FwsUUSOvJ8N82pqr.jpg",
       "genre_ids": [
+        878,
         27,
-        10749
+        53
       ],
-      "id": 1242011,
+      "id": 1086260,
       "original_language": "en",
-      "original_title": "Together",
-      "overview": "Міллі та Тім - пара вже понад десятиріччя, й незважаючи на проблеми в стосунках, вони вирішують переїхати разом заради нової роботи Міллі. У новому місці вони стикаються не тільки з чудовою природою навкруги та привітним сусідом, а й з надприродною подією, яка кардинально змінює їхні стосунки, існування та фізичну форму.",
-      "popularity": 11.2998,
-      "poster_path": "/4XqFVznk7vV2xAr0q5kLaGDemDs.jpg",
-      "release_date": "2025-07-28",
-      "title": "Одне ціле",
+      "original_title": "The Astronaut",
+      "overview": "Астронавтка підозрює, що щось позаземне повернулося разом із нею на Землю.",
+      "popularity": 10.9391,
+      "poster_path": "/souvvkJHYhztC1UqZ8lEVUiJa3J.jpg",
+      "release_date": "2025-09-26",
+      "title": "Астронавтка",
       "video": false,
-      "vote_average": 6.997,
-      "vote_count": 941,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/vZK3f5N8Fv2LcyFYLwt6dz0HE1H.jpg",
-      "genre_ids": [
-        35,
-        28
-      ],
-      "id": 1161617,
-      "original_language": "en",
-      "original_title": "Code 3",
-      "overview": "Розповідь про парамедика, який настільки виснажений роботою, що змушує себе звільнитися. Проте перед цим він має відпрацювати останню 24-годинну зміну, щоб навчити свого наступника.",
-      "popularity": 9.7405,
-      "poster_path": "/A8nzyrMXKUFVbZwmG5vptY4avDf.jpg",
-      "release_date": "2025-09-12",
-      "title": "Код 3",
-      "video": false,
-      "vote_average": 7.043,
-      "vote_count": 221,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/b9iQP6brbuGs8mhRPRV0ThiwD5I.jpg",
-      "genre_ids": [
-        27,
-        9648
-      ],
-      "id": 772462,
-      "original_language": "es",
-      "original_title": "No Me Sigas",
-      "overview": "",
-      "popularity": 9.1603,
-      "poster_path": "/gop4DwcBeb9T3JTaxwDEHdJNqSq.jpg",
-      "release_date": "2025-10-30",
-      "title": "No Me Sigas",
-      "video": false,
-      "vote_average": 6.4,
-      "vote_count": 39,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": false
+      "vote_average": 5.894,
+      "vote_count": 222
     },
     {
       "adult": false,
@@ -326,39 +215,90 @@
       "original_language": "en",
       "original_name": "All's Fair",
       "overview": "Розповідає про успішну адвокатку з розлучень та власницю юридичної фірми в Лос-Анджелесі, в якій працюють виключно жінки.",
-      "popularity": 7.9845,
+      "popularity": 9.4763,
       "poster_path": "/d6BQqbd6Mp7VbT4RcbNRcmbd8EK.jpg",
       "first_air_date": "2025-11-04",
       "name": "Все чесно",
-      "vote_average": 5.042,
-      "vote_count": 59,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 5,
+      "vote_count": 59
     },
     {
       "adult": false,
-      "backdrop_path": "/ptHXfOc0gEIG8CrieQ3t8MUBuiP.jpg",
+      "backdrop_path": "/1dqFuNiutgBdNF9d5QOQBWHHvft.jpg",
       "genre_ids": [
         28,
+        80,
+        35,
         53
       ],
-      "id": 1522923,
+      "id": 1217602,
       "original_language": "en",
-      "original_title": "Safe House",
-      "overview": "",
-      "popularity": 7.3143,
-      "poster_path": "/jlQW7qPp9j6yGqiIEcB3uNYbjys.jpg",
-      "release_date": "2025-10-30",
-      "title": "Safe House",
+      "original_title": "London Calling",
+      "overview": "Після невдалої справи найманий убивця втікає з Великої Британії, але в новому місті отримує ще дивніше завдання: няньчити сина кримінального боса й навчити його бути справжнім чоловіком.",
+      "popularity": 9.4218,
+      "poster_path": "/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg",
+      "release_date": "2025-09-18",
+      "title": "Лондон кличе",
       "video": false,
-      "vote_average": 6.8,
-      "vote_count": 50,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.703,
+      "vote_count": 91
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vZK3f5N8Fv2LcyFYLwt6dz0HE1H.jpg",
+      "genre_ids": [
+        35,
+        28
+      ],
+      "id": 1161617,
+      "original_language": "en",
+      "original_title": "Code 3",
+      "overview": "Розповідь про парамедика, який настільки виснажений роботою, що змушує себе звільнитися. Проте перед цим він має відпрацювати останню 24-годинну зміну, щоб навчити свого наступника.",
+      "popularity": 8.9107,
+      "poster_path": "/A8nzyrMXKUFVbZwmG5vptY4avDf.jpg",
+      "release_date": "2025-09-12",
+      "title": "Код 3",
+      "video": false,
+      "vote_average": 7.047,
+      "vote_count": 223
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tK3zER0850mxditEoepTOmIeYKq.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 1267905,
+      "original_language": "en",
+      "original_title": "The Roses",
+      "overview": "На перший погляд, життя Айві та Тео — ідеальна картинка: успішна кар’єра, щасливий шлюб, чудові діти. Та за фасадом цієї бездоганної родинної ідилії зріє буря. У той час як професійне життя Тео стрімко йде на спад, амбіції Айві лише набирають обертів. Те, що здавалося партнерством, поступово перетворюється на арену мовчазного протистояння, де накопичені образи, ревнощі та суперництво стають вибухонебезпечною сумішшю.",
+      "popularity": 8.8067,
+      "poster_path": "/gr4PQFRegu5VdfaGIZ6Uyxwi6RS.jpg",
+      "release_date": "2025-08-27",
+      "title": "Роузи",
+      "video": false,
+      "vote_average": 6.702,
+      "vote_count": 593
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/39Niij05MXfibXBsHiUU0Ml0POX.jpg",
+      "genre_ids": [
+        27,
+        10749
+      ],
+      "id": 1242011,
+      "original_language": "en",
+      "original_title": "Together",
+      "overview": "Міллі та Тім - пара вже понад десятиріччя, й незважаючи на проблеми в стосунках, вони вирішують переїхати разом заради нової роботи Міллі. У новому місці вони стикаються не тільки з чудовою природою навкруги та привітним сусідом, а й з надприродною подією, яка кардинально змінює їхні стосунки, існування та фізичну форму.",
+      "popularity": 7.8583,
+      "poster_path": "/4XqFVznk7vV2xAr0q5kLaGDemDs.jpg",
+      "release_date": "2025-07-28",
+      "title": "Одне ціле",
+      "video": false,
+      "vote_average": 6.985,
+      "vote_count": 955
     },
     {
       "adult": false,
@@ -373,16 +313,50 @@
       "original_language": "en",
       "original_name": "The Twisted Tale of Amanda Knox",
       "overview": "Історія зосереджена на важкій подорожі Аманди Нокс після того, як її помилково ув’язнили за вбивство сусідки по кімнаті, її боротьбі довести невинуватість і повернути свободу.",
-      "popularity": 6.9865,
+      "popularity": 7.3509,
       "poster_path": "/aLnOXgq0mOMxjIzUQUQirLmuoxt.jpg",
       "first_air_date": "2025-08-20",
       "name": "Заплутана історія Аманди Нокс",
-      "vote_average": 7.056,
-      "vote_count": 36,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "SD",
-      "is_hdr": false
+      "vote_average": 7,
+      "vote_count": 37
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lK1zWi7EpBIFaGJBf0Y7jjemZe2.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 1362315,
+      "original_language": "en",
+      "original_title": "The Hand That Rocks the Cradle",
+      "overview": "Заможна мати із передмістя бере на роботу нову няню на ім’я Поллі Мерфі, але згодом дізнається, що та зовсім не та, за кого себе видає.",
+      "popularity": 6.7475,
+      "poster_path": "/AjIyUlX1L5k3lfdyaCZt6WipUwN.jpg",
+      "release_date": "2025-10-16",
+      "title": "Рука, що гойдає колиску",
+      "video": false,
+      "vote_average": 5.697,
+      "vote_count": 173
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/b9iQP6brbuGs8mhRPRV0ThiwD5I.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 772462,
+      "original_language": "es",
+      "original_title": "No Me Sigas",
+      "overview": "",
+      "popularity": 6.2783,
+      "poster_path": "/gop4DwcBeb9T3JTaxwDEHdJNqSq.jpg",
+      "release_date": "2025-10-30",
+      "title": "No Me Sigas",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 40
     },
     {
       "adult": false,
@@ -396,87 +370,1673 @@
       "original_language": "en",
       "original_title": "Eenie Meanie",
       "overview": "Водійка-втікачка, яка в підлітковому віці працювала на злочинців, намагається залишити минуле позаду. Та коли її колишній роботодавець пропонує їй угоду, що може врятувати життя її ненадійного колишнього хлопця, вона змушена знову повернутися до небезпечного світу, який давно намагалася забути.",
-      "popularity": 6.474,
+      "popularity": 6.11,
       "poster_path": "/m57J15DtYzPvAd1aARMUgk0OKSN.jpg",
       "release_date": "2025-08-21",
       "title": "Іні Міні",
       "video": false,
-      "vote_average": 6.296,
-      "vote_count": 285,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
+      "vote_average": 6.292,
+      "vote_count": 291
     },
     {
       "adult": false,
-      "backdrop_path": "/tK3zER0850mxditEoepTOmIeYKq.jpg",
+      "backdrop_path": "/kJ9pyy4MuoJfhK9ec7RFKGRfmVF.jpg",
       "genre_ids": [
-        35,
-        18
-      ],
-      "id": 1267905,
-      "original_language": "en",
-      "original_title": "The Roses",
-      "overview": "На перший погляд, життя Айві та Тео — ідеальна картинка: успішна кар’єра, щасливий шлюб, чудові діти. Та за фасадом цієї бездоганної родинної ідилії зріє буря. У той час як професійне життя Тео стрімко йде на спад, амбіції Айві лише набирають обертів. Те, що здавалося партнерством, поступово перетворюється на арену мовчазного протистояння, де накопичені образи, ревнощі та суперництво стають вибухонебезпечною сумішшю.",
-      "popularity": 6.4345,
-      "poster_path": "/gr4PQFRegu5VdfaGIZ6Uyxwi6RS.jpg",
-      "release_date": "2025-08-27",
-      "title": "Роузи",
-      "video": false,
-      "vote_average": 6.716,
-      "vote_count": 583,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/lu4HO4kJx2aZzVgjoRcF9vYPaFI.jpg",
-      "genre_ids": [
-        35
-      ],
-      "id": 247168,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Chad Powers",
-      "overview": "Минуло вісім років з моменту, як єдина помилка зруйнувала багатообіцяючу кар'єру квотербека Расса Голлідея в коледжному футболі. Тепер він намагається воскресити свої мрії, видаючи себе за Чеда Паверса — талановитого дивака, який приєднується до слабкої південної футбольної команди.",
-      "popularity": 6.413,
-      "poster_path": "/7gyRwbJG10Zxp3TUdqvqfP8HCEx.jpg",
-      "first_air_date": "2025-09-30",
-      "name": "Чед Паверс",
-      "vote_average": 8.208,
-      "vote_count": 65,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "4K",
-      "is_hdr": true
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/oOczvrnhpXUmqCbyKYFj4FQExAo.jpg",
-      "genre_ids": [
-        18,
+        99,
         10402
       ],
-      "id": 1230368,
+      "id": 1314862,
       "original_language": "en",
-      "original_title": "Springsteen: Deliver Me from Nowhere",
-      "overview": "Емоційна історія про те, як молодий Брюс Спрінґстін створював альбом Nebraska, який назавжди змінив його життя і світ музики. Фільм занурює у вирішальний момент кар’єри артиста: внутрішня боротьба, складні стосунки з родиною та тягар успіху стають справжнім випробуванням. Це розповідь про людину, яку знає весь світ. Але ця історія довго залишалася невідомою. Вона — про примар минулого, прагнення до самопізнання та силу музики, здатної зцілювати й дарувати надію цілим поколінням.",
-      "popularity": 5.5549,
-      "poster_path": "/quvWqTHk1MrarR8jrBKnpEF1V0I.jpg",
-      "release_date": "2025-10-22",
-      "title": "Спрінґстін: Врятуй мене від невідомого",
+      "original_title": "Lilith Fair: Building a Mystery",
+      "overview": "",
+      "popularity": 5.8013,
+      "poster_path": "/PCI5HmNXRb9gx8BYTIUbThaymz.jpg",
+      "release_date": "2025-09-13",
+      "title": "Lilith Fair: Building a Mystery",
       "video": false,
-      "vote_average": 6.765,
-      "vote_count": 236,
-      "has_ua": true,
-      "has_pl": false,
-      "quality": "FHD",
-      "is_hdr": true
+      "vote_average": 7.455,
+      "vote_count": 11
+    }
+  ],
+  "categories": [
+    {
+      "title": "🔥 Нові серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/36AOCcIXeKChEBPxgQL2hvESTeW.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 312508,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Girl on the Run: The Hunt for America's Most Wanted Woman",
+          "overview": "",
+          "popularity": 1.2291,
+          "poster_path": "/oY6Bb0wsgvGbVQuNYyRSsIRIhKb.jpg",
+          "first_air_date": "2026-02-19",
+          "name": "Girl on the Run: The Hunt for America's Most Wanted Woman",
+          "vote_average": 8,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 131142,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Love Story",
+          "overview": "Серіал досліджує стрімкий роман і гучний шлюб однієї з найзнаковіших пар ХХ століття — Джона Ф. Кеннеді-молодшого та Керолін Бессетт.",
+          "popularity": 33.3431,
+          "poster_path": "/3HJjTbMrKaiMXxJHltUFat1r1P2.jpg",
+          "first_air_date": "2026-02-12",
+          "name": "Історія кохання",
+          "vote_average": 9.026,
+          "vote_count": 19
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vne1uNiDV92uggQ0Wc8XUoILe6N.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 312506,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Scream Murder: A True Teen Horror Story",
+          "overview": "",
+          "popularity": 2.6777,
+          "poster_path": "/pIC0ekeWk1KKVN7j5eEGC8AIV8n.jpg",
+          "first_air_date": "2026-02-11",
+          "name": "The Scream Murder: A True Teen Horror Story",
+          "vote_average": 6.5,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
+          "genre_ids": [
+            18,
+            10765
+          ],
+          "id": 273160,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Beauty",
+          "overview": "Світ високої моди поринає в темряву, коли міжнародні супермоделі починають гинути жахливими й загадковими способами. Агентів ФБР Купера Медсена та Джордан Беннетт відправляють до Парижа, щоб розкрити правду. Заглиблюючись у розслідування, вони виявляють вірус, що передається статевим шляхом і перетворює звичайних людей на втілення фізичної досконалості — але з жахливими наслідками.",
+          "popularity": 41.2427,
+          "poster_path": "/vCbWCw7fUdjYxLuNka5EOeLcQJE.jpg",
+          "first_air_date": "2026-01-21",
+          "name": "Краса",
+          "vote_average": 6.072,
+          "vote_count": 69
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/xhqklQEaJ7xqsqnwCJZu7hTmTIK.jpg",
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 258742,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "All's Fair",
+          "overview": "Розповідає про успішну адвокатку з розлучень та власницю юридичної фірми в Лос-Анджелесі, в якій працюють виключно жінки.",
+          "popularity": 9.4763,
+          "poster_path": "/d6BQqbd6Mp7VbT4RcbNRcmbd8EK.jpg",
+          "first_air_date": "2025-11-04",
+          "name": "Все чесно",
+          "vote_average": 5,
+          "vote_count": 59
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pIbemkVivwk1SKVvmKlo53edMZt.jpg",
+          "genre_ids": [
+            18,
+            80
+          ],
+          "id": 270734,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Murdaugh: Death in the Family",
+          "overview": "Подружжя Мегґі та Алекса Мердо живе розкішно в Південній Кароліні, доки їхній син Пол не стає обвинуваченим у смертельній аварії на човні. Розслідування журналістки Менді Метні поступово розкриває темні секрети впливової родини.",
+          "popularity": 4.0518,
+          "poster_path": "/xych6NfNjTUCK90cUaFhGqvIKo1.jpg",
+          "first_air_date": "2025-10-15",
+          "name": "Мердо: Смерть у сім'ї",
+          "vote_average": 6.764,
+          "vote_count": 37
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lu4HO4kJx2aZzVgjoRcF9vYPaFI.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 247168,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Chad Powers",
+          "overview": "Минуло вісім років з моменту, як єдина помилка зруйнувала багатообіцяючу кар'єру квотербека Расса Голлідея в коледжному футболі. Тепер він намагається воскресити свої мрії, видаючи себе за Чеда Паверса — талановитого дивака, який приєднується до слабкої південної футбольної команди.",
+          "popularity": 5.7864,
+          "poster_path": "/7gyRwbJG10Zxp3TUdqvqfP8HCEx.jpg",
+          "first_air_date": "2025-09-30",
+          "name": "Чед Паверс",
+          "vote_average": 8.208,
+          "vote_count": 65
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/d5LyRISUqoQODlaXDtHBLVdBew4.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 295755,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Death in Apartment 603: What Happened to Ellen Greenberg?",
+          "overview": "",
+          "popularity": 1.5643,
+          "poster_path": "/l8WXZDUihRDJuEMUCue6VUEx2gt.jpg",
+          "first_air_date": "2025-09-29",
+          "name": "Death in Apartment 603: What Happened to Ellen Greenberg?",
+          "vote_average": 7.5,
+          "vote_count": 8
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7aaxAZBNDLsXD35fgFxCztrTKVa.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 300417,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Into the Void: Life, Death and Heavy Metal",
+          "overview": "",
+          "popularity": 0.9472,
+          "poster_path": "/kCy8anrdjQHjdveW9M9bf7qRx57.jpg",
+          "first_air_date": "2025-09-22",
+          "name": "Into the Void: Life, Death and Heavy Metal",
+          "vote_average": 9.6,
+          "vote_count": 5
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iLzaLdkva7wUV9HMyykaHFUFHKA.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 248416,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Twisted Tale of Amanda Knox",
+          "overview": "Історія зосереджена на важкій подорожі Аманди Нокс після того, як її помилково ув’язнили за вбивство сусідки по кімнаті, її боротьбі довести невинуватість і повернути свободу.",
+          "popularity": 7.3509,
+          "poster_path": "/aLnOXgq0mOMxjIzUQUQirLmuoxt.jpg",
+          "first_air_date": "2025-08-20",
+          "name": "Заплутана історія Аманди Нокс",
+          "vote_average": 7,
+          "vote_count": 37
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/s6UYORNM6lMH34c775rriXiABzR.jpg",
+          "genre_ids": [
+            80,
+            99
+          ],
+          "id": 297203,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Stalking Samantha: 13 Years of Terror",
+          "overview": "",
+          "popularity": 0.3899,
+          "poster_path": "/oAgWqCUgKMJ7C6vU0Fuvkb9iLHg.jpg",
+          "first_air_date": "2025-08-19",
+          "name": "Stalking Samantha: 13 Years of Terror",
+          "vote_average": 7.8,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iG0GBzjhbygvGdPweX3cYHLZit6.jpg",
+          "genre_ids": [
+            10764
+          ],
+          "id": 296509,
+          "origin_country": [
+            "GB",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Are You My First?",
+          "overview": "",
+          "popularity": 1.1624,
+          "poster_path": "/lzRj1QstbBESUvjQD3f29uSPBmy.jpg",
+          "first_air_date": "2025-08-18",
+          "name": "Are You My First?",
+          "vote_average": 2,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/fBmAdbiL3ageOxEQkxGkEqSBDp3.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 296258,
+          "origin_country": [
+            "GB",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Limitless: Live Better Now",
+          "overview": "",
+          "popularity": 1.2464,
+          "poster_path": "/7hrSPQvKigaYoAE35zeOkqARc8X.jpg",
+          "first_air_date": "2025-08-15",
+          "name": "Limitless: Live Better Now",
+          "vote_average": 6.8,
+          "vote_count": 10
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/biIBy2LPOOtGCgUYOls3dUEWU3v.jpg",
+          "genre_ids": [
+            10765,
+            18
+          ],
+          "id": 157239,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Alien: Earth",
+          "overview": "Коли таємничий космічний корабель зазнає аварії на Землі, молода жінка та різношерста група солдатів-тактиків роблять доленосне відкриття, яке ставить їх віч-на-віч з найбільшою загрозою планети.",
+          "popularity": 19.9011,
+          "poster_path": "/8e8IKfP0tiR62cNsh4ZpSIWwUVJ.jpg",
+          "first_air_date": "2025-08-12",
+          "name": "Чужий: Земля",
+          "vote_average": 7.353,
+          "vote_count": 938
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5GV9AaE1gZ7m39sbTlQO2gWYubg.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 296939,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Ted Bundy: Dialogue with the Devil",
+          "overview": "",
+          "popularity": 0.353,
+          "poster_path": "/1TOKFnxholmpKhZypUehL076R9l.jpg",
+          "first_air_date": "2025-08-07",
+          "name": "Ted Bundy: Dialogue with the Devil",
+          "vote_average": 7.2,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wgocTEanXDEaLkby2DBSnoiunNf.jpg",
+          "genre_ids": [
+            99,
+            80
+          ],
+          "id": 297132,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Capturing Their Killer: The Girls on the High Bridge",
+          "overview": "",
+          "popularity": 0.4685,
+          "poster_path": "/3zt70vdSOmTGxbduzDPPFhlD0iS.jpg",
+          "first_air_date": "2025-08-05",
+          "name": "Capturing Their Killer: The Girls on the High Bridge",
+          "vote_average": 7.7,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/zJVAbPSX4kXiPPu9RvTZwrCfqCh.jpg",
+          "genre_ids": [
+            99,
+            80
+          ],
+          "id": 294835,
+          "origin_country": [
+            "GB",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Mr. & Mrs. Murder",
+          "overview": "",
+          "popularity": 0.8022,
+          "poster_path": "/tLeT49hi75R4pj8wgvPJkVq2MMF.jpg",
+          "first_air_date": "2025-07-30",
+          "name": "Mr. & Mrs. Murder",
+          "vote_average": 6.7,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vapoYt08nte9AnFPSGADNau8C6I.jpg",
+          "genre_ids": [
+            18,
+            10759
+          ],
+          "id": 156390,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Washington Black",
+          "overview": "Джордж Вашингтон Блек — 11-річний хлопчик із плантації на Барбадосі. Його науковий талант запускає ланцюг подій, що веде його у глобальну подорож. Утікаючи після трагічного інциденту, Джордж відкриває нові горизонти сім’ї, свободи та любові.",
+          "popularity": 4.6586,
+          "poster_path": "/gWseq9UmPkw33bzGkTfpRg1gXOi.jpg",
+          "first_air_date": "2025-07-23",
+          "name": "Вашингтон Блек",
+          "vote_average": 6.01,
+          "vote_count": 49
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/h6OMcX0k96eBNKdkMB4m4Q1rSwi.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 295309,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Her Last Broadcast: The Abduction of Jodi Huisentruit",
+          "overview": "",
+          "popularity": 0.0835,
+          "poster_path": "/dA1MfnJezhhpL9VDh0sx0LD0XaU.jpg",
+          "first_air_date": "2025-07-15",
+          "name": "Her Last Broadcast: The Abduction of Jodi Huisentruit",
+          "vote_average": 5,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gG5xy0l84D5vYIWt3Xq9VIJs0SP.jpg",
+          "genre_ids": [
+            18,
+            80
+          ],
+          "id": 292664,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Kollective",
+          "overview": "Після трагічної події молоді журналісти беруться за небезпечне розслідування, щоб викрити урядову корупцію та брехню. Розкриваючи незаконні дії відступницьких режимів по всьому світу, вони стикаються з високою ціною, яку доводиться платити за правду.",
+          "popularity": 2.5754,
+          "poster_path": "/l2ucrGUDKerWAEhlW3fEhki0Pcj.jpg",
+          "first_air_date": "2025-06-10",
+          "name": "Колектив",
+          "vote_average": 6.857,
+          "vote_count": 14
+        }
+      ]
+    },
+    {
+      "title": "🏆 Топ Серіали",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/5QsLvWh8J1mXl1W05wNJknMmhzR.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 245927,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Paradise",
+          "overview": "Спокій у затишній багатій громаді, де мешкають одні з найвідоміших людей світу, руйнується, коли відбувається шокуюче вбивство, і розгортається розслідування з високими ставками.",
+          "popularity": 82.5577,
+          "poster_path": "/8ejjBrbef9FTfqinjsXS3Zvze9O.jpg",
+          "first_air_date": "2025-01-26",
+          "name": "Рай",
+          "vote_average": 7.4,
+          "vote_count": 335
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rhdvR0brfejyjvvnGwG8Zi28zkU.jpg",
+          "genre_ids": [
+            9648,
+            18,
+            35
+          ],
+          "id": 1432,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Veronica Mars",
+          "overview": "Затягуючий, пригодницький серіал про Вероніку Марс - ученицю старшої школи, доньку приватного детектива, колишнього шерифа прибережного міста Нептуна, яка підробляє у свого батька в детективному агентстві. У її школі вчаться діти двох класів: бідні, і діти багачів, які постійно уляпуються в кримінальні історії. Починаючи від пропажі собак, закінчуючи загадковими смертями друзів і однокласників - Вероніка Марс розслідує і виводить справжніх злочинців на чисту воду.",
+          "popularity": 45.2238,
+          "poster_path": "/vOdJETEueGgUqJR4UvwTdUoJhvO.jpg",
+          "first_air_date": "2004-09-22",
+          "name": "Вероніка Марс",
+          "vote_average": 7.807,
+          "vote_count": 681
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
+          "genre_ids": [
+            16,
+            35,
+            10765
+          ],
+          "id": 615,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Futurama",
+          "overview": "Серіал розпочинається з того, що розвізник піци з Нью-Йорка Філіп Джей Фрай випадково був заморожений у кріогенній камері 31 грудня 1999 року і розморожений тисячу років потому, в місті Новий Нью-Йорк. Фрай намагається уникнути примусового призначення на роботу посильним, і це закінчується його влаштуванням на роботу (все ж таки посильним) у невелику компанію Міжпланетний експрес, яка займається міжгалактичними перевезеннями вантажів. Серіал демонструє пригоди Фрая і його колег під час доставки вантажів, а також у повсякденному житті.",
+          "popularity": 44.6982,
+          "poster_path": "/ihYhOg7t2cPYjFatEhhTXpbbulC.jpg",
+          "first_air_date": "1999-03-28",
+          "name": "Футурама",
+          "vote_average": 8.368,
+          "vote_count": 3638
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
+          "genre_ids": [
+            18,
+            10765
+          ],
+          "id": 273160,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Beauty",
+          "overview": "Світ високої моди поринає в темряву, коли міжнародні супермоделі починають гинути жахливими й загадковими способами. Агентів ФБР Купера Медсена та Джордан Беннетт відправляють до Парижа, щоб розкрити правду. Заглиблюючись у розслідування, вони виявляють вірус, що передається статевим шляхом і перетворює звичайних людей на втілення фізичної досконалості — але з жахливими наслідками.",
+          "popularity": 41.2427,
+          "poster_path": "/vCbWCw7fUdjYxLuNka5EOeLcQJE.jpg",
+          "first_air_date": "2026-01-21",
+          "name": "Краса",
+          "vote_average": 6.072,
+          "vote_count": 69
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4CSdS9p0AhLhxCo1hGuQINiE2Sa.jpg",
+          "genre_ids": [
+            16,
+            35,
+            10751
+          ],
+          "id": 2122,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "King of the Hill",
+          "overview": "Байки з життя окремого людського виду — «техасця звичайного». Представники: Хенк Хілл — тупий обиватель і глава сімейства, його дружина Пегі (вчителька), син Боббі (товстун, що саме вступає в період статевого дозрівання), і наша улюблена героїня — племінниця Луан, що постійно розкидає де попало свою нижню білизну.",
+          "popularity": 39.3573,
+          "poster_path": "/e2xyMapmYgv4AuSoSDv9Y4pQlD6.jpg",
+          "first_air_date": "1997-01-12",
+          "name": "Король гори",
+          "vote_average": 7.377,
+          "vote_count": 646
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gmO3aezFgDcrhcymhNSJLGZ3CT.jpg",
+          "genre_ids": [
+            16,
+            10751,
+            10765,
+            35
+          ],
+          "id": 37606,
+          "origin_country": [
+            "GB",
+            "DE",
+            "IE",
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Amazing World of Gumball",
+          "overview": "Життя Ґамбола Воттерсона, 12-річного кота, який відвідує середню школу в Елморі. У супроводі свого домашнього улюбленця, прийомного брата та найкращого друга Дарвіна Уоттерсона він часто опиняється втягнутим у різноманітні махінації по всьому місту, під час яких він спілкується з різними членами сім’ї: Анаіс, Річардом і Ніколь Воттерсон та іншими різноманітними громадянами.",
+          "popularity": 37.9513,
+          "poster_path": "/kqJ4Ow5zo7Fa1tLfvCiFfY2iSTH.jpg",
+          "first_air_date": "2011-05-03",
+          "name": "Дивовижний світ Ґамбола",
+          "vote_average": 8.5,
+          "vote_count": 1690
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8BaPwADDUeg752Dxf0VSUHMQuYc.jpg",
+          "genre_ids": [
+            10759,
+            18
+          ],
+          "id": 31991,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "WWE NXT",
+          "overview": "Професійна реслінг-програма від World Wrestling Entertainment (WWE). Wе гібрид між реаліті-шоу і шоу WWE у прямому ефірі. Переможець шоу отримує можливість підписати контракт з WWE. У лютому 2010 року шоу дебютувало на каналі Syfy. В Україні WWE NXT транслював телеканал QTV.",
+          "popularity": 37.0036,
+          "poster_path": "/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
+          "first_air_date": "2010-02-23",
+          "name": "WWE NXT",
+          "vote_average": 6.8,
+          "vote_count": 124
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 131142,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Love Story",
+          "overview": "Серіал досліджує стрімкий роман і гучний шлюб однієї з найзнаковіших пар ХХ століття — Джона Ф. Кеннеді-молодшого та Керолін Бессетт.",
+          "popularity": 33.3431,
+          "poster_path": "/3HJjTbMrKaiMXxJHltUFat1r1P2.jpg",
+          "first_air_date": "2026-02-12",
+          "name": "Історія кохання",
+          "vote_average": 9.026,
+          "vote_count": 19
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/atb20IUkdYcZISq3DJ769nc3h1G.jpg",
+          "genre_ids": [
+            18,
+            10765,
+            10759
+          ],
+          "id": 69478,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Handmaid's Tale",
+          "overview": "Дії відбуваються в майбутньому, у вигаданій тоталітарній державі під назвою Республіка Ґілеад, з жорсткими порядками і звичаями і в якій є одна істотна проблема — безпліддя. Тільки одна жінка зі ста здатна зачати дитину. Тому жінок із простолюддя в спеціальних таборах готують до єдиної функції — народження дітей офіцерам і їхнім дружинам.",
+          "popularity": 31.9091,
+          "poster_path": "/v17E31MgbCsR82BkjcnGeXHGaNr.jpg",
+          "first_air_date": "2017-04-26",
+          "name": "Оповідь служниці",
+          "vote_average": 8.149,
+          "vote_count": 3127
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/WCnEPf4ZNPjszndmrFlDxZ5Uvd.jpg",
+          "genre_ids": [
+            35,
+            9648,
+            80
+          ],
+          "id": 107113,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Only Murders in the Building",
+          "overview": "Серіал розповідає про трьох сусідів, які просто одержимі всякими злочинами і тому вирішують разом вести про це подкаст. На їх радість, у їхньому будинку скоєно вбивство, і як тут, скажіть, не допомогти у розслідуванні? Тим паче, що підозрюваними є усі мешканці дому.",
+          "popularity": 24.6155,
+          "poster_path": "/85nqGfMhvNPvlt6HMlaZWgdoD0I.jpg",
+          "first_air_date": "2021-08-31",
+          "name": "Убивства в одній будівлі",
+          "vote_average": 8.476,
+          "vote_count": 2113
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wHNwlE6ftEpgjVbdhLXOtv1hLs0.jpg",
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 136315,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Bear",
+          "overview": "Молодий шеф-кухар зі світу високої кухні повертається до Чикаго, щоб керувати сімейним магазином бутербродів.",
+          "popularity": 24.254,
+          "poster_path": "/qbc85U8VHFRDJNtW5FPyxSstT90.jpg",
+          "first_air_date": "2022-06-23",
+          "name": "Ведмідь",
+          "vote_average": 8.167,
+          "vote_count": 1622
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2Qg2fViQzWenpUaMjhv0kNhCbE9.jpg",
+          "genre_ids": [
+            18,
+            35,
+            10765
+          ],
+          "id": 71738,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Orville",
+          "overview": "Розповідає про пригоди команди не дуже працюючого космічного корабля міжгалактичного флоту Землі, який існує в 2300 році.",
+          "popularity": 23.17,
+          "poster_path": "/bXhKFXOx45XtbEpeVDxAUQ8xzUu.jpg",
+          "first_air_date": "2017-09-10",
+          "name": "Орвіл",
+          "vote_average": 7.618,
+          "vote_count": 1344
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/11CP0Do4gIJCHpyiaI4oOTEzcsB.jpg",
+          "genre_ids": [
+            10759,
+            18
+          ],
+          "id": 16281,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "WWE Superstars",
+          "overview": "",
+          "popularity": 22.7145,
+          "poster_path": "/595BCIq8CJUjYHlx0xwkfiesMLF.jpg",
+          "first_air_date": "2009-04-16",
+          "name": "WWE Superstars",
+          "vote_average": 7.3,
+          "vote_count": 33
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1cVt0Tm7erwYT5lyae9vUkPr4XY.jpg",
+          "genre_ids": [
+            35,
+            16,
+            10765
+          ],
+          "id": 97645,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Solar Opposites",
+          "overview": "Ми побачимо історію чотирьох прибульців, які рятуються з власної планети, а місцем їхнього призначення стає Земля. Саме тут їм доведеться прилаштовуватися до незвичного життя, яке викликає у них безліч протиріч.",
+          "popularity": 22.4515,
+          "poster_path": "/twaNA8kzzVxTSc2X5Ce7gGQOYD8.jpg",
+          "first_air_date": "2020-05-08",
+          "name": "Сонячні протилежності",
+          "vote_average": 7.783,
+          "vote_count": 584
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/bwSmgmd90hCWwqOKQYTEraeOZhJ.jpg",
+          "genre_ids": [
+            18,
+            10768
+          ],
+          "id": 126308,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Shōgun",
+          "overview": "XVI століття. Англійське судно зазнає аварії біля берегів Японії. Члени екіпажу, що вижили, серед яких лоцман Джон Блекторн, потрапляють у полон. Могутній князь Торанага бере Блекторна, який знає географію, математику і військову справу, під свою опіку. Крок за кроком англієць осягає суворі самурайські закони, вивчає японську мову, заглиблюється в абсолютно чужу європейцеві психологію.",
+          "popularity": 22.2142,
+          "poster_path": "/sdml0RjRgbSVkNRThRu2jjtmQyH.jpg",
+          "first_air_date": "2024-02-27",
+          "name": "Шьоґун",
+          "vote_average": 8.431,
+          "vote_count": 1641
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/biIBy2LPOOtGCgUYOls3dUEWU3v.jpg",
+          "genre_ids": [
+            10765,
+            18
+          ],
+          "id": 157239,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Alien: Earth",
+          "overview": "Коли таємничий космічний корабель зазнає аварії на Землі, молода жінка та різношерста група солдатів-тактиків роблять доленосне відкриття, яке ставить їх віч-на-віч з найбільшою загрозою планети.",
+          "popularity": 19.9011,
+          "poster_path": "/8e8IKfP0tiR62cNsh4ZpSIWwUVJ.jpg",
+          "first_air_date": "2025-08-12",
+          "name": "Чужий: Земля",
+          "vote_average": 7.353,
+          "vote_count": 938
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/uVe8fWCLMqIhgMTI9maIUncfZAP.jpg",
+          "genre_ids": [
+            18,
+            9648
+          ],
+          "id": 130464,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Tell Me Lies",
+          "overview": "Люсі Олбрайт і Стівен ДеМарко швидко занурюються в залежно-руйнівні стосунки, які назавжди змінять їхні життя та долі всіх, хто їх оточує. Бурхливий і п’янкий роман розгортається протягом восьми років.",
+          "popularity": 19.7941,
+          "poster_path": "/lGNquE1CDrqORHFdRheekMvp0Ty.jpg",
+          "first_air_date": "2022-09-07",
+          "name": "Збреши мені",
+          "vote_average": 7.5,
+          "vote_count": 211
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kgEFD11dQdi8tCUgdNX1Ul02LlW.jpg",
+          "genre_ids": [
+            16,
+            35
+          ],
+          "id": 107124,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Animaniacs",
+          "overview": "",
+          "popularity": 18.8828,
+          "poster_path": "/wmPZzLov9OhiknK4jW4qE6mgvHf.jpg",
+          "first_air_date": "2020-11-20",
+          "name": "Animaniacs",
+          "vote_average": 8.432,
+          "vote_count": 585
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lswRmm6czR4QTnwXRtacMfyxgJ0.jpg",
+          "genre_ids": [
+            10759,
+            18,
+            10764
+          ],
+          "id": 46707,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "WWE Main Event",
+          "overview": "",
+          "popularity": 17.9503,
+          "poster_path": "/yVZdqmVMI09F7GzFvDJCc36oBkT.jpg",
+          "first_air_date": "2012-10-03",
+          "name": "WWE Main Event",
+          "vote_average": 7.9,
+          "vote_count": 58
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/danN2NzJTMouaBEkDWTnyDjDxUt.jpg",
+          "genre_ids": [
+            10759,
+            10765,
+            18,
+            10751
+          ],
+          "id": 103540,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Percy Jackson and the Olympians",
+          "overview": "12-річний напівбог Персі Джексон щойно почав керувати своїми надприродними здібностями, коли бог неба Зевс звинувачує його у викраденні його блискавки. Тепер Персі доводиться мандрувати Америкою, щоб знайти її та відновити порядок на Олімпі",
+          "popularity": 16.4181,
+          "poster_path": "/lQSpeYcgYDRQUYSvYYiLXlGyjjD.jpg",
+          "first_air_date": "2023-12-19",
+          "name": "Персі Джексон та Олімпійці",
+          "vote_average": 7.304,
+          "vote_count": 720
+        }
+      ]
+    },
+    {
+      "title": "🔥 Нові фільми",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/hS7d9UCjOUGi1u5UL6HTqa3etND.jpg",
+          "genre_ids": [
+            18,
+            878
+          ],
+          "id": 1032892,
+          "original_language": "en",
+          "original_title": "In the Blink of an Eye",
+          "overview": "Три сюжетні лінії, що охоплюють тисячі років, перетинаються й досліджують теми надії, зв’язку та кола життя.",
+          "popularity": 109.9489,
+          "poster_path": "/4vWqIdoBavo1htxmxlScDniOS9C.jpg",
+          "release_date": "2026-01-26",
+          "title": "За мить ока",
+          "video": false,
+          "vote_average": 4.1,
+          "vote_count": 29
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tLKTds91Rp91bWqFS2hatwoec4y.jpg",
+          "genre_ids": [
+            99
+          ],
+          "id": 1601082,
+          "original_language": "en",
+          "original_title": "Cheetahs Up Close with Bertie Gregory",
+          "overview": "",
+          "popularity": 1.9414,
+          "poster_path": "/pSmSgFb1cnRQep0OzcuKWMYWeqR.jpg",
+          "release_date": "2026-01-01",
+          "title": "Cheetahs Up Close with Bertie Gregory",
+          "video": false,
+          "vote_average": 7.2,
+          "vote_count": 17
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1wruGeuequY1PumBfEgCEifpGb5.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 1529419,
+          "original_language": "en",
+          "original_title": "Kumail Nanjiani: Night Thoughts",
+          "overview": "",
+          "popularity": 0.4583,
+          "poster_path": "/qOvbKZHzBFQrmjmK9D0Lg7sz8co.jpg",
+          "release_date": "2025-12-19",
+          "title": "Kumail Nanjiani: Night Thoughts",
+          "video": false,
+          "vote_average": 7,
+          "vote_count": 14
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rSRA1p4e3laAAJflzdgtqNlx27Y.jpg",
+          "genre_ids": [
+            28,
+            80,
+            53
+          ],
+          "id": 1049574,
+          "original_language": "en",
+          "original_title": "Darkness of Man",
+          "overview": "Рассел Хетч — оперативник Інтерполу, який бере на себе роль батька Джейдена, сина інформатора, вбитого в процесі невдалого рейду.",
+          "popularity": 3.8992,
+          "poster_path": "/5zxsN56sUWKMSguTvKYoWps63jI.jpg",
+          "release_date": "2025-12-18",
+          "title": "Темрява людини",
+          "video": false,
+          "vote_average": 5,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9cd1zsxcOAcBW01WDOWz8EODTS0.jpg",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 1206008,
+          "original_language": "en",
+          "original_title": "Ella McCay",
+          "overview": "Ідеалістична молода політикиня балансує між сімейними проблемами та складною роботою, готуючись зайняти посаду свого наставника — чинного губернатора штату з багаторічним досвідом.",
+          "popularity": 16.4715,
+          "poster_path": "/ifIKMTQmMpYRp0UxgjG3fK5SmIO.jpg",
+          "release_date": "2025-12-11",
+          "title": "Елла МакКей",
+          "video": false,
+          "vote_average": 5.5,
+          "vote_count": 85
+        },
+        {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+            10402,
+            10770
+          ],
+          "id": 1587722,
+          "original_language": "en",
+          "original_title": "CMA Country Christmas 2025",
+          "overview": "",
+          "popularity": 0.1063,
+          "poster_path": "/owWpFf6jkoyXe03Mqga0kwtFK17.jpg",
+          "release_date": "2025-12-02",
+          "title": "CMA Country Christmas 2025",
+          "video": false,
+          "vote_average": 6,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/meiOsPGrwzST44lSR3CJ2AlAh5k.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 1564232,
+          "original_language": "en",
+          "original_title": "Sebastian Maniscalco: It Ain't Right",
+          "overview": "",
+          "popularity": 0.1726,
+          "poster_path": "/AmbvVjDFXR9ATykIA4jXe9rtkL6.jpg",
+          "release_date": "2025-11-20",
+          "title": "Sebastian Maniscalco: It Ain't Right",
+          "video": false,
+          "vote_average": 5,
+          "vote_count": 6
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/euoXeFAOt9o7yAWA9zGZk7DdZWZ.jpg",
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 1208348,
+          "original_language": "en",
+          "original_title": "Rental Family",
+          "overview": "Самотній американський актор, що мешкає в Токіо, починає працювати в японській компанії, яка надає «орендовані родини», — він грає підставні ролі в житті інших людей. Згодом він знаходить неочікувані зв’язки та несподівану радість у цій штучній родині.",
+          "popularity": 22.5369,
+          "poster_path": "/rEutyvM2e0hu6Hn51aF495J1F9L.jpg",
+          "release_date": "2025-11-20",
+          "title": "Сім'я напрокат",
+          "video": false,
+          "vote_average": 7.811,
+          "vote_count": 501
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gaKFXcB5J1gz0QqYj8bWIfrPc04.jpg",
+          "genre_ids": [
+            28,
+            878,
+            12
+          ],
+          "id": 1242898,
+          "original_language": "en",
+          "original_title": "Predator: Badlands",
+          "overview": "Дія розгортається в майбутньому на віддаленій планеті, де молодий Хижак, вигнаний зі свого клану, знаходить малоймовірного союзника в особі Тії та вирушає в підступну подорож на пошуки свого остаточного супротивника.",
+          "popularity": 93.9624,
+          "poster_path": "/qRA3DbdUfQDJPgKkC7QnuCCU717.jpg",
+          "release_date": "2025-11-05",
+          "title": "Хижак: Дикі землі",
+          "video": false,
+          "vote_average": 7.711,
+          "vote_count": 2195
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/Ae594YpOxvHfhzhUFDjQtmQi4d3.jpg",
+          "genre_ids": [
+            10749,
+            35
+          ],
+          "id": 1570554,
+          "original_language": "en",
+          "original_title": "Joy to the World",
+          "overview": "",
+          "popularity": 0.4877,
+          "poster_path": "/bCtkAgxvInB3AKbENB56OHt90yN.jpg",
+          "release_date": "2025-10-31",
+          "title": "Joy to the World",
+          "video": false,
+          "vote_average": 6.8,
+          "vote_count": 15
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ptHXfOc0gEIG8CrieQ3t8MUBuiP.jpg",
+          "genre_ids": [
+            28,
+            53
+          ],
+          "id": 1522923,
+          "original_language": "en",
+          "original_title": "Safe House",
+          "overview": "",
+          "popularity": 4.5738,
+          "poster_path": "/jlQW7qPp9j6yGqiIEcB3uNYbjys.jpg",
+          "release_date": "2025-10-30",
+          "title": "Safe House",
+          "video": false,
+          "vote_average": 6.8,
+          "vote_count": 52
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8Fl8B1TRkcjkU9VMp9ex9mV6949.jpg",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "id": 1396869,
+          "original_language": "ml",
+          "original_title": "ഡീയസ് ഈറെ",
+          "overview": "",
+          "popularity": 1.4738,
+          "poster_path": "/123DlTiiezgLaJruVe7RiSi0RFf.jpg",
+          "release_date": "2025-10-30",
+          "title": "ഡീയസ് ഈറെ",
+          "video": false,
+          "vote_average": 6.8,
+          "vote_count": 19
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/b9iQP6brbuGs8mhRPRV0ThiwD5I.jpg",
+          "genre_ids": [
+            27,
+            9648
+          ],
+          "id": 772462,
+          "original_language": "es",
+          "original_title": "No Me Sigas",
+          "overview": "",
+          "popularity": 6.2783,
+          "poster_path": "/gop4DwcBeb9T3JTaxwDEHdJNqSq.jpg",
+          "release_date": "2025-10-30",
+          "title": "No Me Sigas",
+          "video": false,
+          "vote_average": 6.3,
+          "vote_count": 40
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/J5TQCmC8JEQjKaD1foK1T04eVP.jpg",
+          "genre_ids": [
+            99,
+            10752
+          ],
+          "id": 1526215,
+          "original_language": "en",
+          "original_title": "Love+War",
+          "overview": "",
+          "popularity": 0.9318,
+          "poster_path": "/7sr2GJyTZpdv8HvSneDCwRbhmFt.jpg",
+          "release_date": "2025-10-24",
+          "title": "Love+War",
+          "video": false,
+          "vote_average": 6.7,
+          "vote_count": 10
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lnwRiQVEvfHZZhHV1zG5RsuyrpU.jpg",
+          "genre_ids": [
+            16
+          ],
+          "id": 1255369,
+          "original_language": "ru",
+          "original_title": "Финник 2",
+          "overview": "",
+          "popularity": 0.5747,
+          "poster_path": "/2CJ01g3An35uUwDwvfKQcEIg7T0.jpg",
+          "release_date": "2025-10-23",
+          "title": "Финник 2",
+          "video": false,
+          "vote_average": 4,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/2avs7Bj9f94vtlQjO4YcXip8ZU4.jpg",
+          "genre_ids": [
+            99,
+            10402
+          ],
+          "id": 1553666,
+          "original_language": "en",
+          "original_title": "Bruce Springsteen: Nebraska Live",
+          "overview": "",
+          "popularity": 0.731,
+          "poster_path": "/uCKxBd8hdoZn88LKophzVZk9cXz.jpg",
+          "release_date": "2025-10-22",
+          "title": "Bruce Springsteen: Nebraska Live",
+          "video": false,
+          "vote_average": 8.667,
+          "vote_count": 3
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/oOczvrnhpXUmqCbyKYFj4FQExAo.jpg",
+          "genre_ids": [
+            18,
+            10402
+          ],
+          "id": 1230368,
+          "original_language": "en",
+          "original_title": "Springsteen: Deliver Me from Nowhere",
+          "overview": "Емоційна історія про те, як молодий Брюс Спрінґстін створював альбом Nebraska, який назавжди змінив його життя і світ музики. Фільм занурює у вирішальний момент кар’єри артиста: внутрішня боротьба, складні стосунки з родиною та тягар успіху стають справжнім випробуванням. Це розповідь про людину, яку знає весь світ. Але ця історія довго залишалася невідомою. Вона — про примар минулого, прагнення до самопізнання та силу музики, здатної зцілювати й дарувати надію цілим поколінням.",
+          "popularity": 4.7448,
+          "poster_path": "/quvWqTHk1MrarR8jrBKnpEF1V0I.jpg",
+          "release_date": "2025-10-22",
+          "title": "Спрінґстін: Врятуй мене від невідомого",
+          "video": false,
+          "vote_average": 6.719,
+          "vote_count": 242
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lK1zWi7EpBIFaGJBf0Y7jjemZe2.jpg",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "id": 1362315,
+          "original_language": "en",
+          "original_title": "The Hand That Rocks the Cradle",
+          "overview": "Заможна мати із передмістя бере на роботу нову няню на ім’я Поллі Мерфі, але згодом дізнається, що та зовсім не та, за кого себе видає.",
+          "popularity": 6.7475,
+          "poster_path": "/AjIyUlX1L5k3lfdyaCZt6WipUwN.jpg",
+          "release_date": "2025-10-16",
+          "title": "Рука, що гойдає колиску",
+          "video": false,
+          "vote_average": 5.697,
+          "vote_count": 173
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/6cMXtzw9gJ9Xk2jhVpsotX90paw.jpg",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 1531405,
+          "original_language": "ml",
+          "original_title": "അവിഹിതം",
+          "overview": "",
+          "popularity": 0.3848,
+          "poster_path": "/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+          "release_date": "2025-10-10",
+          "title": "അവിഹിതം",
+          "video": false,
+          "vote_average": 6.5,
+          "vote_count": 6
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gaz6VnMD6seiJbmJRTlqeWUhApE.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 1547557,
+          "original_language": "en",
+          "original_title": "Frankie Quiñones: Damn That's Crazy",
+          "overview": "",
+          "popularity": 0.2546,
+          "poster_path": "/hIBa7YtOzxgLZ3A22L1pgwaphpB.jpg",
+          "release_date": "2025-10-09",
+          "title": "Frankie Quiñones: Damn That's Crazy",
+          "video": false,
+          "vote_average": 5.1,
+          "vote_count": 5
+        }
+      ]
+    },
+    {
+      "title": "🏆 Топ Фільми",
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/hS7d9UCjOUGi1u5UL6HTqa3etND.jpg",
+          "genre_ids": [
+            18,
+            878
+          ],
+          "id": 1032892,
+          "original_language": "en",
+          "original_title": "In the Blink of an Eye",
+          "overview": "Три сюжетні лінії, що охоплюють тисячі років, перетинаються й досліджують теми надії, зв’язку та кола життя.",
+          "popularity": 109.9489,
+          "poster_path": "/4vWqIdoBavo1htxmxlScDniOS9C.jpg",
+          "release_date": "2026-01-26",
+          "title": "За мить ока",
+          "video": false,
+          "vote_average": 4.1,
+          "vote_count": 29
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gaKFXcB5J1gz0QqYj8bWIfrPc04.jpg",
+          "genre_ids": [
+            28,
+            878,
+            12
+          ],
+          "id": 1242898,
+          "original_language": "en",
+          "original_title": "Predator: Badlands",
+          "overview": "Дія розгортається в майбутньому на віддаленій планеті, де молодий Хижак, вигнаний зі свого клану, знаходить малоймовірного союзника в особі Тії та вирушає в підступну подорож на пошуки свого остаточного супротивника.",
+          "popularity": 93.9624,
+          "poster_path": "/qRA3DbdUfQDJPgKkC7QnuCCU717.jpg",
+          "release_date": "2025-11-05",
+          "title": "Хижак: Дикі землі",
+          "video": false,
+          "vote_average": 7.711,
+          "vote_count": 2195
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/euoXeFAOt9o7yAWA9zGZk7DdZWZ.jpg",
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 1208348,
+          "original_language": "en",
+          "original_title": "Rental Family",
+          "overview": "Самотній американський актор, що мешкає в Токіо, починає працювати в японській компанії, яка надає «орендовані родини», — він грає підставні ролі в житті інших людей. Згодом він знаходить неочікувані зв’язки та несподівану радість у цій штучній родині.",
+          "popularity": 22.5369,
+          "poster_path": "/rEutyvM2e0hu6Hn51aF495J1F9L.jpg",
+          "release_date": "2025-11-20",
+          "title": "Сім'я напрокат",
+          "video": false,
+          "vote_average": 7.811,
+          "vote_count": 501
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ySHUoK4utUOiSfCinw81H1TsV0E.jpg",
+          "genre_ids": [
+            878,
+            28,
+            27
+          ],
+          "id": 1241470,
+          "original_language": "en",
+          "original_title": "Osiris",
+          "overview": "Команду спецпризначенців викрадає під час операції загадковий космічний корабель. Прокинувшись, вони виявляють, що стали здобиччю безжальної інопланетної раси — і тепер мають боротися за виживання.",
+          "popularity": 18.727,
+          "poster_path": "/3YtZHtXPNG5AleisgEatEfZOT2w.jpg",
+          "release_date": "2025-07-25",
+          "title": "Осіріс",
+          "video": false,
+          "vote_average": 6.04,
+          "vote_count": 186
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wNAfVj1ObGNye5fQM4tJXJGtU0.jpg",
+          "genre_ids": [
+            53,
+            28,
+            80
+          ],
+          "id": 156022,
+          "original_language": "en",
+          "original_title": "The Equalizer",
+          "overview": "Головний герой живе досить тихим життям, забувши про своє бурхливе минуле бійця елітного спецпідрозділу. Але ось доля робить крутий поворот і забуті навички стають знову затребуваними. Чоловік заступається за невдачливу куртизанку і виявляється втягнутим в протистояння з синдикатом продажних агентів ЦРУ і російської мафії.",
+          "popularity": 18.6727,
+          "poster_path": "/5mmNW3c2XIUBaAaglAEpwPOSxZ5.jpg",
+          "release_date": "2014-09-24",
+          "title": "Праведник",
+          "video": false,
+          "vote_average": 7.281,
+          "vote_count": 9773
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5JaR6UEoCJJLtLpqFOVMY4O4R7P.jpg",
+          "genre_ids": [
+            80,
+            18,
+            28
+          ],
+          "id": 949,
+          "original_language": "en",
+          "original_title": "Heat",
+          "overview": "Ніл МакКолі — злочинець. Один з кращих в Лос-Анджелесі, якщо можна так сказати про злочинця. І працювати з ним разом мають за честь суперпрофесіонали кримінального світу. Але проти нього виступає детектив Вінсент Ганна. У Вінсента і Ніла дуже багато спільного. Ймовірно, спільного у них навіть більше, ніж відмінностей. Проте вони все ж таки стоять по різні сторони закону.  Дві сильні команди зійшлися один проти одного. Це сутичка не на життя, а на смерть...",
+          "popularity": 18.254,
+          "poster_path": "/qT3rcAX7dV457IpBXHzUBFeOExe.jpg",
+          "release_date": "1995-12-15",
+          "title": "Сутичка",
+          "video": false,
+          "vote_average": 7.928,
+          "vote_count": 8122
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hyc9gq0Oq5THKak7tB7oqC2Rd6z.jpg",
+          "genre_ids": [
+            37,
+            12,
+            80
+          ],
+          "id": 1195518,
+          "original_language": "en",
+          "original_title": "The Unholy Trinity",
+          "overview": "Приховані таємниці містечка в Монтані 1870-х років провокують спалах насильства, коли молодий чоловік повертається, щоб повернути свою спадщину, але опиняється між шерифом, який прагне зберегти порядок, і загадковим незнайомцем, одержимим бажанням усе зруйнувати.",
+          "popularity": 18.1642,
+          "poster_path": "/gXYYIX5VesrDtR1iYJfvUnJBPLB.jpg",
+          "release_date": "2025-06-13",
+          "title": "Нечестива трійця",
+          "video": false,
+          "vote_average": 6.374,
+          "vote_count": 163
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9cd1zsxcOAcBW01WDOWz8EODTS0.jpg",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 1206008,
+          "original_language": "en",
+          "original_title": "Ella McCay",
+          "overview": "Ідеалістична молода політикиня балансує між сімейними проблемами та складною роботою, готуючись зайняти посаду свого наставника — чинного губернатора штату з багаторічним досвідом.",
+          "popularity": 16.4715,
+          "poster_path": "/ifIKMTQmMpYRp0UxgjG3fK5SmIO.jpg",
+          "release_date": "2025-12-11",
+          "title": "Елла МакКей",
+          "video": false,
+          "vote_average": 5.5,
+          "vote_count": 85
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/otkJlfjB7zJ5h34FEIfemenMbCy.jpg",
+          "genre_ids": [
+            878,
+            28,
+            12,
+            53
+          ],
+          "id": 106,
+          "original_language": "en",
+          "original_title": "Predator",
+          "overview": "Елітна група спецназу на чолі з майором Датчем прибуває до джунглів Південної Америки та отримує наказ допомогти агенту ЦРУ, полковнику Алу Діллону, у рятувальній місії потенційних врятованих після збиття гелікоптера. Невдовзі після посадки, Датч і його команда виявляють що їх обманювали та відправили під хибним приводом. Проте це виявилось найменшою їхньою проблемою коли вони зрозуміли, що на них методично полює щось не від цього світу.",
+          "popularity": 16.0479,
+          "poster_path": "/wPvxgucNz0AX7kdFsNrCcOqNbyi.jpg",
+          "release_date": "1987-06-12",
+          "title": "Хижак",
+          "video": false,
+          "vote_average": 7.544,
+          "vote_count": 8886
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/s4cJQaj40SwMifUrrdtdOJsjnRO.jpg",
+          "genre_ids": [
+            18,
+            37
+          ],
+          "id": 68718,
+          "original_language": "en",
+          "original_title": "Django Unchained",
+          "overview": "Фільм розповість історію звільненого раба Джанґо, який допомагає мисливцю за головами доктору Кінґу Шульцу, німцеві за національністю. Шульц, противник рабства, виручив Джанґо з важкої ситуації і тепер навчає його своєму ремеслу. Колишній раб розраховує на допомогу Шульца у вельми важкій справі - головний герой фільму жадає помститися жорстокому власнику плантації Келвіну Кенді, який утримує у себе дружину Джанґо.",
+          "popularity": 15.9454,
+          "poster_path": "/effwvCvNGs23voTkvsDVfhkNJea.jpg",
+          "release_date": "2012-12-25",
+          "title": "Джанґо вільний",
+          "video": false,
+          "vote_average": 8.187,
+          "vote_count": 27628
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ltVm9tMK32x56ezpHgJp0U5YQdY.jpg",
+          "genre_ids": [
+            10749,
+            18
+          ],
+          "id": 718838,
+          "original_language": "en",
+          "original_title": "Mothering Sunday",
+          "overview": "",
+          "popularity": 15.1095,
+          "poster_path": "/unZ7vPgxMTxWrpPGIkAVSqgdryv.jpg",
+          "release_date": "2021-11-12",
+          "title": "Mothering Sunday",
+          "video": false,
+          "vote_average": 5.432,
+          "vote_count": 125
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ev9kxdoJ5IYVprt1OvH2SMWJdU1.jpg",
+          "genre_ids": [
+            27,
+            35,
+            14,
+            18
+          ],
+          "id": 1284120,
+          "original_language": "no",
+          "original_title": "Den stygge stesøsteren",
+          "overview": "У світі, де краса — не дар, а жорстокий бізнес, бал перетворюється на аукціон досконалості, а принц — на нагороду за найідеальнішу оболонку. Ельвіра, зведена сестра чарівної Попелюшки, готова на все, аби стати королевою балу та заволодіти бажаною туфелькою.",
+          "popularity": 15.1016,
+          "poster_path": "/iMlDT2RvSwJt3tdVdDqqOkWHrC9.jpg",
+          "release_date": "2025-03-07",
+          "title": "Гидка сестра",
+          "video": false,
+          "vote_average": 7.312,
+          "vote_count": 958
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
+          "genre_ids": [
+            12,
+            28,
+            14
+          ],
+          "id": 564,
+          "original_language": "en",
+          "original_title": "The Mummy",
+          "overview": "На безкрайніх просторах єгипетської пустелі компанія відчайдухів різних національностей нишпорить у пошуках незчисленних скарбів фараона, над якими висить страшне стародавнє прокляття.  Поруч зі скарбом покоїться мумія підступного жерця, жорстоко страченого за жахливе вбивство могутнього правителя Єгипту. Золотошукачі потривожили багатовіковий спокій гробниці, і мумія встає з могили, щоб занурити світ у царство жаху...",
+          "popularity": 14.8964,
+          "poster_path": "/d8ibTfM1gSRS2u8uNItVsBNWERN.jpg",
+          "release_date": "1999-04-16",
+          "title": "Мумія",
+          "video": false,
+          "vote_average": 6.962,
+          "vote_count": 9792
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tC78Pck2YCsUAtEdZwuHYUFYtOj.jpg",
+          "genre_ids": [
+            28,
+            53,
+            80
+          ],
+          "id": 926393,
+          "original_language": "en",
+          "original_title": "The Equalizer 3",
+          "overview": "Покінчивши з роботою таємного агента, Роберт Макколл продовжує відстоювати правду у повсякденному житті та захищати тих, хто цього потребує. Перебуваючи в Південній Італії він дізнається, що його друзі опинилися під впливом місцевих кримінальних авторитетів. Коли події загострюються, Маккол вирішує стати на захист справедливості вступивши в боротьбу з мафією.",
+          "popularity": 13.3807,
+          "poster_path": "/tNwQZXj09gDQu8Fz2BS0fqqsaP4.jpg",
+          "release_date": "2023-08-30",
+          "title": "Праведник 3: Остання глава",
+          "video": false,
+          "vote_average": 7.292,
+          "vote_count": 3583
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/me3SisKfnxwBP69aOVKAVMw9vDM.jpg",
+          "genre_ids": [
+            28,
+            80,
+            53
+          ],
+          "id": 1149167,
+          "original_language": "en",
+          "original_title": "High Rollers",
+          "overview": "Майстер-крадій Мейсон живе кримінальною мрією: перескакує з острова на острів разом зі своєю командою та коханням свого життя, Декер. Але його мрію розбивають, коли заклятий ворог, безжальний Салазар, викрадає Декер і змушує Мейсона та його команду спробувати майже неможливий пограбунок казино в обмін на її повернення. Оточений такими ж безжальними супротивниками Салазара і з ФБР на хвості, Мейсон ризикує всім у погоні за великим кушем та найвищим джекпотом: життям Декер.",
+          "popularity": 12.9112,
+          "poster_path": "/hHowAaChDjwueySmwVbsjHmpWa.jpg",
+          "release_date": "2025-03-14",
+          "title": "Зірвати банк 2: Високі ставки",
+          "video": false,
+          "vote_average": 6.586,
+          "vote_count": 105
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/19Ed4XgjahPm4U8JT7SnntERIlt.jpg",
+          "genre_ids": [
+            28,
+            12,
+            878
+          ],
+          "id": 284054,
+          "original_language": "en",
+          "original_title": "Black Panther",
+          "overview": "Після того як у Ваканді було виявлено поклади металу, який може поглинати вібрацію, над жителями цієї країни нависла загроза. Охочі збагатитися несли руйнування та смерть. За легендою, таємничий воїн — Чорна пантера — оберігав ці місця від непрошених гостей. Тепер принцу Т’Чаллу доведеться стати Чорною пантерою, щоби врятувати свій народ.",
+          "popularity": 12.8591,
+          "poster_path": "/c492VrqUWh7LhkPoCDRvI0DWIeE.jpg",
+          "release_date": "2018-02-13",
+          "title": "Чорна пантера",
+          "video": false,
+          "vote_average": 7.362,
+          "vote_count": 23220
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/j9eOeLlTGoHoM8BNUJVNyWmIvCi.jpg",
+          "genre_ids": [
+            10749,
+            35
+          ],
+          "id": 1072790,
+          "original_language": "en",
+          "original_title": "Anyone But You",
+          "overview": "На ранок після ідеального першого побачення фатальна пристрасть закоханих перетворюється на холодну ненависть, доки доля не зводить їх разом на весіллі друзів в Австралії. Тож їм не залишається нічого іншого, крім як вчинити по-дорослому та прикинутися парою.",
+          "popularity": 12.6308,
+          "poster_path": "/7vWjV2oFTqqjCRHwbFassYTY4dz.jpg",
+          "release_date": "2023-12-21",
+          "title": "Люблю тебе ненавидіти",
+          "video": false,
+          "vote_average": 6.805,
+          "vote_count": 2950
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vDKRMZGFTKP9nQolzeSB1rB1w6p.jpg",
+          "genre_ids": [
+            18,
+            36,
+            10752
+          ],
+          "id": 324786,
+          "original_language": "en",
+          "original_title": "Hacksaw Ridge",
+          "overview": "Військова драма, що розповідає історію Десмонда Досса — рядового, який через свої релігійні переконання відмовився носити зброю і вбивати людей. Але в подальшому він прийняв рішення вступити на військову службу як санітар. Під час жорстокої битви за Окінаву він врятував 75 людських життів.",
+          "popularity": 12.496,
+          "poster_path": "/8mYSAEymWKubpgRUyzN2BeiIoUo.jpg",
+          "release_date": "2016-10-07",
+          "title": "З міркувань совісті",
+          "video": false,
+          "vote_average": 8.191,
+          "vote_count": 14627
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg",
+          "genre_ids": [
+            28,
+            12,
+            878
+          ],
+          "id": 505642,
+          "original_language": "en",
+          "original_title": "Black Panther: Wakanda Forever",
+          "overview": "Після смерті ТʼЧалли африканська країна Ваканда залишається без короля і захисника. Тепер королеві Рамонді, Шурі й іншим доведеться шукати новий шлях розвитку країни та нового героя, гідного звання Чорної пантери.",
+          "popularity": 12.3412,
+          "poster_path": "/aQRJcSdn4eACicgA0vZMLfZH0Fg.jpg",
+          "release_date": "2022-11-09",
+          "title": "Чорна пантера: Ваканда назавжди",
+          "video": false,
+          "vote_average": 7.011,
+          "vote_count": 7303
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/qvyOfwTC3qdbzkqdXWSSEMHtjBZ.jpg",
+          "genre_ids": [
+            18,
+            35,
+            10749
+          ],
+          "id": 1064213,
+          "original_language": "en",
+          "original_title": "Anora",
+          "overview": "Ані — молода стриптизерка узбецько-американського походження з Брайтон-Біч, російськомовного анклаву в Нью-Йорку. Оскільки вона трохи знає російську, її бос підбирає її до російськомовних клієнтів. Після знайомства з Ванею, сином російського олігарха, між ними зав'язується роман, та вони одружуються. Їхній казковий шлюб опиняється під загрозою, коли батьки чоловіка їдуть до Нью-Йорка, щоб змусити його розірвати шлюб.",
+          "popularity": 12.0977,
+          "poster_path": "/cgXk2tNYhJZLXdBDO5DidAVzQ82.jpg",
+          "release_date": "2024-10-14",
+          "title": "Анора",
+          "video": false,
+          "vote_average": 7.059,
+          "vote_count": 2981
+        }
+      ]
     }
   ]
 }
