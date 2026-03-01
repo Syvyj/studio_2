@@ -40,167 +40,6 @@
 
 
 
-    var SERVICE_CONFIGS = {
-        'netflix': {
-            title: 'Netflix',
-            icon: '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.5 2L16.5 22" stroke="#E50914" stroke-width="4"/><path d="M7.5 2L7.5 22" stroke="#E50914" stroke-width="4"/><path d="M7.5 2L16.5 22" stroke="#E50914" stroke-width="4"/></svg>',
-            categories: [
-                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "213", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
-                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "8", "watch_region": "UA", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "popularity.desc" } },
-                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_watch_providers": "8", "watch_region": "UA", "sort_by": "popularity.desc" } },
-                { "title": "🅰️ Тільки на Netflix (Originals)", "url": "discover/tv", "params": { "with_networks": "213", "sort_by": "vote_average.desc", "vote_count.gte": "500", "vote_average.gte": "7.5" } },
-                { "title": "🤯 Заплутані трилери", "url": "discover/movie", "params": { "with_watch_providers": "8", "watch_region": "UA", "with_genres": "53,9648", "sort_by": "popularity.desc" } },
-                { "title": "🐉 Фантастика та Фентезі", "url": "discover/tv", "params": { "with_networks": "213", "with_genres": "10765", "sort_by": "popularity.desc" } },
-                { "title": "🇰🇷 K-Dramas (Корея)", "url": "discover/tv", "params": { "with_networks": "213", "with_original_language": "ko", "sort_by": "popularity.desc" } },
-                { "title": "🔪 Документальний True Crime", "url": "discover/tv", "params": { "with_networks": "213", "with_genres": "99", "with_keywords": "9840|10714", "sort_by": "popularity.desc" } },
-                { "title": "🍿 Аніме", "url": "discover/tv", "params": { "with_networks": "213", "with_genres": "16", "with_keywords": "210024", "sort_by": "popularity.desc" } }
-            ]
-        },
-        'apple': {
-            title: 'Apple TV+',
-            icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>',
-            categories: [
-                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "2552|3235", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
-                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "2552|3235", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "350", "watch_region": "UA", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "2552|3235", "sort_by": "popularity.desc" } },
-                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_watch_providers": "350", "watch_region": "UA", "sort_by": "popularity.desc" } },
-                { "title": "🛸 Епічний Sci-Fi (Фішка Apple)", "url": "discover/tv", "params": { "with_networks": "2552|3235", "with_genres": "10765", "sort_by": "popularity.desc" } },
-                { "title": "😂 Комедії та Feel-Good", "url": "discover/tv", "params": { "with_networks": "2552|3235", "with_genres": "35", "sort_by": "popularity.desc" } },
-                { "title": "🕵️ Якісні детективи", "url": "discover/tv", "params": { "with_networks": "2552|3235", "with_genres": "9648,80", "sort_by": "popularity.desc" } },
-                { "title": "🎬 Apple Original Films", "url": "discover/movie", "params": { "with_watch_providers": "350", "watch_region": "UA", "sort_by": "vote_average.desc", "vote_count.gte": "100" } }
-            ]
-        },
-        'hbo': {
-            title: 'HBO / Max',
-            icon: '<svg width="24px" height="24px" viewBox="0 0 24 24" fill="currentColor"><path d="M7.042 16.896H4.414v-3.754H2.708v3.754H.01L0 7.22h2.708v3.6h1.706v-3.6h2.628zm12.043.046C21.795 16.94 24 14.689 24 11.978a4.89 4.89 0 0 0-4.915-4.92c-2.707-.002-4.09 1.991-4.432 2.795.003-1.207-1.187-2.632-2.58-2.634H7.59v9.674l4.181.001c1.686 0 2.886-1.46 2.888-2.713.385.788 1.72 2.762 4.427 2.76zm-7.665-3.936c.387 0 .692.382.692.817 0 .435-.305.817-.692.817h-1.33v-1.634zm.005-3.633c.387 0 .692.382.692.817 0 .436-.305.818-.692.818h-1.33V9.373zm1.77 2.607c.305-.039.813-.387.992-.61-.063.276-.068 1.074.006 1.35-.204-.314-.688-.701-.998-.74zm3.43 0a2.462 2.462 0 1 1 4.924 0 2.462 2.462 0 0 1-4.925 0zm2.462 1.936a1.936 1.936 0 1 0 0-3.872 1.936 1.936 0 0 0 0 3.872z"/></svg>',
-            categories: [
-                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "49", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
-                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "49|3186", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_companies": "174|49", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "10" } },
-                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "49|3186", "sort_by": "popularity.desc" } },
-                { "title": "🏆 Топ Фільми (WB)", "url": "discover/movie", "params": { "with_companies": "174", "sort_by": "popularity.desc", "vote_count.gte": "50" } },
-                { "title": "🐉 Епічні саги (Фентезі)", "url": "discover/tv", "params": { "with_networks": "49|3186", "with_genres": "10765", "sort_by": "popularity.desc" } },
-                { "title": "🎭 Преміальні драми", "url": "discover/tv", "params": { "with_networks": "49", "with_genres": "18", "without_genres": "10765", "sort_by": "popularity.desc" } },
-                { "title": "🦇 Блокбастери DC", "url": "discover/movie", "params": { "with_companies": "174", "with_keywords": "9715", "sort_by": "revenue.desc" } },
-                { "title": "🧠 Похмурі детективи", "url": "discover/tv", "params": { "with_networks": "49", "with_genres": "80,9648", "sort_by": "vote_average.desc", "vote_count.gte": "300" } },
-                { "title": "👑 Золота класика HBO", "url": "discover/tv", "params": { "with_networks": "49", "sort_by": "vote_average.desc", "vote_count.gte": "1000" } }
-            ]
-        },
-        'amazon': {
-            title: 'Prime Video',
-            icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.787 15.292c-.336-.43-2.222-.204-3.069-.103-.257.031-.296-.193-.065-.356 1.504-1.056 3.968-.75 4.255-.397.288.357-.076 2.827-1.485 4.007-.217.18-.423.084-.327-.155.317-.792 1.027-2.566.69-2.996"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>',
-            categories: [
-                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "1024", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
-                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "1024", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "119", "watch_region": "US", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "1024", "sort_by": "popularity.desc" } },
-                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_watch_providers": "119", "watch_region": "US", "sort_by": "popularity.desc" } },
-                { "title": "🩸 Жорсткий екшн та Антигерої", "url": "discover/tv", "params": { "with_networks": "1024", "with_genres": "10759,10765", "sort_by": "popularity.desc" } },
-                { "title": "🎬 Фільми від Amazon MGM", "url": "discover/movie", "params": { "with_companies": "1024|21", "sort_by": "popularity.desc" } },
-                { "title": "😂 Комедії", "url": "discover/tv", "params": { "with_networks": "1024", "with_genres": "35", "sort_by": "popularity.desc" } },
-                { "title": "🕵️ Трилери", "url": "discover/tv", "params": { "with_networks": "1024", "with_genres": "9648,18", "sort_by": "vote_average.desc", "vote_count.gte": "300" } }
-            ]
-        },
-        'disney': {
-            title: 'Disney+',
-            icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19,3V7m2-2H17m-10.31,4L8.69,21m-5.69-7c0-3,5.54-4.55,9-2m-9,2s12.29-2,13.91,6.77c1.09,5.93-6.58,6.7-9.48,5.89S3,16.06,3,14.06"/></svg>',
-            categories: [
-                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "2739", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "337", "watch_region": "US", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "2739", "sort_by": "popularity.desc" } },
-                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_companies": "2", "sort_by": "popularity.desc" } },
-                { "title": "🦸\u200d♂️ Кіновсесвіт Marvel", "url": "discover/movie", "params": { "with_companies": "420", "sort_by": "release_date.desc", "vote_count.gte": "100" } },
-                { "title": "⚔️ Далека галактика (Star Wars)", "url": "discover/tv", "params": { "with_companies": "1", "with_keywords": "1930", "sort_by": "popularity.desc" } },
-                { "title": "🧸 Шедеври Pixar", "url": "discover/movie", "params": { "with_companies": "3", "sort_by": "popularity.desc" } },
-                { "title": "🍷 Дорослий контент (FX / Star)", "url": "discover/tv", "params": { "with_networks": "88|453", "sort_by": "popularity.desc" } }
-            ]
-        },
-        'paramount': {
-            title: 'Paramount+',
-            icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 22H22L12 2ZM12 6.5L18.5 19.5H5.5L12 6.5Z"/></svg>',
-            categories: [
-                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "4330|318", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
-                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "4330", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_companies": "4", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "10" } },
-                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "4330", "sort_by": "popularity.desc" } },
-                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_companies": "4", "sort_by": "popularity.desc" } },
-                { "title": "🤠 Всесвіт Шеридана (Yellowstone)", "url": "discover/tv", "params": { "with_networks": "318|4330", "with_keywords": "256112", "sort_by": "popularity.desc" } },
-                { "title": "🖖 Колекція Star Trek", "url": "discover/tv", "params": { "with_networks": "4330", "with_keywords": "159223", "sort_by": "first_air_date.desc" } },
-                { "title": "🚓 Кримінал та Розслідування", "url": "discover/tv", "params": { "with_networks": "16", "with_genres": "80,18", "sort_by": "popularity.desc" } },
-                { "title": "🧽 Дитячий світ (Nickelodeon)", "url": "discover/tv", "params": { "with_networks": "13", "sort_by": "popularity.desc" } }
-            ]
-        },
-        'sky_showtime': {
-            title: 'Sky Showtime',
-            icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 22h20L12 2zm0 3.5l6.5 13H5.5L12 5.5z"/></svg>',
-            categories: [
-                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_companies": "67|115331", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
-                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_companies": "67|115331", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_companies": "4|33|521", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "5" } },
-                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_companies": "67|115331", "sort_by": "popularity.desc" } },
-                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_companies": "4|33", "sort_by": "popularity.desc" } },
-                { "title": "🎬 Блокбастери (Paramount)", "url": "discover/movie", "params": { "with_companies": "4", "sort_by": "revenue.desc" } },
-                { "title": "🌍 Світ Universal", "url": "discover/movie", "params": { "with_companies": "33", "sort_by": "popularity.desc" } },
-                { "title": "🕵️ Дорослий розбір (Showtime)", "url": "discover/tv", "params": { "with_companies": "67", "sort_by": "popularity.desc" } },
-                { "title": "🦄 Казкові світи (DreamWorks)", "url": "discover/movie", "params": { "with_companies": "521", "sort_by": "popularity.desc" } }
-            ]
-        },
-        'hulu': {
-            title: 'Hulu',
-            icon: '<svg viewBox="0 0 24 24" fill="#3DBB3D"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/></svg>',
-            categories: [
-                { "title": "📺 Реаліті-шоу та програми", "url": "discover/tv", "params": { "with_networks": "453", "with_genres": "10764,10767", "sort_by": "popularity.desc" } },
-                { "title": "🔥 Нові серіали", "url": "discover/tv", "params": { "with_networks": "453", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🔥 Нові фільми", "url": "discover/movie", "params": { "with_watch_providers": "15", "watch_region": "US", "sort_by": "primary_release_date.desc", "primary_release_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🏆 Топ Серіали", "url": "discover/tv", "params": { "with_networks": "453", "sort_by": "popularity.desc" } },
-                { "title": "🏆 Топ Фільми", "url": "discover/movie", "params": { "with_watch_providers": "15", "watch_region": "US", "sort_by": "popularity.desc" } },
-                { "title": "🔪 True Crime та Детективи", "url": "discover/tv", "params": { "with_networks": "453", "with_genres": "18,9648", "sort_by": "popularity.desc" } },
-                { "title": "😂 Хітові комедії", "url": "discover/tv", "params": { "with_networks": "453", "with_genres": "35", "sort_by": "popularity.desc" } },
-                { "title": "🤬 Анімація для дорослих", "url": "discover/tv", "params": { "with_networks": "453", "with_genres": "16", "sort_by": "popularity.desc" } }
-            ]
-        },
-        'syfy': {
-            title: 'Syfy',
-            icon: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L4.5 20.29L5.21 21L12 18L18.79 21L19.5 20.29L12 2Z"/></svg>',
-            categories: [
-                { "title": "🔥 Новинки", "url": "discover/tv", "params": { "with_networks": "77", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "1" } },
-                { "title": "🏆 Топ на Syfy", "url": "discover/tv", "params": { "with_networks": "77", "sort_by": "popularity.desc" } },
-                { "title": "🚀 Космічні подорожі", "url": "discover/tv", "params": { "with_networks": "77", "with_genres": "10765", "with_keywords": "3801", "sort_by": "vote_average.desc", "vote_count.gte": "50" } },
-                { "title": "🧟 Монстри та паранормальне", "url": "discover/tv", "params": { "with_networks": "77", "with_genres": "9648,10765", "without_keywords": "3801", "sort_by": "popularity.desc" } }
-            ]
-        },
-        'educational_and_reality': {
-            title: 'Пізнавальне',
-            icon: '<svg viewBox="0 0 24 24" fill="#FF9800"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg>',
-            categories: [
-                { "title": "🔥 Нові випуски", "url": "discover/tv", "params": { "with_networks": "64|91|43|2696|4|65", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "2" } },
-                { "title": "🌍 Discovery Channel", "url": "discover/tv", "params": { "with_networks": "64", "sort_by": "popularity.desc" } },
-                { "title": "🦁 National Geographic", "url": "discover/tv", "params": { "with_networks": "43", "sort_by": "popularity.desc" } },
-                { "title": "🐾 Animal Planet", "url": "discover/tv", "params": { "with_networks": "91", "sort_by": "popularity.desc" } },
-                { "title": "🌿 BBC Earth", "url": "discover/tv", "params": { "with_networks": "4", "with_genres": "99", "sort_by": "vote_average.desc", "vote_count.gte": "20" } },
-                { "title": "🔪 Кулінарні битви", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "222083", "sort_by": "popularity.desc" } },
-                { "title": "🪓 Виживання", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "5481|10348", "sort_by": "popularity.desc" } }
-            ]
-        },
-        'reality': {
-            title: 'Реаліті-шоу',
-            icon: '<svg viewBox="0 0 24 24" fill="#E91E63"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/><path d="M9.5 16.5l6-4.5-6-4.5v9z" fill="#fff"/></svg>',
-            categories: [
-                { "title": "🔥 Свіжі випуски", "url": "discover/tv", "params": { "with_genres": "10764", "sort_by": "first_air_date.desc", "first_air_date.lte": "{current_date}", "vote_count.gte": "1" } },
-                { "title": "🏆 Топ реаліті", "url": "discover/tv", "params": { "with_genres": "10764", "sort_by": "popularity.desc" } },
-                { "title": "🍳 Кулінарні шоу (МайстерШеф тощо)", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "222083|271221", "sort_by": "popularity.desc" } },
-                { "title": "🎤 Таланти та Музика (Голос, Х-Фактор)", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "6041|173252", "sort_by": "popularity.desc" } },
-                { "title": "💔 Побачення та Романтика (Холостяк)", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "173264|187900", "sort_by": "popularity.desc" } },
-                { "title": "🧠 Інтелектуальні та Вікторини", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "173248|264210", "sort_by": "popularity.desc" } },
-                { "title": "🪓 Виживання та Екстрим (Останній герой)", "url": "discover/tv", "params": { "with_genres": "10764", "with_keywords": "5481|10348", "sort_by": "popularity.desc" } }
-            ]
-        }
-    };
-
-
     function getTmdbKey() {
         var custom = (Lampa.Storage.get('likhtar_tmdb_apikey') || '').trim();
         return custom || (Lampa.TMDB && Lampa.TMDB.key ? Lampa.TMDB.key() : '');
@@ -299,104 +138,27 @@
 
     function StudiosMain(object) {
         var comp = new Lampa.InteractionMain(object);
-        var config = SERVICE_CONFIGS[object.service_id];
-        if (!config) { comp.empty && comp.empty(); return comp; }
 
         comp.create = function () {
-            var _this = this;
             this.activity.loader(true);
-            var categories = config.categories;
-            var network = new Lampa.Reguest();
-            var total = categories.length; // No hero section
-            var status = new Lampa.Status(total);
 
-            status.onComplite = function () {
-                var fulldata = [];
-                // Hero section removed - only show categories
-                if (status.data) {
-                    Object.keys(status.data).sort(function (a, b) { return parseInt(a, 10) - parseInt(b, 10); }).forEach(function (key) {
-                        var num = parseInt(key, 10);
-                        var data = status.data[key];
-                        var cat = categories[num];
-                        if (cat && data && data.results && data.results.length) {
-                            Lampa.Utils.extendItemsParams(data.results, { style: { name: 'wide' } });
-                            fulldata.push({
-                                title: cat.title,
-                                results: data.results,
-                                url: cat.url,
-                                params: cat.params,
-                                service_id: object.service_id
-                            });
-                        }
-                    });
-                }
-
-                if (fulldata.length) {
-                    _this.build(fulldata);
-                    _this.activity.loader(false);
-                } else {
-                    _this.empty();
-                }
-            };
-
-            var refCat = categories.find(function (c) { return c.params && (c.params.with_watch_providers || c.params.with_networks || c.params.with_companies); });
-            var filterSuffix = '';
-            if (refCat && refCat.params) {
-                if (refCat.params.with_watch_providers) {
-                    filterSuffix = '&with_watch_providers=' + refCat.params.with_watch_providers + '&watch_region=' + (refCat.params.watch_region || 'UA');
-                } else if (refCat.params.with_networks) {
-                    filterSuffix = '&with_networks=' + refCat.params.with_networks;
-                } else if (refCat.params.with_companies) {
-                    filterSuffix = '&with_companies=' + refCat.params.with_companies;
-                }
+            // Магія! Ми просто беремо готові категорії, які передала кнопка "На сторінку"
+            if (object.categories && object.categories.length) {
+                // Додаємо стиль "wide" (широкі картки) для краси
+                object.categories.forEach(function (cat) {
+                    if (cat.results) Lampa.Utils.extendItemsParams(cat.results, { style: { name: 'wide' } });
+                });
+                this.build(object.categories);
+            } else {
+                this.empty();
             }
 
-            // Hero section removed - just load categories
-            categories.forEach(function (cat, index) {
-                var params = [];
-                params.push('api_key=' + getTmdbKey());
-                params.push('language=' + Lampa.Storage.get('language', 'uk'));
-                if (cat.params) {
-                    for (var key in cat.params) {
-                        var val = cat.params[key];
-                        if (val === '{current_date}') {
-                            var d = new Date();
-                            val = [d.getFullYear(), ('0' + (d.getMonth() + 1)).slice(-2), ('0' + d.getDate()).slice(-2)].join('-');
-                        }
-                        params.push(key + '=' + val);
-                    }
-                }
-                var url = Lampa.TMDB.api(cat.url + '?' + params.join('&'));
-
-                console.log('[StudiosMain] Category', index + 1, ':', cat.title, 'URL:', url);
-
-                network.silent(url, function (json) {
-                    console.log('[StudiosMain] Category', index + 1, 'data received:', json);
-                    // FIX: Normalize image paths
-                    if (json && json.results && Array.isArray(json.results)) {
-                        json.results.forEach(function (item) {
-                            if (!item.poster_path && item.backdrop_path) {
-                                item.poster_path = item.backdrop_path;
-                            }
-                        });
-                    }
-                    status.append(index.toString(), json);
-                }, function () { status.error(); });
-            });
-
+            this.activity.loader(false);
             return this.render();
         };
 
-        comp.onMore = function (data) {
-            Lampa.Activity.push({
-                url: data.url,
-                params: data.params,
-                title: data.title,
-                component: 'studios_view',
-                page: 1
-            });
-        };
-
+        // Залишаємо OnMore пустим, бо ми завантажили топ-20 одразу і більше Лампі думати не треба
+        comp.onMore = function (data) { };
         return comp;
     }
 
@@ -1100,31 +862,6 @@
         });
     }
 
-    // ========== ROW: НОВИНКИ УКРАЇНСЬКОЇ СТРІЧКИ ==========
-    function addUkrainianContentRow() {
-        Lampa.ContentRows.add({
-            index: 3,
-            name: 'ukrainian_content_row',
-            title: 'Новинки української стрічки',
-            screen: ['main'],
-            call: function (params) {
-                return function (callback) {
-                    var network = new Lampa.Reguest();
-                    var url = 'https://raw.githubusercontent.com/Syvyj/studio_2/main/ua_feed.json?t=' + Date.now();
-
-                    network.silent(url, function (json) {
-                        callback({
-                            results: (json.results || []).slice(0, 20),
-                            title: '🇺🇦 Новинки української стрічки',
-                            params: { items: { mapping: 'line', view: 15 } }
-                        });
-                    }, function () { callback({ results: [] }); });
-                };
-            }
-        });
-    }
-
-
     // ========== ROW 3: MOOD BUTTONS (Кіно під настрій) ==========
     // Жанри TMDB: Драма 18, Комедія 35, Мультфільм 16, Сімейний 10751, Документальний 99, Бойовик 28, Мелодрама 10749, Трилер 53, Кримінал 80, Пригоди 12, Жахи 27, Фентезі 14
     function addMoodRow() {
@@ -1216,6 +953,8 @@
             }
         });
     }
+    // Жанри TMDB: Драма 18, Комедія 35, Мультфільм 16, Сімейний 10751, Документальний 99, Бойовик 28, Мелодрама 10749, Трилер 53, Кримінал 80, Пригоди 12, Жахи 27, Фентезі 14
+
 
     function addStyles() {
         $('#custom_main_page_css').remove();
@@ -1397,531 +1136,116 @@
         `);
     }
 
-    // =================================================================
-    // LIKHTAR QUALITY MARKS (Jacred)
-    // =================================================================
 
-    function initMarksJacRed() {
-        var svgIcons = {
-            '4K': '<span style="font-weight:800;font-size:0.85em;color:#ff9800;">4K</span>',
-            'UKR': '<span style="font-weight:800;font-size:0.85em;color:#4fc3f7;">UA</span>',
-            'HDR': '<span style="font-weight:800;font-size:0.85em;color:#ffeb3b;">HDR</span>'
-        };
+    // ТУТ ЗБЕРІГАЮТЬСЯ КАТЕГОРІЇ, ЩОБ КНОПКА "НА СТОРІНКУ" МОГЛА ЇХ ВЗЯТИ
+    window.LikhtarFeedsCache = window.LikhtarFeedsCache || {};
 
-        var workingProxy = null;
-        var proxies = [
-            'https://myfinder.kozak-bohdan.workers.dev/?key=lmp_2026_JacRed_K9xP7aQ4mV2E&url=',
-            'https://api.allorigins.win/raw?url=',
-            'https://corsproxy.io/?url='
-        ];
+    // ========== ROW 4: Українська стрічка ==========
+    function addUkrainianContentRow() {
+        var network = new Lampa.Reguest();
+        var url = 'https://raw.githubusercontent.com/Syvyj/studio_2/main/ua_feed.json?t=' + Date.now();
 
-        function fetchWithProxy(url, callback) {
-            // Спочатку пробуємо Lampa.Reguest (вбудований проксі Лампи)
-            try {
-                var network = new Lampa.Reguest();
-                network.timeout(10000);
-                network.silent(url, function (json) {
-                    console.log('[JacRed] Direct success via Lampa.Reguest');
-                    var text = typeof json === 'string' ? json : JSON.stringify(json);
-                    workingProxy = 'direct';
-                    callback(null, text);
-                }, function () {
-                    console.log('[JacRed] Direct Lampa.Reguest failed, trying proxies...');
-                    tryProxies(url, callback);
+        network.silent(url, function (json) {
+            console.log('[Likhtar] UA Feed Loaded:', json);
+            if (json && json.categories) {
+                window.LikhtarFeedsCache['ukrainian_feed'] = json.categories;
+                console.log('[Likhtar] Cached ukrainian_feed categories:', json.categories.length);
+            }
+            if (json && json.main_row && json.main_row.length > 0) {
+                Lampa.ContentRows.add({
+                    index: 3, // Immediately after Mood (2)
+                    name: 'custom_ua_feed_row',
+                    title: '🇺🇦 Українська стрічка',
+                    screen: ['main'],
+                    call: function (params) {
+                        return function (callback) {
+                            callback({
+                                results: json.main_row,
+                                title: json.title || '🇺🇦 Український контент',
+                                params: {
+                                    items: {
+                                        mapping: 'line',
+                                        view: 15
+                                    }
+                                }
+                            });
+                        };
+                    }
                 });
-            } catch (e) {
-                tryProxies(url, callback);
             }
-        }
-
-        function tryProxies(url, callback) {
-            var proxyList = (workingProxy && workingProxy !== 'direct') ? [workingProxy] : proxies;
-
-            function tryProxy(index) {
-                if (index >= proxyList.length) {
-                    console.error('[JacRed] All proxies failed for:', url);
-                    callback(new Error('No proxy worked'));
-                    return;
-                }
-                var p = proxyList[index];
-                var target = p.indexOf('url=') > -1 ? p + encodeURIComponent(url) : p + url;
-                console.log('[JacRed] Fetching via proxy:', target);
-
-                var xhr = new XMLHttpRequest();
-                xhr.open('GET', target, true);
-                xhr.onload = function () {
-                    if (xhr.status >= 200 && xhr.status < 300) {
-                        console.log('[JacRed] Proxy success:', p);
-                        workingProxy = p;
-                        callback(null, xhr.responseText);
-                    } else {
-                        console.warn('[JacRed] Proxy failed:', xhr.status, p);
-                        tryProxy(index + 1);
-                    }
-                };
-                xhr.onerror = function () {
-                    console.warn('[JacRed] Proxy error:', p);
-                    tryProxy(index + 1);
-                };
-                xhr.timeout = 10000;
-                xhr.ontimeout = function () {
-                    console.warn('[JacRed] Proxy timeout:', p);
-                    tryProxy(index + 1);
-                };
-                xhr.send();
-            }
-            tryProxy(0);
-        }
-
-        var _jacredCache = {};
-
-        function getBestJacred(card, callback) {
-            var cacheKey = 'jacred_v3_' + card.id;
-
-            // In-memory cache (миттєвий)
-            if (_jacredCache[cacheKey]) {
-                console.log('[JacRed] mem-cache HIT:', cacheKey);
-                callback(_jacredCache[cacheKey]);
-                return;
-            }
-
-            // localStorage cache (переживає перезавантаження)
-            try {
-                var raw = Lampa.Storage.get(cacheKey, '');
-                if (raw && typeof raw === 'object' && raw._ts && (Date.now() - raw._ts < 48 * 60 * 60 * 1000)) {
-                    console.log('[JacRed] storage-cache HIT:', cacheKey, raw);
-                    _jacredCache[cacheKey] = raw;
-                    callback(raw);
-                    return;
-                }
-            } catch (e) { }
-
-            console.log('[JacRed] cache MISS for', cacheKey);
-
-            var title = (card.original_title || card.title || card.name || '').toLowerCase();
-            var year = (card.release_date || card.first_air_date || '').substr(0, 4);
-            console.log('[JacRed] title:', title, 'year:', year, 'release_date:', card.release_date, 'first_air_date:', card.first_air_date);
-
-            if (!title || !year) {
-                console.warn('[JacRed] SKIP: no title or year');
-                callback(null);
-                return;
-            }
-
-            var releaseDate = new Date(card.release_date || card.first_air_date);
-            console.log('[JacRed] releaseDate:', releaseDate, 'now:', new Date(), 'future?', releaseDate.getTime() > Date.now());
-            if (releaseDate && releaseDate.getTime() > Date.now()) {
-                console.warn('[JacRed] SKIP: future release');
-                callback(null);
-                return;
-            }
-
-            var apiUrl = 'https://jr.maxvol.pro/api/v1.0/torrents?search=' + encodeURIComponent(title) + '&year=' + year;
-            console.log('[JacRed] API URL:', apiUrl);
-
-            fetchWithProxy(apiUrl, function (err, data) {
-                if (err || !data) {
-                    callback(null);
-                    return;
-                }
-
-                try {
-                    var parsed;
-                    try {
-                        parsed = JSON.parse(data);
-                    } catch (e) {
-                        console.error('[JacRed] JSON Parse Error:', e);
-                        console.log('[JacRed] Raw Data:', data);
-                        callback(null);
-                        return;
-                    }
-
-                    // Handle AllOrigins wrapper if present
-                    if (parsed.contents) {
-                        try {
-                            parsed = JSON.parse(parsed.contents);
-                        } catch (e) {
-                            console.log('[JacRed] Failed to parse inner contents, using raw');
-                        }
-                    }
-
-                    var results = Array.isArray(parsed) ? parsed : (parsed.Results || []);
-                    console.log('[JacRed] Parsed results:', results.length);
-
-                    if (!results.length) {
-                        var emptyData = { empty: true, _ts: Date.now() };
-                        _jacredCache[cacheKey] = emptyData;
-                        try { Lampa.Storage.set(cacheKey, emptyData); } catch (e) { }
-                        callback(null);
-                        return;
-                    }
-
-                    var best = { resolution: 'SD', ukr: false, eng: false, hdr: false };
-                    var resOrder = ['SD', 'HD', 'FHD', '2K', '4K'];
-
-                    results.forEach(function (item) {
-                        var t = (item.title || '').toLowerCase();
-
-                        var currentRes = 'SD';
-                        if (t.indexOf('4k') >= 0 || t.indexOf('2160') >= 0 || t.indexOf('uhd') >= 0) currentRes = '4K';
-                        else if (t.indexOf('2k') >= 0 || t.indexOf('1440') >= 0) currentRes = '2K';
-                        else if (t.indexOf('1080') >= 0 || t.indexOf('fhd') >= 0 || t.indexOf('full hd') >= 0) currentRes = 'FHD';
-                        else if (t.indexOf('720') >= 0 || t.indexOf('hd') >= 0) currentRes = 'HD';
-
-                        if (resOrder.indexOf(currentRes) > resOrder.indexOf(best.resolution)) {
-                            best.resolution = currentRes;
-                        }
-
-                        if (t.indexOf('ukr') >= 0 || t.indexOf('укр') >= 0 || t.indexOf('ua') >= 0 || t.indexOf('ukrainian') >= 0) {
-                            best.ukr = true;
-                        }
-
-                        if (t.indexOf('eng') >= 0 || t.indexOf('english') >= 0 || t.indexOf('multi') >= 0) {
-                            best.eng = true;
-                        }
-
-                        if (t.indexOf('dolby vision') >= 0 || t.indexOf('dolbyvision') >= 0) {
-                            best.hdr = true;
-                            best.dolbyVision = true;
-                        } else if (t.indexOf('hdr') >= 0) {
-                            best.hdr = true;
-                        }
-                    });
-
-                    if (card.original_language === 'uk') best.ukr = true;
-                    if (card.original_language === 'en') best.eng = true;
-
-                    best._ts = Date.now();
-                    _jacredCache[cacheKey] = best;
-                    try { Lampa.Storage.set(cacheKey, best); } catch (e) { }
-                    console.log('[JacRed] RESULT for', card.id, ':', JSON.stringify(best));
-                    callback(best);
-
-                } catch (e) {
-                    callback(null);
-                }
-            });
-        }
-
-        function createBadge(cssClass, label) {
-            var badge = document.createElement('div');
-            badge.classList.add('card__mark');
-            badge.classList.add('card__mark--' + cssClass);
-            badge.textContent = label;
-            return badge;
-        }
-
-        // Вставити мітки в повну картку (спільна логіка для події та вже відкритої сторінки)
-        function injectFullCardMarks(movie, renderEl) {
-            if (!movie || !movie.id || !renderEl) return;
-            var $render = $(renderEl);
-            var rateLine = $render.find('.full-start-new__rate-line').first();
-            if (!rateLine.length) return;
-            if (rateLine.find('.jacred-info-marks-v2').length) return;
-            var marksContainer = $('<div class="jacred-info-marks-v2"></div>');
-            rateLine.prepend(marksContainer);
-            console.log('[JacRed] full card: injecting marks for', movie.id, movie.title || movie.name);
-            getBestJacred(movie, function (data) {
-                if (data && !data.empty) {
-                    renderInfoRowBadges(marksContainer, data);
-                }
-            });
-        }
-
-        // ——— Повна картка: подія 'full' + обробка вже відкритої (deep link ?card=...) ———
-        function initFullCardMarks() {
-            if (!Lampa.Listener || !Lampa.Listener.follow) return;
-            Lampa.Listener.follow('full', function (e) {
-                if (e.type !== 'complite') return;
-                var movie = e.data && e.data.movie;
-                var renderEl = e.object && e.object.activity && e.object.activity.render && e.object.activity.render();
-                injectFullCardMarks(movie, renderEl);
-            });
-            // Якщо відкрили по силці ?card=..., повна картка вже є до нашого init — обробити її одразу
-            setTimeout(function () {
-                try {
-                    var act = Lampa.Activity && Lampa.Activity.active && Lampa.Activity.active();
-                    if (!act || act.component !== 'full') return;
-                    var movie = act.card || act.movie;
-                    var renderEl = act.activity && act.activity.render && act.activity.render();
-                    injectFullCardMarks(movie, renderEl);
-                } catch (err) {
-                    console.warn('[JacRed] full card catch-up:', err);
-                }
-            }, 300);
-        }
-
-        // Картки на головній: MutationObserver тільки для .card (повну картку обробляємо через подію full)
-        function processCards() {
-            $('.card:not(.jacred-mark-processed-v2)').each(function () {
-                var card = $(this);
-                card.addClass('jacred-mark-processed-v2');
-
-                // Hero-банери зберігають movie в heroMovieData
-                var movie = card[0].heroMovieData || card.data('item') || (card[0] && (card[0].card_data || card[0].item)) || null;
-                if (movie && movie.id && !movie.size) {
-                    // Hero-банери не мають .card__view — додаємо прямо на елемент
-                    if (card.hasClass('hero-banner')) {
-                        addMarksToContainer(card, movie, null);
-                    } else {
-                        addMarksToContainer(card, movie, '.card__view');
-                    }
-                }
-            });
-        }
-
-        function observeCardRows() {
-            var observer = new MutationObserver(function () {
-                processCards();
-            });
-            observer.observe(document.body, { childList: true, subtree: true });
-            processCards();
-        }
-
-        function renderInfoRowBadges(container, data) {
-            container.empty();
-
-            // UA+ for Ukrainian audio (simple text, styled like native tags)
-            if (data.ukr) {
-                var uaTag = $('<div class="full-start__pg"></div>');
-                uaTag.text('UA+');
-                container.append(uaTag);
-            }
-
-            // Quality: 4K, 1080p, etc.
-            if (data.resolution && data.resolution !== 'SD') {
-                var resText = data.resolution;
-                if (resText === 'FHD') resText = '1080p';
-                else if (resText === 'HD') resText = '720p';
-
-                var qualityTag = $('<div class="full-start__pg"></div>');
-                qualityTag.text(resText);
-                container.append(qualityTag);
-            }
-
-            // HDR / Dolby Vision
-            if (data.hdr) {
-                var hdrTag = $('<div class="full-start__pg"></div>');
-                hdrTag.text(data.dolbyVision ? 'Dolby Vision' : 'HDR');
-                container.append(hdrTag);
-            }
-        }
-
-        // Перевірка на uafix.net — спочатку BanderaOnline API, fallback — прямий парсинг
-        var _uafixCache = {};
-
-        function checkUafixDirect(movie, callback) {
-            var query = movie.original_title || movie.original_name || movie.title || movie.name || '';
-            if (!query) return callback(false);
-            var searchUrl = 'https://uafix.net/index.php?do=search&subaction=search&story=' + encodeURIComponent(query);
-            fetchWithProxy(searchUrl, function (err, html) {
-                if (err || !html) return callback(false);
-                var hasResults = html.indexOf('знайдено') >= 0 && html.indexOf('0 відповідей') < 0;
-                callback(hasResults);
-            });
-        }
-
-        function checkUafix(movie, callback) {
-            if (!movie || !movie.id) return callback(false);
-            var key = 'uafix_' + movie.id;
-            if (_uafixCache[key] !== undefined) return callback(_uafixCache[key]);
-            checkUafixDirect(movie, function (found) {
-                _uafixCache[key] = found;
-                callback(found);
-            });
-        }
-
-        function addMarksToContainer(element, movie, viewSelector) {
-            var containerParent = viewSelector ? element.find(viewSelector) : element;
-            var marksContainer = containerParent.find('.card-marks');
-            if (!marksContainer.length) {
-                marksContainer = $('<div class="card-marks"></div>');
-                containerParent.append(marksContainer);
-            }
-
-            // ШВИДКІСТЬ x100: Якщо бот уже проставив мітки, малюємо їх МИТТЄВО!
-            if (movie.has_ua !== undefined || movie.quality !== undefined) {
-                var staticData = {
-                    ukr: movie.has_ua === true,
-                    pol: movie.has_pl === true,
-                    resolution: movie.quality || 'SD',
-                    hdr: movie.is_hdr === true,
-                    eng: false
-                };
-                renderBadges(marksContainer, staticData, movie);
-                return; // Виходимо, не навантажуючи телевізор зайвими запитами!
-            }
-
-            // Якщо це старий фільм або з іншої стрічки (без міток бота) — робимо запит по-старому
-            getBestJacred(movie, function (data) {
-                if (!data) data = { empty: true };
-                checkUafix(movie, function (hasUafix) {
-                    if (hasUafix && data) {
-                        data.ukr = true;
-                        data.empty = false;
-                    }
-                    if (data && !data.empty) renderBadges(marksContainer, data, movie);
-                });
-            });
-        }
-
-        function renderBadges(container, data, movie) {
-            container.empty();
-            if (data.ukr && Lampa.Storage.get('likhtar_badge_ua', true)) container.append(createBadge('ua', 'UA'));
-            if (data.pol && Lampa.Storage.get('likhtar_badge_pl', true)) container.append(createBadge('pl', 'PL'));
-            if (data.eng && Lampa.Storage.get('likhtar_badge_en', true)) container.append(createBadge('en', 'EN'));
-            if (data.resolution && data.resolution !== 'SD') {
-                if (data.resolution === '4K' && Lampa.Storage.get('likhtar_badge_4k', true)) container.append(createBadge('4k', '4K'));
-                else if (data.resolution === 'FHD' && Lampa.Storage.get('likhtar_badge_fhd', true)) container.append(createBadge('fhd', 'FHD'));
-                else if (data.resolution === 'HD' && Lampa.Storage.get('likhtar_badge_fhd', true)) container.append(createBadge('hd', 'HD'));
-                else if (Lampa.Storage.get('likhtar_badge_fhd', true)) container.append(createBadge('hd', data.resolution));
-            }
-            if (data.hdr && Lampa.Storage.get('likhtar_badge_hdr', true)) container.append(createBadge('hdr', 'HDR'));
-            // Рейтинг критиків
-            if (movie) {
-                var rating = parseFloat(movie.imdb_rating || movie.kp_rating || movie.vote_average || 0);
-                if (rating > 0) {
-                    var rBadge = document.createElement('div');
-                    rBadge.classList.add('card__mark', 'card__mark--rating');
-                    rBadge.innerHTML = '<span class="mark-star">★</span>' + rating.toFixed(1);
-                    container.append(rBadge);
-                }
-            }
-        }
-
-        var style = document.createElement('style');
-        style.innerHTML = `
-            /* ====== Вирівнюємо нативну TV мітку з нашими ====== */
-            .card .card__type {
-                left: -0.2em !important;
-            }
-
-            /* ====== Card marks — зліва, стовпчиком під TV ====== */
-            .card-marks {
-                position: absolute;
-                top: 2.7em;
-                left: -0.2em;
-                display: flex;
-                flex-direction: column;
-                gap: 0.15em;
-                z-index: 10;
-                pointer-events: none;
-            }
-            /* Якщо немає TV мітки — піднімаємо на її позицію */
-            .card:not(.card--tv):not(.card--movie) .card-marks,
-            .card--movie .card-marks {
-                top: 1.4em;
-            }
-            .card__mark {
-                padding: 0.35em 0.45em;
-                font-size: 0.8em;
-                font-weight: 800;
-                line-height: 1;
-                letter-spacing: 0.03em;
-                border-radius: 0.3em;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                align-self: flex-start;
-                opacity: 0;
-                animation: mark-fade-in 0.35s ease-out forwards;
-                border: 1px solid rgba(255,255,255,0.15);
-            }
-            .card__mark--ua  { background: linear-gradient(135deg, #1565c0, #42a5f5); color: #fff; border-color: rgba(66,165,245,0.4); }
-            .card__mark--4k  { background: linear-gradient(135deg, #e65100, #ff9800); color: #fff; border-color: rgba(255,152,0,0.4); }
-            .card__mark--fhd { background: linear-gradient(135deg, #4a148c, #ab47bc); color: #fff; border-color: rgba(171,71,188,0.4); }
-            .card__mark--hd  { background: linear-gradient(135deg, #1b5e20, #66bb6a); color: #fff; border-color: rgba(102,187,106,0.4); }
-            .card__mark--en  { background: linear-gradient(135deg, #37474f, #78909c); color: #fff; border-color: rgba(120,144,156,0.4); }
-            .card__mark--hdr { background: linear-gradient(135deg, #f57f17, #ffeb3b); color: #000; border-color: rgba(255,235,59,0.4); }
-            .card__mark--rating { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #ffd700; border-color: rgba(255,215,0,0.3); font-size: 0.75em; white-space: nowrap; }
-            .card__mark--rating .mark-star { margin-right: 0.15em; font-size: 0.9em; }
-
-            /* ====== Картка "На сторінку стрімінгу" — використовуємо нативний card-more ====== */
-            .service-more-card .card-more__box {
-                height: 0;
-                padding-bottom: 150%;
-                position: relative;
-            }
-            .service-more-card .card-more__title {
-                margin-top: 0;
-                top: 50%;
-                transform: translateY(-50%);
-                font-size: 1.4em;
-            }
-
-            /* ====== NEW badge на стрімінгах ====== */
-            .studio-new-badge {
-                position: absolute;
-                top: 0.4em;
-                right: 0.4em;
-                background: linear-gradient(135deg, #e53935, #ff5252);
-                color: #fff;
-                font-size: 0.65em;
-                font-weight: 800;
-                padding: 0.25em 0.5em;
-                border-radius: 0.3em;
-                letter-spacing: 0.05em;
-                z-index: 5;
-                animation: mark-fade-in 0.35s ease-out forwards;
-                box-shadow: 0 2px 6px rgba(229,57,53,0.4);
-            }
-            .card__mark--pl  { background: linear-gradient(135deg, #c41e3a, #ff4d4d); color: #fff; border-color: rgba(255,77,77,0.4); }
-
-            /* Ховаємо нативну оцінку, коли є наші мітки */
-            .card.jacred-mark-processed-v2 .card__vote { display: none !important; }
-
-            /* ====== Hero banner marks ====== */
-            .hero-banner .card-marks {
-                top: 1.5em !important;
-                left: 1.2em !important;
-                gap: 0.3em !important;
-            }
-            .hero-banner .card__mark {
-                font-size: 1em;
-                padding: 0.4em 0.6em;
-            }
-            
-            /* ====== Full card (info row) marks ====== */
-            .jacred-info-marks-v2 {
-                display: flex;
-                flex-direction: row;
-                gap: 0.5em;
-                margin-right: 1em;
-                align-items: center;
-            }
-
-            @keyframes mark-fade-in { to { opacity: 1; } }
-        `;
-        document.head.appendChild(style);
-
-        initFullCardMarks();
-        observeCardRows();
+        });
     }
 
+    // ========== ROW 6: Польська стрічка (в кінці) ==========
+    function addPolishContentRow() {
+        var network = new Lampa.Reguest();
+        var url = 'https://raw.githubusercontent.com/Syvyj/studio_2/main/pl_feed.json?t=' + Date.now();
+
+        network.silent(url, function (json) {
+            console.log('[Likhtar] PL Feed Loaded:', json);
+            if (json && json.categories) {
+                window.LikhtarFeedsCache['polish_feed'] = json.categories;
+                console.log('[Likhtar] Cached polish_feed categories:', json.categories.length);
+            }
+            if (json && json.main_row && json.main_row.length > 0) {
+                Lampa.ContentRows.add({
+                    index: 18, // Somewhere at the end of streamings
+                    name: 'custom_pl_feed_row',
+                    title: '🇵🇱 Польська стрічка',
+                    screen: ['main'],
+                    call: function (params) {
+                        return function (callback) {
+                            callback({
+                                results: json.main_row,
+                                title: json.title || '🇵🇱 Польський контент',
+                                params: {
+                                    items: {
+                                        mapping: 'line',
+                                        view: 15
+                                    }
+                                }
+                            });
+                        };
+                    }
+                });
+            }
+        });
+    }
 
     function addServiceRows() {
-        var services = ['netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality', 'reality'];
+        var services = ['ua', 'pl', 'reality', 'netflix', 'apple', 'hbo', 'amazon', 'disney', 'paramount', 'sky_showtime', 'hulu', 'syfy', 'educational_and_reality'];
 
         services.forEach(function (id, index) {
-            var config = SERVICE_CONFIGS[id];
-            if (!config) return;
+            // Для UA/PL/Reality ставимо індекс вище
+            var rowIndex = index + 4;
+            if (id === 'ua') rowIndex = 3;
+            if (id === 'reality') rowIndex = 1; // або куди захочеш
+            if (id === 'pl') rowIndex = 14;
 
             Lampa.ContentRows.add({
-                index: 4 + index,
+                index: rowIndex,
                 name: 'service_row_' + id,
-                title: 'Сьогодні на ' + config.title,
+                title: 'Завантаження...', // Тимчасова назва, поки летить JSON
                 screen: ['main'],
                 call: function (params) {
                     return function (callback) {
                         var network = new Lampa.Reguest();
-                        // Беремо готовий файл з бекенду по його ID (netflix_feed.json, hbo_feed.json тощо)
-                        var url = 'https://raw.githubusercontent.com/Syvyj/studio_2/main/' + id + '_feed.json?t=' + Date.now();
+                        // ТВІЙ ЛОКАЛЬНИЙ СЕРВЕР!
+                        var url = 'http://192.168.1.147:3000/studio_2_repo/' + id + '_feed.json?t=' + Date.now();
 
                         network.silent(url, function (json) {
-                            callback({
-                                results: (json.results || []).slice(0, 20),
-                                title: 'Сьогодні на ' + config.title
-                            });
+                            if (json && json.main_row) {
+                                // Кешуємо внутрішні категорії для кнопки
+                                window.LikhtarFeedsCache[id] = json.categories || [];
+
+                                callback({
+                                    results: json.main_row,
+                                    title: json.title,
+                                    params: (id === 'ua' || id === 'pl') ? { items: { mapping: 'line', view: 15 } } : {}
+                                });
+                            } else {
+                                callback({ results: [] });
+                            }
                         }, function () { callback({ results: [] }); });
                     }
                 }
@@ -1929,29 +1253,6 @@
         });
     }
 
-    // ========== ROW: НОВИНКИ ПОЛЬСЬКОЇ СТРІЧКИ (в кінці головної) ==========
-    function addPolishContentRow() {
-        Lampa.ContentRows.add({
-            index: 14,
-            name: 'polish_content_row',
-            title: 'Новинки польської стрічки',
-            screen: ['main'],
-            call: function (params) {
-                return function (callback) {
-                    var network = new Lampa.Reguest();
-                    var url = 'https://raw.githubusercontent.com/Syvyj/studio_2/main/pl_feed.json?t=' + Date.now();
-
-                    network.silent(url, function (json) {
-                        callback({
-                            results: (json.results || []).slice(0, 20),
-                            title: '🇵🇱 Новинки польської стрічки',
-                            params: { items: { mapping: 'line', view: 15 } }
-                        });
-                    }, function () { callback({ results: [] }); });
-                };
-            }
-        });
-    }
 
     function modifyServiceTitles() {
         setInterval(function () {
@@ -1979,13 +1280,17 @@
                             // Додаємо order: 9999; щоб кнопка завжди була в самому кінці
                             var moreCard = $('<div class="card selector likhtar-more-btn"><div><img src="' + LIKHTAR_BASE_URL + 'img/' + id + '.svg" onerror="this.src=\'\'" alt="На сторінку"><br>На сторінку<br><span style="color: #90caf9; font-size: 0.85em; display: block; margin-top: 0.4em;">' + config.title + '</span></div></div>');
 
-                            moreCard.on('hover:enter', (function (serviceId) {
+                            moreCard.on('hover:enter', (function (serviceId, sTitle) {
                                 return function () {
                                     Lampa.Activity.push({
-                                        url: '', title: SERVICE_CONFIGS[serviceId].title, component: 'studios_main', service_id: serviceId, page: 1
+                                        url: '',
+                                        title: sTitle,
+                                        component: 'studios_main',
+                                        categories: window.LikhtarFeedsCache[serviceId] || [], // ПЕРЕДАЄМО КАТЕГОРІЇ З КЕШУ
+                                        page: 1
                                     });
                                 };
-                            })(id));
+                            })(id, titleText));
                             scrollBody.append(moreCard);
                         }
                     }
@@ -2100,48 +1405,7 @@
             field: { name: 'Кіноогляд', description: 'Увімкнути розділ Кіноогляд у меню. Налаштування каналів нижче.' }
         });
 
-        // === Секція: Мітки ===
-        Lampa.SettingsApi.addParam({
-            component: 'likhtar_plugin',
-            param: { type: 'title' },
-            field: { name: 'Мітки на картках' }
-        });
 
-        Lampa.SettingsApi.addParam({
-            component: 'likhtar_plugin',
-            param: { name: 'likhtar_badge_ua', type: 'trigger', default: true },
-            field: { name: 'Українська озвучка (UA)', description: 'Показувати мітку наявності українського дубляжу' }
-        });
-
-        Lampa.SettingsApi.addParam({
-            component: 'likhtar_plugin',
-            param: { name: 'likhtar_badge_en', type: 'trigger', default: true },
-            field: { name: 'Англійська озвучка (EN)', description: 'Показувати мітку наявності англійської доріжки' }
-        });
-
-        Lampa.SettingsApi.addParam({
-            component: 'likhtar_plugin',
-            param: { name: 'likhtar_badge_pl', type: 'trigger', default: true },
-            field: { name: 'Польська озвучка (PL)', description: 'Показувати мітку наявності польської доріжки' }
-        });
-
-        Lampa.SettingsApi.addParam({
-            component: 'likhtar_plugin',
-            param: { name: 'likhtar_badge_4k', type: 'trigger', default: true },
-            field: { name: 'Якість 4K', description: 'Показувати мітку наявності 4K роздільної здатності' }
-        });
-
-        Lampa.SettingsApi.addParam({
-            component: 'likhtar_plugin',
-            param: { name: 'likhtar_badge_fhd', type: 'trigger', default: true },
-            field: { name: 'Якість FHD', description: 'Показувати мітку наявності Full HD роздільної здатності' }
-        });
-
-        Lampa.SettingsApi.addParam({
-            component: 'likhtar_plugin',
-            param: { name: 'likhtar_badge_hdr', type: 'trigger', default: true },
-            field: { name: 'HDR / Dolby Vision', description: 'Показувати мітку наявності HDR або Dolby Vision' }
-        });
     }
 
     function initKinoogladModule() {
@@ -2884,7 +2148,6 @@
         overrideApi();
 
         addHeroRow();
-        removeShotsSection();
 
         if (Lampa.Storage.get('likhtar_section_streamings', true)) {
             addStudioRow();
@@ -2923,7 +2186,6 @@
 
     function runInit() {
         try {
-            initMarksJacRed();
             init();
             window.LIKHTAR_STUDIOS_LOADED = true;
         } catch (err) {
